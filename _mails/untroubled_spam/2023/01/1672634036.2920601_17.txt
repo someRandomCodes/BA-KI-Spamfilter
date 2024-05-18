@@ -1,0 +1,36 @@
+Return-Path: <lqkovwqwzu@gmail.com>
+Message-ID: <85c079d2338ed6ddfa80c9629640faf1d0fb4ccf@gmail.com>
+Reply-To: Sandy <lqkovwqwzu@gmail.com>
+From: Sandy <lqkovwqwzu@gmail.com>
+To: bruceg@untroubled.org
+Subject: hello
+Date: Sun, 1 Jan 2023 23:06:04 +0200
+Organization: gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="a01d54ea67d1fbf407ade44fa9fdd7de1af524"
+DKIM-Signature: a=rsa-sha256;
+	h=message-id:from:to:subject:date:mime-version; b=CBI00b0qMusR/DaP1Lsa5R6b4
+	2v1CVsR+LP6Yc+hRV8h7HSCSynW1Dtgr61eaIlOTl58PctuDHYVEBJgs5Jfxk3fMD7fBozwIAtW
+	ejq7G3yhwCnZqQveobNQ+iWqvH3Q0I/Jp47G7lqmSba7gQA4Yq4UDe7YDCzOv3IiaTnawtQ=;
+	c=relaxed/relaxed; t=1672607164;
+	bh=hn52YUMIqCzjFLGw+f8lYvQmCaU7fG9BPdwFTSM+Hqs=; d=gmail.com;
+	i=lqkovwqwzu@gmail.com; v=1; q=dns/txt; s=mail
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 484
+
+--a01d54ea67d1fbf407ade44fa9fdd7de1af524
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+JzwvPCANCg==
+
+--a01d54ea67d1fbf407ade44fa9fdd7de1af524
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+JzwvPDxhIGhyZWY9Imh0dHBzOi8vaW5wb3Jub3dvcmxkLmNvbS9qZXhyL2FIUjBjRG92TDNSeVlX
+WmxjaTU0ZVhvdloyVnliSE1nIiB0YXJnZXQ9X2JsYW5rPjxpbWcgc3JjPSJodHRwczovL2kuaW1n
+dXIuY29tL1UyQ1ZHOXIuanBlZyI+PC9hPg0K
+
+--a01d54ea67d1fbf407ade44fa9fdd7de1af524--

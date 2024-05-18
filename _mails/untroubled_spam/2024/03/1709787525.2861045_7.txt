@@ -1,0 +1,180 @@
+Return-Path: <tyler@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2826066 invoked from network); 6 Mar 2024 07:56:43 -0000
+Received: from mail-qv1-xf29.google.com (mail-qv1-xf29.google.com [IPv6:2607:f8b0:4864:20::f29])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 06 Mar 2024 07:56:43 -0000
+Received: by mail-qv1-xf29.google.com with SMTP id 6a1803df08f44-6901a6dca63so42002696d6.0
+        for <bruce@untroubled.org>; Tue, 05 Mar 2024 23:56:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1709711803; x=1710316603; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=bdfjg3FxGZ1/3jRrpyQZSwZngKBsiEyiql8N7ccVWRs=;
+        b=EtUFecf3n95nNnK0tLJjjjL9kug18A7Fuq3QyY7z/XrK8Hz5fknfRo6+x6Rgn/6/tL
+         +Suk2+//LMOWAOvkfR8b5IZNefxcqi1NUlwQFoNcjx4H/0eH8fSws1GPKhJt1/t7tuLS
+         X4tt72LY5ZPgiMOd9V1065ldJs5Sqa+xAGP0bwsS/YdCwd3g4R/3WLIa4yMUnD1L7ns6
+         jCjDtyWIVH+GTUHjsumBzSZm+s9Ltzp5ASj2eez3PZCs1BD8icexgbM90MLAAfvSOGCi
+         n/nYZnVLRlGvc3SUWsSe723GSnjTHW2SU9o+fv9Xt1n117jbdOW7jzpOt+XVnvxYazL/
+         pScg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1709711803; x=1710316603;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=bdfjg3FxGZ1/3jRrpyQZSwZngKBsiEyiql8N7ccVWRs=;
+        b=XD9BbN4pBdhEJiIo3M0MtNEczMEjW7S7no5oqCKNCeBGG/jhsExDxhyBAi9TK6bvkK
+         WD6YnNATDGE9nAGqWPugVEI+DyFDevMGpK8iU0I/OsygOyVOU0cRfOy8PBhjMyW0jTKR
+         +GtlhRqetuz6yKE0ET1KP96dzclFhCIap2SUbb+xtF7tdFJYMvhBnfO0509QxyJ4e6Kp
+         iKLviAENDp1i4irMOu2Sl7jwc16j+kkR2NLa3xBt3z7RS7k+gLtLkDotmt+PAR52hmeK
+         VJRbEyARE1uyboiuX+eTQU5WBIoSxpdrECWEBfo/TWxY2sODhm5n161mp9aLXU65ypg3
+         sR1A==
+X-Gm-Message-State: AOJu0Yz+KgM5AcprniEoUrXmyym/WASjuEM04ORQLCF3wAI2JosN6C9D
+	J3XrrnbVRctLRUEyQUQbFoh+apftOGTeCu2xNRW+C4iYeBMNBD/0K0k5AVumSPYHVnY4WOucIhE
+	U9hKJOyrTCIhyhvEMWR2Z5u2hIIjwCCIVIBvO50ZM2QgWkh4Zqsw=
+X-Google-Smtp-Source: AGHT+IH+AWYAHP3PSx+ZuHTacU+0fWETphQ2jojA6kAQdQXR7ZR9gXe0wfCn0Ml5NmY4zmQ2boC18U0kgQPSgliOu3w=
+X-Received: by 2002:ad4:4421:0:b0:690:513e:347 with SMTP id
+ e1-20020ad44421000000b00690513e0347mr4487182qvt.30.1709711803025; Tue, 05 Mar
+ 2024 23:56:43 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 5 Mar 2024 23:56:42 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 5 Mar 2024 23:56:42 -0800
+MIME-Version: 1.0
+Sender: Tyler Ironside <tyler@webtechresearch.com>
+From: Tyler Ironside <tyler@webtechresearch.com>
+Date: Tue, 5 Mar 2024 23:56:42 -0800
+X-Google-Sender-Auth: D6mcSYuTKBXlzlyaBv6F1CV0y8U
+Message-ID: <CAOJaTeJ67fMzyoxz6BGHcLJ6hu2vaVXk2J5vviaA4hFBhV4pcw@mail.gmail.com>
+Subject: Error fixing proposal for your untroubled.org.
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000b01ba60612f94ccc"
+Content-Length: 7428
+
+--000000000000b01ba60612f94ccc
+Content-Type: text/plain; charset="UTF-8"
+
+Hi ,
+
+I hope all is well with you.
+
+I discovered your website while looking through a local business directory.
+But did you know that your website ranks far behind the competition in
+Google? If you were at the top of Google for the
+
+Majority of your targeted keywords, you'd be getting a lot of *prospects/new
+clients every day. *
+
+You're almost there!
+
+Do you mind if I send you a list of impediments that prevent your website
+from ranking on Google's top pages?
+
+Is this something you're interested in?
+
+If so, please allow me a couple of hours to send you a *no-obligation audit
+report, quote, and different SEO packages.* For further discussion, let's
+set up a call. I have over ten years of experience in digital marketing,
+and our association will be a win-win for all.
+
+Can I send it to you?
+
+I look forward to hearing from you.
+
+
+*Kind Regards,*
+*Tyler Ironside*
+*Business Analyst.*------------------------------
+---------------------------------------------*Note: -* Our next
+conversation will be on my corporate Email ID.If you are interested, then
+reply to us *"Send your Proposal and Price list"*
+Click *here*
+<https://webtechresearch-dot-yamm-track.appspot.com/2r89KKQfe3hGBW8QxuNTwslvjIDSISBLOE8Agz9IiZWhcwMMSjgFW0tvEnHrfUhpsVfIi-ZIbCX53rggoI4gdE7dyFQ1xs8jWXn8vV44KuAN4hDqZj01UZsTPHMo0bxsZ2Ip328R6SmEqdV2r9aom0geGv5l1Ldp-HGVQeGysUtXbS9E-zc2uBmQ>
+to
+unsubscribe.
+
+
+[image: beacon]
+
+--000000000000b01ba60612f94ccc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"margin:0cm 0cm 10pt;background-image:initial;b=
+ackground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><font face=3D"verdana,=
+ sans-serif">Hi=C2=A0<b></b>,</font></p><p style=3D"margin:0cm 0cm 10pt;bac=
+kground-image:initial;background-position:initial;background-size:initial;b=
+ackground-repeat:initial;background-origin:initial;background-clip:initial"=
+><font face=3D"verdana, sans-serif">I hope all is well with you.</font></p>=
+<p style=3D"margin:0cm 0cm 10pt;background-image:initial;background-positio=
+n:initial;background-size:initial;background-repeat:initial;background-orig=
+in:initial;background-clip:initial"><font face=3D"verdana, sans-serif">I di=
+scovered your website while looking through a local business directory. But=
+ did you know that your website ranks far behind the competition in Google?=
+ If you were at the top of Google for the</font></p><p style=3D"margin:0cm =
+0cm 10pt;background-image:initial;background-position:initial;background-si=
+ze:initial;background-repeat:initial;background-origin:initial;background-c=
+lip:initial"><font face=3D"verdana, sans-serif">Majority of your targeted k=
+eywords, you&#39;d be getting a=C2=A0lot of=C2=A0<b><span style=3D"color:rg=
+b(0,176,240)">prospects/new clients=C2=A0every day.=C2=A0</span></b></font>=
+</p><p style=3D"margin:0cm 0cm 10pt;background-image:initial;background-pos=
+ition:initial;background-size:initial;background-repeat:initial;background-=
+origin:initial;background-clip:initial"><font face=3D"verdana, sans-serif">=
+You&#39;re almost there!=C2=A0</font></p><p style=3D"margin:0cm 0cm 10pt;ba=
+ckground-image:initial;background-position:initial;background-size:initial;=
+background-repeat:initial;background-origin:initial;background-clip:initial=
+"><font face=3D"verdana, sans-serif">Do you mind if I send you a list of im=
+pediments that prevent your website from ranking on Google&#39;s top pages?=
+</font></p><p style=3D"margin:0cm 0cm 10pt;background-image:initial;backgro=
+und-position:initial;background-size:initial;background-repeat:initial;back=
+ground-origin:initial;background-clip:initial"><font face=3D"verdana, sans-=
+serif">Is this something you&#39;re interested in?</font></p><p style=3D"ma=
+rgin:0cm 0cm 10pt;background-image:initial;background-position:initial;back=
+ground-size:initial;background-repeat:initial;background-origin:initial;bac=
+kground-clip:initial"><font face=3D"verdana, sans-serif">If so, please allo=
+w me a couple of hours to send you a=C2=A0<b><span style=3D"color:rgb(0,112=
+,192)">no-obligation audit report, quote, and different SEO packages.</span=
+></b>=C2=A0For further discussion,=C2=A0let&#39;s set up a call. I have ove=
+r ten years of experience in digital marketing, and our association will be=
+ a win-win for all.</font></p><p style=3D"margin:0cm 0cm 10pt;background-im=
+age:initial;background-position:initial;background-size:initial;background-=
+repeat:initial;background-origin:initial;background-clip:initial"><font fac=
+e=3D"verdana, sans-serif">Can I send it to you?=C2=A0=C2=A0</font></p><p st=
+yle=3D"margin:0cm 0cm 10pt;background-image:initial;background-position:ini=
+tial;background-size:initial;background-repeat:initial;background-origin:in=
+itial;background-clip:initial"><font face=3D"verdana, sans-serif">I look fo=
+rward to hearing from you.</font></p><p style=3D"margin:0cm 0cm 10pt;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-origin:initial;background-clip:initial"><b=
+><font face=3D"verdana, sans-serif">Kind Regards,<br></font></b><b style=3D=
+"color:rgb(31,31,31);white-space:nowrap"><font face=3D"verdana, sans-serif"=
+>Tyler Ironside<br></font></b><span style=3D"font-family:verdana,sans-serif=
+"><b>Business Analyst.<br></b></span><span style=3D"font-family:verdana,san=
+s-serif">------------------------------</span><span style=3D"font-family:ve=
+rdana,sans-serif">------------------------------</span><span style=3D"font-=
+family:verdana,sans-serif">---------------</span><b style=3D"font-family:ve=
+rdana,sans-serif">Note:=C2=A0-</b><span style=3D"font-family:verdana,sans-s=
+erif">=C2=A0Our next conversation will be on my corporate Email ID.</span><=
+span style=3D"color:black;font-family:verdana,sans-serif">If you are intere=
+sted, then reply to us=C2=A0</span><span style=3D"font-family:verdana,sans-=
+serif"><b style=3D"color:black">&quot;Send your Proposal and Price list&quo=
+t;</b><font color=3D"#000000"><b><br></b></font></span><span lang=3D"EN-US"=
+ style=3D"font-family:verdana,sans-serif">Click=C2=A0</span><span lang=3D"E=
+N-US" style=3D"font-family:verdana,sans-serif"><a href=3D"https://webtechre=
+search-dot-yamm-track.appspot.com/2r89KKQfe3hGBW8QxuNTwslvjIDSISBLOE8Agz9Ii=
+ZWhcwMMSjgFW0tvEnHrfUhpsVfIi-ZIbCX53rggoI4gdE7dyFQ1xs8jWXn8vV44KuAN4hDqZj01=
+UZsTPHMo0bxsZ2Ip328R6SmEqdV2r9aom0geGv5l1Ldp-HGVQeGysUtXbS9E-zc2uBmQ" rel=
+=3D"nofollow" target=3D"_blank"><b><span style=3D"color:red">here</span></b=
+></a></span><span lang=3D"EN-US" style=3D"font-family:verdana,sans-serif">=
+=C2=A0to unsubscribe.</span>=C2=A0=C2=A0<font face=3D"verdana, sans-serif">=
+<span lang=3D"EN-IN"><b>=C2=A0</b></span></font>=C2=A0=C2=A0<font face=3D"v=
+erdana, sans-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin=
+:0cm 0cm 10pt;line-height:14.95px"><font face=3D"verdana, sans-serif">=C2=
+=A0</font></p></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2nrQ2Mqjojwd=
+1wI-7JBQN7De5utc_j3iECRuQ0w2p4IBYwMMSjgFyZ7D9I8XE-NK2J0FcBfHPeP3aDws1HgXXsp=
+H0sG7-LBwFHnIuptwB_JWLg5BNa-1pTmdJ76gk7fEeZDyDfz4bW0qPQI9sNZrjBePp-BqzRpG3g=
+Q" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--000000000000b01ba60612f94ccc--

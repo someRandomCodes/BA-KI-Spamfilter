@@ -1,0 +1,168 @@
+Return-Path: <tatebokov@mail.ru>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1775433 invoked from network); 30 Dec 2023 14:11:24 -0000
+Received: from smtp39.i.mail.ru (smtp39.i.mail.ru [95.163.41.80])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 30 Dec 2023 14:11:24 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=mail.ru;
+	s=mail4; h=Content-Transfer-Encoding:Content-Type:MIME-Version:Date:Subject:
+	To:From:Reply-To:Message-ID:From:Sender:To:Cc:Content-Type:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:
+	References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:List-Post:
+	List-Owner:List-Archive:X-Cloud-Ids:Disposition-Notification-To;
+	bh=zEBQP/wZ0nLliRZpQNSuaekQP3d5WmrOybbd+qBflZg=; t=1703945484; x=1704035484; 
+	b=q7xnxX7YQ2K8mt+Fwqujr9rxQqp/AALsbcqunDdF/Lp3ic6vLW3kCvRxvFilh7n1pGSThaGtOa1
+	iGx+zZkbpK/aTDJ5H8dpW3bgbW84Rkyhfj9Ldg4eV371t1PeJ5alnWAZOlYh8v3q660A5adlyHGZw
+	9u1j4R2VIyXNCih0OffM32Ld8XRzAKDs8QlA1rc+wGycbmd/QFLMTOYUM9zFDe7/k6L91544h2GwF
+	VZ/NFrAfV836Jywuaz1jbZPJCKtQq1XZF196KXS2+4f6F1DxFPNeCpBVVyX8MsNN2pZkSkBTrC/AL
+	RUbZGB6Yy9K4lwJrqa1uf+E03AHQZDvxXCCA==;
+Received: by smtp39.i.mail.ru with esmtpa (envelope-from <tatebokov@mail.ru>)
+	id 1rJa3d-009I9n-2C
+	for bruce@untroubled.org; Sat, 30 Dec 2023 17:11:22 +0300
+Message-ID: <005801da3b6d$abc64e19$003c19c0@mail.ru>
+Reply-To: zhxcycq@gmail.com
+From: "tatebokov@mail.ru" <tatebokov@mail.ru>
+To: bruce <bruce@untroubled.org>
+Subject: Re:4508167208712175
+Date: Sat, 30 Dec 2023 22:11:15 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: 8bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Authentication-Results: smtp39.i.mail.ru; auth=pass smtp.auth=tatebokov@mail.ru smtp.mailfrom=tatebokov@mail.ru
+X-Mailru-Src: smtp
+X-7564579A: 646B95376F6C166E
+X-77F55803: 4F1203BC0FB41BD9F008C97756F746CA14E95E8474F0BC9BE89BAA13E884E306182A05F538085040DF886D2C32E1922123AF1DA2F33A005E26C03010322F545451177241E341BDDF
+X-7FA49CB5: FF5795518A3D127A4AD6D5ED66289B5278DA827A17800CE732F68F8AF5E5BA59EA1F7E6F0F101C67BD4B6F7A4D31EC0BCC500DACC3FED6E28638F802B75D45FF8AA50765F79006371E8C7BD479B346ED8638F802B75D45FF36EB9D2243A4F8B5A6FCA7DBDB1FC311F39EFFDF887939037866D6147AF826D8C183304A1FBD150345FA4A3A7D7C771D6F9789CCF6C18C3F8528715B7D10C86878DA827A17800CE7E4CD18687D5AE3809FA2833FD35BB23D9E625A9149C048EE1E561CDFBCA1751FC26CFBAC0749D213D2E47CDBA5A96583BD4B6F7A4D31EC0BC014FD901B82EE079FA2833FD35BB23D27C277FBC8AE2E8B292D688DDAD4E7BC389733CBF5DBD5E9B5C8C57E37DE458BD9DD9810294C998ED8FC6C240DEA76428AA50765F79006373E647A0D9F19766DD81D268191BDAD3DBD4B6F7A4D31EC0BE2F48590F00D11D6D81D268191BDAD3D78DA827A17800CE729FEC28C1D883E8AEC76A7562686271ED91E3A1F190DE8FD2E808ACE2090B5E14AD6D5ED66289B5278DA827A17800CE72FE1974C97B538E22EB15956EA79C166176DF2183F8FC7C042F54486E6D6388D725E5C173C3A84C306E3C6E93C569A9E089D37D7C0E48F6C5571747095F342E88FB05168BE4CE3AF
+X-C1DE0DAB: 0D63561A33F958A58CE6ACC7B15A63E89893E95EC87DBD268AB6CE151B797D12F87CCE6106E1FC07E67D4AC08A07B9B067F1C1C3ABB44F3ACB5012B2E24CD356
+X-C8649E89: 1C3962B70DF3F0ADE00A9FD3E00BEEDF77DD89D51EBB7742D3581295AF09D3DF87807E0823442EA2ED31085941D9CD0AF7F820E7B07EA4CF785899F18F1B7CC02F2360462884DEFDEB2FBC9A473CC417AD0913B6B0F30722ACEF76868E8EE94E016CD57D7736DB493C0012E70DCAFDE53D16D15BE9C63103CAACD699CDC6F98202C26D483E81D6BE0D4C144B1479BC7D004141B73964DC18F0A6D2C91ED28CB6
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr5ycPtXkTV4k65bRjmOUUP8cvGozZ33TWg5HZplvhhXbhDGzqmQDTd6OAevLeAnq3Ra9uf7zvY2zzsIhlcp/Y7m53TZgf2aB4JOg4gkr2bioj0P5D7uvGrJZpJUIaX2Am8w==
+X-Mailru-Sender: 7EDD764483A9443384DB1EC4546950812DF3B563989A7CBBE3839585C3A96E5066FC42E45911BEF0C80B716F30F44CFCD7B7E70E2176BC7C12D98C8CF0FCC9C92B837FCA0E2461F3476AE85C5E83AC5A35618CEED226C8C2A41F07E4BD97F31CB4A721A3011E896F
+X-Mras: Ok
+X-b8c8f729: 1
+Content-Length: 10067
+
+
+<P>Hello,</P>
+<P>I'm your China sourcing agent, offering:</P>
+<P>Sample Collection, Negotiation, Dropshipping, Shipping, After-Sales 
+Follow-up, Search, Etc.</P>
+<P>I help small to medium businesses source from China. Let's discuss your 
+
+needs.</P>
+<P>Lee<BR>
+<P>WhatsApp: +86 15919103357<BR>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT style="BACKGROUND-COLOR: silver" 
+color=silver>12月21日，快船战胜独行侠豪取9连胜，追平魔术创造的本赛季最长连胜纪录。</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: silver" 
+color=silver>在这波“北伐”开始前，快船的处境无比接近一本笑话大全，里面分别针对伦纳德、乔治、哈登、威少的笑话更是一个比一个好笑，然而在北伐
+之后，快船已经昂首挺胸，排名也从西部第11升一路冲到西部第5。</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: silver" 
+color=silver>洛杉矶快船：一路向北？<BR>现在很多人笑不出来了，而在渐渐平息的笑声中，一个半月前预言家欧文的神谕愈发显得震耳欲聋：<BR>
+“我想他们能够变得更好……很高兴他们今晚在面对我们时还没搞明白怎么一起打球，他们一旦磨合好，就会迎来一波疯狂的连胜。”<BR>洛杉矶快船：一路向北？<B
+R>把一群超级明星弄在一起，他们总能想办法把比赛打清楚——这是来自超级明星欧文的经验，也是近20年来诸多N巨头银河战舰的耐心所系。然而数学的期望和历史的
+教训总就像一枚硬币的正反面，在硬币真正落地之前，没有人知道真正的结果是什么。<BR>那，是谁成为了快船第一推动力，把球队推向了北伐这个选项？<BR>洛杉
+矶快船：一路向北？<BR>直到交易得到哈登，快船的赛季才算真正开始，然而航母刚刚扬帆起航就遭遇搁浅，这一搁就是六场：加时输湖人让尼克斯草割被独行侠射爆也
+就算了，回到主场，四巨头首发的快船居然连鱼腩灰熊都敢输，简直是让粉丝跳楼逼赌狗自杀。<BR>最终直到哈登一记关键的3+1，快船才险胜火箭终结连败，然而从
+六连败的泥沼里出来还没开心两天，他们马上又让雷吉带队的替补掘金骑脸输出，连最后一丝脸皮都不剩。<BR>洛杉矶快船：一路向北？<BR>然后的故事大家都知道
+了：乔治主场三分准绝杀勇士，从此开始北伐。<BR>在快船“一路向北”的征途中，有几条清晰的故事线，但命运的齿轮从11月17日对阵火箭的比赛开始转动——本
+场比赛开始前，曾经的MVP、九届全明星、九次入选最佳阵容的拉塞尔-威斯布鲁克，自己主动提出打替补。<BR>洛杉矶快船：一路向北？<BR>时至今日，我们没
+有从威少口中听到他做出这一决定的心路历程，主教练泰伦-卢只是简单用几句带过了双方商讨的过程，但作为曾经一览众山小的巨星、联盟最有性格的少爷，主动放下自尊
+与气节，这不是简单一句“高风亮节”可以概括的。<BR>其实威少和哈登的不兼容早已天下皆知，当年在火箭两人最终以牺牲球队中锋为代价才委曲求全，六连败期间他
+们的不搭只是三年前失败的延续。而这次威少主动做出决定既是伟大的个人牺牲，也让球队从此走上正轨。<BR>泰伦-卢从始至终都不是多么高明的教练，但这次威少确
+实帮了他大忙，在这个最艰难的决定被威少自己提出之后，卢快速跟进，接连做出关键调整，为连胜打下了坚实的基础：<BR>洛杉矶快船：一路向北？<BR>——彻底
+将海兰德打入冷宫，明确了后场曼恩哈登威少鲍威尔的四人轮换，且尽可能错开哈登和威少上场时间，形成了威少伦纳德带一三节衔接段、哈登乔治带二四节衔接段的轮换模
+式；<BR>——彻底弃用满爷塔克，顺带枪毙五小阵容，拉满祖巴茨上场时间保证内线体型。而祖巴茨得到重用后也逐渐找到和哈登的合作方式，赛季初离谱到拿不住球的
+进攻状态改善不少，还悄悄在防守端交出生涯最漂亮的盖帽率；随后泰斯的火线加盟，也让他们暂时没那么想念伤停的普拉姆利；<BR>——连胜中期启用阿米尔-科菲（
+在乔治受伤后），彻底解决了轮换第九人之选，后者证明了自己是快船其余前场里结合投射和防守相对最好的球员。<BR>洛杉矶快船：一路向北？<BR>和其他执教多
+巨头的教练相比，卢并没有巧妇难为无米之炊的烦恼，找出快船最好的八到九名的球员并不需要动脑子（很多球员本来也是他带出来的，他很熟悉），只要不像六连败期间把
+优质的食材和香料搞成一锅乱炖，而是分门别类搭配起来加以炒制，那味道自然不会差。<BR>可是卡椒时代的快船，核心矛盾从来不是做饭的“大厨”技艺不精，抑或是
+没有合适的“辅料”来衬托食材的美味，而总是在上菜前找不到关键的“食材”。<BR>洛杉矶快船：一路向北？<BR>而说到这个问题就要感谢今年联盟出台了新的参
+赛政策了——为防止球队大量轮休明星球员，伦纳德和乔治在报道中被当作了反面案例。结果虽然伦纳德扬言要起诉联盟（开玩笑），但至少这次卡椒的出勤挑不出毛病：赛
+季至今，伦纳德16-17赛季以来首次前27场全勤，乔治只缺席4场；两人上赛季只一起打了38场比赛，而本赛季他们一起打背靠背比赛的次数，已经超过了过去四个
+赛季的总和。<BR>同样没法挑刺的是伦纳德的状态。赛季开始一度EPM榜单上查无此人后，伦纳德12月至今场均29.3分6板3.1助，真实命中率高达73.2
+%，EPM已经飙升至联盟前十。找到中距离手感的伦纳德开启了战神卡模式，几乎能够在一对一里摧毁一切对位：他今年每回合单打能够得到1.17分，联盟里能同时在
+产效上压过他一头的只有12月同样超神的乔尔-恩比德。<BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一路向北？<BR>洛
+杉矶快船：一路向北？<BR>“战神卡”尤可贵，“健康卡”价更高：据伦纳德的好友透露，伦纳德在马刺14年和猛龙19年夺冠的两个赛季，他几乎都是在用一条腿在
+打球。23年季后赛伦纳德因伤缺席了对阵太阳的后3场比赛，人们认为是球队的负荷管理，最后发现他遭遇了右膝半月板撕裂。<BR>伦纳德说，他从16-17赛季以
+来就一直在处理右膝伤势，今年是他最健康的一年。“现在我打完比赛感觉很好，没有任何疼痛。”他说。“我的目标是保持健康，剩下的事情我会自己解决。”<BR>不
+过，即使威少高风亮节+伦纳德健康，也不是构成快船北伐的充分条件，真正关键因素，还是要看哈登带来的改变。<BR>洛杉矶快船：一路向北？<BR>12月1日快
+船输给勇士的比赛后，有快船记者吐槽：“令人难以置信的是，我们足足等了五年，等来了健康的伦纳德和乔治，但感觉就要这样被浪费了。”这段话抨击的对象，自然是本
+场第四节一直被勇士点名针对的詹姆斯-哈登。<BR>洛杉矶快船：一路向北？<BR>放在当时，记者的失望不难理解。自称“我即体系”的哈登，来到快船后反而成了
+体系的破坏者，身上布满了长期不打球留下的厚厚锈迹，脚步异常沉重；在伦纳德乔治身边，哈登仿佛初来娘家的小媳妇，做这也不是那也不是，在传球和终结间犹豫不决的
+回合比比皆是，还有从未见过的谦让。<BR>这不是哈登第一次在交易后打的莫名其妙，但作为一个34岁的老将，哈登如此状态显然比过去更容易让人惊恐，或者兴奋。
+在11月11日输给独行侠的比赛后，达拉斯当地电视台的评论员怒喷哈登：“你不是曾经的大胡子，你也不是体系，你就是问题本身。”<BR>洛杉矶快船：一路向北？
+<BR>如今，这位评论员的慷慨陈词现在已经变成打脸素材。哈登用一个月找到了和卡椒共存的方案，并成为现代球星“降权增效”的绝佳案例：赛季至今，哈登19.5
+%的使用率生涯新低，但交出了入行以来最佳的66.7%真实命中率。<BR>过去四年里，快船一直想在伦纳德乔治身边增加一名真正的控卫，但调整显然需要时间。不
+可否认，连胜前的哈登扮演的是“以前快船的控卫”——挂着控卫名做着过半场交球站定点的活儿，没有帮卡椒减负，反倒让三人都更难受。<BR>洛杉矶快船：一路向北
+？<BR>当时，乔治曾直言哈登加盟后他们都需要时间弄清“新的自己”，而随着磨合的推进，哈登逐渐把“快船控卫”这个位置，从卡椒过去不得不越厨代庖的节奏中还
+原了。现在，哈登终于成为“真正的控卫”——球队第一挡拆持球手，由他来做进攻决策，这正是哈登一直以来在做的事情。<BR>在哈登身边，伦纳德乔治终于卸下了又
+当爹又当妈的重担，失误率骤降（伦纳德生涯新低，乔治生涯次低），定点频率则创下快船生涯新高。<BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一路向北？<
+BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一路向北？<BR>抖落锈迹后哈登的身体异常轻盈，找回了面对面过人的速度，微调投篮姿势后投出了生涯最佳的三
+分命中率，兼具投突传三威胁的特点让对手不得不在挡拆中包夹他，是快船目前最能改变对手阵型的进攻解法；如果对手选择单防或换防，哈登每回合1.49分的面框单打
+效率会让任何防守人心里咯噔一下，几天前的步行者已经切身体会了这种恐惧。<BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一路向北？<BR>洛杉矶快船：一
+路向北？<BR>洛杉矶快船：一路向北？<BR>是的，这正是人们所期望的哈登。在21日对阵独行侠的比赛中，当哈登连续命中持球三分帮助球队反超时，快船记者如
+是写道：“你不是大胡子，你不是体系，你是给他们带来麻烦的人。”<BR>九连胜期间，快船百回合得124.5分联盟第一，净胜分+12.3分同期仅次于一路虐菜
+的76人；而在连胜前，他们百回合只有113.6分联盟第17，净胜分+3.2分——快船的阵容配置决定了他们的防守能在面对大部分对手时托底，进攻才是他们的生
+命线。<BR>快船磨合得如此成功，其实也在意料之内。23年季后赛证明了哈登远未到油尽灯枯的程度，伦纳德和乔治本就是有无球兼备的类型，以三人的能力并不需要
+建立多么复杂的进攻体系，就足以打出简单而高效的进攻；当球星们能各自在进攻端卸下包袱，他们自然有条件在防守保持高水平发挥。<BR>洛杉矶快船：一路向北？<
+BR>洛杉矶这首《一路向北》固然唱得嘹亮，但回望一路攀爬的旅途上，大家也必须认识到：在整个“北伐”的过程中，真正给他们制造了威胁的对手不过寥寥<BR>九
+连胜期间，只有掘金和独行侠算是真正意义的劲敌，然而前者的约基奇在交手时贡献了生涯最铁一战，后者的欧文因伤作壁上观。事实上，不止连胜期间，赛季至今快船都在
+享受轻松赛程的福利。根据BBR网站数据，快船赛季至今正经历联盟第四轻松的赛程。<BR>在透支深度换来哈登后，这支快船比过去任何时刻都更依赖头部阵容，尤其
+哈登伦纳德缺一不可，一旦两人出现状态回落或者缺席，球队的进攻就可能大打折扣。<BR>洛杉矶快船：一路向北？<BR>一些以前的问题依然存在：祖巴茨是优缺点
+明显的蹲坑型中锋，几乎完全应付不了五外阵容（对阵独行侠和雷霆都被针对到死，下一场对手还是有全联盟最强五外的绿凯……）；当快船不得不摆出五小时，哈登的防守
+也会遭遇考验。<BR>泰伦-卢自己也是不可忽视的隐形炸弹，在执教快船以来他有亮眼的调整，也会有不间歇的发病。过去卢主要在祖巴茨莫里斯考文顿的使用场景和优
+先级上纠结不清，今年他确实先排除了一个明显的错误选项（塔克），但对逐渐塔克化的曼恩毫无警惕，还让他和同样没有射程的威少搭档；明明已经找到明确的第九人科菲
+，却又突兀地掏出小波士顿，让人摸不到头脑。普拉姆利伤愈回归后，卢会如何调整既有轮换阵容也让人捏一把汗。<BR>洛杉矶快船：一路向北？<BR>另外，健康隐
+患始终是高悬快船头顶的达摩克利斯之剑。三位核心伦纳德乔治哈登都年过三十，是不折不扣的老将，并且多少都经历了伤病的侵袭，过去四年常规赛出战最多的是打了23
+5场（平均每年接近59场）的哈登。看着当下每场时间拉满的老三位，你总是不由得担心他们会在某个时刻轰然倒下。<BR>这并非“勿谓xx言之不预”的提前立fl
+ag，只是回望快船近二十年的历史，命运很少垂青这支在洛杉矶“借住”快四十年的外来户。他们总是会在人们觉得伟业将成时，毫无征兆地一泻千里，从此变成球迷口口
+相传的又一个“如果”。<BR>这次他们看上去比以往都做足了准备，只是在即将搬离天使之城中心之际，不知道他们能否等来命运女神那一眼回眸。</FONT></
+P>
+

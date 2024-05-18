@@ -1,0 +1,190 @@
+Return-Path: <rcsfinanceloan086@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1086823 invoked from network); 13 Dec 2023 02:03:33 -0000
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (mail-am6eur05olkn2025.outbound.protection.outlook.com [40.92.91.25])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 13 Dec 2023 02:03:32 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=lUuhOCS/co4XCIrH+8O2PZ5QD0hXTLGhe/RJQG/lSN8=;
+ b=TSvFnbzEcvmWBc7ZFDGIqSvH5qMnMxTyu8Hu93GcTCJXctzpCqBDtKjEEjkRFooNY6cV2Bu2nRjduoYvHVVqZ2+p7SgIelEcA7IPRRRUSEW8WSQvdZrbj6U8znyNm3ILC3JP9bNbkU6fwMGHpaL8WCKY94CDnxQi1+xOKFkyXjUBZbDYgLf6AUbk47LdUEaicPNjyyCLayC7IWFG23N4/a1/G+Dp47tSuk5p/9hZUeKwzlU7yGKTlOPIWHcRUzeypnLvo2fKGNkwKduoIzpvPoGeYL/hvTK5r0ddijMNv1ao2+XYkTXB7WNgqIzJ50qsT93ZryB8KamL/o0N/P5a+w==
+Received: from DB8PR09MB4408.eurprd09.prod.outlook.com (2603:10a6:10:15e::19)
+ by PAXPR09MB5581.eurprd09.prod.outlook.com (2603:10a6:102:276::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7068.33; Wed, 13 Dec
+ 2023 02:03:26 +0000
+Received: from DB8PR09MB4408.eurprd09.prod.outlook.com
+ ([fe80::bdcf:a2ba:b661:c57b]) by DB8PR09MB4408.eurprd09.prod.outlook.com
+ ([fe80::bdcf:a2ba:b661:c57b%4]) with mapi id 15.20.7091.022; Wed, 13 Dec 2023
+ 02:03:25 +0000
+From: rcs finance <rcsfinanceloan086@outlook.com>
+Subject: SPECIAL LOAN OFFER 
+Thread-Topic: SPECIAL LOAN OFFER 
+Thread-Index: AQHZzxWSMBXIMRKEB0uGx1DM/jCrpQ==
+Date: Wed, 13 Dec 2023 02:03:25 +0000
+Message-ID: 
+ <b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f412c305367d11304ff08284d898ae43618e2f1622fDB8PR09MB4408ED5CAD64405D078E589FE414A@DB8PR09MB4408.eurprd09.prod.outlook.com>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+msip_labels: 
+x-ms-publictraffictype: Email
+arc-seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=QFGOkqHYtRtKxR4jaf6fMTC9/qScPDOP1mMLGTPcvheu3ddt1iKH7AoEFsSAITPGV/nBPQsn1YZTo5bL2p4CuSR5mPUYKHWohscYW6VPBE9tdyXODDnS7saHL1XyzxlWBjzP9R44WWNYeXDN+MgjYM2qKKXlSLwMaXCH9S2xydHmuZHQwoHx4lp5e7EaGcmDszBfummFNVN+4p0T9WTTHhJvWlTmoHGdudAoOaIz9KgX3qHcMjoHo2F02p9ZO4Uu1rEJX0Atvex4EPsnHgzHDRVxAPMu5EPfy4pa7r+cfqq23/djaIQoRqqL4gXhd/FKzPfLEI0BKIMdAQY4SSApYQ==
+arc-message-signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=QG+2uXN86og3V2yMMBTzFHumVW3lmd8e4wv0cxkElm8=;
+ b=S05142ZKaUxQqr/F9KaMnNEUNwDm7gDLfsTi9pwID3rUEOydQLg0A+Vj/ZUG8KX/QaY5AS0joKqF3R9Vb/fzgSV/N28rlpsxw4xzAS79zaMVAd4G0VPII0Ye2DJvfPp+Ni//qQ45EdQcejKvuTqVwTXGyfNp0VpLd/KrJ5TX0mzSRTRLAVnpjd7bQVdPFdoUIxLtht5V8tCx+7iRVDvjPupOKaDyTmWaWRg+6GNOlzbhkhFMkNNVO6xLo8V1r+bV6YKTf4gwOriQEonqs+hVyA0tFwgbq1manGvLacIFa4CjYcD7KN7w1CIvm69dtnwySK+KIJO3wt1nCrWm7vxNOA==
+arc-authentication-results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=QG+2uXN86og3V2yMMBTzFHumVW3lmd8e4wv0cxkElm8=;
+ b=DFdaVV1ZJR//9SyNxRiY3ciaVGvZPFZTJ284vnFgCaicGukItYWVbp3LjfNo+ZlYSFCRXeb+/owswiSIX7gHDl4a4crh1mAXqSwGaQ64VCig7cLjShQaxruAHxzq8Xnpt+WfMtd18n7yx8iASyLiLwZN3p6fSBRqBHLkfn2Km6AsrOFCQECpbzvtP1DK5OZ2HwnVbuP4dTBUYp65onpAVz7rqm7sQtY8DwwhvHKrahVFVz9NkA9XH4SdfSHBG0W2BJLXy4ZU9DmHViUYOoqOCE35hD1QCuqQUYrlI3r7gDDewmjXdEVcBEopbn7P+7szUdUhwyLLyE/cCKBUwX/wog==
+x-tmn: [DPcG8xAfWkgDiZcf/NIngoS9nLsEi6UH]
+x-ms-office365-filtering-correlation-id: 2c7ec741-1f7c-4dcc-0360-08dbfb7fb0fe
+x-ms-traffictypediagnostic: 
+ DB8PR09MB4408:EE_|PR3PR09MB5444:EE_|DU0PR09MB6634:EE_|DB8PR09MB4408:EE_|PR3PR09MB5313:EE_|DB8PR09MB4408:EE_|VI1PR09MB4301:EE_|DB8PR09MB4408:EE_|PAXPR09MB5581:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 
+ CqiS9s2CpePT2PedzmCFi6Uh1xXbuh96MnS3zG0QPVmMGDX6XfQrbUatS35xX3l1CVDjACETWGdGcwr0iyjSC+pRgqxtD7c76ee9eEWNY32R36rH8IjHCfbFtjxGVt06VRkHDD8m21gt7dPp7TxUXD++yHdJfurj63e5HqRAGgIzdl7nk4O7cfEWb/zl2/Oj8oNL3R0mo8/rEtt/0OZqhOOJQcNRhN7Lfe0K1RboStdHGGwBczJrneB8MzB8sh+0kPuTGV/jcKR+E6lupB7kJltn//Og2t50y6no/rtmgWmXrNEK2HR9j7ZQcZizfZVkFJcMkcCzkUgMPZwgY2GZSCblAISo/z5fSWpNVEriMmcwhBGHODUUIkWCi6/4tZK84kfBb+MV+T0zyK3ObiKmq6CRWUjzLLFe9rn/fy2UC2e9uA04qB6Cayd19kUEfAg49cg2MKmMXc5OiSvTK127/KJqKbV4rkioF0PnWOQ43AYQ0a8jHvrGYZTm0ZVJPFbA
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-crosstenant-authsource: DB8PR09MB4408.eurprd09.prod.outlook.com
+x-ms-exchange-crosstenant-rms-persistedconsumerorg: 
+ 00000000-0000-0000-0000-000000000000
+x-ms-exchange-crosstenant-network-message-id: 
+ 5f94ff64-86a1-42df-da78-08db9f1a4046
+x-ms-exchange-crosstenant-originalarrivaltime: 17 Aug 2023 12:05:29.9354 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+x-ms-exchange-transport-crosstenantheadersstamped: VI1PR09MB4301
+x-ms-office365-filtering-correlation-id-prvs: 
+ 5f94ff64-86a1-42df-da78-08db9f1a4046
+x-ms-exchange-slblob-mailprops: 
+ ZRuQdVKRmYtG1C6ba9S4i4siEZuIjnqupHn9Odn8L0yBlbwlXQp0DgiBypGyphj43xeb/vm6BS4uvBm3fbkU4oCRwz891gQe1SMs9aQ7+JXQ5OIRl1Effne33MZPR6z4aHMMwxTKnErO7HfM/aZW43ZirseC59Jy9Fgglj6YNSRJGamw7FagdkxYEQzoqWWwB4n/bIZF5d3t0xkev4/f9gKFMqy25j+MyrNc6u/1M9MUdMXmt+Y+KRkapN2s1kmLZwzOqoNmwKoQafWrN8hJyLy22dwFnMg8hkCbBanUslR+l9i+2DJKpfs+KKmm2wvTLiUVVHilk2S3C5Rr0LaYdOLs/qfFCyvl3KFY1pBkKDCf0/rnn9QRY1uJ5lyk/c6pSIo99oHJ4GQWwErkLoBuJa3xHGEQ4I9pLfwCPXahdBnl5/RJkJB1SSxVtwnEL1JBTwFTiwixjv/oyPgVvRnWAW4D9H1ScMNtKmQk8YrogabPKC1h38TiAAB3GFyhHBTHY2+DHcUgRK8JVd/vyRqVV4NpV3UYxlSQC8qL4/gf+XiCSdcDYSq0XnZYTtXFpfNB9RyK07OTwSHE9gJR8mCC5Rkj25OxV90611p8Xcn33WJIblE13NucGSYME1ucLICFizCPIO8Zx5ie9WjUvteb+7QIfMASzug/wSbq699sSl6bcFVj/ObTUsrYg50qLDnZuPxIhkt7Cr52DfSHSrJsSgDRXNEBWxJE
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: 
+ =?iso-8859-1?Q?NXceeyqjhfoWXYxz5c0y4aemWFKegCzHjeLpf8Enxisf5Y/WO57rOA1FfE?=
+ =?iso-8859-1?Q?gqj8TNWfTT/2O4ri+dC3q2c50zlMlAUOpfE3pCQzvkxOqJjPS436XMxgEq?=
+ =?iso-8859-1?Q?WB91lzfn1+x5iqKLKglvQRD/ldIisjd89Gi85gRMVosuPDli3L4jVzBDO0?=
+ =?iso-8859-1?Q?q6wW6F0G1JJOX7ZbZSby80OjVeeQ1wcwRM4mHvaP4h3c2J8LttmWc4P9R2?=
+ =?iso-8859-1?Q?XOy/RjrNm/6/HuWQ1EWhmXklr1AbmzVCHfym/DLoR+cvafA6RpOoifEieA?=
+ =?iso-8859-1?Q?B60BWbhWt4ZSyqhp64E9u1xEKw1xJiK/EstPOp/wqmfKO78JnWsEPaHSfM?=
+ =?iso-8859-1?Q?b5Adx4ONULVILxGo0HMYB2oFQYQ1d9XJ9No63kLRKwBTWu71QBlpoAAJTS?=
+ =?iso-8859-1?Q?Q+PwBBLLm7AxLj76R3J6ycLrjK2p//2idVGDvLO5+6XlBDt4kOi1dQhyba?=
+ =?iso-8859-1?Q?ITiTKnju7Mc2u4H/MIfReTCD6njZfyMqSHObltjg7AW1pypPgOdq76Y8mf?=
+ =?iso-8859-1?Q?gT8ZXEeehF3zi8cOxnCBH6yZO9+uWyIgZGU6l3527c2WJQ/pi09s+BSrCx?=
+ =?iso-8859-1?Q?U3Tz3xAgA+/N3d4/cbgq5PrTjl7nnC2c85uF1uUC6gTtBk5juJzIifAslV?=
+ =?iso-8859-1?Q?bXvmGG3qv4ADDiDM16MrUZAkvxvONI+Dey0s8XwvYytMMXmH1daR4CHg/J?=
+ =?iso-8859-1?Q?KtEEL/CVB5hQSy9Zg8oUDu04x/v3w4b7pekd1rV45adTXLpgB+GDF+7eoh?=
+ =?iso-8859-1?Q?gTDP8FXtyZl8QdI4KdZPAdF+qPwUB44d+dEkkr9Y9waxWuUvOqrQgCeAM4?=
+ =?iso-8859-1?Q?m/TagNTv3kg+/PDBlmbpRpeCBwvdLEdOKxKiKJBUnZI1nYnCjQUqnjKkGs?=
+ =?iso-8859-1?Q?VcJ+MBvjwGhcuM61dubLSkJa7uASdjp/6/Y9qc8Dtg5470p+gl7PtsmVIm?=
+ =?iso-8859-1?Q?S3pJSFfaZAF2Svuk0xkM9X5aXL0RtUCjwR6ibYjUiJYvmHaWsaTuDfaIc4?=
+ =?iso-8859-1?Q?ie3S+V9x7OwyDpqZMhGDDYWWmEsf3I+6gtozmNvY/fGy+LxFdt0tP0QanB?=
+ =?iso-8859-1?Q?U3gHMz2xXWj3cNju7M44Zd1YI+5Q5Ca4b+2CgJgYSdZx3NIKw47hpI3pwd?=
+ =?iso-8859-1?Q?6UEWxdyPCRcvzmI6Dt06mbCNPTitGaG1ARL6PEDLvfFmb4VuvlegbUGJZk?=
+ =?iso-8859-1?Q?qSzUMTKPHxg0qND52mStAPyqljFQKz/vKT+8VxPWrqkP/g9MKZdXO7WSxV?=
+ =?iso-8859-1?Q?oe1WWZPmQExSltAtDotg=3D=3D?=
+Content-Type: multipart/mixed;
+	boundary="_004_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DB8PR09MB4408.eurprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2c7ec741-1f7c-4dcc-0360-08dbfb7fb0fe
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Dec 2023 02:03:25.1516
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PAXPR09MB5581
+Content-Length: 3550
+
+--_004_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_
+Content-Type: multipart/alternative;
+	boundary="_000_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_"
+
+--_000_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+RCS Financial Services is currently offering flexible loans at 5% interest =
+rate
+on home loan, business loan, property loan, Personal loan, investment loan,=
+ debt consolidation loan.
+Kindly find attached flyer for more details on the special loan offer or Co=
+ntact:+27(0)871332686 more info
+
+
+Regards
+
+Management Team
+
+--_000_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <875AF32EFFBF4848B8739FAD65AB8747@eurprd09.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof"><span style=3D"font-family: Aptos, Aptos_Embe=
+ddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 1=
+2pt; color: rgb(0, 0, 0);">RCS Financial Services is currently offering fle=
+xible loans at 5% interest rate</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">on home loan, business loan, property loan, Personal loan, investment loa=
+n, debt consolidation loan.</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Kindly find attached flyer for more details on the special loan offer or =
+Contact:+27(0)871332686 more info</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Regards</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div class=3D"elementToProof"><span style=3D"font-family: Aptos, Aptos_Embe=
+ddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 1=
+2pt; color: rgb(0, 0, 0);">Management Team</span></div>
+</body>
+</html>
+
+--_000_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_--
+
+--_004_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_
+Content-Type: message/external-body; access-type=x-deleted; length=395254
+
+
+Content-Type: application/pdf; name="RCS REPAYMENT SCHEDULE FLYER.pdf"
+Content-Description: RCS REPAYMENT SCHEDULE FLYER.pdf
+Content-Disposition: attachment; filename="RCS REPAYMENT SCHEDULE FLYER.pdf";
+	size=292589; creation-date="Tue, 15 Aug 2023 01:12:40 GMT";
+	modification-date="Wed, 13 Dec 2023 02:03:17 GMT"
+Content-ID: <946D34CBBD614D439FE0A00B0E171ABF@eurprd09.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+--_004_b62263d4e8d948fb80cfa84931fa2be1e19114d8d7e9408e97e21f4_--

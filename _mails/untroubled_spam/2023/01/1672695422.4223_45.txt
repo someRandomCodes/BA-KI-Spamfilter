@@ -1,0 +1,192 @@
+Return-Path:
+  <bounces+154300-47ab-bruce=untroubled.org@email.ignitefunding.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 104177 invoked from network); 2 Jan 2023 21:31:56 -0000
+Received: from o192254120250.outbound-mail.sendgrid.net
+ (o192254120250.outbound-mail.sendgrid.net [192.254.120.250])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 02 Jan 2023 21:31:56 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=email.ignitefunding.com;
+	h=content-type:from:subject:content-transfer-encoding:mime-version:to:
+	list-unsubscribe:cc:content-type:from:subject:to;
+	s=smtpapi; bh=W0VwSTzVa+PwW2TJi3oAtXFvfA6ZCVy6bMNyHnTvHhk=;
+	b=yB1bAWLv0I8etCiXNwI3Pkn1yr8TzCsLpcLKevFQiHwOnx4KSYxZGtDNJAAhh/VjNw4N
+	Uu474Q7fPAW0yFRu/bzQXjdNzISrMI7Boq+OhIghlNLvRiSDfyLBFl8lXm3Eb9rKqSXizW
+	OXsQ4ox6CHeQd7F/ALQ8lAL2JoOFSPS7k=
+Received: by filterdrecv-575bd9b798-kbmbv with SMTP id
+ filterdrecv-575bd9b798-kbmbv-1-63B34D45-42
+        2023-01-02 21:31:49.655372194 +0000 UTC m=+3968776.988833353
+Received: from [127.0.0.1] (unknown)
+	by geopod-ismtpd-6-4 (SG) with ESMTP
+	id 1uJk_VNjSMiE1dONvWfduQ
+	for <bruce@untroubled.org>;
+	Mon, 02 Jan 2023 21:31:49.423 +0000 (UTC)
+Content-Type: text/html; charset=us-ascii
+X-Priority: 1
+From: Thryv/Support <noreply@ignitefunding.com>
+Subject: URGENT: Payment declined
+Message-ID: <3c2d18bb-139a-8573-39f1-5ef9b536f7ad@ignitefunding.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 02 Jan 2023 21:31:49 +0000 (UTC)
+MIME-Version: 1.0
+X-SG-EID: 
+ =?us-ascii?Q?klOjyJHup3=2FrAbRGSiasN5vptwgsdBJ3fz+Fe0uY6g77fxWAQRV5BWBKVp5LvX?=
+ =?us-ascii?Q?t=2FbrtIGMz=2FJi7rWaARPpQs2wuROvFX7PTtyXcmV?=
+ =?us-ascii?Q?Vt3m0pVND3Xw4NNCs0xMxpVWwLyikscNwdANJ=2FB?=
+ =?us-ascii?Q?xRwsfFSow9s6X+dMxeO+0LePXR2uQaa=2FAJj+PDs?=
+ =?us-ascii?Q?6SiytmrL3sQMT890D1Kfo2S0e+eaywjfOsQYzeZ?=
+ =?us-ascii?Q?OB2bGX1EjBv4p3sbbegwGbkb56M3ZypiLba2v+?=
+To: bruce@untroubled.org
+X-Entity-ID: A7RokO/2Fbv5DwgUk6AU6w==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40email=2Eignitefunding=2Ecom=3Fsubject=3Dhttp=3A=2F=2Fema?=
+ =?us-ascii?Q?il=2Eignitefunding=2Ecom=2Fwf=2Funsubscribe*q*u?=
+ =?us-ascii?Q?pn=3D95ipHO-2FHtfiEGxEkeDVC7m2cc8Z9r802-2?=
+ =?us-ascii?Q?B369f-2FNYKjkvJ4WrStI-2BXZIrEhcrmirHfck?=
+ =?us-ascii?Q?yOkTXhQxBp2dhKWfROP9nWkPiTsg7kIysDeWGsc?=
+ =?us-ascii?Q?Hu7E1vurR87fuxN9pUN1cEyfoUU6Yl3nPcyGvw-?=
+ =?us-ascii?Q?2B89wkj2JoGKUWrbpZi9YWipkzA4sR-2FDBFhAO?=
+ =?us-ascii?Q?U-2BELc7YrRQcG7aXm0vw7HkkTQIguHLJW-2FAp?=
+ =?us-ascii?Q?pECbRyViTvl-2FF2KBV1Ns-3D=3E?=
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 5946
+
+<html><head></head><body><div class=3D"content" style=3D"display:block; max=
+-width:600px; margin:0 auto; padding:10px">
+<span class=3D"preheader" style=3D"color:transparent; height:0; max-height:=
+0; max-width:0; overflow:hidden; visibility:hidden; width:0">Your payment t=
+o Thryv was unsuccessful.</span>=20
+<div class=3D"header" style=3D"width:100%; margin-bottom:30px; margin-top:1=
+5px">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td align=3D"left" class=3D"align-left" valign=3D"top" style=3D"padding:0; =
+font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-s=
+erif; font-size:16px; vertical-align:top; text-align:left">
+<a href=3D"https://Thryv.com" target=3D"_blank" style=3D"color:#348eda; fon=
+t-weight:400; text-decoration:none"><img src=3D"https://www.thryv.com/media=
+/thryv-main-logo-color.png" alt=3D"Thryv" style=3D"border-style:none; heigh=
+t:22px"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"block" style=3D"width:100%; margin-bottom:30px; background:#f=
+fffff; border:1px solid #f0f0f0">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td class=3D"wrapper" valign=3D"top" style=3D"font-family:'Open Sans','Helv=
+etica Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertica=
+l-align:top; padding:30px">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+<h2 style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helveti=
+ca Neue','Helvetica',Helvetica,Arial,sans-serif; font-weight:300; line-heig=
+ht:1.5; font-size:24px; color:#294661!important">
+Your payment to Thryv was unsuccessful.</h2><p>Hello bruce@untroubled.org,<=
+/p>
+<p style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helvetic=
+a Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; font-weight=
+:300; color:#294661">
+We're writing to let you know that your payment is unsuccessful and your ac=
+count is marked for removal.</p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"btn btn-primary" width=
+=3D"100%" style=3D"border-spacing:0; width:100%; border-collapse:separate!i=
+mportant">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:0; font-family:'Open S=
+ans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16p=
+x; vertical-align:top; padding-bottom:15px">
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-spacing:0; width=
+:auto; border-collapse:separate!important">
+<tbody>
+<tr>
+<td align=3D"center" bgcolor=3D"#348eda" valign=3D"top" style=3D"padding:0;=
+ font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-=
+serif; font-size:16px; vertical-align:top; background-color:#348eda; text-a=
+lign:center">
+<a href=3D"https://thryv.azurefd.net/#bruce@untroubled.org" target=3D"_blan=
+k" style=3D"border-color:#348eda; font-weight:400; text-decoration:none; di=
+splay:inline-block; margin:0; padding:12px 45px; color:#ffffff; border:soli=
+d 0px #348eda; font-size:14px; text-transform:capitalize; background-color:=
+Darkorange">Fix Now</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+
+<p style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helvetic=
+a Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; font-weight=
+:300; color:#294661">
+Thank you for your business,<br>
+The Billing Operations Team at Thryv</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"footer" style=3D"clear:both; width:100%">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; font-size:12px=
+; border-collapse:separate!important">
+<tbody>
+<tr style=3D"font-size:12px">
+<td align=3D"center" class=3D"align-center" valign=3D"top" style=3D"font-fa=
+mily:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif; v=
+ertical-align:top; font-size:12px; text-align:center; padding:20px 0">
+<a href=3D"#" target=3D"_blank" style=3D"color:#348eda; font-weight:400; te=
+xt-decoration:none; font-size:12px"><img src=3D"https://www.thryv.com/media=
+/thryv-main-logo-color.png" alt=3D"Thryv" style=3D"border-style:none; font-=
+size:12px; height:16px"></a>=20
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><p>If you&#39;d like to unsubscribe and stop receiving these emails c=
+lick <a href=3D"http://email.ignitefunding.com/wf/unsubscribe?upn=3D95ipHO-=
+2FHtfiEGxEkeDVC7m2cc8Z9r802-2B369f-2FNYKjkvJ4WrStI-2BXZIrEhcrmirHTeNNVro-2B=
+towKcvZKdhj3UWQn-2BUE1jm0COah1IiLOXXlypz-2FiG6Q8l6nu20DwHgW-2BJZusAspqJCYY-=
+2BS-2Byej-2BvgQtfX0kaierJS555yZjSbc228oB7fYgEMlTpdcPmgKpZt3CAdcgGry9-2Bt3rE=
+bBNe0mTNUAFMwvc0neOmwAGvzMc-3D"> Unsubscribe </a>.<!--%&#62;</p--></p>
+<img src=3D"http://email.ignitefunding.com/wf/open?upn=3D95ipHO-2FHtfiEGxEk=
+eDVC7m2cc8Z9r802-2B369f-2FNYKjkvJ4WrStI-2BXZIrEhcrmirHgreiIu2hnOBCS8bDcZNIU=
+wxVtVRkAYgbUyWp9fQ82soTuDhGC0dTDbi-2B9FF8PUooe4ZrxA1GH2Y8NjHMhd0DDAFIRlQ5OU=
+szSjXiK-2BbJfCCbpeLDi5lTofUlLVh8CcAQZG4LyinDG7xw3tWDRww-2FzL7OdFF19e2kmm-2B=
+7Fk32MRI-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/></body></html>

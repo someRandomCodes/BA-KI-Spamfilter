@@ -1,0 +1,76 @@
+Return-Path: <mike@traffictool.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1392502 invoked from network); 1 Jun 2023 12:01:12 -0000
+Received: from hedgehog.birch.relay.mailchannels.net (hedgehog.birch.relay.mailchannels.net [23.83.209.81])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Jun 2023 12:01:11 -0000
+X-Sender-Id: nocmonitoringorg|x-authuser|mike@traffictool.info
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 832D63E12E6;
+	Thu,  1 Jun 2023 11:11:33 +0000 (UTC)
+Received: from cambridge.uknoc5.com (unknown [127.0.0.6])
+	(Authenticated sender: nocmonitoringorg)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 9BBF93E13E2;
+	Thu,  1 Jun 2023 11:11:32 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1685617893; a=rsa-sha256;
+	cv=none;
+	b=wzqB/jXaYygO48NmTcKf1gEwme/AHzY6gGIGURbotgFgJgxulGR6Rmthnu+09jzliox717
+	FjT9XoPcsEhwI2mX/yBTNLu9A5jLG3cZ45yVS4n+3jsKxPQ0X5HXmb/kH5/z8dwHGZqnTB
+	4Ci1S/41cc1GpTtxwvc993Aydq5ybHbn3ww6SqOqf3pDysZyuEAOC7dWBh4vRenlqVycen
+	S0Qo2JrBixmdhvDJeXVCnZP4ILMtYIPDuOZLzddPykNNhE1pKP7GE/v8jQ5mMzv7DLeu56
+	ri8UomEqiaMkEY2tAbMDxi1jH2oVwTSf8SIQgCLCLZGu4P2R1d2tz3lk9Aj7Ug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1685617893;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding;
+	bh=xvPSxCFaiVafq3kh0L8DhoS+R72IqoAJlEavXwRRGmg=;
+	b=DL6zwOl1b1c6h8qm9s6ka9dhVAgxVtg9wpUghgSrbS+M9RUL+B08au3NfDihxCz6uRMZNS
+	hku7V0BYDaf+x1QY0qHSf5I+axtW65Hti3FpkJgYVlI5AteVM7NN0tFOoHXhVaOigu95sa
+	k69bhptDF1YxKgHK2XYdnGnGH8ekue3WOa4kG2Oca6M/cIeXJ9xcxy7XTdO46Juq6TjxQJ
+	J3ZduECYwq9GksWTa6eZm8J5O2hCbzt3ieQDpk8G/vcBGok7aTRGPD7Z9rdemehtIKKwVM
+	9Ddf5oQEGRRxKrg/XLLVd33i7VVja8jNwoQjQJFtLK5ek9nKZY77byQ5zDIoeQ==
+ARC-Authentication-Results: i=1;
+	rspamd-58dcc7d645-fdsj6;
+	auth=pass smtp.auth=nocmonitoringorg smtp.mailfrom=mike@traffictool.info
+X-Sender-Id: nocmonitoringorg|x-authuser|mike@traffictool.info
+X-MC-Relay: Neutral
+X-MC-Copy: stored-urls
+X-MailChannels-SenderId: nocmonitoringorg|x-authuser|mike@traffictool.info
+X-MailChannels-Auth-Id: nocmonitoringorg
+X-Bored-Arch: 41f426c918e977a0_1685617893345_725926548
+X-MC-Loop-Signature: 1685617893345:3624853212
+X-MC-Ingress-Time: 1685617893345
+Received: from cambridge.uknoc5.com ([UNAVAILABLE]. [217.112.91.42])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384)
+	by 100.115.252.243 (trex/6.8.1);
+	Thu, 01 Jun 2023 11:11:33 +0000
+Received: from [::1] (port=59168 helo=cambridge.uknoc5.com)
+	by cambridge.uknoc5.com with esmtpa (Exim 4.96)
+	(envelope-from <mike@traffictool.info>)
+	id 1q4gDK-000FJW-24;
+	Thu, 01 Jun 2023 12:11:30 +0100
+MIME-Version: 1.0
+Date: Thu, 01 Jun 2023 12:11:30 +0100
+From: mike@traffictool.info
+To: bruce@untroubled.org, inquiries@untroubled.org
+Subject: Good content ideas for your blog
+User-Agent: Roundcube Webmail/1.6.0
+Message-ID: <bb26083f9328637c546f7b6b72404efe@traffictool.info>
+X-Sender: mike@traffictool.info
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+X-AuthUser: mike@traffictool.info
+
+"Greeting of the day
+I have came across your site untroubled.org
+
+Could you please let me know how much it will cost to publish an article 
+on your site, just like the following one:
+http://untroubled.org/lori/article.php?story=20140131104208952
+
+and have a link on it towards realcasinoscanada.com
+
+Regards"

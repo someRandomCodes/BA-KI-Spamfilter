@@ -1,0 +1,332 @@
+Return-Path: <bounces+1560322-9e23-bruce=untroubled.org@sendgrid1.prudentcorporate.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2764030 invoked from network); 5 Mar 2024 08:03:33 -0000
+Received: from o35.ptr2985.prudentcorporate.com (o35.ptr2985.prudentcorporate.com [167.89.69.209])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 05 Mar 2024 08:03:32 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=prudentcorporate.com;
+	h=from:subject:mime-version:reply-to:to:content-type:cc:content-type:
+	from:subject:to;
+	s=s1; bh=BHdXP+EwvlIsJWoJex5TON9o4PIg8hxofb2GylLq1mg=;
+	b=avPtPgsVftfNEGexhRFEG886nsutYaa7kWHaYuqMnCbGU5WWaixWRhugjlKzUSCkLFsQ
+	snlDOn2ioqQ8BQwyqMyyKLFSvrZWQb6fHoRfNTIr1ETN4B/1vCA9FnqiGk7Z2UQmmJ+3Cj
+	zyTwGxka+l2nD4xQ6U6bPjL7n6KQkxcQkwcpd/PUqdwRSUBZd9a0gj9vADpYkPYIRczlJI
+	ZMEDEiPdXyXs99wPtwTDbRjISdAoRnzvZAESGjNXBs8StfLwON2xAYI/OPH03kDkvf5IAY
+	hog1mcvUl/XLDGTrCYOBYBP9lVxWwxdt9OMEf7S4K0aqAOoePFqMyDSZn+M5EGDQ==
+Received: by filterdrecv-57f6cf96d9-lgbmm with SMTP id filterdrecv-57f6cf96d9-lgbmm-1-65E6D1CC-20
+        2024-03-05 08:03:24.420006848 +0000 UTC m=+32789.937225237
+Received: from vmta30.logix.local (unknown)
+	by geopod-ismtpd-9 (SG)
+	with ESMTP id N1xPagKFQzOt5OB9hMSBHQ
+	for <bruce@untroubled.org>;
+	Tue, 05 Mar 2024 08:03:23.246 +0000 (UTC)
+Received: from outcontroller.logix.in (192.168.8.109) by vmta30.logix.local id hsr8sm1oo38u for <bruce@untroubled.org>; Tue, 5 Mar 2024 08:03:22 +0000 (envelope-from <sandesh.agre@prudentcorporate.com>)
+X-LOGIX-VOLUME: HIGH
+mtasender: sandesh.agre@prudentcorporate.com
+Received: from unknown (HELO tblr33.logix.in) ([192.168.9.54])
+  by outcontroller.logix.in with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 05 Mar 2024 13:33:22 +0530
+Received: from vdvm29-out.logix.local (127.0.0.1) by tblr33.logix.in id hsr8sk1oo38s for <bruce@untroubled.org>; Tue, 5 Mar 2024 13:33:22 +0530 (envelope-from <sandesh.agre@prudentcorporate.com>)
+Received: (qmail 104723 invoked by uid 1012); 5 Mar 2024 08:03:22 -0000
+X-Qmail-Scanner-Diagnostics: from 192.168.8.101 by vdvm29.logix.local (envelope-from <sandesh.agre@prudentcorporate.com>, uid 1001) with qmail-scanner-2.11
+ (
+ Clear:RC:1(192.168.8.101):SA:0(IronPort):.
+ Processed in 0.074667 secs); 05 Mar 2024 08:03:22 -0000
+Received: from unknown (HELO blrsmtp4.logix.in) ([192.168.8.101])
+          (envelope-sender <sandesh.agre@prudentcorporate.com>)
+          by vdvm29-out.logix.local (qmail-ldap-1.03) with SMTP
+          for <bruce@untroubled.org>; 5 Mar 2024 08:03:22 -0000
+X-ORG-SENDER: smtpauth@prudentcorporate.com
+X-SMTPAUTH: smtpauth@prudentcorporate.com
+X-VOLUME-HIGH: YES
+X-IronPort-AV: E=Sophos;i="6.06,205,1705343400";
+   d="scan'208,217";a="153442918"
+Received: from unknown (HELO mail.prudentcorporate.com) ([43.228.231.66])
+  by blrsmtp4.logix.in with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 05 Mar 2024 13:33:04 +0530
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.prudentcorporate.com (Postfix) with ESMTP id 8042D1800D6D54
+	for <bruce@untroubled.org>; Tue,  5 Mar 2024 13:32:38 +0530 (IST)
+Received: from mail.prudentcorporate.com ([127.0.0.1])
+	by localhost (mail.prudentcorporate.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id wApDuXoKW1OO for <bruce@untroubled.org>;
+	Tue,  5 Mar 2024 13:32:38 +0530 (IST)
+Received: from [198.37.103.68] (unknown [198.37.103.68])
+	by mail.prudentcorporate.com (Postfix) with ESMTPSA id 2028E180028458
+	for <bruce@untroubled.org>; Tue,  5 Mar 2024 13:32:35 +0530 (IST)
+From: Xenia Rusu <sandesh.agre@prudentcorporate.com>
+Subject: PurchaseOrder PrintOut for bruce, Item Numbers 012231-2285
+Date: Tue, 05 Mar 2024 08:03:24 +0000 (UTC)
+Message-ID: <20240305000218.D8403ECB2DB99640@prudentcorporate.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-AuthAs': 'Internal
+Reply-To: giuseppemammano@virgilio.it
+X-SG-EID: 
+ =?us-ascii?Q?I3mo+alTm+wZ+XXFLqaAbyxMoPujcdbXnsl2CXPf1BNvjuWpiFEe9cMsPOVnM7?=
+ =?us-ascii?Q?wGFTL6hPckerVx2=2Frk+nyx1tG4WfkCRLlL2lNun?=
+ =?us-ascii?Q?=2FnO10ytvj=2Fldk22Qkqt8+AWcyL=2Frdi1IEP30x9O?=
+ =?us-ascii?Q?etE6tjpjBeFetFw0cNhHee9o370kVbHSkErpszS?=
+ =?us-ascii?Q?HRC+jJpNAvySUOr7Bmx0+lHPnmsUPbuwHp5uj9b?=
+ =?us-ascii?Q?WqkCkxpltnHyF+nvOyrli+LMCEsXmw8P73PLcna?=
+ =?us-ascii?Q?XpOkwqGce1Vr4VENxEwDA=3D=3D?=
+To: bruce@untroubled.org
+X-Entity-ID: q5KlZwjYFFlfzxaifBaNqg==
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_741E983D.D43F2BC3"
+Content-Length: 16186
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_741E983D.D43F2BC3
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>
+
+<html><head>
+<title> Payment Receipt </title>
+
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001"></head>
+<body><div style=3D"margin: 0px; padding: 0px; font-family: monospace;">Hi =
+bruce,<br><br><br>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Malgun Gothic", sans-serif; font-siz=
+e: 16px; font-style: normal; font-weight: 400; word-spacing: 0px; float: no=
+ne; display: inline !important; white-space: normal; orphans: 2; widows: 2;=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-st=
+roke-width: 0px; text-decoration-thickness: initial; text-decoration-style:=
+ initial; text-decoration-color: initial;'>
+Please review and quote attached list urgently, will follow up with PO once=
+ i hear from you.<br><br><br><br><span style=3D"text-decoration: underline;=
+"><em>
+<span style=3D"font-size: 8pt;"><span style=3D"font-size: 9pt;"><span style=
+=3D"font-size: 10pt;">Note: Don't forget that all&nbsp;PI should be submitt=
+ed before the 26th </span></span></span></em></span><span style=3D"text-dec=
+oration: underline;"><em><span style=3D"font-size: 8pt;"><span style=3D"fon=
+t-size: 9pt;"><span style=3D"font-size: 10pt;">of every month.</span></span=
+></span></em></span></span></div><div style=3D"margin: 0px; padding: 0px; f=
+ont-family: monospace;">&nbsp;<br><br><br>
+<table style=3D"width: 316.48px; font-size: 0px;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody>
+<tr style=3D"color: rgb(211, 2, 45); font-size: 14.67px; font-style: normal=
+; font-weight: 700; white-space: nowrap;"><td align=3D"left" style=3D"font-=
+family: Calibri, Arial, sans-serif; vertical-align: top;">Xenia&nbsp;Rusu</=
+td></tr><tr style=3D"font-size: 0px;"><td align=3D"left" style=3D"vertical-=
+align: top;"><table style=3D"color: rgb(119, 119, 119); font-size: 0px; fon=
+t-style: italic; font-weight: 400; white-space: nowrap;" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 14.67px;">
+<td align=3D"left" style=3D"font-family: Calibri, Arial, sans-serif; vertic=
+al-align: top;">Junior&nbsp;Import&nbsp;Area&nbsp;Manager (Gulf Region)</td=
+></tr></tbody></table></td></tr><tr style=3D"font-size: 0px;"><td align=3D"=
+left" style=3D"vertical-align: top;"><table style=3D"width: 316.48px; font-=
+size: 0px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr sty=
+le=3D"font-size: 0px;"><td align=3D"left" style=3D"vertical-align: top;">
+<table style=3D"width: 316.48px; font-size: 0px;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 0px;"><td align=3D"=
+left" style=3D"padding: 0px 0px 6px; vertical-align: top;"><table style=3D"=
+width: 316.48px; font-size: 0px;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tbody><tr style=3D"font-size: 0px;"><td align=3D"left" style=3D"ve=
+rtical-align: top;"><table style=3D"font-size: 0px;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 0px;">
+<td align=3D"left" style=3D"padding: 6px 0px 0px; vertical-align: top;"><ta=
+ble style=3D"color: rgb(128, 128, 128); font-size: 0px; font-style: normal;=
+ font-weight: 400; white-space: nowrap;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody><tr style=3D"font-size: 14.67px;"><td align=3D"left" =
+style=3D"font-family: Calibri, Arial, sans-serif; vertical-align: top;"></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr><tr style=3D"fon=
+t-size: 0px;"><td align=3D"left" style=3D"vertical-align: top;">
+<table style=3D"color: rgb(128, 128, 128); font-size: 0px; font-style: norm=
+al; font-weight: 400; white-space: nowrap;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr style=3D"font-size: 14.67px;"><td align=3D"lef=
+t" style=3D"font-family: Calibri, Arial, sans-serif; vertical-align: top;">=
+<span style=3D"color: rgb(211, 2, 45);">t</span><span style=3D"color: rgb(7=
+5, 124, 83);">:</span>&nbsp;<a id=3D"LPlnk689713" style=3D"color: rgb(128, =
+128, 128); text-decoration: none;" href=3D"tel:" target=3D"_blank">+</a>
+39&nbsp;0522902150</td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr><tr style=3D"font-=
+size: 0px;"><td align=3D"left" style=3D"vertical-align: top;"><table style=
+=3D"color: rgb(128, 128, 128); font-size: 0px; font-style: normal; font-wei=
+ght: 400; white-space: nowrap;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr style=3D"font-size: 14.67px;"><td align=3D"left" style=3D=
+"font-family: Calibri, Arial, sans-serif; vertical-align: top;">
+Via&nbsp;Giuseppe&nbsp;Verdi,&nbsp;41&nbsp;&#8209;&nbsp;42043&nbsp;&#8209;&=
+nbsp;Gattatico&nbsp;(RE)&nbsp;&#8209;&nbsp;ITALY<br></td></tr></tbody></tab=
+le></td></tr><tr style=3D"font-size: 0px;"><td align=3D"left" style=3D"vert=
+ical-align: top;"><table style=3D"font-size: 0px;" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 0px;"><td align=3D"=
+left" style=3D"padding: 10px 0px 0px; vertical-align: top;"><table style=3D=
+"font-size: 0px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody>
+<tr style=3D"font-size: 0px;"><td align=3D"left" style=3D"vertical-align: t=
+op;"><table style=3D"width: 21px; line-height: normal; font-size: 0px;" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size=
+: 0px;"><td align=3D"center" style=3D"padding: 0px 3px 0px 0px; vertical-al=
+ign: top;"><a id=3D"LPlnk689713" style=3D"color: blue; text-decoration: non=
+e;" href=3D"http://sendgrid2.prudentcorporate.com/ls/click?upn=3Du001.QqMKD=
+-2FhM4MDrlXhG-2BH1yBY-2FqW-2B20EaHcja1Ckz1FEO2NR7S-2B9Bg3TqzLsz7-2FTxPONOkO=
+a53qvNF-2B8NIFpyXLkouR64nuxGJokF-2BxMkVwh-2Bk-3D10nU_wtA-2FcmM7TYClT4mFumfH=
+2N5HDdV7Igbvm6orrAfsp77mPNTI9eYvYNPH49HBj4TWyXDvNYM3hi8sU8-2F1vMz6dw6ZopbAr=
+aBm9PqPM2oImK5t-2F-2BRAoVYeWI053aJb7tw9xYKFMkxQ330xBn1p-2Fu80JeuFl1uIWCmNKP=
+G74nirziYXAcWk1gCN0xYTUcwpbr6rI3-2BqZVTh77zsqBacPHB-2Fxw-3D-3D" target=3D"_=
+blank"><br></a></td></tr></tbody></table></td>
+<td align=3D"left" style=3D"vertical-align: top;"><table style=3D"width: 21=
+px; line-height: normal; font-size: 0px;" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tbody><tr style=3D"font-size: 0px;"><td align=3D"center" s=
+tyle=3D"padding: 0px 3px 0px 0px; vertical-align: top;"><a id=3D"LPlnk68971=
+3" style=3D"color: blue; text-decoration: none;" href=3D"http://sendgrid2.p=
+rudentcorporate.com/ls/click?upn=3Du001.QqMKD-2FhM4MDrlXhG-2BH1yBeP3PWVg2qo=
+Xf9mtJwEt1iYhXfoqdKaXZNmrZiqtCFCy7nuKBFodmvfi8toXrwxyYcBaYIQ-2Fl1PjboQQn-2F=
+LEN5c-3DNVy__wtA-2FcmM7TYClT4mFumfH2N5HDdV7Igbvm6orrAfsp77mPNTI9eYvYNPH49HB=
+j4TWWpB4C1S9o1F3iKPcipvZDWx-2Bf-2FTs3H8Bv0pUO0EMg4F1ywK11bN8mFj944SRTTuOmrT=
+FYA3mbPG5j0WDihByh1PPT6VKjomrinT9iQFPb8uYeq5ac7OqN-2BXpH3YkVItIP05EPzS-2Bkn=
+E69QNEIYx3xA-3D-3D" target=3D"_blank"><br></a></td></tr></tbody></table></t=
+d><td align=3D"left" style=3D"vertical-align: top;">
+<table style=3D"width: 21px; line-height: normal; font-size: 0px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 0=
+px;"><td align=3D"center" style=3D"padding: 0px 3px 0px 0px; vertical-align=
+: top;"><a id=3D"LPlnk689713" style=3D"color: blue; text-decoration: none;"=
+ href=3D"http://sendgrid2.prudentcorporate.com/ls/click?upn=3Du001.QqMKD-2F=
+hM4MDrlXhG-2BH1yBTfpEWXdhvJnEZdyndNHlfbzGLnn8-2FFVwAnvcScegb8k0xu7D6iVKEPTQ=
+PsHC1QWNQcVLhO46vhZy-2B-2F7B4mnyjQ-3DRzcG_wtA-2FcmM7TYClT4mFumfH2N5HDdV7Igb=
+vm6orrAfsp77mPNTI9eYvYNPH49HBj4TWlOGtcSfHQfBwlfDSjXHASU1d7hqAjtvUY9nXxVYZDU=
+Ku-2B0Bojxj-2FhddOH2-2FPpGJEawFrVaCPRjaZF0pxlbHeTV5V7z4A8cODmbH9tqSdWsKDLiS=
+27qkRZghvI6kG-2FypWmQhuO6GLlUa4qNh67SIJtA-3D-3D" target=3D"_blank"><br></a>=
+</td></tr></tbody></table></td><td align=3D"left" style=3D"vertical-align: =
+top;">
+<table style=3D"color: rgb(211, 2, 45); font-size: 0px; font-style: normal;=
+ font-weight: 400; white-space: nowrap;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody><tr style=3D"font-size: 14.67px;"><td align=3D"left" =
+style=3D"padding: 0px 0px 0px 10px; font-family: Calibri, Arial, sans-serif=
+; vertical-align: top;"><a id=3D"LPlnk689713" style=3D"color: rgb(211, 2, 4=
+5); text-decoration: none;" href=3D"http://sendgrid2.prudentcorporate.com/l=
+s/click?upn=3Du001.W9QaS7JpkBxsIlb6VH6-2BGDYceUdD-2B7DXQF-2FWyzv6-2Bzc-3Dto=
+CU_wtA-2FcmM7TYClT4mFumfH2N5HDdV7Igbvm6orrAfsp77mPNTI9eYvYNPH49HBj4TWax4e9H=
+whG3NBnPOubFAiq8sZTFdV5BXDPJjHDrT8IS4vif4f2RrEf7P2NGsYakzP6-2FglyU8vcYnbCqC=
+zOjTks-2BHnMIR1Zva1W8urfITcLrccBIYc7B2NzVy2L3UOqSjKPQBoU9cscsG71zPfaoOwdA-3=
+D-3D" target=3D"_blank">www.cattini.eu</a><br></td></tr></tbody></table></t=
+d></tr></tbody>
+</table></td></tr></tbody></table></td></tr></tbody></table><table style=3D=
+"width: 316.48px; font-size: 0px;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody><tr style=3D"font-size: 0px;"><td align=3D"left" style=3D"v=
+ertical-align: top;"><table style=3D"color: rgb(128, 128, 128); font-size: =
+0px; font-style: normal; font-weight: 400; white-space: nowrap;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr style=3D"font-size: 14.67=
+px;">
+<td align=3D"left" style=3D"padding: 10px 0px 0px; font-family: Calibri, Ar=
+ial, sans-serif; vertical-align: top;">Downloads:</td></tr></tbody></table>=
+</td><td align=3D"left" style=3D"vertical-align: top;"><table style=3D"colo=
+r: rgb(128, 128, 128); font-size: 0px; font-style: normal; font-weight: 700=
+; white-space: nowrap;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><t=
+body><tr style=3D"font-size: 14.67px;">
+<td align=3D"left" style=3D"padding: 10px 0px 0px 10px; font-family: Calibr=
+i, Arial, sans-serif; vertical-align: top;"><span style=3D"text-decoration:=
+ underline;"><a title=3D"YAK Catalogue Download (PDF)" id=3D"LPlnk689713" s=
+tyle=3D"color: rgb(128, 128, 128); text-decoration: underline;" href=3D"htt=
+p://sendgrid2.prudentcorporate.com/ls/click?upn=3Du001.QqMKD-2FhM4MDrlXhG-2=
+BH1yBYNjcFqc69La-2F2T4cTGjq7gEPG1ykYFVP34GL-2Fd-2BCsBBKYvRFqreZp-2B2x3Ne-2B=
+6peMg-3D-3DE_Ff_wtA-2FcmM7TYClT4mFumfH2N5HDdV7Igbvm6orrAfsp77mPNTI9eYvYNPH4=
+9HBj4TWq5bIQBTtzJXO715JMK1GjHQEyxCVk-2BMdffdAG1thEioLJ5sBSIJaXUcYF8DhLOn0kL=
+-2FiWL52IZEK5FU5gaLnhiFdQkVFxd0JZplRHM-2F9ENaUo-2BMxX6c0cqLmlDygQ2MFW8Lt-2F=
+hqYr8c2W1Hih2IafA-3D-3D" target=3D"_blank">YAK&nbsp;catalogue</a></span></t=
+d></tr></tbody></table></td><td align=3D"left" style=3D"vertical-align: top=
+;">
+<table style=3D"color: rgb(128, 128, 128); font-size: 0px; font-style: norm=
+al; font-weight: 700; white-space: nowrap;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr style=3D"font-size: 14.67px;"><td align=3D"lef=
+t" style=3D"padding: 10px 0px 0px 10px; font-family: Calibri, Arial, sans-s=
+erif; vertical-align: top;"><span style=3D"text-decoration: underline;">
+<a title=3D"MAMMUT Catalogue Download (PDF)" id=3D"LPlnk689713" style=3D"co=
+lor: rgb(128, 128, 128); text-decoration: underline;" href=3D"http://sendgr=
+id2.prudentcorporate.com/ls/click?upn=3Du001.QqMKD-2FhM4MDrlXhG-2BH1yBQfFN4=
+74CH1XteRjqrX6eoe6Rt8Nsrw8y7aearvAlLlK04EkoE6LhlgzcWE79krhsA-3D-3DEZTd_wtA-=
+2FcmM7TYClT4mFumfH2N5HDdV7Igbvm6orrAfsp77mPNTI9eYvYNPH49HBj4TWV1XXDz45-2FFK=
+KnD5eZZIYMjy9l-2BoBpOEjCMDsCjmupWnNVjokKdOghoWwHsumnvThCbuzrPDcMXymX0hvenmi=
+Jfukk-2Flps5gVm3D13zuFaTszEOSZINAdqdRVV-2FyLGqGhtfQhtuJd114rBVv5yl9izQ-3D-3=
+D" target=3D"_blank">MAMMUT&nbsp;catalogue</a></span></td></tr></tbody></ta=
+ble></td></tr></tbody></table><br></div>
+<div style=3D"margin: 0px; padding: 0px; font-family: monospace;">&nbsp;</d=
+iv><div style=3D"margin: 0px; padding: 0px; font-family: monospace;">&nbsp;=
+</div><div style=3D"margin: 0px; padding: 0px; font-family: monospace;"><br=
+></div><div style=3D"margin: 0px; padding: 0px; font-family: monospace;">&n=
+bsp;</div><div style=3D"margin: 0px; padding: 0px; font-family: monospace;"=
+>
+<div align=3D"center" style=3D"text-align: left; color: rgb(44, 54, 58); te=
+xt-transform: none; text-indent: 0px; letter-spacing: normal; font-family: =
+Roboto, sans-serif; font-size: 14px; font-style: normal; word-spacing: 0px;=
+ white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; backgr=
+ound-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varian=
+t-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: =
+initial; text-decoration-style: initial;=20
+text-decoration-color: initial;"><span style=3D"font-family: verdana, helve=
+tica, sans-serif; font-size: small; box-sizing: border-box;"><strong>------=
+---------------------------------------------------------------------------=
+---------------<br></strong><span style=3D"font-size: 10pt;"><span style=3D=
+"font-family: Times New Roman TUR;"><strong>Confidentiality Note:</strong>
+ This message is intended only for the&nbsp; named recipient and may contai=
+n  confidential, proprietary or legal privileged information. </span></span=
+></span><span style=3D"font-family: verdana, helvetica, sans-serif; font-si=
+ze: small; box-sizing: border-box;"><span style=3D"font-size: 10pt;"><span =
+style=3D"font-family: Times New Roman TUR;">Unauthorized individuals or ent=
+ities are not permitted access to this information.</span></span><br><span =
+style=3D"font-size: 10pt;">
+<span style=3D"font-family: Times New Roman TUR;">Any dissemination, distri=
+bution, or copying of this message is strictly  prohibited. If you have rec=
+eived this message in error, please delete  this message and any attachment=
+s.</span></span></span></div></div>
+
+<br><pre>
+<html><body><p><span style=3D"font-size:9.0pt;font-family:Cambria,serif;col
+or:#A0A0A0"><br />
+The information (including the attachments) contained i
+n this electronic communication is
+intended solely for the individual(s) o
+r entity to which it is addressed. It may contain
+proprietary, confidentia
+l and/or legally privileged information. Any review,
+retransmission, disse
+mination, printing, copying or other use of, or taking any action in
+relia
+nce on the contents of this information by person(s) or entities other than=
+=20
+the
+intended recipient is strictly prohibited and may be unlawful. If you=20
+have received this
+communication in error, please notify us by responding=20
+to this email or telephone and
+immediately and permanently delete all copi
+es of this message and any attachments from
+your system(s). The contents o
+f this message do not necessarily represent the views or
+policies of Prude
+nt Group. Computer viruses can be transmitted via email. Prudent Group
+Com
+panies attempts to sweep e-mails and attachments for viruses, however it do=
+e
+s not
+guarantee that either are virus free. The recipient should check thi
+s email and any
+attachments for the presence of viruses. Prudent Group doe
+s not accept any liability for
+any damage sustained as a result of viruses
+.
+<u></u><u></u></span></p></body></html>
+
+
+</pre><br>
+<img src=3D"http://sendgrid2.prudentcorporate.com/wf/open?upn=3Du001.aOcOzw=
+6FSQXV8TFcIADRG19wvRdoer5Q-2BtyaUexl-2FMFV5Vttkmx4DYW9NpxYco2evKRI4BDEyI-2F=
+FzJPL-2B6pxTnaHKpahUHC-2F7L4-2BTZCDynhDtcQLP1qTsdV66AE-2BUpP8c7m-2FhI8JfVxl=
+O2jdy9eHr3J0XHQIGSj5bk5DFtVpkUy7Enfod1Hg4nXsDPTMjciO-2FzZZpzaVIo7CiKPnG21VM=
+L3l3dTVHI8aCx10mwSBRFs-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" s=
+tyle=3D"height:1px !important;width:1px !important;border-width:0 !importan=
+t;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !import=
+ant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !imp=
+ortant;padding-right:0 !important;padding-left:0 !important;"/></body></htm=
+l>
+------=_NextPart_000_0012_741E983D.D43F2BC3
+Content-Type: message/external-body; access-type=x-deleted; length=759225
+
+
+Content-Type: application/octet-stream; name="New Quotation Request from cattini-04-2403200137.shtml"; charset="utf-8"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="New Quotation Request from cattini-04-2403200137.shtml"
+
+------=_NextPart_000_0012_741E983D.D43F2BC3--

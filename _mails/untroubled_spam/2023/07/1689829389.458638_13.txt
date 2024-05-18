@@ -1,0 +1,1822 @@
+Return-Path: <account46257715@venkateshwarschool.onmicrosoft.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 437246 invoked from network); 19 Jul 2023 18:32:07 -0000
+Received: from IND01-MAX-obe.outbound.protection.outlook.com (mail-maxind01on2075.outbound.protection.outlook.com [40.107.222.75])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Jul 2023 18:32:06 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=venkateshwarschool.onmicrosoft.com;
+ s=selector2-venkateshwarschool-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=5iTdnC6J64gQOq94CpVcaHPr8adBVlrk+gm4BmmIBPk=;
+ b=QR7raxjRNUm2wi8JAxtBfmMoC7QGWrky/kf9pd00WtWcLHHi8M9+Koh41xi5l7cNjAg8Ol+oLPTO3ZCaxEOvJru2jZGOKYMEbfwY9cv0fSncI86JK1agW9VWglIy7Fq45UIAbzcItpQJOfa+DfKdBG8YHXwOyN+vbcs4A9pRgbA=
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 146.59.24.192)
+ smtp.mailfrom=venkateshwarschool.onmicrosoft.com; dkim=fail (signature did
+ not verify) header.d=Liceonewton.onmicrosoft.com;dmarc=none action=none
+ header.from=venkateshwarschool.onmicrosoft.com;
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=dXLMBXmoC9utx1bFxV4Ijjj0bcjzwlC6T2G/of/9VeYfuG0k2YqgPuVrUOGFlcIoYEjbXekBR3tSLHGFKNRcBGY3jhZFd1hJ35brmVWiCaZK1NOGtBLyXR4h83OspT169A2Pig2ul+QQCtEdvvmWF86AF2qL63W35yw1tJ6MitAJYd+efgcKvP6oss3cAjelmgsfGEtgpOECZeL7dL9HZtpUS+EgwlbC1I14VaiZvEeAW2pTxgbY/FJNsU150SwQa4FbQVORLNYqDVuhFW8QbCcBha3RiSNBK+3PaVQ2OdXLNeFeo1lnoxA9xfsqPh3ZOzcTMqVWL1c8zCFXoeWx9g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=e3THea6F0E0OwByCTRDr9vat8K+pGr+RE6OFj5VL6vY=;
+ b=YN/lQgt0GGdtdZ6zqt9BQtopaAZxLmqDeOTtUgbZXT96jln4G6q8WTk944p0JdWXtg0I/m2xJX9i66QhZhvDR+AwEAWMSfWcfryabfPyYT0TxVbjq5Qj/vW0EO218hTSr4go2SXb/5ZUDwITosmrB3o36rXFhPTICIJue5p3Yymne8RUuqJxf5OBLydcotxMaxECQ19HwikYxM7IA2gzZFH3g9CdZG+XFKekNl0s7xU046c393hjUrFqpE5+fffKAP5RhzCaPQfIGwYB9eELy0WcppCxoAOol8sSbqJmBlRAesJ1xw9E+m/hS0rsYreG+dG6DvUOe5ZjOJwLqhebCQ==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 52.100.202.236) smtp.rcpttodomain=binus.ac.id
+ smtp.mailfrom=liceonewton.onmicrosoft.com; dmarc=fail (p=none sp=none
+ pct=100) action=none header.from=syonet.com; dkim=pass (signature was
+ verified) header.d=liceonewton.onmicrosoft.com; arc=pass (0 oda=0 ltdi=1)
+Authentication-Results-Original: spf=pass (sender IP is 52.100.202.236)
+ smtp.mailfrom=Liceonewton.onmicrosoft.com; dkim=pass (signature was verified)
+ header.d=Liceonewton.onmicrosoft.com;dmarc=fail action=none
+ header.from=syonet.com;compauth=fail reason=001
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=AhWOzVf0vTFVW9f94f60NpadMeHumI272QKILzhyDx8QZsGBaWpOVptOx4M1pHitAlXqW51hzO7U/Hns0Pw16EmzcbOisYzZ9iYQkZBbQEQJfs1cZDlcKn0EktTMDXmS3xwwyIx4lQRD5nHYzhw36ZJu8SO26v4Qn6J1LRmGiXqOyc4B7rqDszMpZlg66/Vw4Sv0zCc4NCXIjW16S4WxBncElkHt57/xblEcrIX/ZOwKMTxidBgswcCl/otC0GCDsjPhQCEvEoX94wI4dLT/ooUtDQDkWVYi3uGx327s7WFTyl4uoBjmBVaKVP8nyk1/tbp9F4PHeUHB56CZGZN4LQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=e3THea6F0E0OwByCTRDr9vat8K+pGr+RE6OFj5VL6vY=;
+ b=EWNMPj7zqEYy4Zxvv9eVM5YyWMNPf+vNm8PHYRNZluIQoe6UmYvBTDSLrjphAQGzMDPSaUwTw3lBc5FlAAE3iCuEXpmhzMljri148u5PSbgQlY0uYcJ9nNLAPp9N+fONuYrZ47zuXb3JQgVM75eFvhzidOVdBxYHnjfXi2aKGxX5GDtToYSHIcn9ruUW45JqL1KRbwNQ+OOyyBTP3HvhiPqTLE3ppiqB4+lINIDpHIu8L/AcgyXbSxQUvMsN9Vn8AmBV2MG/3l0aAxhEcBSaKLGhlFCUgLc3Fu+vMNE6JOHToZNStYNBOIwz1KkM2pnFSIm1rj1NJB715HfVlFOvWg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 146.59.24.192) smtp.rcpttodomain=binus.ac.id
+ smtp.mailfrom=liceonewton.onmicrosoft.com; dmarc=fail (p=none sp=none
+ pct=100) action=none header.from=syonet.com; dkim=none (message not signed);
+ arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Liceonewton.onmicrosoft.com; s=selector1-Liceonewton-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=e3THea6F0E0OwByCTRDr9vat8K+pGr+RE6OFj5VL6vY=;
+ b=iEy1h8o4bRDSBZNT9MHSXd4+cG5tG6pLd5EQn+kcLAxkRpTNrMPAAn/SCzqdgZRBGMSBEwGku0RAMInmtIFfa851WHLyRt5JqSBKm+G/qFwzfTXY9DOdvJAzkiPhdJdTbQL+Kv3oFJ2ZomW/lGMcKHhl+IJ2XalzM2VQRRIt6kQ=
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 146.59.24.192)
+ smtp.mailfrom=Liceonewton.onmicrosoft.com; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none header.from=syonet.com;
+Content-Type: multipart/alternative; boundary=fd8ad8f14f8ba987bf38984ba0b2f898521f2d950335648e0c2d368b65f2
+Date: Wed, 19 Jul 2023 11:31:27 -0700
+From: Isac da Syonet <mkt@venkateshwarschool.onmicrosoft.com>
+Message-ID: <UEKtzj3cpa4DnQWg@geopod-ismtpd-5>
+Subject: =?UTF-8?B?VGhhbmsgWW91IHNpcg==?=
+Reply-To: bentoto01@aol.com
+Precedence: bulk
+X-SG-EID: 
+ =?us-ascii?Q?Mv7R8zmuD2Tvv4NCOe4gFvzGN+sPSh6K80RZEpS6R4rQ=2FyU6=2Fuzhai1Wbstkjm?=
+ =?us-ascii?Q?3B6ZxqF1Ezlqa5XmYwOxJitb3TQTkIvOmqkuuhK?=
+ =?us-ascii?Q?l9ygU99xdV0BtiZ37W6H571lSm2b2KAA6S9OPbe?=
+ =?us-ascii?Q?WdE4SE+g3hwNsT168kzp7YEmPAAeiLRU26BppJJ?=
+ =?us-ascii?Q?HFvjaK7dCMEmxBJzSHPdydpButnoXYNPO0j3qkK?=
+ =?us-ascii?Q?5MSuoz+nv9sYMLIITurfEqPR5ZOsXFeCBs7uGh?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FLYmAQanpvv4WNczrg2hb?=
+ =?us-ascii?Q?oZN9hvzZ=2FrFJ+Dy2EjO1z4kgISsmhoW6Ppneiez?=
+ =?us-ascii?Q?669R5i0i1erx9KCuzZw+2+kS0suBPcvGHi0VcW1?=
+ =?us-ascii?Q?sFSbjWV2G4Fzd6EuzzTxJuX8PssH7zyGrRPJam7?=
+ =?us-ascii?Q?TWrZYuRu4u0WmYaPoXNZy0+nKqTmdbhfo4cDrW+?=
+ =?us-ascii?Q?owRgEPEJkQJLBe6RdMIKRCCoPoBef4S=2Fiq5QyPN?=
+ =?us-ascii?Q?8SPeQWrJ12DboN6B=2FIYV78PSZBSZ0pSoBEYyTEO?=
+ =?us-ascii?Q?v3z9bkcv4gTXIqVygkLL187qcgf8ye8RzkP5d3b?=
+ =?us-ascii?Q?n6=2FKRcDBJecXb2lVU=2F208flFdHtC6em6MB4VtZ6?=
+ =?us-ascii?Q?rK18uHpXaZzSToIF6od7kIkQYJV=2FtscA9Vd1p3K?=
+ =?us-ascii?Q?LsMT2vstZW4rVjYD3wfsy634vixX8DWjPHNm2Il?=
+ =?us-ascii?Q?0d9N+37S7qzl0Ecw1qCAmqHnbuvVYnm=2Fn+BB9qW?=
+ =?us-ascii?Q?LAKZz9JIVWSerD4ElI=2Fyh1HXrKLsmpt51W+O2mA?=
+ =?us-ascii?Q?MlY8stcOLKHwb+KWYD43zmHTL=2FPq3TeHeJ1hrSD?=
+ =?us-ascii?Q?2zV+W+Kc4YOLfR0MaWus9ADFo1U5MX+uJc6QJXe?=
+ =?us-ascii?Q?uov4wWxLrYGWs+O8XrPqtBEevDt8F0YZu+idtnN?=
+ =?us-ascii?Q?KnsLqeOto7HGWMg=3D=3D?=
+To: bruce@untroubled.org
+X-Entity-ID: P3A+rQXb1yiRGXtjPhmp1w==
+X-EOPAttributedMessage: 2
+X-MS-TrafficTypeDiagnostic: 
+	HE1EUR01FT059:EE_|AM9PR04MB8438:EE_|HK2PEPF00006FAF:EE_|SEYPR01MB5049:EE_|TYZPR01MB4234:EE_|BMXIND01FT030:EE_|PN2PR01MB4219:EE_
+X-MS-Office365-Filtering-Correlation-Id: d7fa3b89-abe3-4012-3df9-08db88866bd4
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: 
+ asXhLJs20Vfrq9xrNIDRl8Y4ZnhpuyUIXOLo9YbtdU+Y4N0BIFnV/ilwEHSErM2azKlTezU/xsv12fqjWNRmjGequpP964e6y2iiF7ieSqgivFG7p92rl/IacW9vNLV3LiVJgErxFHCLAyBJZhb6gV/kVetC61G5nYtDaCxRNgmAUbXE9KV0UI3Tl2z9XbatJdS61oSd9Tc7NFnxCmBw1xsVBybAZUTiNjDD8xT3NOtNGhOVJsj9I+Pm5ZWOsuuNJE0t3hrwEsNIJ8DCy0i4HUPM3yj6M2wCpmh0gns1W2BurXO1UGQkXjnGufam07GIWCjefVVpnk88VNueVharUPU+8XIf+EwAyqk5zVBMLnqQGEo39ZNZBO2IpxlwZyPQ1xC4+cO+Ul5Xw/nArAMkCp9F8xXLTXNlNAo35urTKmJd+yRAUnW95OwSMBEXgfsa/m5iUm7nTsbXNhaWFF73AQpO62wv8tSU++390rrW5WxR6+Flf7NhWrk9eH+jbAMJaQ/uBYvKHUD2+GqWR9BRCexfLizEDOneYKItrEd0M/eyxYJbZ0KuHZaJdQEjHCYKbyuZmZ1vt5Y24+wkteJ9LiR+YEQWs4eBuGsUyibFO1OMVsl4qRv9XjtqW44lwU5UpntpSDtrqpdv3DFWZVT1MLTekW+stDtgtmjHMrsatgfGLdf6k1Z/FVV00mq1M8O+W6T/23t0yfHxHPLfw1X4Ew==
+X-Forefront-Antispam-Report-Untrusted: 
+ CIP:146.59.24.192;CTRY:US;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:Liceonewton.onmicrosoft.com;PTR:ldokeiedlo.com;CAT:NONE;SFS:(13230028)(376002)(396003)(39830400003)(136003)(346002)(1690799014)(451199021)(82310400008)(36840700001)(46966006)(33964004)(478600001)(47076005)(26005)(166002)(83170400001)(966005)(9686003)(42186006)(2860700004)(70586007)(70206006)(81166007)(6916009)(42882007)(19627405001)(336012)(186003)(36860700001)(66574015)(30864003)(235185007)(5660300002)(41300700001)(8936002)(7066003)(316002)(786003)(2906002)(76236004)(40480700001)(33716001)(41320700001)(224303003)(86972003)(131040200001)(15450700054)(559001)(579004);DIR:OUT;SFP:1501;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM9PR04MB8438
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: 
+ HK2PEPF00006FAF.apcprd02.prod.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: 
+ HK2PEPF00006FAF.apcprd02.prod.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 
+ acd84eec-e20f-41fe-62dc-08db887b128c
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Forefront-Antispam-Report-Untrusted: 
+ CIP:52.100.202.236;CTRY:NL;LANG:pt;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:EUR02-AM0-obe.outbound.protection.outlook.com;PTR:mail-am0eur02hn2236.outbound.protection.outlook.com;CAT:NONE;SFS:(13230028)(4636009)(7916004)(84110400002)(84550400002)(26402899009)(10202899009)(451199021)(52599015)(1690799014)(26005)(2860700004)(33964004)(496002)(336012)(8636004)(42882007)(6506007)(9686003)(6666004)(6486002)(6512007)(966005)(19627405001)(58800400005)(36736006)(6916009)(5660300002)(7066003)(1096003)(66574015)(956004)(30864003)(83170400001)(7636003)(356005)(166002)(224303003)(33716001)(76236004)(76899015)(131040200001)(86972003)(559001)(579004);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR01MB5049
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:14.0268011
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6609.024
+X-Microsoft-Antispam-Mailbox-Delivery: 
+ ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info-Original: 
+ =?us-ascii?Q?DV7N1JHefruAnTvScIpPHGFtmtX8rsATf5G0dIrvaQUEAGM69IKuyTVowiN2?=
+ =?us-ascii?Q?4Z3J2kXxB5W4sC9TBUSlMxUwf2BaEhbhJOEZ5o/M53ob1mResQzGuvqDXzBl?=
+ =?us-ascii?Q?mPrdGYVmSNcYdvFt9w7hQAdWjSSAVHenMKOJ1r98TE36crICKWIx2OcPPBgX?=
+ =?us-ascii?Q?MMIyXdHhAkdds48wxyL9ECfZVcJRcu2ZDrAcOsHa+wgI3QUx+AGlKoN/cFGN?=
+ =?us-ascii?Q?8eGI+nYY+NbmM+HSkpX/n8GTK2E2BltJyKD1KoJECUwG+ne3zv79PReUQJSX?=
+ =?us-ascii?Q?Mx3E5qtNxl4J963MaK6bnmY8gaJ33SR+JDrJmQ83cBk5ZSYftWshdmIDmZ+W?=
+ =?us-ascii?Q?DVi0m5nGqzBByn/9V9EGnm0H/prznqcre3RyKnUvno3D9o3pSvrCz9yISHyo?=
+ =?us-ascii?Q?wT4fDyNHyq3EbuWGagr0oYeC7hRdgITWngi60ud92XupPle23dN04pCQ7Zqd?=
+ =?us-ascii?Q?Yh+wjyNA4uS+5OVe3ieHwN3/5XgYaNnSiZ/kEZ7HtVMmtmpgFnAtrDLVX935?=
+ =?us-ascii?Q?VYLDon8CfjET+rIuPdo0OAahRKJDuxgYcuKNRYXhfL0iE35ZMq2stLhjFcgm?=
+ =?us-ascii?Q?5Mfns/2/ywCJf6tZhGzuMpLzCKMFbhK+KpnCpW5vupqc2X9GEv3sKhfdSTNV?=
+ =?us-ascii?Q?HX+xOIGkHuZnKofBHh8P/nHQhTHt2urwcTbgXJzG0Az8g59esck2p4vZuvvB?=
+ =?us-ascii?Q?OugqVf9MWEY2BwfyJaipmJAZjtzAE7iaRp48hkZ6RFWHuYWbGHPERw0JPmTa?=
+ =?us-ascii?Q?mAtNQbkKiAOGQfWiHJKIs2bldQUpN7Xs2Hk8XftuvomRztITob+IW0QIPNHV?=
+ =?us-ascii?Q?trBH1apJlRs7Uhu88jkKQI7TnawRrGXNIYfVagqi/zyY7nevLgxmOU8nswxi?=
+ =?us-ascii?Q?tGWXiaAs2e9SqX/HGNezRcl0CCgoHmlYSSW0nK8DteAkkeSttr1f6G9ICvlM?=
+ =?us-ascii?Q?X+ybIWTkxI5n4l3RE5KnI4IzsB8RfEDuwzyZ12UJKAVTW0OGy7Z4c6iaAn5D?=
+ =?us-ascii?Q?UiFeGMwuromPEQ3dvQl6kjZoxKL+bU0+rkxrL67AeRfXSEcBv8sVbXmlSU96?=
+ =?us-ascii?Q?Eev6L6NAh2atU7krVe0vb0FL19BtRxqF+94eXYKyKVPkClX+2mwyniRRXHto?=
+ =?us-ascii?Q?K3bv5yUARjbSFNIAxjtkXZUXeW3u+J4rRJ/lkpi3eSyniwlgVf+nVlzg0tTp?=
+ =?us-ascii?Q?iiS/ZAoYzImZY4OlpyIL53CxpaYZDEJmhRgbRPZojY5iVD+q5tOOfKJbgiIb?=
+ =?us-ascii?Q?G0Z5vlOQlgX99OEFpZ8OpTtp5DDL9eagsRCYwN7tKirt3r+Y2mXsUEiJqYtl?=
+ =?us-ascii?Q?VAENVfJt0bwBqXiuH5P/Fhehxm8jMEx51Wv2jIWJM5QLXEBak2No1WEc2kfa?=
+ =?us-ascii?Q?faNcNYtp4UwxDCDt63jy3FxdAG0KuX2BUjWGSbwDFj+rg76TQPFzbMKYbFur?=
+ =?us-ascii?Q?cB2O2ZksCJ6BH1Y5FjNqwS+jyXF703jyvsMre42FbvIyvgWLUfRYCmSEB6ZO?=
+ =?us-ascii?Q?B1ApIlLgsvj+t5nHCSbE6h6ngP9Br1pqmq0fuiUL5kqGmPLppSF7P7uTs+S5?=
+ =?us-ascii?Q?xBZlRoZSP9ah9XN835XxPYmlkOj5ppk0y6EgchqV4KJRTwuH1/Yrbj4Ny9kM?=
+ =?us-ascii?Q?XG76TFzm+EpJqscpeuVfESE9vDHuExyJxdfFBIWq8RBYvIv9qvlEpjkrlhGL?=
+ =?us-ascii?Q?nP93q0953e4r2rdoFAeulRe+4Vbn9DVWynLDsymSJjvK1iY0EKswdMPYtLt/?=
+ =?us-ascii?Q?KE03QUSBtAEJ+mW/0k2BUzp3UWoUsIj5D6LmsFaFRHdlx/DnccsyzmgCt5Z8?=
+ =?us-ascii?Q?VBEVNcjtCak72XP4B4nhdOQrnyU+SWQaH1YzgyZLJHfjiB3pQt5dXj1NurhI?=
+ =?us-ascii?Q?g83kpD8mgWN81dcxVwPKn4FhdEFQX6Mn7SBR8hIlG+eg1Of8pA75Y0PB2w84?=
+ =?us-ascii?Q?pxoEgnnWJh3AiMhj7ce/fEEg6tdmLu59qJW+7/5/lAh+dLQ1dw+vARTCP8oU?=
+ =?us-ascii?Q?lSx7PMNUzsikGW8CkGZMCgWspQ=3D=3D?=
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: 
+ BMXIND01FT030.eop-IND01.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 
+	a93bf1d5-562f-4ebc-3494-08db887b15cd
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	dkIsBypLXrj6TGJZXLLGkMDUerqTxe4lJ13X+euXbNq3sIPMoJVx8PZNNx5cR0meVXKNEmtQRZN5PW5Hn5Q4O7IeWgGz5ueHjjZRYbpOOonlEK+HSuQ1v/1YJAq6Ib7nE5gzYANQTODjL52Xe0Qpb88Gc+/nkOMK/7slXqBINLz1OUqF9sRvgzQn6lVtZSy9qLahOez415RMEsUJzNrKj7aXd9/LjqHFjPZKMYfCM0UnRe0hfw7jZmMrrAn3TleHwKd8g5SOqUDynQuYtd9xy8Atsc7/llXYzXhgTMIZxAZ9dQXl1of8ByiTx92sQrjlEP2kWbNHYVnUd1DIpojVWG0fMpwxWlroGGDJoX6BDCjIKUyLQg7W4NC5b+EfO2VGuBPDrzxGAGyZCWILatuOzPkMypOeRfG/eT39D2pcARWHsf9JHinakO4WKRMbKu9z5Onb5HZ1UOi9qzPQz9ba+c1FZcfUtjvqLs9NcgxsgZoZ4VSb5I6AMjxqe6eZr4i7iCndq39J1cQb5Ged3c7nqZN85r9zR3UrB6Iw6goev8wPa4OW66b/qIzOKFV5HYmcn4vGQS6wAB75jB5fXI/nM/U+/uFSvcfsBVet3S/QHf9udvWciUsSVPezv21wGmiKC9CLj83W1XraubQT6XEw33HmJc8cy2vzG+Sg+v7JqRMbAWxlJJKjN4QN7LxKdXeQ3hBNmodB13KFXeaUcNQiXBshsWVHgDbYQ1DKgnLWrJc=
+X-Forefront-Antispam-Report: 
+	CIP:146.59.24.192;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:venkateshwarschool.onmicrosoft.com;PTR:ldokeiedlo.com;CAT:NONE;SFS:(13230028)(346002)(39860400002)(376002)(136003)(396003)(82310400008)(451199021)(7200799014)(1690799014)(40470700004)(46966006)(36840700001)(30864003)(2906002)(40460700003)(76236004)(82740400003)(41320700001)(186003)(496002)(336012)(33716001)(36860700001)(3480700007)(66574015)(47076005)(81166007)(166002)(26005)(8400799014)(966005)(478600001)(2860700004)(33964004)(9686003)(40480700001)(316002)(19627405001)(41300700001)(786003)(42186006)(6916009)(7116003)(7066003)(8936002)(8676002)(5660300002)(235185007)(70206006)(70586007)(131040200001)(559001)(579004);DIR:OUT;SFP:1101;
+X-OriginatorOrg: venkateshwarschool.onmicrosoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jul 2023 18:31:51.3811
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d7fa3b89-abe3-4012-3df9-08db88866bd4
+X-MS-Exchange-CrossTenant-Id: cc534fad-963d-4b58-ad02-46133dd55a37
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=cc534fad-963d-4b58-ad02-46133dd55a37;Ip=[146.59.24.192];Helo=[venkateshwarschool.onmicrosoft.com]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	BMXIND01FT030.eop-IND01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN2PR01MB4219
+Content-Length: 119855
+
+--fd8ad8f14f8ba987bf38984ba0b2f898521f2d950335648e0c2d368b65f2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+
+Visualizar como p=C3=A1gina web [ http://clickmarketing.syonet.com/ls/click=
+?upn=3D9YwxSImpNLQdpvOiZIKe-2FOBcoRIhDsG0UUwTyjA-2Bp6zZMO-2B-2FOuRHxcKLOD3U=
+i68ksjAiEdDw8wVdiOozDJ1QIZt-2BxN9B7ZFUYv6uPxX-2FjRU-3DeUY8_icDVfN55IluE-2B5=
+YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ=
+0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7q=
+fwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC=
+0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0=
+E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzasz=
+JQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHc=
+TYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRm=
+qzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ=
+0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ=
+4CsE1yRrViqf2boDqqCTwHrtkI6LDN8axBaz0Shyv411APgOpdLb-2BEUfJqI5bLNzE2GvaZVii=
+Ge3K2-2FQFdKE0fyZjuK-2FdxtT10U0aW115tJZsrtZYNrsAARvNmEjpNZl1FWqm6D8AEc30tX-=
+2BfIx9Ihs23YVQJ-2FYVM2YRIVFbV ]                                            =
+                        Sua concession=C3=A1ria tem um Showroom Digital?
+=20
+=20
+                                            Ol=C3=A1, tudo certo por a=C3=
+=AD?=C2=A0
+ Voc=C3=AA sabe por que precisa de um showroom digital na sua concession=C3=
+=A1ria?
+ Sabemos que hoje em dia as pessoas vivem com o celular na m=C3=A3o, ent=C3=
+=A3o porque n=C3=A3o usar isso a favor do seu neg=C3=B3cio?=C2=A0
+ Com o showroom digital voc=C3=AA tem a disposi=C3=A7=C3=A3o todas as infor=
+ma=C3=A7=C3=B5es que precisa sobre os ve=C3=ADculos dispon=C3=ADveis na sua=
+ concession=C3=A1ria: fotos, v=C3=ADdeos, dados t=C3=A9cnicos, e muito mais=
+!=C2=A0
+ Quer saber mais? Continue lendo, s=C3=A3o apenas 5 minutinhos!
+           Continue lendo clicando aqui [ http://clickmarketing.syonet.com/=
+ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FDi-2BzhgkeAXle8LziyWgtNcdMewUjj0CSdl4=
+E-2Bgn3ouDKp-2FkO1aNWeQj7NS2s-2B5DHGGjppHXNHZmlaw4HyUVMm8-3DZsYP_icDVfN55Il=
+uE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHs=
+VTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27=
+oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbF=
+zRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3i=
+TfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5n=
+ROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkv=
+IogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4=
+Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArX=
+YDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQ=
+S1UClQ4CsE1yRrViqf2boDqqCTSt-2FQa6OPgczu9ikL0kNGrphlNGECVUn7siObdy1WjUabYpm=
+1T-2FjY2AaC5AMVHakdMFHyzfTJy0xpyAKf8hqut0wFAPRIviral3-2B11fDnejlnyG5EmM7-2F=
+KyhowVnwyYtF-2FiVsEfbN1l8D1Q36sI-2Fef ]           E a=C3=AD, curtiu nosso p=
+ost-blog?
+ Use e abuse das nossas dicas para levar sua concession=C3=A1ria a gerar no=
+vas oportunidades de vendas e p=C3=B3s-vendas!
+ Se voc=C3=AA gostou das dicas, lembre-se que estaremos trazendo outras sug=
+est=C3=B5es para suas a=C3=A7=C3=B5es de marketing, vendas e p=C3=B3s-venda=
+s para a sua loja. E n=C3=A3o se esque=C3=A7a de adicionar o nosso e-mail c=
+omo remetente confi=C3=A1vel, assim nenhuma dica fica perdida na caixa do s=
+eu lixo eletr=C3=B4nico =E2=9C=8C=EF=B8=8F.
+                                                  Todos sabem que o WhatsAp=
+p =C3=A9 o aplicativo de mensagens instant=C3=A2neas mais usado no Brasil e=
+ no mundo. Ele foi desenvolvido para o uso pessoal, por=C3=A9m. Sua vers=C3=
+=A3o comercial, o WhatsApp Business, foi...[continue lendo [ http://clickma=
+rketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FDi-2BzhgkeAXle8Lzi=
+yWgtNfP4491s0Svjx7aH8wW5vp8KkwsM1W-2B3uudo30aPSgI40Uk2Ek1ZNNBG78oNxExVPL-2F=
+9j7ezOphmV5CZzqFSHdZS83B_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23=
+Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4ql=
+q2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6p=
+cFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6=
+WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrj=
+rRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U=
+4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEf=
+ISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ=
+-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t=
+9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCTcRib6vPdsLGqVS=
+ZQoMsxnPBidTF-2FA1s-2F68wAgMhhxPo11dGJzyuUPH13SddroxZW6eDZGJOlM2GDNABDPAUbu=
+vXvBG-2FtNq769pKTBlbR7L47BZ9U33At-2B3vngfgEy8p9yWFIZRDAHPh4BC4EELKnA ]].
+            Uma das pr=C3=A1ticas mais comuns do marketing =C3=A9 o uso de =
+datas comemorativas para a cria=C3=A7=C3=A3o de campanhas de marketing. Esp=
+era-se que, durante momentos como o Dia das M=C3=A3es, Dia dos Namorados, D=
+ia das...[continue lendo [ http://clickmarketing.syonet.com/ls/click?upn=3D=
+9YwxSImpNLQdpvOiZIKe-2FDi-2BzhgkeAXle8LziyWgtNfgGVeNDIay8leCLYA5KR1g-2FpG8U=
+Osz8Ema2B2NDy7wbnnYhGw-2FnwnRa2VmqNlEF5ql7EsONE-2FNGZiJ-2BxRDUVSFGRyW_icDVf=
+N55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6=
+BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZ=
+JuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58F=
+xWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169=
+kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2F=
+bwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6=
+QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0=
+zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR=
+9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJ=
+J61qQS1UClQ4CsE1yRrViqf2boDqqCQIWWZMdJrnahW3m72Sq1XhdbSzB0Ll-2FLm71FQ0ZQPne=
+eDP8htFaPORYGpFN-2Fums5nDHxjJoRtt0cU0bpegjvRwW44xTZL7DgOgseZnpdof8qWz-2F-2B=
+pqUDPqmVlkFyLaOm1x-2BlxK8xAP3Aw2CHdFgEoG ]].
+                                                                           =
+             Quer saber como aumentar seus resultados?
+           AGENDE UMA DEMONSTRA=C3=87=C3=83O AGORA MESMO [ http://clickmark=
+eting.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FEME6pnB4IZrOvaXGs2SC=
+4xG0s7jZHkC4Mw-2FBq4MtMFXFcNQWLE4pRV1qWOaCKhzrg-3D-3DH2i5_icDVfN55IluE-2B5Y=
+hAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0=
+iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qf=
+wcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0=
+Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E=
+7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJ=
+QpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcT=
+YCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmq=
+zR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0=
+ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4=
+CsE1yRrViqf2boDqqCRoWUz7BQOebNKw5CMMo-2BlFP-2FhY8U-2BsqjnGviaqJnqrQ22p4qz7B=
+87EKxZD3eTdq5U8h2SrtR2P0ZMhkssoGExEGw5GA3UTsusTdR8OfPL7CrzVYsQffNLClz60XesF=
+ghBMdtOsO2AlYHX5VNcmGaN8 ]                                           Syonet=
+ na m=C3=ADdia, confira!=C2=A0=F0=9F=93=A2
+                              Homologa=C3=A7=C3=A3o Hyundai para o CRM Syon=
+et [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2=
+FLuZSIyKBw4bW5cOewIiog3D-2BPRv2p2nN9DdW8q-2FFZwDw6elSyCUT3obNV5E4S3wRUtCIWH=
+0Sy3f-2B-2FNeWVr-2BxMEClQZfOUh-2B5GAmnrRUld5nj5hy_icDVfN55IluE-2B5YhAIwVfcw=
+B-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkgg=
+ysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtR=
+ClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u=
+9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B=
+6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne9=
+0QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8N=
+xSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LY=
+QvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4=
+K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrV=
+iqf2boDqqCTF1nZ9jq55PksrTTqsknY0AWWEB5nMJcB9lRk6Tu4ciiNAlkxv0IWUJoHLlLFidYs=
+kBVQqglDcI5DdHryQYIa3lhvjSfM4hDTk-2BiVajgc260OlVsfmmc48s9FTO4G8ejPwBjoX6hQN=
+sEg5r6PFtSyI ]                        Grupo Parvi adota a solu=C3=A7=C3=A3o=
+ de CRM da Syonet [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSIm=
+pNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog21HfbfN7ubnZgSHzgD6Rk1Ewq8-2BaCdBFzk64=
+THaFFWNIFYLo4dvxmnmJT3ovfCRoINGY-2F4wrfoR6UALkXGKsf9gWTR_icDVfN55IluE-2B5Yh=
+AIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0i=
+G7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfw=
+cNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0P=
+cu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7=
+zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQ=
+pmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTY=
+Cs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqz=
+R1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0Z=
+LsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4C=
+sE1yRrViqf2boDqqCTXHQYan1hC3BgPgaYe-2FstUsosrs4wwTFUXbuATfnqh-2F-2BBicXztyL=
+pn7e655ODfbFvrNqV2zKh7OlXmpcckbcVrgfsP4D59HaP9js1cmaUHPAP53Ohb-2Ba54whC9qnu=
+gbmdyzuNqlbFJ2k1m9GWQzXi3 ]                        Viamar cresce 300% na ca=
+pta=C3=A7=C3=A3o de Leads [ http://clickmarketing.syonet.com/ls/click?upn=
+=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog21HfbfN7ubnZgSHzgD6Rk1EKAKva=
+rnT-2Fz70bn2zDXzV-2BOnAhMsHGa6lYhDZ2tr5-2F4k-2BXWV0o4Z1X66IhpkX8NJX7O9_icDV=
+fN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr=
+6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYp=
+ZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58=
+FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo16=
+9kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2=
+FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx=
+6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI=
+0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2Fft=
+R9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8Fpjn=
+JJ61qQS1UClQ4CsE1yRrViqf2boDqqCRezYhjAUhMZ6ntU-2BeYX5I8bJKWxtb9hpONocsrqYh0=
+EunJlsaMCB5TTtdUaKCYrozWlKFS0nwFQUXg0eTduioTRYK-2BLwEeO8LiPxeiTWxNRToSA3RSR=
+jqkz3-2B16E9v-2BK-2Bi0S-2FafSEC-2FIgtKPxXl5Mc ]                            =
+        Envie SMS direto do CRM Syonet [ http://clickmarketing.syonet.com/l=
+s/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog1NSHDPMjcPt6hpMYu=
+y5bPJLQ5vVZ1qLY1ASkeMOcQ4qH2spkQmbsYAQ3bKbCfFXBQ-3Dzenv_icDVfN55IluE-2B5YhA=
+IwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG=
+7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwc=
+NJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pc=
+u1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7z=
+bAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQp=
+mhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYC=
+s9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR=
+1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZL=
+sYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4Cs=
+E1yRrViqf2boDqqCQ00Bkib4TsO-2FdYHf0KNQWBlYQpbs-2BQXEs40tlFOV91TPBkkiuUG-2BQ=
+T0M0eFqwWHj9RweAhKBruZddfP6MjUkHaLJvm7ZWj7SXQdhqHb55Zd04NPbPq53pvX0vygnTYds=
+LyafKwfk4kXdNUXpUXJ3n-2F ]                        Homologa=C3=A7=C3=A3o Nis=
+san do Brasil [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQ=
+dpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog1nDdOmSPtd-2Fq-2FKNsCEV5uJIzHtk7gGiOufUmp7=
+Wsz-2F5Q7DEA0hkG-2FllSbe8R-2F4n8M-3D2fSv_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyx=
+LWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8L=
+ehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe=
+-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3=
+PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8=
+-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHt=
+cPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE=
+5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7=
+KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qda=
+cGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqq=
+CT8sL58L-2F-2FqJNfHlvgCfYAFgVvb3lWa-2BFRvBLa1AGNRU21W9cJrJteuulEM-2Fzh37-2F=
+h0zJPpfxSlrqR9aWgHdzJh0JXLdrTHAqJla0oCTa-2F1HFfW7i9DnR-2B3wFLV8Sw9no8O1CFCx=
+861OToZbpC-2BwAqM ]                        Syonet Transforma o atendimento =
+do Grupo Belcar [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpN=
+LQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog21HfbfN7ubnZgSHzgD6Rk1xpLAEKiOo6I8tADtxp=
+ren2Rgw38zZZTLbeMbteirC5NWH0Cv6Lwepz5LTpCXyfcxFNmU_icDVfN55IluE-2B5YhAIwVfc=
+wB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkg=
+gysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbt=
+RClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0=
+u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55=
+B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne=
+90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8=
+NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6L=
+YQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy=
+4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRr=
+Viqf2boDqqCSmTHWebUogf8e2RvIoNTiCAeHqw-2Fz6RTkJJFyAS-2BZUx2FuE6-2FCQ65NMT2B=
+XEKMNIqtA8hoE1Ys23lWPNcAztiBn1bPEWXQwUXFb98OXcjZR-2BDRDdrekQTy-2F9Au5yOpU9K=
+t7hqU8s5UtB-2FnCVmYwxdK ]                                                  =
+              [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQ=
+dpvOiZIKe-2FOHoDv-2FKknz4jpWs4gaUinpV6XZqPA415W9jXEHKXkcddWuG_icDVfN55IluE-=
+2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZ=
+UaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIo=
+t7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRc=
+gCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfV=
+Kj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROz=
+aszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIog=
+pHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2=
+sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDO=
+rAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1U=
+ClQ4CsE1yRrViqf2boDqqCS609q0B668WMnnjRVzqN3PgKgBdPbADF80hWXQmRi0YVJxDPZfjg4=
+HNfiLyIkCLjNawLh1xKDcGLmyhh6AYOdkGG3VbHt-2FUxH-2BruNnaMB8Yj0Rbn9uqSkMfllkKY=
+2HFOQeo2fy7KGswZu6sJVP1FlU ]               [ http://clickmarketing.syonet.c=
+om/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FE98nUTZw3HmoAJG5Z2hf1y-2FosrXUuONC=
+fmWyDJ7Sns3EThD_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD=
+-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV=
+9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDp=
+IHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrS=
+f2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x0=
+3ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszH=
+iMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZ=
+VnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP0=
+0JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2=
+BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCRper0H91SIG2C5AMrnASwud2=
+EMvyS8ukzX-2F62Oe7-2BoX-2FkeBQpcMdrLbqpohRj4SKrSBtZtqui0YTfEXCisQrJxP5sdcWe=
+gAk9nUFxmZSX-2BG0Jaw2UkDY8BS0APGfVb-2BKIRFb2D3ldDLAWvYFF8Tv-2Bq ]          =
+     [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe=
+-2FNWEFVf8onrZZYmiPitET80CPRmanbiHkiDFUXheCG8UMGrw_icDVfN55IluE-2B5YhAIwVfc=
+wB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkg=
+gysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbt=
+RClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0=
+u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55=
+B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne=
+90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8=
+NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6L=
+YQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy=
+4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRr=
+Viqf2boDqqCTbw1QCmXC-2FDZKsz6DYbLB6dKwN0U23fqz23MY1gOhRr19CjU2ceC98xsMLLImz=
+9mnEXK-2BRow2fduhjDoY6Sx8WT7xHu4M2e3sqiazEjwPhOBUSEp5A-2FHshaGsBN6wpt-2B0v6=
+27CTtW4A2Adgu6GjJNW ]                          A SYONET RECOMENDA E APROVA =
+A
+LEAD FORCE COMO AG=C3=8ANCIA ESPECIALISTA [ http://clickmarketing.syonet.co=
+m/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FM-2F3af2Nv2dFhiyLsVTcsEy4vlTlt-2FmF=
+Xdb1pv5r6f5oNjFD_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJ=
+D-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXp=
+V9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DD=
+pIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPr=
+Sf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x=
+03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMsz=
+HiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9G=
+ZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP=
+00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-=
+2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCTndLsAeUL0193VCaISjCtzf=
+h0vv4kI9wArMUeHGqS9fy5DZK4EIg71N-2Fg5A27j-2FHqmqwwrd6QMwYGtUVICAL-2BVsjqvib=
+UasAjrSXYx-2F8ln-2FdXCY-2FAkDG-2FwSIVMRnTTLs-2FYnlhn-2FGyTiibJE63S9qZm ]
+EM MARKETING DIGITAL AUTOMOTIVO=C2=A0=F0=9F=9A=80=F0=9F=92=B0=F0=9F=A4=91
+               [ http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNL=
+QdpvOiZIKe-2FM-2F3af2Nv2dFhiyLsVTcsEy4vlTlt-2FmFXdb1pv5r6f5oeEg6_icDVfN55Il=
+uE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHs=
+VTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27=
+oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbF=
+zRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3i=
+TfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5n=
+ROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkv=
+IogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4=
+Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArX=
+YDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQ=
+S1UClQ4CsE1yRrViqf2boDqqCS3pnBGIzb7imbbiJALt-2BhhHfyyZM9ad1w0JMFulgkL32dH1U=
+GGWFi3b7XYy8G1qUGybto64VjsJ47jwpcgt2AjgQ0Qaq-2FlfhVFfEIhq-2F-2Bj0pn24TYlyYM=
+qpoxYS1SkKMIt4PbES1xg3hmhP88atCed ]                                        =
+                 Enviado por Syonet Inform=C3=A1tica Ltda. All rights reser=
+ved =C2=A92003 - 2023
+ Para receber os nossos comunicados, melhorias e novidades na caixa de entr=
+ada adicione o e-mail noticias@syonet.com na lista de contatos do seu webma=
+il.
+  Se deseja n=C3=A3o receber mais mensagens como esta, clique aqui [ http:/=
+/clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FOBcoRIhDsG=
+0UUwTyjA-2Bp6yhbpAUOzPeIqoNZRc9dqqDSYZJ1or0NczJSxNApdKm9tPXCTZ47OtpKeQdKXsV=
+FvxN9IogUEnVs7Al52FWJEL2HifG_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8=
+gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4=
+S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEg=
+FR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO=
+2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2Z=
+NcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMH=
+nI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWp=
+FeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ=
+6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvv=
+sA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCRDZBCjLya6s=
+IvEbH-2BG5xccyNJyWqSltDjsSdoesjIzO2A000iLP2j9W91S9y6a7sR-2BTCgjtPh6eL8nTw5w=
+DRy11dX2US0rxKlfDCu51-2BIKn6tVQ2wIC3RtPD61xK8hIFNheXt67dvWvsaJzZEymgaq ].=20
+ =E2=80=A2
+--fd8ad8f14f8ba987bf38984ba0b2f898521f2d950335648e0c2d368b65f2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"> <=
+!--[if gte mso 15]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pixels=
+PerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->=
+ <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pixel=
+sPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--=
+>  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <meta name=
+=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"> <title>S=
+ua concession=C3=A1ria j=C3=A1 tem um showroom digital?</title> <style type=
+=3D"text/css">
+		p { margin:10px 0; padding:0; }
+		table { border-collapse:collapse; }
+		h1,h2,h3,h4,h5,h6 { display:block; margin:0; padding:0; }
+		img, a img { border:0; height:auto; outline:none; text-decoration:none; }
+		body, #bodyTable, #bodyCell { height:100%; margin:0; padding:0; width:100=
+%; }
+		#outlook a{ padding:0; }
+		img { -ms-interpolation-mode:bicubic; }
+		table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+		.ReadMsgBody { width:100%; }
+		p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+		a[href^=3Dtel],a[href^=3Dsms] { color:inherit; cursor:default; text-decor=
+ation:none; }
+		p,a,li,td,body,table,blockquote { -ms-text-size-adjust:100%; -webkit-text=
+-size-adjust:100%; }
+
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full w=
+idth */
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Forces Hot=
+mail to display normal line spacing.  More on that: http://www.emailonacid.=
+com/forum/viewthread/43/ */
+
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+
+		.sectionContainer {
+			max-width:600px !important;
+		}
+		.img-max {
+			vertical-align:bottom;
+		}
+
+		/* media queries */
+		@media only screen and (min-width:768px){
+			.columnContainer {
+				max-width:600px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			p,a,li,td,body,table,blockquote {
+				-webkit-text-size-adjust:none !important;
+			}
+			p {
+				font-size:16px !important;
+				line-height:150% !important;
+			}
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.columnContainer {
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 480px){
+			h1 { font-size:22px !important; line-height:125% !important; }
+			h2 { font-size:20px !important; line-height:125% !important; }
+			h3 { font-size:18px !important; line-height:125% !important; }
+			h4 { font-size:16px !important; line-height:150% !important; }
+		}
+
+		@media (max-width: 480px){
+			.padding {
+				padding-left: 18px !important;
+				padding-right: 18px !important;
+			}
+		} @media (max-width: 480px){
+			.img-max {
+				width: 100% !important;
+			}
+		} @media (max-width: 480px){
+			.makefull {
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+
+	</style> </head>We were able to reserve $1038.31 on your credit card to co=
+ver the next subscription renewal.
+<script> <body style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjus=
+t: 100%; width: 100%; height: 100%; margin: 0; padding: 0; background-color=
+: #ffffff;"> <img src=3D"http://clickmarketing.syonet.com/wf/open?upn=3D0Z-=
+2FbyBBzCsePKCjK-2FH0D3qqSoq0naXFA2Brw8X48ZjdxdOCGd9UDol5-2FMkhGqP8y0mogRxwc=
+m2VMF8IMzQinHfESl2MmtJrYPvP5xTnobO6z6ySWeALhW-2BOvBg-2BghbElCf4I-2FtZhj90xD=
+aVMY7aumK8RFMDRbZ23kPnyuRAJmn8ZdipreU-2FuJPOgywpZRQTEV1lX44Ks-2BQvF-2Fzffnt=
+Oox-2FhvP7rHKGke0hp9QH4RnHUVLBE9u2TDfPGggI86bTDe4jXNoxK9HNmWJxJKGXDDy2R-2Bz=
+XPr3HUwaVAlh2gD-2BAYCMTRNgtE-2B28gIk-2B20nBMO9c7XJvZ4YIP22DwiePadE-2FhaKRVs=
+ZCUQIwRE6PYcJTolStQLbk0YUi-2FtG0EBMqYSynWe-2Fy8Plq6DDM91Pp8tdP1ryQUux2a9Lcj=
+IF-2BpEkObanzHCujXsbr5leTOBPH4XQoAETC5kzFD8vWVlzBVbPUBm4kRDV4ZinYhzSetVLLrz=
+h1qa5SHzGnLiESFYzouOcgzB22H2EBhfgsCGg6dAwhMkUFkmiL0yqu7wXnIXrp7nZVYeEji-2FG=
+s6UEQ1LyyW-2B8PJPV9uAbffYLYaq2ckVywqO42lZ2uMG3-2B0y433rcbaip8htHXM274e9sTag=
+Yaa8BMtl40VnxnyB1llVRuiJT8zQVW0bWGxCgOBsqV4C-2FSWNMYxwy3kF9hC65DxUKpBXNWPuy=
+lB8cyAM3UiBJT-2BpINvIglyebAOpW0A4xQoyAk5S-2BiO0kAcooHhWc-2FUTawGXVaVXh5VD37=
+LHEhs55srKjieXlavRuXgebglPOgxemZd4fGOZkziHy9AXtdhAqeQh" alt=3D"" width=3D"1=
+" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !impor=
+tant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !imp=
+ortant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !im=
+portant;padding-bottom:0 !important;padding-right:0 !important;padding-left=
+:0 !important;"/>  <center> <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" s=
+tyle=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; width: 10=
+0%; height: 100%; margin: 0; padding: 0; background-color: #ffffff;"> <tr> =
+<td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"mso-line-heigh=
+t-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%=
+; width: 100%; height: 100%; margin: 0; padding: 0; border-top: 0;"> <table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"b=
+order-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td align=3D"ce=
+nter" valign=3D"top" class=3D"section1Column" style=3D"mso-line-height-rule=
+: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; back=
+ground-color: #ffffff; border-top: 0; border-bottom: 0px; padding-top: 0px;=
+ padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"width:600px" class=3D=
+"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"center" width=3D"600=
+" style=3D"width:600px;"><![endif]--> <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" class=3D"sectionContainer" style=3D"borde=
+r-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-tex=
+t-size-adjust: 100%; -webkit-text-size-adjust: 100%; width:100%; max-width:=
+ 600px !important; background-color: #ffffff;"> <tr> <td valign=3D"top" sty=
+le=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%;"> <table class=3D"columnContainer" align=3D"left" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"width:=
+600px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td clas=
+s=3D"columnContainerCell" valign=3D"top" style=3D"mso-line-height-rule: exa=
+ctly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size=
+: 16px; line-height: 110%; font-family: Helvetica, Arial, sans-serif; color=
+: #666666;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" class=3D"columnContainerSize" style=3D"border-collapse: collapse;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; =
+-webkit-text-size-adjust: 100%; width:100%; max-width: 600px !important; ba=
+ckground-color: transparent;"> <tr> <td valign=3D"top" style=3D"mso-line-he=
+ight-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 1=
+00%;"> <!--[if (gte mso 9)|(IE)]><table align=3D"center" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;"> <tr> <=
+td align=3D"center" valign=3D"top" width=3D"390" style=3D"width:390px;"><![=
+endif]--> <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"390" class=3D"columnContainer" style=3D"width:390px;border-=
+collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-siz=
+e-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnCo=
+ntainerCell" valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-tex=
+t-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word=
+; vertical-align: top; text-align: left; font-size: 11px; line-height: 120%=
+; font-family: Helvetica, Arial, sans-serif; color: #888888; padding-top: 9=
+px; padding-left: 9px; padding-bottom: 9px; padding-right: 9px;"> </td> </t=
+r> </table> <!--[if (gte mso 9)|(IE)]></td> <td align=3D"center" valign=3D"=
+top" width=3D"210" style=3D"width:210px;"><![endif]--> <table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"210" class=3D"c=
+olumnContainer" style=3D"width:210px;border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" sty=
+le=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%; word-break: break-word; vertical-align: top; text-ali=
+gn: left; font-size: 11px; line-height: 120%; font-family: Helvetica, Arial=
+, sans-serif; color: #888888; padding-top: 9px; padding-left: 9px; padding-=
+bottom: 9px; padding-right: 9px;"> Visualizar como <a href=3D"http://clickm=
+arketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FOBcoRIhDsG0UUwTyj=
+A-2Bp6zZMO-2B-2FOuRHxcKLOD3Ui68ksjAiEdDw8wVdiOozDJ1QIe6Mw6NaT6U2Z6SxW-2FwXi=
+RrWXLZxcKQVzSOW1mD1QGHlQqitViJcxonWOt9oDju3KbOdYORcdoG88DIs7sXc5uryeWKjAOsb=
+Lz7ptvQTEO-2FXBd-2BqTOgCWObstUO-2BkAJFrg-3D-3DgIN7_icDVfN55IluE-2B5YhAIwVfc=
+wB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkg=
+gysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbt=
+RClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0=
+u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55=
+B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne=
+90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8=
+NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6L=
+YQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy=
+4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRr=
+Viqf2boDqqCTR3M6EeiL2JaEEA6Ya-2B8EzV6hxTiAWrx1Y6a3r8kJUioll295sKXzOSC3H3LDU=
+oR90uZC1IOFB-2FGBj9IgvfpA9j-2FPTRA8LBs9V-2B1bfaxbgE-2Bg938yrvy80TXhyfjiDy3w=
+ysAmFIZkbQPwmWZt5zskl" style=3D"color: #333333;text-decoration: underline;"=
+ data-scanner-ignore>p=C3=A1gina web</a> </td> </tr> </table> <!--[if (gte =
+mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr> </table> </td> </=
+tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </t=
+able><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"cent=
+er" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-=
+table-lspace:0pt; mso-table-rspace:0pt;"> <img src=3D"https://syonet.com.br=
+/newsletter/imagem/emm/syo/logo-syo-of.png" alt=3D"" width=3D"280" border=
+=3D"0" style=3D"-ms-interpolation-mode:bicubic; border:0; line-height:100%;=
+ outline:none; display: block; max-width: 280px; height: auto;" class=3D"im=
+g-max"> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top: 0px; padding-bottom: 24px;"> <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; border=
+-collapse: initial; border-top-style: solid; border-top-width: 2px; border-=
+top-color: #ffffff;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody> =
+</table> </td> </tr> </table> </td> </tr> </table> </td> </tr> </table> <!-=
+-[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: transparent; border-top: 0; border-bottom=
+: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=
+=3D"width:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" alig=
+n=3D"center" width=3D"600" style=3D"width:600px;"><![endif]--> <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"section=
+Container" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%; width:100%; max-width: 600px !important; background-color: #FFFFFF;"> <t=
+r> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size=
+-adjust: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnCont=
+ainer" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: =
+0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica,=
+ Arial, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -=
+ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; borde=
+r-collapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D=
+"left" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; m=
+so-table-lspace:0pt; mso-table-rspace:0pt; font-size: 16px; line-height: 15=
+0%; font-family: Helvetica, Arial, sans-serif; color: #666666; padding: 9px=
+ 18px; word-break: break-word !important;" class=3D"padding"> <div class=3D=
+"docos-collapsible-replyview" style=3D"line-height: 150%;"> <div class=3D"d=
+ocos-replyview-static" style=3D"line-height: 150%;"> <div class=3D"docos-re=
+plyview-body docos-anchoredreplyview-body docos-replyview-body-emoji-reacta=
+ble docos-replyview-body-emoji-reactable-background" dir=3D"ltr" style=3D"t=
+ext-align: center; line-height: 150%;"><strong><span style=3D"font-size: 24=
+px;">Sua concession=C3=A1ria tem um Showroom Digital?</span></strong></div>=
+ </div> </div> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"center" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt;"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/320778/=
+1686160542/$u03kypt4zbp" alt=3D"" width=3D"600" border=3D"0" style=3D"-ms-i=
+nterpolation-mode:bicubic; border:0; line-height:100%; outline:none; displa=
+y: block; max-width: 600px; height: auto;" class=3D"img-max"> </td> </tr> <=
+/table> </td> </tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]=
+></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #f4f4f4; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #f4f4f4;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; padding-top: 10px; padding-bottom: 10=
+px;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" style=3D"min-width: 100%; border-collapse: initial; border-top-style: sol=
+id; border-top-width: 2px; border-top-color: transparent;"> <tbody> <tr> <t=
+d> <span></span> </td> </tr> </tbody> </table> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"line-height: 150%;"><span style=3D"font=
+-weight: 400; font-size: 18px;">Ol=C3=A1, tudo certo por a=C3=AD?=C2=A0</sp=
+an></p> <p style=3D"line-height: 150%;"><span style=3D"font-weight: 400; fo=
+nt-size: 18px;">Voc=C3=AA sabe por que precisa de um showroom digital na su=
+a concession=C3=A1ria?</span></p> <p style=3D"line-height: 150%;"><span sty=
+le=3D"font-weight: 400; font-size: 18px;">Sabemos que hoje em dia as pessoa=
+s vivem com o celular na m=C3=A3o, ent=C3=A3o porque n=C3=A3o usar isso a f=
+avor do seu neg=C3=B3cio?=C2=A0</span></p> <p style=3D"line-height: 150%;">=
+<span style=3D"font-weight: 400; font-size: 18px;">Com o showroom digital v=
+oc=C3=AA tem a disposi=C3=A7=C3=A3o todas as informa=C3=A7=C3=B5es que prec=
+isa sobre os ve=C3=ADculos dispon=C3=ADveis na sua concession=C3=A1ria: fot=
+os, v=C3=ADdeos, dados t=C3=A9cnicos, e muito mais!=C2=A0</span></p> <p sty=
+le=3D"line-height: 150%;"><span style=3D"font-weight: 400; font-size: 18px;=
+">Quer saber mais? Continue lendo, s=C3=A3o apenas 5 minutinhos!</span></p>=
+ </td> </tr> </table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"componentContainerButton" style=3D"background-color: transparent; min-=
+width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <t=
+body> <tr> <td style=3D"padding-top: 9px; padding-right: 18px; padding-bott=
+om: 9px; padding-left: 18px; mso-line-height-rule: exactly; -ms-text-size-a=
+djust: 100%; -webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"cente=
+r" class=3D"componentContainerCellButton"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"componentBlockButton" style=3D"border-col=
+lapse: separate !important; border: 3px solid #e02e43; border-radius: 33px;=
+ background-color: #e02e43; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -=
+ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <=
+td align=3D"center" valign=3D"middle" class=3D"componentBlockCellButton" st=
+yle=3D"font-family: Arial, Helvetica, sans-serif; font-size: 18px; padding:=
+ 15px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-t=
+ext-size-adjust: 100%;"> <a class=3D"componentButton" title=3D"" href=3D"ht=
+tp://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FDi-2Bz=
+hgkeAXle8LziyWgtNcdMewUjj0CSdl4E-2Bgn3ouDKp-2FkO1aNWeQj7NS2s-2B5DHGOr4ppVpK=
+x3Cz5di2oZ8VfSxpYGQdARK-2FURRohuzFqFDAqDW-2BaqddzWtv2bILZKtPN4KQBeTCJ35IMjA=
+k3gI8ZFspGpLW8SXsDyByWoD95GV9FX_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJq=
+RO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNI=
+iL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2w=
+pEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3oj=
+HrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3O=
+u2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39f=
+sMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fr=
+yWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3=
+fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4=
+fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCQS7mO2U3=
+bT-2B7TIP4CzvKKHyWvE-2BsdppKE5izosv8D9fnqeH18kQL4RmycXvBGhdTI7B7YVfYVymy73b=
+cXOFmASDJhVIzDO0kXBAb-2FtEclmJi-2FqW74e57b8KHDVuj4n40qW736qSus8Us5RCUNqJUld=
+" target=3D"_blank" style=3D"letter-spacing: normal; font-style: normal; fo=
+nt-weight: normal; line-height: 100%; text-align: center; text-decoration: =
+none; color: #ffffff; mso-line-height-rule: exactly; -ms-text-size-adjust: =
+100%; -webkit-text-size-adjust: 100%; display: block; word-break: break-wor=
+d !important;"> Continue lendo clicando aqui </a> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"line-height: 150%;"><span style=3D"font=
+-size: 18px;">E a=C3=AD, curtiu nosso post-blog?</span></p> <p style=3D"lin=
+e-height: 150%;"><span style=3D"font-size: 18px;">Use e abuse das nossas di=
+cas para levar sua concession=C3=A1ria a gerar novas oportunidades de venda=
+s e p=C3=B3s-vendas!</span></p> <p style=3D"line-height: 150%;"><span style=
+=3D"font-size: 18px;">Se voc=C3=AA gostou das dicas, lembre-se que estaremo=
+s trazendo outras sugest=C3=B5es para suas a=C3=A7=C3=B5es de marketing, ve=
+ndas e p=C3=B3s-vendas para a sua loja. E n=C3=A3o se esque=C3=A7a de adici=
+onar o nosso e-mail como remetente confi=C3=A1vel, assim nenhuma dica fica =
+perdida na caixa do seu lixo eletr=C3=B4nico =E2=9C=8C=EF=B8=8F.</span></p>=
+ </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"center" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; padding-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-r=
+ight: 18px;"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/32=
+0778/1688577220/$00sq3p2evhmtn" alt=3D"" width=3D"564" border=3D"0" style=
+=3D"-ms-interpolation-mode:bicubic; border:0; line-height:100%; outline:non=
+e; display: block; max-width: 564px; height: auto;" class=3D"img-max"> </td=
+> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"#f4f4f4" align=3D"left" style=3D"-webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ padding-top: 10px; padding-bottom: 0px;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; border-co=
+llapse: initial; border-top-style: solid; border-top-width: 10px; border-to=
+p-color: #f4f4f4;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody> </=
+table> </td> </tr> </table> </td> </tr> </table> </td> </tr> </table> <!--[=
+if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"cent=
+er" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-=
+table-lspace:0pt; mso-table-rspace:0pt; padding-top: 30px; padding-bottom: =
+10px; padding-left: 18px; padding-right: 18px;"> <img src=3D"https://d335lu=
+upugsy2.cloudfront.net/cms/files/320778/1687540663/$ad7itdg4uuj" alt=3D"" w=
+idth=3D"564" border=3D"0" style=3D"-ms-interpolation-mode:bicubic; border:0=
+; line-height:100%; outline:none; display: block; max-width: 564px; height:=
+ auto;" class=3D"img-max"> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"line-height: 150%;"><span style=3D"colo=
+r: #333333; font-size: 16px;">Todos sabem que o WhatsApp =C3=A9 o aplicativ=
+o de mensagens instant=C3=A2neas mais usado no Brasil e no mundo. Ele foi d=
+esenvolvido para o uso pessoal, por=C3=A9m. Sua vers=C3=A3o comercial, o Wh=
+atsApp Business, foi...[</span><a style=3D"color: #333333;" href=3D"http://=
+clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FDi-2BzhgkeA=
+Xle8LziyWgtNfP4491s0Svjx7aH8wW5vp8KkwsM1W-2B3uudo30aPSgI40Uk2Ek1ZNNBG78oNxE=
+xVPKId963f-2FxGRX9V9-2BynMxwsLlNcoFXytjD-2BpnayiZxXE7qTVxIDkvWsjQr6t9wfKXkT=
+-2F97U4MRMMDaILfOOQ3x3-2FiVVZZZHLerPO68vSjozjQ-3D-3DC4cw_icDVfN55IluE-2B5Yh=
+AIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0i=
+G7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfw=
+cNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0P=
+cu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7=
+zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQ=
+pmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTY=
+Cs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqz=
+R1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0Z=
+LsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4C=
+sE1yRrViqf2boDqqCTKw-2F-2FQH3ikePkCJMY3yT4lx-2BLNe5WXbRdU9kWU-2BweTRmEOoiik=
+PqmCQ3keKs1EzzU1iPd34Mcv6YfnPuRtPz28QIw3ReJ-2B5pPtGvYNPMfTiBGVOEs01iE6M-2FY=
+XlJFDTXkzhJzaLZSO83FWUGp0e1RA" target=3D"_blank" rel=3D"noopener" data-safe=
+redirecturl=3D"https://www.google.com/url?q=3Dhttp://mt-evento.syonet.com/l=
+ink/LdkvZypAj3eo0Vj8R5M0YKVMPR8bO19W/P6y1bVRGMxODZnDKrDOlmA5jYgNa4o72&amp;s=
+ource=3Dgmail&amp;ust=3D1625229010300000&amp;usg=3DAFQjCNGxj_rZ2koyfHCDk-q5=
+gCgqaw6Rjw" data-mt-detrack-inspected=3D"true">continue lendo</a><span styl=
+e=3D"color: #333333; font-size: 16px;">].</span></p> </td> </tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"center" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; padding-top: 30px; padding-bottom: 10px; padding-left: 18px; padding=
+-right: 18px;"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/=
+320778/1687379575/$z2sr63lv6j" alt=3D"" width=3D"564" border=3D"0" style=3D=
+"-ms-interpolation-mode:bicubic; border:0; line-height:100%; outline:none; =
+display: block; max-width: 564px; height: auto;" class=3D"img-max"> </td> <=
+/tr> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; font-size: 16px; line-height: 150%; font-family: Helvetica, Arial, san=
+s-serif; color: #666666; padding: 9px 18px; word-break: break-word !importa=
+nt;" class=3D"padding"> <p style=3D"line-height: 150%;"><span style=3D"colo=
+r: #333333; font-size: 16px;">Uma das pr=C3=A1ticas mais comuns do marketin=
+g =C3=A9 o uso de datas comemorativas para a cria=C3=A7=C3=A3o de campanhas=
+ de marketing. Espera-se que, durante momentos como o Dia das M=C3=A3es, Di=
+a dos Namorados, Dia das...[</span><a style=3D"color: #333333;" href=3D"htt=
+p://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FDi-2Bzh=
+gkeAXle8LziyWgtNfgGVeNDIay8leCLYA5KR1g-2FpG8UOsz8Ema2B2NDy7wbnnYhGw-2FnwnRa=
+2VmqNlEF5r2rT-2FsBYwX7cCxeTKu5N7mnkSDJjAxo7M5cpSQTcpowdtUruDPxfeScwZzCumtoF=
+COczmYMG7H7JZ8Bn6EruPmJgXkXfh-2F0BhiFAcpnvs73w-3D-3DGHQc_icDVfN55IluE-2B5Yh=
+AIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0i=
+G7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfw=
+cNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0P=
+cu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7=
+zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQ=
+pmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTY=
+Cs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqz=
+R1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0Z=
+LsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4C=
+sE1yRrViqf2boDqqCTprCuP0ffLnZwqIMtdOiRT3oHSCJaKV01nwjB-2F2GzLONAw2U-2FqMU7q=
+ymGf1pNSAVjDr4kIJdhhWcuTaK87Vajhr3gMSKaUIjMNKSFBqEhcB7ecWIa6S2YMdH66FBQ4bLv=
+i-2FlT6BU9XNlT7SjbxQA1e" target=3D"_blank" rel=3D"noopener" data-saferedire=
+cturl=3D"https://www.google.com/url?q=3Dhttp://mt-evento.syonet.com/link/Ld=
+kvZypAj3eo0Vj8R5M0YKVMPR8bO19W/P6y1bVRGMxODZnDKrDOlmA5jYgNa4o72&amp;source=
+=3Dgmail&amp;ust=3D1625229010300000&amp;usg=3DAFQjCNGxj_rZ2koyfHCDk-q5gCgqa=
+w6Rjw" data-mt-detrack-inspected=3D"true">continue lendo</a><span style=3D"=
+color: #333333; font-size: 16px;">].</span></p> </td> </tr> </table> </td> =
+</tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> <=
+/table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"#ffffff" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt; padding-top: 10px; padding-bottom: 0px;">=
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" sty=
+le=3D"min-width: 100%; border-collapse: initial; border-top-style: solid; b=
+order-top-width: 10px; border-top-color: #ffffff;"> <tbody> <tr> <td> <span=
+></span> </td> </tr> </tbody> </table> </td> </tr> </table> </td> </tr> </t=
+able> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><!=
+[endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"#ffffff" align=3D"left" st=
+yle=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt; padding-top: 10px; padding-bottom: 0px;">=
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" sty=
+le=3D"min-width: 100%; border-collapse: initial; border-top-style: solid; b=
+order-top-width: 10px; border-top-color: #ffffff;"> <tbody> <tr> <td> <span=
+></span> </td> </tr> </tbody> </table> </td> </tr> </table> </td> </tr> </t=
+able> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><!=
+[endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; font-size: 16px; line-height: 150%; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; padding: 9px 18px=
+; word-break: break-word !important;" class=3D"padding"> <p style=3D"text-a=
+lign: center; line-height: 150%;"><span style=3D"color: #808080; font-size:=
+ 24px;"><strong>Quer saber como aumentar seus resultados?</strong></span></=
+p> </td> </tr> </table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" clas=
+s=3D"componentContainerButton" style=3D"background-color: #ffffff; min-widt=
+h: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody=
+> <tr> <td style=3D"padding-top: 9px; padding-right: 18px; padding-bottom: =
+9px; padding-left: 18px; mso-line-height-rule: exactly; -ms-text-size-adjus=
+t: 100%; -webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center" c=
+lass=3D"componentContainerCellButton"> <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"componentBlockButton" style=3D"border-collapse=
+: separate !important; border: 2px solid #e02e43; border-radius: 50px; back=
+ground-color: #ffffff; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-te=
+xt-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td al=
+ign=3D"center" valign=3D"middle" class=3D"componentBlockCellButton" style=
+=3D"font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 20=
+px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%;"> <a class=3D"componentButton" title=3D"" href=3D"http:=
+//clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FEME6pnB4I=
+ZrOvaXGs2SC4xG0s7jZHkC4Mw-2FBq4MtMFXxOQVNn5sU76mL7LK6IJ9DtV3Y9ySvsFteDh5ZFw=
+KqmEwhOHKqOt2DRhb2PXxo1J8cEU0PXDHZh5UhdEGW3N7GcXhMrkHZrLoTM8X97CKMpzE-2F8qc=
+mP3o-2BKbRrAO9g0vHVDjU_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fk=
+i2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2=
+ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcF=
+jDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6Wj=
+UfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrR=
+yMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4d=
+N3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfIS=
+xhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2=
+BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9I=
+vLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCQfLjx2rtK6zFsKGV-=
+2BZqoGL2jXPHrCQziyF6EOFWtm96Pl9QRKC9MHh9xYKPHYwxnGebH7lcdXtVOUxjb3gDkwy4Wcr=
+a6dh0OgPb1Z3cLTFmVR1eQ8vSudEzKE4NtrHtfhHn-2B3mUCCRoU9tdjr5l6cr" target=3D"_=
+blank" style=3D"letter-spacing: 0px; font-style: normal; font-weight: bold;=
+ line-height: 100%; text-align: center; text-decoration: none; color: #e02e=
+43; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%; display: block; word-break: break-word !important;"> AG=
+ENDE UMA DEMONSTRA=C3=87=C3=83O AGORA MESMO </a> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr>=
+ <td bgcolor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adju=
+st:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:=
+0pt; padding-top: 18px; padding-bottom: 18px;"> <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%; borde=
+r-collapse: initial; border-top-style: solid; border-top-width: 2px; border=
+-top-color: #ffffff;"> <tbody> <tr> <td> <span></span> </td> </tr> </tbody>=
+ </table> </td> </tr> </table> </td> </tr> </table> </td> </tr> </table> <!=
+--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #ffffff;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; font-size: 16px; line-height: 150%; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; padding: 9px 18px=
+; word-break: break-word !important;" class=3D"padding"> <p style=3D"text-a=
+lign: center; line-height: 150%;"><span style=3D"color: #333333;"><strong><=
+span style=3D"font-size: 24px;">Syonet na m=C3=ADdia, confira!=C2=A0=F0=9F=
+=93=A2</span></strong></span></p> </td> </tr> </table> </td> </tr> </table>=
+ </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endi=
+f]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" id=3D"section3Columns" style=3D"ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%; background-color: #ffffff; border-top: 0px; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=3D"s=
+ectionContainerIE" style=3D"border-collapse: collapse;mso-table-lspace: 0pt=
+;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;max-width: 600px !important;"> <tr> <td valign=3D"top" align=3D"cente=
+r" width=3D"600" style=3D"width:600px;mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><![endif]--> <table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sect=
+ionContainer" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; width:100%; max-width: 600px !important; background-color: #ffffff;">=
+ <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-s=
+ize-adjust: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9)|(IE=
+)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" valign=3D"=
+top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" class=3D"c=
+olumnContainer" style=3D"width:200px;border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" sty=
+le=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helv=
+etica, Arial, sans-serif; color: #666666;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"componentContainerButton" =
+style=3D"background-color: transparent; min-width: 100%; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust=
+: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td style=3D"padding=
+-top: 9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px; ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%;" valign=3D"top" align=3D"center" class=3D"componentContainerC=
+ellButton"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"componentBlockButton" style=3D"border-collapse: separate !important; bo=
+rder: 2px solid #e02e43; border-radius: 50px; background-color: #ffffff; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%;"> <tbody> <tr> <td align=3D"center" valign=3D"=
+middle" class=3D"componentBlockCellButton" style=3D"font-family: Arial, Hel=
+vetica, sans-serif; font-size: 16px; padding: 14px; mso-line-height-rule: e=
+xactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <a cl=
+ass=3D"componentButton" title=3D"" href=3D"http://clickmarketing.syonet.com=
+/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog3D-2BPRv2p2nN9D=
+dW8q-2FFZwDw6elSyCUT3obNV5E4S3wRUtCIWH0Sy3f-2B-2FNeWVr-2BxMG2W9eIkHdc-2F3By=
+Q2BvvKPJluE6cxeuHB39vj2l-2FwQSj-2FL5dtV3qBBPEVsMy6Czffc2tk9JoeLlkM9Ijc1CPs0=
+9U4d-2BnQSlzwfynkZLcmrMNw-3D-3D3BXW_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9=
+DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8m=
+eoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-=
+2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29=
+O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE2=
+1c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCv=
+j39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0X=
+F7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQ=
+qBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqa=
+F0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCQM9X=
+80pGtZMUcsOc6HZTrjsKjdQ01Cy24W0-2F4KO-2FgKWHf2SO9WrXKAt6lzvAi3JZVopcpujlIGQ=
+XKZeRtYSdrQ-2BIJoa-2Boby-2BTscWQxCo6F326I0LCCFNVArOt-2BwQCIvZI3IskuvGawTnhf=
+zxZtqzsT" target=3D"_blank" style=3D"letter-spacing: normal; font-style: no=
+rmal; font-weight: normal; line-height: 100%; text-align: center; text-deco=
+ration: none; color: #e02e43; mso-line-height-rule: exactly; -ms-text-size-=
+adjust: 100%; -webkit-text-size-adjust: 100%; display: block; word-break: b=
+reak-word !important;"> Homologa=C3=A7=C3=A3o Hyundai para o CRM Syonet </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+/table> <!--[if (gte mso 9)|(IE)]></td> <td align=3D"center" valign=3D"top"=
+ width=3D"200" style=3D"width:200px;"><![endif]--> <table align=3D"left" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" class=3D"colum=
+nContainer" style=3D"width:200px;border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvet=
+ica, Arial, sans-serif; color: #666666;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"componentContainerButton" =
+style=3D"background-color: transparent; min-width: 100%; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust=
+: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td style=3D"padding=
+-top: 9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px; ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%;" valign=3D"top" align=3D"center" class=3D"componentContainerC=
+ellButton"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"componentBlockButton" style=3D"border-collapse: separate !important; bo=
+rder: 2px solid #e02e43; border-radius: 50px; background-color: #ffffff; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%;"> <tbody> <tr> <td align=3D"center" valign=3D"=
+middle" class=3D"componentBlockCellButton" style=3D"font-family: Arial, Hel=
+vetica, sans-serif; font-size: 16px; padding: 14px; mso-line-height-rule: e=
+xactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <a cl=
+ass=3D"componentButton" title=3D"" href=3D"http://clickmarketing.syonet.com=
+/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog21HfbfN7ubnZgSH=
+zgD6Rk1Ewq8-2BaCdBFzk64THaFFWNIFYLo4dvxmnmJT3ovfCRoJferVMsTko1PididId51yDhp=
+-2BUSFzz6Coa-2B3tQAHnV8IEl-2B-2B6HMLcGBs7tCkyqr-2BbRn7q5-2BUNKgZ9aBrvJwNTCm=
+U1CiTEsYI0my8UOhPb4OoHojdFq81hbSMU7X6Khd1k-3D4xNa_icDVfN55IluE-2B5YhAIwVfcw=
+B-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkgg=
+ysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtR=
+ClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u=
+9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B=
+6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne9=
+0QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8N=
+xSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LY=
+QvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4=
+K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrV=
+iqf2boDqqCRYviOE9B8s73VMT-2FNxbGrMFulSICxZmiR79hfQ-2F5tkN6HQ-2B-2Bf8-2BKasB=
+Tz1SJwof-2BGF9ckE6Tel8vogdd7Gq4cXRLXS-2FvrcokkHxKgUUhJ34Wgz-2FwzpSeFElQ-2Fc=
+A8J08O9kc5uN-2BxU3gBcorLa2ep7B" target=3D"_blank" style=3D"letter-spacing: =
+normal; font-style: normal; font-weight: normal; line-height: 100%; text-al=
+ign: center; text-decoration: none; color: #e02e43; mso-line-height-rule: e=
+xactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; display=
+: block; word-break: break-word !important;"> Grupo Parvi adota a solu=C3=
+=A7=C3=A3o de CRM da Syonet </a> </td> </tr> </tbody> </table> </td> </tr> =
+</tbody> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td =
+align=3D"center" valign=3D"top" width=3D"200" style=3D"width:200px;"><![end=
+if]--> <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"200" class=3D"columnContainer" style=3D"width:200px;border-coll=
+apse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnContai=
+nerCell" valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-si=
+ze-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 16px; line-heig=
+ht: 110%; font-family: Helvetica, Arial, sans-serif; color: #666666;"> <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"componentContainerButton" style=3D"background-color: transparent; min-widt=
+h: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody=
+> <tr> <td style=3D"padding-top: 9px; padding-right: 18px; padding-bottom: =
+9px; padding-left: 18px; mso-line-height-rule: exactly; -ms-text-size-adjus=
+t: 100%; -webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center" c=
+lass=3D"componentContainerCellButton"> <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"componentBlockButton" style=3D"border-collapse=
+: separate !important; border: 2px solid #e02e43; border-radius: 50px; back=
+ground-color: #ffffff; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-te=
+xt-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td al=
+ign=3D"center" valign=3D"middle" class=3D"componentBlockCellButton" style=
+=3D"font-family: Arial, Helvetica, sans-serif; font-size: 16px; padding: 14=
+px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%;"> <a class=3D"componentButton" title=3D"" href=3D"http:=
+//clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw=
+4bW5cOewIiog21HfbfN7ubnZgSHzgD6Rk1EKAKvarnT-2Fz70bn2zDXzV-2BOnAhMsHGa6lYhDZ=
+2tr5-2F5AWLQqCBqlNFRR5OA25Mmgn-2Fcm9Ld3pC93hUADL9bHAQ0qCVeoe6KbWo7KZH5gnshn=
+RwCafdtnp-2Byn8MOybob0-2B0VZmVSmxUTy2py3Axo-2FIkZdF5xNI-2FXyJmwPJKJPcDQ-3Dp=
+T2r_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp=
+6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHX=
+zZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7Rd=
+xmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOq=
+DXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3f=
+coQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuY=
+Xge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2Fao=
+KWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg=
+-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWA=
+qST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCSH8lnPo4mP7yZANhwgU7YQWjOqMvNzyX7c2b=
+8kMp6xaQMXmifmZPcDs5oD62nv6L9ByMqS63NCGdPzkWLN3LzmM3WPCOGaZqZYsvhOP7BZb0Asn=
+Ko67tiQGw8SzHiNDtpnEWaI1-2FAxm6PPW0e1-2BzIh" target=3D"_blank" style=3D"let=
+ter-spacing: normal; font-style: normal; font-weight: normal; line-height: =
+100%; text-align: center; text-decoration: none; color: #e02e43; mso-line-h=
+eight-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; display: block; word-break: break-word !important;"> Viamar cresce 30=
+0% na capta=C3=A7=C3=A3o de Leads </a> </td> </tr> </tbody> </table> </td> =
+</tr> </tbody> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td=
+> </tr> </table><![endif]--> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]=
+></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" id=3D"section3Columns" style=3D"ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%; background-color: #ffffff; border-top: 0px; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=3D"s=
+ectionContainerIE" style=3D"border-collapse: collapse;mso-table-lspace: 0pt=
+;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;max-width: 600px !important;"> <tr> <td valign=3D"top" align=3D"cente=
+r" width=3D"600" style=3D"width:600px;mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><![endif]--> <table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sect=
+ionContainer" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; width:100%; max-width: 600px !important; background-color: #ffffff;">=
+ <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-s=
+ize-adjust: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9)|(IE=
+)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" valign=3D"=
+top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" class=3D"c=
+olumnContainer" style=3D"width:200px;border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" sty=
+le=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helv=
+etica, Arial, sans-serif; color: #666666;"> <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"componentContainerButton" =
+style=3D"background-color: transparent; min-width: 100%; border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust=
+: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td style=3D"padding=
+-top: 9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px; ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%;" valign=3D"top" align=3D"center" class=3D"componentContainerC=
+ellButton"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"componentBlockButton" style=3D"border-collapse: separate !important; bo=
+rder: 2px solid #e02e43; border-radius: 50px; background-color: #ffffff; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%;"> <tbody> <tr> <td align=3D"center" valign=3D"=
+middle" class=3D"componentBlockCellButton" style=3D"font-family: Arial, Hel=
+vetica, sans-serif; font-size: 16px; padding: 20px; mso-line-height-rule: e=
+xactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <a cl=
+ass=3D"componentButton" title=3D"" href=3D"http://clickmarketing.syonet.com=
+/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5cOewIiog1NSHDPMjcPt6hpM=
+Yuy5bPJLQ5vVZ1qLY1ASkeMOcQ4qBlBNhem7zOvgz-2FDW3h4B4kObXbZ-2FI8frkwzvRLhjwAJ=
+jsKn2BgG707P3LEKb98tmicKQ9tnHwQnaH1lI8-2FMjNULtqa1sKIOQmGc5175j7q7P3W-2Fzba=
+KIaitfXzvJz3GLw-3D-3DUL6m_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT2=
+3Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4q=
+lq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6=
+pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP=
+6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcr=
+jrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2=
+U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeE=
+fISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6Qt=
+Q-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2=
+t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCQxNIV24qxGRUbP=
+SpRk-2BWFE6BaUtg6fcFtUNGxB3ZoNgfKn01Wisy2vrdSuVses-2F12rqDYmXFHH-2BTqcq8xSJ=
+QJeN6bM4GyEa3R8QuOo8id4tqfbcvACD-2B4scE66BovuRjrKjGHKzpoAxUQzwjE56es2" targ=
+et=3D"_blank" style=3D"letter-spacing: normal; font-style: normal; font-wei=
+ght: normal; line-height: 100%; text-align: center; text-decoration: none; =
+color: #e02e43; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; =
+-webkit-text-size-adjust: 100%; display: block; word-break: break-word !imp=
+ortant;"> Envie SMS direto do CRM Syonet </a> </td> </tr> </tbody> </table>=
+ </td> </tr> </tbody> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE=
+)]></td> <td align=3D"center" valign=3D"top" width=3D"200" style=3D"width:2=
+00px;"><![endif]--> <table align=3D"left" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"200" class=3D"columnContainer" style=3D"width:200p=
+x;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D=
+"columnContainerCell" valign=3D"top" style=3D"mso-line-height-rule: exactly=
+; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 16=
+px; line-height: 110%; font-family: Helvetica, Arial, sans-serif; color: #6=
+66666;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"componentContainerButton" style=3D"background-color: transpar=
+ent; min-width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 1=
+00%;"> <tbody> <tr> <td style=3D"padding-top: 9px; padding-right: 18px; pad=
+ding-bottom: 9px; padding-left: 18px; mso-line-height-rule: exactly; -ms-te=
+xt-size-adjust: 100%; -webkit-text-size-adjust: 100%;" valign=3D"top" align=
+=3D"center" class=3D"componentContainerCellButton"> <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"componentBlockButton" style=3D"bo=
+rder-collapse: separate !important; border: 2px solid #e02e43; border-radiu=
+s: 50px; background-color: #ffffff; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody=
+> <tr> <td align=3D"center" valign=3D"middle" class=3D"componentBlockCellBu=
+tton" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 16px; =
+padding: 21px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -=
+webkit-text-size-adjust: 100%;"> <a class=3D"componentButton" title=3D"" hr=
+ef=3D"http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-=
+2FLuZSIyKBw4bW5cOewIiog1nDdOmSPtd-2Fq-2FKNsCEV5uJIzHtk7gGiOufUmp7Wsz-2F5VNZ=
+wTlXv-2FUEqZVupb3IvZYeHHRy54C9ffi4V5KUmzkVnFA3k54jQ-2F0MXuvGXPZJIGic-2BxETC=
+vk8LB-2F-2BCD0AL-2B22i9Bf6wtWjC9b4UDSeXw3XAp75lbyXaQFwrff-2F9qsPA-3D-3D3baS=
+_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dC=
+FyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZO=
+NEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS=
+0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXt=
+ivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQ=
+dgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge=
+-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWu=
+uHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F=
+-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST=
+8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCTf-2BxNbu7-2FUPwR0672SQizBBsHNq26cQaUEM=
+EirHw5rZ6FcK-2BqCbv1WCy9ucehSZWHIiSeQmx2bR2S90hGRAeVEac8t84bu1sQ8hVW2O6mnVn=
+Y-2BCAQ0DIP5WS5mx0TX1whpeOOxJIfzrWM5crR1NSZh" target=3D"_blank" style=3D"le=
+tter-spacing: normal; font-style: normal; font-weight: normal; line-height:=
+ 100%; text-align: center; text-decoration: none; color: #e02e43; mso-line-=
+height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust:=
+ 100%; display: block; word-break: break-word !important;"> Homologa=C3=A7=
+=C3=A3o Nissan do Brasil </a> </td> </tr> </tbody> </table> </td> </tr> </t=
+body> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td ali=
+gn=3D"center" valign=3D"top" width=3D"200" style=3D"width:200px;"><![endif]=
+--> <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"200" class=3D"columnContainer" style=3D"width:200px;border-collaps=
+e: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnContainer=
+Cell" valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-=
+adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 16px; line-height:=
+ 110%; font-family: Helvetica, Arial, sans-serif; color: #666666;"> <table =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"co=
+mponentContainerButton" style=3D"background-color: transparent; min-width: =
+100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <=
+tr> <td style=3D"padding-top: 9px; padding-right: 18px; padding-bottom: 9px=
+; padding-left: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: =
+100%; -webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center" clas=
+s=3D"componentContainerCellButton"> <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"componentBlockButton" style=3D"border-collapse: s=
+eparate !important; border: 2px solid #e02e43; border-radius: 50px; backgro=
+und-color: #ffffff; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-=
+size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <tbody> <tr> <td align=
+=3D"center" valign=3D"middle" class=3D"componentBlockCellButton" style=3D"f=
+ont-family: Arial, Helvetica, sans-serif; font-size: 16px; padding: 13px; m=
+so-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size=
+-adjust: 100%;"> <a class=3D"componentButton" title=3D"" href=3D"http://cli=
+ckmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FLuZSIyKBw4bW5c=
+OewIiog21HfbfN7ubnZgSHzgD6Rk1xpLAEKiOo6I8tADtxpren2Rgw38zZZTLbeMbteirC5MS5c=
+7xIMuiDFopUCiinks1mBmZtQHQ-2BFvxISzgjW9OqZG93njNiL8eYVBBGayMS5MlPPndxG27PkW=
+uboLzjJFeroC3g8lSPmQU6hKWmTXBwpWBSaYp7EiQqP5NuN3Dnso-3DlDhA_icDVfN55IluE-2B=
+5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUa=
+J0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7=
+qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgC=
+C0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj=
+0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzas=
+zJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpH=
+cTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sR=
+mqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrA=
+Q0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UCl=
+Q4CsE1yRrViqf2boDqqCRi7oCZi2lDvggPZcsOanULSDZJzzs7nz-2F4ckBywmVsRlsVzdjCYfD=
+IIk2BuJXbKhatDCVRunwltL92UuaQtv9SqhV5nJu9nvqsX2E0CeP8QoPSeTPu8bc5ZOxxTzVApz=
+qkXsFNxvcLathAxQ0TyfvI" target=3D"_blank" style=3D"letter-spacing: normal; =
+font-style: normal; font-weight: normal; line-height: 100%; text-align: cen=
+ter; text-decoration: none; color: #e02e43; mso-line-height-rule: exactly; =
+-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; display: block;=
+ word-break: break-word !important;"> Syonet Transforma o atendimento do Gr=
+upo Belcar </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>=
+ </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endi=
+f]--> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table><!=
+[endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #FFFFFF;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; padding-top: 20px; padding-bottom: 0p=
+x;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"min-width: 100%; border-collapse: initial; border-top-style: soli=
+d; border-top-width: 2px; border-top-color: #ffffff;"> <tbody> <tr> <td> <s=
+pan></span> </td> </tr> </tbody> </table> </td> </tr> </table> </td> </tr> =
+</table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table=
+><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" id=3D"section3Columns" style=3D"ms=
+o-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%; background-color: #ffffff; border-top: 0px; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=3D"s=
+ectionContainerIE" style=3D"border-collapse: collapse;mso-table-lspace: 0pt=
+;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;max-width: 600px !important;"> <tr> <td valign=3D"top" align=3D"cente=
+r" width=3D"600" style=3D"width:600px;mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><![endif]--> <table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sect=
+ionContainer" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; width:100%; max-width: 600px !important; background-color: #FFFFFF;">=
+ <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-s=
+ize-adjust: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9)|(IE=
+)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" valign=3D"=
+top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=3D"left=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" class=3D"c=
+olumnContainer" style=3D"width:200px;border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" sty=
+le=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helv=
+etica, Arial, sans-serif; color: #666666;"> <table width=3D"100%" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:1=
+00%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ border-collapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" al=
+ign=3D"right" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:=
+100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top: 9px; padding=
+-bottom: 9px; padding-left: 18px; padding-right: 18px;"> <a href=3D"http://=
+clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FOHoDv-2FKkn=
+z4jpWs4gaUinppjV83fQeXkDO61THBUPZNFvgD4qAuY-2BmqPYf2KFTqIiWRYykAgQHEZHIwRKj=
+dVjNpcst6CGGa6d-2FpJYPj6waYxQTaswWN2g-2BqJn9ErfM-2FWJN1Z5GxBd42X1VqG0M7JB8-=
+3DifXi_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7g=
+sPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWV=
+gHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU=
+7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2=
+FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wP=
+t3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8Q=
+AuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2=
+FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f6=
+8Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANL=
+IWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCQakSTldjSkoVgneiPUet1ogVxCOToi3Gq=
+YbGtGUp-2B0gYansCuegf6w3oX0K1T1vLPFYtaeCnZ0yiR2BsMf4NhA5RwQRl-2Fr0PpgEeCqQC=
+69u06EMsNREnrbdiCLlKqd-2FeHyiw32zFKTWYD-2BI49ucNP7" title=3D"" target=3D"_b=
+lank" style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%"> <i=
+mg src=3D"https://d335luupugsy2.cloudfront.net/cms/files/320778/1638924205/=
+$nr5r7u840m" alt=3D"" width=3D"60" border=3D"0" style=3D"-ms-interpolation-=
+mode:bicubic; border:0; line-height:100%; outline:none; display: block; max=
+-width: 60px; height: auto;" class=3D"img-max"> </a> </td> </tr> </table> <=
+/td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td align=3D"center" va=
+lign=3D"top" width=3D"200" style=3D"width:200px;"><![endif]--> <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"200" cl=
+ass=3D"columnContainer" style=3D"width:200px;border-collapse: collapse;mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"=
+top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -w=
+ebkit-text-size-adjust: 100%; font-size: 16px; line-height: 110%; font-fami=
+ly: Helvetica, Arial, sans-serif; color: #666666;"> <table width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; border-collapse:collapse !important;"> <tr> <td bgcolor=3D"transpa=
+rent" align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-siz=
+e-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padding-top: 9px=
+; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;"> <a href=
+=3D"http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2F=
+E98nUTZw3HmoAJG5Z2hf1wzBfdsPl59Cnwj3sfS-2B3qPtiGNb9QQRcxizsSuxERN8uFvp8C4zj=
+iztP399u0mTHhPZAcCGQtV7LEWucjszKQJEqRvkljEynsuP2XS-2BeAD0vlGr2WJWg5SbvPX95q=
+PBws-3DbmFw_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJ=
+b6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5=
+FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWt=
+VfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iq=
+JmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESO=
+ke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMIS=
+aoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWP=
+JLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUb=
+DX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpN=
+rGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCSz8O0KbBstnY4kd7KK8G-2BVmW-2=
+F99Yz-2BDrL6s9bJ4mvvnUQKekATx6xCCG9d6GdhWrBuJnNr5eE-2BaP1xDHFRBlRVqi1bwlAbP=
+-2F0iOLDiR60r3llDPSpS87BrSeMKwmvt5ptxj6PeGWviPfSN-2BrM-2F98CF" title=3D"" t=
+arget=3D"_blank" style=3D"-webkit-text-size-adjust:100%;-ms-text-size-adjus=
+t:100%"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/320778/=
+1638924205/$112aq34sp5vc" alt=3D"" width=3D"60" border=3D"0" style=3D"-ms-i=
+nterpolation-mode:bicubic; border:0; line-height:100%; outline:none; displa=
+y: block; max-width: 60px; height: auto;" class=3D"img-max"> </a> </td> </t=
+r> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> <td align=
+=3D"center" valign=3D"top" width=3D"200" style=3D"width:200px;"><![endif]--=
+> <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"200" class=3D"columnContainer" style=3D"width:200px;border-collapse:=
+ collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;"> <tr> <td class=3D"columnContainerCe=
+ll" valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-ad=
+just: 100%; -webkit-text-size-adjust: 100%; font-size: 16px; line-height: 1=
+10%; font-family: Helvetica, Arial, sans-serif; color: #666666;"> <table wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"-web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; border-collapse:collapse !important;"> <tr> <td bgco=
+lor=3D"transparent" align=3D"left" style=3D"-webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; padd=
+ing-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;=
+"> <a href=3D"http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdp=
+vOiZIKe-2FNWEFVf8onrZZYmiPitET82koYuwlaGtQrCguclJgLKO-2FAmL40IgOlRBrJyJRG2b=
+3WCHDx07agQH5gz55ydfxq8o7qghHNvORFdonCqBQrzoHWLzQo1l-2B1oz-2B-2FWi2dSc1QbsD=
+Bu1PVzeFROw6eQoCHM-3Dj0OV_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT2=
+3Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4q=
+lq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6=
+pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP=
+6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcr=
+jrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2=
+U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeE=
+fISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6Qt=
+Q-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2=
+t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCR2zk9ti1qtHcoZ=
+Xc1vzF1qSDXk0LslW795J3FqjziePEyOymnH6XP9wTyM460-2B7gYpN2BN3pT-2F3aiZmzNpsFc=
+ZUhGZaHK1jriofC3JdrqU-2BjqA1qqBKLEcFQTDgwbjpxerzw9wXME2nG8ojEQtN7lH" title=
+=3D"" target=3D"_blank" style=3D"-webkit-text-size-adjust:100%;-ms-text-siz=
+e-adjust:100%"> <img src=3D"https://d335luupugsy2.cloudfront.net/cms/files/=
+320778/1638924205/$rsxg8lh5hh" alt=3D"" width=3D"60" border=3D"0" style=3D"=
+-ms-interpolation-mode:bicubic; border:0; line-height:100%; outline:none; d=
+isplay: block; max-width: 60px; height: auto;" class=3D"img-max"> </a> </td=
+> </tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr>=
+ </table><![endif]--> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> =
+</tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #FFFFFF;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600" style=3D"width:600px;"> <tr> <td align=3D"center" valign=3D"top" w=
+idth=3D"390" style=3D"width:390px;"><![endif]--> <table class=3D"columnCont=
+ainer" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"390" style=3D"width: 390px; border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvet=
+ica, Arial, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; b=
+order-collapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" alig=
+n=3D"left" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100=
+%; mso-table-lspace:0pt; mso-table-rspace:0pt; font-size: 16px; line-height=
+: 150%; font-family: Helvetica, Arial, sans-serif; color: #666666; padding:=
+ 9px 18px; word-break: break-word !important;" class=3D"padding"> <p style=
+=3D"text-align: right; line-height: 150%;"><span style=3D"font-size: 15px;"=
+><span style=3D"color: #333333;">A SYONET RECOMENDA E APROVA A</span><br><s=
+pan style=3D"color: #333333;"><strong><a style=3D"color: #333333;" href=3D"=
+http://clickmarketing.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FM-2F=
+3af2Nv2dFhiyLsVTcsEzhhAf76PBu-2FhZLQF7S0k7Ab8rlbENN1IFS3A0i9TaSa8UY4pvfp4hV=
+CdEjVsmMvUG44GAcWWDvsvhqJD63pTvdMSJB1DXAXT7NzJIwysWbEPKTtZTCqtOrCDrSWUUi4JI=
+-3Df6-3_icDVfN55IluE-2B5YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7=
+gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzW=
+VgHXzZONEUYpZJuE27oIot7qfwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoA=
+U7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-=
+2FOqDXtivo169kzD3iTfVKj0E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7w=
+Pt3fcoQdgR-2FbwF5nROzaszJQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8=
+QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-=
+2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f=
+68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGAN=
+LIWAqST8FpjnJJ61qQS1UClQ4CsE1yRrViqf2boDqqCT-2BL1V2x61ntJL1KLoMQBUgEIiUSiSi=
+52mn3VvD1UWFrF3g8iMQqpkJL-2BohkUPkMc0xq75rO1McHVczTpuVNd-2FdsaEOo9YAAHEwBBj=
+6utjMZZG3nw-2Bm-2F2PDG9RWlL-2BYyW-2BlzImSs1uzYyiWSLG1ONu6" target=3D"_blank=
+" rel=3D"noopener">LEAD FORCE COMO AG=C3=8ANCIA ESPECIALISTA</a><br></stron=
+g>EM MARKETING DIGITAL AUTOMOTIVO</span>=C2=A0=F0=9F=9A=80=F0=9F=92=B0=F0=
+=9F=A4=91</span></p> </td> </tr> </table> </td> </tr> </table> <!--[if (gte=
+ mso 9)|(IE)]></td> <td align=3D"center" valign=3D"top" width=3D"210" style=
+=3D"width:210px;"><![endif]--> <table class=3D"columnContainer" align=3D"le=
+ft" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"210" style=3D=
+"width:210px; border-collapse:collapse;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"> <tr> <=
+td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-line-height-ru=
+le: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; fo=
+nt-size: 16px; line-height: 110%; font-family: Helvetica, Arial, sans-serif=
+; color: #666666;"> <table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjus=
+t:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collaps=
+e !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left" style=3D"-w=
+ebkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0p=
+t; mso-table-rspace:0pt; padding-top: 13px; padding-bottom: 0px; padding-le=
+ft: 18px; padding-right: 18px;"> <a href=3D"http://clickmarketing.syonet.co=
+m/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FM-2F3af2Nv2dFhiyLsVTcsEzhhAf76PBu-2=
+FhZLQF7S0k7Ab8rlbENN1IFS3A0i9TaSa8UY4pvfp4hVCdEjVsmMvUG44GAcWWDvsvhqJD63pTv=
+dMSJB1DXAXT7NzJIwysWbEPKTtZTCqtOrCDrSWUUi4JI-3DI7RF_icDVfN55IluE-2B5YhAIwVf=
+cwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ0iG7kKk=
+ggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7qfwcNJhb=
+tRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC0Pcu1xX=
+0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0E7zbAx5=
+5B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzaszJQpmhXn=
+e90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHcTYCs9HQ=
+8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRmqzR1lQ6=
+LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ0ZLsYAx=
+y4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ4CsE1yR=
+rViqf2boDqqCQC1iVsLPhZCLwFan-2F5MHUEXQibt1QJYFRDOlb3E-2F0kMcwATAeove-2FeloN=
+pXTIjm5Wc-2FlAQmHIq6cKYySN-2BrXXU58ZC2erDH74zd05haj5qHc0eTcAI4TB3icEeAvhDE7=
+Ph-2BXoXLpoXg6jjH8Skwx1f" title=3D"" target=3D"_blank" style=3D"-webkit-tex=
+t-size-adjust:100%;-ms-text-size-adjust:100%"> <img src=3D"https://syonet.c=
+om.br/newsletter/imagem/emm/syo/LF+selos.png" alt=3D"" width=3D"160" border=
+=3D"0" style=3D"-ms-interpolation-mode:bicubic; border:0; line-height:100%;=
+ outline:none; display: block; max-width: 160px; height: auto;" class=3D"im=
+g-max"> </a> </td> </tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|=
+(IE)]></td> </tr> </table><![endif]--> </td> </tr> </table> <!--[if (gte ms=
+o 9)|(IE)]></td> </tr> </table><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: #ffffff; border-top: 0; border-bottom: 0p=
+x; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"w=
+idth:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" align=3D"=
+center" width=3D"600" style=3D"width:600px;"><![endif]--> <table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"sectionConta=
+iner" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; wi=
+dth:100%; max-width: 600px !important; background-color: #FFFFFF;"> <tr> <t=
+d valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-size-adju=
+st: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"columnContainer=
+" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-l=
+ine-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; font-size: 16px; line-height: 110%; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666;"> <table width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"-webkit-text-size-adjust:100%; -ms-te=
+xt-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-col=
+lapse:collapse !important;"> <tr> <td bgcolor=3D"transparent" align=3D"left=
+" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-ta=
+ble-lspace:0pt; mso-table-rspace:0pt; padding-top: 20px; padding-bottom: 0p=
+x;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"min-width: 100%; border-collapse: initial; border-top-style: soli=
+d; border-top-width: 2px; border-top-color: #ffffff;"> <tbody> <tr> <td> <s=
+pan></span> </td> </tr> </tbody> </table> </td> </tr> </table> </td> </tr> =
+</table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr> </table=
+><![endif]--> </td> </tr>
+<tr> <td align=3D"center" valign=3D"top" class=3D"section1Column" style=3D"=
+mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; background-color: transparent; border-top: 0; border-bottom=
+: 0px; padding-top: 0px; padding-bottom: 0px;"> <!--[if (gte mso 9)|(IE)]><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=
+=3D"width:600px" class=3D"sectionContainerIE"> <tr> <td valign=3D"top" alig=
+n=3D"center" width=3D"600" style=3D"width:600px;"><![endif]--> <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"section=
+Container" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%; width:100%; max-width: 600px !important; background-color: transparent;"=
+> <tr> <td valign=3D"top" style=3D"mso-line-height-rule: exactly; -ms-text-=
+size-adjust: 100%; -webkit-text-size-adjust: 100%;"> <table class=3D"column=
+Container" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600" style=3D"width:600px;border-collapse: collapse;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%; font-size: 16px; line-height: 110%; font-family: Helvet=
+ica, Arial, sans-serif; color: #666666;"> <table class=3D"columnContainer" =
+align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"60=
+0" style=3D"width:600px;border-collapse: collapse;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;"> <tr> <td class=3D"columnContainerCell" valign=3D"top" style=3D"mso-lin=
+e-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjus=
+t: 100%; font-size: 11px; line-height: 120%; font-family: Helvetica, Arial,=
+ sans-serif; color: #888888; text-align: center; padding-top: 9px; padding-=
+bottom: 9px; padding-left: 9px; padding-right: 9px;"> <p style=3D"font-size=
+: 11px !important; margin: 0; line-height: 120%;">Enviado por <b>Syonet Inf=
+orm=C3=A1tica Ltda. All rights reserved =C2=A92003 - 2023</b></p> <p style=
+=3D"font-size: 11px !important; margin: 0; line-height: 120%;">Para receber=
+ os nossos comunicados, melhorias e novidades na caixa de entrada adicione =
+o e-mail noticias@syonet.com na lista de contatos do seu webmail.</p> <p st=
+yle=3D"font-size: 11px !important; margin: 0; line-height: 120%;"> Se desej=
+a n=C3=A3o receber mais mensagens como esta, <a href=3D"http://clickmarketi=
+ng.syonet.com/ls/click?upn=3D9YwxSImpNLQdpvOiZIKe-2FOBcoRIhDsG0UUwTyjA-2Bp6=
+yhbpAUOzPeIqoNZRc9dqqDSYZJ1or0NczJSxNApdKm9tPXCTZ47OtpKeQdKXsVFvxhk2GL8RFhE=
+OikwD5pu7Mp86aF87XXa4-2BD5Z6m3-2BVS26Def8FXobkxlo1qSso2RdHO1-2Fm48bkgDuHpP-=
+2F95f9wnY3BOps3FQ3O2gjd2OROpuhK6T45ml7WbyWz9XufIlVA-3DraiL_icDVfN55IluE-2B5=
+YhAIwVfcwB-2F0evyxLWQo9DkJqRO8gT23Fki2YXNJD-2BJb6K7gsPp6dCFyMFr6BpIHsVTZUaJ=
+0iG7kKkggysabVla8Lehf8meoNIiL4S4qlq2ccbHXpV9Bq5FVzWVgHXzZONEUYpZJuE27oIot7q=
+fwcNJhbtRClrwHymwe-2Bk-2F2wpEgFR6pcFjDU9DDpIHWtVfoAU7RdxmS0fG58FxWkbFzRcgCC=
+0Pcu1xX0u9ixCz2Vp3PAh29O3ojHrO2BP6WjUfvwPrSf2iqJmV-2FOqDXtivo169kzD3iTfVKj0=
+E7zbAx55B6P70yzdm8-2BE21c3Ou2ZNcrjrRyMY62x03ESOke7wPt3fcoQdgR-2FbwF5nROzasz=
+JQpmhXne90QyRmyIHtcPeCvj39fsMHnI2U4dN3xMszHiMISaoh8QAuYXge-2BZx6QBzkvIogpHc=
+TYCs9HQ8NxSLaKeWUE5nM0XF7fryWpFeEfISxhND9GZVnWPJLD-2FaoKWuuHiWI0zVAi4Rv2sRm=
+qzR1lQ6LYQvnZfeAZ7KgMNQqBE3fUJ6QtQ-2BZYjGP00JUbDX2f68Mg-2F-2FftR9HArXYDOrAQ=
+0ZLsYAxy4K2yJ80qdacGRqaF0y4fvvsA2t9IvLP6X-2BYpNrGANLIWAqST8FpjnJJ61qQS1UClQ=
+4CsE1yRrViqf2boDqqCSBoYdI6mwkhakwBiRMI-2B4G7ZLDbQhP-2FAkPBZcyBOwChVTr2CO0Ti=
+rkMmj3Ew9NjELQvOBDbuAcVMmv8K2XUo81Jgu9rcVAC8Ld-2FFFr-2BTaMrzMeanRCw5cx38mTh=
+KaEkxQObiLPgYUauba2pS3u7F92" style=3D"color: #333333; text-decoration: unde=
+rline;" rel=3D"nofollow" data-scanner-ignore>clique aqui</a>. </p> <span st=
+yle=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span> </td> </tr> =
+</table> </td> </tr> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)=
+]></td> </tr> </table><![endif]--> </td> </tr> </table> </td> </tr> </table=
+> </center> </body> </html>
+
+<span style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;max=
+-height:0px;max-width:0px;opacity:0;overflow:hidden;">=E2=80=A2</span>
+
+
+--fd8ad8f14f8ba987bf38984ba0b2f898521f2d950335648e0c2d368b65f2
+Content-Type: message/external-body; access-type=x-deleted; length=16731
+
+
+Content-Type: application/octet-stream; name="=?UTF-8?B?SW52b2ljZVtSYW5kb20oTiw0KV0tNi5odG1s?="
+Content-Disposition: attachment
+
+--fd8ad8f14f8ba987bf38984ba0b2f898521f2d950335648e0c2d368b65f2--

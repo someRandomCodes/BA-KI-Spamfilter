@@ -1,0 +1,69 @@
+Return-Path: <information@abilitylabs.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 220836 invoked from network); 10 Jul 2023 13:41:03 -0000
+Received: from mail-lf1-x129.google.com (mail-lf1-x129.google.com [IPv6:2a00:1450:4864:20::129])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 10 Jul 2023 13:41:03 -0000
+Received: by mail-lf1-x129.google.com with SMTP id 2adb3069b0e04-4f4b2bc1565so6890633e87.2
+        for <bruce@untroubled.org>; Mon, 10 Jul 2023 06:41:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=abilitylabs-com.20221208.gappssmtp.com; s=20221208; t=1688996461; x=1691588461;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=uAANelvemYV2s8Yh1V1coE3ewHAM5Jqp2feKsVjPsNU=;
+        b=i0IZlVqM71KKFeEYVSB6zltrQK3MYE4INhljnjH6hYXflVFJmSwywy7VHYfmdgGYuB
+         hvix+XXhZuFxJlShx5cF7Ri4r4aBiQUP0aOps/TH1yj1Pkd1sFKhsfdYE99mXRXLqa11
+         Xwz7rmhdeorrqPEWgBJtLJT7tVi5jdBp9YHVU6ADnnbDphxlW7YXDDbyQ/r7NTY2rXn1
+         a/STlZ+HInmZijm/4x+J/7WyMiJq9OJKhSaDwStkYI9VKr03UsppfFKGfQzRnbH274KX
+         sU6R/Dq9wU0L1VZc/23yvbLwKpJrUTSwI91kLd5Nam0SxPuUit6XrNh6XTKy96INoCwV
+         T74Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688996461; x=1691588461;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=uAANelvemYV2s8Yh1V1coE3ewHAM5Jqp2feKsVjPsNU=;
+        b=CI1OnmA2CPs3vQbVrt9/mSxvY4ojYkdDQXkKN1hfTfpYL5YtLsd/n/fOqthHbATjx8
+         zpk3ku1ndTDXMHOEZfyQ3kiinU9fNpSGuUpfaUJAGo8tCnpKCjrpQnKU0v6sPxXzWI/H
+         +u9tSiM3XdKoaYBx+jPDWHGbl0CmD9jsNDYtg+5Ja2CbyMaY+HlVME/xE4iMK1yHdM9I
+         27AB8Pa9dsQKPh84lxF20RsifsPPaAZnTjbdcoRrxLGbDf6lnNvhMxwsyBpOhxVgh+Tq
+         ti5wK5zrFRKTzbiCGVvhz8Q+tAiHxT/xAF6BZEmlJ8syY0MBbFCSqeMCoRr5inyfC1gY
+         jJaA==
+X-Gm-Message-State: ABy/qLZWgPbYQ2JMegKn+HyC1a4tTtOWQfRB/ksYhrgtYW3w/RWQUhC8
+	LDtnMDVLWz1H8OH8CxwQZVEMZBE1DNHcuDe+XDn9ofwg22SMmxc+
+X-Google-Smtp-Source: APBJJlGyAkk+0eDxwl2ywcvP5Oqx6COuJrz2d4GHC88HNv8U33KcUHyCpSJ8z5BqnfpzmSHKCu8NJsAUW/IDlw4UQ/8=
+X-Received: by 2002:a05:6512:a90:b0:4f8:770f:1b08 with SMTP id
+ m16-20020a0565120a9000b004f8770f1b08mr11589434lfu.13.1688996460560; Mon, 10
+ Jul 2023 06:41:00 -0700 (PDT)
+Received: from 218959064735 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 10 Jul 2023 09:41:00 -0400
+MIME-Version: 1.0
+From: Don Lewis <information@abilitylabs.com>
+Date: Mon, 10 Jul 2023 09:41:00 -0400
+Message-ID: <CAO5dToS=Bn3-DOiAd8gVzUFguzr3-L5CpowdbNK1N0cBZhUaOA@mail.gmail.com>
+Subject: Can you please review this when you get a chance?
+To: bruce@untroubled.org
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings!
+
+I'd like to propose an article concept that I think would be a perfect
+match for your website. It revolves around the benefits of involving
+children who have learning disabilities in artistic pursuits, as well
+as offering practical techniques to encourage their participation.
+
+I'm interested to know if this subject aligns with the interests of
+your audience and if the article can be published as a guest post on
+your website. I'd be pleased to provide you with a draft for your
+review. Please keep in mind that there will be no fee associated with
+the article.
+
+Thank you so much!
+Don Lewis
+https://abilitylabs.com/
+
+P.S. If you=E2=80=99re interested, but prefer a different topic, I=E2=80=99=
+d love to
+hear from you. However, if you do not wish to receive any further
+emails, I understand. Please respond and let me know.

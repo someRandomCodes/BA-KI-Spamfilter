@@ -1,0 +1,86 @@
+Return-Path: <thomascoxeb5@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 141883 invoked from network); 7 Jul 2023 17:08:36 -0000
+Received: from mail-qt1-f173.google.com (mail-qt1-f173.google.com [209.85.160.173])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 07 Jul 2023 17:08:36 -0000
+Received: by mail-qt1-f173.google.com with SMTP id d75a77b69052e-40278c8e0d2so15392161cf.0
+        for <bruce@untroubled.org>; Fri, 07 Jul 2023 10:08:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688749715; x=1691341715;
+        h=priority:importance:content-class:mime-version:message-id:date
+         :subject:to:from:thread-topic:thread-index:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=n3RkLLBlkb2sQAt5gziXDfBBLq++kwx63Jq1EM4G7qU=;
+        b=DftLQek8i8Gf56RAWINC3sruigz9Y6l8Ku8HNGqUOPU9kTyMlepQQO5Lrt5CXXe4Bd
+         TpZOMlMaJ0SSy0kCAOfiAJOYwQi2GtDBAFwqDV4jlEznitegST5kMTVdrjcvGzsVK2BC
+         H8RSN52804mOIImJ4dMgHZeg4quScxFu8OUGjj44AqsKSOE7YYfxKWPmwqKWyYWpMjKF
+         q+DtL5o6Zd+BPIhn9uwaIgVk41Vfm+I0EGaLwX3TlVAJW5X7ypiT37LlapwmvIJpxDnC
+         jH4S3CMTNy0lERIvK2gC7gpMMOgoE8N740Y0Pfq6eAZ6Xep6wPSDsIn377+udNeSx9hN
+         xCMA==
+X-Gm-Message-State: ABy/qLZVIJdloPxMisrkCELiHUOqGs7vt5zWgd4e7vTZBJ5l54/4h98w
+	OXWiCzupGUmxhpPopLRgBZhp3s/L9N6DIw==
+X-Google-Smtp-Source: APBJJlFbaNYA46FqWL51ETLUZ6Uj5hTQQLMeu43QCz6bSBU9Mn5Rcuzm7OzDR2hDEAk7BR4DPd9wOg==
+X-Received: by 2002:a05:622a:1787:b0:3f7:b95:f088 with SMTP id s7-20020a05622a178700b003f70b95f088mr5876155qtk.20.1688749714761;
+        Fri, 07 Jul 2023 10:08:34 -0700 (PDT)
+Return-Path: <thomascoxeb5@gmail.com>
+Received: from EC2AMAZ5712GE1 (ec2-44-202-53-7.compute-1.amazonaws.com. [44.202.53.7])
+        by smtp.gmail.com with ESMTPSA id br22-20020a05622a1e1600b00401f7f23ab6sm1906857qtb.85.2023.07.07.10.08.33
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Jul 2023 10:08:34 -0700 (PDT)
+thread-index: Admw9akPx1THhYJLSsyjZ+PcuNAl/Q==
+Thread-Topic: Invoice Payment Received in Full!!
+From: =?utf-8?Q?Larissa L. Forsyth?= <thomascoxeb5@gmail.com>
+To: <bruce@untroubled.org>
+Subject: Invoice Payment Received in Full!!
+Date: Fri, 7 Jul 2023 17:08:33 -0000
+Message-ID: <5CF5DA1BE2B04349AB3896B084E1289B@EC2AMAZ5712GE1>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_9DB4_01D9B0F5.A90FEE90"
+X-Mailer: Microsoft CDO for Windows 2000
+Content-Class: urn:content-classes:message
+Importance: normal
+Priority: normal
+X-MimeOLE: Produced By Microsoft MimeOLE
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_9DB4_01D9B0F5.A90FEE90
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_9DB5_01D9B0F5.A90FEE90"
+
+
+------=_NextPart_001_9DB5_01D9B0F5.A90FEE90
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+
+------=_NextPart_001_9DB5_01D9B0F5.A90FEE90
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PFA+RGVhciBicnVjZUB1bnRyb3VibGVkLm9yZzxCUj5PbmNlIHRoZSBhcHByb3ZhbCBwcm9jZXNz
+IGlzIGZpbmlzaGVkLCBQYXlQYWwgaGFzIGFwcHJvdmVkIHlvdXIgcmVxdWVzdC4gPC9QPg0KPFA+
+V2UgaGF2ZSBzZW50IHlvdSBhbm90aGVyIHZlcnNpb24gb2YgeW91ciBlbGVjdHJvbmljIGludm9p
+Y2UsIHdoaWNoIGhhcyBiZWVuIGFkZGVkIHRvIHRoZSBQREYgZmlsZS48L1A+DQo8UD5pZiB5b3Ug
+aGF2ZSBhbnkgcXVlcnkgY2FsbCB1cyBvbiAmbmJzcDsrMSAoODc3KSA0MTQtMjE1MS48L1A+DQo8
+UD4mbmJzcDs8L1A+
+
+------=_NextPart_001_9DB5_01D9B0F5.A90FEE90--
+
+------=_NextPart_000_9DB4_01D9B0F5.A90FEE90
+Content-Type: message/external-body; access-type=x-deleted; length=506130
+
+
+Content-Type: application/pdf;
+	name="INV-ZRH74.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="INV-ZRH74.pdf"
+
+------=_NextPart_000_9DB4_01D9B0F5.A90FEE90--
+

@@ -1,0 +1,83 @@
+Return-Path: <>
+Received: by 2002:a05:6f02:a605:b0:5a:1128:f86d with SMTP id y5csp1285984rcg;
+        Mon, 2 Oct 2023 05:11:20 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHi7TBo75rLABVtptkCn1DFe5D+10k9ltgKJaavv/dQ4+2Y9nHFL+hA9K6TsKEL/AMDYUxs
+X-Received: by 2002:a05:6a20:918a:b0:15a:f4e:620e with SMTP id v10-20020a056a20918a00b0015a0f4e620emr11109181pzd.59.1696248679640;
+        Mon, 02 Oct 2023 05:11:19 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1696248679; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EoR7vu3rChvQj0ZZiU9LUV+6yWWRohbDWfN2Mxy0XNQAjQJCrchK/T+bk2D3tuCcai
+         noRupwS8G5ZK7IJ18dKnMRLOaoMHrnlO7N1D0XJGnwzRikwnzKZEEuhy9FVRT64BRumS
+         K7ffa395w6c1zYNMXsVklr5+zP76WbxI6Fr+UIiOIOBaHZuuYfTjxkFEWtvGL7Di5ggi
+         CLkhEx86K4wDKm8FKR6VG6xJeFggsabgC+ZQntppdMPNx9jIpfSu0vqO8WmrbmA3QduU
+         OMUwP9A6NtPoaYaG9JxKwlmqXuZSULqJSHhfu3EpTM+4xDKucwqGGRdCePfWRvu7Jpag
+         46ug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=references:mime-version:subject:message-id:to:from:date
+         :dkim-signature;
+        bh=BtfA2zboEZBDmB/JTbhVsaO0nkebelKF+yhes/nqf0E=;
+        fh=LV2zXGTJfTX7vq1puQOo7H4rRMPVraybW0meJE3K6Xc=;
+        b=RuqpM60M4NlyWwdXkCha4QA97+liqLQJABySelujO9Rnhp4nJn55tYwrFL/P25IfrZ
+         o51CevxSwaz1M84QSpyIcWuOq7MpNds2ThGaYRFG0W61AI6zYvtiEGPA3ra/Qz9PWGFj
+         WIC04zGgkcpMJeP2P9ndzijJ4JFwWuaUTv7F6HeaY19UgjdMLSlreBfcqANqn7x1L3Mm
+         4vGlFo4zZJkqVAa7oYAQgAoNNl+mDj4Y8QsMyn7BRlRqd0xqvaBaJmb3U1ohcGdaPQiY
+         hkFhoWR987lHuW67yFAebMo/zW6MfdaSknHSDfSWIjZDpETMZWacLV0mQzmnDfmOd+xs
+         /xtg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=th6LLCYR;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.69.82 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Received: from sonic314-19.consmr.mail.gq1.yahoo.com (sonic314-19.consmr.mail.gq1.yahoo.com. [98.137.69.82])
+        by mx.google.com with ESMTPS id f8-20020a056a001ac800b0068fb5ca50cdsi28138234pfv.126.2023.10.02.05.11.19
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 02 Oct 2023 05:11:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 98.137.69.82 as permitted sender) client-ip=98.137.69.82;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=th6LLCYR;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.69.82 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1696248679; bh=BtfA2zboEZBDmB/JTbhVsaO0nkebelKF+yhes/nqf0E=; h=Date:From:To:Subject:References:From:Subject:Reply-To; b=th6LLCYRjY6ayQAgya4R+Yaop2mVXP+rqOABDOhjxZgwLMdvwKsicrP1M8sJ/SqsOGRDwiLvL9yi9fXD1AHzmb2JBEI6q/PD9NsCN4WYFUfrS2Jfzm3h5zASfWslOakouscmajN30wg3qogOCIRly60gbprRTdc+6DPcaQyI0ecEI/tZJfAh069LLJQ12hAc1iEYc8uKigAkNSaudQTYkhV3vkorFqcwLPzx9rWLDuoXBpu66AJDpLml4zlZgeOpCQFxkYnMZh8EagYBVYryR18mpqKMCJzL+c8tXYWJvF4NMdhS3WSbjK4M+F7MrFFAg/1aIYktDnr+kXC27wPyfA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1696248679; bh=GMA3Ts8g8zBv7999QvdcD8Jd7heIMJm4NI7IMMKj/Hr=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=t6QzpgAB8ENQ6Kmhr04bXUUQ7pnYtNf+jnip+IQknqz6xqxSh9wmxw7fPqMPENq01FrgIaVhnlxlKUd2oH98Kz1NW0qAo6tXOhB3w/b2Sgu6/OpYmjiCqDGAvWgFTV44fVh4FLZfpkNuDEicvOGSkmBmXwQ+Pg/jfq4KCanZWNNARO3IoTxOb3wn9ulDRgFmYd0iOPnu/l91bj35clV0qs/tauS2OwY/kZ5fOUN5PShJrlYUzfh+8EXk2Tl6pENrwPfthMxKLCk5QWfR0LU2f7XFAyaSoSagLgZXz1was4IsUsZn4g+q7KB/2IQeXGWDOz5Le4t0cyjooypiTbSy0A==
+X-YMail-OSG: XxS8rrcVM1kzQRTWvZy2ZzlYyiPw5TJLxY7ynOPPdwhqnXvYoiAiH84RqiSrNkG g_g6Yx8G7xiJxFCTTP3D8LbbHxeMrQUh86um0jJiJYcVDO.8alu7MkBBdW0EFwr21Ck943aWPEmz 02sjrhTOQRLUibM6PzoM2BsT4NrGN5Tzbj3_ek8438MXmr.e1IsxtVndB_74BpyQ3csu1StdV1gB TeR8Tm6cgG_8HJexotDaB9IJzFOZgXLsNCkwX0tx44QGCwu70HjauR..4z42hzR6kLH9zxCih9oC Co0.IJZx49xmX7mkyl5zAqM.RdfaXP3pYNFUP.elV8M9K3xVMr00UDiL8YmUKrSZKpoPhxCx_XSa 8FxQfKRn2eynqn6fMWS1gPUbVUDGQFGDEhCzWNiEfEjjS_3Gxw2N.r.Coki5AAZXwgR3KD8YLJyc VOVYBt0cVapzqHI610dw.jNharbVuXbaBZSxrn4nyhiZRNmOp44v45JI_K9MnUiINv5pkaInuWfC iXwFTJg5q5lkVPgPEKJwRbnG4J_oXdpK8duA3i_TZsxiVoSZpemUR8mbnUUb_Z00fu.QvdtcLXPd JCzYdsN1O85tnDYPYbLC1qZMF_wnazaQcKSiXW1Hr77nWgNT4VslIE__jf7xNRNgxKkFrL2cyMyu wlGsqUheFAfqG75YlyrhnP2Z.EwHmaW0rek_l7SK3Uqi1K4zuFun0KU4PADOaAh5jGfheBSAxecD Wy0iOTqvW.1u3WUlTJ_nfd5O6iUF.Kk3Fr2eWnxJhAMdughIWkahRGrSU7h1QDUszf381z7f3Ku7 fn1v.qFkCfaCyZOca6P8XhEDoafJe1T3G9XX1TjosLFArrME2KRo1nz4q_olYggPgRdye5e4n3._ NpDz0OxMimNkQ1ZKAw4uTDqwjW2JmsHusXJzLpEe9qDc4m3lWdH.1B28HcT4.TB6yktu_sDNulSH H_z6zNIkEDAVKNZUN5MTixli2sDLNfU5mPfweROOw5ScGFCLjVIcEhOrRZ3Ozyy4cRgPHAhYmR3O GQXYd9mdvevafjHrk8OGy.2b8YwVRHgpxFSI3A0nP.wC1Mu3.mQEnQJqkPyCW9uKKz.bpXsXBVQF IEn85gJxBamzOfWzr_UV8ZM3u4IeE.MLOsXYYm8Td5EtIKVO9vlTu1eG0owFWOzmsS_0yW4Ra3zU EeZSeacgawFawSVy8QHXq78UgjOZd7g04gkToV6jacX01vnJRaAzV7ns5_LpCdKqdaVU2JQkBPXA X1n4lzROlS1y36_Y1RAdiZE.f5emT2caYJ15d8QqjAbTSza3jtaWHPFDuReWGvGrYLWTuc7bpZHk bQ.HiR8V_H78Q50ukVlRfU_mVpgtb_exFO1xvSF4qxqI8uVzg9CNm2k82ucQ4vclBXVWsJTF3sLe 1v5RUSXmK_ErLffci0UeVkt8kh99vgJbtUlVeQbai0t_kG1BL9NnJNLHzNn9XhyrMILCSLpifMz1 pHPs2OvVaEruFfve_aRNnQPhSvhrIP28pXl0EayrK4rafqZIqCtu53iRMx3luMWLVyC.aKOqvEdP 3XfMmdMisAqAba_6gGHrjLgYq1zuwB.DlZcLEcrRqrvzzt0ZrbpVMPzMIP_t3VC2zA_nyztty5my P5i0zCEYmXNyd63G47Z8gnjZufR6l9MLYj1QSWLMlunZLPSw3uOu463fuVbBBkUJs3PtZY8YyUeO JYTTalrWDcSj7vcUEx0s6Cr4g9jjqqW.lY0S83X0WJgy8xue1xzI5q4IS8kjOHwoFLs.IcGKZsne g04GIcYkkc89_u.C4equAPR1RLaccCQCMMVOaT3naIvh_OUNZPsxGv.QGUELOF30YBOtUyFqqQmz qtThMMFfZ2Z97Ewh5oh0F3s5vDQTxl97YdKpZNZ_i6.jmFFIS0wUNTYTmcYtTnx8jvLUlAmhSXSA KT3EO56uHd1vTQtikcE.j.x4upEaK676XqgjffnopyfKWSEgiFSAYQJWifbNrdgwMbTAQ4G8o_Pu iycEE1vizP.bbi1WMP5vkAFsF73aa19ipJGUyYuT5aV4AMPIdd5o7iwbpKRWWuxhJOUBC5iHb3a8 NlIFgsLdnAjQxzt9yWSIfKsd9mjYnVvUPHeGC7zcl7SQS
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-My: Nk4rQmpQWUtidmR4czJHQmZwOXdzNDZWL0p2RTkzNi9NT2gwdlJ6RTd0WFh3QXpsaXJTQy9hYWswME5qeHp1S1ZmNFJKekVIKzVYNGM1N2hSSWI1OUdCK0JNVURHMDdvUXJLYW1TdHFSZm9XOS9LL3NRQ0ZmbkVzM1lNTlFLVklwWEdJcnRkbWRhWUxGQ0pLWWRTNkJnPT0_
+X-Sonic-ID: 67fc1b75-36c7-44d2-98fb-b81e1d647c52
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.gq1.yahoo.com with HTTP; Mon, 2 Oct 2023 12:11:19 +0000
+Date: Mon, 02 Oct 2023 15:42:28 +0200
+From: super food <bruce@untroubled.org>
+To: super food <bruce@untroubled.org>
+Message-ID: <7133659v6H43.877164510750172527.169U0BAUm19sm2hY6Eu1OAM455@mail.yahoo.com>
+Subject: 5 Worst Foods For Arthritis & Joint Pain
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21797 AolMailNorrin
+Content-Length: 2982
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+ <head>
+ <title></title>
+ </head>
+<p align="center"><a moz-do-not-send="true"
+href="https://fEkhCc.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=9oecf4oeklpbbrllumrkbjvvmweho3smjc2eewhny327dyl0852stvjgz5xn2qjuxn&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#Nk4rQmpQWUtidmR4czJHQmZwOXdzNDZWL0p2RTkzNi9NT2gwdlJ6RTd0WFh3QXpsaXJTQy9hYWswME5qeHp1S1ZmNFJKekVIKzVYNGM1N2hSSWI1OUdCK0JNVURHMDdvUXJLYW1TdHFSZm9XOS9LL3NRQ0ZmbkVzM1lNTlFLVklwWEdJcnRkbWRhWUxGQ0pLWWRTNkJnPT0_"><font
+      color="#4a4aff"><b><font color="#ff661c">View in browser</font></b><br>
+    </font></a></p>
+<p align="center"><font color="#4a4aff"><font color="#c400c4"><a
+        moz-do-not-send="true"
+href="https://fEkhCc.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=9oecf4oeklpbbrllumrkbjvvmweho3smjc2eewhny327dyl0852stvjgz5xn2qjuxn&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#Nk4rQmpQWUtidmR4czJHQmZwOXdzNDZWL0p2RTkzNi9NT2gwdlJ6RTd0WFh3QXpsaXJTQy9hYWswME5qeHp1S1ZmNFJKekVIKzVYNGM1N2hSSWI1OUdCK0JNVURHMDdvUXJLYW1TdHFSZm9XOS9LL3NRQ0ZmbkVzM1lNTlFLVklwWEdJcnRkbWRhWUxGQ0pLWWRTNkJnPT0_"><font
+          size="6"><b><font color="#c400c4"><font color="#ae5e5e"><font
+                  color="#00773c">Best Fruit Before Bed</font></font></font></b></font></a></font><br>
+  </font></p>
+<p align="center"><font color="#4a4aff"></font></p>
+
+ <body>
+ <center>
+ <a href="https://fEkhCc.campaign-view.com/click.zc?m=1&mrd=1100b79357db75a87&od=9oecf4oeklpbbrllumrkbjvvmweho3smjc2eewhny327dyl0852stvjgz5xn2qjuxn&linkDgs=1100b79357db752cd&repDgs=1100b79357db752cd#Nk4rQmpQWUtidmR4czJHQmZwOXdzNDZWL0p2RTkzNi9NT2gwdlJ6RTd0WFh3QXpsaXJTQy9hYWswME5qeHp1S1ZmNFJKekVIKzVYNGM1N2hSSWI1OUdCK0JNVURHMDdvUXJLYW1TdHFSZm9XOS9LL3NRQ0ZmbkVzM1lNTlFLVklwWEdJcnRkbWRhWUxGQ0pLWWRTNkJnPT0_"><img border="0" src="https://pbs.twimg.com/media/F7bzlbvW8AAd4ef?format=png&name=large" width="453" height="680"  alt=""></a><br>
+ <br>
+ <font size="2"><br>
+ <a href="https://fEkhCc.campaign-view.com/click.zc?m=1&mrd=1100b79357db75a87&od=9oecf4oeklpbbrllumrkbjvvmweho3smjc2eewhny327dyl0852stvjgz5xn2qjuxn&linkDgs=1100b79357db752cd&repDgs=1100b79357db752cd#dUlWZjlZOTJhUDRUckl2YXRCd3VkWXppSzhqRnpXNHIrV2xjd1JPNGJqRXFWQ0NjaWlyU1kyQjVYL1FsME00Z0pET09JTCtZUW1WOTIzQUo0VDNDQjlUWUYxd1V5L3hTM1BtUlc1d2hYdWdsNnkxVytjN2llcTRUWW1OdFBYYlpBamtxU1N0cHJuZk5pb2FuUi9nQlZBPT0_">Click here to Unsubscribe.</a></font>
+ </center>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="http://optout.boyaklol.site/ZmZsUEdGblcyMC9PYnRPL2dBYVNHWTZnOVY1UkhtT2d3WjJIYWlhRlc2OXVJQnFNNlYvR2tZOGRVMDdRdENZcnBnRFEyWFdBL3J5RFZzQ1lUTVdNRG9MU05qV1JVY3l2RmFGbnFYT1VMc0c4YlpLbzN6U1BhRG16RFpoUHRKMmdpZk11UThmZnJqNEpxbytjcFlLenV3PT0_"><span style="color:#000;font-size:11px;text-align:center;margin-top:10px">here</a> to remove yourself from our emails list</span></span><br/><br/>

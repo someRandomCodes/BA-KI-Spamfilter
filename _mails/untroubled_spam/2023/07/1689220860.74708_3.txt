@@ -1,0 +1,229 @@
+Return-Path: <>
+Received: by 2002:a54:354c:0:b0:21d:d7ee:eb4b with SMTP id e12csp18419784ect;
+        Wed, 12 Jul 2023 05:19:03 -0700 (PDT)
+X-Google-Smtp-Source: APBJJlF6E2rG8ryMx5fw5DD1M6MDUx9g3FlmVU5TBEJWl1vPsiGsoP+2I/C/YUVm8lFhZeB5FG/L
+X-Received: by 2002:a05:6358:4308:b0:132:7a01:32ac with SMTP id r8-20020a056358430800b001327a0132acmr20059163rwc.16.1689164343394;
+        Wed, 12 Jul 2023 05:19:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1689164343; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ypMfzRleF5/Q1vssK/8XJ9nDcXY2/eRJkwP+Xc4L6ff7Iv8XSIabzUtzilxCNfgf/7
+         +TalPCTTphjGEBpnPhvpMyiSzhQolQ37wtd/rIkODaDeH304M0iinzREE561QwkkGa+K
+         I3+yOfX5fzLkyI4GpSS3HHpACcwyXbOEw2Uig+Wl5k9rHs6+wOmM/CEiyfcCd1As3wBx
+         +/1IfgPDOTqQ0rpulo/hz2e41b+ZEiP5s/7Cw5BBE4kkaPLj8kUiZmuukANGb7YD5EZD
+         0zNPb+3RhFk3R5dgqxfpTH805JDT0NAVdrqoKeZjDYFONCCDkiPdYcpLlEL/QLfci/sh
+         w09Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=references:mime-version:subject:message-id:to:from:date
+         :dkim-signature;
+        bh=5qJTrgPtIVmbPv9nvJhdYBTNIjJIRLLdPcRyjruKkC8=;
+        fh=iTEa///TIMv4P6argHRjpb9/piXAeFq81coOtJSJb5I=;
+        b=cLCfUgwOPSuaf79TktMCr+r7OT/pekDec7SifqCqqSlPZjqhryEUOgvF/w34RKn6ij
+         XhLSfq4DUgsRCrpw6WcK+41CxM5Ug9sgMHnalZ6vr5fuD2u/p1QMgc0UVIq/G/FC1k1K
+         XdkFOWP3v7AQolofqB6XoMNIl45P+s/7kA8v/mDKF4TP5FDDrfHuYhm3lfmGdAIPdAr3
+         TyOx9Tzxs47nNLbSRNjFtO/zCGG1Uoi4KCweNdTUSyYYrCAY0h+WzJShpb2/87uC5SOZ
+         VtrNXauumyjlSatCDfhzX5rBl+ixLCdLXZ0INgIavVsNMbMISqu9QY9KhpdTTHedP+gr
+         YdrQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=nHKDD6n+;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.64.205 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Received: from sonic303-24.consmr.mail.gq1.yahoo.com (sonic303-24.consmr.mail.gq1.yahoo.com. [98.137.64.205])
+        by mx.google.com with ESMTPS id l17-20020a656811000000b005503f25aac2si3252956pgt.241.2023.07.12.05.19.03
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 12 Jul 2023 05:19:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 98.137.64.205 as permitted sender) client-ip=98.137.64.205;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=nHKDD6n+;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.64.205 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1689164343; bh=5qJTrgPtIVmbPv9nvJhdYBTNIjJIRLLdPcRyjruKkC8=; h=Date:From:To:Subject:References:From:Subject:Reply-To; b=nHKDD6n+F93ibsOu+JM3ldWJb+a9IIk6MkwU5Sv2MGHQO/V1U4s18rpItN0YfKoUGXLmSqPgLLMLHVDJcKrtiLNmwem5Et3LaipBLlB8Au+mq1FK4/vNSvZZiOblbLr4X8zw+wjAHB+23NhjWA3A6P+YSdxQD99b0OvjDMHeDAnOQf6SMk2iYdpAtchVbgAXaKE4avY1ocuSdSkQ8StU4DWd4NwFUblkOrHj3vYBLK1i1dBYHyN1uXSxJBDGWukGhvoroDQP4PKpWbjg4VLGQW2z8xg9F2Bg4kpGLSChElzkHaPgPINXAxgHhkrkBSusEqhVHfBrG8BNrKelFzov6g==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1689164343; bh=+m0k6xxagFX5BGJdI3KoJZ/BM5VJ/5AaCWVFZ3eQJ19=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=QnXht2+GWtHKUFkMcS1+EHWXu1O30IKQ3ZJNLm2JkB8Owz0S7EpEmfX1ml4+aB6wuXNJ1SX+xV6LLLNZlvRfT14cW0AgsDb05o1BEylJ2kvqmy1C61wuXTK5B3VhntG0qRH443dcRCVYS3pE+V7x7TNEnesNTeIP5+0Ls87I1I0hBDN1tZDiOu75BO3qTyMcBY3GlENe85Egr0/mnOsGdUbD2t/MhLRDdabyEbeg1WGZfvLRsmd5fhaEAT1gNPuOnNyjy2MHchjkOmNrfO/uNTXWnBubep1+slq1hP0lHeJwjnlNYThq0iWB+SBhV8RHu8dGZdmynVQyrhRjmH0YgA==
+X-YMail-OSG: RPfgZL0VM1mgaTkCQA3g3J2GDm3oZLYBSacRfdU3csIz8eFFTei4eeVSJl2Wp0g qnk0ImaCR2suhx6bf0.8W2lE34augjLESdYKmaAkmyDPBV9LyTc0eMVSh0E3TXIwsdZPkqn4cRO9 5JcgZ2Kg2nPsmG2mHMuq_JExtGeNhmBLEyjNCbItnD_wrwwe57zRTmt_XSo5o3P6UGEKUQ_Zvc.o DnpU0W76ERx_xqyZLDGy7UZwp4BCuvof51Z06ESSRnFDrSVfyvSgBucZDXJRJAhuF.lSg_c2t7a0 ZubOPMn0jZhC0MJjFMkpY1r69bnJKHlWhkDxd.IjARtCfwSvuu1iUH1DyYYk__h5CFtp2NN4LQLw Am0A5J249Vh5dQM7YxITVL5itdnmoSKbTZ5Yllf2Yylz0BKbzwcKI_FXjtU27ce6.Y2pVwm6niQO Bv7eExifBuscGX.M37zTYYRTxfm4jTAGN6MMAoB99sI3GqhWTkcXaRtfdspz3LCIiKscGy5G7M18 AZLUWHIqy2Z_QK6aGshzFZD_1NRkh4cpypR3OqXAorBBHW7v_01TFr6UdDQOlR03a8RghkgzOJUk _GS5zwmXZfVDj086QY10g0XFnTdajTM8Sg.dJ6uScJLYwJRbjzh0DmfMTZ3C_TZTR1Wb2PVXc69A xfyD82QCgNf97QmUIe_aZ6t6QFd88QQIDMQaC49J.NYQVRy66yexp6zNzvgqtpOwbvAZ8pdfaVOA iiNcZ3qXU_HRud9hsD3JB0UnL5OlxdxTBBg893UEIdeIP86KB0LtYNHE9fN7hMv8kWWgL8d4py0N U_lf1DU.XVWsv93dyJyENPN.taXfTmyQDXwwRHcWdiUwf8iz5msiLpV1A6XqVKFtSCGH4RJPmBs7 d_bF.T5rXZ1BmqW5_qQc2OJ6vCuYPOZ5JfJFIAkwlHr2yRSFMqLo2lJVYCOWu_SfxH0LaTIEI74E 9n3qBf4iL8pWduSWXMq7QPI24yGGyGZqsBjOUjFxkxvMVoNCBHU_l7stw8cIf3CnCYvnAlP3Ayl8 VIrzjKJc1HpLcXJFwfn5EX7rKV8UebhoqLrdcNYj_4puZn0OWpECgLfrvnfE9gZ.xzJTp78HvcnP btrVPbsm65muyw5CtHBx_Ce9.5WaE9FB_HSg_K847nGi0pVtZLO0zyy6x3jKN7GSWaduc9dL0jZs 1jnSUkCREJw3XXQA.vOAONrsadoexaqMXlJBNfKJRn7BhLby2Mr_Xd6hd_41BTf_TRQIvXmaZkeU FwbGh8RAWGcUrLCbHXv0Uj18XhNEV5QQZZu7XVXl1zPybQjxGYI8gxq715hrNPzoYwPZ8DimFZ_Z lwdVxlWttLqzpl2wezT8Dvu.xcOK3jaQQyE4Z292lMRlitRqwQUfq_8cDZ7kxRrEeYqbYZhGjX5r t9b0jdtOUTlL2Q.wA1hojTPEpafGSxmTtLbMLo2zqBmkbQde4UDl0wHCLpVVc.RDCWHrOrMWVdIr XVFASDjkh4IQiqYSgCOZvPXIKx2hUT3dsAqfRbEf7rTV7Ae9cJC1YLLIF7cAwi5a53BHZm5_1WUv r1zkXtLjvP3LexFmCckPlhcsd7jZZoV_rE_Md2qsw3qDJq.NNH.jGWi_4Mom0IZB90rpDYSHuT4D WfxxAAr97A4aWjw.1g.BYCSKhjYZc.I5nbJ18Ahvq350X4Rgqapyr3pmqzztWyIrS2xVbgYVyXp_ nYbtcInibY52bIClIqa14TLtSrf3uoITtLfz8obPWCiTzhJKPQmmL0sylqep0zuThMyW38kp_jsA wkwzCRnYJa_verPhOCY0CC2RlKdPADjbFN8fuBU8pfOyVzgwCY3CBtTlUX9LGkQ3xJNJy51t3CiE XO1oDQByj34xPCmcD.G1HH7m8aYEvTD8qvWJYIvnwSZvZu8fMtFtNX0PPAtx_CwlOZUHRzQRhOJu fBieP0L43rZruHGndqwmhy5ejMN5sVKEYhvWC3LH0lcpbOmIlaxzNilFfN.o.x7bi8TXpH5rJBCd PeyEsCFaWSkaIOVneGypp1BlWd307H4VQvzC5gDSrsHue61J9qFYZDXqZsA0KVn4z7_Rxuvf5lqY tIUw0cWhtvnymlHIu.j0xsm12l625Lxi6ckU.YxUoLn6Q.KHFEg--
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-ID: c9594781-d91a-412f-8262-e291e91555f7
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.gq1.yahoo.com with HTTP; Wed, 12 Jul 2023 12:19:03 +0000
+Date: Wed, 12 Jul 2023 18:16:25 +0200
+From:T-Mobile Shopping Reward <bruce@untroubled.org>
+To: "T-Mobile Shopping Reward" <bruce@untroubled.org>
+Message-ID: <825534176.2462781.1684432545282@mail.yahoo.com>
+Subject: $90 Free Trial Offer Confirmed. Claim Now!
+MIME-Version: 1.0
+Content-Type: text/html;
+References: <825534176.2462781.1684432545282.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.21638 AolMailNorrin
+Content-Length: 7321
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+        body{
+             background-color: rgb(198, 198, 198);
+         }
+         .bg{
+     position: relative;
+     width: 600px;
+     height: 1000px;
+     align-items: center;
+     
+ }
+ .logo
+ { 
+     position: absolute;
+     margin-top: -1237px;
+     margin-left:-43px;
+     scale:0.11;
+ }
+ .title{
+     position: absolute;
+     margin-top: -864px;
+     margin-left: 48px;
+     font-family: Montserrat;
+     font-weight: 500;
+     text-transform: lowercase;
+     font-weight:normal;
+     font-size: 33px;
+     color: #ffffff;
+     line-height:36px;
+     text-align: center;
+ }
+ .title2{
+     position: absolute;
+     margin-top: -833px;
+     margin-left: 44px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-transform: uppercase;
+     font-size: 66px;
+     color: #000000;
+     letter-spacing: 0px;
+     text-align: center;
+ }
+ .text{
+     position: absolute;
+     margin-top: -756px;
+     margin-left: 93px;
+     font-family:Montserrat;
+     font-weight:normal;
+     font-style: normal;
+     font-size: 33px;
+     color: rgb(255, 255, 255);
+     line-height:25px;
+     text-transform: sentancecase;
+     text-align: right;
+ }
+ .text2{
+     position: absolute;
+     margin-top: -817px;
+     margin-left: 90px;
+     font-family: Poppins;
+     font-style: normal;
+     font-size: 30px;
+     color: #ffffff;
+     line-height:25px;
+     text-transform:sentancecase;
+     text-align: right;
+ }
+ 
+ 
+ 
+ .my-button{
+     position: absolute;
+     font-family: Montserrat;
+     font-weight: bolder;
+     border: none;
+ margin-top: -238px;
+ margin-left:140px;
+ display: inline-block;
+     padding: 13px 26px;
+     text-transform: unset;
+     text-decoration: none;
+     color: #fedc00;
+     font-size: 25px;
+     letter-spacing: 1.5px;
+     border-radius: 5px!important;
+     background-color: #5603ad;
+ }
+ .my-button:hover{
+     background-color:#18ea05;
+     color:#011627;
+     box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+ }
+ .asset{
+     position:absolute;
+     margin-top:-593px;
+     margin-left:-115px;
+     scale: 0.75;
+ }  
+ h4{
+    position: relative;
+    font-family: poppins;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -168px;
+    margin-left: 0px;
+    color: #000000;
+ }
+ 
+    </style>
+</head>
+<div align="center">
+  <div style="color: rgb(0, 0, 0); font-family: &quot;Times New
+    Roman&quot;; font-size: medium; font-style: normal;
+    font-variant-ligatures: normal; font-variant-caps: normal;
+    font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+    0px; text-transform: none; widows: 2; word-spacing: 0px;
+    -webkit-text-stroke-width: 0px; white-space: normal;
+    text-decoration-thickness: initial; text-decoration-style: initial;
+    text-decoration-color: initial;" align="center"><font style="color:
+      rgb(0, 0, 0);" size="2">View in a we</font><font color="#ff8000"><font
+        size="2" color="#000000">b</font><font size="2"><span><span> </span></span><a
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#N1h1UFJSYStMU3FBVUxINUhtWEZadWdIc0FWc1VKTHJVZXNrblNUK1UzaDczRk13SmhQK3FKN0x4U0xoK29mdjUwdDkrUHcyL1RpOEFiTy9oTEdlYUZOV0RlbUQ2LzI4V1dqT3VjczJxR3ZSSTNTK21Pek9GS1dXTlcrMDU4OGM_"
+          moz-do-not-send="true"><font color="#ff8000">browser</font></a></font></font></div>
+  <font size="4" color="#623131"><font color="#000000"><font
+        color="#ff8000"><b> </b></font></font></font></div>
+<div align="center"><br>
+</div>
+<div align="center"><font color="#95004a"><font size="6"><a
+        moz-do-not-send="true"
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#N1h1UFJSYStMU3FBVUxINUhtWEZadWdIc0FWc1VKTHJVZXNrblNUK1UzaDczRk13SmhQK3FKN0x4U0xoK29mdjUwdDkrUHcyL1RpOEFiTy9oTEdlYUZOV0RlbUQ2LzI4V1dqT3VjczJxR3ZSSTNTK21Pek9GS1dXTlcrMDU4OGM_"><b><font
+            color="#95004a"><font color="#009b00"><font color="#800080"><font
+                  color="#954a00"><font color="#800040"><font
+                      color="#5959ff"><font color="#999999"><font
+                          color="#d7357d"><font color="#8080c0"><font
+                              color="#804040"><font color="#c44000"><font
+                                  color="#8000ff">$90 Free Trial Offer
+                                  Confirmed. Claim Now!</font></font></font></font></font></font></font></font></font></font></font></font></b></a></font></font></div>
+
+<body>
+    <center>
+        <table>
+            <tr><td><img src="https://pbs.twimg.com/media/F02RGz6WYAAswG6?format=jpg&name=large" class="bg"></td></tr>
+            <tr><td><a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#N1h1UFJSYStMU3FBVUxINUhtWEZadWdIc0FWc1VKTHJVZXNrblNUK1UzaDczRk13SmhQK3FKN0x4U0xoK29mdjUwdDkrUHcyL1RpOEFiTy9oTEdlYUZOV0RlbUQ2LzI4V1dqT3VjczJxR3ZSSTNTK21Pek9GS1dXTlcrMDU4OGM_"><img src="https://pbs.twimg.com/media/F02ROreWcAA-djZ?format=png&name=large" class="logo"></a></td></tr>
+            <tr><td class="title">TAKE PART IN OUR</td></tr>
+            <tr><td class="title2">Marketing survey</td></tr>
+            <tr><td class="text"> and get $90 Promo Reward</td></tr>
+            <tr><td><a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#N1h1UFJSYStMU3FBVUxINUhtWEZadWdIc0FWc1VKTHJVZXNrblNUK1UzaDczRk13SmhQK3FKN0x4U0xoK29mdjUwdDkrUHcyL1RpOEFiTy9oTEdlYUZOV0RlbUQ2LzI4V1dqT3VjczJxR3ZSSTNTK21Pek9GS1dXTlcrMDU4OGM_"><img src="https://pbs.twimg.com/media/F02RXLXXsAIHr5b?format=png&name=large" class="asset"></a></td></tr>
+
+            <tr><td> <a class="my-button" href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#N1h1UFJSYStMU3FBVUxINUhtWEZadWdIc0FWc1VKTHJVZXNrblNUK1UzaDczRk13SmhQK3FKN0x4U0xoK29mdjUwdDkrUHcyL1RpOEFiTy9oTEdlYUZOV0RlbUQ2LzI4V1dqT3VjczJxR3ZSSTNTK21Pek9GS1dXTlcrMDU4OGM_">GET STARTED NOW</a></button></td></tr>
+           
+            <tr><td><h4>Tell us about your experience and we will<br>offer you an exclusive offer<br>worth $90 or more.</h4></td></tr>
+            <tr>
+                <td
+                    style="padding: 0px; padding-left: 15px; padding-right: 15px; font-family: sans-serif; font-size: 10px; line-height: 14px; text-align: center; color: #999;">
+                    &nbsp;If you do not wish to receive future messages click here to <span
+                        class="unstyle-auto-detected-links"><a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#bGUyMTJPL3FQY01idm9qbHg5OUNHR3RQSHNDUzk0eVpLR3YwaVBOZ1lPMzMrVGZ4aVQvb1VBaFNKdnl4S2Zid0xYbmRLb3JKTnNCNGVHNWxjeU1wN3B6V0ZHWWZtWGtnVktJcmZMVXlvRkpHaHI0T0VZRkpRQTUwVUlpank1OXc_"
+                            style="text-decoration: underline!important; font-family: sans-serif; font-size: 10px; line-height: 14px; color: #999;">unsubscribe</a></span>
+                    <br><br>
+                    </td>
+                    </tr>
+        </table>
+    </center>
+</body>
+</html>

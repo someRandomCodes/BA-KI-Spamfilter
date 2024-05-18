@@ -1,0 +1,58 @@
+Return-Path: <caoh1444@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 65141 invoked from network); 18 Apr 2023 14:54:45 -0000
+Received: from mail-ua1-x92a.google.com (mail-ua1-x92a.google.com [IPv6:2607:f8b0:4864:20::92a])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 18 Apr 2023 14:54:45 -0000
+Received: by mail-ua1-x92a.google.com with SMTP id s13so7571594uaq.4
+        for <bruce@untroubled.org>; Tue, 18 Apr 2023 07:54:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1681829685; x=1684421685;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=nNO+4lSPVakoOSsR4fKgt/Zn7Fo4+5Tug+R2OjCffg0=;
+        b=E6oBdzmD27BxsbvIaOmXq2Lv4nRStULwfVAamIGwidJYuJbyaHxpckTuJV5n3AzF5j
+         9F64AAVjRVix/V58lYRxYfEwVBaCgEDCLBKviJ9RqvaXnw27uPR4hE2HYsAkgRgfKF31
+         D3pAqdah8yFRi123ccOzFbZzGDLvVW4cc9W3o1SfT87nnGPsDTzlje574qe7PR8Y1ZcQ
+         wBTG6Ge02O3BANMCX8nZID8chgm190MCUKi1V3F6IrxP/wrMbewnVtnehMFkVfLCLulG
+         TRHpV5VyE6Dl0GbfyzT4RQGctdGRoJDgqXUz89TBEAytJKfQ/PvGyl9JAGGgg+z/6vj5
+         Mk+A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1681829685; x=1684421685;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=nNO+4lSPVakoOSsR4fKgt/Zn7Fo4+5Tug+R2OjCffg0=;
+        b=ctSEp3MakrmNiHQXtxzs20UlGuSZHXmRJIYx8j9aDJkMXgAUtm8TWX5FE3T/VJuJHG
+         io8+jvGvL+edb3ONWhuEWNxIetHqClZ9VkFluBpIv7epANiSzVSClrCqCV00OJFX8Yg+
+         Rx7RX5wcJJB+O2LbU92x2X4MEVYLJS1CpsEhuH1LjddXIt7iGn4QtpOFpggP1N8NZtwP
+         Nbzpnl9cyy232oxvLkP1kEdGa5OoMakU+lmQqb+dJ39Z0tbY7tsB4TqWT9x1tOja61TJ
+         RcLdxQIVR6bjOQZW6eyjDpO16ZGBWXWhd6iMfmyKvaB0ckcI2bk6CpOgQT8JFvTCYJ4j
+         m60A==
+X-Gm-Message-State: AAQBX9cjmdnisd7YU3FiH2epCh5uYYJ0TVw50pzMO7KTAlArwOaltt+C
+	jEJtPQ4pek/uoG2PCug4gJFpxRH5CujQfWfA6io=
+X-Google-Smtp-Source: AKy350ZnHrRem7Rxj2Czn9kkR505ACJpd/qC3ad7+Gqwh9lhZW7fhPdt6yPQzwH+jDEddI2fEMWj+NxBirEHdqdI0LU=
+X-Received: by 2002:a9f:309a:0:b0:772:1980:ee09 with SMTP id
+ j26-20020a9f309a000000b007721980ee09mr11909038uab.1.1681829684751; Tue, 18
+ Apr 2023 07:54:44 -0700 (PDT)
+MIME-Version: 1.0
+From: Popescu Maria <caoh1444@gmail.com>
+Date: Tue, 18 Apr 2023 14:55:13 +0000
+Message-ID: <CAFFnXC3Evt-F8Spim+SwhR6cUNE+oFtXeDRpfVt3sNE64KAaFQ@mail.gmail.com>
+Subject: 
+To: bricodomo <bricodomo@zappmobile.ro>, brodconf <brodconf@rdslink.ro>, brp <brp@just.ro>, 
+	bruce <bruce@untroubled.org>, brumyconstruct <brumyconstruct@astralnet.ro>, 
+	brusturean <brusturean@poloexpo.ro>, bsecrieru <bsecrieru@personal.ro>, 
+	bturca <bturca@iasi.farmexpert.ro>
+Content-Type: multipart/alternative; boundary="000000000000eeb23b05f99d7c91"
+
+--000000000000eeb23b05f99d7c91
+Content-Type: text/plain; charset="UTF-8"
+
+https://bit.ly/3GRTir9
+
+--000000000000eeb23b05f99d7c91
+Content-Type: text/html; charset="UTF-8"
+
+<a href="https://bit.ly/3GRTir9">https://bit.ly/3GRTir9</a>
+
+--000000000000eeb23b05f99d7c91--

@@ -1,0 +1,166 @@
+Return-Path: <milton@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 170258 invoked from network); 30 Oct 2023 05:26:42 -0000
+Received: from mail-pj1-x102b.google.com (mail-pj1-x102b.google.com [IPv6:2607:f8b0:4864:20::102b])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 30 Oct 2023 05:26:42 -0000
+Received: by mail-pj1-x102b.google.com with SMTP id 98e67ed59e1d1-28001f8079cso2494094a91.2
+        for <bruce@untroubled.org>; Sun, 29 Oct 2023 22:26:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1698643601; x=1699248401; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Kyi5SkDHaKbW92S7WvJWFLNyOW+RUdpwb/Dze3yJ/XA=;
+        b=plKtVoTfbk1DbXUjX65spMNuHgg9to3wcsoTZ+wRO+MiqDpLbqhB8SukVDIKz5LFvQ
+         niKa33OIQ0OE+CfCgEipxbhlBtt/E/2N/b8CgBMQTMRiMSryCT6G/Hk//nCv4mzJ28cB
+         MOLAWBjmOA9YYO8BWtmBWRzLMZzAD5qiT2Y7S8jvmghDkhZA1UtQByaO70lT0cVxqLUN
+         Us7DDWGZ9DtWQwtxu1XBDDQynzuVcWBPKSIjJenMdNlA4LwxE+4jGeAhhkvLDepNv/ii
+         YfvZnjM5VTRwbCmcVNM9rygb/2zoUpQAD9Yo9BbKkyv07fkx26BGjPQXhCNPxzLWOpHf
+         shcA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698643601; x=1699248401;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Kyi5SkDHaKbW92S7WvJWFLNyOW+RUdpwb/Dze3yJ/XA=;
+        b=UyMqvy91ObQMYwKP29jbElPZMPKtnQSVgUGQg9OzDoDxs+2sXmeS5aV80JVfHzQKJG
+         y2kf6LuJ90nRIMbU8eABeAc6DO8VCclKGyB4NV1W6AQU10DI4w9jHnozAdJJv6MeX6SE
+         W+ZlZU1aU1bfnr7csP3+S9iG916kPP+Y6OTbo69JD0q9gEjtn3hFenIl4uwLb/pttW1C
+         Q9HVg507rVFGqoraBxymkH78DxlPkdRLVH8zE+Kk2UJmIO6ecgU0RI5CavVdwt1jn/q0
+         +vPzHK5KEM6SMcveRMbcozoWm2EBwJ5Q6CaVZLJL21RQSkSPViWdfBMt5u2wYxs8yuSz
+         sR2Q==
+X-Gm-Message-State: AOJu0Yw9Kn2zQNck6KsW7VuAaDdJlbOJpVZsOTiJGx8rcHUptq+GjCg4
+	49XUMcy67L8UrtiyIHaeePCe2BmKqNqVNo5YE4MbI0oAXiY5qkGC
+X-Google-Smtp-Source: AGHT+IH28K5E09iV/JkF/5bIBAxMwzKohHQDAW2vpb9qQgLQzWQqJJJrNiU4tivO8z+vANgr/MEosyklRbO0GIhnabY=
+X-Received: by 2002:a17:90a:5c:b0:27e:3b1c:4f03 with SMTP id
+ 28-20020a17090a005c00b0027e3b1c4f03mr5930219pjb.38.1698643600837; Sun, 29 Oct
+ 2023 22:26:40 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 30 Oct 2023 05:26:40 +0000
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 30 Oct 2023 05:26:35 +0000
+MIME-Version: 1.0
+Sender: Milton <milton@smartstreamingott.com>
+From: Milton <milton@smartstreamingott.com>
+Date: Mon, 30 Oct 2023 05:26:40 +0000
+X-Google-Sender-Auth: 8maMyvwbi9N310Rqo1SYs4qCfB4
+Message-ID: <CAADmm8QedhP3QWc_UxvxjznHUosAfdXTvmoQSqoFWwjnhQDEWw@mail.gmail.com>
+Subject: untroubled.org : Looking for iOS app development services?
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000006d9dc60608e848ce"
+Content-Length: 5168
+
+--0000000000006d9dc60608e848ce
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello *untroubled.org <http://untroubled.org>*,
+
+Hope you are doing great!!
+
+Are you looking for a reliable, creative and experienced team of *web
+designing, development and/ or Mobile Apps Development ?*
+
+Our aim is to be the best in service and as such we offer a premium service
+at *very low cost effective rates*.
+
+*We specialize in:-*
+
+Website Design with Responsive Layout
+
+   1. Open Source Customization, Word press, Joomla, Drupal.
+   2. PHP & My SQL Development, B2B & B2C Website and Portal Development
+   3. E-Commerce / Online Store Solutions =E2=80=93 Oscommerce, Magneto, Wo=
+o
+   Commerce
+   4. Mobile Apps Development (Android, IOS, Windows, Tablets)
+   5. SEO, Link Building, PPC
+
+If you are *interested* in these services, give me your contact number or
+drop me an email so that we can discuss the possible synergies between us.
+
+Regards,
+
+Milton Townsend,
+
+Web Developer
+
+-----------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe *
+[image: beacon]
+
+--0000000000006d9dc60608e848ce
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"line-height:normal;margin:=
+0in 0in 10pt"><font face=3D"verdana, sans-serif">Hello=C2=A0<b style=3D""><=
+a href=3D"http://untroubled.org">untroubled.org</a></b>,</font></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><fo=
+nt face=3D"verdana, sans-serif">Hope you are doing great!!</font></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><fo=
+nt face=3D"verdana, sans-serif">Are you looking for a reliable, creative an=
+d=C2=A0experienced=C2=A0team of=C2=A0<b>web designing,
+development and/ or Mobile Apps Development ?</b></font></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><fo=
+nt face=3D"verdana, sans-serif">Our aim is to be the best in service and as=
+ such we offer a
+premium service at=C2=A0<b>very low cost effective rates</b>.</font></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><b>=
+<font face=3D"verdana, sans-serif">We specialize in:-</font></b></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><fo=
+nt face=3D"verdana, sans-serif">Website Design with Responsive Layout</font=
+></p>
+
+<ol start=3D"1" type=3D"1" style=3D"margin-bottom:0in">
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">Open Source Customization,
+     Word press, Joomla, Drupal.</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">PHP &amp; My SQL
+     Development, B2B &amp; B2C Website and Portal Development</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">E-Commerce / Online Store
+     Solutions =E2=80=93 Oscommerce, Magneto, Woo Commerce</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">Mobile Apps Development
+     (Android, IOS, Windows, Tablets)</font></li>
+ <li class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><=
+font face=3D"verdana, sans-serif">SEO, Link Building, PPC</font></li>
+</ol>
+
+<p class=3D"MsoNormal" style=3D"line-height:normal;margin:0in 0in 10pt"><fo=
+nt face=3D"verdana, sans-serif">If you are=C2=A0<b>interested</b>=C2=A0in t=
+hese services, give
+me your contact number or drop me an email so that we can discuss the possi=
+ble
+synergies between us.</font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 9.9pt;line-height:16.8667px"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">Regards,</f=
+ont></span></p><p class=3D"MsoNormal" style=3D"line-height:normal;margin:0i=
+n 0in 10pt"><font face=3D"verdana, sans-serif">Milton Townsend,<br style=3D=
+""></font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 9.9pt;line-hei=
+ght:16.8667px"><span style=3D"color:black"><font face=3D"verdana, sans-seri=
+f">Web Developer=C2=A0</font></span></p><p class=3D"MsoNormal" style=3D"mar=
+gin:0in 0in 9.9pt;line-height:16.8667px"><span style=3D"color:black"><font =
+face=3D"verdana, sans-serif">----------------------------------------------=
+-</font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;=
+line-height:12.65pt"><font face=3D"verdana, sans-serif">Note: If you are no=
+t interested, please</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0=
+in 0.0001pt;line-height:12.65pt"><font face=3D"verdana, sans-serif">Click h=
+ere to=C2=A0<b style=3D"">unsubscribe=C2=A0</b></font></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2iKtSuIVhL=
+_pa4e75m5xzm6hGBblHxwx_-jALfk0be5-iSgx_iwGLPPoRbR2a-cAj3pVTnw4gsNoivqSqIs_I=
+tuS8Af2eQIO-mlh6k5sLUmeNFr5i5I3hLHMCwmyFuJMVgpX4tWkWTIz42B6RLk_1Rj2p2gPR7_W=
+T0Q4wDB4" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; di=
+splay:none!important;">
+
+--0000000000006d9dc60608e848ce--

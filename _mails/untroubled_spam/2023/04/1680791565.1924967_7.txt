@@ -1,0 +1,125 @@
+Return-Path: <thhompson.luke@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1924634 invoked from network); 6 Apr 2023 14:23:34 -0000
+Received: from mail-yw1-x112e.google.com (mail-yw1-x112e.google.com [IPv6:2607:f8b0:4864:20::112e])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 06 Apr 2023 14:23:34 -0000
+Received: by mail-yw1-x112e.google.com with SMTP id 00721157ae682-54c061acbc9so62396697b3.11
+        for <bruce@untroubled.org>; Thu, 06 Apr 2023 07:23:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112; t=1680791013;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=vknLlO8CoP4VPt44pWvbuSxkXLRhM3f2KjF4GlvVoec=;
+        b=o+KDM5TrMZ7x7vlm3knl4EEH3nFVu9oqzhPQysg01XK28d0hfIL7qWhU3n35DdOUYy
+         0SXqXVpI415cTRxDEWZTD15Zyq2XojXII1aGbm+feJA+gmJycGkBFMGj26JoyAvlMWiH
+         koz+dKJ+qvc7vK7f6x5f48djrlQFsUoJP6zFj8icBuONiPQYue8EDPGKlGcCzxmOQeLY
+         HqF2sVaHYYhkIWq9T2KwcAP/fKBTiB7bPaNEPb3/yUUAqOJw+PEBQg9UKZxEoJQ8r7Iv
+         /XVlihRbl795c07srWmTsBvqQ89qLZliA9RDgn0l0Ln95oFGylXleLxte6nzEvfIIViG
+         Pifg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1680791013;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=vknLlO8CoP4VPt44pWvbuSxkXLRhM3f2KjF4GlvVoec=;
+        b=DEuQl2QRfjWdngTHjbRj2UND+0vpOA3YVbyrl8//9gd0dE0UrZSUAy+IlRJDPtyr6e
+         Fhv/Z8FSlRFJFwDOZlfU9y0JspLYbMqZFFz4/JdwyybwsRqi50lZ7f4lkgsa80pHcIt6
+         uXla3o4cmwrgeUfHoV5+4PxQCxebEplkkt5Jh6GBIY2eZ/LsClWWfZDRg8/NYnVq4cFJ
+         ZCx03Q2JsdliTTiDXX80iZKNfoSJHXyl1lH8MWkKxPPTySVsI/CciEy3SVDRcfIhCI8L
+         Svx3Oy/dQDiAXTMajo6RyIRct1ubIvYhSRyALU1qL77ue0M4nJoszebZ5XUDQt6FAbsM
+         Nufg==
+X-Gm-Message-State: AAQBX9cnBEXr4pk1X0sGxMABy7rTmvi/yQoJ1dXK6qAlYF9gF6AEp2Zy
+	tmgxiWqL3BmK1nK9RlLjqnc+Vifh/FNUBhb4lCrcJCrj
+X-Google-Smtp-Source: AKy350btFPaGS6km95yJqZrP7EaJS4hPXAixa74b3OPt/u2rnKZslSTC1rZWns+wtHfMfqDjeRCu7afmgO2XldwmVy8=
+X-Received: by 2002:a81:760f:0:b0:544:8ac7:2608 with SMTP id
+ r15-20020a81760f000000b005448ac72608mr5744420ywc.6.1680791013376; Thu, 06 Apr
+ 2023 07:23:33 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 6 Apr 2023 07:23:32 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 6 Apr 2023 07:23:32 -0700
+MIME-Version: 1.0
+Sender: Luke Thompson <thhompson.luke@gmail.com>
+From: Luke Thompson <thhompson.luke@gmail.com>
+Date: Thu, 6 Apr 2023 07:23:32 -0700
+X-Google-Sender-Auth: A02noPCW5rZytEt1Ix7hHINjqFM
+Message-ID: <CAPxkGtkNdoJZswUv5zxuZ0DZta0KOGiGkUmc4bdLVtXYYGeQ1Q@mail.gmail.com>
+Subject: Untroubled.org : Create your own branding with our customized Plans
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000004b45ca05f8aba75d"
+Content-Length: 3995
+
+--0000000000004b45ca05f8aba75d
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+We are a recognized digital marketing firm that establishes a strong online
+presence on Google to accomplish all business goals. Whether it be building
+a beautiful or user-friendly website or growing *website traffic,
+inquiries, and sales*, our team will meet every need for an online
+business. *Website Design and Development, SEO, Paid Advertising, Social
+Media Marketing, Content Marketing*, and other services are among those we
+provide. These services can help you surpass your competitors in terms of
+online sales and revenue.
+
+We provide all of the above services for exceptionally *inexpensive costs*.
+Please specify the services you are interested in, and I will give you
+the *action
+plan and portfolio* that go with it.
+
+For a brief talk, reply with your *phone number or WhatsApp*.
+
+Waiting for your valid response!
+With Warm Regards,
+
+*Luke Thompson*
+Business Development Executive
+[image: beacon]
+
+--0000000000004b45ca05f8aba75d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif">Hello,<br><br>We are a =
+recognized=20
+digital marketing firm that establishes a strong online presence on=20
+Google to accomplish all business goals. Whether it be building a=20
+beautiful or user-friendly website or growing=C2=A0<b>website traffic, inqu=
+iries, and sales</b>, our team will meet every need for an online business.=
+=C2=A0<b>Website Design and Development, SEO, Paid Advertising, Social Medi=
+a Marketing, Content Marketing</b>,
+ and other services are among those we provide. These services can help=20
+you surpass your competitors in terms of online sales and revenue.<br><br>W=
+e provide all of the above services for exceptionally=C2=A0<b>inexpensive c=
+osts</b>. Please specify the services you are interested in, and I will giv=
+e you the=C2=A0<b>action plan and portfolio</b>=C2=A0that go with it.<br><b=
+r>For a brief talk, reply with your=C2=A0<b>phone number or WhatsApp</b>.</=
+font><br><div><font face=3D"verdana, sans-serif"><br></font></div><div><p c=
+lass=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:11.2pt;backgrou=
+nd-image:initial;background-position:initial;background-size:initial;backgr=
+ound-repeat:initial;background-origin:initial;background-clip:initial"><fon=
+t face=3D"verdana, sans-serif"><span style=3D"color:rgb(0,0,0)">Waiting for=
+ your valid response!</span></font></p><div><font size=3D"2"><span style=3D=
+"text-align:justify"><font face=3D"verdana, sans-serif" color=3D"#000000">W=
+ith Warm Regards,</font></span></font></div><p class=3D"MsoNormal" style=3D=
+"margin:0in 0in 10pt;text-align:justify;line-height:16.8667px"><font size=
+=3D"2"><font face=3D"verdana, sans-serif" color=3D"#000000"><span style=3D"=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al"></span></font></font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm=
+ 8pt;line-height:9.45pt"><font size=3D"2"><font face=3D"verdana, sans-serif=
+" color=3D"#000000"><span lang=3D"EN-US"></span></font></font></p><p class=
+=3D"MsoNormal" style=3D"margin:0in 0in 10pt;text-align:justify;line-height:=
+16.8667px"><span style=3D"color:rgb(31,31,31);text-align:left;white-space:n=
+owrap"><b style=3D""><i style=3D""><font face=3D"verdana, sans-serif">Luke =
+Thompson</font></i></b></span><font face=3D"verdana, sans-serif"><font colo=
+r=3D"#000000"><font size=3D"2"><i><br></i>Business Development Executive</f=
+ont></font></font></p></div></div>
+<img src=3D"https://thhompson-luke-dot-yamm-track.appspot.com/2mTIsC9Ctr07m=
+p8sqXwhOWFSvuwh-Kf63MqPNU_FqKyI7hfNWhwHFSQAJwUyXB3bkGEXwO16c91wesw6RyfBtbsP=
+XGpb7NE46lb9clKt7dzF9csNi6p1bBsZMegdly5hCpfdBnl84TQUkR8Ds9rpxLZUdxjH3OiY" w=
+idth=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:none!=
+important;">
+
+--0000000000004b45ca05f8aba75d--

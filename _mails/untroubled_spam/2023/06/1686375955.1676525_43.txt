@@ -1,0 +1,122 @@
+Return-Path: <>
+Received: from 127.0.0.1
+ by atlas-baseline-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--baseline-production-gq1-6846ffb9fb-tn2gk.gq1.yahoo.com with HTTP; Fri, 9 Jun 2023 14:42:34 +0000
+X-Originating-Ip: [209.85.208.46]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.46 as permitted sender)
+Authentication-Results: atlas-baseline-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Fri, 9 Jun 2023 14:42:34 +0000
+X-YMailAVSC: 3ddPMyI3bBu.NRXnDsryOD.i1nxmRqdeVm9nzpRS_ojWRSv
+ YpDyjnS31YkYr7UcR2gMd0kXKXsKCKQIZDtm0wxVjsi0pNeWugkZiaEBxWc8
+ krW97I6JetUhEF6.ipi9UbUbvX5Dx6S77Em.C.OjQyx9BpwI2kje.S51wHNV
+ L9ZybXwNkkklol30REmMd3poPPjCSYwWx0DK0_ptMZv0UoSO9ZWaNNIO90fu
+ a2Xb9xQFYHCku9dTrmF1.XVVD3J4XJKV3lA6VYG46uUKwFF6RJYChY5TmTyi
+ R0AeVkRiWpKulGpN7x7_RkKvs_NN4bgwWaaS4u.EHt7m2wfhRnbHTpQIKsrk
+ 5464Zlyk_iQp3lB8VyHhDEjYZZ.JHtjV8kQQujQUAXLayeJBJ1G6c07lNFnT
+ vd7mSqoBIup4pJjVqfqj69H5xMO2v9_GUzyAMBuXawe.f3gHqwW3kEdYMqlD
+ 2vqIFfGna6lBL.KEJVlE44BYkYJTmf2aT5tm2quzPymqTPbkVyfCTyQgVf5Y
+ _clbGRB157DJWSLT5tOPpknlKQ2d7OP44tLqdRB5tulPvl2AXrYBivgyOD52
+ f2AUNopXPm0gGHjkSu8aOeC_6x7POTr7oGUXkmjuCYg_..EVp825PkG2JQqX
+ DN7LAH5GczVf40IcB06.TGwjjjUaFV7LBOzOxQwksrx35zh7c1K7jvpxP6_Q
+ heJuR70HOhz5hYikNzjuRhk4cxqx6_NBYvb1M16mg.PDC0bIEKMyOAB7lrxW
+ Tkc0c.8kMzkLh7mxQ7Jdqf3y7GXuNlpnKouAMs8APNWjPGGTKrHic.hesONY
+ EHqNw1zjuqz6sqWsA2VI1.Tf.Pm921XMaMjI5LneC1ePAgvNQDpEuJOZAf46
+ MbY0mqjx05_4thcjRyhCihjToUe1SCbxEw.E942Yt.HOiG3eBw3RcvYtSLvQ
+ Px8aH3x.oXsk9aLBcnUzhW9JvRVQX4_Gbah6ph.P6NI9gySgyxo3Y1YZ4fdf
+ orBVoAqjlwReH9ng2on_Gf1U-
+X-YMailISG: hk0SnDAWLDs8JO5lRYSznSdSHzQ9kUc0FWb4a_iaqtzcXtGf
+ fvt5eyNWiWs_PNpyRNSKCUiKFU2f8O_LpQG2hJEBBeUkwPZtLog2ob5YNSDi
+ iIpT8jKHuedleF5xEt_YqyyaGDgaTZeuSItTZVZhOf0TVqqgeRiLKHfYZtvb
+ XD9J4aV39ESpxN.V9mXgI4xPSNhugUxld99w0TigOedNdJHBE42LlNrgDcPX
+ 5DRVS64oftCYSiW5PpgdNlM238xo7cc_9xJNJXud31GCfNS6k17qcLCM18ge
+ YXlZ.0SjWwN4MLgpcUBGuQDrqZ_2o_GzYhVhLqHjxBqctIunCalNbn6tFagM
+ kavsbFCHvwVY4GNDEH1pqwHtaR.UZ8E5ozaQtFDarv_l_Chc.CCvE4FIpqq_
+ otm4J8aRnztyGKnkj3n4BeErXewOAO1t_DwSmxz3lKVkIAHJMrm_4fC5cOha
+ myTY0U25_98oFb4znzKwGXD.6mPd6lSiVBFec2FTtIRKBtT4j2z39.CFW7Z.
+ g1MH28pGYMKHzaMtPOseLr.40Iw9Nslzc4Caa9xFlt6UFxAiMNaaHLR6jaPs
+ QD30szcdSHkw13ygc_9SSoGO7nvHS1okd0D1vW7UVx5rtfBdyJWB2AaF7Wj8
+ Yh8gCEDRBaXEvOK.Iw.AnRUfuxF1Y9z5fa_sbWPQdH3nhMwOXWfmF6iBwAJZ
+ WtUkOAr0F.43AHH06Bv2GAnXDFqYqcEBUJUQx7.VI47q7doJ7NmQnTHW83Du
+ azTwWvYASC9mz2Q7TMm91kGVD1BbtD9Z.3bt5TJmRIZ81cHvhjSvJhDBFDxR
+ jPsrPRtA_l7wlBg49YDxtkRzadtBalPBItFLgnWqhuZC3oPucYqH70DJINGI
+ .gNe.27jGyVk.0qA8BvKKc3zkzFBEG5_o9BUJPgXX1J0R075GMQ_HKTkH2IJ
+ I1lXpiMM_B8lvBEx2RhCjjDrjDJR.jBYLzQs6GaSliiJKzFsc0YFlZ_okVRd
+ FDtvKjUGM7P8SX7IaVIbjunj34XMb3c.WNeu_lUEk05cOoYft1FhQntGQv3i
+ NwohZ2lRtiliOcvOOh7bfokXlG9bqBjCL1H8EjT_qhXLIC50XZEBEcGHMpg_
+ J_.7
+Received: from 209.85.208.46 (EHLO mail-ed1-f46.google.com)
+ by 10.215.137.46 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 09 Jun 2023 14:42:34 +0000
+Received: by mail-ed1-f46.google.com with SMTP id 4fb4d7f45d1cf-514953b3aa6so2672630a12.1
+        for <bruce@untroubled.org>; Fri, 09 Jun 2023 07:42:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1686321752; x=1688913752;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=gn0Zu1prq/L3cNTKr4yKO9PWlM9RJ3N2ORdcLXX0UqM=;
+        b=TMmYASIirExaHYYhCHOxkgBGZENZjWVCVOj/vnhYDmoz+SuD83Sn3jdHxp2WoAsli9
+         R3oE4XngNbGZUj1l+4M4YMG4PB4NzqqK9NhdejF791S3V0TkCctJltbnCJAoUxP+YZgz
+         /Gp33LDOMioSav0CGifFV4A47LMym3QYxShFw9aOY9vqqYeCtLQ9GZKNGRCyT7IyZPuW
+         BIn9ANorV3AioPhlwAp+FhlCgwxeX8PKWFWYzSJjYXotqNScZCg9ePJo9tv0B0+RzzhL
+         c+w8zrqHlnvYeLwLJzeJCEOMMX4sS5UHweJtfRJRTFwecllhUCa7HyuF9S7+fm2ipy1V
+         2sKQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686321752; x=1688913752;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=gn0Zu1prq/L3cNTKr4yKO9PWlM9RJ3N2ORdcLXX0UqM=;
+        b=jHUY868AAdXavruj+37uerAvEsk4tTvc/aIQFtYEYqKsDvAQelR6O3ohyc4cU2B+D4
+         cl6K8CMYanNBXLqHF9GlyJ45DxjtTd7QfNwkvQ56THY7Y6SZIkq2wwX2wLT2OG+i86Ai
+         hWVx+llX0tJ94wjqIrby/gJWlmyGlzpu9y5IXMO05aeFliHAHlm9WhkhV6xtF0vevRtz
+         B9/Ztx/BV2d03tSovbYKbBSuXhi2Gb3XM60yoLy1W24mKnfFtsCer+6aCbEBVEokL7IX
+         YCTGG8bGZiT9tgE2k7E5TVORD3rQ+47mILSa3NIYTLkl9iqK5myQqBfuPMc3j3nzt5U4
+         khvA==
+X-Gm-Message-State: AC+VfDzeUWasQBcN8PzFo1nZgufFn5shQwtRVRk6FOijkFcP+m3Fqfii
+	/tyKmi5hdhg1RsdHzJoq18w4O6+eYl4hCagALMvdnI9n
+X-Google-Smtp-Source: ACHHUZ4I0vJ3i15eungxKCHUfG2+oXhWcrbWNFINDZyXdZ0KnPD2hOA8yL02UzPDrqRv1ICCDoKU2pJVnsctmtFc2Bs=
+X-Received: by 2002:a50:ed97:0:b0:50c:451b:d0f0 with SMTP id
+ h23-20020a50ed97000000b0050c451bd0f0mr1295526edr.37.1686321752470; Fri, 09
+ Jun 2023 07:42:32 -0700 (PDT)
+MIME-Version: 1.0
+From: KOHL'S Confirmation <bruce@untroubled.org>
+Date: Fri, 9 Jun 2033 15:42:19 +0100
+Message-ID: <CAG682a-97EmmI9y0lHe6qW91qcKyvT_x0LjJhPo=KwWPN8bQI9@mail.gmail.com>
+Subject: You have won an BISSELL PLUS CARPET CLEANER
+To: bruce  <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2763
+
+<div align="center">
+  <blockquote>
+    <div align="center"><font size="4" color="#623131"><font
+          color="#000000">Having trouble viewing this email?<font
+            color="#ff8000"> <b><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#b01OUVFqejZ1SDdGTmFoYzM5TTByWjJIRVF0Wkl0bk1FMVB6bGhyeFFDeDZWRFlTWHFqejl0ODVwS0o2NUdjUHFaV05oa2d2Y0tvQXFZSGxhYkFDRkdGTkF5cWhybnFSSTF1OGEzeDR5Tkh5L0FYWWlPcnJGNXBmN0VBejRJWUc3REpwcWNNNWc2RVhlSmh6aFpqUW5nPT0_"><font
+                  color="#d26900">C<font color="#d26900">lick </font><font
+                    color="#d26900">here</font></font></a><br>
+            </b></font></font></font></div>
+  </blockquote>
+</div>
+<p align="center"></p>
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#b01OUVFqejZ1SDdGTmFoYzM5TTByWjJIRVF0Wkl0bk1FMVB6bGhyeFFDeDZWRFlTWHFqejl0ODVwS0o2NUdjUHFaV05oa2d2Y0tvQXFZSGxhYkFDRkdGTkF5cWhybnFSSTF1OGEzeDR5Tkh5L0FYWWlPcnJGNXBmN0VBejRJWUc3REpwcWNNNWc2RVhlSmh6aFpqUW5nPT0_"><b><font
+        size="5"><font color="#d26900"><font color="#000000"><font
+              color="#bb0000">You <font color="#804040">have</font> won
+              <font color="#804040">an</font> BISSELL <font
+                color="#804040">PLUS</font> CARPET <font size="6"
+                color="#a60000">CLEANER</font></font></font></font></font></b></a></p>
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#b01OUVFqejZ1SDdGTmFoYzM5TTByWjJIRVF0Wkl0bk1FMVB6bGhyeFFDeDZWRFlTWHFqejl0ODVwS0o2NUdjUHFaV05oa2d2Y0tvQXFZSGxhYkFDRkdGTkF5cWhybnFSSTF1OGEzeDR5Tkh5L0FYWWlPcnJGNXBmN0VBejRJWUc3REpwcWNNNWc2RVhlSmh6aFpqUW5nPT0_"><b><font
+        size="5"><font color="#d26900"><font color="#000000"></font></font><font
+          color="#000000"></font></font></b></a></p>
+<center>
+
+<img src="https://pbs.twimg.com/media/FyMKUQAX0AIegAO?format=png&amp;name=large" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#b01OUVFqejZ1SDdGTmFoYzM5TTByWjJIRVF0Wkl0bk1FMVB6bGhyeFFDeDZWRFlTWHFqejl0ODVwS0o2NUdjUHFaV05oa2d2Y0tvQXFZSGxhYkFDRkdGTkF5cWhybnFSSTF1OGEzeDR5Tkh5L0FYWWlPcnJGNXBmN0VBejRJWUc3REpwcWNNNWc2RVhlSmh6aFpqUW5nPT0_" coords="86,20,324,599" shape="rect">
+    <area target="" alt="" title="" href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#OFVjdzVWc3lsODNTeS9IYkJMaFdvNGhxb1F4SkxwQnRib1pFSlI4YTAreFpYKy9sbVd0NDUyRFR2Wmx5WG5FekVBVGdpTHFtUGZXSTg2OGg0eWR4d2srRnJPL1BtRkFJdXdPbUFibk1HNzRWd2J4WmZaQXgzaHVxNEZnV1pmblVxNVFvc0kzM1QvdHR0ZUJSUlcreHRBPT0_" coords="363,632,428,647" shape="rect">
+</map>

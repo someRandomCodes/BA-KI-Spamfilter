@@ -1,0 +1,438 @@
+Return-Path: <webinar@segalfartak.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 762127 invoked from network); 25 Jul 2023 02:16:38 -0000
+Received: from mailer.segalfartak.com (mailer.segalfartak.com [193.36.84.227])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 25 Jul 2023 02:16:37 -0000
+Received: from mailer.segalfartak.com (localhost [127.0.0.1])
+	by mailer.segalfartak.com (Postfix) with ESMTPS id 3308F2F71EB
+	for <bruce@untroubled.org>; Tue, 25 Jul 2023 02:16:35 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=vCt7wsOagZN18XUHiYpCJ3HIlW7vEGlmxgdZ6fX3tXQ=; d=segalfartak.com;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe-Post: List-Unsubscribe: List-Id: Feedback-ID;
+ i=@segalfartak.com; s=mailer; c=relaxed/relaxed; t=1690251395;
+ b=S1WHdTaSZ34wiKXxWahFmL0vaBTJgKseKwZ4YIq97uw3CVaGQFs91E3OS8rU7rTUXcL/ayae4
+ Z8gQUeaegq3duuuVbIOe5eXx/fmiy2e6YtYlcublcgSybH5eOpxnFctQrpjGZGi89uxmJZhDD
+ Fyz15iX/m22WH/E1G5ovhQLxUOa+K3xGFb2v8Rnt/oRBTM7BgTCMUrt1UjqkVRfFoRFrynHzc
+ qELxvFtaFrSgAyuinvlVK3Hb8wqFtoZyfD7mztTLnoRhkzrN8hnbzOF0+OSRWKfa9LNTSA1UU
+ ipxQoxoCf9jM915Yjx0O9DsF3qyKAx/pP9yLZtyA3mPYiAtUDw==
+Message-ID: <0768d96968602da450448644c8b3f8d8be7c8115@segalfartak.com>
+Date: Tue, 25 Jul 2023 02:16:35 +0000
+Subject: =?utf-8?Q?=D9=88=D8=A8=DB=8C=D9=86=D8=A7=D8=B1_=D8=B1?=
+ =?utf-8?Q?=D8=A7=DB=8C=DA=AF=D8=A7=D9=86_=D9=85=D8=B1=D9=88=D8=B1=DB=8C_?=
+ =?utf-8?Q?=D8=A8=D8=B1_=D9=85=D8=B9=D9=85=D8=A7=D8=B1=DB=8C?= SIEM
+From: Segal Fartak Webinar Team <webinar@segalfartak.com>
+Reply-To: Segal Fartak Webinar Team <webinar@segalfartak.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1690251395_508f3e54e2e0921b0b7de3a728cd601e_=_"
+X-Report-Abuse: https://mailer.segalfartak.com/index.php/campaigns/zx408v7f1jd5b/report-abuse/bl067bg9qr2e2/dm36507rhj7a0
+X-EBS: https://mailer.segalfartak.com/index.php/lists/block-address
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://mailer.segalfartak.com/index.php/lists/bl067bg9qr2e2/unsubscribe/dm36507rhj7a0/zx408v7f1jd5b?source=email-client-unsubscribe-button>,
+ <mailto:webinar@segalfartak.com?subject=Campaign-Uid%3Azx408v7f1jd5b%20%2F%20Subscriber-Uid%3Adm36507rhj7a0%20-%20Unsubscribe%20request&body=Please%20unsubscribe%20me%21>
+List-Id: bl067bg9qr2e2 <Mahdi Talebi>
+Feedback-ID: zx408v7f1jd5b:dm36507rhj7a0:bl067bg9qr2e2:yf92748zqhbbb
+Content-Length: 21769
+
+
+--_=_swift_1690251395_508f3e54e2e0921b0b7de3a728cd601e_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[IMAGE]
+
+SIEM ARCHITECTURE
+
+Security information and event manageme=
+nt
+
+=C2=A0=D8=AF=D9=88=D8=B3=D8=AA =DA=AF=D8=B1=D8=A7=D9=85=DB=8C =
+=D8=B3=D9=84=D8=A7=D9=85
+
+=D8=A8=D8=AF=DB=8C=D9=86 =D9=88=D8=B3=DB=
+=8C=D9=84=D9=87 =D8=A7=D8=B2 =D8=AC=D9=86=D8=A7=D8=A8=D8=B9=D8=A7=D9=84=
+=DB=8C =D8=AF=D8=B9=D9=88=D8=AA =D9=85=DB=8C =DA=AF=D8=B1=D8=AF=D8=AF=D8=
+=8C
+=D8=AF=D8=B1 =D8=B5=D9=88=D8=B1=D8=AA =D8=B9=D9=84=D8=A7=D9=82=D9=
+=87 =D9=85=D9=86=D8=AF=DB=8C =D8=A8=D9=87 =D8=AD=D9=88=D8=B2=D9=87 =D8=
+=A7=D9=85=D9=86=DB=8C=D8=AA
+=D8=B3=D8=A7=DB=8C=D8=A8=D8=B1=DB=8C=D8=8C =
+=D8=AF=D8=B1 =D9=88=D8=A8=DB=8C=D9=86=D8=A7=D8=B1 =D8=B1=D8=A7=DB=8C=DA=
+=AF=D8=A7=D9=86=C2=A0
+=D9=85=D8=B1=D9=88=D8=B1=DB=8C =D8=A8=D8=B1 =D9=
+=85=D8=B9=D9=85=D8=A7=D8=B1=DB=8C =D8=B3=D8=A7=D9=85=D8=A7=D9=86=D9=87 =
+=D9=85=D8=AF=DB=8C=D8=B1=DB=8C=D8=AA
+=D8=B1=D9=88=DB=8C=D8=AF=D8=A7=D8=
+=AF=D9=87=D8=A7=DB=8C =D8=A7=D9=85=D9=86=DB=8C=D8=AA=DB=8C =D8=AF=DA=A9=
+=D8=AA=D8=B1 =D9=85=D9=87=D8=AF=DB=8C =D8=B7=D8=A7=D9=84=D8=A8=DB=8C=D8=
+=8C
+=D8=B4=D8=B1=DA=A9=D8=AA =D8=A8=D9=81=D8=B1=D9=85=D8=A7=DB=8C=DB=
+=8C=D8=AF
+
+ =09=09 =D8=AF=D8=B1=DB=8C=D8=A7=D9=81=D8=AA =D8=AA=DB=8C=
+=DA=A9=D8=AA [https://evand.com/events/siem-architecture]
+
+
+Segal Far=
+tak Infrastructure Development Industries
+No. 146, Abbas Anari Ave., Fara=
+hzadi St. Gharb Township
+Tehran 1998954758
+Iran (Islamic Republic of)=
+
+https://www.segalfartak.com
+
+Unsubscribe
+[https://mailer.segalfart=
+ak.com/index.php/lists/bl067bg9qr2e2/unsubscribe/dm36507rhj7a0/zx408v7f1jd5=
+b]
+
+=20
+
+--_=_swift_1690251395_508f3e54e2e0921b0b7de3a728cd601e_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta charset=3D"utf-8"><title>=D9=88=D8=A8=DB=8C=D9=86=D8=
+=A7=D8=B1 =D8=B1=D8=A7=DB=8C=DA=AF=D8=A7=D9=86 =D9=85=D8=B1=D9=88=D8=B1=
+=DB=8C =D8=A8=D8=B1 =D9=85=D8=B9=D9=85=D8=A7=D8=B1=DB=8C SIEM</title><meta =
+name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"><styl=
+e>@import url("https://fonts.googleapis.com/css?family=3DOpen+Sans:300,400,=
+600,800");</style><style>.wrapper{width:100%}#outlook a{padding:0}.External=
+Class{width:100%}.ExternalClass,.ExternalClass p,.ExternalClass span,.Exter=
+nalClass font,.ExternalClass td,.ExternalClass div{line-height:100%}#backgr=
+oundTable{margin:0;padding:0;width:100%!important;line-height:100%!importan=
+t}img{outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;widt=
+h:auto;max-width:100%;clear:both;display:block}center{width:100%}a img{bord=
+er:none}p{margin:0 0 0 10px}table{border-spacing:0;border-collapse:collapse=
+}td{border-collapse:collapse!important}table,tr,td{padding:0;vertical-align=
+:top;text-align:left}@media only screen{html{min-height:100%;background:#f3=
+f3f3}}table.spacer{width:100%}table.spacer td{mso-line-height-rule:exactly}=
+table.text-center,th.text-center,td.text-center,h1.text-center,h2.text-cent=
+er,h3.text-center,h4.text-center,h5.text-center,h6.text-center,p.text-cente=
+r,span.text-center{text-align:center}table.text-left,th.text-left,td.text-l=
+eft,h1.text-left,h2.text-left,h3.text-left,h4.text-left,h5.text-left,h6.tex=
+t-left,p.text-left,span.text-left{text-align:left}table.text-right,th.text-=
+right,td.text-right,h1.text-right,h2.text-right,h3.text-right,h4.text-right=
+,h5.text-right,h6.text-right,p.text-right,span.text-right{text-align:right}=
+span.text-center{display:block;width:100%;text-align:center}@media only scr=
+een and (max-width: 596px){.small-float-center{margin:0 auto!important;floa=
+t:none!important;text-align:center!important}.small-text-center{text-align:=
+center!important}.small-text-left{text-align:left!important}.small-text-rig=
+ht{text-align:right!important}}img.float-left{float:left;text-align:left}im=
+g.float-right{float:right;text-align:right}img.float-center,img.text-center=
+{margin:0 auto;float:none;text-align:center}table.float-center,td.float-cen=
+ter,th.float-center{margin:0 auto;float:none;text-align:center}.hide-for-la=
+rge{display:none!important;mso-hide:all;overflow:hidden;max-height:0;font-s=
+ize:0;width:0;line-height:0}@media only screen and (max-width: 596px){.hide=
+-for-large{display:block!important;width:auto!important;overflow:visible!im=
+portant;max-height:none!important;font-size:inherit!important;line-height:i=
+nherit!important}}table.body table.container .hide-for-large *{mso-hide:all=
+}@media only screen and (max-width: 596px){table.body table.container .hide=
+-for-large,table.body table.container .row.hide-for-large{display:table!imp=
+ortant;width:100%!important}}@media only screen and (max-width: 596px){tabl=
+e.body table.container .callout-inner.hide-for-large{display:table-cell!imp=
+ortant;width:100%!important}}@media only screen and (max-width: 596px){tabl=
+e.body table.container .show-for-large{display:none!important;width:0;mso-h=
+ide:all;overflow:hidden}}body,table.body,h1,h2,h3,h4,h5,h6,p,td,th,a{color:=
+#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-weight:400;padding:0;ma=
+rgin:0;text-align:left;line-height:1.3}h1,h2,h3,h4,h5,h6{color:inherit;word=
+-wrap:normal;font-family:Helvetica,Arial,sans-serif;font-weight:400;margin-=
+bottom:10px}body,table.body,p,td,th{font-size:16px;line-height:1.3}p{margin=
+-bottom:10px}p.lead{font-size:20px;line-height:32px;}p.subheader{margin-top=
+:4px;margin-bottom:8px;font-weight:400;line-height:1.4;color:#8a8a8a}small{=
+font-size:80%;color:#cacaca}a{color:#2199e8;text-decoration:none}a:hover{co=
+lor:#147dc2}a:active{color:#147dc2}a:visited{color:#2199e8}h1 a,h1 a:visite=
+d,h2 a,h2 a:visited,h3 a,h3 a:visited,h4 a,h4 a:visited,h5 a,h5 a:visited,h=
+6 a,h6 a:visited{color:#2199e8}pre{background:#f3f3f3;margin:30px 0}pre cod=
+e{color:#cacaca}pre code span.callout{color:#8a8a8a;font-weight:700}pre cod=
+e span.callout-strong{color:#ff6908;font-weight:700}table.hr{width:100%}tab=
+le.hr th{height:0;max-width:596px;border-top:0;border-right:0;border-bottom=
+:1px solid #0a0a0a;border-left:0;margin:20px auto;clear:both}.stat{font-siz=
+e:40px;line-height:1}p + .stat{margin-top:-16px}span.preheader{display:none=
+!important;visibility:hidden;mso-hide:all!important;font-size:1px;color:#f3=
+f3f3;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden}tab=
+le.button{width:auto}table.button.radius table td{border-radius:3px;border:=
+none}table.button.rounded table td{border-radius:500px;border:none}table.bu=
+tton.expand,table.button.expanded{width:100%!important}table.button.expand =
+table,table.button.expanded table{width:100%}table.button.expand table a,ta=
+ble.button.expanded table a{text-align:center;width:100%;padding-left:0;pad=
+ding-right:0}table.button.expand center,table.button.expanded center{min-wi=
+dth:0}table.button:hover table td,table.button:visited table td,table.butto=
+n:active table td{background:#147dc2;color:#fefefe}table.button:hover table=
+ a,table.button:visited table a,table.button:active table a{border:0 solid =
+#147dc2}table.callout{margin-bottom:16px}th.callout-inner{width:100%;border=
+:1px solid #cbcbcb;padding:10px;background:#fefefe}th.callout-inner.primary=
+{background:#def0fc;border:1px solid #444;color:#0a0a0a}th.callout-inner.se=
+condary{background:#ebebeb;border:1px solid #444;color:#0a0a0a}th.callout-i=
+nner.success{background:#e1faea;border:1px solid #1b9448;color:#fefefe}th.c=
+allout-inner.warning{background:#fff3d9;border:1px solid #996800;color:#fef=
+efe}th.callout-inner.alert{background:#fce6e2;border:1px solid #b42912;colo=
+r:#fefefe}.thumbnail{border:solid 4px #fefefe;box-shadow:0 0 0 1px rgba(10,=
+10,10,0.2);display:inline-block;line-height:0;max-width:100%;transition:box=
+-shadow 200ms ease-out;border-radius:3px;margin-bottom:16px}.thumbnail:hove=
+r,.thumbnail:focus{box-shadow:0 0 6px 1px rgba(33,153,232,0.5)}table.menu{w=
+idth:596px}table.menu td.menu-item,table.menu th.menu-item{padding:10px;pad=
+ding-right:10px}table.menu td.menu-item a,table.menu th.menu-item a{color:#=
+2199e8}table.menu.vertical td.menu-item,table.menu.vertical th.menu-item{pa=
+dding:10px;padding-right:0;display:block}table.menu.vertical td.menu-item a=
+,table.menu.vertical th.menu-item a{width:100%}table.menu.vertical td.menu-=
+item table.menu.vertical td.menu-item,table.menu.vertical td.menu-item tabl=
+e.menu.vertical th.menu-item,table.menu.vertical th.menu-item table.menu.ve=
+rtical td.menu-item,table.menu.vertical th.menu-item table.menu.vertical th=
+.menu-item{padding-left:10px}table.menu.text-center a{text-align:center}.me=
+nu[align=3D"center"]{width:auto!important}body.outlook p{display:inline!imp=
+ortant}@media only screen and (max-width: 596px){table.body img{width:auto;=
+height:auto}table.body center{min-width:0!important}table.body .container{w=
+idth:95%!important}table.body .columns,table.body .column{height:auto!impor=
+tant;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:bo=
+rder-box;padding-left:16px!important;padding-right:16px!important}table.bod=
+y .columns .column,table.body .columns .columns,table.body .column .column,=
+table.body .column .columns{padding-left:0!important;padding-right:0!import=
+ant}table.body .collapse .columns,table.body .collapse .column{padding-left=
+:0!important;padding-right:0!important}td.small-1,th.small-1{display:inline=
+-block!important;width:8.33333%!important}td.small-2,th.small-2{display:inl=
+ine-block!important;width:16.66667%!important}td.small-3,th.small-3{display=
+:inline-block!important;width:25%!important}td.small-4,th.small-4{display:i=
+nline-block!important;width:33.33333%!important}td.small-5,th.small-5{displ=
+ay:inline-block!important;width:41.66667%!important}td.small-6,th.small-6{d=
+isplay:inline-block!important;width:50%!important}td.small-7,th.small-7{dis=
+play:inline-block!important;width:58.33333%!important}td.small-8,th.small-8=
+{display:inline-block!important;width:66.66667%!important}td.small-9,th.sma=
+ll-9{display:inline-block!important;width:75%!important}td.small-10,th.smal=
+l-10{display:inline-block!important;width:83.33333%!important}td.small-11,t=
+h.small-11{display:inline-block!important;width:91.66667%!important}td.smal=
+l-12,th.small-12{}.columns td.small-12,.column td.small-12,.columns th.smal=
+l-12,.column th.small-12{}table.body td.small-offset-1,table.body th.small-=
+offset-1{margin-left:8.33333%!important}table.body td.small-offset-2,table.=
+body th.small-offset-2{margin-left:16.66667%!important}table.body td.small-=
+offset-3,table.body th.small-offset-3{margin-left:25%!important}table.body =
+td.small-offset-4,table.body th.small-offset-4{margin-left:33.33333%!import=
+ant}table.body td.small-offset-5,table.body th.small-offset-5{margin-left:4=
+1.66667%!important}table.body td.small-offset-6,table.body th.small-offset-=
+6{margin-left:50%!important}table.body td.small-offset-7,table.body th.smal=
+l-offset-7{margin-left:58.33333%!important}table.body td.small-offset-8,tab=
+le.body th.small-offset-8{margin-left:66.66667%!important}table.body td.sma=
+ll-offset-9,table.body th.small-offset-9{margin-left:75%!important}table.bo=
+dy td.small-offset-10,table.body th.small-offset-10{margin-left:83.33333%!i=
+mportant}table.body td.small-offset-11,table.body th.small-offset-11{margin=
+-left:91.66667%!important}table.body table.columns td.expander,table.body t=
+able.columns th.expander{display:none!important}table.body .right-text-pad,=
+table.body .text-pad-right{padding-left:10px!important}table.body .left-tex=
+t-pad,table.body .text-pad-left{padding-right:10px!important}table.menu{wid=
+th:100%!important}table.menu td,table.menu th{width:auto!important;display:=
+inline-block!important}table.menu.vertical td,table.menu.vertical th,table.=
+menu.small-vertical td,table.menu.small-vertical th{display:block!important=
+}table.menu[align=3D"center"]{width:auto!important}table.button.small-expan=
+d,table.button.small-expanded{width:100%!important}table.button.small-expan=
+d table,table.button.small-expanded table{width:100%}table.button.small-exp=
+and table a,table.button.small-expanded table a{text-align:center!important=
+;width:100%!important;padding-left:0!important;padding-right:0!important}ta=
+ble.button.small-expand center,table.button.small-expanded center{min-width=
+:0}}body,table.body,p,td,th,a{font-family:Arial,Helvetica,sans-serif;line-h=
+eight:24px}h1,h2,h3,h4,h5,h6{font-family:Arial,Helvetica,sans-serif;margin:=
+12px 0}h1{font-size:40px;line-height:52px;}h2{font-size:30px;line-height:39=
+px;}h3{font-size:26px;line-height:33px;}h4{font-size:24px;line-height:30px;=
+}h5{font-size:20px}h6{font-size:18px}</style></head><body style=3D"width: 1=
+00% !important;min-width: 100%;-webkit-text-size-adjust: 100%;-ms-text-size=
+-adjust: 100%;margin: 0;Margin: 0;padding: 0;-moz-box-sizing: border-box;-w=
+ebkit-box-sizing: border-box;box-sizing: border-box;"><center><table id=3D"=
+main" style=3D"background: #f3f3f3;height:100%;width:100%;margin:0"><tr><td=
+><center><br /><br /><table class=3D"body" style=3D"height: 100%;width: 596=
+px;" ><tr><td id=3D"contentarea" style=3D"height: 50px; zoom: 1; min-height=
+: 50px;"><div>
+    <table align=3D"center" class=3D"container float-center" style=3D"backg=
+round: #fefefe;width: 596px;margin: 0 auto;Margin: 0 auto;text-align: inher=
+it;">
+      <tbody>
+        <tr>
+          <td>   =20
+            <table class=3D"row" style=3D"padding: 0px; width: 100%; positi=
+on: relative; display: table;">
+              <tbody>
+              <tr>
+                <td class=3D"small-12 large-12 columns first last" style=3D=
+"margin: 0px auto; padding-left: 16px; padding-bottom: 16px; padding-right:=
+ 16px; width: 564px;">
+                  <table style=3D"width: 100%;">
+                    <tbody>
+                    <tr>
+                      <td><h1 style=3D"font-size:40px;font-family:Open Sans=
+, Arial, Helvetica;font-weight:bold;line-height:1.3"><img alt=3D"Image" src=
+=3D"http://mailer.segalfartak.com/frontend/assets/files/customer/yf92748zqh=
+bbb/1690101719--g9qkte.png" style=3D"font-family: Arial, Helvetica, sans-se=
+rif; font-size: 16px; font-weight: normal; margin-left: auto; margin-right:=
+ 0px; width: 564px;" width=3D"564"></h1><h1 style=3D"text-align: center; fo=
+nt-size: 40px; font-family: &quot;Open Sans&quot;, Arial, Helvetica; font-w=
+eight: bold; line-height: 1.3;">SIEM Architecture</h1><div style=3D"text-al=
+ign: center;">Security information and event management<br></div></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+                          </tr>
+                        </tbody>
+                    </table>                          =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <table align=3D"center" class=3D"container float-center" style=3D"backg=
+round: #fefefe;width: 596px;margin: 0 auto;Margin: 0 auto;text-align: inher=
+it;">
+      <tbody>
+        <tr>
+          <td>
+                      <table class=3D"row" style=3D"padding: 0px; width: 10=
+0%; position: relative; display: table;">
+                          <tbody>
+                          <tr>
+                              <td class=3D"small-12 large-12 columns first =
+last" style=3D"margin: 0px auto; padding-left: 16px; padding-bottom: 16px; =
+padding-right: 16px; width: 564px;">
+                                <table style=3D"width: 100%;">
+                                    <tbody>
+                                    <tr>
+                                      <td><div style=3D"text-align: right;"=
+><br></div><p style=3D"text-align: right;">&nbsp;=D8=AF=D9=88=D8=B3=D8=
+=AA =DA=AF=D8=B1=D8=A7=D9=85=DB=8C =D8=B3=D9=84=D8=A7=D9=85</p><div style=
+=3D"text-align: right;">=D8=A8=D8=AF=DB=8C=D9=86 =D9=88=D8=B3=DB=8C=D9=
+=84=D9=87 =D8=A7=D8=B2 =D8=AC=D9=86=D8=A7=D8=A8=D8=B9=D8=A7=D9=84=DB=8C =
+=D8=AF=D8=B9=D9=88=D8=AA =D9=85=DB=8C =DA=AF=D8=B1=D8=AF=D8=AF=D8=8C =D8=
+=AF=D8=B1 =D8=B5=D9=88=D8=B1=D8=AA =D8=B9=D9=84=D8=A7=D9=82=D9=87 =D9=85=
+=D9=86=D8=AF=DB=8C =D8=A8=D9=87 =D8=AD=D9=88=D8=B2=D9=87 =D8=A7=D9=85=D9=
+=86=DB=8C=D8=AA =D8=B3=D8=A7=DB=8C=D8=A8=D8=B1=DB=8C=D8=8C =D8=AF=D8=B1 =
+=D9=88=D8=A8=DB=8C=D9=86=D8=A7=D8=B1 =D8=B1=D8=A7=DB=8C=DA=AF=D8=A7=D9=
+=86&nbsp;</div><p style=3D"text-align: right;">=D9=85=D8=B1=D9=88=D8=B1=
+=DB=8C =D8=A8=D8=B1 =D9=85=D8=B9=D9=85=D8=A7=D8=B1=DB=8C =D8=B3=D8=A7=D9=
+=85=D8=A7=D9=86=D9=87 =D9=85=D8=AF=DB=8C=D8=B1=DB=8C=D8=AA =D8=B1=D9=88=
+=DB=8C=D8=AF=D8=A7=D8=AF=D9=87=D8=A7=DB=8C =D8=A7=D9=85=D9=86=DB=8C=D8=
+=AA=DB=8C =D8=AF=DA=A9=D8=AA=D8=B1 =D9=85=D9=87=D8=AF=DB=8C =D8=B7=D8=A7=
+=D9=84=D8=A8=DB=8C=D8=8C =D8=B4=D8=B1=DA=A9=D8=AA =D8=A8=D9=81=D8=B1=D9=
+=85=D8=A7=DB=8C=DB=8C=D8=AF<br></p></td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                          </td>
+                      </tr>
+                    </tbody>
+                        </table>                           =20
+          </td>
+                </tr>
+            </tbody>
+        </table>
+  </div>
+
+ =20
+  <div>
+    <table align=3D"center" class=3D"container float-center" style=3D"backg=
+round: #fefefe;width: 596px;margin: 0 auto;Margin: 0 auto;text-align: inher=
+it;">
+      <tbody>
+        <tr>
+          <td>             =20
+                      <table class=3D"row" style=3D"padding: 0px; width: 10=
+0%; position: relative; display: table;">
+                          <tbody>
+                          <tr>
+                              <td class=3D"small-12 large-12 columns first =
+last" style=3D"margin: 0px auto; padding-left: 16px; padding-bottom: 16px; =
+padding-right: 16px; width: 564px;">
+                                <table style=3D"width: 100%;">
+                                    <tbody>
+                                    <tr>
+                                      <td>
+                                       =20
+                                            <table class=3D"button large fl=
+oat-center" style=3D"width: auto;" align=3D"center">
+                                              <tbody>
+                                              <tr>
+                                                  <td>
+                                                    <table style=3D"width: =
+100%;">
+                                                        <tbody>
+                                                        <tr>
+                                                          <td style=3D"text=
+-align: center; color: rgb(254, 254, 254); background: rgb(33, 153, 232); b=
+order: none; padding: 10px 20px;">
+                                                              <a href=3D"ht=
+tps://evand.com/events/siem-architecture" align=3D"center" style=3D"border:=
+ none; font-size: 20px; font-weight: bold; text-decoration: none; display: =
+inline-block; color: rgb(254, 254, 254);" title=3D"">=D8=AF=D8=B1=DB=8C=
+=D8=A7=D9=81=D8=AA =D8=AA=DB=8C=DA=A9=D8=AA</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td class=3D"expander"></=
+td>
+                                              </tr>
+                                              </tbody>
+                                            </table>
+                       =20
+                                      </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </td>
+                      </tr>
+                    </tbody>
+                        </table>   =20
+          </td>
+                </tr>
+            </tbody>
+        </table>
+  </div>
+  <div>
+    <table align=3D"center" class=3D"container float-center" style=3D"backg=
+round: #fefefe;width: 596px;margin: 0 auto;Margin: 0 auto;text-align: inher=
+it;">
+      <tbody>
+        <tr>
+          <td>             =20
+                      <table class=3D"row" style=3D"padding: 0px; width: 10=
+0%; position: relative; display: table;">
+                          <tbody>
+                          <tr>
+                              <td class=3D"small-12 large-12 columns first =
+last" style=3D"margin: 0px auto; padding-left: 16px; padding-bottom: 16px; =
+padding-right: 16px; width: 564px;">
+                                <table style=3D"width: 100%;">
+                                    <tbody>
+                                    <tr>
+                                      <td><p></p><div class=3D"edit" style=
+=3D""><p><br></p><p>Segal Fartak Infrastructure Development Industries<br /=
+>
+No. 146, Abbas Anari Ave., Farahzadi St. Gharb Township<br />
+Tehran =
+ 1998954758<br />
+Iran (Islamic Republic of)<br />
+https://www.segalfar=
+tak.com</p><p style=3D"text-align: center;"><a href=3D"https://mailer.segal=
+fartak.com/index.php/lists/bl067bg9qr2e2/unsubscribe/dm36507rhj7a0/zx408v7f=
+1jd5b" title=3D"">Unsubscribe</a></p></div><p></p></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </td>
+                      </tr>
+                    </tbody>
+                        </table>   =20
+          </td>
+                </tr>
+            </tbody>
+        </table>
+  </div></td></tr></table><br /><br /></center></td></tr></table></center><=
+img width=3D"1" height=3D"1" src=3D"https://mailer.segalfartak.com/index.ph=
+p/campaigns/zx408v7f1jd5b/track-opening/dm36507rhj7a0" alt=3D"" />
+</body=
+></html>
+
+--_=_swift_1690251395_508f3e54e2e0921b0b7de3a728cd601e_=_--
+

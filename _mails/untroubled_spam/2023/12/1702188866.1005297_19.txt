@@ -1,0 +1,95 @@
+Return-Path: <masonfelan@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 981405 invoked from network); 9 Dec 2023 01:56:10 -0000
+Received: from mail-lf1-x143.google.com (mail-lf1-x143.google.com [IPv6:2a00:1450:4864:20::143])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 09 Dec 2023 01:56:09 -0000
+Received: by mail-lf1-x143.google.com with SMTP id 2adb3069b0e04-50bf32c0140so3074563e87.1
+        for <bruce@untroubled.org>; Fri, 08 Dec 2023 17:56:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1702086966; x=1702691766; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ZZ58fphOMXldG7ZwFyuxz4xnpP3ILrMX9330VYiN9xA=;
+        b=k+WaDYttHpIxr+pAAFVKv0qgox1Q7NA00U1qhghVjfvFZvB79mrr+aEGbGq9YjWEMn
+         tBRr/FtMUv+1RTC6WeY92NsKYAdKN2m9F8TJDiCrQSBh4Kt2fozKzYAzGae2gl7YSjk3
+         oodsnyJf7iM9l/lVxncJB0sM1v3H/QOV/pS5p8ZkwNmvaHt8B70Qcfd53+2/swxSDhlT
+         RZhUklupFZyOUsnfQqotyblGv5jmEPtTaEf7fMuKlplYr4zqtbcjRAGLlBnuHMibGWF6
+         IlzFWNIgj/ga4NCSoJI+9W5TzvpgmJmme5pgkYqbXaDYYSmcScAMuuMLD6XTquIB5Sef
+         fKCQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702086966; x=1702691766;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ZZ58fphOMXldG7ZwFyuxz4xnpP3ILrMX9330VYiN9xA=;
+        b=n+oc7R3Sy/2GOuKB5PCCdZYRjaqjpnkgHe2/HfHHea3C0HPUKwJacqCTkCGIIVupG4
+         pfKFfme2MXXQ9ObVvo7FeNjiqjmtc+RGP/tUHXkp7VmhNwXYzht2om7JEM2sr61H1xwm
+         be/PgmfS4VX3ROMRAnc+4x7g8L19nH2MTXhGyxFXGnES52S0kDKBHWRU1rz0CsGIFku8
+         sjXNTHCX4X7S0HmVZLe/viVITLZIYuOCCxpSHyo4JqLtNo1KL1ze5E1oKGl9MUQtqjgI
+         ti43jAA8+IUVDrEkQvvQHRYzIwPjtrGsDc9thbUvsO+fIntPgOHvgGf+OxCM9ft+4RNB
+         Hjhg==
+X-Gm-Message-State: AOJu0Yx9l4dw16uk8TartkV/fMas8kn+02mkbKPa/bwGyMCNAJpsfrb7
+	uqla0FJ7Fn09ZRuoP9ct3GzDKjR+GZVwb/PEzRBQU6qI1KmTA2T3zyw=
+X-Google-Smtp-Source: AGHT+IFNgoTRHhT9Qi8wU1QBNHJCh2UcyzUTan43QWaMNtwMpUnhleA1/kmzcdSfj90/zZjMw/GtXMJS96zRU9lNcp0=
+X-Received: by 2002:ac2:4f8f:0:b0:50b:e810:3206 with SMTP id
+ z15-20020ac24f8f000000b0050be8103206mr327677lfs.110.1702086965802; Fri, 08
+ Dec 2023 17:56:05 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 8 Dec 2023 17:56:04 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 8 Dec 2023 17:56:02 -0800
+MIME-Version: 1.0
+Sender: Mason <masonfelan@webtechresearch.com>
+From: Mason <masonfelan@webtechresearch.com>
+Date: Fri, 8 Dec 2023 17:56:04 -0800
+X-Google-Sender-Auth: b4j1HQtD0igz1k3WaWOdROumNRM
+Message-ID: <CAERvW0ZySj7PJo=Y26HVWH6oYLLCYYNV1DBvTe27tcaF4f8svg@mail.gmail.com>
+Subject: untroubled.org Errors
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000f94b5b060c0a0038"
+Content-Length: 1938
+
+--000000000000f94b5b060c0a0038
+Content-Type: text/plain; charset="UTF-8"
+
+Hi untroubled.org,
+Hope you are doing great!
+
+This is Mason, Business Analyst with WebTech Research(An age-old Digital
+Marketing Agency operating over 10 years in the global market having its
+main office in AZ, USA. We exist for such a long-only because we follow
+ethical business practices)
+
+My team discovered a few issues on your website which are affecting your
+online presence, user experience, and ranking.
+
+Do you want me to send a detailed analysis report with screenshots?
+
+Awaiting your earliest response.
+
+Regards,
+Mason
+[image: beacon]
+
+--000000000000f94b5b060c0a0038
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"tahoma, sans-serif">Hi=C2=A0<a href=3D"http:=
+//untroubled.org">untroubled.org</a>,</font><div><font face=3D"tahoma, sans=
+-serif">Hope you are doing great!<br><br>This is=C2=A0</font>Mason<font fac=
+e=3D"tahoma, sans-serif">, Business Analyst with=C2=A0</font>WebTech Resear=
+ch<font face=3D"tahoma, sans-serif">(An age-old Digital Marketing Agency op=
+erating over 10 years in the global market having its main office in AZ, US=
+A. We exist for such a long-only because we follow ethical business practic=
+es)<br><br>My team discovered a few issues on your website which are affect=
+ing your online presence, user experience, and ranking.<br><br>Do you want =
+me to send a detailed analysis report with screenshots?<br><br>Awaiting you=
+r earliest response.<br><br>Regards,<br></font>Mason</div></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/262spvko0uv8=
+UWUf4Em5ATPaTihdL8RNFJbvW4ZvDpo5160lMjAEwQl5LD8TbmWdyROjf7qQwZpVZz82KKW5CPY=
+kfvcXineMiieg9JE0kni5JfqyCbLYyuJOfMnGl1sliyPfXs7Rfg8X1-BmkSeJN2kAsY6CMHjrao=
+8DMcA" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; displ=
+ay:none!important;">
+
+--000000000000f94b5b060c0a0038--

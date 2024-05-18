@@ -1,0 +1,78 @@
+Return-Path: <audie@trustinfinitysolutions.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1422945 invoked from network); 9 Feb 2024 12:49:23 -0000
+Received: from mail-pf1-x42b.google.com (mail-pf1-x42b.google.com [IPv6:2607:f8b0:4864:20::42b])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 09 Feb 2024 12:49:23 -0000
+Received: by mail-pf1-x42b.google.com with SMTP id d2e1a72fcca58-6e09143c7bdso282525b3a.3
+        for <bruce@untroubled.org>; Fri, 09 Feb 2024 04:49:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=trustinfinitysolutions.com; s=google; t=1707482962; x=1708087762; darn=untroubled.org;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=on1hSvVt9KqWk0LnFl7mNWr/aNGaHRlrGK8CSpQ/PxI=;
+        b=Z2b7+rRcWx5ZFWUrhKFLhYK/WjFlya0EywCs+h2Zu//qn9LJPCc6qD5tQg/D4HwBON
+         d1bHRNgDqRlCRBx5KznUOeM88NnY6zeofkAWcXk7tiGGS9/cMtrXIVAk6G4bWg/tYw7o
+         p9vR6wJfOtnO2clMxUs15WImD34/YGd89uUXdOAi3XLFCFhuCGKVqe04jUDCMm+BgPfn
+         eS5nucdTuWR5fonSyItNsax8YDsI9ZbRq7ic+OGrX6GpOE/k8wjbS6NYw68ueGBMqnDl
+         TYDqst2FQXIPRNpomxxwKijgf+XjeOuFArKkJXXA+qLODLt/fsGGVJlw85o0wQJt02Rr
+         OxNA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1707482962; x=1708087762;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=on1hSvVt9KqWk0LnFl7mNWr/aNGaHRlrGK8CSpQ/PxI=;
+        b=NGPpKHn9dr7/RLAsZfjXkQdtCiHiyidSZsUKzCivABhnN5Notuxqc3B3jWettMMzXE
+         05nqs7c1HZiuDIjvzVRXepJMlai+CvU99ZLUQV9Lnth8wzz013ApKJmRMItdS8NN/Igk
+         OC2RCMcGmd26XiLYMIEWJ2hQOsa741uRn+yXp7m8A9ZOlXKAfb8Md//dqIgxrpsEZGh1
+         vQ618pJSsxO9Ijo0e4ty6ZAdWt+QqgzbvzQ5OAFUrxw2BI9cjhhTSA6P0ynUbd+sNQw7
+         1v3XGN2N3py1Y4WPpW2MSby3q/W1n7CtCJ3XLA8OM+UljaqCasl6es3PYkpr2pTXWoS8
+         mk5w==
+X-Forwarded-Encrypted: i=1; AJvYcCVijUNYJDEKLu+6HsC9pYTDMJgYlTPIxk7aJzL9HIzKOaJVnVUNXQU65UJ5m1UsaTojZB9kJXc/38j4WTDHHR+/SULQvA==
+X-Gm-Message-State: AOJu0Yxkn2zW5anHBFlrhQDO3UMWqpQM/9DW5AsZM41HwU0zEevapQOX
+	4MQf5Dw7IREbftrwP/xEwVdJI1WrVghRyvwMezrEspIwq2gC8+6eAEpnXT7JxxYB5rpGLLL48jO
+	cSNKGgsMCoPEUK/cQZVQ44sqWwtV78olZghRI5g==
+X-Google-Smtp-Source: AGHT+IGjHXnw9MsxgyD3G60bOsvIOpLsxL76stpB3JzFs4pbTVyDcVjU0YQgElCF+w+SspFiKpCKuxq+YxmA9rwAZAw=
+X-Received: by 2002:a05:6a20:7a98:b0:19c:58fa:5a71 with SMTP id
+ u24-20020a056a207a9800b0019c58fa5a71mr1159101pzh.54.1707482962313; Fri, 09
+ Feb 2024 04:49:22 -0800 (PST)
+MIME-Version: 1.0
+References: <CAER-smbaNKURsvjU-W0QeK1VMwSqZftX_wgwd8yUOFuvKqAC4A@mail.gmail.com>
+In-Reply-To: <CAER-smbaNKURsvjU-W0QeK1VMwSqZftX_wgwd8yUOFuvKqAC4A@mail.gmail.com>
+From: Audie Dewey <audie@trustinfinitysolutions.com>
+Date: Fri, 9 Feb 2024 06:49:10 -0600
+Message-ID: <CAER-smbqVEWP_CZ_p+E_YMtU=gT3RX2KRNbk+K4zhx8crk8YHQ@mail.gmail.com>
+Subject: Re: Veterinary Professionals Data-List 2024
+To: Audie Dewey <audie@trustinfinitysolutions.com>
+Content-Type: text/plain; charset="UTF-8"
+Bcc: bruce@untroubled.org
+
+Hi,
+
+Did you get a chance to review my email?
+
+Please let me know if you require any further information to take this
+forward/make progress here.
+
+I look forward to hearing back from you soon.
+
+Best,
+Audie Dewey
+
+
+
+On Tue, 6 Feb 2024 at 14:16, Audie Dewey
+<audie@trustinfinitysolutions.com> wrote:
+>
+> Hi,
+>
+> Would you be interested in acquiring Veterinary Professionals Data-List 2024?
+>
+> Number of Contacts: - 30,178
+> Cost: - 2,376
+>
+> Interested? Email me back; I would love to provide more information on the list.
+>
+> Kind Regards,
+> Audie Dewey
+> Marketing Coordinator

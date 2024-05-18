@@ -1,0 +1,424 @@
+Return-Path: <>
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--production-gq1-9f8c8478b-7r525.gq1.yahoo.com with HTTP; Tue, 9 May 2023 16:24:19 +0000
+X-Originating-Ip: [209.85.208.41]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.41 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Tue, 9 May 2023 16:24:20 +0000
+X-YMailAVSC: FmafHlU3bBsp9Zhgli.X9wvjsn_6G0zPsqPv9S0STK3x6hT
+ LHr5c4Oh0fpSYuPRR0S1FoEywO7fPg.KzI3olcN2mD15uxX7jwFxqNB.q7Uh
+ Lq_4UtaC49knTKDdwdyewIP1MMdfZm67ZaWZsSepAKuZ34APx13B.tZLlIo2
+ BvUZL5QBDJ6iT.F1PsTFCVyutM5sRq1bq5EQOSmViN1XUCrqFokYTWVBvPxG
+ L8IUzdF6LlsdKq_InmH52mEoFhAwNsahuzyBle6HXNJDqxH68rrGqq9zHx1G
+ oig3nYoCQ1n40gxo_pIPImC6LSUSzizcW3ZUXL7.Iee1NFQnpMmqRrOPbmHY
+ WG4IFR6849w.9SzfDQhD.KECCitgCv3KI5JyLAtcdhlerSPDE2zI_ncZNiFc
+ jr__8NCjs5L9cMo6SZscg4mkVz8l.FTMZ3pcIhZfh.FYe.2vwILllxmWIf59
+ bUV1ziihhr9w8ALefVdzQMBSxxpxG0tBCY3rkT1RbaVItpe24Gw0oSWVwIWg
+ VmubOXHW6kz0u6vjZVC.49.zkaR.NcNhDJPUlU9znlBwb0KXB_iN.Tz53zbO
+ Hj3PsjKsTqv8UizhrWIOdlV2.HT9zTj1r5im2c9nwQB185VHzBYpSeaouqc2
+ .FqdpBJMYGkOYRvwE_NCrEvtFbVtL9glANsmhRc201KYUbFM44G0SaF4ZEn6
+ KQhmGlpZ7dLKLyPLv2d2ALDbFX0BColCbwcRNVa63mbEhsObWHVu9BmEcNKp
+ rJADbgqB20YP7zN4CReigNN.SXPu3knUNS_ZvNJUbvITJZEg3s5ZB7at.TdZ
+ 4SMIA4pMsT_.G1oFxyBdqjuamLXRzuh6aaFHHqFY3XGNt4R1cz..kvZ7jP_p
+ E6FaraRUxFPigMqqJ8xDr_sRqXdzfJ458jpV7V49mgjDbZzmoOzOxherBn8g
+ XWLT4Dc06eGZxDWMfdoRDo9Ls0bPyHIVnvhli9EjhF8wZMr_hNDII7E9GaVo
+ mWhNe41_o4X_AG.0CfjN53zA-
+X-YMailISG: 1pNcw4YWLDsKLyDevaqu60KMZR1US77HsE0NNmkI0sbMaRcJ
+ 85uPgYNL2cPJLDDfyn5Dh4Cka6xF1taAXJR_JDLIrxTeLoPfC6onwHxkEE3H
+ h0M8t4sjgbMH6U7Lmqyt2KfJWyBVTbd5P72I6rc5b045hpLyw7D4nAz.xIlV
+ o9Zhd9uW4lLikA4D8KJIoTfRggbT2qnB.VKbZ_TJVZ6FGZN18la9c2Frsn5v
+ HBQsJH95CqInS4Ctf3jN2orHLDNZb7gPGCWk4jgn5GJQKg9Dr5VTGSTt2p.s
+ surSeZqO_nUcjaVutK5YMcXPszgonzCifwl7Xf8_qs5LtjKoMcO2js2wxPDs
+ wrR0o2FMKMID24gAWHxVEGfd1QGbNxZIcDV706pPyRh840HqDji81Tkxaemu
+ xWN5s8pa7iFFsf9ueRysEpl.nVwRiiKKAxHWgbLxekicVCdxaqcxn49sH5Ss
+ MtEOlt6cE8QJcYsFPJGQaTMwEzgDm8PqUm29F2.I8F_ZbmwpBlT9hc6q6WiH
+ ykVlzDAjcgMUSykwp30Xfmaz2y7zXsxBuVBLl5p63nOBFAfB.xTSCNlDtQf.
+ wnSQg8wxyctP.Tm3SKG9my5reifIzfXZQfMw7myot6JPTlx9pesnFBSXoBwO
+ clIAPHQhRi4twjA2lGs2ZFttaxD9gEbbFCH9T_JHKLYfSzytG.uva2dCSL_C
+ I7x2ydKR7WD_bagfrAJ5ijcOLT8ua0WgrWgUZ4ZIgsGsDBD1FRsEg8yYINz.
+ xqKH9QXKHiVsBBcdzb1GcFl6xXTEs5DfcCw.rpyUjBsofziTZLCq8AlymFfs
+ 9UXiY37kIAuefQ7d75hAAjuFTHoQ2tUr8eDVqAGteEZ5yyDtP8jk8ssYLteG
+ VmiBmiVBhzZnWsvzBC6VjMYki5P62WQB_.wHx73LKM6FoVmewbhxAB_ArVCs
+ .Iwx090LGDYFtA4XPdGdZFlzUXAGKZTrQPx1HIki7hIQxOsrTwML3ZeVYyfQ
+ ZpOQpJPxE2is7YuAMavc0SIAiEF6dxotsCywk_dBeg7B8owkkPMs6hwJbv4A
+ Ktt6OyFK1.g9y2tYaOLRooImD0rtbRUnv_E6Cwg3dg--
+Received: from 209.85.208.41 (EHLO mail-ed1-f41.google.com)
+ by 10.206.128.73 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 09 May 2023 16:24:19 +0000
+Received: by mail-ed1-f41.google.com with SMTP id 4fb4d7f45d1cf-50bc040c7b8so9453203a12.2
+        for <bruce@untroubled.org>; Tue, 09 May 2023 09:24:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1683649458; x=1686241458;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=mSF7gYlAuiU0ebCE49hQk13n6IamdvuZfyqSxfk+87M=;
+        b=H1FLMzGzU/MHyVwr+EMbDDUcXyV8sT2+SiUw9gO5cZVSlq9wy4jG2+2PsLnipAkMrH
+         itvgKPGaBqpxiJm1yqiyh7goA9hEnbfks/d4JCsZdHzSXDbaCcOP+pUOJEOrb53HKo5A
+         BYiHbQKRBiWhUWOXbkjL0BV04zBUzLYzRwlt/13b++vq0JiOuBJ7I+MbBTYfUyoaai/1
+         mi7KUYCuztVbrwl8J5+MEAJCb5M3j8ggmdsFsKJbexyujV9H8X4hkhXIvtpl9DsQNR1C
+         hzGy4HTisny8kXVv6nwqdv+YAw0nWSnIviKjGcSUjXHmVR+1C2jegTkR4m0dp08Br+S4
+         3hEQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683649458; x=1686241458;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=mSF7gYlAuiU0ebCE49hQk13n6IamdvuZfyqSxfk+87M=;
+        b=dlOr86Mt6oRM8e0RmNyTUx/Lsxsln8EDRJQnxdJlnhNQGYsPLKT3yJ/gdOXcEVWc4+
+         KXC2CKBO3/YPcVB+/eE5wscMMXVoT6WAf4rB9ovV/cAsOvH09ZDs86EEnYC19wfuvg69
+         fwL/3xt82iIb7xFUc/8KC+hGK3RIRdgrWvJ0jpJqAXSeU4ZxNNu/cku5C751I6mZ3sM4
+         lz9enTh+IjIt50X7gjNAxCtCOs4yIGn/aNEyPGiuJjFI/RAobOTNPc/19++yV99w4mLU
+         v7dCO9nuZYjltq65vGwfd646KpbZXlnQZj5iJtryYoWV0/aeO051AvjCCZc1FdGjwjEU
+         au1w==
+X-Gm-Message-State: AC+VfDwSv0TCjasbnO1C9h9YiFTiA3fDgf726J8Wjciy0IQUNOexZ2Cw
+	hVwX2lVZFReDhkx2lYRvCuUhoVMv4O8RtxkkuPGlsh8P
+X-Google-Smtp-Source: ACHHUZ7W4Vz4klSEgxdDfZGC5lHxg3yVH0jjOP4G6LIYD05PW3daCK1DjIwdEeenvpPtB6DrmZGaUzkIMFwy7bxDwDo=
+X-Received: by 2002:aa7:cb47:0:b0:50d:2484:b3b2 with SMTP id
+ w7-20020aa7cb47000000b0050d2484b3b2mr12146544edt.32.1683649458182; Tue, 09
+ May 2023 09:24:18 -0700 (PDT)
+MIME-Version: 1.0
+From: Ace Surprise<bruce@untroubled.org>
+Date: Tue, 9 May 2030 16:45:01 +0000
+Message-ID: <CAG682a9q9qyiExFho9aknbQSq+91SE688UGkNfi9JUNZKpT1Km@mail.gmail.com>
+Subject:You have won an 170 Piece Stanley Tool Set
+To: bruce  <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 8391
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>170 Piece Stanley Tool Set</title>
+ <style>
+ body,table,thead,tbody,tr,td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ .tagline{
+ background-color: rgba(0,0,0,0.4);
+ }
+ h1,h2,h3,h4,h5,h6,p,a,ul,
+ li {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #555;
+ }
+ .logo {
+ margin-top: 15px;
+ }
+ .top-bar {
+ font-size: 12px;
+ color: #3c3c3c;
+ }
+ .bottom-bar {
+ font-size: 12px;
+ color: #000000;
+ }
+ .intro {
+ padding: 0px;
+ text-align: center;
+ font-size: 26px;
+ color: #033057;
+ font-weight: bold;
+ line-height: 1.4;
+ }
+ .header-text {
+ color: #ffffff;
+ font-size: 32px;
+ border-bottom: 1px solid #fff;
+ line-height: 1;
+ padding: 20px 30px;
+ }
+ .tagline_tx:nth-child(1){
+ color: red;
+ }
+ .peace {
+ font-size: 50px;
+ font-weight: bold;
+ }
+ .mind {
+ font-size: 42px;
+ }
+ .cta,
+ .cta-bg {
+ background-color: #000000;
+ color: #000000;
+ padding: 12px;
+ text-decoration: none;
+ font-weight: bold;
+ display: block;
+ width: 160px;
+ margin-top: 10px;
+ margin-left: 30px;
+ text-align: center;
+ }
+ .cta-bg {
+ width: 250px;
+ background-color: #000000;
+ font-size: 18px;
+ margin-bottom: 40px;
+ padding: 16px;
+ margin-top: 30px;
+ }
+ .space {
+ height: 35px;
+ line-height: 55px;
+ }
+ .cta-title {
+ color: #000;
+ margin-top: 40px;
+ line-height: 1;
+ padding: 0px;
+ font-size: 34px;
+ font-weight: bold;
+ }
+ .cta-title-sub {
+ color: #000;
+ font-size: 18px;
+ line-height: 1.4;
+ max-width: 70%;
+ margin-top: 20px;
+ }
+ .product-name{
+ font-size: 18px;
+ color: #000;
+ margin-top: 10px;
+ margin-left: 40px;
+ line-height: 1.3;
+ }
+ #bg_prod{
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .future,.peace,.mind{
+ display: block;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .header-text {
+ max-width: 100%;
+ padding-bottom: 20px;
+ text-align: center;
+ margin-left: 0px;
+ }
+ .peace {
+ display: block;
+ }
+
+ .cta {
+ display: block;
+ max-width: 70%;
+ margin: auto;
+ }
+ .cta-bg{
+ margin-left: 0px;
+ }
+ .space {
+ height: 10px;
+ line-height: 10px;
+ }
+
+ .cta-title{
+ font-size: 28px;
+ }
+ .cta-title-sub {
+ font-size: 17px;
+ max-width: 90%;
+ }
+ .policy-table {
+ margin-bottom: 20px;
+ }
+ .bg-wrap {
+ background-size: cover;
+ background-position: center;
+ }
+ .feature-img {
+ width: 60%;
+ margin-top: 30px;
+ }
+ }
+ </style>
+ </head>
+<div align="center">Having trouble viewing this email?<font
+    color="#ff8000"> </font><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UTg0RUVBODcza1NXNGQzYzRrWjJuZlQ5SXFVZno5cnFKNHFyM0ZEUEVGeUNpeC9NL055bGtSSWdXZVVtRlA0ZFBKWjE1NVp4TVJUY0J1djdoRkIyckpXay8xWjA1cWQ1NVJ5T0hXUWUrb2ZzTE16NXY1aDI5enBicUJKQUhFUUhHNXpBTGg3U2pkWUhkZ0lpSmg4Z3VBPT0_"><font
+      color="#ff8000">Click here</font></a> for a web version.</div>
+<div align="center"><br>
+</div>
+<div align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UTg0RUVBODcza1NXNGQzYzRrWjJuZlQ5SXFVZno5cnFKNHFyM0ZEUEVGeUNpeC9NL055bGtSSWdXZVVtRlA0ZFBKWjE1NVp4TVJUY0J1djdoRkIyckpXay8xWjA1cWQ1NVJ5T0hXUWUrb2ZzTE16NXY1aDI5enBicUJKQUhFUUhHNXpBTGg3U2pkWUhkZ0lpSmg4Z3VBPT0_"><font
+      size="6"><b><font color="#8080ff"><font color="#bb005e">170 Piece
+            Stanley Tool Set Exclusive Rewards For You</font><br>
+        </font></b></font></a></div>
+
+
+ <body style="background-color: #eaeaea;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#ffffff">
+ <tr>
+ <td height="15" style="line-height: 15px;"></td>
+ </tr>
+ <tr>
+ <td width="550" valign="top" align="center">
+ <p style="padding: 10px;" class="top-bar">Hurry up. The number of prizes to be won is limited! Confirm Now!</p>
+ </td>
+ </tr>
+ </table>
+
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody> 
+ <tr>
+ <td align="center">
+ <table id="bg_prod" bgcolor="#ffffff" background="https://pbs.twimg.com/media/Fv28DC1XwAM9lTM?format=jpg&name=large" class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td class="space"></td>
+ </tr>
+ <tr>
+ <td class="column" valign="top" align="left" style="width: 100%">
+ <table class="section" style="width: 100%">
+ <tbody>
+ <tr>
+ <td align="left">
+ <p class="header-text tagline" style="display: inline-block">
+ <span class="future">The</span>
+ <span class="peace">Newest</span>
+ <span class="mind">Model Yet</span>
+ </p>
+ </td>
+ </tr>
+
+ <tr>
+ <td align="left">
+ <a style="color:#fff" href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UTg0RUVBODcza1NXNGQzYzRrWjJuZlQ5SXFVZno5cnFKNHFyM0ZEUEVGeUNpeC9NL055bGtSSWdXZVVtRlA0ZFBKWjE1NVp4TVJUY0J1djdoRkIyckpXay8xWjA1cWQ1NVJ5T0hXUWUrb2ZzTE16NXY1aDI5enBicUJKQUhFUUhHNXpBTGg3U2pkWUhkZ0lpSmg4Z3VBPT0_" class="cta">Get it Now!</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="column" width="275" valign="top">
+ <table class="section">
+ <tbody> </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="40" style="line-height: 40px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" bgcolor="#D5D5D5">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td class="" width="180" valign="top" style="padding: 0 10px">
+ <table class="section" height="54px" width="160">
+ <tbody>
+ <tr>
+ <td align="left" width="160">
+ <img border="0" style="max-width: 160px; max-height: 50px;" src="https://pbs.twimg.com/media/Fv274N6X0AYRtDh?format=jpg&name=large" class="logo" alt="">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="" width="320" valign="top" bgcolor="#000000" data="image_bg" background="https://pbs.twimg.com/media/Fv27xPUXoAAPgc9?format=png&name=large" style="background-repeat:no-repeat;background-size: contain;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="section" width="320">
+ <tbody>
+ <tr>
+ <td align="left" width="320">
+ <p style="color:#fff" class="product-name">170 Piece Stanley Tool Set</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr> 
+
+ <tr>
+ <td align="center" bgcolor="#D5D5D5">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p class="cta-title">Congratulations!</p>
+ <p class="cta-title-sub">You have been chosen to participate in our Loyalty Program for FREE!</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a style="color:#fff" href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UTg0RUVBODcza1NXNGQzYzRrWjJuZlQ5SXFVZno5cnFKNHFyM0ZEUEVGeUNpeC9NL055bGtSSWdXZVVtRlA0ZFBKWjE1NVp4TVJUY0J1djdoRkIyckpXay8xWjA1cWQ1NVJ5T0hXUWUrb2ZzTE16NXY1aDI5enBicUJKQUhFUUhHNXpBTGg3U2pkWUhkZ0lpSmg4Z3VBPT0_" class="cta-bg">CONFIRM NOW!</a>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="padding: 10px;" class="bottom-bar">It will take you only a minute to receive this fantastic prize.. 170 Piece Stanley Tool Set</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#L0RmRzhpMFprQkZrL3o5R2pCVkg3ZUdGb2d5aXdhQTIram1XUDVqVEV4WEJQRlgzalpOb0R3UGlpVERxS2Z0RENqbGtabmUvVUNPUGxTM0xLUFV1WEFXVGJQN1ZNb2FnUWhDOE9CaEZkalRYVk15SzY4dmtJd3g3MDRQR2JVZ2NXclVGQS9zSGM1ZVVWTFA5OHowVHZnPT0_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

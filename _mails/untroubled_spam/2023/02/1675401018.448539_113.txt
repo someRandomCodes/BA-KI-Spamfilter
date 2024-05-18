@@ -1,0 +1,1301 @@
+Return-Path: <workshops=skillsforafrica.or.ke@bounces.elasticemail.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 301892 invoked from network); 2 Feb 2023 15:52:54 -0000
+Received: from n57.mxout.mta4.net (n57.mxout.mta4.net [67.227.87.57])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 02 Feb 2023 15:52:53 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=bounces.elasticemail.net; s=api;
+	c=relaxed/simple; t=1675353170;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=M4IUrv7FlXqbBLtdpTqVFvSgxD4haVKiNfnupdjlNPw=;
+	b=N91b0LDGx+JzrV+LMkxCptwS1WRMjCZ27Y3AyynyfGvfa38VraBuk5F8R9NngBQkFIS1xP2HoFt
+	uvEAbGtJfZFusgw24eVOo2giCbIgAfK/D95awq18N1PruK4aSuulR8Xp3rng15SLGNdEPWfJoErPh
+	u6tujpq5ni29VOjN7R8=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1675353170;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=M4IUrv7FlXqbBLtdpTqVFvSgxD4haVKiNfnupdjlNPw=;
+	b=ahYgwYPMngn1a+P1g2XHPn0j7iWYE8pXtXvBmT3OMaudOLmkxa953sTy6RRgbCdmKwid8Cl4tQn
+	IMpB1gXqYDdM7/LTYoX3JR2qT/Q54f5G4jzHwFIM/1qjYlbeS/972JwFyWwfKQ/DQyZcUCS4tNC8F
+	eGNfUUDU02tfyKlGfuY=
+From: Skills for Africa Training Institute <workshops@skillsforafrica.or.ke>
+Date: Thu, 02 Feb 2023 15:52:50 +0000
+Subject: Risk-based Pension Funds Supervision And Effective Governance
+ Training
+Message-Id: <4uj2xt9p843q.oPW78T08fJacjhvlQ2J5fw2@133IK.trk.elasticemail.com>
+Reply-To: workshops@skillsforafrica.or.ke
+Sender: workshops=skillsforafrica.or.ke@bounces.elasticemail.net
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+oPW78T08fJacjhvlQ2J5fw2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2F133IK=2Etrk=2Eelasticemail=2Ecom=2Ftracking=2Funsubscribe=3Fmsgid?=
+ =?us-ascii?q?=3DoPW78T08fJacjhvlQ2J5fw2&c=3D1468560650031829931=3E?=
+X-Msg-EID: oPW78T08fJacjhvlQ2J5fw2
+Disposition-Notification-To: workshops@skillsforafrica.or.ke
+Return-Receipt-To: <workshops@skillsforafrica.or.ke>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfC1LiqX34d5+YQMgsYyHX3jUw/6sj23WKzQ=="
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 68418
+
+--=-eZCfC1LiqX34d5+YQMgsYyHX3jUw/6sj23WKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+Umlzay1iYXNlZCANClBlbnNpb24gRnVuZHMgU3VwZXJ2aXNpb24gQW5kIEVmZmVjdGl2ZSBH
+b3Zlcm5hbmNlIFRyYWluaW5nIA0KwqANCkRhdGVzDQpGZWVzDQpMb2NhdGlvbg0KQXBwbHkN
+CjA2LzAyLzIwMjPCoC3CoDEwLzAyLzIwMjMNCiQxNTAwDQpNb21iYXNhDQoNCjxodHRwczov
+LzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBU
+ckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0UGpFcFlCWHd0ZzE4NHNPalZZWEhk
+SklZeDRmZ2NwaklCSFIwMzhLM1kxaXUzSkNnSzVEVE5HV05ReVQ3X1ZDZzItS25sZERydGts
+MEJfYThsUUV6YkVTbFJjLWdza0pvN3VQU2pWOWJnYXh0b05BNFlRTUxqa1BCODJTUFpsUXFx
+bTA+DQpQaHlzaWNhbCBDbGFzcw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1h
+aWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlz
+UG1Xak5Xc3FxclR0TzdMZWhrU29ZTWhRREh6b0NYZkZyaHlodzBjY2lhVU5oeFE2bDMyQWJt
+UlZ0NTNsU19qMElwTlFhRTdSbzF6QmVXSTZfaE51QzlSakkydTdWT1hXUDlJT3hKTzZSRnFI
+Y3NMT0g2WmtjUE9NWlZnT29hVXo2SldZYS1PRm1wSDVZejA+DQpPbmxpbmUgDQogICAgQ2xh
+c3MNCjA2LzAzLzIwMjPCoC3CoDEwLzAzLzIwMjMNCiQxMzUwDQpOYWlyb2JpDQoNCjxodHRw
+czovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95
+LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0UGpFcFlCWHd0ZzE4NHNPalZZ
+WEhkSkh1WFljWFpDUGI3d2J3U2ZQRVd6UUE5SWQ2X2xjWTFiSS1XVFlxMG5ic0c2Wjl6RVVu
+M3Q0YWQyR3FLQ05UMW1Wc2Flbkd5Q2pCcUFqdDRXakhJMEtVdl9iQzAtMWpWdXg3eXNYV0Nh
+QVAtVTA+DQpQaHlzaWNhbCBDbGFzcw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGlj
+ZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1
+WVlzUG1Xak5Xc3FxclR0TzdMZWhrU29ZTWhRREh6b0NYZkZyaDB0b1c0TnlERGRrY1BxUS1R
+cGhvRzFqM2NaM3BFX2Jfc0ZheDVzNlpTM1Fsa1M0eWx5NkhvcXc5VUVvdWhmQzI3Qkl6SFRf
+U052S2owcTM0ZXJsTU9Ua2x5X0k3dE5kZDc3ZzBFc3JQdG9jbTA+DQpPbmxpbmUgDQogICAg
+Q2xhc3MNCjAzLzA0LzIwMjPCoC3CoDA3LzA0LzIwMjMNCiQxMzUwDQpOYWlyb2JpDQoNCjxo
+dHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29h
+cG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0UGpFcFlCWHd0ZzE4NHNP
+alZZWEhkSkdDYWhKc2NaRnpuTzBzcFR3QnFWUkRLNTQ2d0tmTUJSZFFkR0F1MmxJU0t0X3lt
+VUZKRWFjTEdMQ3RacUw2S0d2VUhPNkhNMHYxOFRuNUgyY2hiZXEybG9hMjVqUzFxRGNKOFFz
+UEJKNWJqTzA+DQpQaHlzaWNhbCBDbGFzcw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFz
+dGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0
+MjI1WVlzUG1Xak5Xc3FxclR0TzdMZWhrU29ZTWhRREh6b0NYZkZyaGpESnFUYnlOSnB5cUNT
+SDhnRDhYYjJKYlZnY0w0YmpLTkgxVl85VDJoS1JKUnVaNEI5SE5NUDE4NE5FTEVha1ZSRzJG
+UUhsdTQ2MmZfZVNSMG9sSmFpZDdYNWhrTlFialVoaElxc3oxam8tVzA+DQpPbmxpbmUgDQog
+ICAgQ2xhc3MNCjAxLzA1LzIwMjPCoC3CoDA1LzA1LzIwMjMNCiQzNTAwDQpEdWJhaQ0KDQo8
+aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPVdv
+YXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdFBqRXBZQlh3dGcxODRz
+T2pWWVhIZEpsaFYtZGJBUWlqclNmLTFOa1RCR0M3WVJQeXpjNTZpYjhhdENQOG41WmxoUXFD
+dEdTWUs0bVpFOV8zb2R3RE0wbW14X1dKX3NkOVNuVEt5SFI0YU9WRXFIaVBObkhJamFHQ3d3
+V3lpR1hpbk8wPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxh
+c3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1S
+dDIyNVlZc1BtV2pOV3NxcXJUdE83TGVoa1NvWU1oUURIem9DWGZGcmhoTlNpSWRSX2VfT1B0
+X2RPZFBkVGd6ajYwN2ZaTkwzcXItc1haVVFOVVJQT2Y5TndybDBZdlhaZWo3dExRQkhpZjRW
+VHVMbWt0dXQycTJaajllQ1ZzRFlrSmQ3M3hEMzlGM3NkSHZoNDhPRzcwPg0KT25saW5lIA0K
+ICAgIENsYXNzDQowNS8wNi8yMDIzwqAtwqAwOS8wNi8yMDIzDQokMTUwMA0KTW9tYmFzYQ0K
+DQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9k
+PVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdFBqRXBZQlh3dGcx
+ODRzT2pWWVhIZEowOFBobkhuUDVWSTZ5b216bHpTWi1EazlacXVSXzJXWU1BY0VuaE1vYzdi
+XzN5NS10emtNS0UxUHJPdk9SS3N1eFR3anp5bGo2aUc5TF9RdWp6MThFQTN6WS10T2F6cEt1
+YlJJQ0RjdElOVkowPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cHM6Ly8xMzNJSy50cmsu
+ZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVK
+OS1SdDIyNVlZc1BtV2pOV3NxcXJUdE83TGVoa1NvWU1oUURIem9DWGZGcmhnbFBJTGtlajF2
+dFlEdUN4UkNqc1JRcGpRZUJFSHZvS1N4ZzBHYUNFc3NyRE9SSG1MVUZEdTJHei14MVFkZ1hl
+ZVVMcGJncUgxYXdFWGtKelRYbnhsLTNTNUhyRGtVUjBzalhIMnJZbzF4cjIwPg0KT25saW5l
+IA0KICAgIENsYXNzDQrCoA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNv
+bS90cmFja2luZy9jbGljaz9kPTRSU09HZVM1SEk2S0ZKaXhRcHlrVUg3U0JEU2owQTJFZEhk
+Y3FxRWstS00tY2dkZDkzZXI4b2lERDlSVldzaGlwTTZIVjMydHRNVDVNQmhETG8yYzJ1QXFr
+bmFWbHUtcnRDYy1RRWlCMXBaYmNybVF2dmxreXh4VVRZc3EydVp3UWtsZDhJQzFEMHhTREl4
+YTU3cnhpZEExPg0KQ29udGFjdCANCnVzDQrCoA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxh
+c3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPVRkTzFnQ3VRNzFocFdMNjBCV05udHV3
+ZjJJV0pma19rSlFfT2V4NV9lamppNC1WWXpCMkhDVnhUcjFVS1FwUGNWOFlNeXkweGU4UHZT
+OWdfQUppc2Y4VkkydmNLWW1QdlEtLVBXYmh5RjN1a0NYbGh5M3pscjRpSlRfTHRXbVVKNU9i
+WUd4TlRMSkpUTHFhWWhaaEt5clkxPg0KV2hhdGFwcA0KwqDCoCDCoMKgDQpJTlRST0RVQ1RJ
+T04NClByaXZhdGUgUGVuc2lvbnMgYXJlIGJlY29taW5nIGFuIGluY3JlYXNpbmdseSBpbXBv
+cnRhbnQgcGFydCBvZiANCnJldGlyZW1lbnQgaW5jb21lLiBUaGVyZWZvcmUsIHRoZSBxdWFs
+aXR5IGFuZCB0aGUgZWZmZWN0aXZlbmVzcyBvZiBwZW5zaW9uIGZ1bmRzIA0Kc3VwZXJ2aXNp
+b24gaXMgZ2V0dGluZyBtb3JlIGFuZCBtb3JlIGNyaXRpY2FsLCBhcyB3ZWxsIGFzIGNoYWxs
+ZW5naW5nLiBJbiBvcmRlciANCnRvIGFjaGlldmUgZWZmZWN0aXZlIHN1cGVydmlzaW9uLCBz
+dXBlcnZpc29yeSBhdXRob3JpdGllcyBuZWVkIHRvIGV4cGFuZCByaXNrIA0KYW5hbHlzaXMg
+YW5kIGRldmVsb3AgZW1lcmdpbmcgcmlzayBjYXBhY2l0aWVzLiBUaHVzLCByaXNrLWJhc2Vk
+IHN1cGVydmlzaW9uIA0KKFJCUykgaXMgaW1wZXJhdGl2ZSB0byBiZSBhZG9wdGVkIGFsb25n
+IHdpdGggY29ycmVzcG9uZGluZyByaXNrLWFzc2Vzc21lbnQgDQptZXRob2RvbG9neSwgdGhh
+dCBpbmNvcnBvcmF0ZXMgYm90aCBtaWNybyBhbmQgbWFjcm8gDQpwZXJzcGVjdGl2ZXMuDQpT
+dHJhdGVnaWNhbGx5IHNlbGVjdGVkIFJCUyB0ZWNobmlxdWVzIGNhbiByZXN1bHQgaW4gZWZm
+ZWN0aXZlIA0KcmVzb3VyY2UgYWxsb2NhdGlvbiwgd2hlcmUgYXNzZXRzIGFyZSBkaXJlY3Rl
+ZCBpbiBhIHdheSB0byB0YXJnZXQgdGhlIHJpc2sgDQpleHBvc3VyZXMgdGhhdCBhcmUgb2Yg
+Z3JlYXRlc3QgY29uY2VybiB0byB0aGUgc3VwZXJ2aXNvcnkgYXV0aG9yaXR5LiBIZW5jZSwg
+UkJTIA0KaXMgZGVlbWVkIHRvIGJlIGEgbW9yZSBmbGV4aWJsZSBhbmQgZHluYW1pYyBwcm9j
+ZXNzLCB0aGF0IGFsbG93cyBmb3IgZ3JlYXRlciANCmVmZmljaWVuY3kgaW4gdGhlIGV2ZW50
+IG9mIHJlc291cmNlIHNjYXJjaXR5Lg0KVGhpcyANCnByb2dyYW0gaGFzIGJlZW4gc3BlY2lm
+aWNhbGx5IGRlc2lnbmVkIGJ5IFNraWxscyBmb3IgQWZyaWNhIFRyYWluaW5nIEluc3RpdHV0
+ZSANCnRvIGVxdWlwIGl0cyBwYXJ0aWNpcGFudHMgd2l0aCBpbi1kZXB0aCBrbm93bGVkZ2Ug
+YW5kIGVzc2VudGlhbCBza2lsbHMgdG8gDQpzdWNjZXNzZnVsbHkgZW1wbG95IFJCUyB0ZWNo
+bmlxdWVzLg0KQ09VUlNFIA0KT0JKRUNUSVZFUw0KQXQgdGhlIA0KZW5kIG9mIHRoZSBjb3Vy
+c2UsIHRoZSBwYXJ0aWNpcGFudHMgd2lsbCBiZSBhYmxlIA0KdG86DQpQb3NzZXNzIGNvbXBy
+ZWhlbnNpdmUgdW5kZXJzdGFuZGluZyBvZiBwZW5zaW9ucyBzY2hlbWVzLCBmdW5kcyANCiAg
+YW5kIHBsYW5zIHdvcmxkd2lkZQ0KQ29tcGFyZSBhbmQgZW1wbG95IGdsb2JhbCBiZXN0IHBy
+YWN0aWNlcyBvZiByaXNrLWJhc2VkIHBlbnNpb24gDQogIGZ1bmQgc3VwZXJ2aXNpb24gYW5k
+IGdvb2QgZ292ZXJuYW5jZQ0KRGV2ZWxvcCBzb3VuZCBkZWNpc2lvbi1tYWtpbmcgc2tpbGxz
+IGZvciBzdHJhdGVnaWMgcmVzb3VyY2VzIA0KICBhbGxvY2F0aW9uIGFuZCBzdXBlcnZpc29y
+eSBzdHJhdGVnaWVzDQpFbXBsb3kgdmFyaW91cyByaXNrIHRlY2huaXF1ZXMgZm9yIHBlbnNp
+b24gZnVuZCByaXNrIA0KICBtYW5hZ2VtZW50DQpTZXQgDQogIGFwcHJvcHJpYXRlIGNvbnRy
+b2xzIGFuZCBtZWFzdXJlcyBhZ2FpbnN0IGlkZW50aWZpZWQgDQogIHJpc2tzDQpBbmFseXpl
+IHZhcmlvdXMgc2l0dWF0aW9ucyBhbmQgY2lyY3Vtc3RhbmNlcyBhbmQgZm9yZXNlZSBwb3Nz
+aWJsZSANCiAgb3V0Y29tZXMNCkVmZmVjdGl2ZWx5IGFuZCBlZmZpY2llbnRseSBoYW5kbGUg
+YW5kIG1hbmFnZSBzZW5pb3Igcm9sZXMgYW5kIA0KICByZXNwb25zaWJsZSByZWxhdGVkIHRv
+IHJpc2stYmFzZWQgcGVuc2lvbiBmdW5kIHN1cGVydmlzaW9uIGFuZCBzdGF5IHJlbGV2YW50
+IA0KICBhbmQgY29tcGV0aXRpdmUgZm9yIHRoZSBpbmR1c3RyeS4NCkRVUkFUSU9ODQo1IA0K
+RGF5c8KgDQpXSE8gDQpTSE9VTEQgQVRURU5EDQpUaGlzIA0KdHJhaW5pbmcgY291cnNlIGlz
+IHN1aXRhYmxlIHRvIGEgd2lkZSByYW5nZSBvZiBwcm9mZXNzaW9uYWxzIGJ1dCB3aWxsIGdy
+ZWF0bHkgDQpiZW5lZml0Og0KUHJvZmVzc2lvbmFscyBhbmQgZXhlY3V0aXZlcyBpbnZvbHZl
+ZCBpbiBQZW5zaW9uIEZ1bmQgU3VwZXJ2aXNpb24gDQogIGFuZCBHb3Zlcm5hbmNlDQpTcGVj
+aWFsaXN0cyBhbmQgUG9saWN5IE1ha2VycyBpbnZvbHZlZCBpbiByaXNrIGlkZW50aWZpY2F0
+aW9uLCANCiAgYXNzZXNzbWVudCBhbmQgbWFuYWdlbWVudC4NCkxlZ2FsIGFuZCBGaW5hbmNp
+YWwgQWR2aXNvcnMgY29uY2VybmVkIHdpdGggUGVuc2lvbiBSaXNrcyBhbmQgDQogIHJlbGF0
+ZWQgZGlzcHV0ZXMNCkJQTyANCiAgUGVuc2lvbiBTY2hlbWVzIEFkbWluaXN0cmF0b3JzDQpQ
+dWJsaWMgU2VjdG9yIFBlbnNpb24gU2NoZW1lIExlZ2lzbGF0b3JzIGFuZCBPZmZpY2lhbHMg
+YXQgdGhlIA0KICBsb2NhbCBhbmQgbmF0aW9uYWwgbGV2ZWwNClBlbnNpb25zIE1hbmFnZXJz
+IGFuZCBQZW5zaW9ucyBTY2hlbWUgDQogIE1hbmFnZXJzDQpQZW5zaW9uIE9mZmljZXJzIGFu
+ZCBSZWdpc3RyYXJzDQpFbXBsb3llZSBCZW5lZml0cyBEaXJlY3RvcnMgYW5kIA0KICBNYW5h
+Z2Vycw0KQW55b25lIGludGVyZXN0ZWQgaW4gUmlzay1CYXNlZCBQZW5zaW9uIEZ1bmQgU3Vw
+ZXJ2aXNpb24gYW5kIA0KICBHb3Zlcm5hbmNlDQpDT1VSU0UgDQpDT05URU5UDQpEYXkgDQpP
+bmU6wqBSaXNrIGFuZCBSZWd1bGF0aW9ucyBmb3IgUGVuc2lvbiANCkluZHVzdHJ5DQpUaGUg
+DQogIEJyb2FkIGNhdGVnb3JpemF0aW9uIG9mIHBlbnNpb24gaW5kdXN0cnkgcmlzazogUG9y
+dGZvbGlvLCBBZ2VuY3kgYW5kIFN5c3RlbWljIA0KICBSaXNrcw0KSW50cm9kdWN0aW9uIHRv
+IFBlbnNpb24gRnVuZCBSZWd1bGF0b3J5IA0KICBNZWNoYW5pc20NClJlZ3VsYXRvcnkgUmVx
+dWlyZW1lbnRzIG9uIFJpc2sgTWFuYWdlbWVudCANCiAgQXJjaGl0ZWN0dXJlDQpMaWNlbnNp
+bmcsIEdvdmVybmFuY2UgYW5kIEludmVzdG1lbnQgDQogIFJ1bGVzDQpJbmRlcGVuZGVudCBD
+dXN0b2RpYW4sIEV4dGVybmFsIEF1ZGl0cywgYW5kIERpc2Nsb3N1cmUgDQogIFJlcXVpcmVt
+ZW50cw0KR3VhcmFudGVlcywgTWluaW11bSBDYXBpdGFsLCBhbmQgDQogIFJlc2VydmVzDQpD
+b3N0IA0KICAmIEZlZSBSZWd1bGF0aW9ucyBhbmQgU2FuY3Rpb25zDQpEYXkgDQpUd286wqBJ
+bnRyb2R1Y3Rpb24gdG8gUmlzay1CYXNlZCBTdXBlcnZpc2lvbiBvZiBQZW5zaW9uIA0KRnVu
+ZHMNClRoZSANCiAgZmluYW5jaWFsIHBvc2l0aW9uIG9mIHRoZSBvcmdhbml6YXRpb24sIHJp
+c2sgbGV2ZWwgaW50ZW5zaXR5IGFuZCBzdXBlcnZpc2lvbiANCiAgc2NvcGUNClNoaWZ0aW5n
+IHRoZSBmb2N1cyB0byBoaWdoLWxldmVsIGNvbnRyb2xzIGFuZCANCiAgZ292ZXJuYW5jZQ0K
+U3RyYXRlZ2ljIGFsbG9jYXRpb24gb2YgdGltZSBhbmQgcmVzb3VyY2VzOiBlbXBsb3lpbmcg
+cHJvYWN0aXZlIA0KICBhcHByb2FjaA0KQ29tbW9uIG9iamVjdGl2ZXMgYW5kIGVsZW1lbnRz
+IG9mIHBlbnNpb25zIGZ1bmQgUkJTIA0KICBkZXNpZ24NCktleSANCiAgZm9jdXMgYXJlYXMg
+b2YgUkJTIG1vZGVsDQpFbXBsb3lpbmcgcGVuc2lvbiBmdW5kIFJCUy1BcHBsaWNhdGlvbiBh
+bmQgYWRhcHRhdGlvbiBvZiANCiAgbW9kZWxzDQpDb2xsZWN0aW5nIGRhdGENClN1cGVydmlz
+b3J5IGJvYXJkLCBzdGFmZiwgaW5kdXN0cnkgYW5kIA0KICBwb3dlci4NCsKgRGF5IA0KVGhy
+ZWU6wqBBbmFseXppbmcgUmlzayBMYW5kc2NhcGUNClJpc2stQmFzZWQgU29sdmVuY3kgYW5k
+IFJpc2sgU2NvcmluZyANCiAgTWV0aG9kcw0KUmlzayANCiAgQmFzZWQgQ2FwaXRhbCBSdWxl
+cw0KRnVuZGluZyByaXNrDQpTb2x2ZW5jeSByaXNrDQpTdXJwbHVzIHJpc2sgYW5kIGNvbnRy
+aWJ1dGlvbiByaXNrDQpDb3VudGVycGFydHkgY3JlZGl0IHJpc2sNCkludGVyZXN0IHJhdGUg
+bWlzbWF0Y2ggcmlzaw0KTG9uZ2V2aXR5IFJpc2sgSGVkZ2luZyBhbmQgDQpUcmFuc2ZlcnMN
+ClN5c3RlbWF0aWMgUmlza3MgYW5kIA0KICBBY2hpZXZhYmlsaXR5wqANCkRheSANCkZvdXI6
+wqBBY3Rpb25hYmxlIFRvb2xzIG9mIFJCUw0KU2V0dGluZyBvYmplY3RpdmVzIGFuZCByaXNr
+IGZvY3VzIGZvciBzdXBlcnZpc29yeSANCiAgYXV0aG9yaXRpZXMNCklkZW50aWZ5aW5nLCBt
+YXBwaW5nIGFuZCB3ZWlnaHRpbmcgDQogIHJpc2tzDQpSZXNvdXJjZSBhbGxvY2F0aW9uIGRl
+Y2lzaW9uIGJhc2VkIG9uIHJpc2sgDQogIGFzc2Vzc21lbnQNClF1YWxpdHkgYXNzdXJhbmNl
+DQpNYXhpbWl6aW5nIHRoZSB2YWx1ZSBvZiBzY2FyY2UgDQogIHJlc291cmNlcw0KRm9yZXNl
+ZWluZyBwcm9ibGVtcyB0aW1lbHkNCkNoYWxsZW5nZXMgaW4gcGVuc2lvbiBmdW5kIFJCUyAN
+CiAgaW1wbGVtZW50YXRpb24NCsKgRGF5IA0KRml2ZTrCoE1hbmFnaW5nIGFuZCBNaXRpZ2F0
+aW9uIFJpc2tzDQpPcGVyYXRpb24gYW5kIHN0cnVjdHVyZSBvZiBpbnRlcm5hbCByaXNrIGdv
+dmVybmFuY2UgDQogIHByb2Nlc3Nlcw0KQ29uc2lkZXJpbmcgcmlzay1iYXNlZCBhcHByb2Fj
+aCBpbiBvcmdhbml6YXRpb25hbCANCiAgc3RydWN0dXJlDQpNYW5hZ2VtZW50IGNvbnRyb2xz
+IGFuZCBjb21wbGlhbmNlDQpTZXR0aW5nIGFwcHJvcHJpYXRlIHByb2NlZHVyZXMgYW5kIA0K
+ICBjb250cm9scw0KRGVzaWduaW5nIGFuZCBhZG9wdGluZyByaXNrIG1hbmFnZW1lbnQgDQog
+IHN5c3RlbXMNCkluZGVwZW5kZW50IHJldmlld3MNClNwb25zb3JzIGFuZCBmaW5hbmNpYWwg
+c3VwcG9ydA0KVEhFIA0KRU5EDQrCoA0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFp
+bC5jb20vdHJhY2tpbmcvdW5zdWJzY3JpYmU/ZD1oV2lvS0NTaUFfX3BIZDZGVndmbnRvV0Y0
+dEI0V3R0RThONW9BWmxWaFgwWWVuSEJWS2tIdjk4MWVhOEowVWRKTUFPNUV6djkzYXEyc2pu
+SGRFTXNwUHNiX1pkMlRqU3dBVzhxUzdPbWRpdkkwPg0KVU5TVUJTQ1JJQkU=
+
+--=-eZCfC1LiqX34d5+YQMgsYyHX3jUw/6sj23WKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<H2=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: medium none; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT=
+: 0cm; BORDER-LEFT: medium none; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 18.=
+75pt; PADDING-RIGHT: 0cm; mso-border-bottom-alt: solid #15B055 1.5pt; =
+mso-padding-alt: 0cm 0cm 4.0pt 0cm"><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Calibri",sans-serif; FONT-STYL=
+E: normal; mso-bidi-font-weight: normal; mso-bidi-font-style: italic'>=
+Risk-based=20
+Pension Funds Supervision And Effective Governance Training <?xml:name=
+space=20
+prefix =3D "o" ns =3D "urn:schemas-microsoft-com:office:office"=20
+/><o:p></o:p></SPAN></H2></DIV>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<TABLE class=3DMsoNormalTable=20
+style=3D"WIDTH: 482.9pt; BACKGROUND: #202c45; BORDER-COLLAPSE: collaps=
+e; mso-yfti-tbllook: 1184"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D805 border=3D0>
+  <THEAD>
+  <TR style=3D"HEIGHT: 23.2pt; mso-yfti-irow: 0; mso-yfti-firstrow: ye=
+s">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.2pt; BORDER-RIGHT: #f0f0f=
+0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TO=
+P: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; B=
+ACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: n=
+ormal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: white'>Dates<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.2pt; BORDER-RIGHT: #f0f0f=
+0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TO=
+P: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; B=
+ACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: white; LINE-HEIGHT: 115%'>Fees<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.2pt; BORDER-RIGHT: #f0f0f=
+0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TO=
+P: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; B=
+ACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: white; LINE-HEIGHT: 115%'>Location<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.2pt; BORDER-RIGHT: #f0f0f=
+0; WIDTH: 149.2pt; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM:=
+ 6pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDI=
+NG-RIGHT: 6pt; BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom width=3D249>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: white; LINE-HEIGHT: 115%'>Apply<o:p></o:p></SPAN></B></P></TD></TR=
+></THEAD>
+  <TBODY>
+  <TR style=3D"HEIGHT: 36.85pt; mso-yfti-irow: 1">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 36.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PAD=
+DING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-C=
+OLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>06/02/2023<B>&nbsp;-</B>&nbsp;10/02/=
+2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 36.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PAD=
+DING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-C=
+OLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 36.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PAD=
+DING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-C=
+OLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>Mombasa<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 36.85pt; BORDER-RIGHT: #f0f0=
+f0; WIDTH: 149.2pt; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDI=
+NG-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6=
+pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .=
+75pt"=20
+    vAlign=3Dtop width=3D249>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPjEpYBXwtg184sOjVYXHdJIYx4fgcp=
+jIBHR038K3Y1iu3JCgK5DTNGWNQyT7_VCg2-KnldDrtkl0B_a8lQEzbESlRc-gskJo7uPS=
+jV9bgaxtoNA4YQMLjkPB82SPZlQqqm0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso=
+-border-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtO7LehkSoYMhQDHzoCXfFrhyhw0ccia=
+UNhxQ6l32AbmRVt53lS_j0IpNQaE7Ro1zBeWI6_hNuC9RjI2u7VOXWP9IOxJO6RFqHcsLO=
+H6ZkcPOMZVgOoaUz6JWYa-OFmpH5Yz0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso-b=
+order-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 49.95pt; mso-yfti-irow: 2">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>06/03/2023<B>&nbsp;-</B>&nbsp;10/03/=
+2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>$1350<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; WIDTH: 149.2pt; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: =
+6pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDIN=
+G-RIGHT: 6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid=
+ #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D249>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPjEpYBXwtg184sOjVYXHdJHuXYcXZC=
+Pb7wbwSfPEWzQA9Id6_lcY1bI-WTYq0nbsG6Z9zEUn3t4ad2GqKCNT1mVsaenGyCjBqAjt=
+4WjHI0KUv_bC0-1jVux7ysXWCaAP-U0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso=
+-border-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtO7LehkSoYMhQDHzoCXfFrh0toW4NyD=
+DdkcPqQ-QphoG1j3cZ3pE_b_sFax5s6ZS3QlkS4yly6Hoqw9UEouhfC27BIzHT_SNvKj0q=
+34erlMOTkly_I7tNdd77g0EsrPtocm0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso-b=
+order-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.5pt; mso-yfti-irow: 3">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>03/04/2023<B>&nbsp;-</B>&nbsp;07/04/=
+2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>$1350<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; WIDTH: 149.2pt; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6=
+pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING=
+-RIGHT: 6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid =
+#DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D249>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPjEpYBXwtg184sOjVYXHdJGCahJscZ=
+FznO0spTwBqVRDK546wKfMBRdQdGAu2lISKt_ymUFJEacLGLCtZqL6KGvUHO6HM0v18Tn5=
+H2chbeq2loa25jS1qDcJ8QsPBJ5bjO0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso=
+-border-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtO7LehkSoYMhQDHzoCXfFrhjDJqTbyN=
+JpyqCSH8gD8Xb2JbVgcL4bjKNH1V_9T2hKRJRuZ4B9HNMP184NELEakVRG2FQHlu462f_e=
+SR0olJaid7X5hkNQbjUhhIqsz1jo-W0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso-b=
+order-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 49.95pt; mso-yfti-irow: 4">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>01/05/2023<B>&nbsp;-</B>&nbsp;05/05/=
+2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>$3500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>Dubai<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 49.95pt; BORDER-RI=
+GHT: #f0f0f0; WIDTH: 149.2pt; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: =
+6pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDIN=
+G-RIGHT: 6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid=
+ #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D249>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPjEpYBXwtg184sOjVYXHdJlhV-dbAQ=
+ijrSf-1NkTBGC7YRPyzc56ib8atCP8n5ZlhQqCtGSYK4mZE9_3odwDM0mmx_WJ_sd9SnTK=
+yHR4aOVEqHiPNnHIjaGCwwWyiGXinO0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso=
+-border-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtO7LehkSoYMhQDHzoCXfFrhhNSiIdR_=
+e_OPt_dOdPdTgzj607fZNL3qr-sXZUQNURPOf9Nwrl0YvXZej7tLQBHif4VTuLmktut2q2=
+Zj9eCVsDYkJd73xD39F3sdHvh48OG70"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso-b=
+order-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.5pt; mso-yfti-irow: 5; mso-yfti-lastrow: yes=
+">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>05/06/2023<B>&nbsp;-</B>&nbsp;09/06/=
+2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP:=
+ 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BAC=
+KGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'>Mombasa<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; HEIGHT: 50.5pt; BORDER-RIG=
+HT: #f0f0f0; WIDTH: 149.2pt; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6=
+pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING=
+-RIGHT: 6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid =
+#DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D249>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif; COL=
+OR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPjEpYBXwtg184sOjVYXHdJ08PhnHnP=
+5VI6yomzlzSZ-Dk9ZquR_2WYMAcEnhMoc7b_3y5-tzkMKE1PrOvORKsuxTwjzylj6iG9L_=
+Qujz18EA3zY-tOazpKubRICDctINVJ0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso=
+-border-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtO7LehkSoYMhQDHzoCXfFrhglPILkej=
+1vtYDuCxRCjsRQpjQeBEHvoKSxg0GaCEssrDORHmLUFDu2Gz-x1QdgXeeULpbgqH1awEXk=
+JzTXnxl-3S5HrDkUR0sjXH2rYo1xr20"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-bidi-font-family: Arial; mso-b=
+order-alt: none windowtext 0cm"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR></TBODY></T=
+ABLE>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KM-cgdd93er8oiDD9RVWshipM6HV32ttMT5MB=
+hDLo2c2uAqknaVlu-rtCc-QEiB1pZbcrmQvvlkyxxUTYsq2uZwQkld8IC1D0xSDIxa57rx=
+idA1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Contact=20
+us<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DTdO1gCuQ=
+71hpWL60BWNntuwf2IWJfk_kJQ_Oex5_ejji4-VYzB2HCVxTr1UKQpPcV8YMyy0xe8PvS9=
+g_AJisf8VI2vcKYmPvQ--PWbhyF3ukCXlhy3zlr4iJT_LtWmUJ5ObYGxNTLJJTLqaYhZhK=
+yrY1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Whatapp<o:p=
+></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 150%">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 150%; mso-bidi-font-family: Cal=
+ibri"><FONT=20
+face=3DCalibri><SPAN style=3D"mso-spacerun: yes">&nbsp;</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;</SPAN><o:p></o:p></FONT></SPA=
+N></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 150%">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 150%; mso-bidi-font-family: Cal=
+ibri"><FONT=20
+face=3DCalibri>INTRODUCTION<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>Private Pensions are becoming an increasingly important=
+ part of=20
+retirement income. Therefore, the quality and the effectiveness of pen=
+sion funds=20
+supervision is getting more and more critical, as well as challenging.=
+ In order=20
+to achieve effective supervision, supervisory authorities need to expa=
+nd risk=20
+analysis and develop emerging risk capacities. Thus, risk-based superv=
+ision=20
+(RBS) is imperative to be adopted along with corresponding risk-assess=
+ment=20
+methodology, that incorporates both micro and macro=20
+perspectives.<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>Strategically selected RBS techniques can result in eff=
+ective=20
+resource allocation, where assets are directed in a way to target the =
+risk=20
+exposures that are of greatest concern to the supervisory authority. H=
+ence, RBS=20
+is deemed to be a more flexible and dynamic process, that allows for g=
+reater=20
+efficiency in the event of resource scarcity.<o:p></o:p></FONT></SPAN>=
+</P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>This=20
+program has been specifically designed by Skills for Africa Training I=
+nstitute=20
+to equip its participants with in-depth knowledge and essential skills=
+ to=20
+successfully employ RBS techniques.<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">COURSE=20
+OBJECTIVES</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>At the=20
+end of the course, the participants will be able=20
+to:<o:p></o:p></FONT></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Possess comprehensive understanding of pensions schem=
+es, funds=20
+  and plans worldwide<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Compare and employ global best practices of risk-base=
+d pension=20
+  fund supervision and good governance<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Develop sound decision-making skills for strategic re=
+sources=20
+  allocation and supervisory strategies<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Employ various risk techniques for pension fund risk=20
+  management<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Set=20
+  appropriate controls and measures against identified=20
+  risks<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Analyze various situations and circumstances and fore=
+see possible=20
+  outcomes<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l4 level1 lfo1; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Effectively and efficiently handle and manage senior =
+roles and=20
+  responsible related to risk-based pension fund supervision and stay =
+relevant=20
+  and competitive for the industry.<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">DURATION</SPA=
+N></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>5=20
+Days&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN style=3D"FONT-SIZE: 12pt; mso-bidi-font-family=
+: Calibri">WHO=20
+SHOULD ATTEND</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>This=20
+training course is suitable to a wide range of professionals but will =
+greatly=20
+benefit:<o:p></o:p></FONT></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Professionals and executives involved in Pension Fund=
+ Supervision=20
+  and Governance<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Specialists and Policy Makers involved in risk identi=
+fication,=20
+  assessment and management.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Legal and Financial Advisors concerned with Pension R=
+isks and=20
+  related disputes<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>BPO=20
+  Pension Schemes Administrators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Public Sector Pension Scheme Legislators and Official=
+s at the=20
+  local and national level<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Pensions Managers and Pensions Scheme=20
+  Managers<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Pension Officers and Registrars<o:p></o:p></FONT></SP=
+AN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Employee Benefits Directors and=20
+  Managers<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l6 level1 lfo2; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Anyone interested in Risk-Based Pension Fund Supervis=
+ion and=20
+  Governance<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">COURSE=20
+CONTENT</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Day=20
+One:&nbsp;Risk and Regulations for Pension=20
+Industry<o:p></o:p></FONT></SPAN></B></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  Broad categorization of pension industry risk: Portfolio, Agency and=
+ Systemic=20
+  Risks<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Introduction to Pension Fund Regulatory=20
+  Mechanism<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Regulatory Requirements on Risk Management=20
+  Architecture<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Licensing, Governance and Investment=20
+  Rules<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Independent Custodian, External Audits, and Disclosur=
+e=20
+  Requirements<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Guarantees, Minimum Capital, and=20
+  Reserves<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l1 level1 lfo3; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Cost=20
+  &amp; Fee Regulations and Sanctions<o:p></o:p></FONT></SPAN></LI></U=
+L>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Day=20
+Two:&nbsp;Introduction to Risk-Based Supervision of Pension=20
+Funds<o:p></o:p></FONT></SPAN></B></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  financial position of the organization, risk level intensity and sup=
+ervision=20
+  scope<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Shifting the focus to high-level controls and=20
+  governance<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Strategic allocation of time and resources: employing=
+ proactive=20
+  approach<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Common objectives and elements of pensions fund RBS=20
+  design<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Key=20
+  focus areas of RBS model<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Employing pension fund RBS-Application and adaptation=
+ of=20
+  models<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Collecting data<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l5 level1 lfo4; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Supervisory board, staff, industry and=20
+  power.<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">&nbsp;Day=20
+Three:&nbsp;Analyzing Risk Landscape</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Risk-Based Solvency and Risk Scoring=20
+  Methods<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Risk=20
+  Based Capital Rules<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Funding risk<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Solvency risk<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Surplus risk and contribution risk<o:p></o:p></FONT><=
+/SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Counterparty credit risk<o:p></o:p></FONT></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Interest rate mismatch risk<o:p></o:p></FONT></SPAN><=
+/LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Longevity Risk Hedging and=20
+Transfers<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l0 level1 lfo5; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Systematic Risks and=20
+  Achievability<B>&nbsp;</B><o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Day=20
+Four:&nbsp;Actionable Tools of RBS<o:p></o:p></FONT></SPAN></B></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Setting objectives and risk focus for supervisory=20
+  authorities<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Identifying, mapping and weighting=20
+  risks<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Resource allocation decision based on risk=20
+  assessment<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Quality assurance<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Maximizing the value of scarce=20
+  resources<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Foreseeing problems timely<o:p></o:p></FONT></SPAN></=
+LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l3 level1 lfo6; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Challenges in pension fund RBS=20
+  implementation<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt;=
+ mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-heigh=
+t-alt: 11.2pt"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">&nbsp;Day=20
+Five:&nbsp;Managing and Mitigation Risks</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Operation and structure of internal risk governance=20
+  processes<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Considering risk-based approach in organizational=20
+  structure<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Management controls and compliance<o:p></o:p></FONT><=
+/SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Setting appropriate procedures and=20
+  controls<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Designing and adopting risk management=20
+  systems<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Independent reviews<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t; tab-stops: list 36.0pt; mso-margin-top-alt: auto; mso-margin-bottom=
+-alt: auto; mso-list: l2 level1 lfo7; mso-line-height-alt: 11.2pt"><SP=
+AN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Sponsors and financial support<o:p></o:p></FONT></SPA=
+N></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt =
+36pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-=
+height-alt: 11.2pt"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>THE=20
+END<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10p=
+t"><SPAN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></P></DIV></BODY></HTML>
+
+<img src=3D"https://133IK.trk.elasticemail.com/tracking/open?msgid=3Do=
+PW78T08fJacjhvlQ2J5fw2&c=3D1468560650031829931" style=3D"width:1px;hei=
+ght:1px" alt=3D"" /><div style=3D"text-align:center; background-color:=
+#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:sa=
+ns-serif;"><a href=3D"https://133IK.trk.elasticemail.com/tracking/unsu=
+bscribe?d=3DhWioKCSiA__pHd6FVwfntoWF4tB4WttE8N5oAZlVhX0YenHBVKkHv981ea=
+8J0UdJMAO5Ezv93aq2sjnHdEMspPsb_Zd2TjSwAW8qS7OmdivI0" style=3D"text-ali=
+gn:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfC1LiqX34d5+YQMgsYyHX3jUw/6sj23WKzQ==--

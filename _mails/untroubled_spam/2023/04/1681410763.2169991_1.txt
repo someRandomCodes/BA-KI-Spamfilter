@@ -1,0 +1,210 @@
+Return-Path: <vikash@mobilesoftco.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2121327 invoked from network); 13 Apr 2023 04:23:06 -0000
+Received: from mail-pf1-x442.google.com (mail-pf1-x442.google.com [IPv6:2607:f8b0:4864:20::442])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 13 Apr 2023 04:23:06 -0000
+Received: by mail-pf1-x442.google.com with SMTP id d2e1a72fcca58-63255e756bfso977773b3a.2
+        for <bruce@untroubled.org>; Wed, 12 Apr 2023 21:23:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobilesoftco.com; s=google; t=1681359785; x=1683951785;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=dv0hZl9air8Xbn0Jr+YhYYKhBWg5h2a3GQMlLBTWYDc=;
+        b=K7STltau2tBg63cIw0ucQQA+mlOofCzJ5l8Sz1wDz+74F/VwiET3Q2NfSP63mjjoh1
+         CTXvkkSsatFEDWH7I52qOPFiyrMVM4IeFsfp7eQCJtiR8l9pb4MblfHxXQjWcsC/MaiB
+         He3cf0AAb09yEl5dt4eBH6uoSphPiIrHcNGG3Da5SHepY5+zI62qJAjHeeYGYuD+3DtG
+         MjgYiompyolDVO+biAVq+MyuDDzfv6UGWcjYIVQBjW0/QyBvUk4MOHmTTzQqCtnzGOv1
+         6ee3oCcvllIj2IqExuK/ZUnA2b5BQSCkmAQysTjK6jXgE+MiOlHE3cUB1881aegSFodU
+         wLBQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1681359785; x=1683951785;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=dv0hZl9air8Xbn0Jr+YhYYKhBWg5h2a3GQMlLBTWYDc=;
+        b=lc6diP8CqJZvG1euPojxZTGkliY+JXUxjUEdO2VJFgFJTmZD/qX4KqJwJSsYUIj7Wf
+         DRFGc0ats0EMBeaEhS2xxu6et1BKsq5sbRuA7L4E4NG5NQBPQzrJBlBuW5v6O8gkLJ21
+         uaJgeukiMAjNjjdzqOOsxX/DwYCX7/vi0SfpN3HsZDvg8TKGY2jdMA/alN9vwWeRna5W
+         AgDKC5mDnMRluztgEtgyj9H0zJS8hkNJJFp02Oyv5cqULtd3u7Cq7TvC7hyDzLV+4SIy
+         BrbeOBsLZNIfVoFN308mJn/g9cuz+/GnS6VgEPIykSjFzAyRGK5JcVV80jYdZika8Tl1
+         U9sg==
+X-Gm-Message-State: AAQBX9dcDWb/JCSbqxVnVfpXU3wX1jJdGZjAuqSMReAisXLRiGIckVYh
+	/Y0Uw27Mv3HNmPVPcKNfJWlQQREKI+uTeJSLZ7Ekng==
+X-Google-Smtp-Source: AKy350YXHG9YkkQ76kYQjd2EwMiDmJ3Hs/oPckyc9cOLP3FpnzRKWlVgzG2OuNvP+8CXkeX7pkxKpQ==
+X-Received: by 2002:a05:6a00:2da6:b0:632:d636:62cd with SMTP id fb38-20020a056a002da600b00632d63662cdmr1979419pfb.4.1681359785030;
+        Wed, 12 Apr 2023 21:23:05 -0700 (PDT)
+Return-Path: <vikash@mobilesoftco.com>
+Received: from twt ([122.161.68.130])
+        by smtp.gmail.com with ESMTPSA id u17-20020aa78391000000b0063b1416732csm272622pfm.108.2023.04.12.21.23.03
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Apr 2023 21:23:04 -0700 (PDT)
+From: "Vikash" <vikash@mobilesoftco.com>
+To: <bruce@untroubled.org>
+Subject: App Proposal
+Date: Thu, 13 Apr 2023 09:51:03 +0530
+Message-ID: <04b101d96dbf$a36e0d60$ea4a2820$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_04B2_01D96DED.BD264960"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdltJqD2o+NVEfn4RhGhEKbjIp0PHw==
+Content-Language: en-us
+Content-Length: 5623
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_04B2_01D96DED.BD264960
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+ 
+
+I hope you are good..!
+
+ 
+
+I am a professional Web Design & Mobile App, Developer, with 7 years of
+experience.
+
+ 
+
+I can send you our Pricelist, past Work, Portfolio & Details. If interested?
+
+ 
+
+If you are interested these services so give me your contact number or drop
+me a Phone number/email/Skype ID.
+
+ 
+
+So that we can discuss the possible synergies between us.
+
+ 
+
+Let me know what you think.
+
+ 
+
+Kind Regards, (India)
+
+Vikash
+
+
+------=_NextPart_000_04B2_01D96DED.BD264960
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>I hope you =
+are good..!<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>I am a =
+professional Web Design &amp; Mobile App, Developer, with 7 years of =
+experience.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>I can send =
+you our Pricelist, past Work, Portfolio &amp; Details. If =
+interested?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>If you are =
+interested these services so give me your contact number or drop me a =
+Phone number/email/Skype ID.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>So that we =
+can discuss the possible synergies between us.<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>Let me know =
+what you think.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;text-=
+autospace:none'><span lang=3DEN style=3D'font-size:12.0pt'>Kind Regards, =
+(India)<o:p></o:p></span></p><p class=3DMsoNoSpacing><b><span lang=3DEN =
+style=3D'font-size:12.0pt'>Vikash<o:p></o:p></span></b></p></div></body><=
+/html>
+------=_NextPart_000_04B2_01D96DED.BD264960--
+

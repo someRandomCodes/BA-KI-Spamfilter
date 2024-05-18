@@ -1,0 +1,166 @@
+Return-Path: <bounces@bounces.qemailserver.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2370438 invoked from network); 27 Feb 2024 08:05:39 -0000
+Received: from smtp10.sjc1.qemailserver.com (smtp10.sjc1.qemailserver.com [162.247.217.51])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 27 Feb 2024 08:05:39 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=simple/relaxed; t=1709021136;
+	s=qualtrics_e66; d=e66.e.monash.edu;
+	h=List-Unsubscribe:Content-Type:MIME-Version:Subject:Message-ID:To:Reply-To:Sender:From:Date;
+	l=6188; bh=u1p7xtfCSiPP+voaXZ/pxkrZ3Skljke4DGjUdEYmK84=;
+	b=WK3NDni4Yb459LgYhkfkUxwm7WfIU+vh18/6rDKLo2g4qZ1kR0WHmbEhHwAwsNaK
+	RVFn57v7O2IrnOWacziysZXMWc+yokavOYwK++KiBZbiWCt0NiN/RzDDzgSvsMyRZN0
+	Ki4m2NPghItHX9NPk0yDBRPm4X87lMsSI/kEd8T3XzKhm1dlVHSsh4vCX1UX/2on/41
+	oQJlfPyvGPrhneHU+DgZT6pOJWPWCwn0K5h4/51z6swG+JRZZ7vmAkvtNpjcFpKUQOm
+	tWY6dHguN7R5xzSn8NyZHyugpAI6JtXpaqzWQrLNSvp8pStkLSCE2sQnttDpBpLe/OG
+	yq9zGD2RBw==
+Date: Tue, 27 Feb 2024 01:05:36 -0700 (MST)
+From: Chanathip Pornprasit <noreply@e66.e.monash.edu>
+Sender: Chanathip Pornprasit <noreply@e66.e.monash.edu>
+Reply-To: Chanathip Pornprasit <chanathip.pornprasit@monash.edu>
+To: bruce@untroubled.org
+Message-ID: <1824719512.11897250.1709021136190@a2a6321767ec>
+Subject: Help us understand the right direction of AI for code review
+ automation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_11897247_366587583.1709021136187"
+X-QUMID: UR_03oULoNTTxMSF9k-EMD_bW61M5HktdhKypw-CGC_aXUiyGK2AUw2sOa-SV_9YVzXq3oHzVRIma
+List-Unsubscribe: <https://monash.az1.qualtrics.com/CP/Register.php?OptOut=true&RID=CGC_aXUiyGK2AUw2sOa&LID=UR_03oULoNTTxMSF9k&DID=EMD_bW61M5HktdhKypw&BT=bW9uYXNo&_=1>, <mailto:BD.MFMFK2LZI5FTEQKVO4ZHGT3B.GAZW6VKMN5HFIVDYJVJUMOLL@unsubscribe.qemailserver.com?subject=qunsub_CGC_aXUiyGK2AUw2sOa.UR_03oULoNTTxMSF9k.monash.EMD_bW61M5HktdhKypw.SV_9YVzXq3oHzVRIma.UR_03oULoNTTxMSF9k.CG_2Uc2S3B2KkFbGW1.https%3A%2F%2Fmonash.az1.qualtrics.com%2FCP%2FRegister.php>
+Content-Length: 6055
+
+------=_Part_11897247_366587583.1709021136187
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11897248_1554831612.1709021136187"
+
+------=_Part_11897248_1554831612.1709021136187
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Greetings,
+
+Recently, software engineering researchers developed AI for code review
+automation. However, it is still unclear if we are in the right direction.
+
+To solve this problem, we would like to invite you to participate in our
+survey study. Your feedback will help software engineering researchers to k=
+now
+how AI for code review automation should be developed to satisfy practition=
+ers'
+needs.
+
+You are selected to participate in our survey study since you may have
+experience in doing code review. This survey only takes around 10-15 minute=
+s to
+complete. Your identity will be anonymous.
+
+Please click the button below to complete the survey, which will be closed =
+on
+8/Mar/2024. So please complete it as soon as possible. The explanatory
+statement can be foundhere
+<https://monash.az1.qualtrics.com/CP/File.php?F=3DF_5zO0xjbkMms7SMm>.
+
+Click here to take a survey
+<https://monash.az1.qualtrics.com/jfe/form/SV_9YVzXq3oHzVRIma?Q_DL=3DbW61M5=
+HktdhKypw_9YVzXq3oHzVRIma_CGC_aXUiyGK2AUw2sOa&Q_CHL=3Demail>
+If the above button does not work, please copy and paste the URL below into
+your internet browser:
+
+https://monash.az1.qualtrics.com/jfe/form/SV_9YVzXq3oHzVRIma?Q_DL=3DbW61M5H=
+ktdhKypw_9YVzXq3oHzVRIma_CGC_aXUiyGK2AUw2sOa&Q_CHL=3Demail
+
+
+For any questions, don=E2=80=99t hesitate to contact Chanathip Pornprasit
+(chanathip.pornprasit@monash.edu).
+
+Thank you for your time and valuable contribution!
+
+Best regards,
+Chanathip Pornprasit
+Monash University
+
+
+Click here
+<https://monash.az1.qualtrics.com/CP/Register.php?OptOut=3Dtrue&RID=3DCGC_a=
+XUiyGK2AUw2sOa&LID=3DUR_03oULoNTTxMSF9k&DID=3DEMD_bW61M5HktdhKypw&BT=3DbW9u=
+YXNo&_=3D1>
+to opt out of future emails.
+------=_Part_11897248_1554831612.1709021136187
+Content-Type: multipart/related; 
+	boundary="----=_Part_11897249_19104507.1709021136187"
+
+------=_Part_11897249_19104507.1709021136187
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><p><span style=3D"font-size:19px;">Greetings,<br>
+&nbsp;&nbsp; &nbsp;<br>
+Recently, software engineering researchers developed AI for code review aut=
+omation.&nbsp;However, it is still unclear if we are in the right direction=
+.<br>
+<br>
+To solve this problem, we would like to invite you to participate in our su=
+rvey study. Your feedback will help software engineering researchers to kno=
+w how AI for code review automation should be developed to satisfy practiti=
+oners' needs.<br>
+<br>
+You are selected to participate in our survey study since you may have expe=
+rience in doing code review. This survey only takes around<strong> 10-15 mi=
+nutes</strong> to complete. Your identity will be anonymous.&nbsp;<br>
+&nbsp;&nbsp; &nbsp;<br>
+Please click the button below to complete the survey, which will be <strong=
+>closed on 8/Mar/2024</strong>. So please complete it as soon as possible. =
+The explanatory statement can be found <a href=3D"https://monash.az1.qualtr=
+ics.com/CP/File.php?F=3DF_5zO0xjbkMms7SMm" target=3D"_blank">here</a>.</spa=
+n></p>
+
+<center><a href=3D"https://monash.az1.qualtrics.com/jfe/form/SV_9YVzXq3oHzV=
+RIma?Q_DL=3DbW61M5HktdhKypw_9YVzXq3oHzVRIma_CGC_aXUiyGK2AUw2sOa&amp;Q_CHL=
+=3Demail"><button data-darkreader-inline-bgcolor=3D"" data-darkreader-inlin=
+e-bgimage=3D"" data-darkreader-inline-color=3D"" data-darkreader-inline-out=
+line=3D"" style=3D"background-image: linear-gradient(92.83deg, rgb(255, 116=
+, 38) 0px, rgb(249, 58, 19) 100%); border-radius: 80px; align-items: center=
+; appearance: none; background-clip: padding-box; background-color: initial=
+; box-sizing: border-box; color: rgb(255, 255, 255); cursor: pointer; displ=
+ay: inline-block; flex-direction: row; flex-shrink: 0; font-weight: bold; j=
+ustify-content: center; line-height: 24px; margin: 0px; min-height: 64px; o=
+utline: none; overflow: visible; padding: 19px 26px; pointer-events: auto; =
+position: relative; text-align: center; text-decoration: none; text-transfo=
+rm: none; user-select: none; touch-action: manipulation; vertical-align: mi=
+ddle; width: auto; word-break: keep-all; z-index: 0; --darkreader-inline-bg=
+image: linear-gradient(92.83deg, #b54100 0px, #bf2405 100%); --darkreader-i=
+nline-bgcolor: initial; --darkreader-inline-color: #e8e6e3; --darkreader-in=
+line-outline: initial;"><span data-darkreader-inline-color=3D"" style=3D"co=
+lor: white; font-weight: bold; font-size: 24pt; --darkreader-inline-color: =
+#e8e6e3;">Click here to take a survey</span></button></a></center>
+
+<p><br>
+<span style=3D"font-size:19px;">If the above button does not work, please&n=
+bsp;copy and paste the URL below into your internet browser:<br>
+https://monash.az1.qualtrics.com/jfe/form/SV_9YVzXq3oHzVRIma?Q_DL=3DbW61M5H=
+ktdhKypw_9YVzXq3oHzVRIma_CGC_aXUiyGK2AUw2sOa&amp;Q_CHL=3Demail</span><br>
+<br>
+<br>
+<span style=3D"font-size:19px;">For any questions, don=E2=80=99t hesitate t=
+o contact Chanathip Pornprasit (chanathip.pornprasit@monash.edu).<br>
+&nbsp;&nbsp; &nbsp;<br>
+Thank you for your time and valuable contribution!&nbsp;<br>
+&nbsp;&nbsp; &nbsp;<br>
+Best regards,<br>
+Chanathip Pornprasit<br>
+Monash University</span></p>
+
+<p><br>
+<small>Click <a href=3D"https://monash.az1.qualtrics.com/CP/Register.php?Op=
+tOut=3Dtrue&amp;RID=3DCGC_aXUiyGK2AUw2sOa&amp;LID=3DUR_03oULoNTTxMSF9k&amp;=
+DID=3DEMD_bW61M5HktdhKypw&amp;BT=3DbW9uYXNo&amp;_=3D1">here</a> to opt out =
+of future emails.</small></p>
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"https://monash.az1.qualtrics.=
+com/WRQualtricsContacts/Watermark.php?UID=3DUR_03oULoNTTxMSF9k&amp;EMD=3DEM=
+D_bW61M5HktdhKypw&amp;CGC=3DCGC_aXUiyGK2AUw2sOa&amp;SV=3DSV_9YVzXq3oHzVRIma=
+"></body></html>
+------=_Part_11897249_19104507.1709021136187--
+
+------=_Part_11897248_1554831612.1709021136187--
+
+------=_Part_11897247_366587583.1709021136187--

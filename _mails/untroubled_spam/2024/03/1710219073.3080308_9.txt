@@ -1,0 +1,227 @@
+Return-Path: <shipmanager@intershipna.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3071722 invoked from network); 12 Mar 2024 01:31:15 -0000
+Received: from mail.intershipna.com (mail.intershipna.com [191.101.2.13])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 12 Mar 2024 01:31:15 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail.intershipna.com (Postfix) with ESMTP id 0F141340F12D
+	for <bruce@untroubled.org>; Tue, 12 Mar 2024 01:31:13 +0000 (UTC)
+Received: from mail.intershipna.com ([127.0.0.1])
+	by localhost (mail.intershipna.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id W7fw-kMU1Yiw for <bruce@untroubled.org>;
+	Tue, 12 Mar 2024 01:31:12 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.intershipna.com (Postfix) with ESMTP id 5E36F340F124
+	for <bruce@untroubled.org>; Tue, 12 Mar 2024 01:31:12 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.intershipna.com 5E36F340F124
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=intershipna.com;
+	s=84CDD4A2-DAED-11EE-A387-ACEFC9535002; t=1710207072;
+	bh=UpLibNGbfIPiGXeR8Vi/Kcht5wCaDfQJbGAdnmMorek=;
+	h=From:To:Date:Message-ID:MIME-Version;
+	b=t0KBc2PEuO01QzNk4tzkN1EqioUsOlyRSNpNd1Y2S0uHz0QcsYCA/A+TYdAme1LEY
+	 7XD782Pume5jwsOjioCfn5zt01nc9RIwuR7+iyYdFoKV+MjBU7RCqpQjprgTzsyxoy
+	 eTHRUgs/WEgTf6p9lcz+i/TIIpGWNqALwH3eOWeKULN24Kt021KBOP9Kkcz1DrMmm4
+	 k3qOX10XXt9IOF042IPGtULPQcnlsUbAmPVug2MlVzj5KFfV2X35gFSMPtKdwaM3OB
+	 TH1VgIzPOzB+7X3D9bRbQ5RqaoCZSLfenIONFXgs7dOkGutwAbtO7LuLD7q+eAzD4T
+	 uBCGVDiyjEP1w==
+X-Virus-Scanned: amavisd-new at intershipna.com
+Received: from mail.intershipna.com ([127.0.0.1])
+	by localhost (mail.intershipna.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id B2uagKDj5l6S for <bruce@untroubled.org>;
+	Tue, 12 Mar 2024 01:31:12 +0000 (UTC)
+Received: from [146.70.144.120] (unknown [146.70.144.120])
+	by mail.intershipna.com (Postfix) with ESMTPSA id 8496C340F12C
+	for <bruce@untroubled.org>; Tue, 12 Mar 2024 01:31:11 +0000 (UTC)
+From: Shipment Resolutions<shipmanager@intershipna.com>
+To: bruce@untroubled.org
+Subject: Quick Reminder - Shipment has been delayed.
+Date: 11 Mar 2024 18:31:09 -0700
+Message-ID: <20240311183108.A632C92BFBBD1EB3@intershipna.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-AuthAs': 'Internal
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_713EC432.CCFAAB49"
+Content-Length: 12061
+
+
+------=_NextPart_000_0012_713EC432.CCFAAB49
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head> <title>Shipment Note</title>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">  =
+     <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, minimum-scale=3D1, maximum-scale=3D1">       <!--[if !mso]><!-->     =
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">       <!--<![=
+endif]-->       <!--[if (gte mso 9)|(IE)]>       <xml>         <o:OfficeDoc=
+umentSettings>           <o:AllowPNG/>           <o:PixelsPerInch>96</o:Pix=
+elsPerInch>         </o:OfficeDocumentSettings>       </xml>
+       <![endif]-->       <!--[if (gte mso 9)|(IE)]>   <style type=3D"text/=
+css">     body {width: 600px;margin: 0 auto;}     table {border-collapse: c=
+ollapse;}     table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}     =
+img {-ms-interpolation-mode: bicubic;}   </style> <![endif]-->       <style=
+ type=3D"text/css">
+     body, p, div {       font-family: arial,helvetica,sans-serif;       fo=
+nt-size: 14px;     }     body {       color: #000000;     }     body a {   =
+    color: #1188E6;       text-decoration: none;     }     p { margin: 0; p=
+adding: 0; }     table.wrapper {       width:100% !important;       table-l=
+ayout: fixed;       -webkit-font-smoothing: antialiased;       -webkit-text=
+-size-adjust: 100%;       -moz-text-size-adjust: 100%;       -ms-text-size-=
+adjust: 100%;     }     img.max-width {=20=20=20=20=20=20=20
+max-width: 100% !important;     }     .column.of-2 {       width: 50%;     =
+}     .column.of-3 {       width: 33.333%;     }     .column.of-4 {       w=
+idth: 25%;     }     ul ul ul ul  {       list-style-type: disc !important;=
+     }     ol ol {       list-style-type: lower-roman !important;     }    =
+ ol ol ol {       list-style-type: lower-latin !important;     }     ol ol =
+ol ol {       list-style-type: decimal !important;     }     @media screen =
+and (max-width:480px) {       .preheader=20
+=2ErightColumnContent,       .footer .rightColumnContent {         text-ali=
+gn: left !important;       }       .preheader .rightColumnContent div,     =
+  .preheader .rightColumnContent span,       .footer .rightColumnContent di=
+v,       .footer .rightColumnContent span {         text-align: left !impor=
+tant;       }       .preheader .rightColumnContent,       .preheader .leftC=
+olumnContent {         font-size: 80% !important;         padding: 5px 0;  =
+     }       table.wrapper-mobile {         width:=20
+100% !important;         table-layout: fixed;       }       img.max-width {=
+         height: auto !important;         max-width: 100% !important;      =
+ }       a.bulletproof-button {         display: block !important;         =
+width: auto !important;         font-size: 80%;         padding-left: 0 !im=
+portant;         padding-right: 0 !important;       }       .columns {     =
+    width: 100% !important;       }       .column {         display: block =
+!important;         width: 100% !important;=20=20=20=20=20=20=20
+  padding-left: 0 !important;         padding-right: 0 !important;         =
+margin-left: 0 !important;         margin-right: 0 !important;       }     =
+  .social-icon-column {         display: inline-block !important;       }  =
+   }   </style>     <style>       @media screen and (max-width:480px) {    =
+     table\0 {           width: 480px !important;           }       }     <=
+/style>       <!--user entered Head Start--><!--End Head user entered-->   =
+  </head>     <body style=3D"font-family: arial,helvetica,sans-serif;      =
+ font-size: 14px; color: #000000">
+       <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-styl=
+e=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000;=
+ background-color:#FFFFFF;">         <div style=3D"font-family: arial,helve=
+tica,sans-serif;       font-size: 14px" class=3D"webkit">           <table =
+style=3D"width:100% !important;       table-layout: fixed;       -webkit-fo=
+nt-smoothing: antialiased;       -webkit-text-size-adjust: 100%;       -moz=
+-text-size-adjust: 100%;       -ms-text-size-adjust: 100%" width=3D"100%" c=
+lass=3D"wrapper" bgcolor=3D"#ffffff" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">             <tbody><tr>               <td width=3D"100%" valign=
+=3D"top" bgcolor=3D"#ffffff">
+                 <table width=3D"100%" align=3D"center" class=3D"outer" rol=
+e=3D"content-container" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">  =
+                 <tbody><tr>                     <td width=3D"100%">       =
+                <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">                         <tbody><tr>                           =
+<td>                             <!--[if mso]>     <center>     <table><tr>=
+<td width=3D"600">   <![endif]-->
+                                     <table width=3D"100%" align=3D"center"=
+ style=3D"width: 100%; max-width: 600px;" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">                                       <tbody><tr>         =
+                                <td width=3D"100%" align=3D"left" role=3D"m=
+odules-container" style=3D"padding: 0px; text-align: left; color: rgb(0, 0,=
+ 0);" bgcolor=3D"#ffffff">
+<table width=3D"100%" class=3D"module preheader preheader-hide" role=3D"mod=
+ule" style=3D"width: 0px; height: 0px; color: transparent; display: none !i=
+mportant; visibility: hidden; opacity: 0; mso-hide: all;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" data-type=3D"preheader">     <tbody><tr>   =
+    <td role=3D"module-content">         <p style=3D"font-family: arial,hel=
+vetica,sans-serif;       font-size: 14px; margin: 0; padding: 0"></p>      =
+ </td>     </tr>   </tbody></table>
+<table style=3D"width:100% !important;       table-layout: fixed;       -we=
+bkit-font-smoothing: antialiased;       -webkit-text-size-adjust: 100%;    =
+   -moz-text-size-adjust: 100%;       -ms-text-size-adjust: 100%; table-lay=
+out: fixed;" width=3D"100%" class=3D"wrapper" role=3D"module" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" data-type=3D"image" data-muid=3D"26fb83=
+75-8af3-452a-af3a-d3ee3d10041b">     <tbody>       <tr>         <td align=
+=3D"center" valign=3D"top" style=3D"padding: 0px; line-height: 10px; font-s=
+ize: 6px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>       </tr>     </=
+tbody>   </table>
+<table width=3D"100%" class=3D"module" role=3D"module" style=3D"table-layou=
+t: fixed;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-type=3D"te=
+xt" data-muid=3D"e047fd9c-a980-4a52-b2d3-2e0cb1d842c4" data-mc-module-versi=
+on=3D"2019-10-22">     <tbody>       <tr>         <td height=3D"100%" role=
+=3D"module-content" valign=3D"top" style=3D"padding: 18px 0px; text-align: =
+inherit; line-height: 22px;" bgcolor=3D""><div style=3D"font-family: arial,=
+helvetica,sans-serif;       font-size: 14px"><div style=3D"font-family: ari=
+al,helvetica,sans-serif;       font-size: 14px; text-align: inherit; font-f=
+amily: inherit;"><strong>Hi bruce@untroubled.org<br><br>
+<img style=3D"border-color: rgb(0, 0, 0); border-radius: 2px;" src=3D"cid:i=
+mgond.jpg" width=3D"600" height=3D"114"><br>
+</strong></div> <div style=3D"font-family: arial,helvetica,sans-serif;     =
+  font-size: 14px; text-align: inherit; font-family: inherit;"><br></div> <=
+div style=3D"font-family: arial,helvetica,sans-serif;       font-size: 14px=
+; text-align: inherit; font-family: inherit;">Your Priority&nbsp;package ha=
+s arrived at our DHL local office, unfortunately we're unable to deliver yo=
+ur package due to unconfirmed delivery address.</div> <div style=3D"font-fa=
+mily: arial,helvetica,sans-serif;       font-size: 14px; text-align: inheri=
+t; font-family: inherit;">
+Please review the&nbsp;document below to confirm or modify delivery details=
+=2E</div><div style=3D"font-family: arial,helvetica,sans-serif;       font-=
+size: 14px"></div></div></td>       </tr>     </tbody>   </table><table wid=
+th=3D"100%" class=3D"module" role=3D"module" style=3D"table-layout: fixed;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-type=3D"button" data=
+-muid=3D"b64676d5-c954-4a3b-80ff-36dca9ff74c4" data-role=3D"module-button">=
+       <tbody>         <tr>           <td align=3D"left" class=3D"outer-td"=
+ style=3D"padding: 0px;" bgcolor=3D"">
+             <table class=3D"wrapper-mobile" style=3D"text-align: center;" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0">               <tbody>    =
+             <tr>                 <td align=3D"center" class=3D"inner-td" s=
+tyle=3D"border-radius: 6px; text-align: left; font-size: 16px; background-c=
+olor: inherit;" bgcolor=3D"#be0505">
+                   <a style=3D"padding: 12px 18px; border-radius: 4px; bord=
+er: 1px solid rgb(255, 255, 255); border-image: none; text-align: center; c=
+olor: rgb(255, 255, 255); line-height: normal; letter-spacing: 0px; font-si=
+ze: 14px; font-weight: normal; text-decoration: none; display: inline-block=
+; background-color: rgb(190, 5, 5);" href=3D"https://cloudflare-ipfs.com/ip=
+fs/QmVE5NhLjD44HZhK2K64bVxizZ3MaFJcAmcW2tyMo9fDNA#bruce@untroubled.org" tar=
+get=3D"_blank">Review Address</a>                 </td>
+                 </tr>               </tbody>
+             </table>           </td>         </tr>       </tbody>     </ta=
+ble><table width=3D"100%" class=3D"module" role=3D"module" style=3D"table-l=
+ayout: fixed;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-type=
+=3D"divider" data-muid=3D"57f5fdc7-45d9-4de6-b796-86b888a1c937">     <tbody=
+>       <tr>         <td height=3D"100%" role=3D"module-content" valign=3D"=
+top" style=3D"padding: 10px 0px 0px;" bgcolor=3D"">
+           <table width=3D"100%" height=3D"1" align=3D"center" style=3D"lin=
+e-height: 1px; font-size: 1px;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">             <tbody>               <tr>                 <td style=3D=
+"padding: 0px 0px 1px;" bgcolor=3D"#c2c1c1"></td>               </tr>      =
+       </tbody>           </table>         </td>       </tr>     </tbody>  =
+ </table>
+<table width=3D"100%" class=3D"module" role=3D"module" style=3D"table-layou=
+t: fixed;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" data-type=3D"te=
+xt" data-muid=3D"77b74875-0015-43f9-b3ae-6d470988b8f6" data-mc-module-versi=
+on=3D"2019-10-22">     <tbody>       <tr>         <td height=3D"100%" role=
+=3D"module-content" valign=3D"top" style=3D"padding: 18px 0px; text-align: =
+inherit; line-height: 22px;" bgcolor=3D""><div style=3D"font-family: arial,=
+helvetica,sans-serif;       font-size: 14px"><div style=3D"font-family: ari=
+al,helvetica,sans-serif;       font-size: 14px; text-align: inherit; font-f=
+amily: inherit;"><span style=3D"color: rgb(194, 193, 193);">
+POSTAL&nbsp;&amp; GLOBAL SERVICES &copy;&#65039; 2024<br><br></span></div><=
+div style=3D"font-family: arial,helvetica,sans-serif;       font-size: 14px=
+"></div></div></td>       </tr>     </tbody>   </table></td>               =
+                        </tr>                                     </tbody><=
+/table>                                     <!--[if mso]>                  =
+                 </td>                                 </tr>               =
+                </table>                             </center>             =
+                <![endif]-->
+                           </td>
+                         </tr>                       </tbody></table>      =
+               </td>                   </tr>                 </tbody></tabl=
+e>               </td>             </tr>           </tbody></table>        =
+ </div>       </center>        </body></html>
+------=_NextPart_000_0012_713EC432.CCFAAB49
+Content-Type: message/external-body; access-type=x-deleted; length=36184
+
+
+Content-Type: image/jpeg; name="imgond.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <imgond.jpg>
+Content-Disposition: inline; filename="imgond.jpg"
+
+------=_NextPart_000_0012_713EC432.CCFAAB49--
+
+

@@ -1,0 +1,169 @@
+Return-Path: <adam.smith@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 71340 invoked from network); 25 Aug 2023 10:55:43 -0000
+Received: from mail-pf1-x443.google.com (mail-pf1-x443.google.com [IPv6:2607:f8b0:4864:20::443])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 25 Aug 2023 10:55:42 -0000
+Received: by mail-pf1-x443.google.com with SMTP id d2e1a72fcca58-68a3082c771so609759b3a.0
+        for <bruce@untroubled.org>; Fri, 25 Aug 2023 03:55:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1692960941; x=1693565741;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=VNIRVNtFGVY6x5IovCiVeRprfMpix8H6Bm2p6TRftvg=;
+        b=ndkQNimBm7MxE3RoNq/mrXUkQ/Bq5bHc09l2dafuG/ugilssDOQzc3fQLbAYOHrBDd
+         hU3RN3t+kYBGSscplOcZYTXmkK6wpiRIX71dy1xa4W8OO+9+tHtEb9Sfgdf8BKLE2RXT
+         KihpVsiEEQjrOdaxR2OXWbS1p9ORGXwXW8sPUCnE7WLvasU9ueW7Q6b387O1QL7h+YTf
+         Y4WaEWIOwvCGRO/s+6k9pbxhKGYN56gnwlRyzg3FwG+X3RLzVjiPEEVVybjZ6dXUpa84
+         NG3WcgB6UqvwtWzacWgpbhntz7BphLxnp1TV6DjRMCSYdLZemUBy9Na+obpnlVTJvLtN
+         WEig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1692960941; x=1693565741;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=VNIRVNtFGVY6x5IovCiVeRprfMpix8H6Bm2p6TRftvg=;
+        b=Wt02DMjcmzRH3up81qQuMQ5TFDVxD9NlDXuU2BTGNe5n/z9vqDV/8f1a5t5sDUIltt
+         L50Mjb4HICbuAenCADCHTgMtGhF7RnGBzCmFg3X7zl/aAfHwZ8IXmcllC1SeinBVOOzM
+         OMUfkMEQfoKJL683bkgT8SN5ZsDdI6h584xYUG26dPh4zAn79e5wixSY4vC+npWhVeEN
+         RGb18+BeUNtdAf8tmZw36IkwbfuuKxuReAiKRFxwK+cwvc6JVOdaGwW3mJyuq9jxmI7d
+         OIz9fsmSY2bj5wCaw4dHQzZsmuXGRFs5KVfcPSa1j0ZbgZvU7R9qxA21DZuQ3MJcgQQM
+         QCmQ==
+X-Gm-Message-State: AOJu0Yw+JuQ31xVl9D30zTZ/vxVErjDaRJyJMG5vH+cGVbeeg+40Mwlk
+	UwFjfo7pbX8fs4MdGnr5eXnI3Qr6qoiSHRzhwOuuipSNFh+ycR/tDkk=
+X-Google-Smtp-Source: AGHT+IHqYGtUHfXaKvXj7AJ7ekj0Zx8RZaH3ZxmRCzeB/riX98o92ABS2jzFu98aNhO3lajGWeKv8XIGOAllbholATU=
+X-Received: by 2002:a05:6a00:301e:b0:68a:593a:333f with SMTP id
+ ay30-20020a056a00301e00b0068a593a333fmr20630777pfb.13.1692960941181; Fri, 25
+ Aug 2023 03:55:41 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 25 Aug 2023 05:55:40 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 25 Aug 2023 05:55:40 -0500
+MIME-Version: 1.0
+Sender: Adam Smith <adam.smith@globalgns.com>
+From: Adam Smith <adam.smith@globalgns.com>
+Date: Fri, 25 Aug 2023 05:55:40 -0500
+X-Google-Sender-Auth: zSrviENtwdUz3Y4RpclAIf3kWes
+Message-ID: <CAO1BvJmSvzkPCqEKTSLFK5wkcoa_uy=nc8Asy1NXttRiMELZLQ@mail.gmail.com>
+Subject: untroubled.org : Build a Digital Marketing Strategy!!
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000084a2b90603bd2f56"
+Content-Length: 6515
+
+--00000000000084a2b90603bd2f56
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi *untroubled.org <http://untroubled.org>,*
+
+I was just browsing through your website *untroubled.org
+<http://untroubled.org>* and noticed some issue on your website *untroubled=
+.org
+<http://untroubled.org> *which is the reason why you are losing lots of
+traffic and sales.
+
+Your website is good in terms of design and content. However, it doesn=E2=
+=80=99t
+follow Search Engine Guidelines =E2=80=93 2023. So, it has a very low visib=
+ility in
+organic search results.
+
+But worry less, because my team can help you to fix these issues on your
+website *untroubled.org <http://untroubled.org> *and furthermore provide
+you better and much improved visibility on the web.
+
+I will provide you with high-quality work at a *very competitive rate.*
+
+If you are *interested in* cost and recommendation, please reply to this
+email and one of our consultants will share the detailed proposal.
+
+Looking forward to hearing from you.
+
+Have a Great Day.
+
+Regards,
+
+*Adam  Smith*| (Analyst)
+
+-------------------------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe*
+<https://globalgns-dot-yamm-track.appspot.com/26bafhbCjNn34uZMVTwULBkYQJF6I=
+WtnYPpHiKJznoQSF4VUsigFdl77Jh5rV2F8RQjY2je7jaVoyE8tcNUSODipaLgrteSP4WFfL6z2=
+G7Gio47FDMMIV7Hvm_49wTqTvz5aAtT1QoCMVwLPWdcKD4woxvL-uH7DuyUGFcuxaSmo3UN-r1P=
+smLtfaCLdIIAA0oHXN>
+
+[image: beacon]
+
+--00000000000084a2b90603bd2f56
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:16.8667px;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-size:14pt">Hi=C2=A0<b><a href=3D"http://untroubled.org"=
+>untroubled.org</a>,</b></span></p><p class=3D"MsoNormal" style=3D"margin:0=
+in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Calibri,&quot;=
+sans-serif&quot;"><span style=3D"font-size:14pt">I was just browsing throug=
+h your website=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a>=
+</b>=C2=A0and noticed some issue on your website=C2=A0<b><a href=3D"http://=
+untroubled.org">untroubled.org</a>=C2=A0</b>which is the reason why you are=
+ losing lots of traffic and sales.</span></p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Ca=
+libri,&quot;sans-serif&quot;"><span style=3D"font-size:14pt">Your website i=
+s good in terms of design and content. However, it doesn=E2=80=99t follow S=
+earch Engine Guidelines =E2=80=93 2023. So, it has a very low visibility in=
+ organic search results.</span></p><p class=3D"MsoNormal" style=3D"margin:0=
+in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Calibri,&quot;=
+sans-serif&quot;"><span style=3D"font-size:14pt">But worry less, because my=
+ team can help you to fix these issues on your website=C2=A0<b><a href=3D"h=
+ttp://untroubled.org">untroubled.org</a>=C2=A0</b>and furthermore provide y=
+ou better and much improved visibility on the web.</span></p><p class=3D"Ms=
+oNormal" style=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;=
+font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-size:14pt">=
+I will provide you with high-quality work at a=C2=A0<b>very competitive rat=
+e.</b></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:16.8667px;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-size:14pt">If you are=C2=A0<b>interested in</b>=C2=A0co=
+st and recommendation, please reply to this email and one of our consultant=
+s will share the detailed proposal.</span></p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Ca=
+libri,&quot;sans-serif&quot;"><span style=3D"font-size:14pt">Looking=C2=A0f=
+orward to hearing from you.</span></p><p class=3D"MsoNormal" style=3D"margi=
+n:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Calibri,&qu=
+ot;sans-serif&quot;"><span style=3D"font-size:14pt">Have a Great Day.<br><b=
+r>Regards,</span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;li=
+ne-height:12.65pt"><font color=3D"#1f1f1f" face=3D"verdana, sans-serif"><sp=
+an style=3D"font-size:14px;white-space:nowrap"><b>Adam=C2=A0 Smith</b></spa=
+n></font><span style=3D"font-family:Calibri,&quot;sans-serif&quot;;font-siz=
+e:14pt;color:rgb(51,51,51)">| (Analyst)</span></p><p class=3D"MsoNormal" st=
+yle=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family=
+:Calibri,&quot;sans-serif&quot;"><span style=3D"font-size:14pt">-----------=
+--------------------------------------------------</span></p><p style=3D"ma=
+rgin:0in 0in 0.0001pt;line-height:12.65pt;background-image:initial;backgrou=
+nd-position:initial;background-size:initial;background-repeat:initial;backg=
+round-origin:initial;background-clip:initial;font-size:12pt;font-family:&qu=
+ot;Times New Roman&quot;,&quot;serif&quot;"><span style=3D"font-family:Verd=
+ana,&quot;sans-serif&quot;">Note: If you are not interested, please</span><=
+span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span></p><p style=
+=3D"margin:0in 0in 0.0001pt;line-height:12.65pt;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;font-size:12pt;font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;"><span style=3D"font-famil=
+y:Verdana,&quot;sans-serif&quot;">Click here to=C2=A0</span><a href=3D"http=
+s://globalgns-dot-yamm-track.appspot.com/26bafhbCjNn34uZMVTwULBkYQJF6IWtnYP=
+pHiKJznoQSF4VUsigFdl77Jh5rV2F8RQjY2je7jaVoyE8tcNUSODipaLgrteSP4WFfL6z2G7Gio=
+47FDMMIV7Hvm_49wTqTvz5aAtT1QoCMVwLPWdcKD4woxvL-uH7DuyUGFcuxaSmo3UN-r1PsmLtf=
+aCLdIIAA0oHXN" rel=3D"nofollow" style=3D"color:blue" target=3D"_blank"><b><=
+span style=3D"font-size:13.5pt;font-family:Verdana,&quot;sans-serif&quot;;c=
+olor:rgb(17,85,204)">unsubscribe</span></b></a><b><span style=3D"font-size:=
+13.5pt;font-family:Verdana,&quot;sans-serif&quot;">=C2=A0</span></b></p></d=
+iv>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2AVnP2sacAAI6yeyXp=
+8TVlwzN3PtiHuEQr3fMz8-hNWaB4VUsigGQfr7Q79KSBEw201IQfzdYNNF71tYJ-i0SW0s2lk56=
+56dzgQn5JUqBLqdjEsM55A5PdPK5VVviH73-2fKEzbBdj32a-90uypQda9vMo-LNUt6cUzmhfj4=
+" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:no=
+ne!important;">
+
+--00000000000084a2b90603bd2f56--

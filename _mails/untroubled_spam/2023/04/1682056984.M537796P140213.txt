@@ -1,0 +1,182 @@
+Return-Path: <bounces+6867439-b2d5-bruce=untroubled.org@sgmail.alyce.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 117763 invoked from network); 20 Apr 2023 09:40:33 -0000
+Received: from o1.sgmail.alyce.com (o1.sgmail.alyce.com [168.245.5.112])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 20 Apr 2023 09:40:33 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=alyce.com;
+	h=content-type:from:subject:content-transfer-encoding:mime-version:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=Yqu2epJ/iVpEsGYC0VIlyfN7djT/0cgeA78LgFbZYuk=;
+	b=S2KTLYmNLVBpeUTPT5C2eKYtCf2loneK9/owhCjbo88g0MFP1AR+Z5a3WkZsCx0m2+/w
+	uIYIw4cj2ZUWX2cMe7Z/Ri36z3ZCjfi/ewQSrET2aafGhznMTU7P6ega2MT7C6eyAP6i5a
+	KeyR4IfqBbsh0XZg5KWJgvjhO6xa9vj4cbxX6ysTpxgy2h5XejuNToQnioQMRvpbRgVyRD
+	Etbn7noPTjyZwEN8YT/9nHnePtrzXw3JQAxJTEkNFe7yw2QoyRiMjNlS2ZKUSyCH7P1bul
+	jVNdHQjkzieyEY7XYqIVTsECqGgEuM7LLkHI3+CDWFDO7u4NKf9SqeLG+hktN0og==
+Received: by filterdrecv-58c7876469-xpz2m with SMTP id filterdrecv-58c7876469-xpz2m-1-64410887-2E
+        2023-04-20 09:40:23.757593363 +0000 UTC m=+4961187.005824498
+Received: from [127.0.0.1] (unknown)
+	by geopod-ismtpd-6 (SG) with ESMTP
+	id xE673Ob0R9qvZmgMps9RrQ
+	for <bruce@untroubled.org>;
+	Thu, 20 Apr 2023 09:40:23.470 +0000 (UTC)
+Content-Type: text/html; charset=us-ascii
+X-Priority: 1
+From: =?utf-8?q?SendGridSupport=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B?=
+	<bruce@untroubled.org>
+Subject: Payment-Problem
+Message-ID: <bb7c319a-9e67-ffaa-48ed-5638e7d82679@untroubled.org>
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 20 Apr 2023 09:40:23 +0000 (UTC)
+MIME-Version: 1.0
+X-SG-EID: 
+ =?us-ascii?Q?I8eEC1pv03fmNo5m8yNIzSZFUyg1Zu92TNd227U29uOLv1U+TP8ifASt1x6Mmb?=
+ =?us-ascii?Q?ehL15em49BBEVOKZeCarsF=2Fzw0LZhUZ8G9fF7uG?=
+ =?us-ascii?Q?jISpCfDX0AfcTAk70bEzZ3eZn+SHrkItb9qIRyw?=
+ =?us-ascii?Q?bBrjm1On+dV19J=2FWQJlHStCYRQqnTLE0VqoNuzL?=
+ =?us-ascii?Q?1Alff072QosLi7mB9L5UsRZOdy153eXXdgnEne9?=
+ =?us-ascii?Q?VomF9Kc70j390OTH4ZzvbQqL8o=2FGHAH+tt7zzKX?=
+ =?us-ascii?Q?n=2FIC6JYnEjL8s9xd26ZNg=3D=3D?=
+To: bruce@untroubled.org
+X-Entity-ID: YZ7TZggDqiwdVjrgSJHD3Q==
+
+<html><head></head><body><div class=3D"content" style=3D"display:block; max=
+-width:600px; margin:0 auto; padding:10px">
+<span class=3D"preheader" style=3D"color:transparent; height:0; max-height:=
+0; max-width:0; overflow:hidden; visibility:hidden; width:0">Your payment t=
+o SendGird was unsuccessful.</span>=20
+<div class=3D"header" style=3D"width:100%; margin-bottom:30px; margin-top:1=
+5px">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td align=3D"left" class=3D"align-left" valign=3D"top" style=3D"padding:0; =
+font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-s=
+erif; font-size:16px; vertical-align:top; text-align:left">
+<a href=3D"http://sglinks.alyce.com/ls/click?upn=3DI518QpU4-2B5STrOxLP98Qyc=
+ZLoTc7zpWVtJP12Tm6CQw-3D8LjE_PlY-2FBeaHTBsRoTkCfSa8KvFzhdlAgIxjmX01dz7iadn3=
+oDwLuREYIXLQj9KrLig3zn4j3vcq9sounTkqx0yirhULDN4zj457HBmxuE9zjuZfeDkLeHlCvEj=
+wPmCN90BwuUAUqbvsSrbxlWvLvv-2BGUTfDxANLIKtItxBjm1DtUP57cOzTJwxtyeq4-2BB-2FG=
+jnv6bb738vtR9Hje6BlVOO8vuw-3D-3D" target=3D"_blank" style=3D"color:#348eda;=
+ font-weight:400; text-decoration:none"><img src=3D"https://uiux.s3.amazona=
+ws.com/logo/sg-twilio-lockup.svg" alt=3D"SendGird" style=3D"border-style:no=
+ne; height:42px"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"block" style=3D"width:100%; margin-bottom:30px; background:#f=
+fffff; border:1px solid #f0f0f0">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td class=3D"wrapper" valign=3D"top" style=3D"font-family:'Open Sans','Helv=
+etica Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertica=
+l-align:top; padding:30px">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; border-collaps=
+e:separate!important">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+<h2 style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helveti=
+ca Neue','Helvetica',Helvetica,Arial,sans-serif; font-weight:300; line-heig=
+ht:1.5; font-size:24px; color:#294661!important">
+Your payment to SendGrid was unsuccessful.</h2><p>Hello bruce@untroubled.or=
+g,</p>
+<p style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helvetic=
+a Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; font-weight=
+:300; color:#294661">
+We're writing to let you know that your payment is unsuccessful and your ac=
+count is marked for removal.</p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"btn btn-primary" width=
+=3D"100%" style=3D"border-spacing:0; width:100%; border-collapse:separate!i=
+mportant">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:0; font-family:'Open S=
+ans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16p=
+x; vertical-align:top; padding-bottom:15px">
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"border-spacing:0; width=
+:auto; border-collapse:separate!important">
+<tbody>
+<tr>
+<td align=3D"center" bgcolor=3D"#348eda" valign=3D"top" style=3D"padding:0;=
+ font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-=
+serif; font-size:16px; vertical-align:top; background-color:#348eda; text-a=
+lign:center">
+<a href=3D"http://sglinks.alyce.com/ls/click?upn=3DI518QpU4-2B5STrOxLP98Qyd=
+0z5-2F-2FHqkpoDnNrVNpTaclJft5BipgISdtntgjvoqFd706a7mh1kXEIA-2Bzay8I96g-3D-3=
+DsvlD_PlY-2FBeaHTBsRoTkCfSa8KvFzhdlAgIxjmX01dz7iadn3oDwLuREYIXLQj9KrLig3Sr9=
+-2BMnACjNE-2FqIPsIGhjBTDx-2FsP5zdVPYOyidZQFVEMPSVBGcyoVnJbLcgQWH-2B1tmbYOxc=
+cfO1gToQvAudblX3ujXXiIjvUE7xuGKm8uf3winOqiulux-2FZPK-2F168fi2waz004JlpAgcRj=
+uN-2BAuxwqA-3D-3D" target=3D"_blank" style=3D"border-color:#348eda; font-we=
+ight:400; text-decoration:none; display:inline-block; margin:0; padding:12p=
+x 45px; color:#ffffff; border:solid 0px #348eda; font-size:14px; text-trans=
+form:capitalize; background-color:#1288e5">Fix Now</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0; font-family:'Open Sans','Helvetica N=
+eue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; vertical-align=
+:top">
+
+<p style=3D"margin:0; margin-bottom:30px; font-family:'Open Sans','Helvetic=
+a Neue','Helvetica',Helvetica,Arial,sans-serif; font-size:16px; font-weight=
+:300; color:#294661">
+Thank you for your business,<br>
+The Billing Operations Team at SendGrid</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"footer" style=3D"clear:both; width:100%">
+<table width=3D"100%" style=3D"width:100%; border-spacing:0; font-size:12px=
+; border-collapse:separate!important">
+<tbody>
+<tr style=3D"font-size:12px">
+<td align=3D"center" class=3D"align-center" valign=3D"top" style=3D"font-fa=
+mily:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif; v=
+ertical-align:top; font-size:12px; text-align:center; padding:20px 0">
+<a href=3D"#" target=3D"_blank" style=3D"color:#348eda; font-weight:400; te=
+xt-decoration:none; font-size:12px"><img src=3D"https://uiux.s3.amazonaws.c=
+om/logo/sg-twilio-lockup.svg" alt=3D"SendGird" style=3D"border-style:none; =
+font-size:32px; height:36px"></a>=20
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><img src=3D"http://sglinks.alyce.com/wf/open?upn=3D95ipHO-2FHtfiEGxEk=
+eDVC7m2cc8Z9r802-2B369f-2FNYKjlQ3dSOs22I2Im7-2FoXeh-2Fq60Tr5pAbSwr9FL0gJhtZ=
+snQA7L4k1GFnwIhthKYbVmxca-2B5DN3xONKGvQg6trAKvq5x4n4KtdIQSmcb5RlOoVV-2FZLzB=
+FvqEwMR5lottw53uJjDkvg-2F5pWdqTfe33IZQzkIywzL-2Fc3K6HzMb-2F15gKezeK6ZODxOBZ=
+uF-2BjQTHQsbNk-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"=
+height:1px !important;width:1px !important;border-width:0 !important;margin=
+-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;marg=
+in-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;p=
+adding-right:0 !important;padding-left:0 !important;"/></body></html>

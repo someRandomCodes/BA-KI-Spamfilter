@@ -1,0 +1,96 @@
+Return-Path: <laylap@bizassistcentral.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2093268 invoked from network); 22 Feb 2024 16:25:34 -0000
+Received: from mail-wm1-x32a.google.com (mail-wm1-x32a.google.com [IPv6:2a00:1450:4864:20::32a])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 22 Feb 2024 16:25:34 -0000
+Received: by mail-wm1-x32a.google.com with SMTP id 5b1f17b1804b1-412698ac6f9so6726845e9.0
+        for <bruce@untroubled.org>; Thu, 22 Feb 2024 08:25:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bizassistcentral.com; s=google; t=1708619132; x=1709223932; darn=untroubled.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=1LrjlRAZtaz7jIBLnPZ6RiBeenHx9yv2d8zcMrs4K2A=;
+        b=HPQPiztNTPZ2Ezp9Djm8cH20CmQTGXM74oEwslgKpSkRcpkcpCogVRWHSTUVqszX82
+         4wfd+DYSCCso2VVfY+/f6BjrPJbCw+4dpqod+YYwlEuxVVytGn99aIOmwFXfgUgW8rEc
+         nHTJcN7kpxDh3MuDmSQD5jtSjbqx/BnMhfnpWDbrXpznhA9Mty+7RuViVYgSmBb8LHRs
+         wNRnesuhzLh9NBwgOSBEDU+crfLH0kVdPfR6m5YTg0vAj0IgyXbKJeP+ma6IV5CDjld9
+         UdW8RZfg1bDOKAwlsMuoUT4jorsCjgjCgz4iqqk2+C5BA38jQS9rTh+z93EAyy53tNCS
+         VMHQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708619132; x=1709223932;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=1LrjlRAZtaz7jIBLnPZ6RiBeenHx9yv2d8zcMrs4K2A=;
+        b=iqwB5irYsKnYK4le9ojKeqnBsKPfkCQAo0F5kslddtyV9qzoBx/ZwetZm2WU7e9Sw9
+         muq12zmNlFew1kBVeOXOAt3FqPRYC58IMPvWqna7t1HNW2YhcEv0lN0Quwt1wrRSOBln
+         pjeiNoZ/StxpKn/DI6F1eERfwpLit9ZZZB8Co0LJL0ur3ZX0J6PQtA20751gRmVVXeBN
+         Lq3CjCO4D7UChyLCnrMsCAxn6gZqqwL/Pa/3/nEtFBv2V0DLj0b90329S2JLqG68tyWw
+         yPqXG5Yu2ZjR56R9Mi2dq5vji7uQzYZTzk82zANScqEB/woopumnS2JT1kWIt8VvloCt
+         aytw==
+X-Gm-Message-State: AOJu0YwV9BE8rIw3ibZghW+mm/6cgp3eO864MrH0lmBlqSB1mYSvwrAD
+	nx/UmR0gf8xuNW5GMe3sKlM2RqNcTx4PRa43R3ry5OLRjNJRwn1Q7JDAtk42ldPGVOOFvtlVHWY
+	QdziPlGst+GIzU5O704bq/biLjTIm+PVoht+8FBNJ9/HDCXeV
+X-Google-Smtp-Source: AGHT+IFlv3QCFQioY+FTh+kHLB892OBCypfJWyRi9R1gGcTMopLvEFK+ts4CXLKi4SwDW7zPo3GiSRBrwFwyR1X0G/E=
+X-Received: by 2002:a05:600c:3d8f:b0:412:529f:934a with SMTP id
+ bi15-20020a05600c3d8f00b00412529f934amr2869550wmb.19.1708619132038; Thu, 22
+ Feb 2024 08:25:32 -0800 (PST)
+Received: from 893675098491 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 22 Feb 2024 08:25:31 -0800
+MIME-Version: 1.0
+From: Layla Peters <laylap@bizassistcentral.com>
+Date: Thu, 22 Feb 2024 08:25:31 -0800
+Message-ID: <CAJGjvWZ12WaEFKt1nwBhxqSQ+VNZQ9o5E789JEoEFS1YUPRrcg@mail.gmail.com>
+Subject: Article pitch -- will you please take a look?
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="0000000000006c01ed0611fae4d3"
+
+--0000000000006c01ed0611fae4d3
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+The most recent technology may seem out of reach for many small business
+owners. Often, it's just too expensive. In fact, some technology offers
+long-term financial savings that are simply too great for small business
+owners to pass up.
+
+I'm now penning an article on the subject. Since it contains information
+that your readers would find useful, I was wondering whether you'd be
+willing to post it (at free charge) on your website.
+
+In case you're interested, just let me know.
+
+Many thanks!
+
+Layla Peters
+
+*https://bizassistcentral.com* <https://bizassistcentral.com>
+
+
+NOTE: If you're interested in content from me - but on a different topic -
+please respond to let me know and we'll figure out a better option.
+
+--0000000000006c01ed0611fae4d3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p><span style=3D"color:rgb(0,0,0)">Hello,</span></p><p></p><p><span style=
+=3D"color:rgb(0,0,0)">The most recent technology may seem out of reach for =
+many small business owners. Often, it&#39;s just too expensive. In fact, so=
+me technology offers long-term financial savings that are simply too great =
+for small business owners to pass up.</span></p><p></p><p><span style=3D"co=
+lor:rgb(0,0,0)">I&#39;m now penning an article on the subject. Since it con=
+tains information that your readers would find useful, I was wondering whet=
+her you&#39;d be willing to post it (at free charge) on your website.</span=
+><br></p><p><span style=3D"color:rgb(0,0,0)">In case you&#39;re interested,=
+ just let me know.</span><br></p><p><span style=3D"color:rgb(0,0,0)">Many t=
+hanks!</span></p><p><span style=3D"color:rgb(0,0,0)">Layla Peters</span></p=
+><p><a target=3D"_blank" rel=3D"noopener noreferrer nofollow" href=3D"https=
+://bizassistcentral.com"><span style=3D"color:rgb(17,85,204)"><u>https://bi=
+zassistcentral.com</u></span></a></p><p><br></p><p><span style=3D"color:rgb=
+(0,0,0)">NOTE: If you&#39;re interested in content from me - but on a diffe=
+rent topic - please respond to let me know and we&#39;ll figure out a bette=
+r option.</span></p>
+
+--0000000000006c01ed0611fae4d3--

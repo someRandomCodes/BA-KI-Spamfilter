@@ -1,0 +1,449 @@
+Return-Path: <return5176489054166142@msdpssharjah.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1327164 invoked from network); 19 Dec 2023 17:29:37 -0000
+Received: from ARE01-DX2-obe.outbound.protection.outlook.com (mail-dx2are01on2104.outbound.protection.outlook.com [40.107.142.104])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Dec 2023 17:29:36 -0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=cpcIodMrWSTAwCA7sV6y42q5ka65FSlXFVMuhpEy2FXI0F0xaX1Vs4paVXYErYUkA+tjLlNN6FgIogBXNA1Y1q0Dxlv++R5gSK+pMed6l9FLh+NF8ssGj3ZWnXd1tlrn08gqShtwQJm6HICCQ8y/KP3Q4erhxvp3aigztMOwaR9j9tEikNw5/muixwVPUE0GtvAkmoJzIQS5Uv6i5u9CQJjvBBuSgf+4p4L7h4btyBEEy+mMU81+knH/KeLj+/c71KDcG0hRJr+CuVBYzamfhkx0m94HVi0AkvL8qJr/aSPlaVk3yXV5927q4qPaDPWo+8ux+HPAVkOgZ+FdKxD9WQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Fgt/xihtQrXnTSQ6BBC+lfQxVn4FumHE4eZeH3ovvP0=;
+ b=hdDtdydEGBQ3pnNW1LVoFyD27C+Hi7vCo/uOnzU6STJoKFoasTmVUEzB+QNsFnX0/tUidj1xLNhWglulcmyrYSQ4uzuFVG2TQpBmYGlGBvvm/gH+q97h7HBg5N4aup1rdcU48im7TojZjC7PcM+20Yxk8E+wYYFpp+2i59JFdgt3cEgsDCsO+YjEu8GDxcEM95njQws2puTRuCDufeSuwGhetQ2lS50VB+W3WL+ezDjxMWNMrh+poSqokE6ejWCTX0qO0On/+ReeZ4RCWwioQliCAlmUN5ldXau/zlMBhR+5gwb4EbZoHGJ43KTLrIxpeaPRo5xGFRVKql1PYVX8uA==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
+ 185.192.125.151) smtp.rcpttodomain=untroubled.org
+ smtp.mailfrom=msdpssharjah.com; dmarc=fail (p=quarantine sp=quarantine
+ pct=100) action=quarantine header.from=msdpssharjah.com; dkim=fail (signature
+ timestamp exipred) header.d=ghost.thebrowser.com; dkim=fail (signature
+ timestamp exipred) header.d=mailgun.org; arc=fail (47)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=msdpssharjah.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Fgt/xihtQrXnTSQ6BBC+lfQxVn4FumHE4eZeH3ovvP0=;
+ b=ObrbTM26xUeG2cHiWNHajI1u+KM2o6dTQkddPC6gVenO1Yiw2knrRqeltmv+TvHJEbyWZxcSZU7cDuraGzjibXLm7nQjxFxkXnMcQKjvQ7PX7A8aCcyoG/G+h82sTWIMRWPiqb/fOsQG9xKJ3gf+I2t2oi0TJJSg/QBVWeQ1+sU=
+Received: from AS8P250CA0010.EURP250.PROD.OUTLOOK.COM (2603:10a6:20b:330::15)
+ by DX0P273MB1194.AREP273.PROD.OUTLOOK.COM (2603:1086:300:4d::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.38; Tue, 19 Dec
+ 2023 17:29:26 +0000
+Received: from AMS1EPF00000046.eurprd04.prod.outlook.com
+ (2603:10a6:20b:330:cafe::81) by AS8P250CA0010.outlook.office365.com
+ (2603:10a6:20b:330::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.38 via Frontend
+ Transport; Tue, 19 Dec 2023 17:29:25 +0000
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 185.192.125.151)
+ smtp.mailfrom=msdpssharjah.com; dkim=fail (signature timestamp exipred)
+ header.d=ghost.thebrowser.com;dmarc=fail action=quarantine
+ header.from=msdpssharjah.com;
+Received-SPF: Fail (protection.outlook.com: domain of msdpssharjah.com does
+ not designate 185.192.125.151 as permitted sender)
+ receiver=protection.outlook.com; client-ip=185.192.125.151;
+ helo=msdpssharjah.com;
+Received: from msdpssharjah.com (185.192.125.151) by
+ AMS1EPF00000046.mail.protection.outlook.com (10.167.16.43) with Microsoft
+ SMTP Server id 15.20.7113.14 via Frontend Transport; Tue, 19 Dec 2023
+ 17:29:25 +0000
+Delivered-To: yabinleila@gmail.com
+Received: by 2002:a05:7000:77d1:b0:53e:29c3:5eb4 with SMTP id r17csp1638906mau;
+        Sun, 3 Dec 2023 08:01:12 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFT0Yc90ahryM2Yi92TuXakQjQPuhw8+B/f5lgllk99hp5jlpLcLUKI7YpM8nUCpr2VFBCL
+X-Received: by 2002:a62:cf87:0:b0:6cb:d2cb:5234 with SMTP id b129-20020a62cf87000000b006cbd2cb5234mr3033510pfg.32.1701619271819;
+        Sun, 03 Dec 2023 08:01:11 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701619271; cv=none;
+        d=google.com; s=arc-20160816;
+        b=aXXe6tAQcNLeixlCuADMaQan2ENjp9gQykZlKnVJ8RudLwDH2wKMc9KQx76qTi9K0W
+         wnx8eJmjMR0h1rVdxjI2yoZl+indZqTm1Z4N5Z+cDegLPwu75tRQeylWTVmx14nY+rV5
+         TzzEw4WUEMM+Dv3RLHhmBCTY6i+TvnVUOcX7+aJ/n47oj4IG/XFg+/alKA2eHrzQp+9U
+         qmSa8DEYho9cK9lkzGWETT59paeJMATH5I05qD5KZJ6s4FQ287q23AhgTcFmnYkTm3Y4
+         deV2CVCbO0sNK2+P72EUhNJwvdSexR4zqrFlvnDgMxGdvCSL+61todYVCHELSksxrJBm
+         amOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-unsubscribe-post:list-unsubscribe:reply-to:to:from
+         :subject:mime-version:date:sender:dkim-signature:dkim-signature;
+        bh=VIZXVDfuaFExGgSHyMwlJTeS/Qup4fW41PMNfFwh5No=;
+        fh=H3kpAmKIu9VOsJgsUDW3XXBE20+kIWduE0ykD+UVmWo=;
+        b=U8vRefyDRQYJe8Rz22l8iQHrby0AaJvG2Hoix1gFyOFDlUkgTd9Nr8odwkyXJNtw9q
+         YRWx4Uxg9CwIlo3snsLPoPnXscBug5ZH6h2PY0OSzFfjT9ry8xp6f0PW5NdhD1ThHVO1
+         cAEbJPZAilLZZe5BvbSvqchmyTHiEqDM0pkE0dHISmiqkaJRcimEf1i+kAHkZtSLryu0
+         krrPwAVgk4YjZUuWmR2y9jKHt0Jg3o+AO4KpkBINO+0S30lA1AGojfdDI6zrrmzykVbk
+         4OzkCIPLR6J4uoZKTk79I+V4UJGje28U/2tPa/oQRs5ICqLnJ2OFi0nxSXx2Kc67iWml
+         ZJeA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ghost.thebrowser.com header.s=ghost header.b=IrGu99Yb;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b="Ql6l57/M";
+       spf=neutral (google.com: 69.72.47.17 is neither permitted nor denied by best guess record for domain of bounce+5c0e38.90529a-yabinleila=gmail.com@ghost.thebrowser.com) smtp.mailfrom="bounce+5c0e38.90529a-yabinleila=gmail.com@ghost.thebrowser.com"
+Return-Path: return5176489054166142@msdpssharjah.com
+Received: from relay2.ghost.io (relay2.ghost.io. [69.72.47.17])
+        by mx.google.com with UTF8SMTPS id m11-20020a63ed4b000000b005c606792120si2219429pgk.107.2023.12.03.08.01.11
+        for <yabinleila@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 03 Dec 2023 08:01:11 -0800 (PST)
+Received-SPF: neutral (google.com: 69.72.47.17 is neither permitted nor denied by best guess record for domain of bounce+5c0e38.90529a-yabinleila=gmail.com@ghost.thebrowser.com) client-ip=69.72.47.17;
+Authentication-Results-Original: mx.google.com;       dkim=pass
+ header.i=@ghost.thebrowser.com header.s=ghost header.b=IrGu99Yb;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b="Ql6l57/M";
+       spf=neutral (google.com: 69.72.47.17 is neither permitted nor denied by
+ best guess record for domain of
+ bounce+5c0e38.90529a-yabinleila=gmail.com@ghost.thebrowser.com)
+ smtp.mailfrom="bounce+5c0e38.90529a-yabinleila=gmail.com@ghost.thebrowser.com"
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=ghost.thebrowser.com; q=dns/txt; s=ghost; t=1701619271; x=1701626471; h=Message-Id: List-Unsubscribe: Reply-To: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id; bh=VIZXVDfuaFExGgSHyMwlJTeS/Qup4fW41PMNfFwh5No=; b=IrGu99YbcoTj7giL5P0/deGw8JvOLaVd4eHBswP01fz8Qosj3sYUFPqkiSMU1KpgOH4B5T6YYmvxjHn566KSLCPkIXdM+tkqSj7yAQdSmjLimsMYIW1WksCLwIy27KebvZy7WW5mqwQSkkqeTyP/8Varjg5wPPkZj69ECUbq4+Jmkrxp4XCOyWgHHTzSs1go8NiELYcS5mT4BPdfkrRvX8t67bv3S+LuI/1+KRNOIR+3WJ17ZZ9on2cwOdkQq598VfqStBVs6sJoO0oGGb1rePYdrQ7JPkA3wf/FjYa3smJo3LaQAi4hoCUI+8EXRTkuMcFbwXwDYkjyjtVtiiI4Xg==
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1701619271; x=1701626471; h=Message-Id: List-Unsubscribe: Reply-To: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id; bh=VIZXVDfuaFExGgSHyMwlJTeS/Qup4fW41PMNfFwh5No=; b=Ql6l57/M/bQs7+xEZRDJLUg5wYbO0fzBqEZIKpI3v3e87Mu1VCEg7Txu5ty+ujGFW0u13IwJuxRfkXQGNTMRLPxroajXEwcZZCIFZ/6pwAUihoCdmDpIzgTRsrHJ6lfmyO8tPTtjRa6g9sdgwv08NdCjLqAaCXRQVsP1zoRTTbk=
+X-Feedback-Id: postmaster@ghost.thebrowser.com:bulk-email-ghost-email-blog-724110:5e2a775ad5f34346dc960597:mailgun
+X-Mailgun-Sending-Ip: 69.72.47.17
+X-Mailgun-Sid: WyI1YTgyNyIsInlhYmlubGVpbGFAZ21haWwuY29tIiwiOTA1MjlhIl0=
+Received: from <unknown> (<unknown> []) by f784365bf116 with HTTP id 656ca646de2d347a6729142c; Sun, 03 Dec 2023 16:01:05 GMT
+X-Mailgun-Batch-Id: 656ca641056ba3f9701b6ae4
+Date: Sun, 03 Dec 2023 16:01:05 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="67ff005a66d613b3713e7b34858b13658499c4fe472aaa82c664788921c3"
+Subject: RE: Support IpTV
+From: The Browser <editor@msdpssharjah.com>
+To: bruce@untroubled.org
+X-Mailgun-Tag: bulk-email
+X-Mailgun-Tag: ghost-email
+X-Mailgun-Tag: blog-724110
+X-Mailgun-Track-Opens: true
+Reply-To: The Browser <editor@thebrowser.com>
+List-Unsubscribe: <https://thebrowser.com/unsubscribe/?uuid=754ed668-02fc-441a-9252-4d62f19d7552&newsletter=7efddb1d-bda7-43c9-b75f-ec5c90b809cc>, <mailto:u+mq6tsmbvgi4wcjtfnvqws3bnnfsd2nrvgzrwcnrrmfstkmzsgy4dambqgfsdcobzg5qsm2b5gmzdmzldgiztmyzvgm4ten3dhe2taojsmzsdembvmrrwknzxmrrcm2j5giydemzrgiydgmjwgaytanjomyzwgmjqmy4tszrrmuygenrtg4stimdhnbxxg5boorugkytsn53xgzlsfzrw63jgoi6xsylcnfxgyzljnrqsknbqm5wwc2lmfzrw63jgoq6we5lmnmwwk3lbnfwcm5b5m5ug643ufvsw2yljnqthiplcnrxwoljxgi2dcmjq@ghost.thebrowser.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Mailgun-Variables: {"email-id": "656ca61ae532680001d1897a"}
+Message-Id: <20231203160105.f3c10f99f1e0b74024620637@ghost.thebrowser.com>
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS1EPF00000046:EE_|DX0P273MB1194:EE_
+X-MS-Office365-Filtering-Correlation-Id: 3d01ec96-a24e-42d5-aa95-08dc00b80bf2
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	+ITppq208PZYi0CASHO/1u0Negsi+sL195Nwx2mRG6YLrhgquWBwWWa1Mw86056l4SLXbEBYKVK1gr5N+DPHe9xG+rpNfNEpaOwqtOxWngcFrUPKnHWeeMD15Z10iWauPaNagk26gMzAQdWC2jYYJcAz80cy+vOeVOIWWshFbXUATUMoFfDp9hSjv3e54t67HmCQabeBr9oN9C5qTwuHS04HzDn+7wPJcOKc8rZeH3OqB+XN4WAPsiJM9arAFu58I64Zo6vcFOulvAmDmHsZq37vjZIES7pAK4Xd5P2GqKkDroSilakHnAzsJ6N6HbPX5IXfittSg26BLPE/tCShFn9T68xb04/1pXITVQAJcrkzljwR/i8lwvjaYLoVuye5ZlFYfPtANcpZob8puH1b+/BVbLTDJ8ul2EZQ0h3MZC1SaGKbJekaLLNs83EITYHDhDHNoclJq4x9hfVB+Y4N65sWRS9RkUkg17nemPw1VJxaBIhXtqbRurCTSnu8pXrPnVhlWJmmRj9fP3pf7LHDakLVHtsbB5+ldEfIZmIBhkIEjRJrjxO0lmkRbi/UhV5DTnJspUlowDheKk7zpWe3guZaBmMuGQEjEEdDYXMj4b2awsKOWi0kvrqAFSoWuK/rgU4MZyQZPq4ue65eAFBQhkTWl7nbMq0/+WikyxSH09n2ZGuflEGDmnT/Qr13/Be92MnfI86ZeL7hzxb9ztMgcdlj3pzQANgITdfmdhsrkKa9qldbX8zN++G0cajAkSw7NCx4iirLqJ0fugR++FmNq28L46BPa4piy7YXJLlDoF4hgvVyMDXB4nDbo9xdl9n/Zj3tvi7sIbFIYvz7a+J2Uw==
+X-Forefront-Antispam-Report: 
+	CIP:185.192.125.151;CTRY:HR;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:msdpssharjah.com;PTR:jr9y.peachguest.com;CAT:NONE;SFS:(13230031)(4636009)(39860400002)(346002)(376002)(396003)(136003)(84040400005)(230922051799003)(1690799017)(7200799017)(451199024)(61400799012)(64100799003)(186009)(82310400011)(36840700001)(40470700004)(46966006)(26005)(66899024)(83080400003)(40460700003)(235185007)(8936002)(47076005)(336012)(36860700001)(426003)(120186005)(81166007)(41300700001)(356005)(166002)(83380400001)(82740400003)(3480700007)(5660300002)(6916009)(16670700002)(9686003)(70586007)(786003)(316002)(70206006)(7116003)(1076003)(478600001)(2906002)(8676002)(2613699003)(8400799017)(40480700001)(5406899006)(2306899006)(1406899027)(93036002)(15398625002)(4210325003);DIR:OUT;SFP:1102;
+X-OriginatorOrg: msdpssharjah.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Dec 2023 17:29:25.3734
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3d01ec96-a24e-42d5-aa95-08dc00b80bf2
+X-MS-Exchange-CrossTenant-Id: 095c43ba-acb2-4727-8c85-2bcdb128b2d6
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=095c43ba-acb2-4727-8c85-2bcdb128b2d6;Ip=[185.192.125.151];Helo=[msdpssharjah.com]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	AMS1EPF00000046.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DX0P273MB1194
+Content-Length: 8148
+
+--67ff005a66d613b3713e7b34858b13658499c4fe472aaa82c664788921c3
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #fff;
+            padding: 1em 0;
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+=09=09=09            background-color: #000; /* Set background color to bla=
+ck */
+
+        }
+
+        main {
+            padding: 2em 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .discount-code {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=3D"container">
+        <header>
+            <img src=3D"https://vivaiptv.net/wp-content/uploads/2023/12/viva-white.png" alt=3D"VivaIPTV Logo">
+        </header>
+
+        <main>
+            <h1>Elevate Your Entertainment Experience with VivaIPTV!</h1>
+            <p>
+                We hope this message finds you well and in good spirits. We=
+ are excited to introduce you to the ultimate entertainment experience =
+=E2=80=93 VivaIPTV, your gateway to an extensive collection of Premium TV C=
+hannels worldwide in stunning Full HD (FHD) and 4K resolution!
+            </p>
+
+            <p>
+                <strong>Why Choose VivaIPTV?</strong>
+            </p>
+            <ul>
+                <li>Global Coverage: Gain access to a diverse range of Prem=
+ium TV Channels from around the world.</li>
+                <li>FHD and 4K Quality: Immerse yourself in crystal-clear v=
+isuals with our high-definition streaming.</li>
+                <li>Versatile Content: Enjoy a variety of content including=
+ Sports, News, Movies, Documentaries, Movie channels, Video On Demand (VOD)=
+, and much more!</li>
+            </ul>
+
+            <p>
+                <strong>Secure Payment Options:</strong>
+            </p>
+            <p>
+                We understand the importance of convenience and security in=
+ your transactions. That's why VivaIPTV offers hassle-free payment options.=
+ Whether you prefer the ease of PayPal or the anonymity of crypto, we've go=
+t you covered!
+            </p>
+
+            <p>
+                <strong>Special Offer - Limited Time Only:</strong>
+            </p>
+            <p>
+                For subscribers committing to +6 months of premium entertai=
+nment, we're delighted to offer an exclusive discount! Use the code <span c=
+lass=3D"discount-code">vivaiptv24</span> during checkout to enjoy a fantast=
+ic 25% off your subscription. Don't miss out on this opportunity to elevate=
+ your entertainment while saving!
+            </p>
+
+            <p>
+                <strong>How to Redeem Your Discount:</strong>
+            </p>
+            <ol>
+                <li>Visit our website: <a href=3D"https://vivaiptv.net" tar=
+get=3D"_blank">vivaiptv.net</a></li>
+                <li>Select the +6 month subscription plan.</li>
+                <li>During checkout, enter the discount code: <span class=
+=3D"discount-code">vivaiptv24</span></li>
+                <li>Enjoy a 25% discount on your subscription!</li>
+            </ol>
+
+            <p>
+                Take your entertainment to new heights with VivaIPTV =
+=E2=80=93 where premium content meets affordability!
+            </p>
+
+            <a href=3D"https://vivaiptv.net" class=3D"cta-button">Get Start=
+ed Now</a>
+        </main>
+
+        <footer>
+            &copy; 2023 VivaIPTV. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html><style>
+
+=C2=A0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nick Things [https://thebrowser.com/r/e48f4d65?m=3D754ed668-02fc-441a-9252-=
+4d62f19d7552]
+
+
+
+
+
+
+
+
+
+By Sylvia Bishop =E2=80=A2 3 Dec 2023
+
+
+View in browser [https://thebrowser.com/r/c826e130?m=3D754ed668-02fc-441a-9=
+252-4d62f19d7552]
+
+
+
+
+View in browser [https://thebrowser.com/r/51c8c60f?m=3D754ed668-02fc-441a-9=
+252-4d62f19d7552]
+
+
+
+
+
+
+
+
+
+
+
+
+Interview: Nick Bostrom [https://thebrowser.com/r/e1987e5a?m=3D754ed668-02f=
+c-441a-9252-4d62f19d7552]
+
+Flo Read | Unherd | 12th November 2023
+
+Philosopher of existential risk argues that AI, if it does not kill us, wil=
+l make us stronger. "I would like AI [to arrive] before some radical biotec=
+h revolution. We could go extinct through synthetic biology without even ge=
+tting to roll the die with AI. Whereas if we get AI first, maybe that will =
+kill us, but if not, if we get through that, then I think [AI] will handle =
+the biotech, the nanotech, risks" (2,600 words [https://thebrowser.com/r/9d=
+4730fa?m=3D754ed668-02fc-441a-9252-4d62f19d7552])
+
+----------------------------------------
+
+
+52 Things I Learned In 2023 [https://thebrowser.com/r/a1664d8a?m=3D754ed668=
+-02fc-441a-9252-4d62f19d7552]
+
+Tom Whitwell | Magnetic Notes | 1st December 2023
+
+Is it that time of year already? The claims in Tom Whitwell's annual assemb=
+lage of offbeat eyebrow-raisers range, as always, from the counterintuitive=
+ to the scarcely credible. =E2=80=9CA group of domesticated birds were taug=
+ht to call one another on tablets and smartphones.=E2=80=9D "Scientists in =
+Singapore have developed a tiny flexible battery, powered by the salt in hu=
+man tears, for smart contact lenses" (1,500 words [https://thebrowser.com/r=
+/8fad1e4f?m=3D754ed668-02fc-441a-9252-4d62f19d7552])
+
+----------------------------------------
+
+Did you learn 52 fascinating things in 2023? Learn something fascinating ev=
+ery day with the full Browser: get five outstanding articles, a video and a=
+ podcast daily, so you'll always have something new to ponder.
+
+
+
+Get The Full Browser Experience [https://thebrowser.com/r/a65cb9f1?m=3D754e=
+d668-02fc-441a-9252-4d62f19d7552]
+
+
+
+Caroline Crampton, Editor-In-Chief; Robert Cottrell, Founding Editor; Sylvi=
+a Bishop, Assistant Publisher; Jodi Ettenberg, Associate Editor; Uri Bram, =
+CEO & Publisher; Al Breach, Founding Director
+
+Editorial comments and letters to the editor: editor@thebrowser.com [https:=
+//thebrowser.com/r/28a41709?m=3D754ed668-02fc-441a-9252-4d62f19d7552]=E2=80=
+=8C=E2=80=8C | Technical issues and support requests: support@thebrowser.co=
+m [https://thebrowser.com/r/62f702b9?m=3D754ed668-02fc-441a-9252-4d62f19d75=
+52]=E2=80=8C=E2=80=8C | Or write at any time to the publisher: uri@thebrows=
+er.com [https://thebrowser.com/r/454a98b7?m=3D754ed668-02fc-441a-9252-4d62f=
+19d7552]
+
+Proudly published with Ghost, the fiercely independent website and newslett=
+er platform [https://thebrowser.com/r/671fed5d?m=3D754ed668-02fc-441a-9252-=
+4d62f19d7552]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Browser Ltd., 3rd Floor, 18 Henrietta Street, London, UK
+
+
+
+The Browser =C2=A9 2023 =E2=80=93 Unsubscribe [https://thebrowser.com/unsub=
+scribe/?uuid=3D754ed668-02fc-441a-9252-4d62f19d7552&newsletter=3D7efddb1d-b=
+da7-43c9-b75f-ec5c90b809cc]
+
+
+
+https://thebrowser.com/r/523b6601?m=3D754ed668-02fc-441a-9252-4d62f19d7552
+
+
+
+
+
+
+
+
+
+
+
+=C2=A0
+
+
+
+
+--67ff005a66d613b3713e7b34858b13658499c4fe472aaa82c664788921c3
+Content-Type: message/external-body; access-type=x-deleted; length=28523
+
+
+Content-Type: application/octet-stream; name=watch IPTV.HTML
+Content-Disposition: attachment; filename=watch IPTV B7571.HTML
+
+--67ff005a66d613b3713e7b34858b13658499c4fe472aaa82c664788921c3--

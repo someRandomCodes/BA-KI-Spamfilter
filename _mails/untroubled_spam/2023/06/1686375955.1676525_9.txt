@@ -1,0 +1,315 @@
+Return-Path: <>
+Received: from 10.195.10.244
+ by atlas214.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Fri, 9 Jun 2033 14:08:06 +0000
+X-Originating-Ip: [209.85.167.53]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.53 as permitted sender)
+Authentication-Results: atlas214.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Fri, 9 Jun 2033 14:08:06 +0000
+X-YMailAVSC: tcNXg5g3bBsLQOgU8qE9QQmPtwH7YpXuoE8b79cpHQI.Xyo
+ jI_SOGo3U0EJL9OvLur7KiaLlKYiynyg5ughlgmgzzz55uQq47PK3ek2TTc.
+ gkY6Gi7sC5IGiIXEeZ0bhgHJtDwwDDcWzOzdCMULXDeH8Z0vT0rm8J47SPFX
+ VxVAeK.9adrmaDkyZ2.aLm82F_DUqRmqYcFMRvzQ2cJO1jp0NrphfBhfo87Y
+ DqV.1U2JKgJF_eYwHS265yCuxihEUwYz0ZD63TPJ3o6Ah0U4oyg5gRKTPRLf
+ Djm6GLSU4.pZLAoaQaJGaHFTeEdfXmzC_DbhDQzr0dClBorKwTfpPtzFViir
+ _gazeISPecSNPsHqnGByo3fMH4LaxrrUxbRYZPgDPJDzbidd3c6T3JcPjIDI
+ wZUIJ5mRxGMNuvcB2I3ir0AohUX7jp7q5wJL0HRd4pazKGzZ5m4pq_GRE_k4
+ 2V14uRo97V0.2SDjcCmxVtPZ17IrflkyNLW86iaa8e_tBO4zFH1v2g65uPWR
+ sJxTq9UECrVAEOTYx1BzGVePBSZnSHi8PHcD_pZzSejsImWWbJNPyuHjq.h9
+ 1PdL_hVCbVPZGqSCOdTsfMBnQurzksuCttddUcklPWMxqYjJ4HlUUJeuexfr
+ w0n3snpRv6VzY68GAkeMn3mQjpnDzBXm9laoIs7Vc6V9eeDCDby2E2TmiC56
+ AI_wxuNqXKW2_PXZzBFGxTfym.1ohg.TN04safeu8zCTIZWXad_ClcCz68I1
+ v.ZJjv.aIY2qXrpQEV7JiGs8iT7OrVw1sATZ.r.gaM4AT85ThQLK51xhVFHb
+ zeP1DSC9bGcvA2MyLHPXTcO1pY9mDU1gmBlEDSPPgTrAG27NrKeF4Gfg2uNf
+ aR5rYDhlrJIMEZ2SznUk09OsPKXSQlocP1KCp81uU01q04ouNDkHjgW1cExk
+ 4Rf0CcE20xId_Dw_VH95VrN5mVPj233B3mAsbbvRqHp77s5JZ1LmHzN8PJxA
+ pTNEtefJb_167E8OECi50nPzRwLuUE87mRdwC.Sq_oF4RYCh4TZJDcB0IgIm
+ Kbp94RC851R8-
+X-YMailISG: pGDnSBYWLDtnx33uso4MOm41Tddmm1pLgGnEO7NRwckx9Uwc
+ ekpv5x3IzPpIOuFpVF0J6fM9h78J5biIJv1WHbsi0j8XZWDn7RBUKPTDLBaz
+ XOA06Z1_iJxwEKrJUwFosm8Weuzxu3e0QayjmvBYrfCD2HHJOS3KkKnLsDJ.
+ nQnxVAQ66RkfiGCfMywUtKOkZQSzBYIDXPgq8HmI5ST_ZEX3lS4C.CaEKsyE
+ xkg1nhRHziHJ0ba0O95E0h.vPebLzyn3DN2v.ULG7PzOQAucxmlMSEIbyTW4
+ YEgBO35t4v82ISoqvoKPxIcA.VttxHXVvze13ImD.1G5WAzTk2RBMPwFT70v
+ S5MAgCX1cEihHcvCPV9RTZQ11Yat79YB3sG2tHytLEdO.jvFoT0ze6qyrfea
+ dmZCT4HtNa5kYmN0j7g_GKx9.vw0J.xVLQDmcp8agyaK3d8RNcO8mCF11c04
+ tUjSxQ.PZdal4uWwW_7bYiEqMR299yozlr4Sb7cLkSr9Nbq7cp5.ErUPnu47
+ s.i6KBGXvTA65eOUqKYIS40aFaC6t_3drQs60pZ43rKpksonWK2wV_wyhRVv
+ 0INzuffeHh6T5OkE98gmgDE1CTbJhV7wwV7fUv46w8KhuDYNhhGIDva6McoQ
+ ORh1H2l0savu08WZGptzTaZXrPyjkITC9PK1RnO233TRLTSoSPF.5TRYpv9E
+ w6K6FQRr7pC9rP9hVS1ZsVro3AJy3NjgZMSdFFB0MLCDabxX2zfTxopl1oPq
+ W2aGdl0_U.BHVyVpOhSM8R.rJNsG4zfvya.LOe_gk09690.dXrMAZqLfTDOk
+ 87abB9LBBdIzpdR.ogOzbjh4VXeO9624qGRz1waQoX9OVkRsLHrtL8vQTsBs
+ eB0I3GJLwlOsnvufYd9GNdcIBrp80SBz.F.CSxtC2vK4.ahXBp64YqoOGUbx
+ Sg6TbPZEssygucdrnAxZbbUWtrzXaIVlz8hqw2jqLRNbyPWcQnQb9oltuOjW
+ ELUVCFJeRxSVDP76a.K2YbEi3N7SyWcpf2qKiAApX62XK56CCodVMD2g.TUa
+ PKlYRMb6c7j3Y_R9kDgbmh8wwGI_SAiN
+Received: from 209.85.167.53 (EHLO mail-lf1-f53.google.com)
+ by 10.195.10.244 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 09 Jun 2033 14:08:06 +0000
+Received: by mail-lf1-f53.google.com with SMTP id 2adb3069b0e04-4f6283d0d84so2287936e87.1
+        for <bruce@untroubled.org>; Fri, 09 Jun 2033 07:08:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1686319685; x=1688911685;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=VbTX4gawyNoWZ3n2D/qkaCBxjnhcStTsN2eRQEiTU6o=;
+        b=HzkHQHjePXG1pGKz9kIWthGZmWWxjaoPiIPV6LyqmId3nAD5R19fxudUDblfOToEvN
+         YzkBmHykYDlFanmNBfbroHsGGBB8eZii4B4glYSAdRq+zvsYrwJhNGMtAq1SjxQJB5Sh
+         OmAoUhZ02u6trJ6lSKUlER9MAAAJJa0RnX6yAoewCGqFq/8xUpZAK2lAuQqDV2W45EVP
+         EyTy/9NgYrXZwHSwQPSGKuDl6tdpUOVZ7HM6kznNiRBw7/VdLjHdT2V69OyW7axDzwUN
+         IZpTpPU7Ed8NuIKHqddZ1Wu/9yex8SFZsMW6wE3LKHbkFyXP0sjjmicfMwlgsSCw6AQI
+         gzeg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686319685; x=1688911685;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=VbTX4gawyNoWZ3n2D/qkaCBxjnhcStTsN2eRQEiTU6o=;
+        b=YHMdxh9kxJW2wXkXVq8+5R5gSLBs4CCWyTJ8Eiybg4tbRzvwQ6bpvRvgZ+Kf866YZf
+         KA9He0dakQWn2s/43KH9bxM2ldqRH0ySPIoDsP0hpHIF/NesM/Az8bX2tOQNFB4Rse8u
+         X5ZDTWAGzzqOuUdXznb9xnsAzy+r7fX49yjzj7ASW5pJuioQfvVvDz/Hhg4A1WRM0jdu
+         tg5U1SxfQtE0CW0I+7++ML/nGJ4cRJHKSnm9TlJLRLFTf1fR4aM9LUbP+ewA23xZ3tMc
+         wxAW0iXWx0+//VJNn642DRxZDxoHQLE0IiBDDToQ3hFlthJPIFKiu6QdMbfTL0hIHIbZ
+         Kqng==
+X-Gm-Message-State: AC+VfDxTaGRVRgXhZGNaNSb+isOAjGLEmkKd8ONiFpfJLAclsiepu6i0
+	MPTZ64KBjGbAe91jqQWb3lVnqJKMgl8JzyLsmmXOZmeV
+X-Google-Smtp-Source: ACHHUZ5T2+OBbDKbc34ZF6cg+8w3rdKYPKNcXN3d/3vMGXkPZeCuR6x6ydQz38PlV8/icv5Ib4POU1uJ5OEvK6lw+ss=
+X-Received: by 2002:a2e:9046:0:b0:2ad:b9ed:5498 with SMTP id
+ n6-20020a2e9046000000b002adb9ed5498mr1180621ljg.24.1686319684982; Fri, 09 Jun
+ 2033 07:08:04 -0700 (PDT)
+MIME-Version: 1.0
+From: Rewards <bruce@untroubled.org>
+Date: Fri, 9 Jun 2033 15:09:53 +0100
+Message-ID: <YyiEwBHfCyKpllYBipjiiqfCe20k=h6RNpf1pJWUsn_Z16iJuU6@mail.gmail.com>
+Subject:  ACE Thank You bruce with an Dewalt Drill 20V
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 6392
+
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#OEZhMUdMbzlxaXdtNzFmeDFaQ21wUXMzamFraFdyUjgvc0hvVEo4UjVyd3p0NHZXNnk4dHU1aWR2N3B2Y0d4SmRNVmNZNUV0Zi91ZmxrcVp1UzJ1RFQ2eU9NUjhFVmloRm9sK0ptd3FVcllqWDJUSzh2cGxSc3dxcUJiQjg5OXNIeEQ5cmhYV3I2ZUZoMTRrZzI1L05nPT0_"><b><i><font
+          size="6" face="Verdana" color="#d0a24a">Your chance to receive</font></i></b></a></p>
+<p align="center"> <a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#OEZhMUdMbzlxaXdtNzFmeDFaQ21wUXMzamFraFdyUjgvc0hvVEo4UjVyd3p0NHZXNnk4dHU1aWR2N3B2Y0d4SmRNVmNZNUV0Zi91ZmxrcVp1UzJ1RFQ2eU9NUjhFVmloRm9sK0ptd3FVcllqWDJUSzh2cGxSc3dxcUJiQjg5OXNIeEQ5cmhYV3I2ZUZoMTRrZzI1L05nPT0_"><font
+      size="6" face="Verdana" color="#d0a24a"><b><i>aFREE </i></b></font></a><br></p>
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#OEZhMUdMbzlxaXdtNzFmeDFaQ21wUXMzamFraFdyUjgvc0hvVEo4UjVyd3p0NHZXNnk4dHU1aWR2N3B2Y0d4SmRNVmNZNUV0Zi91ZmxrcVp1UzJ1RFQ2eU9NUjhFVmloRm9sK0ptd3FVcllqWDJUSzh2cGxSc3dxcUJiQjg5OXNIeEQ5cmhYV3I2ZUZoMTRrZzI1L05nPT0_"><font
+      size="6" face="Verdana" color="#76571d"><b><i>Dewalt Drill 20V</i></b></font></a></p>
+
+<html>
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Dewalt EXTREME Drill</title>
+ <style>
+ body,table,thead,tbody,tr,td,img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, 'Arial', sans-serif;
+ color: #fff;
+ }
+ h2 {
+ font-size: 32px;
+ COLOR: #ffef00;
+ font-weight: normal;
+ padding-bottom: 0;
+ }
+ h1 {
+ padding-bottom: 0px;
+ font-size: 36px;
+ }
+ p, li {
+ font-family: Verdana, 'Arial', sans-serif;
+ font-size: 16px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 40px;
+ }
+ .linebg{
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #ffef00;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ h2 {
+ margin-top: 0px;
+ font-size: 24px;
+ text-align: center;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ } 
+
+ 
+ }
+ </style>
+</head>
+<body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height:35px;">&nbsp; </td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" bgcolor="#997126" cellpadding="" cellspacing="" width="550">
+ <tbody><tr>
+ <td align="center">
+ <table>
+ <tbody>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ <tr>
+ <td>
+ <img border="0" src="https://pbs.twimg.com/media/FyMIKLmXsAAi8ZQ?format=png&name=small" alt="" class="logo">
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#e7cea0" width="550">
+ <tbody><tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td valign="top">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <h2>ANSWER & WIN!</h2>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" class="linebg" >
+ <p>A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <h1>Dewalt EXTREME Drill</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FyMH6e5WAAIw2N7?format=png&name=900x900" alt="" style="max-width:90%;">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" bgcolor="#e7cea0" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p style="width: 400px;max-width: 90%;padding-top:0px;">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ 
+ 
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#OEZhMUdMbzlxaXdtNzFmeDFaQ21wUXMzamFraFdyUjgvc0hvVEo4UjVyd3p0NHZXNnk4dHU1aWR2N3B2Y0d4SmRNVmNZNUV0Zi91ZmxrcVp1UzJ1RFQ2eU9NUjhFVmloRm9sK0ptd3FVcllqWDJUSzh2cGxSc3dxcUJiQjg5OXNIeEQ5cmhYV3I2ZUZoMTRrZzI1L05nPT0_" class="cta">GET STARTED NOW!</a> 
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height:50px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table>
+ <tbody>
+ <tr>
+ <td height="25" style="line-height:25px;">&nbsp; </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size:12px;color: #797979;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#eFZGTW12enZaS0kyektzeS9ySVVPbDRjYW9ncEl1WGE2bnNZZ2ZwbU42MVRVb3dQOGNPMWtvWnRRSGF6dlZhOU9BMHFZaGVQS1JaRGpFanAyU2NHSnY1L0gwTGJtRnBZRzFmekJHaUp6QXhLWUo3czF3Zlhjb1lURGs5ak91eXphMzVyd0VuQmVlY21Ic1dQdWRzampBPT0_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height:35px;">&nbsp; </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+
+
+
+
+</body></html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1bf4604d4c9010609dbc/4910eee82ff600aaebb9#dTRDakM5MkExT0htSHNZYmxySXZkUHl2YlAzcG1MejJUNmcwbEwvS0FzbFMvQjh4d0poSXowcmVqSHJ6TEY0QkpsV0NneTdaNXVsTllLeFpnRzdTN0hQMVFUOHBLeWJHQXNVSEx1YVRRSkhXeDVZaXRZU29SY3VmMXJueHJjcE1FYWU1WDNseSs5cDZsUlA1QzVONU9BPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

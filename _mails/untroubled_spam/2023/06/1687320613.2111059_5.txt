@@ -1,0 +1,93 @@
+Return-Path: <>
+Received: by 2002:a54:354c:0:b0:21d:d7ee:eb4b with SMTP id e12csp3724854ect;
+        Tue, 20 Jun 2023 05:08:20 -0700 (PDT)
+X-Google-Smtp-Source: ACHHUZ72LQOexhieP+i8H2PcbUBCrJ8SFlgPZV6nJ2lLdsXuX8StAqlSRBeJE0X5xsmclFG93wu9
+X-Received: by 2002:a17:90b:a14:b0:259:224a:9d05 with SMTP id gg20-20020a17090b0a1400b00259224a9d05mr12073647pjb.3.1687262900540;
+        Tue, 20 Jun 2023 05:08:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687262900; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KM0z3BWZeDIOecOgptEJaB05TRM5W+raE4jjyZKLKUH+wb6ykIO8IsYtBansshi8mI
+         KmOy9blRLhVtW516NZl5vQ4tIu0AYJHwcO3uqS9AVg3gzpQropqgKVsMWK6W7XfqdOl2
+         p67W2TJuGcr3D9ttUevOXw3jKhY2PtWmVcGlCBJ7bqcr3bu1gJEV2XhQtzhSr7UNuerU
+         B9EPM1wy1o1MjO9+1ggdTipE/panMgrRz9sMVE0v2TWSJI0AmvH43nuO6eINQZLMyGnw
+         nD2VBhP0gj/dJEUQx76HlyY9vbngVjiDr1VhJsv/G+pi73mhj8R7qspwbbWdkoDpsNSl
+         IROw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:references:in-reply-to:message-id:to:from:date
+         :dkim-signature;
+        bh=S7x/n6C9gMJzn7VeTXlj2Yr2JLaULmrR0dC5mb/WPrI=;
+        b=LW7erUw8LXlJjBoQQHhJwbxyoWYkwMzsBJQY9VZT9qOEpdMwGye9l92ns9wMIWLLUl
+         NKgFaWdzK0gjuZZprNZR9G5XOMRzg/pALA1LZVHvbrPNRRcTT15tqa3ofa+R4eP4+Dmm
+         453OA/MPGd2tU86uMZzhJ2UGs60QTlgDJIOWCSrC6WFDnPY61p2KuL2aAUJHkOkBaxp5
+         92Dq9Zl0j5aGRejhsjG4jgRyVvTHUkt6PncUeYUtd7pG6EqNripgcrdICFJVw7F37yGH
+         qDqb5JtBViwmLeyPcD1TN1GG/Ne2nsErSqFc0C8gZnCsob0lv7jSV832tlSzU7QtnyoM
+         Ztuw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=hnTnmaw9;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.65.30 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Received: from sonic315-54.consmr.mail.gq1.yahoo.com (sonic315-54.consmr.mail.gq1.yahoo.com. [98.137.65.30])
+        by mx.google.com with ESMTPS id f65-20020a17090a704700b0025bc95b20b8si9277789pjk.15.2023.06.20.05.08.20
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 20 Jun 2023 05:08:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 98.137.65.30 as permitted sender) client-ip=98.137.65.30;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=hnTnmaw9;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.65.30 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1687262900; bh=S7x/n6C9gMJzn7VeTXlj2Yr2JLaULmrR0dC5mb/WPrI=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=hnTnmaw9ZWl0np/P/hJxiqR8rmgGNtcovh6GGSj24UOYnkdyCZXbHnu12g3ObI0DRraNkjd6JsUwWz+iCEN9+S+c/97jqCSMiNG3EN4cdzniZt5dfj4/lCBq0SwQkj11BEt1H/UZhxzTrcYNVUTT0NvhXRLDg+a0FW0M0QEhOp1ooSNhlGgkO49PzCF4ukqJc1vohbtGns+VWTUhWi1rDM4sD87v/1jceZ9pMHVOgndgG2Mk3J6tf0qkkSBnUzyqNpm/oar8cSSjEwly11bBm35TptUiZGTFXkDwB9HuNxZUz4E4Hx9572lnmxOE7Jd9fD3Tw6ll3nUtJY5kS6SILA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1687262900; bh=Zx+Vj+zxZPNvR2ZVIRvwJOkcXO6zByojGBs74EpOtRM=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=CVtfQYpA9A++Z3gdOGaAkZRcUqKv141oT9huYVV8hwu/aIn+qmqrkVKOaG8OsIEjW0S3DzZq1Cbo6tJQGSd/n9URxoOioeelZobIwMxsWG4UWsTXKT60i7ww2G1aNKY35pGQPtJb52qazDxxoCSfAptlk2tjTAUj2UDdA8WTJhlomCstxzX0BKCOEzftGUw7BbFs39O8C03EdbSAKQdyuN90qTlEqWL77B+FWGk9T0//81w4+R852atUYR74q+2Vo9MlsReShgQoIy86JSS4s7KltJkah8zjfMx7HFgMA+FUmTTet8YKCvr4H0LLwgEbuzdTS7Z/CDq3pvhuiB2VPg==
+X-YMail-OSG: V5JgswcVM1mFROal1nYOsYk7oD3XJA.f2xbtqdLuXatJ1Jz3ig9vc_9wNEo7n3j J2X0GkQ_UoxJnL8iDbOCNHKUilAW_I95FUS8GV6blf.9we4H.88XtkvsWoPjEVd5A5BRjkG09tHe L1NvsG_OR23ch82rPyUnnIasj8455WripA4TRtZXEZtr977T4cq_9YnBrgksHPruZVdio6VwrtrZ CcXEuO9wwyUIh8vO7l4GUwlehNuc7lG.FR.6BvVlyw6uMnxJDPKA_tb4HQBC5bVrljeVmf8k4VO4 vrarkAMCGF7ov.s2wLKr83_NCQAYVg_2xrxgYnNq4AjXQTzvdBglEcTgv3esAnhz1gvV1iC97jGp p3Ep40.I46cPa4Ge56PJYRkEE_uuPFZHY0P2CdljMpPDrzRJ_FXvMK2Dkx9GGI2QG1lhY7NIrG70 O35beOxODWEPm9oTIC.evNGERJh0nVX92unLX8M10MYal3n8Iaqjbz92G.S_FxgOZgERzoGBVtVv D7KVE.XAjuE7kJ4VPix7kQ5_s2wRrc2Qv6VhlL64H7Fcw4iIj1dc9pO_IzBNtu2DfnKJgCGH.dmG oOvtVth5wiXS5V3WYCBQIfXUia5qED6YIaaTaZ6ZoE7Ck3JmBroO8Yvj_2EF3kx4tkMUUvuAt.hy RIiRF1KzBc4.7DdD6jCZ5MogXO0lSKKhH_wmwxW3qIPwNLt21BnaLhYEOdG3s3tJrFY_EI8FhGd_ 6bg1b2GcOeh01PlH3c5FOqLIJmbYLvXxeVVoA_Q6FSuadnnOaiHCzmRd8krviIhJFVH78E3nhvf3 sMU_ynJrDGNS.8NvT_YE.z_4QyTWFjQc0NatM4Gs9cKvx_A46k2Ul8oBsyWT2ZYAj9jM4P6MhrZN zc9e5L_AAYAf0hOAGdoiGRTfBpsJLEPTY_duIJh0cGdxxqASoTVD55exrplwaPgh2JB9U_qasVW9 1BDvjx3edT01zZH3HZ._JG4VSZqguvBiK4qxbEx9O82C9UF061DiVCTYylnl4HTdlRXmhHGsE0KF 12Oq0Z9cBT2BQtYSc1UJNzChcGg8vl5HZzRxq66PabN.GiXCEQnW6xQ18rUbL4TzlUZ_hNEAzvDA wz9NTLgcblkP54dffpz1LoURCNj0AsccQ7QjtJar_FYCJ4YmuNWjD5hthZEG2UbTzC8s5EezydNg bBYroph9kfrCoo4GsUWe9ZyspPuWhx_oC_5j43.BFMsDFVtfZvhTmjXVwwmLg2pQjj8.7KR_6Ps1 VMdtVpD4qjh1OcIg07Sg1hyDC4ePgpa0LucZOZWEpZH6WaGR4g_wmHZtYXKT7JkIq40eWs7Dy5Oj BBGhcwbfcDOQzN4NhpfOmdBxGWVOfbuZe5NJ_hIefT7IFeE_oFswRvNqS3SF1MDyakI_xZSw9VFG 0oHNaNA4UJKxGrzlvNo8bxaj8qCTjmVmdLp_qEEu2iY2wLpyi7ljKRI4vARczdK.p.zPw1H415qp HBW4pSRW5MrWgD7hiT0KIdF1IE.jbfsrsUqEczwfIaejTFqg9OwUaW2dRjok9wA6Kk9vIY42nKcB _Tn7P6e01ClgXW8f.nRtMTuvPcGwFQ9rhd_pb.vkOVGIFpG7bR3foo6Xapm.POXf5zioYHmv3hEC wsshFq37CrqPi22YxMAEoeYgFogd41hq1AwhW8gF57eXbNDb3P7XjDf88KEmQTsas1zdSsgImNgX m3XxO8Z2kkAhtfqaeBf0lI06f30ewKVPUL6cFRuheuE_NPCdMa50.KxmspOFAbnhMRmOdyuiBkaU m7aTy3UKok4AthUZ4qxExu5A_uLjtoaST4BQkokLDY2lyG083LAXCO6omeEt50s_3Vi8Zyqdvagy BZo7B_5uzSKPrKktXJNLNCmii6MY.0IdHrlK.WFPTNPVsHky2qvGFlgwdvAb.r0em9nfg0VWdOgV yCX7NWk9XOllWVa.DtfGIEQrpUEJwIrmwMLnqJlIJ1CIUMg5IXkqMH6fEZFz.o3GXhJ00r1Q9Hs7 P4X1LEILCOMQdwldkQ10LNfVKpzpT307I9VvgkwKQgFmER3qRz6iB02.30pZiWfmEeyp2jcAgnkh FjUhSTwqNt2.yu.62Of54wvSdIDDKRFihY5jbuayHb1bLMRyQLzfwn7yRhczohQeEI9EAZ19A9Yw c2tQ-
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-ID: 359b87b3-ad27-4bbe-b60b-c1ac14873253
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.gq1.yahoo.com with HTTP; Tue, 20 Jun 2023 12:08:20 +0000
+Date: Tue, 20 Jun 2023 20:06:15 +0200
+From: =?UTF-8?Q?At Home Teeth Whitening?= <bruce@untroubled.org>
+To: =?UTF-8?Q?At Home Teeth Whitening?= <bruce@untroubled.org>
+Message-ID: <1767113631.1840976.1687262827090@mail.yahoo.com>
+In-Reply-To: <CABi3KtyuGxbKb9Em5jv7Dj+gjXnKYwVqqBJiTg4Q+YkCscro-A@mail.gmail.com>
+References: <2048548806.1824289.1687262868446.ref@mail.yahoo.com> <2048548806.1824289.1687262868446@mail.yahoo.com> <CABi3KtyuGxbKb9Em5jv7Dj+gjXnKYwVqqBJiTg4Q+YkCscro-A@mail.gmail.com>
+Subject: =?UTF-8?Q?Easy, Safe Teeth Whitening at Home ?=  
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21557 AolMailNorrin
+Content-Length: 3192
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+ <head>
+ <title></title>
+ </head>
+<div align="center"><font size="1" color="#ff8000"><font color="#000000">If
+      you are unable to see the message below,</font></font><font
+    size="1" color="#ff8000"><b> </b></font><font size="1"
+    color="#ff925e"><b><a moz-do-not-send="true"
+href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#eUc4S0FnVy9KNXhiYXcrbkcvcG0xNkY0U3BoM1BrOXRHUEMvNnpNRjNXenk4c0VDa2Y3YXFQQ0UvQ0RLSEFEMkZyNFlZdTRlcy9HNTBESU5xbVhiU3JqVVdGZVZjMXhOa0c0Qjk3V0w0dnBzT29YTFJ5ajI5ZUFQRk94TGE2eWRrOFRiQk1NNXB2cWpndHRPbUlpQ1RBPT0_"><font
+          color="#ff925e">cl</font></a></b></font><font size="1"
+    color="#ff8000"><b><a moz-do-not-send="true"
+href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#eUc4S0FnVy9KNXhiYXcrbkcvcG0xNkY0U3BoM1BrOXRHUEMvNnpNRjNXenk4c0VDa2Y3YXFQQ0UvQ0RLSEFEMkZyNFlZdTRlcy9HNTBESU5xbVhiU3JqVVdGZVZjMXhOa0c0Qjk3V0w0dnBzT29YTFJ5ajI5ZUFQRk94TGE2eWRrOFRiQk1NNXB2cWpndHRPbUlpQ1RBPT0_"><font
+          color="#ff925e">ick here</font></a><font color="#ff925e"> </font></b></font><font
+    size="1" color="#ff8000"><font color="#000000">to view. </font></font><font
+    color="#ff8000"><font size="5"><b><br>
+      </b></font></font></div>
+<div align="center"><font color="#ff8000"><font size="5"><b><br>
+      </b></font></font></div>
+<div align="center"><br>
+</div>
+<div align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#eUc4S0FnVy9KNXhiYXcrbkcvcG0xNkY0U3BoM1BrOXRHUEMvNnpNRjNXenk4c0VDa2Y3YXFQQ0UvQ0RLSEFEMkZyNFlZdTRlcy9HNTBESU5xbVhiU3JqVVdGZVZjMXhOa0c0Qjk3V0w0dnBzT29YTFJ5ajI5ZUFQRk94TGE2eWRrOFRiQk1NNXB2cWpndHRPbUlpQ1RBPT0_"><b><font
+        size="5"><font color="#000000"><font color="#ff00ff"><font
+              color="#800040">Professional Teeth Whitening at Home</font></font></font></font></b></a></div>
+<br><br>
+ <body>
+ <center>
+ <a href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#eUc4S0FnVy9KNXhiYXcrbkcvcG0xNkY0U3BoM1BrOXRHUEMvNnpNRjNXenk4c0VDa2Y3YXFQQ0UvQ0RLSEFEMkZyNFlZdTRlcy9HNTBESU5xbVhiU3JqVVdGZVZjMXhOa0c0Qjk3V0w0dnBzT29YTFJ5ajI5ZUFQRk94TGE2eWRrOFRiQk1NNXB2cWpndHRPbUlpQ1RBPT0_"><img border="0" src="https://pbs.twimg.com/media/FzEYsudWYAEysmA?format=png&name=large" alt=""></a><br>
+ <br>
+ <font size="2"><br>
+ <a href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#ODUyTDlXT2w4dkJ1M21aRGUwS1kzMEVEeExhRWRicytCYUxhaGtKbTFSbXBwWFRLQzlvMHViVXhYSmhqWEgyaGtrM2pyYW5mdHhNOXN2Qjk3Y1JiT3RjSS82bmtRQUFlUU5HdXBSelpLanVDUzVvaWxMNC9Dd3JoNnJUODZuYkFuOEVmRlo4VW9mNHozZkJseS94L0t3PT0_"><u>Unsubscribe</u></a><br>
+ 476 Shotwell Road,STE 102-260, Clayton,NC 27520</font>
+ </center>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/d92fb6610592e02/f4704aff948913c#MHduYWV4KzhueGdyeFVMMmdSK0hXNXVXQlpBZnZNTnlvdjhVZUx6b1VoOHp6QjBJVWxhZHhhUXU4NWVqYmZGZGFhc1Nram5HNjlWNlZuOEtmeVkvekdrMkRsbHhYTXRadWhJdUZNUTRjSGluVDcvWE04MTByZU4xd0lvTUI5VVFyTFB6K0NrYjhmc1F2ZmIwQ2FZRmF3PT0_">here</a> to remove yourself from our emails list</span><br/><br/>

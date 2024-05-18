@@ -1,0 +1,155 @@
+Return-Path: <victorbowen@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1666059 invoked from network); 16 Oct 2023 09:17:25 -0000
+Received: from mail-ed1-x52e.google.com (mail-ed1-x52e.google.com [IPv6:2a00:1450:4864:20::52e])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 16 Oct 2023 09:17:25 -0000
+Received: by mail-ed1-x52e.google.com with SMTP id 4fb4d7f45d1cf-53e2308198eso6283712a12.1
+        for <bruce@untroubled.org>; Mon, 16 Oct 2023 02:17:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1697447842; x=1698052642; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=/I4ODAcXdIPzjlG0pMMaeuYpPVW3TQDxNk7otUtza9Y=;
+        b=yb8u3YwGCHP8QNlCCrx9VkBMELn4GP6xGSV6SirEIe9cpi4eaZCnRJq9i1aa61FbkE
+         OjMgbnXlTpk0rLMZ+jSX0PvJv54EeYLS1cg2x4v34B4frmrMy56iXjv9rg9ewnSySKGl
+         vQF3mCUOywAnt+hKQE1rd/mU21bbbpf+cWTUqgvPAZIvs7//cH/4DSzbrYhJQBAQ5qcX
+         e0m9qRlPNf4yHrDsij9nWEzdL3emi/WjxHKvxu1/62RiYAiO7DtsyNj2+BkcIZcU7viq
+         cAI2oDBCfHox0pmSxAZoghZQONz5wUCKDdn4VPNxBPuEOucBlZpvgihJhst9ArPJepti
+         TKUA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1697447842; x=1698052642;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=/I4ODAcXdIPzjlG0pMMaeuYpPVW3TQDxNk7otUtza9Y=;
+        b=Dn8BbarHzAvwaMtpf35VNuhgprmEJOqEYytKOoccuQW6w2f+A1rWY4GixsNzt6ej0v
+         jmqH1DIhKyOXrOmSj8LO5m/9Y0pAIB99Q6+Lg1i1peRpjoqaNZXKKkJVu8nlbfZJwjb1
+         81aORT4cnIYUcIOTgqI3SvEqPsiGEnf6+xLd8zhL3NbYVPLr1yZP92OiMiYVh09/XGMl
+         tKMY3sb/bNw1Q0df44YQGHSWom3JeJICk01mQWwaOgU7R2kO3+m35Tv2VysVGtd5Gt4z
+         E+biJZE4L+KA+Ypb9bXYyj8I5yZcSPPTa/k48yy8GL8RKKm2HPLx991T/NVlrwwR64Vw
+         J7yw==
+X-Gm-Message-State: AOJu0YxPydu3Wb71HYjGG+KPNbqD2DqcCmh6Tpi/+xMMNNk85omkCeTY
+	SVjHbMiw1/ByKtfrpaoc0/0xc7IewSFZOUxX4pDsBNIPDKIrSLns
+X-Google-Smtp-Source: AGHT+IFGXbKjASZYLNEw5FtZDSZwS1ftnFHqf5btSCaN58paJfScdhC49jmwVTgtsfQld8xv9btVn1Z3OjHbe/v7QWA=
+X-Received: by 2002:aa7:cf87:0:b0:525:570c:566b with SMTP id
+ z7-20020aa7cf87000000b00525570c566bmr26674239edx.22.1697447841990; Mon, 16
+ Oct 2023 02:17:21 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 16 Oct 2023 02:17:20 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 16 Oct 2023 02:17:19 -0700
+MIME-Version: 1.0
+Sender: Victor <victorbowen@smartstreamingott.com>
+From: Victor <victorbowen@smartstreamingott.com>
+Date: Mon, 16 Oct 2023 02:17:20 -0700
+X-Google-Sender-Auth: A2GN1rRF1tDWvgjN20K3DNl7y18
+Message-ID: <CAF4JprhC0bL4Sim+2uJu=W5=+Lm3Vh7OaMPibJ4H4mWMS61zbg@mail.gmail.com>
+Subject: untroubled.org : Cost to Develop a Website!!
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000a59a100607d1dfa3"
+
+--000000000000a59a100607d1dfa3
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello *untroubled.org <http://untroubled.org>*,
+
+I am an experienced, hardworking, self-disciplined and quick learner
+software engineer. I have both backend and frontend skills, and 8+ years of
+coding experience. Although I like doing backend development the most.
+E-Commerce: For the last 5+ years I have been building eCommerce websites,
+mainly by using Shopware (300+ plugins and themes).
+*Web Applications*: Mainly create web applications by using Symfony
+*(3,4,5,6)*, have experience in *data synchronization plugins/projects*.
+
+*Primary skills*: *PHP, SQL, JavaScript, HTML(5), CSS(3) *
+*Advanced skills:* Shopware 5, Shopware 6, Symfony6, Symfony5, Symfony4,
+Symfony3, Doctrine, PostgreSQL, MySQL, ElasticSearch, Clickhouse, OOP,
+Design Patterns, Git, API (Rest, Soap), Smarty, Twig, Jquery, ExtJs,
+
+If *interested* then please get back to me. I would be happy to send you
+our sample, price, full proposal and quotation.
+
+
+Regards,
+
+*Victor Bowen**,*
+
+Web Developer
+
+-----------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe
+<https://smartstreamingott-dot-yamm-track.appspot.com/2L5oi5cZvejCFumYAXUkP=
+6hvNZ_LitRClE2Hov3cU4sO-hMY3iwE2hFESjk3fO-mvHBLDmUSuPpeHAE8aQ_kdTSBVdJc39aj=
+aUKS5V-X098nclVEhMClUFaRghnEetBEnlcsXecdODxttHCFEkRfecW4QcW3zeAz-c3Cigm_JLc=
+TA8z5gaP9UwxKR4M_KPxgh3ucgvr6r0A>
+*
+
+[image: beacon]
+
+--000000000000a59a100607d1dfa3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"letter-spacing:0.6px"><font color=3D"#00000=
+0" face=3D"verdana, sans-serif">Hello=C2=A0<b><a href=3D"http://untroubled.=
+org">untroubled.org</a></b>,</font></span><div><font color=3D"#000000" face=
+=3D"verdana, sans-serif"><span style=3D"letter-spacing:0.6px"><br></span></=
+font><div><span style=3D"letter-spacing:0.6px"><font color=3D"#000000" face=
+=3D"verdana, sans-serif">I am an experienced, hardworking, self-disciplined=
+ and quick learner software engineer. I have both backend and frontend skil=
+ls, and 8+ years of coding experience. Although I like doing backend develo=
+pment the most. E-Commerce: For the last 5+ years I have been building eCom=
+merce websites, mainly by using Shopware (300+ plugins and themes).=C2=A0</=
+font></span></div><div><b style=3D"color:rgb(0,0,0);font-family:verdana,san=
+s-serif;letter-spacing:0.6px">Web Applications</b><span style=3D"color:rgb(=
+0,0,0);font-family:verdana,sans-serif;letter-spacing:0.6px">: Mainly create=
+ web applications by using Symfony=C2=A0</span><b style=3D"color:rgb(0,0,0)=
+;font-family:verdana,sans-serif;letter-spacing:0.6px">(3,4,5,6)</b><span st=
+yle=3D"color:rgb(0,0,0);font-family:verdana,sans-serif;letter-spacing:0.6px=
+">, have experience in=C2=A0</span><b style=3D"color:rgb(0,0,0);font-family=
+:verdana,sans-serif;letter-spacing:0.6px">data synchronization plugins/proj=
+ects</b><span style=3D"color:rgb(0,0,0);font-family:verdana,sans-serif;lett=
+er-spacing:0.6px">.=C2=A0</span><br></div><div><span style=3D"letter-spacin=
+g:0.6px"><font color=3D"#000000" face=3D"verdana, sans-serif"><br></font></=
+span></div><div><span style=3D"letter-spacing:0.6px"><font color=3D"#000000=
+" face=3D"verdana, sans-serif"><b>Primary skills</b>:=C2=A0<b>PHP, SQL, Jav=
+aScript, HTML(5), CSS(3)=C2=A0</b></font></span></div><div><font color=3D"#=
+000000" face=3D"verdana, sans-serif"><span style=3D"letter-spacing:0.6px"><=
+b>Advanced skills:</b>=C2=A0Shopware 5, Shopware 6, Symfony6, Symfony5, Sym=
+fony4, Symfony3, Doctrine, PostgreSQL, MySQL, ElasticSearch, Clickhouse, OO=
+P, Design Patterns, Git, API (Rest, Soap), Smarty, Twig, Jquery, ExtJs,</sp=
+an><br></font></div></div><div><span style=3D"letter-spacing:0.6px"><font c=
+olor=3D"#000000" face=3D"verdana, sans-serif"><br></font></span></div><div>=
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:11.75pt"><f=
+ont face=3D"verdana, sans-serif" color=3D"#000000">If=C2=A0<b>interested</b=
+>=C2=A0then please get back to me. I would be happy to send you our sample,=
+ price, full proposal and quotation.</font></p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 10pt;line-height:13.91px"><font face=3D"verdana, sans-se=
+rif" color=3D"#000000"><br>Regards,</font></p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 10pt;line-height:11.75pt"><b style=3D"color:rgb(31,31,31=
+)"><font face=3D"verdana, sans-serif">Victor Bowen</font></b><font face=3D"=
+verdana, sans-serif" color=3D"#000000"><b>,</b><br></font></p><p class=3D"M=
+soNormal" style=3D"margin:0in 0in 10pt;line-height:11.75pt"><font face=3D"v=
+erdana, sans-serif" color=3D"#000000">Web Developer=C2=A0</font></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:11.75pt"><font fac=
+e=3D"verdana, sans-serif" color=3D"#000000">-------------------------------=
+----------------</font></p><p style=3D"margin:0in 0in 0.0001pt;line-height:=
+12.65pt"><font face=3D"verdana, sans-serif" color=3D"#000000">Note: If you =
+are not interested, please</font></p><p style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:12.65pt"><font face=3D"verdana, sans-serif" color=3D"#000000">Cli=
+ck here to=C2=A0<b><a href=3D"https://smartstreamingott-dot-yamm-track.apps=
+pot.com/2L5oi5cZvejCFumYAXUkP6hvNZ_LitRClE2Hov3cU4sO-hMY3iwE2hFESjk3fO-mvHB=
+LDmUSuPpeHAE8aQ_kdTSBVdJc39ajaUKS5V-X098nclVEhMClUFaRghnEetBEnlcsXecdODxttH=
+CFEkRfecW4QcW3zeAz-c3Cigm_JLcTA8z5gaP9UwxKR4M_KPxgh3ucgvr6r0A" rel=3D"nofol=
+low" target=3D"_blank">unsubscribe</a>=C2=A0</b></font></p></div><br></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2M8ZAl8pod=
+Hn7yp9IsXm2r1dnRQZuP47my6W2PorYE2W5hMY3iwFil-rvC-EAJ7sr7n5baOMiQcYmIceXTMjJ=
+xGl9j1YI-bVw5im0lnNFoIkAuzIL3-vlE_gc20sqo2xL6CNiNk8f-O_VGe0zKYnyj1TvnlKfPjp=
+ikxaQCOSWtKRb" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:non=
+e; display:none!important;">
+
+--000000000000a59a100607d1dfa3--

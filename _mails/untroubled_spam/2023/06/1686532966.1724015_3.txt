@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: bruce@untroubled.org
+Received: by 2002:a05:7010:2d89:b0:35e:b10a:ec8 with SMTP id fu9csp1741232mdb;
+        Sat, 10 Jun 2023 00:13:53 -0700 (PDT)
+X-Google-Smtp-Source: ACHHUZ6vDXupz/Ru+LcIgMpMJ7g6Hm1xpKogJ41qv38SXSBLdx8yNPoEZf8I1RO+XNyO1cNm2JnH
+X-Received: by 2002:a05:620a:4809:b0:75d:50af:19dd with SMTP id eb9-20020a05620a480900b0075d50af19ddmr3674171qkb.53.1686381233134;
+        Sat, 10 Jun 2023 00:13:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1686381233; cv=none;
+        d=google.com; s=arc-20160816;
+        b=W179fyBcLTQOs1HShRqxW6gdJEOau57b2Ni7qN5N0o1+QUgPHr6FoLopjZCcHagDsn
+         +S8SVG/444ITy7FTqFaGgmaDUMiJ5ipuUejT7TeYE5PjC/eKt5xESg9kQ1NVPSBSnWQ7
+         qO0kfoUzxSNZV57cI+dGGymAafhoJE2yWRI4J41iLJvJxGT0t+79HCpZQ/1Eav1hyb10
+         Dig/DrTGwyy5CVGIeHmAl1MVQr+wr+uddVZicmaq6C696R8bXn/2BIwB0X0CL9B2IUXD
+         DC7cGXt7GvIWrfwvHM0CH9tHW4qi7IhToMzcZCTRVC+/R1iUQ0jgNY7w6kYFPLjOCwIW
+         WTBQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe:date:to
+         :mime-version:subject:message-id:from:dkim-signature:dkim-signature;
+        bh=7qeKY/QE8FYuxODPFI9+O/+0XCpmfvCo7EnDTw7/XHw=;
+        b=PPOHw44JZBIreI4C8a6+qLsxRya5jI7SbK017uU+VRzmMym0uVK6sXeemyDDtOA3bw
+         z94QbtcMtAOjECa8ti90ALlerPcdBqS5jyeg3P9zPWhVQTL2hVUD3YJOxq/NUwciH+X6
+         sXi4IdNnxxVDZTUS3GbNpPdVt0bjqxnxwxgW5QYEL0RoDCau/lZidmOgIvndm6eVM4nC
+         PDvlbSpA4pBqf6uNPWNJBpDKVMpGJHkIKqqhDQNOdOjKdHSL5/s8D9RkMt/3Sa5OTiIs
+         InXYO9XSEfRJGzO5os5yaSnOQtIMjKOarCCIEX+nt/ZG4qbN3nwwNlA8IMOBQ0vfpIAa
+         V73Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@linkedin.com header.s=d2048-201806-01 header.b=E1VvlsID;
+       dkim=pass header.i=@maile.linkedin.com header.s=proddkim1024 header.b=GlmyQu8J;
+       spf=pass (google.com: domain of s-2h7ero5xgoz0b4rokca1dtqdfu3w987do7mjck366075dbvlm0m1uusk@bounce.linkedin.com designates 2620:109:c006:104::203 as permitted sender) smtp.mailfrom=s-2h7ero5xgoz0b4rokca1dtqdfu3w987do7mjck366075dbvlm0m1uusk@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Received: from maile-bc.linkedin.com (maile-bc.linkedin.com. [2620:109:c006:104::203])
+        by mx.google.com with ESMTPS id dt14-20020a05620a478e00b0075d969ed4f0si3101846qkb.691.2023.06.10.00.13.52
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 10 Jun 2023 00:13:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of s-2h7ero5xgoz0b4rokca1dtqdfu3w987do7mjck366075dbvlm0m1uusk@bounce.linkedin.com designates 2620:109:c006:104::203 as permitted sender) client-ip=2620:109:c006:104::203;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@linkedin.com header.s=d2048-201806-01 header.b=E1VvlsID;
+       dkim=pass header.i=@maile.linkedin.com header.s=proddkim1024 header.b=GlmyQu8J;
+       spf=pass (google.com: domain of s-2h7ero5xgoz0b4rokca1dtqdfu3w987do7mjck366075dbvlm0m1uusk@bounce.linkedin.com designates 2620:109:c006:104::203 as permitted sender) smtp.mailfrom=s-2h7ero5xgoz0b4rokca1dtqdfu3w987do7mjck366075dbvlm0m1uusk@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com; s=d2048-201806-01; t=1686381231; bh=7qeKY/QE8FYuxODPFI9+O/+0XCpmfvCo7EnDTw7/XHw=; h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl; b=E1VvlsIDJuHC737S900H7w+Bjg8nITIhepb2dQn1pe4T1pZNW9Cqnr0BngD8mdUli
+	 eUNhYkbBpIGZn5iomPMxeew3HnhhnNTaLWpMNcGKXgYeLKU/eRriq8Ev8P4BYbr+ET
+	 KiPjqOthTGp5VwulsZkJcoNWfg1q7BP30Ka/3bgHpvq07HbSn2AD5mrqL8Lzz8Qd/S
+	 9nQXnNj1OB366wi3FoQq+TM7Tr3gg6Wmxc5J8oLu5qIdmfQ3NW/FPZ5VKyw+TR4gFO
+	 eUibVXiEYi+Y16/xezRqGaBW5oF3VpKaPB6ctdXy837H5/HB/tg8eD99EnhxRAzENS
+	 UL8ZwF2CtFO5Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com; s=proddkim1024; t=1686381231; bh=7qeKY/QE8FYuxODPFI9+O/+0XCpmfvCo7EnDTw7/XHw=; h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl; b=GlmyQu8JbPPyHrtiFTnsiIpPbgKg7xXw+jxslpwy+0UtmgVMYoiIW2+NdNsSv6RnX
+	 s2OKmmK3NVoQHyhHvDaZwNqV/MNau4M8ENAw9fPCvpSmdT800rYaMxJIMADXp48HQT
+	 VKA1utrBpk0LOcd33aI3O7dA5+6eZpSK5cQisb5c=
+From: " C o n g r a t s " bruce@untroubled.org
+Message-ID: <OKilKIHrlV.FDQKJVc.ZEoxHtirosfPu@ltx1-app91233.prod.linkedin.com>
+Subject: congrats, you've been selected .... bruce
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_6328893_1242721375.1686381231228"
+To: bruce@untroubled.org
+Date: Sat, 13 Jun 2023 07:13:51 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_notification_single_search_appearance_01
+X-LinkedIn-fbl: m2-aszx19y2pzl4ol80tn7n7cfy7gxct2f4gdh9kfv05hsyyby9bya0pyfw55ywihzjk6i5d7b797nbcaorfmzw7p3yh7wvlp9epgmk4n
+X-LinkedIn-Id: 6hvpn1-lipnp283-m8
+Feedback-ID: email_notification_single_search_appearance_01:linkedin
+Require-Recipient-Valid-Since: bruce@untroubled.org; Wed, 24 Dec 2014 17:36:50 +0000
+Content-Length: 1707
+
+------=_Part_6328893_1242721375.1686381231228
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html>
+<html>
+ <head></head>
+<center>
+<a moz-do-not-send="true" href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#bkY2dklEQitjelE1Vi9PRFJVOUdUdTMrRUdZSEMxTWJ2Q0YxeGxVRkZDOU9pOEM1ZjNEUkFDSnhsZlluMWcwK3NGUytITzAwYjlFMXJmV1M4THRPT1dkMm8wZGY0d1o5VENLeWM3aWtpSFU9"><font color="red"><i><u><font
+          size="6" face="Times New Roman, Times, serif"> ANSWER & WIN! .... Breville Coffee entry! </font></u></i></font></a><br>
+
+<center>
+<!-- Image Map Generated by http://www.image-map.net/ -->
+<img src="https://pbs.twimg.com/media/FyWJPNlWIAI0oU4?format=jpg&amp;name=900x900" border=3D"2 usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#bkY2dklEQitjelE1Vi9PRFJVOUdUdTMrRUdZSEMxTWJ2Q0YxeGxVRkZDOU9pOEM1ZjNEUkFDSnhsZlluMWcwK3NGUytITzAwYjlFMXJmV1M4THRPT1dkMm8wZGY0d1o5VENLeWM3aWtpSFU9" coords="7,5,586,824" shape="rect">
+    <area target="" alt="" title="" href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#NnFLZ0NKOHZUVExsb0owT1NHeVNXNGRBTU1kZnJjOEhJNUV3dmJENzYyTUdjczhmc1l4TWp1V3dkU1JOUVV4Z0F3WW9RQmVzTHBBRGsxZVU0UFNJbHlGbExPQnNCYWRmdGVQRHZHbUtpaVE9" coords="496,851,591,882" shape="rect">
+</map>
+ </body>
+</html>
+
+</html>

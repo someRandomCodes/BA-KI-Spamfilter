@@ -1,0 +1,45 @@
+Return-Path: <noc.team@fibermedia.co.id>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 288170 invoked from network); 30 Aug 2023 22:08:28 -0000
+Received: from smtp-client-4a0.tachyon.net.id (smtp-client-4a0.tachyon.net.id [101.255.0.34])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 30 Aug 2023 22:08:27 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by smtp-client-4.tachyon.net.id (Postfix) with ESMTP id BCB1A4E2BE0;
+	Thu, 31 Aug 2023 05:08:23 +0700 (WIB)
+X-Virus-Scanned: amavisd-new at smtp-client-4.tachyon.net.id
+Received: from smtp-client-4.tachyon.net.id ([127.0.0.1])
+	by localhost (smtp-client-4.tachyon.net.id [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id efvR-JrC4NW9; Thu, 31 Aug 2023 05:08:20 +0700 (WIB)
+Received: from mail.tachyon.net.id (mail.tachyon.net.id [202.182.48.2])
+	by smtp-client-4.tachyon.net.id (Postfix) with ESMTP id 8F7974E2BA3;
+	Thu, 31 Aug 2023 05:08:20 +0700 (WIB)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=tachyon.co.id;
+	s=smtp-client-4; t=1693433300;
+	bh=q9bZEchO5GJ6nqujfdzL/lUcbO0hI8tjRrJhJgLjiMk=;
+	h=Subject:To:From:Date:Reply-To:From;
+	b=Si/s2y++8xm3qLcVNKf2zPdxyUHnwcJXjv0Q8dWl07Vc2acc9qQgM/Qk6g8WHNk65
+	 yyYiGmXLyszxOAvq9bemQy5DqHb/uUK2Af9bzitk4JV9CcwH4DnaRJXAnWcSwFUrxe
+	 QLnk220S24e5FpBmt1YgDmttm1/uEAuJxS4rSfmbE7K6yiqYtmgA5cjcIFtuOHqPzm
+	 ZkFuC5jN+FQU3Z1A17tI61wxZ5LMPY05QIJGp48fc+YOEciTAFlDz9RKPvv/WlvLyT
+	 KzJqrOkCZWCBxmjnvas9NpkgowTUG6gMbLbMNBPL5ZWvDXuYuC5f3Czq96pJlwZiRp
+	 WVxkPowlaaUxQ==
+Received: from [104.237.200.66] (unknown [104.237.200.66])
+	by mail.tachyon.net.id (Postfix) with ESMTPSA id 8357335FAC90B;
+	Thu, 31 Aug 2023 04:51:13 +0700 (WIB)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Donation
+To: Recipients <noc.team@fibermedia.co.id>
+From: "Standard Chartered Bank" <noc.team@fibermedia.co.id>
+Date: Wed, 30 Aug 2023 14:51:08 -0700
+Reply-To: customercare@help.sc-ukonlines.com
+Message-Id: <20230830215113.8357335FAC90B@mail.tachyon.net.id>
+Content-Length: 230
+
+We are delegate from the UNITED NATIONS and WORLD BANK to pay 150
+victims of scam 1,850,000.00 EUR each. You are listed and approved for
+this payment as one of the scammed victims contact Email:
+customercare@help.sc-ukonlines.com

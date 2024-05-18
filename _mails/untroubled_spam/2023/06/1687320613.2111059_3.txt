@@ -1,0 +1,92 @@
+Return-Path: <>
+Received: by 2002:a05:6022:a11b:b0:41:f7d8:191 with SMTP id N80dzPlG06XZn0yJc;
+        Tue, 20 Jun 2023 05:37:35 -0700 (PDT)
+X-Google-Smtp-Source: ACHHUZ7QlJ32BQbkHgYrc/v7Ylxb53ZMmhh0YjUqmIYOSOT54LDZKh7mIjGyTT96BYMA9zTK3gDp
+X-Received: by 2002:a05:6214:e6c:b0:631:f1b2:332a with SMTP id jz12-20020a0562140e6c00b00631f1b2332amr3347287qvb.12.1687264655070;
+        Tue, 20 Jun 2023 05:37:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687264655; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FYfSlEea+4jtSbqmJro0yZfEKcMqpmh26zvdt6CV7By9hNfTp17aUMJGxpX8OnZH6n
+         o/f/qIoK12c5jD0OEqYisRk3D2J754mENZZRn3UINgUmapX20ICV3CjfKG7zM8h5Xj97
+         gR7NLbV1RMgMDGRvcJ9uVXOpUETnsfq4lDGYEeB4s8AYj603giNZaAwRotmT29OkBMOq
+         iNpZrTH4zYszmbHBBffkBnTP5toEUNtpWNvC/l8Ns4o2Pc7UWhD2eYHoCqV8gK+DmowB
+         M14gY2iLJsWL2paL9b1HGqm4xNoJVfqrkaovt+p5AiEX/Z8U898kNwaUEEE3XXJ+mwPU
+         hE0w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:references:in-reply-to:message-id:to:from:date
+         :dkim-signature;
+        bh=BobsLqSAQXX8HeXBCG/RdIUWs9++jFp/TnRG0eiPEo8=;
+        b=f5sy54fxRVGvuVfQf+mnh4A4ncZ1K4ztkqzC5SpHkt63Et2E8UUCu1E4R+9h2F7WYh
+         eoq40Z4wEjOkrn6OVzAPDN55u8mtjOxpvmKiSluMWCw5Imm9JgKEE4eEElhvPh6Cq86A
+         TGxdZniuaqOCFMqafmhv1joztXflukD+VEG8EuokblwXojKSpAOq9T3/GQhBbTjGgHV8
+         oBaqBKYX0/Mqly0esN76KmL1Oft3M6RYOKtkMgurBIuqrCqag8MEZy3FNR24Q7JOdwoB
+         WOuvhdrZeK2nPh/bObfji++NTiQa5v8uSMXgmlPMZkSf63h2nqDmJXN7pbCqsQcWQZfc
+         8w7g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=QlgRMq9q;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Received: from sonic312-23.consmr.mail.ne1.yahoo.com (sonic312-23.consmr.mail.ne1.yahoo.com. [66.163.191.204])
+        by mx.google.com with ESMTPS id jv6-20020a05621429e600b006287923b3e7si817688qvb.40.2023.06.20.05.37.34
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 20 Jun 2023 05:37:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) client-ip=66.163.191.204;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=QlgRMq9q;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1687264654; bh=BobsLqSAQXX8HeXBCG/RdIUWs9++jFp/TnRG0eiPEo8=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=QlgRMq9qwQU6a5jEyXTlCoUkRhtYybeK8BzCe/v/LnPs5ANZWfxPnuOcUr3WglHiWDuRUloUP70kHntCMhDgWq4QZk8L47EvntXifWzFKNptI5BgkwM4iPiHMib4es5kgbNHb/ClV5GwNj8y28PR4ndZhFg5fpalWk3/c3njjza8IpnyKeFNwJyf8fg4Yj5HsaDXEbjkuWjT2X3FLrzpM0sPYZ7UlS+VxKM/PZiQeRKRHG9YcldVIz+ng8AgNW3W6oV4k2SorDt94/zStB27azkHzRfIXiykFfBOvdVwhTUdr6yYnEMmZrLBc0YTc8Klsn/nwvJsOgvfE0OyZo3OOw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1687264654; bh=uyNtVJyk+j0pN9RhXLNtJkAPa0xr+w/FAcSOKN8TgvV=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=I+j2gmSa1zfuRCT/iuv4KZAT4hwViYXIazKAZe4joarAv5bwSRbXdjV50NqzuTS3OUGLNQbQxlzmLstvF7PYzPNmBxg7KwcuDbFTZIFDLZGmdIrz80RL55mdKPpUO/LstXbGPCPElS6u+jPVSJI7ImriCZtgdsePBMXxt1Fjute9WH5EUSrzefN6iNLHcdHevGRXmVS6qu5H+BInjgPV/y7B2dhlFCkXwazjSntOCmsNS889q7Rpoew+ZXxR3wOKnC5DI9bYAnLMhfvpqE9qQR2dXGJ0xyQ0AgPPfKnawitxnHNFc1Oo8lU+ynj7xo6LKuGacJ0j4a0OrxQOGMpALA==
+X-YMail-OSG: wBQ_JgkVM1mrCK6mkRCs9Kbe25roBQUyCD32yOQb2m0RMuYESzl2p45gZVS6V83 MFSGOrdRVnGEQGh1sidrzfBV0q7SQvkS3Pby0l5uSyarTTDs3yaNtrSMkP76qtVDsYsM2Opo5Udm 3WiuhXfFMyUBy84w.UvX4hX07yH7zgQE14f_2sZF2lk5oyz4UAhKB..3vXb_.Dh8r8LNbkhlYQ2u 1i2KmGz4DSGiPz6ZsEGZNI9CrT6CQUuuH8aLoOsdMO5m7ThomnGz9d9BEKcSrTtcc4Npid8R_r7q 6AJtvtAPeOnvbILoodlfqTES.ADb6uZn6klfOYPocr5UEjoJUU9fPd9TyJWjkZoNxabPzccuNpzr zQdRVHrdbWEK52A.WjeN.X7_Rvuk8o4RJU6XoAP7S8gF9aawtkraTMpkAAyohVP8U2ryPwSLr9d5 RXddfRhONaAwvJS2tQjYXmQytitnTT7CYHhXotScDq_RgWxr1WEgnosA.qOZJGA5qbxKlAxlNdTk KyzR6lDRZUkV0zitWpfeYR1glhP8hd0_PdUcgdY6xdat58PZCLTm.HNU0siaR45mupkBNPkMsjpu k5G6BgMKP68L64lc3MhU13W4r0xl8ktRXw5YaC8vG6woYaTnEDDUJGwViTVp7PDYfCGCOJVyGwv6 LJWDSIdcwZwJiH1o8j2f2z652MebDG9hPltRTusONnuFbIXFDwUDfZZGBWnRjiUq7BskvDnGJI0i auEI1FD3AM1mxH99o5fay_wyU_k9XhaZxVAAALDhnvN6mw3uoX4YD5FATcDKwYgSk_VuqwOhQwJi jnasdSOG41KW2liDf_BKDMGDoYgqRBczx26bJ4QPnoZzOWsLBTKWfPbQHvYaXx8sDsHPsxvdFce_ TZExB5mIx9gh2P9PwKhuGgK.fhWXrcmtZb.H_MH9coGOkvVZ3dF4X1Wwdytgnpkf35.7_s8QHZi8 QhRPunoI7EzbgET_BkhbZ4HYgRgZgXESkg6Zu9U.UtscpkBtsFQLQG5NS8BD92y5XxziSpss8ETb YFqfJl65IktaxlMBaL5v5MyC3U8La7xc.JAtdRJc4Qywd_qhEydwnQEfyCMIrWjIFFLQNPn3O09m l2._JeZ_K37fDRlzE5CjPlx1OFuvLTQXAgMWR98v0b43CgdjnBhc.9TX1NnWCYV4DuNRO95vOti0 L9e3J84tmTCgpYoz1OcN4_qWYT2_4sL1xmS0MWNnCRjr1S6tDvJ1Cr.W9FfgHMHrSh_gqntXRJgb Mv2Chmv75XYSUPaW2pbzidTwLCL_6vWdxw1bYXhPYNKwFWcqsDoRcRFUS365Mgk9mQfFbrvja9fY 5AHRytNK7vqKeFeF6qlce1xjSBdW_M3FB6IqfCRiWiwwFqK5Cq9kyxuIJKKyr0RRVmLy87w21Q3H s2S6xx74k_X8kEKrTm8Q8mQ3FVv7k5HlQeQzRcP2_eZD2C5a1XlUF2ykK5xJ9ERQgryVOcbOI_CD 0Fana0cXoG.wuLt8xN3ZdiTkYncmEYmjb6qJyvoJwQ6PwKEBoLbOCfgA4EWdJtkLx25VH0PhRCmn 7pe.AutHulNs2ZEY3hYl_i00JDQBZd5TCeiJjxFGHGceCu1F_0Xswv6QDOZ3UPp6KlghTHLtsR2A PSGBdbgICFpfWbcbPJ.mMZN2Wbt5SbVavvlTL8tcGmShIUrRE0LGZOIvR3EMQrJ0A003beI8awFI NCzY3Ma61qnKRRUi58trpOaZi_Y7.WYU.H8hQaNXBVuLgEa3rSQJwJwN1VuLcRYDsJE6S7iJGso5 BszTzFSW7wT3j.mYZiEsXVsjpyoqKbC.iDPp_9KSixKcA1ufkTZ2tv7a.pvXxZ5euPxEPTNezQNx P7Ds_6daf51Lio_XU.Db2m6tE2iQvgj6ysLo9XPO5jU9K8pV.qbDp4cka.4DMyPEt.DClm8dA1ly ARwAsl8weyWR2Pi_2o0rbD9Pe4ypgs_7Fa.zJOOZJ5QsIGaS05rguzjEmD.COKofdmYr3vjZa11u MULC3gyX4v8X2R3ORynf4U.WhzTYZLI8rtMLeMlrznyka_ZK1a3QnbOsbFYpUvU7qMiZI3SP.wg8 foV17Xys_A8ltdwP1gWTzYC5BL52GeThJUbH4ojcj1ZqC7HYXc4ZGZJMD789SckCyAWn1Da8SYMS yqFiFYg--
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-ID: 5474a02b-eebb-4ec2-bf53-3a9567b2171f
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.ne1.yahoo.com with HTTP; Tue, 20 Jun 2023 12:37:34 +0000
+Date: Tue, 20 Jun 2023 21:26:06 +0200
+From: Thank you! Pickupsavings <bruce@untroubled.org>
+To: Thank you! Pickupsavings  <bruce@untroubled.org>
+Message-ID: <aeeC2ZRZQAXGAuUgX6eP.KU9PlxItBt.myQ8oaYxaBxyRle.PBK8oCtYyw.IFXzH@j1Zb4ZLL.eintracht-lab.de>
+Subject: Congrats! your CVS Reward Shipped?
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21557 AolMailNorrin
+Content-Length: 3435
+
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>CVS Anonymous Survey!</title> 
+  <meta name="viewport" content="width=device-width" /> 
+ </head> 
+ <body>
+  <center> 
+   <div class="container" style="padding-right: 15px; padding-left: 15px; margin: 0 70px; width: 800px;"> 
+    <div class="row"> 
+     <div class="col-md-12"> 
+      <br />
+      <br class="hidden-xs" /> 
+      <h1 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; line-height: 1.1; color: #333; font-size: 26px;"> Congrats! You've been selected to participate <br /> 
+       <!-- #ff9900 --> in our monthly <a href="https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#Qy9WUjVhTm83TlJHdDIvdG4yR3lhd3BxRloyZCtEdlhMTGN3aTZBeUE5alI2Mlp5VENtUWdRVjdudGJFSHVNMGNGZWxxVFBsRnlNR0ZDd1dENXpXSFRMdkRCYjBoNkYrV3dLdldiY0R5M2Q4SXpHMkd2YlZkUXdiSkU5WDFVVGYxY0Y3L3RWRlpFOUZBSkl5bGw0MDZBPT0_" target="_blank" style="text-decoration: none;"><b style="color: red;">$100 CVS Gift Card Promotion!</b></a> </h1> 
+     </div> 
+     <div class="col-md-12"> 
+      <br /> 
+      <a target="_blank" href="https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#Qy9WUjVhTm83TlJHdDIvdG4yR3lhd3BxRloyZCtEdlhMTGN3aTZBeUE5alI2Mlp5VENtUWdRVjdudGJFSHVNMGNGZWxxVFBsRnlNR0ZDd1dENXpXSFRMdkRCYjBoNkYrV3dLdldiY0R5M2Q4SXpHMkd2YlZkUXdiSkU5WDFVVGYxY0Y3L3RWRlpFOUZBSkl5bGw0MDZBPT0_"> 
+       <center>
+        <img border="0" class="img-responsive pull-left" src="https://pbs.twimg.com/media/FzFXKvmWAAM6hzp?format=png&name=small" alt="" />
+       </center> </a> 
+     </div> 
+     <div class="col-md-12" style="margin-top: 20px;"> 
+      <h4 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; line-height: 1.1; color: #333; font-size: 24px;">Take this 30 second survey about CVS and <br /> we'll offer you exclusive rewards over $100</h4> 
+      <a href="https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#Qy9WUjVhTm83TlJHdDIvdG4yR3lhd3BxRloyZCtEdlhMTGN3aTZBeUE5alI2Mlp5VENtUWdRVjdudGJFSHVNMGNGZWxxVFBsRnlNR0ZDd1dENXpXSFRMdkRCYjBoNkYrV3dLdldiY0R5M2Q4SXpHMkd2YlZkUXdiSkU5WDFVVGYxY0Y3L3RWRlpFOUZBSkl5bGw0MDZBPT0_" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; line-height: 1.1; font-size: 24px; color: red; text-decoration: none;" target="_blank">Click here to get started</a> 
+      <br /> 
+      <br /> 
+     </div> 
+    </div>   
+    <div align="center"> 
+     <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br /> If you'd prefer not to receive future emails, <a href="https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#OXViM1VSNjF2c0RvWnlHTWl3aGZvbFI0M0tMK014T3dTVm1lcHBHa3ZRTUgwTDR0QjNwaXU2Wjh1NW1JeEpuZThOQVFKT05FeDl3TlltZmhtQXIvK3crK2RZcjRkYkIzWUFxUXlpS1pPT3BVcGc4RGR3RWM5NXJ5d1RwM1ZiWkdlai9GK1dsTHVVZnhWczlLMjVJQU1nPT0_"><font color="#666666">Unsubscribe Here</font></a>.<br />337 Garden Oaks Blvd #67967, houston, tx 77018</font> 
+    </div>    
+   </div>
+  </center> 
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#eGVuc1NGdE9oaDc4Q2gvSzh1eEw2dXE5UGppd3RXKzFiU2tzbUFSOCtoNFYwU1g4SjVlTGNTd0FxblVIOXJKZkM4TDY2akhpTzJQZENEUENMSVdLWHlxeXoyTUFwWXFtZFpHOEJIS0w2c0tyeHlrcmIvTERhZVBpaWdOeDFPWC9URGR2cTRka294djZDQ1B2aXJsQVR3PT0_">here</a> to remove yourself from our emails list</span><br/><br/>

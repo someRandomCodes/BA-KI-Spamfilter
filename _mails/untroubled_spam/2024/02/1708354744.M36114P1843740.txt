@@ -1,0 +1,156 @@
+Return-Path: <humbert@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1882705 invoked from network); 19 Feb 2024 12:14:23 -0000
+Received: from mail-ej1-x644.google.com (mail-ej1-x644.google.com [IPv6:2a00:1450:4864:20::644])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 19 Feb 2024 12:14:22 -0000
+Received: by mail-ej1-x644.google.com with SMTP id a640c23a62f3a-a3e7f7b3d95so117890866b.3
+        for <bruce@untroubled.org>; Mon, 19 Feb 2024 04:14:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1708344861; x=1708949661; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=DpbHkjldEKSxi86zAQyGMkNKnYyRqPgEkG2ovJJYZ74=;
+        b=REYm7oZs4xD6VfZ/MAlT9JAsz/Fe37Lp9cn5uqGOl/6cuDlGfXfdLiufsXHiIt6InX
+         mCk08AJ8CInxa1cJ/i3GsBXDOGnZvadDPf1FUxh3W8558xfvr0dEGmMnO/jaXZyUD7yp
+         w1rCUFIASLhIUt9tP3Gta1lWLVnnCEwudh08bbo5iwqUJc7iuYshQ+pBqmtrJUKja7hQ
+         o6i8+SGilbnRddJ1zFkIBigX0lO42NsR5G1pQCtim+vkGkN86cDbnoJ34uh5N0okpkNI
+         wC/RZeKFOqV+ne/2N0DW2TBXf2GJ8eC79gqc0s98z5x2elrM4QPLI9adGJNIC8RKkpBf
+         PJ5A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708344861; x=1708949661;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=DpbHkjldEKSxi86zAQyGMkNKnYyRqPgEkG2ovJJYZ74=;
+        b=IQQ5/zngqGA3MdGMMMbhfRdaW7uelGFtbu3vS5SOKRU7A/Uf8tCNeIW5T8M+0idzr1
+         y9hSyEfAxq8Pm2ZS/cKHA4DZX97R4PihR1aPu0rQlf9JGW6A6NbrrU4xEEorzmNejd9d
+         KHx7f9r/dn7YQmuXVZHfG0jAJoHu163BDiaY+v+H8NyJZs/guEtK7aCl1i9zZ/sPI87K
+         o7XRgTgrWaJkexS43DKstcDwcYXCQ+YHXwhhsiwEQ3jZ6eGRi9LeTdHp8QxisC20dkBO
+         yQ9ibq3Z6Ylk4hbB8Su1aNsxpHRXln9u/Qe/AlkvAdUY1TG35K7ZXi37fcEOEIY2LMC6
+         /JXg==
+X-Gm-Message-State: AOJu0Yz+oXRcJgIjpWjs/erJ5GLFrcgtUT96gVzbluNuuF2bxIpLQu5i
+	YTkV5Sy0pSUcq8HxLI5t55DOd0ISBhGrQPjfBFEgIjnu2VnbYS0vkypZ7bUdo+OAebsa3pLZ0sd
+	yVMMAPB9S+VtmJ2yZ4QGY1hB9gnq/piT373rV+xYxxehyA88ImJQ=
+X-Google-Smtp-Source: AGHT+IH1IyfMWcNx1uMw2EPv4ZFHfW20e3bnP8pHYPvHSxklGmAcXNFvuK5deyRDoQ63F7Phri2BpqYLn3kijdTQsMU=
+X-Received: by 2002:a17:906:34cc:b0:a37:b8fb:50e0 with SMTP id
+ h12-20020a17090634cc00b00a37b8fb50e0mr8432405ejb.52.1708344860813; Mon, 19
+ Feb 2024 04:14:20 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 19 Feb 2024 13:14:20 +0100
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 19 Feb 2024 13:14:20 +0100
+MIME-Version: 1.0
+Sender: Humbert <humbert@smartstreamingott.com>
+From: Humbert <humbert@smartstreamingott.com>
+Date: Mon, 19 Feb 2024 13:14:20 +0100
+X-Google-Sender-Auth: eA3zGFveKaBB-2-WIwCJyyEOX4g
+Message-ID: <CAFV1Lmj0c02wWPu9JUCh3UETA2yPnSRNCSBoHkjN3Rj9gBWW5A@mail.gmail.com>
+Subject: untroubled.org : Use Rixotrix CRM to make your revenue 10X
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000009534b80611bb0882"
+
+--0000000000009534b80611bb0882
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>* Owner,
+
+I am here to* design trendy SaaS, CRM* and admin dashboard UI UX dashboard
+in Figma. During my career, I have created dozens of different Web App
+Designs, Dashboards, and Software UI/UX Design.
+
+I have worked on many UX/UI projects and focused on increasing user
+usability, visual appearance, to improve a great User Experience.
+
+Services:
+
+
+   - Admin Dashboard UI/UX
+   - Multi-Panel Dashboard UI
+   - SaaS and CRM Dashboard
+   - Website Dashboard UI
+   - Dashboard Wireframes, Mockups, Prototypes
+
+Expertise:
+
+
+   - User Research
+   - Information Architecture
+   - Wireframing and Prototyping
+   - Interaction and Visual UI
+   - Mobile and Responsive UI
+   - UI/UX Trends
+   - UI Pattern Libraries and Design Systems
+   - Effective Communication
+   - Feedback and Iteration
+
+*If interested?* Let's discuss further. I'm available via Phone/Skype for a
+direct conversation.
+
+Thanks & Regards
+
+*Humbert Shelton,*
+
+Web Developer
+
+-----------------------------------------------
+
+Note: - If this is something you are interested in, please respond to this
+email. If this is not of your interest, please reply with No
+[image: beacon]
+
+--0000000000009534b80611bb0882
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:14.95px"><font face=3D"verdana, sans-serif">Hi=C2=A0<b><a href=3D"htt=
+p://untroubled.org">untroubled.org</a></b>=C2=A0Owner,</font></p><p class=
+=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=
+=3D"verdana, sans-serif">I am here to<b>=C2=A0design trendy SaaS, CRM</b>=
+=C2=A0and admin dashboard UI UX dashboard in Figma. During my career, I hav=
+e created dozens of different Web App Designs, Dashboards, and Software UI/=
+UX Design.</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;li=
+ne-height:14.95px"><font face=3D"verdana, sans-serif">I have worked on many=
+ UX/UI projects and focused on increasing user usability, visual appearance=
+, to improve a great User Experience.</font></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=3D"verdana, sans-s=
+erif">Services:</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10=
+pt;line-height:14.95px"></p><ul><li><font face=3D"verdana, sans-serif">Admi=
+n Dashboard UI/UX</font></li><li><font face=3D"verdana, sans-serif">Multi-P=
+anel Dashboard UI</font></li><li><font face=3D"verdana, sans-serif">SaaS an=
+d CRM Dashboard</font></li><li><font face=3D"verdana, sans-serif">Website D=
+ashboard UI</font></li><li><font face=3D"verdana, sans-serif">Dashboard Wir=
+eframes, Mockups, Prototypes</font></li></ul><p></p><p class=3D"MsoNormal" =
+style=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=3D"verdana, sa=
+ns-serif">Expertise:</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0=
+in 10pt;line-height:14.95px"></p><ul><li><font face=3D"verdana, sans-serif"=
+>User Research</font></li><li><font face=3D"verdana, sans-serif">Informatio=
+n Architecture</font></li><li><font face=3D"verdana, sans-serif">Wireframin=
+g and Prototyping</font></li><li><font face=3D"verdana, sans-serif">Interac=
+tion and Visual UI</font></li><li><font face=3D"verdana, sans-serif">Mobile=
+ and Responsive UI</font></li><li><font face=3D"verdana, sans-serif">UI/UX =
+Trends</font></li><li><font face=3D"verdana, sans-serif">UI Pattern Librari=
+es and Design Systems</font></li><li><font face=3D"verdana, sans-serif">Eff=
+ective Communication</font></li><li><font face=3D"verdana, sans-serif">Feed=
+back and Iteration</font></li></ul><p></p><p class=3D"MsoNormal" style=3D"m=
+argin:0in 0in 0.0001pt;line-height:12.65pt"><font color=3D"#000000" face=3D=
+"verdana, sans-serif"><b>If interested?</b>=C2=A0Let&#39;s discuss further.=
+ I&#39;m available via Phone/Skype for a direct conversation.<br><br>Thanks=
+ &amp; Regards</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10p=
+t;line-height:12.65pt"><b style=3D"font-family:verdana,sans-serif">Humbert =
+Shelton,</b><br></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;lin=
+e-height:12.65pt"><font color=3D"#000000" face=3D"verdana, sans-serif">Web =
+Developer=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10=
+pt;line-height:12.65pt"><font color=3D"#000000" face=3D"verdana, sans-serif=
+">-----------------------------------------------</font></p><p class=3D"Mso=
+Normal" style=3D"margin:0in 0in 10pt;line-height:12.65pt"><font color=3D"#0=
+00000" face=3D"verdana, sans-serif">Note: - If this is something you are in=
+terested in, please respond to this email. If this is not of your interest,=
+ please reply with No</font></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2GGY4_ggIQ=
+6Nr_Z3SUVOeTTJpbl_uqKPQj8iCD4CbX6AY3UnBjQFfG2oK1CVNv1HAT0GZZKGt6Q3xpIIdwpZm=
+ir923vuNp-RGLtXCvxvgBzwiWdVk2R5VA-dveBJWvHQ6eBwGJqsS_peMMT7_kxpKhb0Yoc5YZ-K=
+t02MJ8MsG" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; d=
+isplay:none!important;">
+
+--0000000000009534b80611bb0882--

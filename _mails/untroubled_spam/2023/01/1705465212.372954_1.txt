@@ -1,0 +1,87 @@
+Return-Path: <noreply@github.com>
+Delivered-To: untroubl8492-github@untroubled.org
+Received: (qmail 362455 invoked from network); 16 Jan 2024 22:38:05 -0000
+Received: from out-23.smtp.github.com (out-23.smtp.github.com [192.30.252.206])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 16 Jan 2024 22:38:05 -0000
+Received: from github.com (hubbernetes-node-2ce76e9.ac4-iad.github.net [10.52.223.27])
+	by smtp.github.com (Postfix) with ESMTPA id 9CF8E5E0815
+	for <github@untroubled.org>; Tue, 16 Jan 2024 14:38:04 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2023; t=1705444684;
+	bh=cNCR6V03EHTLObdJnzv/PTDFbu6ZlxcM4usfd3G9WBc=;
+	h=Date:From:Reply-To:To:Cc:Subject:List-ID:List-Archive:List-Post:
+	 From;
+	b=HLxTCgFnckRR+pMRncVevie/uycbpChpUlqkD/AaMgxTkCzYmLqa0Nue9sg1UdQ+T
+	 k4kZ6EHsl3Jb/33v81qt1xhxjJjjM00lNaCgGyWdFn8sKdCXrnMplf0VpqM3k4JkeJ
+	 DozDscU7vX6N33XLAPXI1Zu43afJA72qnHt+RjCM=
+Date: Tue, 16 Jan 2024 14:38:04 -0800
+From: "github-actions[bot]" <notifications@github.com>
+Reply-To: xiph/rav1e <noreply@github.com>
+To: xiph/rav1e <rav1e@noreply.github.com>
+Cc: Subscribed <subscribed@noreply.github.com>
+Message-ID: <xiph/rav1e/releases/137303647@github.com>
+Subject: [xiph/rav1e] Pre-release p20240116 - Weekly pre-release
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_65a7054c99270_cc17342401d7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Precedence: list
+X-GitHub-Sender: github-actions[bot]
+X-GitHub-Recipient: bruceg
+X-GitHub-Reason: subscribed
+List-ID: xiph/rav1e <rav1e.xiph.github.com>
+List-Archive: https://github.com/xiph/rav1e
+List-Post: <mailto:noreply@github.com>
+X-Auto-Response-Suppress: All
+destinations: github@untroubled.org
+X-GitHub-Recipient-Address: github@untroubled.org
+Content-Length: 3026
+
+
+----==_mimepart_65a7054c99270_cc17342401d7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+-- 
+View it on GitHub:
+https://github.com/xiph/rav1e/releases/tag/p20240116
+You are receiving this because you are subscribed to this thread.
+
+Message ID: <xiph/rav1e/releases/137303647@github.com>
+----==_mimepart_65a7054c99270_cc17342401d7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p></p>
+<h1><a href="https://github.com/xiph/rav1e/releases/tag/p20240116">Weekly pre-release</a></h1><p style="font-size:small;-webkit-text-size-adjust:none;">Repository: <a href="https://github.com/xiph/rav1e">xiph/rav1e</a> &middot; Tag: <a href="https://github.com/xiph/rav1e/tree/p20240116">p20240116</a> &middot; Commit: <a href="https://github.com/xiph/rav1e/commit/1496fed48c3f55d3608ce5627ff3f14bb80b649d">1496fed</a> &middot; Released by: <a href="https://github.com/apps/github-actions">github-actions[bot]</a></p>
+
+
+
+&mdash;<p>This release has 25 assets:</p><ul><li>Cargo.lock</li><li>librav1e-linux-aarch64.tar.gz</li><li>librav1e-linux-avx2.tar.gz</li><li>librav1e-linux-generic.tar.gz</li><li>librav1e-linux-i686.tar.gz</li><li>librav1e-linux-sse4.tar.gz</li><li>librav1e-macos-aarch64.tar.gz</li><li>librav1e-macos.tar.gz</li><li>rav1e-ch.exe</li><li>rav1e-linux-aarch64.tar.gz</li><li>rav1e-linux-avx2.tar.gz</li><li>rav1e-linux-generic.tar.gz</li><li>rav1e-linux-i686.tar.gz</li><li>rav1e-linux-sse4.tar.gz</li><li>rav1e-macos-aarch64.zip</li><li>rav1e-macos.zip</li><li>rav1e-windows-gnu-avx2.zip</li><li>rav1e-windows-gnu-generic.zip</li><li>rav1e-windows-gnu-sse4.zip</li><li>rav1e-windows-msvc-avx2.zip</li><li>rav1e-windows-msvc-generic.zip</li><li>rav1e-windows-msvc-sse4.zip</li><li>rav1e.exe</li><li>Source code (zip)</li><li>Source code (tar.gz)</li></ul><p>Visit the <a href="https://github.com/xiph/rav1e/releases/tag/p20240116">release page</a> to download them.</p>
+
+<p style="font-size:small;-webkit-text-size-adjust:none;color:#666;">&mdash;<br />You are receiving this because you are watching this repository.<br /><a href="https://github.com/xiph/rav1e/releases/tag/p20240116">View it on GitHub</a> or <a href="https://github.com/xiph/rav1e/unsubscribe_via_email/AADUS4CTQRDFXD4BZSTYNJDYO36MZANCNFSM4BR4QMPQ">unsubscribe</a> from all notifications for this repository.<img src="https://github.com/notifications/beacon/AADUS4H457TRJ2RX6CFQ2FTYO36MZA5CNFSM6AAAAABB5SETS6WGG33NNVSW45C7OR4XAZNHKJSWYZLBONS2UY3PNVWWK3TUL5UWJTQIF4LF6.gif" height="1" width="1" alt="" /></p>
+<script type="application/ld+json">[
+{
+"@context": "http://schema.org",
+"@type": "EmailMessage",
+"potentialAction": {
+"@type": "ViewAction",
+"target": "https://github.com/xiph/rav1e/releases/tag/p20240116",
+"url": "https://github.com/xiph/rav1e/releases/tag/p20240116",
+"name": "View Release"
+},
+"description": "View this Release on GitHub",
+"publisher": {
+"@type": "Organization",
+"name": "GitHub",
+"url": "https://github.com"
+}
+}
+]</script>
+----==_mimepart_65a7054c99270_cc17342401d7--

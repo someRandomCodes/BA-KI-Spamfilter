@@ -1,0 +1,217 @@
+Return-Path: <>
+Received: by 2002:a05:6f02:a605:b0:5a:1128:f86d with SMTP id y5csp881773rcg;
+        Sun, 1 Oct 2023 09:57:43 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGLLOzrdFqe0ISHVSHWfwyijAB/JgouOvztULfu5S4xZA29FdfHvB3rajBTOrLW4HAx1eZO
+X-Received: by 2002:a17:902:d501:b0:1c3:19d6:3559 with SMTP id b1-20020a170902d50100b001c319d63559mr15877863plg.1.1696179463192;
+        Sun, 01 Oct 2023 09:57:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1696179463; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EZ//nA2YAxjTIP8Prvv9JxPNfUFKz1SL1Dw1XOjazTQ6onZNDJxd6YjFrYiybmx7r9
+         UfHtCLsbYqGOY7YJOZg+1i7p8GlpMdNyFXR9TMljtzQTTsDRnVEGxca0AWRzEbDCnoVA
+         KQVOo8xOJFI9CY1Wb+lbQUDghCy2qE3waYRBYYK/TyMxlShpCgyv4WNf1TB0ZNYMnwPE
+         tYc/KA4i4AxDVf6dXmsZN3DnOdI2rsupwA4UIM3ojEy5i+sfvuLL4tgNuRuQhiJAknOw
+         eVb4sYf4Nb37F1laQr/NaQgYjXZuACQElUj9qDJ5OR3UY5cbcc20EfaGuY/r/sxDnxlY
+         fetA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:references:in-reply-to:message-id:to:from:date
+         :dkim-signature;
+        bh=GDdaU71gLzaG/NR+zNnYNOdsGAcRpubDeFruPaB40NQ=;
+        fh=yH6ToNOeK0GDff5Adc4rDrm2kv5sV5qY/hZ+uEIod1A=;
+        b=0S4mz6XcT8yPeaNcy0O1QxFqhnNVNcZJV2wLYvvnvMpwuSQoqArgNOwQXy/JB+6pkl
+         QAZwd4nnrYoHfiGEybcYoV9rxiEKxCEoK/D90No8GZv2hxgf+H4UmriTiTu6FyqVOX+j
+         LBV+uCWjXojoB5J4DDZFBvGFDGqQoGWd/c2+e2snwzmtHIIxCm12laAAWjZTWM+KNscD
+         knhcPYlJhvTs3PgPksq8UpYmJZbg0JZssXoiv8W/jKHG1vRndiqDkXdV6pllIkD0JQXI
+         /jBD24mU4V4sUg3HtkEzfvqKlNNbID/oPcpfqXDvBJ2nUueBiFWZ6XlDMQ3HLlGJqJyx
+         y4zw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=aFtgYWAc;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.70.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Received: from sonic320-23.consmr.mail.gq1.yahoo.com (sonic320-23.consmr.mail.gq1.yahoo.com. [98.137.70.204])
+        by mx.google.com with ESMTPS id u12-20020a170902e5cc00b001c5c344a425si20157674plf.418.2023.10.01.09.57.42
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 01 Oct 2023 09:57:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 98.137.70.204 as permitted sender) client-ip=98.137.70.204;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=aFtgYWAc;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 98.137.70.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1696179462; bh=GDdaU71gLzaG/NR+zNnYNOdsGAcRpubDeFruPaB40NQ=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=aFtgYWAcBtN2+nFZZNwIvPVneLgaIHvvTduBKLl5LgRdrE+McI9cQHNvIoGsmPRsXgwvCRvsq5g8b0L+lX+c5xHCtRFuNixr38iRcF3OX34JA0vZCrX3N+RHQNPFs+53r+PO7XR9+oRpmfnRzMVAl1gWSGJkQIQE8uavGfX37OXVsUon9sHfR62AqZqrL5f0hQmNkcokRBdUNz+Gb/nbcrOsDrKY8+n+neJiaYA8+XhZVebo56pF1Uaicb22Yq7QC9U2SrQKXUNKSFIVZeXECNRW6K0aT3gylhEnW+kmHEobRe6HL9STmQYZeVisywBdyjhmCYtJwoV3AeLKuUP/jg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1696179462; bh=8sMUTRHheGEXm2k8+RMYz1oUs28+yyfipi7BbKecsnW=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=VvOU0/fE4kExkRC6eZr3PTm6B/yfdOkaPdC/xEJ7TX50myZH6afmXnMa1d8URuO6R21dGG8F/isUd/hM2sHg9MIdnNQBgerUlE1aGcPe2+9dqEQn4XNUiz0hsRaiYYPlYv1Gj7jU/AUV6/pXvFcdLfX5ivmHaHnmSmpCIAIVh91/A4MNI9gLwgl6bZ2j2LL3foxbO4+9luBdbvamZGXAfkm5INAM2bgtAvFYJYWLD9qdvEbgGRETBeSxCPNpGT6ZrCo8O6hIzWgRVS2joCc6bKpz3Nx8DHprk5XWudEqaivnYepOPIfkVZJ4V+WJg/dNGUEbxmaV+z8HBCNWxgisfg==
+X-YMail-OSG: LJUdOdEVM1lFd.FSpHMXA7tW_7ZuxnMEYzXGK8ocYT3p4vkW4yszSV2BQUloPRl P75jx8b22v_Np4zwUuF7J5lb2IyxY8J4RgnMLPcVzwcqEYIwqpHs74AbgFJuXeDHAi8rFTZdc1HK fFyn_FTRSqiOrRKyg3zYminAWztz.oizmtXI3UxUZzOcpEBjGhNIG_VVhErvGqNoLGmMUi5D3GzF 2aOubGVy.jUcecOLS5onsY35iXoj3aRuqKx78ddeRMT.lJ.tce4Cm2V6jKD8qD0nCTM.NG9zp.GE vp9GwyvEUrziRk6Nt4uENyh9k1vVaIDHoxv3awu1FpfMAz21efHVZgZOd3zefcqxNW41rsTOdhqD y7iFHPyO_7l88uc42lIcUcxxds.XoC.r5UXp4Hq0kNBOJdMaQX4l429a7boeGTYRGDFBCUg_TITa YAO3kc5qhDop66HitfJVcGtO7AtjIWGeVklHUkVDd3MCTpjX_aMfZ1loK_nZA3HXsuJz22cFj4NJ qp0uQ4hGg7il_LKJ74hBfwGINn2kR4D76jMvMBpw393Ge7B_q3O5zkh7og.I0VzxfcRBFlC870kt S7urSSvWryzGhKFHH.uI8TZ.jCj6nu34VYXUngTULWkhb0gOwYXpPw_at5rffrdJ620wQ4XU0NiV OEoojSNWNg77rgRXl_0ARi0MuRpD30o.bX6Drs0qXz2N5lccsgAc7junKjrPdRVoL1asjGyQiqbp 1eW7kPP4CP1s50tkfo6LkYT..ubYD7grF5FGTZjnudYVE25pdsa2jvFfagh0qEPjt2M48PMLX1J0 AE8k53p16sFdnSYVWBlPp1FkJOufO0a6W6Hu.7IcJdKp2tC47tZRpJZknzC1aM1K1q5XJ8JvLpoz kLB9Tno_Rl8WOUio2DDCYhEN.UZMYwR3uVsQh1aUENL93esB3r3qOpZyH6ucz0cdjPg2dH3qfw4c S4KeetKQIekRoF5nk8ewQSgHGDH2y7IeHA15_.GNYOfBHZEHDNbJXPxsYdkKPCvqZRRyRcCSL1FE 75_PaniR2uJ_bInG6mHud2SQN21rAWyBxEeiffctl5Dml.iMqwW5oco1n4aIfm0gLyXhObu5BqHa ZdfsSYnKSb3OEaXYigQYg8Er9vaAaqjKsq__6RsCR5dINZ0xw3_JqY8rEJGmvymocjupvzWU4Ntp mB0cjjpWqvFfCUXlMlos2RSLYKc1.dYJkMkqvftBXlkhJZEA2zLmj9a7ZeGDeu1uV89x1xQg6PU4 f339qXrzTeQoSCLz_tA_jn_KVO1ky3Lal9SRMNeePV.e5H_8GYaqi1mFwH9xdm0aVCXLeeIK18el NQ3bC0UETC2Lt2Ch3TUfHlTXcK8Jo_R9gF3qF8zjhx9ssHxoCNOMy.p8hPVvN8zk2MYboFKS5gFq 7ciCgapZOWjJ5cRNv8i3lzhXXJBYqybsk7e6g8SL8e_LJeKQ0Fu.zkjtWi3L4.ySfgUrUsmgt._6 p8zHIsX5aRkDzEGR41.A5ZTXbMZlbEqcZDtfOUBouAnKcSaIycsGUFrcSRzlMTXTCuDbppesdpLl 324a1wSvkFRMxeOBqd6mYSxStnpw8mgetr13NkPXmbob8HqFXi4.Fzia.rZ5yIV4T6J2A3CLoLGO k57s3A_2fIodOuWwBlwsjVSkr6oZvPkySlqNgzEsE3IAswjza9PHwjjs2eEOXqaFrl.Ry8oqqCbE CRhWD3_bFI135c8UJWz9PbFQRlMrYYrLRkQgWw4Ic4TBCtdlaLDcv4MWjbc26feUrjIt0fbBAzPl LS2clx1AKX7FcYDnzKxXAoSdHkO.Jy_SHvMJU5EinffTx5sxh67lwW7RfGQ8oxtPOnM6CnRDbxl6 Z46aJ4BAobarOO8Ba6lSREJbl0gNUwgjg.McYD5rZEuMgUNp4UavY9alwtZ0EgHWjv4UGKarsmob mO7GPXWjpGZFsVw05BF98A6J9niBDGGpN9Ij0o4hXKeoCDoHQbBxiP.CsK6S1pKR_UOMQi1EaQ5i xe6T_E9o_IGNcOEHMUAUQ97oC5drnsNnLLHfyflSaIFot94GOEHX73_QGOtRxRWRiO9k37n6mKh0 wMOjQIr7jMk1f7_E6lIGllgHbZ_nM52gvbS9QLrBnk1557tG.fbcNIhaoYQL7A.nhosRf6SYjPYX nnnQQarRwjyWMUL9kAqWMAHn3qBNofMieAjl7mnrtacGus0_F5w--
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-My: WXdXc3JXV2xVd3RWZVNkc2lxa0tyZENQaytiWjM5aFZUSTNMTHV3dzFFZ0dMVmxIUVhXNTdBN0RrMTNJS1ozRjRHVlRPdXFpK3hMaVJqN1huWmE1aHV3cUVDN3dhbFVyWkxzTGhFRlUzcWRkK2FoS0Y2bE9TSEcvVXRJK21JclhnQ1oyK2VJQllubUl3TFFaSjQzT3R3PT0_
+X-Sonic-ID: fbacffa5-4ca8-4901-b8fb-010fe2b89c4e
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic320.consmr.mail.gq1.yahoo.com with HTTP; Sun, 1 Oct 2023 16:57:42 +0000
+Date: Sun, 01 Oct 2023 19:42:11 +0200
+From: 𝑹𝒊𝒏𝒈 𝑽𝒊𝒅𝒆𝒐 𝑫𝒐𝒐𝒓𝒃𝒆𝒍𝒍 𝑾𝒊𝒏𝒏𝒆𝒓 <bruce@untroubled.org>
+To: 𝑹𝒊𝒏𝒈 𝑽𝒊𝒅𝒆𝒐 𝑫𝒐𝒐𝒓𝒃𝒆𝒍𝒍 𝑾𝒊𝒏𝒏𝒆𝒓 <bruce@untroubled.org>
+Message-ID: <817zVeKLZTi6O4.656349.1696oXZTxExcyMbkzkE74@mail.yahoo.com>
+In-Reply-To: <9UHnztsd2IgNaXdjBqknSkwPSxDY26wuz-vo8hdoNcWaqbICmWY@mail.gmail.com>
+References: <rmTxXJ5gVD.048814.31121234350732108975.ref@mail.yahoo.com> <rmTxXJ5gVD.048814.31121234350732108975@mail.yahoo.com> <9UHnztsd2IgNaXdjBqknSkwPSxDY26wuz-vo8hdoNcWaqbICmWY@mail.gmail.com>
+Subject: You have won an Ring Video Doorbell
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21797 AolMailNorrin
+Content-Length: 5191
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Enence</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.4;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #fff;
+ }
+ .logo {
+ width: 140px;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ }
+ h2 {
+ font-size: 32px;
+ font-weight: bold;
+ color: #73226E;
+ padding-bottom: 0;
+ background: #fff;
+ width: 320px;
+ padding: 10px;
+ border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+ }
+ h1 {
+ padding-bottom: 0px;
+ padding-top: 10px;
+ font-size: 32px;
+ line-height: 1.1;
+ }
+ .title-para {
+ font-family: Verdana, "Arial", sans-serif;
+ font-size: 22px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 15px;
+ border-bottom: 2px solid #fff;
+ width: 340px;
+ }
+ .feature-para {
+ width: 480px;
+ max-width: 90%;
+ padding-top: 0px;
+ color: #525252;
+ font-size: 16px;
+ }
+ .feature-img {
+ width: 360px;
+ max-width: 100%;
+ margin-top: 10px;
+ }
+ .linebg {
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #fe346e;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .logo {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ width: 110px;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ 
+ h2 {
+ margin-top: 0px;
+ text-align: center;
+ width: 220px;
+ font-size: 18px;
+ }
+ h1 {
+ font-size: 20px;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ }
+ .title-para {
+ width: 220px;
+ font-size: 16px;
+ padding-top: 5px;
+ }
+ .feature-para {
+ width: auto;
+ }
+ .feature-img{margin-top: 0px;width: 210px;}
+ }
+ </style>
+ </head>
+
+<p align="center"><a moz-do-not-send="true"
+href="https://VBa4bl.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=fhgxypngq05ibfhysfkuvhadhq78war6p7qwbcpmjmhrga9pt1zblbizn62nee8qhg&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#WXdXc3JXV2xVd3RWZVNkc2lxa0tyZENQaytiWjM5aFZUSTNMTHV3dzFFZ0dMVmxIUVhXNTdBN0RrMTNJS1ozRjRHVlRPdXFpK3hMaVJqN1huWmE1aHV3cUVDN3dhbFVyWkxzTGhFRlUzcWRkK2FoS0Y2bE9TSEcvVXRJK21JclhnQ1oyK2VJQllubUl3TFFaSjQzT3R3PT0_"><font
+      color="#4a4aff"><b><font color="#ff661c">View in browser</font></b><br>
+    </font></a></p>
+<p align="center"><font color="#4a4aff"><font color="#c400c4"><a
+        moz-do-not-send="true"
+href="https://VBa4bl.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=fhgxypngq05ibfhysfkuvhadhq78war6p7qwbcpmjmhrga9pt1zblbizn62nee8qhg&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#WXdXc3JXV2xVd3RWZVNkc2lxa0tyZENQaytiWjM5aFZUSTNMTHV3dzFFZ0dMVmxIUVhXNTdBN0RrMTNJS1ozRjRHVlRPdXFpK3hMaVJqN1huWmE1aHV3cUVDN3dhbFVyWkxzTGhFRlUzcWRkK2FoS0Y2bE9TSEcvVXRJK21JclhnQ1oyK2VJQllubUl3TFFaSjQzT3R3PT0_"><font
+          size="6"><b><font color="#c400c4"><font color="#ae5e5e">You
+                have won an Ring Video Doorbell</font></font></b></font></a></font><br>
+  </font></p>
+<p align="center"><font color="#4a4aff"></font></p>
+ <body>
+<center>
+<img src="https://pbs.twimg.com/media/F7XkHeCWYAAavwG?format=jpg&amp;name=large"  width="600" height="1045" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="" title="" href="https://VBa4bl.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=fhgxypngq05ibfhysfkuvhadhq78war6p7qwbcpmjmhrga9pt1zblbizn62nee8qhg&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#WXdXc3JXV2xVd3RWZVNkc2lxa0tyZENQaytiWjM5aFZUSTNMTHV3dzFFZ0dMVmxIUVhXNTdBN0RrMTNJS1ozRjRHVlRPdXFpK3hMaVJqN1huWmE1aHV3cUVDN3dhbFVyWkxzTGhFRlUzcWRkK2FoS0Y2bE9TSEcvVXRJK21JclhnQ1oyK2VJQllubUl3TFFaSjQzT3R3PT0_" coords="72,19,536,875" shape="rect">
+    <area target="" alt="" title="" href="https://VBa4bl.campaign-view.com/click.zc?m=1&amp;mrd=1100b79357db75a87&amp;od=fhgxypngq05ibfhysfkuvhadhq78war6p7qwbcpmjmhrga9pt1zblbizn62nee8qhg&amp;linkDgs=1100b79357db752cd&amp;repDgs=1100b79357db752cd#NWVmTTBCeE9JTjNMcGRoYWxuVlgvU2NEcWx2YnVqbHFFV3dPR01aSUhUaHhYT1BpaDhZUnFRQzBqQWp0WGtYeU9LSUdHSWFhVFV0ZVl2aERGSmZITExpVk1RQXZMRitlWjYyd0tMTnZYbXYvdTl3YmZ1TVlzMUJSSkY5Yi9rY0YvcVFtRTJaQzVqRURZakJaTlJhV0tRPT0_" coords="441,1006,525,1031" shape="rect">
+</map>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="http://optout.boyaklol.site/WDdQbXMvR3N5aW0rc093QXo3RGUwRzRMb0cxa0trOG1IdHdYd3VLaWlTbzRiMElUenh2K2lEcGZqL1h4S3k3YUxjZHZ1Vm5PdmUvaTByMzZYS3RNNGR3KzN3eW9vemYxZWVqUTQyN3NqZFBkcFF0K1lvbkxPa0tIZGpUc0NsS2FsTkcvOWY1QUlYNVh5dExRUkhsVUl3PT0_"><span style="color:#000;font-size:11px;text-align:center;margin-top:10px">here</a> to remove yourself from our emails list</span></span><br/><br/>

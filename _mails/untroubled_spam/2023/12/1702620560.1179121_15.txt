@@ -1,0 +1,169 @@
+Return-Path: <oliveclintone@hotmail.com>
+Delivered-To: untroubl8492-bruceg@untroubled.org
+Received: (qmail 1159776 invoked from network); 14 Dec 2023 18:21:05 -0000
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com (mail-db3eur04olkn2014.outbound.protection.outlook.com [40.92.74.14])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 14 Dec 2023 18:21:05 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=gD/Hf/nf6RuUZyg0vFtA47FRIoFxW1iKoNCaIeSTatxiz4iJmvcxCMfzXNqyNWZkmqME2S3ahdJBnauVObekTR9sjGD6VDqX8ztja/OVEGVcf4Vvn41AdmF7PoHHDHIEQTO5Y4zc8YrWiD83mbWtwY4BqDxS3mWJjZXcy/0VNE7pmQ5CxkAZkWCQ5aXaqhMTNsAwWUHRCOJaNjy7JC60mDPpAA/dq4IsUAWjq4YPPkTPiINiMFw8LqZczeQApLFGCcT7fUhui0gJOxDErBXgUJzh/4MKXPPAS5dTfUC3iBdzYACARAXf12xExJrDsv7YwvddcmQpvMSWbVxleGAYgQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=dXwEFzVbJL6myn9YjDJU0X3ETaydkqRChKcJTAP3474=;
+ b=mVlDGxF+fmgsMljUbOzCsj23kpzk/vcL38CzKKDyJr5Y4y9C1tNsRdSh24p9x8t3mVnczLYxZgmLGuqBvP2RoOpvEDmuH84doCOCRCFmEpdH4JMF0ajaXksxH4rcUR7Bn4a333sFRtihE+JDNnjT+uxFyzNQaPOF1bfAp9Fy73xiMl0OCvG6Og7dz1Dekb9mF7dtMRIac8CPI+JOQqyCJhvgZ8nvqCE2IVBg5f771K8M8WM7SnkMt/mNPI32q80ueF5gPM4vmYoSc/fbiIqWTEPRJ7FWmdci9nc338Ira0zOcSdBsoICLTqXmfJZlBOP3runSzFV7o/4Voa6RI5lDg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=dXwEFzVbJL6myn9YjDJU0X3ETaydkqRChKcJTAP3474=;
+ b=fRljN2H68h6kCwZxEo6Ox9TeBe0EZio6aTJbzJSpnC5wLs+WPNW9if/vY1JlflSI3yjSP++oXGTCsltyJZszE7WFYoX8LAn7SG9bYnCaIKD5ESkNWc93DTwWpLkKWHeGMOwPsMFiBmCEXOQ7YwOp8VCruMorMI7p7HDekHhwTRH2wU7JmBztAIzptno8g5e3cD3bnNVNvlzEnvRUQbhjhx4UCwMu/UnY7ruXS51IGHxO4YT+AmR0TclCS2voiDfM/gmEYpAGdMdz8lQzDKeaH0e/EXbpgjZD69Q3NStFy2s+Xc8WDl9lIIcA3IK2p3rUlwJtUmA1dSdF4cGWYv9Jag==
+Received: from VI1PR09MB2320.eurprd09.prod.outlook.com (2603:10a6:803:7e::30)
+ by AS4PR09MB5864.eurprd09.prod.outlook.com (2603:10a6:20b:587::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.28; Thu, 14 Dec
+ 2023 18:21:04 +0000
+Received: from VI1PR09MB2320.eurprd09.prod.outlook.com
+ ([fe80::cf33:c38c:6a7e:d3cb]) by VI1PR09MB2320.eurprd09.prod.outlook.com
+ ([fe80::cf33:c38c:6a7e:d3cb%6]) with mapi id 15.20.7091.028; Thu, 14 Dec 2023
+ 18:21:04 +0000
+From: Olive Clinton <oliveclintone@hotmail.com>
+To: "bruceg@untroubled.org" <bruceg@untroubled.org>
+Subject: Question about
+ http://untroubled.org/lori/comment.php?cid=5837&amp;mode=view
+Thread-Topic: Question about
+ http://untroubled.org/lori/comment.php?cid=5837&amp;mode=view
+Thread-Index: AQHaLrpLEnXlGqNtEEiMdpSYiD5p9Q==
+Date: Thu, 14 Dec 2023 18:21:03 +0000
+Message-ID:
+ <VI1PR09MB2320BBBC6E54D22C366FCBEEAE8CA@VI1PR09MB2320.eurprd09.prod.outlook.com>
+Accept-Language: en-US, fr-FR
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-tmn: [vcGVEMyL8yi1Ld9m4wMkz04CSzu3IqZU]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: VI1PR09MB2320:EE_|AS4PR09MB5864:EE_
+x-ms-office365-filtering-correlation-id: fb4be224-b158-41c0-c672-08dbfcd16ecd
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 5Ltn/aL6zDJ/+emVHP6emGbshCY70pflsCAviipLkirMj4oO2DIISXZsd+oT93K4JANBZUHMra2zn0I2jyw1oXx5DG7loMa05ULm2oapPre7uKGhmhZ3pZRfOzlgvkgt8NMDCA8jneOBzOMHoSsYphAWsewfQkD63x8wSvpAjtepUVzTA0u3/OAtFECmeoi9faqZRNJgG9hc5da0qp+BLYg9Sw0srkwyrkxbRg16ln1CIcPGGG8mnmSdqEhqcYUINfBLfICs9csxQcvfnmbEhduGVv66cLAteEthRP3eH/E2sd03w8jQsbKjaG3rWMBR/qwhqhY3tWzBX5/MAh3wLTl58DcB+PLHnBJ7X3Nzh1KFq+8NAufYhHw+fcITn9aaPoolXSn9zrhS6Rt4psTRq0YWTjHxVXakbZzjlN3q2cy7fVwI9Ifz8msHyhYJtzVv5YfFK7er4PrIvs3snW2SRpLdG0gxJDizUKR0y3+hmasHB/LRVIsXqs2dSDVTSpGaBzkDFzmj7fbFlf/aw0DNcGOp4W1lUXE1/De+x8osaUB+l9PjznaNa6dwOw/hJ8dA7HchITx2+dkobdfQd/mseuG/pWZkjMzZS25g4khWOeY=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?t8/IqSo4WJEkG+Q/SGwcilNw20bDm8oSnBDSpgtWBTV762Ppm5AGIP08?=
+ =?Windows-1252?Q?jK6FRD4+3sylTdu5qUCElgYmuTXSpXoHvq08S0fKnb54N0psvlolq0WH?=
+ =?Windows-1252?Q?vD/SjvVWsBLzNxXtyWkJAdukWuCrkbj+sEJQWaloM9uHCIDSDQI3XP+O?=
+ =?Windows-1252?Q?klI7RrNU1Kh5rqsTzqcyORXv8fO3P5kVCRSzkxuxVRNfWbc5PTtJ1B1o?=
+ =?Windows-1252?Q?23Cb9S55XlMR3Ox1ARPA16NZYyv3TzDIAd2V3wDE6p1/r9jMo5dwdJzy?=
+ =?Windows-1252?Q?LmmVthPWe+dHEByagnHheUS6qcCzzbwreedpKHJxeY/Ltp0Avdh+EFrz?=
+ =?Windows-1252?Q?QeFjORLZEtfM21bmRWJ7Pbv7fVNq5sHRbs6tD6VKwvyZE0UcUXjIiONo?=
+ =?Windows-1252?Q?SPx7SmqG8Gb+Zd44l4Hl20PmLGZ3g7XhNlew3iAD32UaQLsEmMDec6uo?=
+ =?Windows-1252?Q?HqvCmQdFrVvGWMbfVuHkWCHl6axGzEPl5iGFufIrW22aGEFdZFs5vDPU?=
+ =?Windows-1252?Q?dMm/t5OZL92AU9/9CpQo/l6jmK6/UpdS+nS7LIaM45N6qsoJM+kHKZyj?=
+ =?Windows-1252?Q?7bO6D02RJxKr/J9M4IKR3wD0yHuSSDr0rduLx8cq/8Ltz5cPb2aJ5PVZ?=
+ =?Windows-1252?Q?qy6Tk6QzWh3+5Z2F/hS/ED0TQnDga8Z/XzP3MZKjzDKd6nZKfl0z1xzf?=
+ =?Windows-1252?Q?jrOGp4wjRWNr9imrV2ncUZZBeICRZcfAF24k4VnNdsHFM5AB4t0fvtGm?=
+ =?Windows-1252?Q?DFkd/R54veI3hg8ya/0EO8zAnBvxB1IUf+kDLptRIx/YcGsdRJb6epUe?=
+ =?Windows-1252?Q?QHANBXgq/6g0rIKmYxMnTMX0x4KeniSyOLF+a960sxpFEqLXZrAFe27z?=
+ =?Windows-1252?Q?f/l2qp0mKgheZaAH3XgHKiAawydICgK2F0Au1GAbGEWSNmCO1D5dV+NK?=
+ =?Windows-1252?Q?9e+obc6yiJpDNI/qfwe3ff3/bTY3n7qoWhfq2DrmcELPgLbgGM2M6zEn?=
+ =?Windows-1252?Q?pAnbfqSsl5HHMuRcqLdMsYEK7rv1ZTPvp2/+nLXO+rSp+gbt4QbArdgo?=
+ =?Windows-1252?Q?x/J2XW2uEPbE9CmybsKhSrwuo43KNnzTgvPhsGHgzWDnylIoEHjXQMBr?=
+ =?Windows-1252?Q?SypLJdciQZ13C3HWu+HWp+EyV29J4NubtKsAFTuF+fSP9vM0d390wLOF?=
+ =?Windows-1252?Q?z0+P1jGwo7K2KsYqTDfozQ4bwvs9fMIlemQPn4bj5FiY4b5IldblLuMG?=
+ =?Windows-1252?Q?Lb1iGR4o3acN74Rf8eEeaeVtBB7yLO2YotP9BRA4K5bLN/zQQckPlyUd?=
+ =?Windows-1252?Q?Vrea/A=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR09MB2320BBBC6E54D22C366FCBEEAE8CAVI1PR09MB2320eurp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-64da6.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: VI1PR09MB2320.eurprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: fb4be224-b158-41c0-c672-08dbfcd16ecd
+X-MS-Exchange-CrossTenant-originalarrivaltime: 14 Dec 2023 18:21:03.9904
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS4PR09MB5864
+Content-Length: 2202
+
+--_000_VI1PR09MB2320BBBC6E54D22C366FCBEEAE8CAVI1PR09MB2320eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hey
+
+
+I=92m Olive and I run a file sharing service called SendBig.com where you c=
+an send files up to 30GB for Free with amazing features available.
+
+
+I stumbled upon your website http://untroubled.org/lori/comment.php?cid=3D5=
+837&mode=3Dview , and I just have to say: WOW!
+
+
+I had a quick proposal, I was wondering, would you be interested in featuri=
+ng a link to my website in your piece regarding sharing large files solutio=
+ns?
+
+
+I think it could be a great reference for your own article to provide your =
+readers with more valuable information!
+
+
+Either way, thanks for the shout out and keep up the great work!
+
+
+Thanks,
+
+Olive
+
+SendBig.com CEO
+
+[https://www.semrush.com/link_building/tracksrv/?id=3D934539c0-68c0-4098-88=
+64-5dc8b687980f]
+
+--_000_VI1PR09MB2320BBBC6E54D22C366FCBEEAE8CAVI1PR09MB2320eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<p>Hey</p>
+<p><br>
+</p>
+<p>I=92m Olive and I run a file sharing service called SendBig.com where yo=
+u can send files up to 30GB for Free with amazing features available.</p>
+<p><br>
+</p>
+<p>I stumbled upon your website http://untroubled.org/lori/comment.php?cid=
+=3D5837&amp;mode=3Dview&nbsp;, and I just have to say: WOW!</p>
+<p><br>
+</p>
+<p>I had a quick proposal, I was wondering, would you be interested in feat=
+uring a link to my website in your piece regarding sharing large files solu=
+tions?</p>
+<p><br>
+</p>
+<p>I think it could be a great reference for your own article to provide yo=
+ur readers with more valuable information!</p>
+<p><br>
+</p>
+<p>Either way, thanks for the shout out and keep up the great work!</p>
+<p><br>
+</p>
+<p>Thanks,</p>
+<p>Olive</p>
+<p>SendBig.com CEO</p>
+<img style=3D"width: 0; height: 0; opacity: 0" src=3D"https://www.semrush.c=
+om/link_building/tracksrv/?id=3D934539c0-68c0-4098-8864-5dc8b687980f">
+</body>
+</html>
+
+--_000_VI1PR09MB2320BBBC6E54D22C366FCBEEAE8CAVI1PR09MB2320eurp_--

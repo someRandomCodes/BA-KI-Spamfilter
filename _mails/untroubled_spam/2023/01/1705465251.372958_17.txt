@@ -1,0 +1,93 @@
+Return-Path: <austin@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 357207 invoked from network); 16 Jan 2024 21:15:50 -0000
+Received: from mail-ej1-x643.google.com (mail-ej1-x643.google.com [IPv6:2a00:1450:4864:20::643])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 16 Jan 2024 21:15:50 -0000
+Received: by mail-ej1-x643.google.com with SMTP id a640c23a62f3a-a28f66dc7ffso2056009366b.0
+        for <bruce@untroubled.org>; Tue, 16 Jan 2024 13:15:50 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1705439748; x=1706044548; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=eTArS5nH37neurmfYb3LWFUOhkdb8VveTm0hMnd0Tog=;
+        b=T85C0ZSa0MjVXvzKF2GD0dyQY7e3bUJNQdNaJ8Xq8sF1ZFDULef3LNSsdJL136KALR
+         bY0x4OYQt+/2TtwdgzFw9/h0JBpyfObKzx4SSXKnxDNVufMUa7aYuR4oJIx5DnX9lCRv
+         o1HCxJedXsNsHFkYvxtwtuNzmj4i8s1K63rNkC2S8Zkz0s++nM+s0Sv3HodSm2L6YYaq
+         M1ibglfEwmXrxmwnZDKlAqvzNTPMpnAruoM6bEUshOF4KlvB0N5PCHejfUVtkbs5GqyI
+         h2usVCAmbcsPRVsMQezoa6DkyBu5kHNl6vIkqFzbBgXWj0ypr7jvelBwXlgr4obSqhZ2
+         B8cg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705439748; x=1706044548;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=eTArS5nH37neurmfYb3LWFUOhkdb8VveTm0hMnd0Tog=;
+        b=hKBptxVWzi/3b8vca3w1+PUkR2iLpt6BqPPKluy79CWDP9J0y0F74ftglNItayOznx
+         sJq+5UMafV4WUymSgmaU1LU6dGMengY7B+7yla0PpB7ZH/+NLCD7mVWQjJSWUGpmEdag
+         PNPf7tV6R7aQV4iOhu6m2HvO/YAKX2cRAIaCONQJ6GmeyO0SzpLA3uMsVqpdMdw0bOcT
+         oNSlrbSLMOtnT/BGUu+Jem+VUFxFYz7OclLehnCIlGyISiYgQZ2CIE7FJsPj1mr2e9pK
+         nALFDRFtcDLxlAcLqRt8yXBypcSeZ6qEUirz2m+Fgi0TbUZYT0KvgHscZfAtUEvkd9Et
+         3edw==
+X-Gm-Message-State: AOJu0YxsQzx/JnPeJgBl9JgYZqh86pmOCAIEoKxrhUyOphEnNY0o9m7I
+	PaBMswr2Cp4ZVUg8DpxFNT+slw8n6hWnnVElJivk+CONri4Ik3Eiqi+OzratWP4=
+X-Google-Smtp-Source: AGHT+IHI+exlsHGL4iPTWoRsXhp+LUmEu9dOBUTHPTZhcECa59NVwfDZRHFE3RbUN6qrDkK8lVPxX2VsS7jT5heIu1U=
+X-Received: by 2002:a17:906:5489:b0:a27:d3ee:2ef5 with SMTP id
+ r9-20020a170906548900b00a27d3ee2ef5mr8084622ejo.24.1705439748548; Tue, 16 Jan
+ 2024 13:15:48 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 16 Jan 2024 15:15:48 -0600
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 16 Jan 2024 15:15:48 -0600
+MIME-Version: 1.0
+Sender: Austin <austin@webtechresearch.com>
+From: Austin <austin@webtechresearch.com>
+Date: Tue, 16 Jan 2024 15:15:48 -0600
+X-Google-Sender-Auth: -4YiB2y3hkKsXF6EubgG-E5z3rM
+Message-ID: <CABFdRQB3eObk4zpgiJd+6Z228c5kmNYLY80Nb7nP=pEa37-8Sg@mail.gmail.com>
+Subject: untroubled.org Errors
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000065f867060f16a295"
+Content-Length: 1752
+
+--00000000000065f867060f16a295
+Content-Type: text/plain; charset="UTF-8"
+
+Hi untroubled.org,
+Hope you are doing great!
+
+This is Austin, Business Analyst with WebTech Research(An age-old Digital
+Marketing Agency operating over 10 years in the global market having its
+main office in AZ, USA. We exist for such a long-only because we follow
+ethical business practices)
+
+My team discovered a few issues on your website which are affecting your
+online presence, user experience, and ranking.
+
+Do you want me to send a detailed analysis report with screenshots?
+
+Awaiting your earliest response.
+
+Regards,
+Austin
+[image: beacon]
+
+--00000000000065f867060f16a295
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi <a href=3D"http://untroubled.org">untroubled.org</a>,<b=
+r>Hope you are doing great!<br><br>This is Austin, Business Analyst with We=
+bTech Research(An age-old Digital Marketing Agency operating over 10 years =
+in the global market having its main office in AZ, USA. We exist for such a=
+ long-only because we follow ethical business practices)<br><br>My team dis=
+covered a few issues on your website which are affecting your online presen=
+ce, user experience, and ranking.<br><br>Do you want me to send a detailed =
+analysis report with screenshots?<br><br>Awaiting your earliest response.<b=
+r><br>Regards,<br>Austin<br></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2viy7fFSY8kO=
+JGFh2khnACoKoIeZegtn1ZoZ45NhtaI_vXiEUjQFHTPaBiGKGFmU902YKEcCRvDplKLJ6R8_Gn4=
+cbrm0RjlHhEzjwoIF_y1oixtS7Xf-B5XGDpppXHgioh5GbcyYYdo1cfnDWSt-ZDnSV0CIny2JIZ=
+g" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--00000000000065f867060f16a295--

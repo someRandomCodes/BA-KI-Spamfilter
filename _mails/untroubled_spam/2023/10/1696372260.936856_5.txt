@@ -1,0 +1,83 @@
+Return-Path: <>
+Received: by 2002:a05:6400:1d2:b0:235:6088:6c5f with SMTP id hx18csp2152213ecb;
+        Tue, 3 Oct 2023 08:42:33 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHqxDowPpPNPNxWPSWg7gfkwb/f3BWrIUOwpw8fxQjg5EPBNhiJBc6hImSxc51ilEISOvoC
+X-Received: by 2002:a25:6b01:0:b0:d89:88ac:7bf with SMTP id g1-20020a256b01000000b00d8988ac07bfmr12808301ybc.61.1696347753625;
+        Tue, 03 Oct 2023 08:42:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1696347753; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IvpEO7imwVN9DUlK5QK2FgZeoTyzAq2dmitcdXx+mx6+yhqcvEIGsektHocpoUa2G/
+         so2Lhq86penQuWjAees8qD4MQDbFBoMhynZVzIL+tEsq3dmIh3IPDtfq8eFbWWyg4pe7
+         AoyIDW3kEdpPzXpqZTTr/RsSvOrwUO78k2SpVvzPjFOp5520FCEkm9Ai65wXCeuJ3ujr
+         HeQyf30IzdXVhRhUnbViokN/OPP+BxvejklZmKnEorB21OEwiOFLgiCvNS+Do44XYGZm
+         3NR5VB3VhuJu9K4+6wWsxQuwvanHfgmtFOtKEjIPITEi8tI0UoGYHDyGE+6jQ9t+P3aF
+         7qJw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:list-unsubscribe:feedback-id:precedence:subject:message-id
+         :mime-version:from:date:dkim-signature:dkim-signature;
+        bh=AxcE/LuGoHQqDneK9kw6JxYOi9jAuaX0QRwETjWTBB0=;
+        fh=ElsmcODah+vtu0pCnsmAO9PAlToiEH6c1JCPqyCePg8=;
+        b=vd3GsPCKwUxXd/6P6WZUH9I9ZpnAXM1T77b2FtLOBRI552oHMPKvocjQ5ewqbDLm2w
+         Pm9UPJy/Qi7SQccu937NxSRQFzKd9tffGFyDPQEAyH6b2rHvIyA7XY0TTkTvXQF5qsIa
+         cZAtx8+wUjzL5AeytELNaaD7fS7HH2oiDvK+hWTgeDNMQ/+IR1ycCha3AhIK+878xCnO
+         3F1QGlAHcBWk3+Y45QOoJ4GxmUYwsNy777ToaDfyEbjI1e/TszZkC2alUcFYIWTw8TQC
+         5wmX7/iIHNc0NHBaALMZoG+4tdmFC6oiGyNN6vsRd7101vR3IRPpgjmKSLeNGYMx3aQS
+         NV9g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@m.convertkit.com header.s=s1 header.b=LwmPIkdj;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=YJEx0yyJ;
+       spf=pass (google.com: domain of bounces+15956455-6a4d-ezgef963=gmail.com@mail.m.convertkit.com designates 167.89.29.34 as permitted sender) smtp.mailfrom="bounces+15956455-6a4d-ezgef963=gmail.com@mail.m.convertkit.com";
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=ambitiouskitchen.com
+Received: from o13.ck.m.convertkit.com (o13.ck.m.convertkit.com. [167.89.29.34])
+        by mx.google.com with ESMTPS id n203-20020a2540d4000000b00d7805fa9c66si1050529yba.300.2023.10.03.08.42.33
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 03 Oct 2023 08:42:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+15956455-6a4d-ezgef963=gmail.com@mail.m.convertkit.com designates 167.89.29.34 as permitted sender) client-ip=167.89.29.34;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@m.convertkit.com header.s=s1 header.b=LwmPIkdj;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=YJEx0yyJ;
+       spf=pass (google.com: domain of bounces+15956455-6a4d-ezgef963=gmail.com@mail.m.convertkit.com designates 167.89.29.34 as permitted sender) smtp.mailfrom="bounces+15956455-6a4d-ezgef963=gmail.com@mail.m.convertkit.com";
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=ambitiouskitchen.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=m.convertkit.com; h=content-type:from:mime-version:subject:list-unsubscribe:x-feedback-id: to:cc:content-type:from:subject:to; s=s1; bh=AxcE/LuGoHQqDneK9kw6JxYOi9jAuaX0QRwETjWTBB0=; b=LwmPIkdjKT4w+xlsm/9XcJvmI+mBL86wiKYmnkk0IYl2LzZ6b1jy9lL73Gir7EEIxJcE 1/qrF9Ip51SYGaoi94R31TTTLC9vTM/J3j6kZPYZextYe57/WvsWQtFg8ro1C+Q4TmhHW0 nDyQQIp5Ls3lmv9a437O7qGvZLLTPhI9gnCSzqN1Rxb+xKLWYQb6/acyslMHCdB5/CXx7R 4mP7o8RnPpqRi398U6IhFaO6kJv/eTBeeCm+g+Dh+OZ9om5CJXTm4vBO9A0sXvuz4nLSZW U2wlb2ggFtV0hLsW1T39wuBQFirKw/sH2k5DiYljkkpsYCI69L3i6nu3lbeBTcIA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=content-type:from:mime-version:subject:list-unsubscribe:x-feedback-id: to:cc:content-type:from:subject:to; s=smtpapi; bh=AxcE/LuGoHQqDneK9kw6JxYOi9jAuaX0QRwETjWTBB0=; b=YJEx0yyJQdWNNzR1zGUjO6cB+FDzj/b/bnuV7FbhvtDyYjJIN21YreeTuuBLM4RJ4DQY 6skGS47LH/RIQxPGxxngYsBFyf2NPaDmrDj76V7ztudmEWmvxzhGbyDJIMgDE158ULFjfB w9FDXa6ADCPhuUEobL/RIoTGbafCFSRmk=
+Received: by filterdrecv-58bffd7d74-rpchd with SMTP id filterdrecv-58bffd7d74-rpchd-1-651C3669-14
+        2023-10-03 15:42:33.10276413 +0000 UTC m=+12585983.981822611
+Received: from MTU5NTY0NTU (unknown) by geopod-ismtpd-5 (SG) with HTTP id QhaEYjQQSIG7ffKatUP-5w Tue, 03 Oct 2023 15:42:33.085 +0000 (UTC)
+Content-Type: text/html;
+Date: Tue, 03 Oct 2023 16:47:06 -0500
+From: Intelligent Green Clay  <bruce@untroubled.org>
+Mime-Version: 1.0
+Message-ID: <gku2z89643561989ltwu8rpxm07e3nwbrt6t5p9wv1453810861@convertkit-mail.com>
+Subject: This Antifungal Medication Makes Infection 7x Worse
+X-Sonic-My: Zlg2Q2J0bmNHeGRLK0FaY0ZHQUdjR0tlMnBHK1E0WExkY2RPbCs0T3pVQ0RkVWFUaDJoQlhVbUVsRENPZGV2cHNSZkdQbU93U292YWZQQzRLZmFneUh2eVF0ejRLNEl3K29qam1CVVBMMTNpRjgyVW0rSnd1OTZoREZ2WlAyK2pEUVh5aExNMEhvMGhRWU1rNHcwaDhBPT0_
+Feedback-ID: 6257883:318522:emailtemplate:CK
+To: Intelligent Green Clay  <bruce@untroubled.org>
+Content-Length: 2067
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+ <head>
+ <title></title>
+ </head>
+ <body>
+ Scientists at the University of Arizona were left in complete awe after they discovered that…
+ <p>
+ Taking <b><a href="https://mub.me/DD6I#Zlg2Q2J0bmNHeGRLK0FaY0ZHQUdjR0tlMnBHK1E0WExkY2RPbCs0T3pVQ0RkVWFUaDJoQlhVbUVsRENPZGV2cHNSZkdQbU93U292YWZQQzRLZmFneUh2eVF0ejRLNEl3K29qam1CVVBMMTNpRjgyVW0rSnd1OTZoREZ2WlAyK2pEUVh5aExNMEhvMGhRWU1rNHcwaDhBPT0_">this common antifungal medication</a> makes the infection 7x times worse.</b>
+ </p>
+ <p>
+ They were shocked to see that a drug prescribed by all doctors in the country can cause IRREVERSIBLE fungal infection.
+ </p>
+ <p>
+ Watch <b><a href="https://mub.me/DD6I#Zlg2Q2J0bmNHeGRLK0FaY0ZHQUdjR0tlMnBHK1E0WExkY2RPbCs0T3pVQ0RkVWFUaDJoQlhVbUVsRENPZGV2cHNSZkdQbU93U292YWZQQzRLZmFneUh2eVF0ejRLNEl3K29qam1CVVBMMTNpRjgyVW0rSnd1OTZoREZ2WlAyK2pEUVh5aExNMEhvMGhRWU1rNHcwaDhBPT0_">this shocking leaked</a> video and find out all about this.</b>
+ </p>
+ <p>
+ <a href="https://mub.me/DD6I#Zlg2Q2J0bmNHeGRLK0FaY0ZHQUdjR0tlMnBHK1E0WExkY2RPbCs0T3pVQ0RkVWFUaDJoQlhVbUVsRENPZGV2cHNSZkdQbU93U292YWZQQzRLZmFneUh2eVF0ejRLNEl3K29qam1CVVBMMTNpRjgyVW0rSnd1OTZoREZ2WlAyK2pEUVh5aExNMEhvMGhRWU1rNHcwaDhBPT0_"><img border="0" src="https://pbs.twimg.com/media/F7iNneuXEAAi0iu?format=png&name=large" alt=""></a><br>
+ <br>
+ <br>
+ <font size="2"><br>
+ <a href="https://mub.me/DD6I#M0VSUHg1RXhmZDRXYWdBUThyUkJKZjFJVXo2Tk5xWUdkSFJWbWRnOWNaMjkvMHhBbDVKRUtJKzcwRE01YUV1ckF6TkVVNmd6VzJ1amdyNHlQTllzYkY3YjJNMEF1dkI1MVI1Q3FRL0R5YXZDelI3YXY5RlFyT0tULzluWTg2MS9JL3VIRVZiSlZjajZHYnZ3TUJZNUdBPT0_">Unsubscribe</a></font>
+ </p>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://mub.me/DD6I#RTlMazFpM3hiOGlMZFJtN1lhK05pL2I4L0ZGemhpZHZGQTZ0K1RweGVmTXFKUlplMTF5Wk1HVW80cjhLR2t4cjg0M3ZlUFJ3Rkt5YXpmUnpZNFB2Q0NnekRZNTJiY3RYRHl5c1hhYVZEUWo0Z0pkU0J4R3VzSEFtYWw4QmYrSVY4cEl5YktsaEkwVmYvRURmM3d4MHdnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

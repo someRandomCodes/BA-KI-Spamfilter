@@ -1,0 +1,94 @@
+Return-Path: <KenechukwuDeierlein1989@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1403500 invoked from network); 23 Mar 2023 14:24:57 -0000
+Received: from EUR03-AM7-obe.outbound.protection.outlook.com (mail-am7eur03olkn2016.outbound.protection.outlook.com [40.92.59.16])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 23 Mar 2023 14:24:57 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=e0vGaIjW0I0R8reeuuKB5qofzWeEzdKSF8rxMZocrO3ECR6NT3ZWdZl6Gr+WzEciIyeZ3ZUWlOh0q30ILyXzTWutMmKo6C6yO0hnrfC42HJIYRS+ujHAinIRxml4jEx4ML3/QaWnBkn6/RcaCeKSa4h9AOlxsMRKd6hybM7vaDI5A+a2GkDk2BAonfUzB1ksuJl4vU7cOEgs5TGP5hqEsY+7Y6vcDGuTyl8OXbVfwacXSZ+TdUxloUZ/FAbd0925vbslJjFMcvdyV0ILt0YtD9QZ9BYpV6b3s5KxsmaUyjDQ4zxGzGodyowkYCuLPW9mPNWRFdhogK4OFj1YWiYsJw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=5jlNleuf3ej0X/qdM/lETR6z0lKNFn/CK/DW70QUXxU=;
+ b=DaomME79gQG5+0Hj3O9Det+kaX9ecSRZrM9CjnLQEiP5ESHx3zPF73bqn63houcC1uUfcK1LFBBmUUEQuu7jukFKURupFNGfWcxeK1Ej1QsOXaqiLTnWIwcx+XHjujELgfnHcMB/bCpyBq3CtuLgqQSXD78Di/B34yADJtFl5cuTEP6SgBLHP+crBEzuiSEskbFX/JoeimtOYwR00FMfXLdDbYsOOFUpRprF+VhMchOLjn0rctplO+VE2DxLEQtDJHjHpKB0V8ZVke5zMLlg+nIwmAdaquiDnmIVfl7/U/Jk0f4DAMOkJxgoxaIkdvDggTO4ybloUCo9Ng/RxBOMXg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=5jlNleuf3ej0X/qdM/lETR6z0lKNFn/CK/DW70QUXxU=;
+ b=li1XCvoC39S3kcQd2qtV2eVaFZ9mKtH0Q1Nda5O8mFhfhgRkwSxpR199vBW6WXYDuFkc2PFUh4hvSw1O//jInTkIqo7+ViLGFqNaVc/HmswfteyQrSpk0SLNgSHI2uLsEs2Ij+gikin2EWU/QqrxQflCVjmMAxzssAmmK3epBiM35R0CiPsf/bBwN4yzrxOhhsHx7wufQdQu6TswVzCutkjD5M+eOrQBM59+bvY0m+YlfIjezqM6X9CJpLwpXDebmgU9hOOAYHrp/qQee1vOEgNZ5Br4sSUVS9tjSTLyCGVWGEREK7uBdTwij13tzjxqwOkFe9VdADTJRqQ0zXHXgg==
+Received: from AS8P190MB1654.EURP190.PROD.OUTLOOK.COM (2603:10a6:20b:3fe::5)
+ by GVXP190MB1896.EURP190.PROD.OUTLOOK.COM (2603:10a6:150:6a::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6178.37; Thu, 23 Mar
+ 2023 14:24:37 +0000
+Received: from AS8P190MB1654.EURP190.PROD.OUTLOOK.COM
+ ([fe80::d210:be49:f4d7:a384]) by AS8P190MB1654.EURP190.PROD.OUTLOOK.COM
+ ([fe80::d210:be49:f4d7:a384%9]) with mapi id 15.20.6178.038; Thu, 23 Mar 2023
+ 14:24:37 +0000
+Content-Type: multipart/alternative; boundary="===============3308569743144314961=="
+Subject: A wise man!
+From: <KenechukwuDeierlein1989@outlook.com>
+CC: <KenechukwuDeierlein1989@outlook.com>
+Date: Thu, 23 Mar 2023 14:22:47 +0000
+X-TMN: [VCjamLiYyKFGOfEhWzIUWc8sCeJbGjGx]
+X-ClientProxiedBy: MN2PR18CA0027.namprd18.prod.outlook.com
+ (2603:10b6:208:23c::32) To AS8P190MB1654.EURP190.PROD.OUTLOOK.COM
+ (2603:10a6:20b:3fe::5)
+Return-Path: KenechukwuDeierlein1989@outlook.com
+Message-ID:
+ <AS8P190MB165446EE5C837F3265C6B537B6879@AS8P190MB1654.EURP190.PROD.OUTLOOK.COM>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AS8P190MB1654:EE_|GVXP190MB1896:EE_
+X-MS-Office365-Filtering-Correlation-Id: cb94d2d7-523f-447e-d9d6-08db2baa540d
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	LDsRiu+gGwWE4DhRjJ4O9xoMKeeEhrlRs++fo0uO1oX+2TnOjSYcHmRX4RxHVb0x4xcPEzbUJB0dMbbn3pFdiYywoS7pr32B+kgvNpCw9ZTWCupGDwI/j4TcQzOa39mzIjyZBjEyq8PX2kxc7moHCFhXDe8po0yOJT/+Tz/ZfWh1pKNB1kEipRp12hM3ZEKbMj4R9E+hsnC7XnfeoUcwIxWo+0tUx9qHvaEcbSdvoD8RDUq3LYrsDAP/pKzEBZW5iqIYn1IcwC5C/A+aeKDnJaRLuZKH/yGOvUmOjcPndwmmW3HYB9VPcedIu6Z9z/WbNvg+LZKURQU8QTClhY7FY2ylkIBSKdU7N6jFpXtVdzhW8+EB4Qf47u91Zjo8acasU/FJJ5+mdQWJdlPCkvMWEuPJiR167yGsIayPovg4dLKfak09HfADnm+fNBy7o3ks55OBdfMPl7PBzx9W+hOevxNlcW48/8egt7RckD+mJyJm6pT74Fc6pNJBcWX3AEI2zBrcq6Ph8d7OQUEa8NY2GU9VLioWBZhpW6xtytoZ/kSzAnYpPLzHRjdqDQzV5i3HrIfx0Xs6h/OfDGDqHTGVn1CgyAmxc4zT0870hdEaOabVX51qJqHoxW5XqDIICH2F
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?yHTbR9GHzVDZBrsZT2Xrh0t2GNC11bOrCMVzsXu9qo4lV1S0U95gZpsZCOVw?=
+ =?us-ascii?Q?3yulVWRqdovbQp+OPHbHcZ+it5gCCZy64GXZ58SLlCElHvklY1lHyXX52fme?=
+ =?us-ascii?Q?ftvNa70i60FTiOciSyYaEdvAiwaBi1sn5jm8UBqSyNtcW2N6sN2PXnWp5sBJ?=
+ =?us-ascii?Q?m8ixlPX2p/P01BFVpML8b6Y/h4eczRh9ikQsaTIxPHAdm71OdADPdvqMuI4B?=
+ =?us-ascii?Q?OzN86d1GckswURdQTaICkBPUB5jVXmLRp2LJtdzwgzhpjec/wuTeUFRXI595?=
+ =?us-ascii?Q?Rz6lD9aIZaWkYrx41xRQK/VT5YU1mEzFXyrn48qaqyIJtnTaEKgZ2hR4ZHrk?=
+ =?us-ascii?Q?8lj1L1H1iXcETAOhC6cgOvt8uvzEUqLbI2XOn1rC8FDkXO6ln77hLD4t0ALQ?=
+ =?us-ascii?Q?KmOUXPLlsu4XF1ZNPNL8G7/+4xsZKF5i/qLb4DK8r6PXpMosKP+whzyNccG8?=
+ =?us-ascii?Q?slf7ONuGmmen0QXMxQqkjfcJBT4Ey38OcQSs1h08b+WZ9rcUcFitZKm1UWPy?=
+ =?us-ascii?Q?aiI6h8jT8a0BVNYqhbXdqNaEOphNoAP60QGOubVeu7YqKSxE9/hZriPZYupf?=
+ =?us-ascii?Q?bz1wZHGYinY9S76fKv1T6IwqD4nYqav1/c2kTz0PvnoTp3QHTwzY4Eve9anq?=
+ =?us-ascii?Q?kO1PLgt06s5OQSuo8+6kll03z6/dY3f7niAcw8ENYTX1kvLE4yaXlatQU8RU?=
+ =?us-ascii?Q?ZonizkV23v44qBYL9StzZ8SqXuHdlwPUf6xMdPDx88RL4s9ixKmjK1Ki/c3Q?=
+ =?us-ascii?Q?4rN39CBVgtxQhYagL1CZVvWLBgbLs/luYJTNlQc3p3xrYmNsbjLkisRpFGhm?=
+ =?us-ascii?Q?YXJ1/42UTNqHJuewO79+TrhMes/LXxDd6TWa41AMShVqX6703P1HdfNaCug4?=
+ =?us-ascii?Q?pNpgk15xdIYwoEkA1qIaIchTk835hOAD+R3yM6s9OT8zWwlRRMapNVil1s7u?=
+ =?us-ascii?Q?r9Y14dZKC/pnUd2tkgJqZu3tqZ/pmAjYZDEQvjMmXTcJhnwG/Um932tvXhWv?=
+ =?us-ascii?Q?5nkTCXiYgyCs73YWtqyLbU3j9XqcZoqCVgX9ariqeQd57wJEB+/qN4I3F5sV?=
+ =?us-ascii?Q?+KpPaSd84sDWIhQXRFrM2B3yVeHl7Uq9K0XPJBkKk23BLzvC4oJP6YMm91Xs?=
+ =?us-ascii?Q?/Mxm9r/0bAL4v1bn6ozkOwbOA82q+hmW+ZvOe2p7O4Zod9KdG0KinSZ5ytdE?=
+ =?us-ascii?Q?/rZYNyyJMRzc5Wua4LPaHEwg2OIsCd8FKzsk+oJfFlJvUMt803QnbnIz9QNq?=
+ =?us-ascii?Q?0b/0FckFMkmO8OFRUJLvGIe4aTqiFboxgNaUxIYeNMFTBIphE3P0+admspIq?=
+ =?us-ascii?Q?tGXVlqlzB/pAG01ebqccCH8B?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: cb94d2d7-523f-447e-d9d6-08db2baa540d
+X-MS-Exchange-CrossTenant-AuthSource: AS8P190MB1654.EURP190.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Mar 2023 14:24:36.6746
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GVXP190MB1896
+Content-Length: 7524
+
+--===============3308569743144314961==
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c11{-webkit-text-decoration-skip:none;color:#1155cc;font-weight:700;text-decoration:underline;vertical-align:baseline;text-decoration-skip-ink:none;font-size:11pt;font-family:"Arial";font-style:normal}.c5{padding-top:0pt;padding-bottom:0pt;line-height:7.1205;orphans:2;widows:2;text-align:center;height:11pt}.c9{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:"Arial";font-style:normal}.c2{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:center;height:11pt}.c6{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:"Arial";font-style:normal}.c3{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:13pt;font-family:"Arial";font-style:normal}.c7{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c8{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left;height:11pt}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{padding-top:0pt;padding-bottom:0pt;line-height:1.38;orphans:2;widows:2;text-align:center}.c4{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:center}.c13{padding-top:0pt;padding-bottom:0pt;line-height:7.1205;orphans:2;widows:2;text-align:center}.c15{padding-top:0pt;padding-bottom:0pt;line-height:2.38464;orphans:2;widows:2;text-align:left}.c16{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;font-weight:700;text-decoration:underline}.c10{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c14{font-size:21pt;font-weight:700}.c12{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c10 doc-content"><p class="c0"><span class="c7">If you live in the United Kingdom, you want to date and meet the most beautiful women in the world!</span></p><p class="c0"><span class="c7">Since the start of the war in Ukraine, over 8,000,000 people have left Ukraine and moved around the world</span></p><p class="c0"><span class="c7">Over 500.000 moved to the United Kingdom, which is why we have created a page where you can meet single Ukrainian women and show them around the UK!</span></p><p class="c12 c15"><span class="c1"></span></p><p class="c4"><span class="c3">On our site, we have over 70,000 single Ukrainian women who are interested in chatting and dating today with people from the UK!</span></p><p class="c4"><span class="c3">Sign up today and find yourself the most beautiful woman in the world! Ukrainian women!</span></p><p class="c2"><span class="c3"></span></p><p class="c0 c12"><span class="c9"></span></p><p class="c2"><span class="c1"></span></p><p class="c13"><span class="c14">bit.ly/dateukrainianx</span></p><p class="c4"><span class="c7">Registration is free!</span></p><p class="c4"><span class="c7">All women are verified and real!</span></p><p class="c4"><span class="c7">35,000 Ukrainian women on the site!</span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c2"><span class="c7"></span></p><p class="c4"><span class="c7">If you want to delete yourself from the base, do so</span></p><p class="c5"><span class="c3"></span></p><p class="c13"><span class="c16">unsubscribe</span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c2"><span class="c1"></span></p><p class="c8"><span class="c1"></span></p><p class="c8"><span class="c1"></span></p><p class="c8"><span class="c1"></span></p><p class="c8"><span class="c1"></span></p><p class="c8"><span class="c1"></span></p></body></html>
+--===============3308569743144314961==--

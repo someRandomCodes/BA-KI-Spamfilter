@@ -1,0 +1,3204 @@
+Return-Path: <workshops=skillsforafrica.or.ke@bounces.elasticemail.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 105838 invoked from network); 25 Jan 2023 02:40:47 -0000
+Received: from n57.mxout.mta4.net (n57.mxout.mta4.net [67.227.87.57])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 25 Jan 2023 02:40:46 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=bounces.elasticemail.net; s=api;
+	c=relaxed/simple; t=1674614443;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=kPhJ/2RNJMHobcADDrsWb23aL0kIRE5WB+VvZVJrubo=;
+	b=CFFgsxZI9M/41iGuXkAUM5GGGovkOLz2UTNmuvCJmPwOGehIjZP+T7UuXpq6bFYtqnxVphtnw6Q
+	r/zfN4sl4hPV1bAFZtJTdV2csT9cE/pKITygxGSpx+QImyYTHSlmjv/XKOoBPBzbSSxvYEcbUVAxW
+	IB283TZdFb2PFUwpuns=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1674614443;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=kPhJ/2RNJMHobcADDrsWb23aL0kIRE5WB+VvZVJrubo=;
+	b=mMox1FiKgWpqG2++9mi1OpqX+5j9GCR5A99NlKx4fyuSK8tWveOIYW2WPM1nRiN+NcQ6G3El8Ss
+	aOk0i/zpIlbJeMAWZ94blntLNRFBy9+sgMW8W8PAsESDr+/19axYB6pxlmHyvnpLKm33rdHiK98Tf
+	OM0PWxEoV/dlk7G2BxE=
+From: Skills for Africa Training Institute <workshops@skillsforafrica.or.ke>
+Date: Wed, 25 Jan 2023 02:40:43 +0000
+Subject: Training Workshop On Research Design, SurveyCTO, Mobile Data
+ Collection, GIS Mapping, Data Analysis Using NVIVO And STATA On 6th To 17th
+ March 2023, Nairobi, Kenya
+Message-Id: <4uj0bjltw2ib.umvqamUvsivrUOAGeOgowQ2@133IK.trk.elasticemail.com>
+Reply-To: workshops@skillsforafrica.or.ke
+Sender: workshops=skillsforafrica.or.ke@bounces.elasticemail.net
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+umvqamUvsivrUOAGeOgowQ2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2F133IK=2Etrk=2Eelasticemail=2Ecom=2Ftracking=2Funsubscribe=3Fmsgid?=
+ =?us-ascii?q?=3DumvqamUvsivrUOAGeOgowQ2&c=3D1468560650031829931=3E?=
+X-Msg-EID: umvqamUvsivrUOAGeOgowQ2
+Disposition-Notification-To: workshops@skillsforafrica.or.ke
+Return-Receipt-To: <workshops@skillsforafrica.or.ke>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfEW/D7yTBEtGNY989XAbg9QFN0vEy/XWKzQ=="
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 156568
+
+--=-eZCfEW/D7yTBEtGNY989XAbg9QFN0vEy/XWKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNr
+P2Q9NFJTT0dlUzVISTZLRkppeFFweWtVSDdTQkRTajBBMkVkSGRjcXFFay1LTXhIRlhfSzZE
+NlpMalI1bUlOSG9uMDFvclFySVk0UWpzZ0lFNzZOQ2JwM2hpYW5mNlNrNUhSUXRzVzMzVFd0
+TjZMeUxla0tuXzh6aFl2cjY0ZENabEZEQlRnN2hNNDhGaThIM0VBbGFyVGltNDE+DQpXb3Jr
+c2hvcCBPbiBSZXNlYXJjaCANCkRlc2lnbiwgU3VydmV5Q1RPLCBNb2JpbGUgRGF0YSBDb2xs
+ZWN0aW9uLCBHSVMgTWFwcGluZywgRGF0YSBBbmFseXNpcyBVc2luZyANCk5WSVZPIEFuZCBT
+VEFUQSBPbiA2dGggVG8gMTd0aCBNYXJjaCAyMDIzLE5haXJvYmksIA0KS2VueWENCg0KPGh0
+dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1Xb2Fw
+b3ktcFRyRmhoNzkyUkhlSjktUnQyMjVZWXNQbVdqTldzcXFyVHRNTnJ5RnU1cVc3S25ueXVv
+Uld4VE11VGlsOFpqOVB1NWFUamJHZG5GejFQVWVseEJjWU15RVR2Mzl3WjlLWXNzeDItNUJk
+eWd2YTBXdEJEZUxkbjJ1azFIcU1mMFQ4YkM0dGpsdUJqWkZrWGw2T3JETk4ycmNoZnIwemZo
+T1BQVlh1MD4NClJlZ2lzdGVyIGZvciBvbmxpbmUgDQp3b3Jrc2hvcCBhdHRlbmRhbmNlIA0K
+DQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9k
+PVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE1OcnlGdTVxVzdL
+bm55dW9SV3hUTXVUaWw4Wmo5UHU1YVRqYkdkbkZ6MVBkUFdWcG5uUW5IdWZ3a2txV1hINjJD
+S2dTSzRHR2J5M0VXOU0zLUJ6dlNFZXFIenNodS1VZ0xuZERYWkh0YnlTYXcyUFZILVk1R3lo
+WWFTQWZONDZnYy0wPg0KwqANCg0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5j
+b20vdHJhY2tpbmcvY2xpY2s/ZD1Xb2Fwb3ktcFRyRmhoNzkyUkhlSjktUnQyMjVZWXNQbVdq
+TldzcXFyVHRPcXBtTEJ4WHkweUJGYkhYcGdyZG9QOElCc3NaMFd6SlFIcWpLTk1HY1FaUFNu
+ODFQUkUtMk0zUHlIOTJSem41eTR2cmNoOERHWmdwQ0VYc1dqU2htR1B4WFRzd3dtQVViX2Zi
+ME96ZWtBTS0wMS1wQWptSEVmb1hGZVgxMkdHZkRQMD4NClJlZ2lzdGVyIHRvIGF0dGVuZCB0
+aGUgDQp3b3Jrc2hvcA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90
+cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3Nx
+cXJUdE9xcG1MQnhYeTB5QkZiSFhwZ3Jkb1A4SUJzc1owV3pKUUhxaktOTUdjUVpLbUZ0azNa
+Ym9Oci1fbVpmaWJDeUFoMWhXZmdJMFQwWVVJT2poWV9WdjJzUXBpdWtVeDhyQWc5WExEeV9j
+aUJWRlJVb05PbS05bE5UWS12dDR5N3A5NVowPg0KwqANCg0KPGh0dHBzOi8vMTMzSUsudHJr
+LmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD00UlNPR2VTNUhJNktGSml4UXB5
+a1VIN1NCRFNqMEEyRWRIZGNxcUVrLUtOVEZGTlk2akxUbGFublRzRk5wMS1lM2ExWkRkdlZG
+M0tzbHVFU1dvNlZ1Z2ljRXRid0sxSlhfTnp1VUN5OWNlVDNnRnFobU1TTFBiTnRQbEFtX242
+TGdNUXMtOHBBaVowcDAwcjlaakZGLWZ3MT4NCkNhbGVuZGFyIGZvciAyMDIzIA0KV29ya3No
+b3BzDQrCoA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2lu
+Zy9jbGljaz9kPTRSU09HZVM1SEk2S0ZKaXhRcHlrVUg3U0JEU2owQTJFZEhkY3FxRWstS00t
+Y2dkZDkzZXI4b2lERDlSVldzaGladC14b2NKTmdxdTU5R1NjaVotWWE4OHg1b3JONEV5MUp4
+RC1VcjFXMjY2Vnh4a1B4bVFESlNfbGxsZElKMVJNLVZOMDlYT1A5TTUzV0MwSmRQZk5BT2Mx
+Pg0KQ29udGFjdCANCnVzDQrCoA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWls
+LmNvbS90cmFja2luZy9jbGljaz9kPVRkTzFnQ3VRNzFocFdMNjBCV05udHV3ZjJJV0pma19r
+SlFfT2V4NV9lamoxYmJRRmZCampzTEo4M0l0Wllzd1pmWTRRdDlhM0dLTXBCNGM2SDV0WVdY
+ODhsbGJrTDRiemF5V3dRQzVzemxkaHNUUDFsU3hRSkxrZGJkQVR5ZnpveHJJOHY4YmhSNnFL
+bFJWMll3TlZmUXMxPg0KV2hhdGFwcA0KwqANClZlbnVlOiANClJveWFsIFR1bGlwIENhbmFh
+biBOYWlyb2JpLCBLZW55YQ0KQ291cnNlIA0KRmVlOiAyLDcwMHVzZA0KT2ZmaWNlIA0KVGVs
+ZXBob25lOiArMjU0LTcwMi0yNDktNDQ5DQpSZWdpc3RlciBhcyBhIGdyb3VwIG9mIDUgb3Ig
+bW9yZSBwYXJ0aWNpcGFudHMgYW5kIGdldCAyNSUgZGlzY291bnQgDQpvbiB0aGUgY291cnNl
+IGZlZS4gDQpTZW5kIA0KdXMgYW4gZW1haWw6IA0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0
+aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1yYV9LcnF1eW1fdkFIN2EweGZ5aVJSUkow
+bW1Nb2dueWc1NmttUGVKRGNPQVRnNWhSa040am1ITXdFekYwemd0TzQ4S05OdUxHVWR3bEcx
+cUtqVW5iVU0ySWVUMEljT1diZkpsbFQ0MkpzWGY2WTE5UWhXQzhvS0NnMHdHVmhNTVVtTU1C
+cmIteUFveE4tWFpIVFNxd3U3ZzYzbkZDbTFWby1xdWVMMlRYOUxpWkVHbUE4eTFaSDdNVHpk
+UHFncll4LVVjLUlQM1k4ZFMtVVRObUtFNGRLcmRwSXRjS0c3X2gtM2tQYWNFbkVhbzA+DQp0
+cmFpbmluZ0Bza2lsbHNmb3JhZnJpY2Eub3JnwqBvciBjYWxsICsyNTQtNzAyLTI0OS00NDkN
+CklOVFJPRFVDVElPTg0KTmV3IGRldmVsb3BtZW50cyBpbiANCmRhdGEgc2NpZW5jZSBvZmZl
+ciBhIHRyZW1lbmRvdXMgb3Bwb3J0dW5pdHkgdG8gaW1wcm92ZSBkZWNpc2lvbi1tYWtpbmcu
+IEluIHRoZSANCmRldmVsb3BtZW50IHdvcmxkLCB0aGVyZSBoYXMgYmVlbiBhbiBpbmNyZWFz
+ZSBpbiB0aGUgbnVtYmVyIG9mIGRhdGEgZ2F0aGVyaW5nIA0KaW5pdGlhdGl2ZSBzdWNoIGFz
+IGJhc2VsaW5lIHN1cnZleXMsIFNvY2lvLUVjb25vbWljIFN1cnZleXMsIERlbW9ncmFwaGlj
+IGFuZCANCkhlYWx0aCBTdXJ2ZXlzLCBOdXRyaXRpb24gU3VydmV5cywgRm9vZCBTZWN1cml0
+eSBTdXJ2ZXlzLCBQcm9ncmFtIEV2YWx1YXRpb24gDQpTdXJ2ZXlzLCBFbXBsb3llZXMsIGN1
+c3RvbWVycyBhbmQgdmVuZG9yIHNhdGlzZmFjdGlvbiBzdXJ2ZXlzLCBhbmQgb3BpbmlvbiBw
+b2xscyANCmFtb25nIG90aGVycywgYWxsIGludGVuZGVkIHRvIHByb3ZpZGUgZGF0YSBmb3Ig
+ZGVjaXNpb24gDQptYWtpbmcuDQpJdCBpcyBlc3NlbnRpYWwgdGhhdCANCnRoZXNlIGVmZm9y
+dHMgZ28gYmV5b25kIG1lcmVseSBnZW5lcmF0aW5nIG5ldyBpbnNpZ2h0cyBmcm9tIGRhdGEg
+YnV0IGFsc28gdG8gDQpzeXN0ZW1hdGljYWxseSBlbmhhbmNlIGluZGl2aWR1YWwgaHVtYW4g
+anVkZ21lbnQgaW4gcmVhbCBkZXZlbG9wbWVudCBjb250ZXh0cy4gDQpIb3cgY2FuIG9yZ2Fu
+aXphdGlvbnMgYmV0dGVyIG1hbmFnZSB0aGUgcHJvY2VzcyBvZiBjb252ZXJ0aW5nIHRoZSBw
+b3RlbnRpYWwgb2YgDQpkYXRhIHNjaWVuY2UgdG8gcmVhbCBkZXZlbG9wbWVudCBvdXRjb21l
+cz8gVGhpcyB0ZW4gZGF5cyBoYW5kcy1vbiBjb3Vyc2UgaXMgDQp0YWlsb3JlZCB0byBwdXQg
+YWxsIHRoZXNlIGltcG9ydGFudCBjb25zaWRlcmF0aW9uIGludG8gcGVyc3BlY3RpdmUuIEl0
+IGlzIA0KZW52aXNpb25lZCB0aGF0IHVwb24gY29tcGxldGlvbiwgdGhlIHBhcnRpY2lwYW50
+cyB3aWxsIGJlIGVtcG93ZXJlZCB3aXRoIHRoZSANCm5lY2Vzc2FyeSBza2lsbHMgdG8gcHJv
+ZHVjZSBhY2N1cmF0ZSBhbmQgY29zdCBlZmZlY3RpdmUgZGF0YSBhbmQgcmVwb3J0cyB0aGF0
+IA0KYXJlIHVzZWZ1bCBhbmQgZnJpZW5kbHkgZm9yIGRlY2lzaW9uIG1ha2luZy4NCkl0IHdp
+bGwgYmUgY29uZHVjdGVkIA0KdXNpbmcgU3VydmV5Q1RPLCBHSVMsIE5WSVZPIGFuZCBTVEFU
+QQ0KQ09VUlNFIA0KT0JKRUNUSVZFUw0KwrfCoMKgwqDCoMKgwqDCoEF0IHRoZSBlbmQgb2Yg
+DQpjb3Vyc2UgcGFydGljaXBhbnRzIHNob3VsZCBiZSBhYmxlIHRvOg0KwrfCoMKgwqDCoMKg
+wqDCoFVuZGVyc3RhbmQgYW5kIA0KYXBwcm9wcmlhdGVseSB1c2Ugc3RhdGlzdGljYWwgdGVy
+bXMgYW5kIGNvbmNlcHRzDQrCt8KgwqDCoMKgwqDCoMKgRGVzaWduIGFuZCANCkltcGxlbWVu
+dCB1bml2ZXJzYWxseSBhY2NlcHRhYmxlIFN1cnZleXMNCsK3wqDCoMKgwqDCoMKgwqBDb252
+ZXJ0IGRhdGEgDQppbnRvIHZhcmlvdXMgZm9ybWF0cyB1c2luZyBhcHByb3ByaWF0ZSBzb2Z0
+d2FyZQ0KwrfCoMKgwqDCoMKgwqDCoFVzZSBtb2JpbGUgZGF0YSANCmdhdGhlcmluZyB0b29s
+cyBzdWNoIGFzIFN1cnZleUNUTw0KwrfCoMKgwqDCoMKgwqDCoFVzZSBHSVMgc29mdHdhcmUg
+DQp0byBwbG90IGFuZCBkaXNwbGF5IGRhdGEgb24gYmFzaWMgbWFwcw0KwrfCoMKgwqDCoMKg
+wqDCoFF1YWxpdGF0aXZlIGRhdGEgDQphbmFseXNpcyB1c2luZyBOVklWTw0Kb8KgwqDCoFdv
+cmtmbG93IHVzZSANCmNvbW1hbmRzIGluIFNUQVRBDQpvwqDCoMKgTWFuYWdlLCBlZGl0IGFu
+ZCANCnN0cnVjdHVyZSBsYXJnZSBkYXRhYmFzZXMgaW4gU1RBVEENCm/CoMKgwqBHZW5lcmF0
+aW5nIA0KZGVzY3JpcHRpdmUgc3RhdGlzdGljcyBpbiBTVEFUQQ0Kb8KgwqDCoENyZWF0aW5n
+IA0KcG93ZXJmdWwgcHVibGljYXRpb24tcXVhbGl0eSBncmFwaHMgaW4gU1RBVEENCm/CoMKg
+wqBEYXRhIA0KQW5hbHlzaXMvRXN0aW1hdGlvbnMgaW4gU1RBVEENCsK3wqDCoMKgwqDCoMKg
+wqBXcml0ZSByZXBvcnRzIA0KZnJvbSBzdXJ2ZXkgZGF0YQ0KwrfCoMKgwqDCoMKgwqDCoFB1
+dCBzdHJhdGVnaWVzIA0KdG8gaW1wcm92ZSBkYXRhIGRlbWFuZCBhbmQgdXNlIGluIGRlY2lz
+aW9uIG1ha2luZw0KRFVSQVRJT04NCjEwIA0KRGF5cw0KV0hPIFNIT1VMRCANCkFUVEVORA0K
+VGhpcyBpcyBhIA0KZ2VuZXJhbCBjb3Vyc2UgdGFyZ2V0aW5nIHBhcnRpY2lwYW50cyB3aXRo
+IGVsZW1lbnRhcnkga25vd2xlZGdlIG9mIFN0YXRpc3RpY3MgDQpmcm9tIEFncmljdWx0dXJl
+LCBFY29ub21pY3MsIEZvb2QgU2VjdXJpdHkgYW5kIExpdmVsaWhvb2RzLCBOdXRyaXRpb24s
+IA0KRWR1Y2F0aW9uLCBNZWRpY2FsIG9yIHB1YmxpYyBoZWFsdGggcHJvZmVzc2lvbmFscyBh
+bW9uZyBvdGhlcnMgd2hvIGFscmVhZHkgaGF2ZSANCnNvbWUgc3RhdGlzdGljYWwga25vd2xl
+ZGdlLCBidXQgd2lzaCB0byBiZSBjb252ZXJzYW50IHdpdGggdGhlIGNvbmNlcHRzIGFuZCAN
+CmFwcGxpY2F0aW9ucyBvZiBzdGF0aXN0aWNhbCBtb2RlbGluZy4NCkNPVVJTRSANCkNPTlRF
+TlQNCk1vZHVsZTE6IEJhc2ljIA0Kc3RhdGlzdGljYWwgdGVybXMgYW5kIGNvbmNlcHRzDQrC
+t8KgwqDCoMKgwqDCoMKgSW50cm9kdWN0aW9uIHRvIA0Kc3RhdGlzdGljYWwgY29uY2VwdHMN
+CsK3wqDCoMKgwqDCoMKgwqBEZXNjcmlwdGl2ZSANClN0YXRpc3RpY3MNCsK3wqDCoMKgwqDC
+oMKgwqBJbmZlcmVudGlhbCANCnN0YXRpc3RpY3MNCk1vZHVsZSAyOiANClJlc2VhcmNoIERl
+c2lnbg0KwrfCoMKgwqDCoMKgwqDCoFRoZSByb2xlIGFuZCANCnB1cnBvc2Ugb2YgcmVzZWFy
+Y2ggZGVzaWduDQrCt8KgwqDCoMKgwqDCoMKgVHlwZXMgb2YgDQpyZXNlYXJjaCBkZXNpZ25z
+DQrCt8KgwqDCoMKgwqDCoMKgVGhlIHJlc2VhcmNoIA0KcHJvY2Vzcw0KwrfCoMKgwqDCoMKg
+wqDCoFdoaWNoIG1ldGhvZCB0byANCmNob29zZT8NCsK3wqDCoMKgwqDCoMKgwqBFeGVyY2lz
+ZTogDQpJZGVudGlmeSBhIHByb2plY3Qgb2YgY2hvaWNlIGFuZCBkZXZlbG9waW5nIGEgcmVz
+ZWFyY2ggZGVzaWduDQpNb2R1bGUgMzogU3VydmV5IA0KUGxhbm5pbmcsIEltcGxlbWVudGF0
+aW9uIGFuZCBDb21wbGV0aW9uDQrCt8KgwqDCoMKgwqDCoMKgVHlwZXMgb2YgDQpzdXJ2ZXlz
+DQrCt8KgwqDCoMKgwqDCoMKgVGhlIHN1cnZleSANCnByb2Nlc3MNCsK3wqDCoMKgwqDCoMKg
+wqBTdXJ2ZXkgDQpkZXNpZ24NCsK3wqDCoMKgwqDCoMKgwqBNZXRob2RzIG9mIA0Kc3VydmV5
+IHNhbXBsaW5nDQrCt8KgwqDCoMKgwqDCoMKgRGV0ZXJtaW5pbmcgdGhlIA0KU2FtcGxlIHNp
+emUNCsK3wqDCoMKgwqDCoMKgwqBQbGFubmluZyBhIA0Kc3VydmV5DQrCt8KgwqDCoMKgwqDC
+oMKgQ29uZHVjdGluZyB0aGUgDQpzdXJ2ZXkNCsK3wqDCoMKgwqDCoMKgwqBBZnRlciB0aGUg
+DQpzdXJ2ZXkNCsK3wqDCoMKgwqDCoMKgwqBFeGVyY2lzZTogDQpQbGFubmluZyBmb3IgYSBz
+dXJ2ZXkgYmFzZWQgb24gdGhlIHJlc2VhcmNoIGRlc2lnbiBzZWxlY3RlZA0KTW9kdWxlIDQ6
+IA0KSW50cm9kdWN0aW9uIHRvIFN1cnZleUNUTw0KwrfCoMKgwqDCoMKgwqDCoEludHJvZHVj
+dGlvbiBhbmQgDQpLZXkgQ29uY2VwdHMNCsK3wqDCoMKgwqDCoMKgwqBPdmVydmlldyBvZiBP
+REsgDQphbmQgS29ib3RvbGJveA0KwrfCoMKgwqDCoMKgwqDCoEFkdmFudGFnZXMgb2YgDQpT
+dXJ2ZXlDVE8NCsK3wqDCoMKgwqDCoMKgwqBLZXkgRmVhdHVyZXMgb2YgDQpTdXJ2ZXlDVE8N
+CsK3wqDCoMKgwqDCoMKgwqBDYXNlIHN0dWRpZXMgb24gDQp1c2Ugb2YgU3VydmV5Q1RPDQpN
+b2R1bGUgNTogDQpTdXJ2ZXlDVE8gU2VydmVyDQrCt8KgwqDCoMKgwqDCoMKgQ29tcG9uZW50
+cyBvZiANClN1cnZleUNUTw0KwrfCoMKgwqDCoMKgwqDCoERhdGEgDQphZ2dyZWdhdGlvbiwg
+c3RvcmFnZSwgYW5kIGRpc3NlbWluYXRpb24NCsK3wqDCoMKgwqDCoMKgwqBTZXR0aW5nIHVw
+IGEgDQpTdXJ2ZXlDVE8gc2VydmVyDQrCt8KgwqDCoMKgwqDCoMKgTWFuYWdpbmcgdXNlcnMg
+DQomIHVzZXIgcm9sZXMNCk1vZHVsZSA2OiANClNldHRpbmcgVXAgU3VydmV5Q1RPIENvbGxl
+Y3QgQXBwDQrCt8KgwqDCoMKgwqDCoMKgSW5zdGFsbGluZyANClN1cnZleUNUTyBjb2xsZWN0
+IGZyb20gZ29vZ2xlIHBsYXkgc3RvcmUNCsK3wqDCoMKgwqDCoMKgwqBDb25maWd1cmluZyAN
+ClN1cnZleUNUTyBjb2xsZWN0IGFwcA0KwrfCoMKgwqDCoMKgwqDCoFN1cnZleUNUTyANCkNv
+bGxlY3QgQXBwbGljYXRpb24gSW50ZXJmYWNlDQpNb2R1bGUgNzogDQpTdXJ2ZXlDVE8gT25s
+aW5lIEZvcm0gYnVpbGRlcg0KwrfCoMKgwqDCoMKgwqDCoENyZWF0aW5nIGEgDQpmb3JtDQrC
+t8KgwqDCoMKgwqDCoMKgSW5wdXQgDQp0eXBlcw0KwrfCoMKgwqDCoMKgwqDCoEFkZGluZyBx
+dWVzdGlvbiANCnRvIEZvcm0NCsK3wqDCoMKgwqDCoMKgwqBGb3JtIA0KbG9naWNzDQrCt8Kg
+wqDCoMKgwqDCoMKgSW1wb3J0IGFuZCANCmV4cG9ydCBmb3Jtcw0KTW9kdWxlIDg6IA0KQnVp
+bGRpbmcgRm9ybXMgdXNpbmcgWExTRm9ybXMNCsK3wqDCoMKgwqDCoMKgwqBJbnRyb2R1Y3Rp
+b24gdG8gDQp4bHNmb3JtIGRlc2lnbmVyDQrCt8KgwqDCoMKgwqDCoMKgQ29tcG9uZW50cyBv
+ZiANClhsU0Zvcm0NCsK3wqDCoMKgwqDCoMKgwqBRdWVzdGlvbiANCnR5cGVzDQrCt8KgwqDC
+oMKgwqDCoMKgSGFuZGxpbmcgDQpjb25zdHJhaW50cyBhbmQgcmVxdWlyZWQgb3B0aW9ucw0K
+wrfCoMKgwqDCoMKgwqDCoEZvcm0gc2tpcCANCmxvZ2ljDQrCt8KgwqDCoMKgwqDCoMKgRm9y
+bSBPcGVyYXRvcnMgDQphbmQgRnVuY3Rpb25zDQrCt8KgwqDCoMKgwqDCoMKgR3JvdXBpbmcg
+DQpRdWVzdGlvbnMNCsK3wqDCoMKgwqDCoMKgwqBTZXR0aW5ncyANCldvcmtzaGVldA0KwrfC
+oMKgwqDCoMKgwqDCoEltcG9ydGluZyANCnhsc2Zvcm1zIHRvIHN1cnZleUNUTyBzZXJ2ZXIN
+Ck1vZHVsZSA5OiBVc2luZyANClN1cnZleUNUTyBDb2xsZWN0DQrCt8KgwqDCoMKgwqDCoMKg
+TWFuYWdpbmcgZm9ybXMgDQppbiBTdXJ2ZXlDVE8gQ29sbGVjdA0KwrfCoMKgwqDCoMKgwqDC
+oENvbGxlY3RpbmcgR1BTIA0KZGF0YQ0KwrfCoMKgwqDCoMKgwqDCoFN1Ym1pdHRpbmcgZGF0
+YSANCnRvIFN1cnZleUNUTyBTZXJ2ZXINCk1vZHVsZSAxMDogDQpNb25pdG9yaW5nIERhdGEg
+d2l0aCBTdXJ2ZXlDVE8gRGF0YSBFeHBsb3Jlcg0KwrfCoMKgwqDCoMKgwqDCoE1vbml0b3Jp
+bmcgDQpTdWJtaXNzaW9uIHN0YXRpc3RpY3MNCsK3wqDCoMKgwqDCoMKgwqBNb25pdG9yaW5n
+IEZvcm0gDQpzdWJtaXNzaW9ucyBhbmQgZGF0YXNldA0KwrfCoMKgwqDCoMKgwqDCoFJldmll
+d2luZyBhbmQgDQpjb3JyZWN0aW5nIGluY29taW5nIGRhdGENCsK3wqDCoMKgwqDCoMKgwqBT
+dW1tYXJpemUgZGF0YSANCnN1Ym1pdHRlZCBmb3IgaW5kaXZpZHVhbCBmaWVsZHMNCsK3wqDC
+oMKgwqDCoMKgwqBTdW1tYXJpemUgdGhlIA0KZW1waXJpY2FsIHJlbGF0aW9uc2hpcHMgYmV0
+d2VlbiBmaWVsZA0KTW9kdWxlIDExOiBEYXRhIA0KTWFuYWdlbWVudA0KwrfCoMKgwqDCoMKg
+wqDCoEV4cG9ydGluZyANCiZFeHBvcnRpbmcgZGF0YSBmcm9tIFN1cnZleUNUTyBhcyBDU1Yg
+dmlhIFN1cnZleUNUTyBTeW5jDQrCt8KgwqDCoMKgwqDCoMKgSW1wb3J0aW5nIA0KU3VydmV5
+Q1RPIOKAkyBDU1YgZmlsZSBpbnRvIHN0YXRpc3RpY2FsIGFwcGxpY2F0aW9ucw0KwrfCoMKg
+wqDCoMKgwqDCoERvd25sb2FkaW5nIGRhdGEgDQpkaXJlY3RseSBmcm9tIFN1cnZleUNUTw0K
+TW9kdWxlIDEyOiANClZpc3VhbGl6aW5nIEdlb2dyYXBoaWMgRGF0YQ0KwrfCoMKgwqDCoMKg
+wqDCoEV4cG9ydGluZyBHUFMgDQpDb29yZGluYXRlcyB0byBHb29nbGUgbWFwcyBhbmQgR29v
+Z2xlIEVhcnRoDQrCt8KgwqDCoMKgwqDCoMKgRXhwb3J0aW5nIEdQUyANCmRhdGEgZm9yIE1h
+cHBpbmcvVmlzdWFsaXppbmcNCk1vZHVsZSAxMzogR0lTIA0KbWFwcGluZyBvZiBzdXJ2ZXkg
+ZGF0YSB1c2luZyBRR0lTDQrCt8KgwqDCoMKgwqDCoMKgSW50cm9kdWN0aW9uIHRvIA0KR0lT
+IGZvciBSZXNlYXJjaGVycyBhbmQgZGF0YSBzY2llbnRpc3RzDQrCt8KgwqDCoMKgwqDCoMKg
+SW1wb3J0aW5nIHN1cnZleSANCmRhdGEgaW50byBhIEdJUw0KwrfCoMKgwqDCoMKgwqDCoE1h
+cHBpbmcgb2YgDQpzdXJ2ZXkgZGF0YSB1c2luZyBRR0lTDQrCt8KgwqDCoMKgwqDCoMKgRXhl
+cmNpc2U6IFFHSVMgDQptYXBwaW5nIGV4ZXJjaXNlLg0KTW9kdWxlIDE0OiANClVuZGVyc3Rh
+bmRpbmcgUXVhbGl0YXRpdmUgUmVzZWFyY2gNCsK3wqDCoMKgwqDCoMKgwqBRdWFsaXRhdGl2
+ZSANCkRhdGENCsK3wqDCoMKgwqDCoMKgwqBUeXBlcyBvZiANClF1YWxpdGF0aXZlIERhdGEN
+CsK3wqDCoMKgwqDCoMKgwqBTb3VyY2VzIG9mIA0KUXVhbGl0YXRpdmUgZGF0YQ0KwrfCoMKg
+wqDCoMKgwqDCoFF1YWxpdGF0aXZlIHZzIA0KUXVhbnRpdGF0aXZlDQrCt8KgwqDCoMKgwqDC
+oMKgTlZpdm8ga2V5IA0KdGVybXMNCsK3wqDCoMKgwqDCoMKgwqBUaGUgTlZpdm8gDQpXb3Jr
+c3BhY2UNCk1vZHVsZSAxNTogDQpQcmVsaW1pbmFyaWVzIG9mIFF1YWxpdGF0aXZlIGRhdGEg
+QW5hbHlzaXMNCsK3wqDCoMKgwqDCoMKgwqBXaGF0IGlzIA0KcXVhbGl0YXRpdmUgZGF0YSBh
+bmFseXNpcw0KwrfCoMKgwqDCoMKgwqDCoEFwcHJvYWNoZXMgaW4gDQpRdWFsaXRhdGl2ZSBk
+YXRhIGFuYWx5c2lzOyBkZWR1Y3RpdmUgYW5kIGluZHVjdGl2ZSBhcHByb2FjaA0KwrfCoMKg
+wqDCoMKgwqDCoFBvaW50cyBvZiBmb2N1cyANCmluIGFuYWx5c2lzIG9mIHRleHQgZGF0YQ0K
+wrfCoMKgwqDCoMKgwqDCoFByaW5jaXBsZXMgb2YgDQpRdWFsaXRhdGl2ZSBkYXRhIGFuYWx5
+c2lzDQrCt8KgwqDCoMKgwqDCoMKgUHJvY2VzcyBvZiANClF1YWxpdGF0aXZlIGRhdGEgYW5h
+bHlzaXMNCk1vZHVsZSAxNjogDQpJbnRyb2R1Y3Rpb24gdG8gTlZJVk8NCsK3wqDCoMKgwqDC
+oMKgwqBOVklWTyBLZXkgDQp0ZXJtcw0KwrfCoMKgwqDCoMKgwqDCoE5WSVZPIA0KaW50ZXJm
+YWNlDQrCt8KgwqDCoMKgwqDCoMKgTlZJVk8gDQp3b3Jrc3BhY2UNCsK3wqDCoMKgwqDCoMKg
+wqBVc2Ugb2YgTlZJVk8gDQpyaWJib25zDQpNb2R1bGUgMTc6IE5WSVZPIA0KUHJvamVjdHMN
+CsK3wqDCoMKgwqDCoMKgwqBDcmVhdGluZyBuZXcgDQpwcm9qZWN0cw0KwrfCoMKgwqDCoMKg
+wqDCoENyZWF0aW5nIGEgbmV3IA0KcHJvamVjdA0KwrfCoMKgwqDCoMKgwqDCoE9wZW5pbmcg
+YW5kIA0KU2F2aW5nIHByb2plY3QNCsK3wqDCoMKgwqDCoMKgwqBXb3JraW5nIHdpdGggDQpR
+dWFsaXRhdGl2ZSBkYXRhIGZpbGVzDQrCt8KgwqDCoMKgwqDCoMKgSW1wb3J0aW5nIA0KRG9j
+dW1lbnRzDQrCt8KgwqDCoMKgwqDCoMKgTWVyZ2luZyBhbmQgDQpleHBvcnRpbmcgcHJvamVj
+dHMNCsK3wqDCoMKgwqDCoMKgwqBNYW5hZ2luZyANCnByb2plY3RzDQrCt8KgwqDCoMKgwqDC
+oMKgV29ya2luZyB3aXRoIA0KZGlmZmVyZW50IGRhdGEgc291cmNlcw0KTW9kdWxlIDE4OiBO
+b2RlcyANCmluIE5WSVZPDQrCt8KgwqDCoMKgwqDCoMKgVGhlbWUgDQpjb2Rlcw0KwrfCoMKg
+wqDCoMKgwqDCoENhc2UgDQpub2Rlcw0KwrfCoMKgwqDCoMKgwqDCoFJlbGF0aW9uc2hpcHMg
+DQpub2Rlcw0KwrfCoMKgwqDCoMKgwqDCoE5vZGUgDQptYXRyaWNlcw0KwrfCoMKgwqDCoMKg
+wqDCoFR5cGUgb2YgDQpOb2RlcywNCsK3wqDCoMKgwqDCoMKgwqBDcmVhdGluZyANCm5vZGVz
+DQrCt8KgwqDCoMKgwqDCoMKgQnJvd3NpbmcgDQpOb2Rlcw0KwrfCoMKgwqDCoMKgwqDCoENy
+ZWF0aW5nIA0KTWVtb3MNCsK3wqDCoMKgwqDCoMKgwqBNZW1vcywgDQphbm5vdGF0aW9ucyBh
+bmQgbGlua3MNCsK3wqDCoMKgwqDCoMKgwqBDcmVhdGluZyBhIA0KbGlua2VkIG1lbW8NCk1v
+ZHVsZSAxOTogDQpDbGFzc2VzIGFuZCBzdW1tYXJpZXMNCsK3wqDCoMKgwqDCoMKgwqBTb3Vy
+Y2UgDQpjbGFzc2lmaWNhdGlvbnMNCsK3wqDCoMKgwqDCoMKgwqBDYXNlIA0KY2xhc3NpZmlj
+YXRpb25zDQrCt8KgwqDCoMKgwqDCoMKgTm9kZSANCmNsYXNzaWZpY2F0aW9ucw0KwrfCoMKg
+wqDCoMKgwqDCoENyZWF0aW5nIA0KQXR0cmlidXRlcyB3aXRoaW4gTlZpdm8NCsK3wqDCoMKg
+wqDCoMKgwqBJbXBvcnRpbmcgDQpBdHRyaWJ1dGVzIGZyb20gYSBTcHJlYWRzaGVldA0KwrfC
+oMKgwqDCoMKgwqDCoEdldHRpbmcgUmVzdWx0czsgDQpDb2RpbmcgUXVlcnkgYW5kIE1hdHJp
+eCBRdWVyeQ0KTW9kdWxlIDIwOiANCkNvZGluZw0KwrfCoMKgwqDCoMKgwqDCoERhdGEtZHJp
+dmVuIHZzIA0KdGhlb3J5LWRyaXZlbiBjb2RpbmcNCsK3wqDCoMKgwqDCoMKgwqBBbmFseXRp
+YyANCmNvZGluZw0KwrfCoMKgwqDCoMKgwqDCoERlc2NyaXB0aXZlIA0KY29kaW5nDQrCt8Kg
+wqDCoMKgwqDCoMKgVGhlbWF0aWMgDQpjb2RpbmcNCsK3wqDCoMKgwqDCoMKgwqBUcmVlIA0K
+Y29kaW5nDQpNb2R1bGUgMjE6IA0KVGhlbWF0aWMgQW5hbHl0aWNzIGluIE5WSVZPDQrCt8Kg
+wqDCoMKgwqDCoMKgT3JnYW5pemUsIHN0b3JlIA0KYW5kIHJldHJpZXZlIGRhdGENCsK3wqDC
+oMKgwqDCoMKgwqBDbHVzdGVyIHNvdXJjZXMgDQpiYXNlZCBvbiB0aGUgd29yZHMgdGhleSBj
+b250YWluDQrCt8KgwqDCoMKgwqDCoMKgVGV4dCBzZWFyY2hlcyANCmFuZCB3b3JkIGNvdW50
+cyB0aHJvdWdoIHdvcmQgZnJlcXVlbmN5IHF1ZXJpZXMuDQrCt8KgwqDCoMKgwqDCoMKgRXhh
+bWluZSB0aGVtZXMgDQphbmQgc3RydWN0dXJlIGluIHlvdXIgY29udGVudA0KTW9kdWxlIDIy
+OiANClF1ZXJpZXMgdXNpbmcgTlZJVk8NCsK3wqDCoMKgwqDCoMKgwqBRdWVyaWVzIGZvciAN
+CnRleHR1YWwgYW5hbHlzaXMNCsK3wqDCoMKgwqDCoMKgwqBRdWVyaWVzIGZvciANCmV4cGxv
+cmluZyBjb2RpbmcNCk1vZHVsZSAyMzogDQpCdWlsZGluZyBvbiB0aGUgQW5hbHlzaXMNCsK3
+wqDCoMKgwqDCoMKgwqBDb250ZW50IA0KQW5hbHlzaXM7IERlc2NyaXB0aXZlLCBpbnRlcnBy
+ZXRhdGl2ZQ0KwrfCoMKgwqDCoMKgwqDCoE5hcnJhdGl2ZSANCkFuYWx5c2lzDQrCt8KgwqDC
+oMKgwqDCoMKgRGlzY291cnNlIA0KQW5hbHlzaXMNCsK3wqDCoMKgwqDCoMKgwqBHcm91bmRl
+ZCANClRoZW9yeQ0KTW9kdWxlIDI0OiANClF1YWxpdGF0aXZlIEFuYWx5c2lzIFJlc3VsdHMg
+SW50ZXJwcmV0YXRpb24NCsK3wqDCoMKgwqDCoMKgwqBDb21wYXJpbmcgDQphbmFseXNpcyBy
+ZXN1bHRzIHdpdGggcmVzZWFyY2ggcXVlc3Rpb25zDQrCt8KgwqDCoMKgwqDCoMKgU3VtbWFy
+aXppbmcgDQpmaW5kaW5nIHVuZGVyIG1ham9yIGNhdGVnb3JpZXMNCsK3wqDCoMKgwqDCoMKg
+wqBEcmF3aW5nIA0KY29uY2x1c2lvbnMgYW5kIGxlc3NvbnMgbGVhcm5lZA0KTW9kdWxlIDI1
+OiANClZpc3VhbGl6aW5nIE5WSVZPIHByb2plY3QNCsK3wqDCoMKgwqDCoMKgwqBEaXNwbGF5
+IGRhdGEgaW4gDQpjaGFydHMNCsK3wqDCoMKgwqDCoMKgwqBDcmVhdGluZyBtb2RlbHMgDQph
+bmQgZ3JhcGhzIHRvIHZpc3VhbGl6ZSBjb25uZWN0aW9ucw0KwrfCoMKgwqDCoMKgwqDCoFRy
+ZWUgbWFwcyBhbmQgDQpjbHVzdGVyIGFuYWx5c2lzIGRpYWdyYW1zDQrCt8KgwqDCoMKgwqDC
+oMKgRGlzcGxheSB5b3VyIA0KZGF0YSBpbiBjaGFydHMNCsK3wqDCoMKgwqDCoMKgwqBDcmVh
+dGUgbW9kZWxzIA0KYW5kIGdyYXBocyB0byB2aXN1YWxpemUgY29ubmVjdGlvbnMNCsK3wqDC
+oMKgwqDCoMKgwqBDcmVhdGUgcmVwb3J0cyANCmFuZCBleHRyYWN0cw0KTW9kdWxlIDI2OiAN
+ClRyaWFuZ3VsYXRpbmcgcmVzdWx0cyBhbmQgU291cmNlcw0KwrfCoMKgwqDCoMKgwqDCoFRy
+aWFuZ3VsYXRpbmcgDQp3aXRoIHF1YW50aXRhdGl2ZSBkYXRhDQrCt8KgwqDCoMKgwqDCoMKg
+VXNpbmcgZGlmZmVyZW50IA0KcGFydGljaXBhdG9yeSB0ZWNobmlxdWVzIHRvIG1lYXN1cmUg
+dGhlIHNhbWUgaW5kaWNhdG9yDQrCt8KgwqDCoMKgwqDCoMKgQ29tcGFyaW5nIA0KYW5hbHlz
+aXMgZnJvbSBkaWZmZXJlbnQgZGF0YSBzb3VyY2VzDQrCt8KgwqDCoMKgwqDCoMKgQ2hlY2tp
+bmcgdGhlIA0KY29uc2lzdGVuY3kgb24gcmVzcG9uZGVudCBvbiBzaW1pbGFyIHRvcGljDQpN
+b2R1bGUgMjc6IA0KUmVwb3J0IFdyaXRpbmcNCsK3wqDCoMKgwqDCoMKgwqBRdWFsaXRhdGl2
+ZSANCnJlcG9ydCBmb3JtYXQNCsK3wqDCoMKgwqDCoMKgwqBSZXBvcnRpbmcgDQpxdWFsaXRh
+dGl2ZSByZXNlYXJjaA0KwrfCoMKgwqDCoMKgwqDCoFJlcG9ydGluZyANCmNvbnRlbnQNCsK3
+wqDCoMKgwqDCoMKgwqBJbnRlcnByZXRhdGlvbg0KTW9kdWxlIDI4OiANCkludHJvZHVjdGlv
+biB0byBTdGF0aXN0aWNhbCBjb25jZXB0cyBhbmQgZ2VuZXJhbCBhbmFseXRpY3MgSU4gDQpT
+VEFUQQ0KwrfCoMKgwqDCoMKgwqDCoFJlc2VhcmNoIA0KZGVzaWduDQrCt8KgwqDCoMKgwqDC
+oMKgU2FtcGxlcyBhbmQgDQpwb3B1bGF0aW9ucw0KwrfCoMKgwqDCoMKgwqDCoENvbXBhcmlz
+b24gb2YgDQpleHBlcmltZW50YWwgYW5kIG5vbi1leHBlcmltZW50YWwgZGVzaWducw0KwrfC
+oMKgwqDCoMKgwqDCoEV4cGxvcmluZyANCnZhcmlhYmxlIHR5cGVzDQpNb2R1bGUgMjk6IA0K
+RmFtaWxpYXJpemluZyB3aXRoIHRoZSBhcHBsaWNhdGlvbg0KwrfCoMKgwqDCoMKgwqDCoERh
+dGFzZXRzDQrCt8KgwqDCoMKgwqDCoMKgQ29tbWFuZHMNCsK3wqDCoMKgwqDCoMKgwqBXb3Jr
+aW5nIHdpdGggDQp2YXJpYWJsZXMgaW4gU3RhdGENCsK3wqDCoMKgwqDCoMKgwqBCYXNpYyBh
+bmFseXNpcyANCnVzaW5nIFN0YXRhDQpNb2R1bGUgMzA6IA0KQ2hhcnRpbmcgYW5kIEdyYXBo
+aWNhbCBwcmVzZW50YXRpb24gdXNpbmcgU3RhdGENCsK3wqDCoMKgwqDCoMKgwqBDbGFzc2lm
+eWluZyANCmRpZmZlcmVudCBjaGFydHMgYW5kIHByb2Nlc3NpbmcgdGhlbSB1c2luZyBTVEFU
+QQ0KwrfCoMKgwqDCoMKgwqDCoFVuZGVyc3RhbmRpbmcgDQp0aGUgR3JhcGggY29tbWFuZCBz
+eW50YXgNCsK3wqDCoMKgwqDCoMKgwqBHcmFwaHMgZm9yIA0KY2F0ZWdvcmljYWwgVnMgTnVt
+ZXJpYyB2YXJpYWJsZXMNCsK3wqDCoMKgwqDCoMKgwqBNYW5hZ2luZyBjaGFydCANCm91dHB1
+dCBpbiBTVEFUQQ0KwrfCoMKgwqDCoMKgwqDCoE11bHRpdmFyaWF0ZSANCmNoYXJ0aW5nDQpN
+b2R1bGUgMzE6IA0KU3RhdGlzdGljYWwgVGVzdHMgdXNpbmcgU3RhdGENCsK3wqDCoMKgwqDC
+oMKgwqBPbmUgU2FtcGxlIFQgDQpUZXN0DQrCt8KgwqDCoMKgwqDCoMKgSW5kZXBlbmRlbnQg
+DQpTYW1wbGVzIFQgVGVzdA0KwrfCoMKgwqDCoMKgwqDCoFBhaXJlZCBTYW1wbGVzIFQgDQpU
+ZXN0DQrCt8KgwqDCoMKgwqDCoMKgT25lLVdheSANCkFOT1ZBDQpNb2R1bGUgMzI6IA0KTWVh
+c3VyZXMgb2YgQXNzb2NpYXRpb25zIGluIFN0YXRhDQrCt8KgwqDCoMKgwqDCoMKgQ2hpLVNx
+dWFyZSANCnRlc3QNCsK3wqDCoMKgwqDCoMKgwqBQZWFyc29u4oCZcyANCkNvcnJlbGF0aW9u
+DQrCt8KgwqDCoMKgwqDCoMKgU3BlYXJtYW7igJlzIA0KUmFuay1PcmRlciBDb3JyZWxhdGlv
+bg0KTW9kdWxlIDMzOiANClByZWRpY3RpdmUgTW9kZWxzIHVzaW5nIFN0YXRhDQrCt8KgwqDC
+oMKgwqDCoMKgTGluZWFyIA0KUmVncmVzc2lvbg0KwrfCoMKgwqDCoMKgwqDCoE11bHRpcGxl
+IA0KUmVncmVzc2lvbg0KwrfCoMKgwqDCoMKgwqDCoExvZ2lzdGljIA0KUmVncmVzc2lvbg0K
+wrfCoMKgwqDCoMKgwqDCoE9yZGluYWwgDQpSZWdyZXNzaW9uDQpNb2R1bGUgMzQ6IFBhbmVs
+IA0KRGF0YSBBbmFseXNpcyB1c2luZyBTdGF0YQ0KwrfCoMKgwqDCoMKgwqDCoEV4cGxvcmF0
+aW9uIG9mIA0KcGFuZWwgZGF0YQ0KwrfCoMKgwqDCoMKgwqDCoEZpeGVkIGVmZmVjdHMgDQpt
+b2RlbC9MU0RWDQrCt8KgwqDCoMKgwqDCoMKgUmFuZG9tIGVmZmVjdHMgDQptb2RlbA0KwrfC
+oMKgwqDCoMKgwqDCoENob29zaW5nIHRoZSANCmFwcHJvcHJpYXRlIG1vZGVsDQpNb2R1bGUg
+MzU6IFRpbWUgDQpTZXJpZXMgQW5hbHlzaXMgdXNpbmcgU3RhdGENCsK3wqDCoMKgwqDCoMKg
+wqBJbnRyb2R1Y3Rpb24gdG8gDQp0aW1lIHNlcmllcyBhbmFseXNpcyB1c2luZyBTdGF0YQ0K
+wrfCoMKgwqDCoMKgwqDCoFBsb3R0aW5nIGEgdGltZSANCnNlcmllcw0KwrfCoMKgwqDCoMKg
+wqDCoFNlYXNvbmFsIA0KZGlmZmVyZW5jZXMNCsK3wqDCoMKgwqDCoMKgwqBBdXRvIA0KY29y
+cmVsYXRpb25zDQrCt8KgwqDCoMKgwqDCoMKgRm9yZWNhc3QgbW9kZWxzIA0KaW4gU3RhdGEN
+Ck1vZHVsZSAzNjogDQpFY29ub21ldHJpYyBBbmFseXNpcw0KwrfCoMKgwqDCoMKgwqDCoEVj
+b25vbWV0cmljIA0KQW5hbHlzaXMgb2YgY3Jvc3Mtc2VjdGlvbmFsIGRhdGENCsK3wqDCoMKg
+wqDCoMKgwqBFY29ub21ldHJpYyANCkFuYWx5c2lzIG9mIHBhbmVsIGRhdGENCsK3wqDCoMKg
+wqDCoMKgwqBFY29ub21ldHJpYyANCkFuYWx5c2lzIG9mIHRpbWUtc2VyaWVzIGRhdGENCk1v
+ZHVsZSAzNzogDQpSZXBvcnQgd3JpdGluZyBmb3Igc3VydmV5cywgZGF0YSBkaXNzZW1pbmF0
+aW9uLCBkZW1hbmQgYW5kIHVzZQ0KwrfCoMKgwqDCoMKgwqDCoFdyaXRpbmcgYSByZXBvcnQg
+DQpmcm9tIHN1cnZleSBkYXRhDQrCt8KgwqDCoMKgwqDCoMKgQ29tbXVuaWNhdGlvbiANCmFu
+ZCBkaXNzZW1pbmF0aW9uIHN0cmF0ZWd5DQrCt8KgwqDCoMKgwqDCoMKgQ29udGV4dCBvZiAN
+CkRlY2lzaW9uIE1ha2luZw0KwrfCoMKgwqDCoMKgwqDCoEltcHJvdmluZyBkYXRhIA0KdXNl
+IGluIGRlY2lzaW9uIG1ha2luZw0KwrfCoMKgwqDCoMKgwqDCoEN1bHR1cmUgQ2hhbmdlIA0K
+YW5kIENoYW5nZSBNYW5hZ2VtZW50DQrCt8KgwqDCoMKgwqDCoMKgUHJlcGFyaW5nIGEgDQpy
+ZXBvcnQgZm9yIHRoZSBzdXJ2ZXksIGEgY29tbXVuaWNhdGlvbiBhbmQgZGlzc2VtaW5hdGlv
+biBwbGFuIGFuZCBhIGRlbWFuZCBhbmQgDQp1c2Ugc3RyYXRlZ3kuDQpQcmVzZW50YXRpb25z
+IGFuZCANCmpvaW50IGFjdGlvbiBwbGFubmluZw0KwqANCsKgDQpUSEUgDQpFTkQNCsKgDQrC
+oA0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvdW5zdWJz
+Y3JpYmU/ZD1xNzllNWRKMWpEaDdUeXRnNlBBZXhXZmJHMTV2VzFhblZjeUEwdWhCZFpuX1da
+Ul9OZUdkaF9nUklGUG9yY01iMkdLd0lubXhnWUI2SDJrbGN1WGVzbTZrOW44MzVjdEdXZDhk
+ZmdtX1E1ejcwPg0KVU5TVUJTQ1JJQkU=
+
+--=-eZCfEW/D7yTBEtGNY989XAbg9QFN0vEy/XWKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<P class=3DMsoNormal=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: medium none; PADDING-BOTTOM: 0cm; TEXT-ALIGN: justify; PADDING-T=
+OP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; MARGIN: 0cm 0cm =
+0pt; LINE-HEIGHT: normal; PADDING-RIGHT: 0cm; mso-outline-level: 2; ms=
+o-border-bottom-alt: solid #15B055 1.5pt; mso-padding-alt: 0cm 0cm 4.0=
+pt 0cm"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KMxHFX_K6D6ZLjR5mINHon01orQrIY4QjsgIE=
+76NCbp3hianf6Sk5HRQtsW33TWtN6LyLekKn_8zhYvr64dCZlFDBTg7hM48Fi8H3EAlarT=
+im41"><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT color=3D#410082>Workshop=
+ On Research=20
+Design, SurveyCTO, Mobile Data Collection, GIS Mapping, Data Analysis =
+Using=20
+NVIVO And STATA On 6th To 17th March 2023,</FONT></SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-WEIGHT: normal; =
+COLOR: windowtext; text-underline: none">=20
+</SPAN><SPAN style=3D"mso-bidi-font-family: Calibri"><FONT color=3D#41=
+0082>Nairobi,=20
+Kenya<?xml:namespace prefix =3D "o" ns =3D "urn:schemas-microsoft-com:=
+office:office"=20
+/><o:p></o:p></FONT></SPAN></A></SPAN></B></P></DIV>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWoapoy-p=
+TrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtMNryFu5qW7KnnyuoRWxTMuTil8Zj9Pu5aTjb=
+GdnFz1PUelxBcYMyETv39wZ9KYssx2-5Bdygva0WtBDeLdn2uk1HqMf0T8bC4tjluBjZFk=
+Xl6OrDNN2rchfr0zfhOPPVXu0" target=3D_blank><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT color=3D#410082>Register=
+ for online=20
+workshop attendance <o:p></o:p></FONT></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+class=3DMsoHyperlink><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Calibri",sans-serif'><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWoapoy-p=
+TrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtMNryFu5qW7KnnyuoRWxTMuTil8Zj9Pu5aTjb=
+GdnFz1PdPWVpnnQnHufwkkqWXH62CKgSK4GGby3EW9M3-BzvSEeqHzshu-UgLndDXZHtby=
+Saw2PVH-Y5GyhYaSAfN46gc-0" target=3D_blank><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT face=3D"Times New Roman"=
+><FONT=20
+color=3D#410082>&nbsp;<o:p></o:p></FONT></FONT></SPAN></A></SPAN></SPA=
+N></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWoapoy-p=
+TrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtOqpmLBxXy0yBFbHXpgrdoP8IBssZ0WzJQHqj=
+KNMGcQZPSn81PRE-2M3PyH92Rzn5y4vrch8DGZgpCEXsWjShmGPxXTswwmAUb_fb0OzekA=
+M-01-pAjmHEfoXFeX12GGfDP0" target=3D_blank><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT color=3D#410082>Register=
+ to attend the=20
+workshop<o:p></o:p></FONT></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+class=3DMsoHyperlink><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Calibri",sans-serif'><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWoapoy-p=
+TrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtOqpmLBxXy0yBFbHXpgrdoP8IBssZ0WzJQHqj=
+KNMGcQZKmFtk3ZboNr-_mZfibCyAh1hWfgI0T0YUIOjhY_Vv2sQpiukUx8rAg9XLDy_ciB=
+VFRUoNOm-9lNTY-vt4y7p95Z0" target=3D_blank><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT color=3D#410082><FONT=20
+face=3D"Times New Roman">&nbsp;<o:p></o:p></FONT></FONT></SPAN></A></S=
+PAN></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KNTFFNY6jLTlannTsFNp1-e3a1ZDdvVF3Kslu=
+ESWo6VugicEtbwK1JX_NzuUCy9ceT3gFqhmMSLPbNtPlAm_n6LgMQs-8pAiZ0p00r9ZjFF=
+-fw1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Calendar fo=
+r 2023=20
+Workshops<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KM-cgdd93er8oiDD9RVWshiZt-xocJNgqu59G=
+SciZ-Ya88x5orN4Ey1JxD-Ur1W266VxxkPxmQDJS_llldIJ1RM-VN09XOP9M53WC0JdPfN=
+AOc1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Contact=20
+us<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DTdO1gCuQ=
+71hpWL60BWNntuwf2IWJfk_kJQ_Oex5_ejj1bbQFfBjjsLJ83ItZYswZfY4Qt9a3GKMpB4=
+c6H5tYWX88llbkL4bzayWwQC5szldhsTP1lSxQJLkdbdATyfzoxrI8v8bhR6qKlRV2YwNV=
+fQs1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Whatapp<o:p=
+></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 10pt; LINE-HEIGHT: normal"=
+><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Venue:=20
+Royal Tulip Canaan Nairobi, Kenya<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 10pt; LINE-HEIGHT: normal"=
+><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Course=20
+Fee: 2,700usd<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Office=20
+Telephone: +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>Register as a group of 5 or more participants and get 2=
+5% discount=20
+on the course fee. <o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Send=20
+us an email: </FONT><A=20
+ href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3Dra_Krqu=
+ym_vAH7a0xfyiRRRJ0mmMognyg56kmPeJDcOATg5hRkN4jmHMwEzF0zgtO48KNNuLGUdwl=
+G1qKjUnbUM2IeT0IcOWbfJllT42JsXf6Y19QhWC8oKCg0wGVhMMUmMMBrb-yAoxN-XZHTS=
+qwu7g63nFCm1Vo-queL2TX9LiZEGmA8y1ZH7MTzdPqgrYx-Uc-IP3Y8dS-UTNmKE4dKrdp=
+ItcKG7_h-3kPacEnEao0" ><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT=20
+color=3D#410082>training@skillsforafrica.org&nbsp;</FONT></SPAN></A><F=
+ONT=20
+face=3DCalibri>or call +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 12pt 0cm 0pt; LINE-HEIGHT: norma=
+l"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri">INTRODUCTION<=
+/SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'>New devel=
+opments in=20
+data science offer a tremendous opportunity to improve decision-making=
+. In the=20
+development world, there has been an increase in the number of data ga=
+thering=20
+initiative such as baseline surveys, Socio-Economic Surveys, Demograph=
+ic and=20
+Health Surveys, Nutrition Surveys, Food Security Surveys, Program Eval=
+uation=20
+Surveys, Employees, customers and vendor satisfaction surveys, and opi=
+nion polls=20
+among others, all intended to provide data for decision=20
+making.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'>It is ess=
+ential that=20
+these efforts go beyond merely generating new insights from data but a=
+lso to=20
+systematically enhance individual human judgment in real development c=
+ontexts.=20
+How can organizations better manage the process of converting the pote=
+ntial of=20
+data science to real development outcomes? This ten days hands-on cour=
+se is=20
+tailored to put all these important consideration into perspective. It=
+ is=20
+envisioned that upon completion, the participants will be empowered wi=
+th the=20
+necessary skills to produce accurate and cost effective data and repor=
+ts that=20
+are useful and friendly for decision making.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'>It will b=
+e conducted=20
+using SurveyCTO, GIS, NVIVO and STATA<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>COUR=
+SE=20
+OBJECTIVES</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>At t=
+he end of=20
+course participants should be able to:</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Unde=
+rstand and=20
+appropriately use statistical terms and concepts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Desi=
+gn and=20
+Implement universally acceptable Surveys</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Conv=
+ert data=20
+into various formats using appropriate software</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Use =
+mobile data=20
+gathering tools such as SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Use =
+GIS software=20
+to plot and display data on basic maps</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Qual=
+itative data=20
+analysis using NVIVO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 7=
+2pt; LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"'>o</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Work=
+flow use=20
+commands in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 7=
+2pt; LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"'>o</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mana=
+ge, edit and=20
+structure large databases in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 7=
+2pt; LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"'>o</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Gene=
+rating=20
+descriptive statistics in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 7=
+2pt; LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"'>o</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting=20
+powerful publication-quality graphs in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 7=
+2pt; LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"'>o</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Data=
+=20
+Analysis/Estimations in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Writ=
+e reports=20
+from survey data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Put =
+strategies=20
+to improve data demand and use in decision making</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>DURA=
+TION</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>10=20
+Days</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>WHO =
+SHOULD=20
+ATTEND</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>This=
+ is a=20
+general course targeting participants with elementary knowledge of Sta=
+tistics=20
+from Agriculture, Economics, Food Security and Livelihoods, Nutrition,=
+=20
+Education, Medical or public health professionals among others who alr=
+eady have=20
+some statistical knowledge, but wish to be conversant with the concept=
+s and=20
+applications of statistical modeling.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>COUR=
+SE=20
+CONTENT</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le1: Basic=20
+statistical terms and concepts</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Intr=
+oduction to=20
+statistical concepts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Desc=
+riptive=20
+Statistics</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Infe=
+rential=20
+statistics</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 2:=20
+Research Design</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>The =
+role and=20
+purpose of research design</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Type=
+s of=20
+research designs</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>The =
+research=20
+process</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Whic=
+h method to=20
+choose?</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Exer=
+cise:=20
+Identify a project of choice and developing a research design</SPAN><S=
+PAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 3: Survey=20
+Planning, Implementation and Completion</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Type=
+s of=20
+surveys</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>The =
+survey=20
+process</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Surv=
+ey=20
+design</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Meth=
+ods of=20
+survey sampling</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Dete=
+rmining the=20
+Sample size</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Plan=
+ning a=20
+survey</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Cond=
+ucting the=20
+survey</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Afte=
+r the=20
+survey</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Exer=
+cise:=20
+Planning for a survey based on the research design selected</SPAN><SPA=
+N=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 4:=20
+Introduction to SurveyCTO</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Intr=
+oduction and=20
+Key Concepts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Over=
+view of ODK=20
+and Kobotolbox</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Adva=
+ntages of=20
+SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Key =
+Features of=20
+SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Case=
+ studies on=20
+use of SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 5:=20
+SurveyCTO Server</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comp=
+onents of=20
+SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Data=
+=20
+aggregation, storage, and dissemination</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Sett=
+ing up a=20
+SurveyCTO server</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mana=
+ging users=20
+&amp; user roles</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 6:=20
+Setting Up SurveyCTO Collect App</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Inst=
+alling=20
+SurveyCTO collect from google play store</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Conf=
+iguring=20
+SurveyCTO collect app</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Surv=
+eyCTO=20
+Collect Application Interface</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 7:=20
+SurveyCTO Online Form builder</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting a=20
+form</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Inpu=
+t=20
+types</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Addi=
+ng question=20
+to Form</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Form=
+=20
+logics</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rt and=20
+export forms</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 8:=20
+Building Forms using XLSForms</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Intr=
+oduction to=20
+xlsform designer</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comp=
+onents of=20
+XlSForm</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Ques=
+tion=20
+types</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Hand=
+ling=20
+constraints and required options</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Form=
+ skip=20
+logic</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Form=
+ Operators=20
+and Functions</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Grou=
+ping=20
+Questions</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Sett=
+ings=20
+Worksheet</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rting=20
+xlsforms to surveyCTO server</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 9: Using=20
+SurveyCTO Collect</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mana=
+ging forms=20
+in SurveyCTO Collect</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Coll=
+ecting GPS=20
+data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Subm=
+itting data=20
+to SurveyCTO Server</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 10:=20
+Monitoring Data with SurveyCTO Data Explorer</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Moni=
+toring=20
+Submission statistics</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Moni=
+toring Form=20
+submissions and dataset</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Revi=
+ewing and=20
+correcting incoming data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Summ=
+arize data=20
+submitted for individual fields</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Summ=
+arize the=20
+empirical relationships between field</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 11: Data=20
+Management</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Expo=
+rting=20
+&amp;Exporting data from SurveyCTO as CSV via SurveyCTO Sync</SPAN><SP=
+AN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rting=20
+SurveyCTO &#8211; CSV file into statistical applications</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Down=
+loading data=20
+directly from SurveyCTO</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 12:=20
+Visualizing Geographic Data</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Expo=
+rting GPS=20
+Coordinates to Google maps and Google Earth</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Expo=
+rting GPS=20
+data for Mapping/Visualizing</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 13: GIS=20
+mapping of survey data using QGIS</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Intr=
+oduction to=20
+GIS for Researchers and data scientists</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rting survey=20
+data into a GIS</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mapp=
+ing of=20
+survey data using QGIS</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Exer=
+cise: QGIS=20
+mapping exercise.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 14:=20
+Understanding Qualitative Research</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Qual=
+itative=20
+Data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Type=
+s of=20
+Qualitative Data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Sour=
+ces of=20
+Qualitative data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Qual=
+itative vs=20
+Quantitative</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>NViv=
+o key=20
+terms</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>The =
+NVivo=20
+Workspace</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 15:=20
+Preliminaries of Qualitative data Analysis</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>What=
+ is=20
+qualitative data analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Appr=
+oaches in=20
+Qualitative data analysis; deductive and inductive approach</SPAN><SPA=
+N=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Poin=
+ts of focus=20
+in analysis of text data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Prin=
+ciples of=20
+Qualitative data analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Proc=
+ess of=20
+Qualitative data analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 16:=20
+Introduction to NVIVO</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>NVIV=
+O Key=20
+terms</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>NVIV=
+O=20
+interface</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>NVIV=
+O=20
+workspace</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Use =
+of NVIVO=20
+ribbons</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 17: NVIVO=20
+Projects</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting new=20
+projects</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting a new=20
+project</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Open=
+ing and=20
+Saving project</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Work=
+ing with=20
+Qualitative data files</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rting=20
+Documents</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Merg=
+ing and=20
+exporting projects</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mana=
+ging=20
+projects</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Work=
+ing with=20
+different data sources</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 18: Nodes=20
+in NVIVO</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Them=
+e=20
+codes</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Case=
+=20
+nodes</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Rela=
+tionships=20
+nodes</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Node=
+=20
+matrices</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Type=
+ of=20
+Nodes,</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting=20
+nodes</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Brow=
+sing=20
+Nodes</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting=20
+Memos</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Memo=
+s,=20
+annotations and links</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting a=20
+linked memo</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 19:=20
+Classes and summaries</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Sour=
+ce=20
+classifications</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Case=
+=20
+classifications</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Node=
+=20
+classifications</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting=20
+Attributes within NVivo</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impo=
+rting=20
+Attributes from a Spreadsheet</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Gett=
+ing Results;=20
+Coding Query and Matrix Query</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 20:=20
+Coding</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Data=
+-driven vs=20
+theory-driven coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Anal=
+ytic=20
+coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Desc=
+riptive=20
+coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Them=
+atic=20
+coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Tree=
+=20
+coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 21:=20
+Thematic Analytics in NVIVO</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Orga=
+nize, store=20
+and retrieve data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Clus=
+ter sources=20
+based on the words they contain</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Text=
+ searches=20
+and word counts through word frequency queries.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Exam=
+ine themes=20
+and structure in your content</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 22:=20
+Queries using NVIVO</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Quer=
+ies for=20
+textual analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Quer=
+ies for=20
+exploring coding</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 23:=20
+Building on the Analysis</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Cont=
+ent=20
+Analysis; Descriptive, interpretative</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Narr=
+ative=20
+Analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Disc=
+ourse=20
+Analysis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Grou=
+nded=20
+Theory</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 24:=20
+Qualitative Analysis Results Interpretation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comp=
+aring=20
+analysis results with research questions</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Summ=
+arizing=20
+finding under major categories</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Draw=
+ing=20
+conclusions and lessons learned</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 25:=20
+Visualizing NVIVO project</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Disp=
+lay data in=20
+charts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+ting models=20
+and graphs to visualize connections</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Tree=
+ maps and=20
+cluster analysis diagrams</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Disp=
+lay your=20
+data in charts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+te models=20
+and graphs to visualize connections</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Crea=
+te reports=20
+and extracts</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 26:=20
+Triangulating results and Sources</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Tria=
+ngulating=20
+with quantitative data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Usin=
+g different=20
+participatory techniques to measure the same indicator</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comp=
+aring=20
+analysis from different data sources</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Chec=
+king the=20
+consistency on respondent on similar topic</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 27:=20
+Report Writing</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Qual=
+itative=20
+report format</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Repo=
+rting=20
+qualitative research</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Repo=
+rting=20
+content</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Inte=
+rpretation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 28:=20
+Introduction to Statistical concepts and general analytics IN=20
+STATA</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Rese=
+arch=20
+design</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Samp=
+les and=20
+populations</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comp=
+arison of=20
+experimental and non-experimental designs</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Expl=
+oring=20
+variable types</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 29:=20
+Familiarizing with the application</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Data=
+sets</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comm=
+ands</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Work=
+ing with=20
+variables in Stata</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Basi=
+c analysis=20
+using Stata</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 30:=20
+Charting and Graphical presentation using Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Clas=
+sifying=20
+different charts and processing them using STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Unde=
+rstanding=20
+the Graph command syntax</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Grap=
+hs for=20
+categorical Vs Numeric variables</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mana=
+ging chart=20
+output in STATA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mult=
+ivariate=20
+charting</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 31:=20
+Statistical Tests using Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>One =
+Sample T=20
+Test</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Inde=
+pendent=20
+Samples T Test</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Pair=
+ed Samples T=20
+Test</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>One-=
+Way=20
+ANOVA</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 32:=20
+Measures of Associations in Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Chi-=
+Square=20
+test</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Pear=
+son&rsquo;s=20
+Correlation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Spea=
+rman&rsquo;s=20
+Rank-Order Correlation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 33:=20
+Predictive Models using Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Line=
+ar=20
+Regression</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Mult=
+iple=20
+Regression</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Logi=
+stic=20
+Regression</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Ordi=
+nal=20
+Regression</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 34: Panel=20
+Data Analysis using Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Expl=
+oration of=20
+panel data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Fixe=
+d effects=20
+model/LSDV</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Rand=
+om effects=20
+model</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Choo=
+sing the=20
+appropriate model</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 35: Time=20
+Series Analysis using Stata</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Intr=
+oduction to=20
+time series analysis using Stata</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Plot=
+ting a time=20
+series</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Seas=
+onal=20
+differences</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Auto=
+=20
+correlations</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Fore=
+cast models=20
+in Stata</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 36:=20
+Econometric Analysis</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Econ=
+ometric=20
+Analysis of cross-sectional data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Econ=
+ometric=20
+Analysis of panel data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Econ=
+ometric=20
+Analysis of time-series data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt"><B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Modu=
+le 37:=20
+Report writing for surveys, data dissemination, demand and use</SPAN><=
+/B><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Writ=
+ing a report=20
+from survey data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Comm=
+unication=20
+and dissemination strategy</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Cont=
+ext of=20
+Decision Making</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Impr=
+oving data=20
+use in decision making</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Cult=
+ure Change=20
+and Change Management</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; =
+LINE-HEIGHT: 12.1pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; mso-bidi-font-family: A=
+rial">&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif'>Prep=
+aring a=20
+report for the survey, a communication and dissemination plan and a de=
+mand and=20
+use strategy.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 12.1pt"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Presen=
+tations and=20
+joint action planning</SPAN><SPAN=20
+style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Arial",sans-serif'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 17.15pt"=
+><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal; TEXT-INDENT: -13.5p=
+t"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal; TEXT-INDENT: -13.5p=
+t"><FONT=20
+face=3DCalibri><B><SPAN style=3D"FONT-SIZE: 12pt; mso-bidi-font-family=
+: Calibri">THE=20
+END</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p></=
+SPAN></FONT></P>
+<P class=3DMsoListParagraph=20
+style=3D"MARGIN: 5pt 0cm 0pt 22.5pt"><o:p>&nbsp;</o:p></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></P></DIV></BODY></HTML>
+
+<img src=3D"https://133IK.trk.elasticemail.com/tracking/open?msgid=3Du=
+mvqamUvsivrUOAGeOgowQ2&c=3D1468560650031829931" style=3D"width:1px;hei=
+ght:1px" alt=3D"" /><div style=3D"text-align:center; background-color:=
+#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:sa=
+ns-serif;"><a href=3D"https://133IK.trk.elasticemail.com/tracking/unsu=
+bscribe?d=3Dq79e5dJ1jDh7Tytg6PAexWfbG15vW1anVcyA0uhBdZn_WZR_NeGdh_gRIF=
+PorcMb2GKwInmxgYB6H2klcuXesm6k9n835ctGWd8dfgm_Q5z70" style=3D"text-ali=
+gn:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfEW/D7yTBEtGNY989XAbg9QFN0vEy/XWKzQ==--

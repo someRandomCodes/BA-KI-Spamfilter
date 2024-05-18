@@ -1,0 +1,797 @@
+Return-Path: <bounce@top2goal.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=DKIM1; d=top2goal.com;
+ h=To:Subject:Message-ID:Date:From:Reply-To:MIME-Version:List-Unsubscribe:Content-Type:Content-Transfer-Encoding; i=support@top2goal.com;
+ bh=bukZ9ipR9qIrjr3VzxtYPaXcVN4=;
+ b=TiDq1587lQI4jc2caISePsWVqUwXzULl3ZY0dbU8HbkT8+7xJohhvG1LG7TXGx+aVAFMzQOxYXOy
+   VJdWXk+2evJd+jekzoqpc8Jq6kmOtrjougfz4/9M1OrDEjU2bJ3rf6zfohBf94ziLpGboRAzAeic
+   fRY+f8vl8VfjNa6CPQA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=DKIM1; d=top2goal.com;
+ b=HYFs+ogh+AHjDfxcg6uOm/keXODlwU4hR16tWQjKmztxD+Vq6sFlMKBKqcdliDJ0lpj3Xjs9tcZ0
+   OCRaXO/9HXKqvHOTgjb10zTguT/1d3UdC1tjZwc7j2ii6aO2mbpIZhjRlEj0wjE95LIbTxRu+at7
+   Ck0EG3Th1eNbGOLN7/c=;
+To: bruce@untroubled.org
+Subject: =?UTF-8?B?R2FyYW50aWVzIGRlIGNvbnRpbnVpdMOpIGRlIHNlcnZpY2U=?=
+Message-ID: <b6f3c38e58dfeb5b481292515a6b6c5d@top2goal.com>
+Return-Path: bounce@top2goal.com
+Date: Tue, 19 Dec 2023 08:08:21 +0000
+From: "Bouygues Telecom Entreprise" <info@top2goal.com>
+Reply-To: support@top2goal.com
+MIME-Version: 1.0
+X-Mailer-LID: 2
+List-Unsubscribe: <https://top2goal.com/iem66/unsubscribe.php?M=78980&C=be043e8626ebb78bb2d12562c420d4e9&L=2&N=213>
+X-Mailer-SID: 213
+X-Mailer-Sent-By: 1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Content-Length: 29773
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings></xml>
+<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link
+href="https://fonts.googleapis.com/css?family=Poppins:700|Maven+Pro:normal|Poppins:normal|Poppins:300|Poppins:300i|Maven+Pro:500|Maven+Pro:700|Maven+Pro:600|Poppins:100|Poppins:800"
+rel="stylesheet" />
+  <title>Votre connexion internet est trop lente ?</title>
+  <style type="text/css">
+  #outlook
+a{padding:0}span.MsoHyperlink{mso-style-priority:1;color:inherit}span.MsoHyperlinkFollowed{mso-style-priority:1;
+color:inherit}body{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;color:#000000;margin:0
+auto}td{line-height:100%}
+ .ExternalClass{width:100%;display:block!important}.ExternalClass,.ExternalClass
+*,.ExternalClass div,.ExternalClass font,.ExternalClass p,.ExternalClass
+span,.ExternalClass td{line-height:100%}
+img{outline:0;text-decoration:none;-ms-interpolation-mode:bicubic}a
+img{border:none}u+* img+div{display:none}table
+td{border-collapse:collapse;
+mso-line-height-rule:exactly}table{border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0}a{color:inherit;text-decoration:none;
+mso-line-height-rule:exactly}.appleLinks,.appleLinksWhite{text-decoration:none!important}a[x-apple-data-detectors]{color:inherit!important;
+text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}
+table[class^=ox]
+sup{font-size:.7em;vertical-align:baseline}sup{font-size:.8em;vertical-align:text-top;line-height:1;height:0;
+mso-text-raise:24%}div>u+*
+table{zoom:100%}@font-face{font-family:BouyguesRead;font-weight:400;src:url(https://a7.bouyguestelecom.fr/trilogy-1.3.6/dist/assets/fonts/bouygues-read-regular.woff)
+format('woff')
+}:not(#outlook).bouyguesread{font-family:BouyguesRead,Arial,Helvetica,sans-serif!important}:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+:not(#outlook).mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+:not(#outlook).mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}:not(#outlook).mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}
+:not(#outlook).mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+:not(#outlook).poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+@media screen and (min-width:451px) and (max-width:640px),screen and
+(min-device-width:451px) and
+(max-device-width:640px){.t_flnone{float:none!important}
+ .t_w100p{width:100%!important}.t_flright{float:right!important}.t_w30p{width:30%!important}.t_w90p{width:90%!important}.t_w170px{width:170px!important}
+ .t_w80p{width:80%!important}.t_w7p{width:7%!important}.t_flleft{float:left!important}.t_w93p{width:93%!important}.t_w210px{width:210px!important}
+ .t_v{display:block!important;font-size:inherit!important;max-height:none!important;max-width:none!important;overflow:visible!important}
+ .t_dnone{display:none!important}.t_bouyguesread{font-family:BouyguesRead,Arial,Helvetica,sans-serif!important}.t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+ .t_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}.t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+ .t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}.t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+ .t_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}.t_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}
+ .t_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}.t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+ .t_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+}
+@media screen and (max-width:450px),screen and
+(max-device-width:450px){.m_flnone{float:none!important}.m_w100p{width:100%!important}
+ .m_flright{float:right!important}.m_pr25px{padding-right:25px!important}.m_pl25px{padding-left:25px!important}.m_w50p{width:50%!important}
+ .m_w90p{width:90%!important}.m_w170px{width:170px!important}.m_pr10px{padding-right:10px!important}.m_pl10px{padding-left:10px!important}
+ .m_w80p{width:80%!important}.m_w10p{width:10%!important}.m_flleft{float:left!important}.m_pr15px{padding-right:15px!important}
+ .m_w210px{width:210px!important}.m_v{display:block!important;font-size:inherit!important;max-height:none!important;max-width:none!important;
+overflow:visible!important}.m_dnone{display:none!important}.m_bouyguesread{font-family:BouyguesRead,Arial,Helvetica,sans-serif!important}
+ .m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}.m_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}
+ .m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}.m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+ .m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}.m_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}
+ .m_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}.m_mavenpro{font-family:'Maven
+Pro',Arial,Helvetica,sans-serif!important}
+ .m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}.m_poppins{font-family:Poppins,Arial,Helvetica,sans-serif!important}
+}
+@media screen and (min-width:640px),(orientation:landscape) and
+(min-width:640px){.d_center{float:none!important;margin:auto!important}
+ .d_left{float:left!important}.d_right{float:right!important}
+}body,td,th {
+	font-size: 12px;
+}
+  </style>
+ </head>
+ <body style="background-color:#F6F6F6">
+<table width="600" border="0" align="center" cellpadding="0"
+cellspacing="0">
+<tbody>
+<tr>
+<td align="center">Consultez la version <a alias="version_en_ligne"
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=119&F=H"
+target="_blank" rel="noopener">en ligne</a>.</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%"
+style="width: 100%; margin-top: -1px;" role="presentation">
+<tbody>
+<tr class="t_dnone m_dnone">
+<td height="1" style="height: 1px; max-height: 1px; font-size: 1px;
+line-height: 1px;"><span style="display: block; width: 640px; min-width:
+640px;">&nbsp;</span></td>
+</tr>
+<tr>
+<td style="background-color: #f6f6f6;">
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; background-color: #f6f6f6;"
+class="d_center t_flnone t_mauto t_w100p m_flnone m_mauto m_w100p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation"></table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td>
+<div style="border-bottom: 2px solid #F6F6F6; display: block; overflow:
+hidden; mso-border-alt: none #ffffff 0; background-color: #ffffff;"><!--
+[if gte mso 9]><table cellpadding="0" cellspacing="0" border="0"
+width="640"
+style="background-color:#FFFFFF;border-collapse:collapse"><tr><td
+style="border-bottom:2px solid
+#F6F6F6;vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="160"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w30p m_flnone m_mauto m_w50p" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%"
+align="center" class="d_center t_w100p m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="padding-top: 18px; padding-bottom: 18px; text-align: center;"><a
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=118&F=H"
+width="160" style="color: #000000; outline: 0; border: none; margin: auto;
+display: block;" class="t_w100p m_w100p" title="Bouygues Telecom
+Entreprises" target="_blank" rel="noopener"> <img
+src="https://storage.effinity.fr/merchants/660014232/hosting/AFFILIATION-EMAIL-KIT-FIBRE-112023-145016669000/AFFILIATION-EMAIL-KIT-FIBRE-112023/images/LOGO_BTE_2x.png"
+alt="Logo Bouygues Telecom Entreprises" width="160" style="font-family:
+Arial,Helvetica,sans-serif; font-size: 13px; line-height: 13px; display:
+block; border: none;" class="t_w100p m_w100p" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]></td></tr></table><![endif]--></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w100p m_flnone m_mauto m_w100p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="576"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w90p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; vertical-align: middle;
+line-height: 22px; padding: 30px 10px 20px 10px;"
+class="poppins">Bonjour,<br /><br />Vous avez une connexion internet qui
+rame au point de ralentir votre activit&eacute;&nbsp;? Vous ne vous sentez
+pas suffisamment bien accompagn&eacute;(e) lorsqu&rsquo;une panne se
+d&eacute;clare&nbsp;?<br /><br />Parce que votre entreprise ne peut se
+passer d&rsquo;internet un seul instant, optez pour la solution <span
+style="font-weight: bold;">La Fibre Entreprise
+S&eacute;curis&eacute;e</span> de Bouygues Telecom Entreprises.</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="170"
+align="center" style="margin: auto; border-collapse: separate;"
+class="d_center t_flnone t_mauto t_w170px m_flnone m_mauto m_w170px"
+role="presentation">
+<tbody>
+<tr>
+<td style="background-color: #ff554b; border-radius: 4px; font-family:
+Arial,Helvetica,sans-serif; font-weight: bold; color: #ffffff; text-align:
+center; font-size: 16px; height: 45px; padding-right: 15px; padding-left:
+15px; vertical-align: middle; line-height: 18px;" class="poppins"
+height="45"><a
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=117&F=H"
+style="color: #ffffff; line-height: 18px; display: block; text-decoration:
+none; outline: 0;"> &Ccedil;a m&rsquo;int&eacute;resse </a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; clear: both;" class="d_center t_w100p
+m_w100p" role="presentation">
+<tbody>
+<tr>
+<td height="30" style="height: 30px; font-size: 30px; line-height:
+30px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; background-color: #00263c;"
+class="d_center t_flnone t_mauto t_w100p m_flnone m_mauto m_w100p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="480"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w90p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: bold;
+color: #ffffff; text-align: center; font-size: 21px; vertical-align:
+middle; line-height: 24px; padding: 30px 20px 30px 20px;" class="m_pr10px
+m_pl10px poppins">D&eacute;couvrez en vid&eacute;o notre
+solution&nbsp;!</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="512"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w90p" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%"
+align="center" class="d_center t_w100p m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="text-align: center;"><a
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=116&F=H"
+width="512" style="color: #000000; outline: 0; border: none; margin: auto;
+display: block;" class="t_w100p m_w100p" target="_blank" rel="noopener">
+<img
+src="https://storage.effinity.fr/merchants/660014232/hosting/AFFILIATION-EMAIL-KIT-FIBRE-112023-145016669000/AFFILIATION-EMAIL-KIT-FIBRE-112023/images/1.jpg"
+alt="" width="512" style="font-family: Arial,Helvetica,sans-serif;
+font-size: 13px; line-height: 13px; display: block; border: none;"
+class="t_w100p m_w100p" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="512"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w90p m_flnone m_mauto m_w90p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="background-color: #ffffff; font-family:
+Arial,Helvetica,sans-serif; font-weight: bold; color: #00263c; text-align:
+center; font-size: 21px; padding-top: 30px; padding-bottom: 10px;
+vertical-align: middle; line-height: 25px;" class="poppins">La Fibre
+Entreprise S&eacute;curis&eacute;e inclut&nbsp;:</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w80p m_flnone m_mauto m_w80p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="left"
+class="d_left t_w7p t_flleft m_w10p m_flleft" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="center"
+style="margin: auto;" class="d_center t_flnone t_mauto t_w100p m_flnone
+m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="color: #109db9; text-align: center; font-size: 20px;
+padding-top: 10px; padding-bottom: 2px; vertical-align:
+middle;">&bull;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]> </td><td
+style="vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="381" align="right"
+class="d_right t_w93p t_flright m_w90p m_flright" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="381"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; padding-top: 10px;
+padding-right: 25px; padding-bottom: 1px; vertical-align: middle;
+line-height: 22px;" class="m_pr15px poppins">un <span style="font-weight:
+bold;">acc&egrave;s internet tr&egrave;s haut d&eacute;bit</span>
+jusqu&rsquo;&agrave; 1&nbsp;Gbps;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w80p m_flnone m_mauto m_w80p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="left"
+class="d_left t_w7p t_flleft m_w10p m_flleft" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="center"
+style="margin: auto;" class="d_center t_flnone t_mauto t_w100p m_flnone
+m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="color: #109db9; text-align: center; font-size: 20px;
+padding-top: 10px; padding-bottom: 2px; vertical-align:
+middle;">&bull;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]> </td><td
+style="vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="381" align="right"
+class="d_right t_w93p t_flright m_w90p m_flright" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="381"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; padding-top: 10px;
+padding-right: 25px; padding-bottom: 1px; vertical-align: middle;
+line-height: 22px;" class="m_pr15px poppins">un <span style="font-weight:
+bold;">routeur back-up&nbsp;4G install&eacute; et test&eacute;</span> qui
+prend instantan&eacute;ment le relai en cas de coupure de la
+fibre&nbsp;;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w80p m_flnone m_mauto m_w80p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="left"
+class="d_left t_w7p t_flleft m_w10p m_flleft" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="center"
+style="margin: auto;" class="d_center t_flnone t_mauto t_w100p m_flnone
+m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="color: #109db9; text-align: center; font-size: 20px;
+padding-top: 10px; padding-bottom: 2px; vertical-align:
+middle;">&bull;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]> </td><td
+style="vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="381" align="right"
+class="d_right t_w93p t_flright m_w90p m_flright" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="381"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; padding-top: 10px;
+padding-right: 25px; padding-bottom: 1px; vertical-align: middle;
+line-height: 22px;" class="m_pr15px poppins">une <span style="font-weight:
+bold;">supervision proactive des flux internet 24/7</span> avec
+notifications par e-mail et SMS en cas de panne&nbsp;;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w80p m_flnone m_mauto m_w80p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="left"
+class="d_left t_w7p t_flleft m_w10p m_flleft" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="center"
+style="margin: auto;" class="d_center t_flnone t_mauto t_w100p m_flnone
+m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="color: #109db9; text-align: center; font-size: 20px;
+padding-top: 10px; padding-bottom: 20px; vertical-align:
+middle;">&bull;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]> </td><td
+style="vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="381" align="right"
+class="d_right t_w93p t_flright m_w90p m_flright" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="381"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; padding-top: 10px;
+padding-right: 25px; vertical-align: middle; line-height: 22px;"
+class="m_pr15px poppins">un <span style="font-weight: bold;">support
+technique &eacute;tendu</span> disponible du lundi au samedi de
+8h&nbsp;&agrave;&nbsp;22h.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="409"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w80p m_flnone m_mauto m_w80p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="left"
+class="d_left t_w7p t_flleft m_w10p m_flleft" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="28" align="center"
+style="margin: auto;" class="d_center t_flnone t_mauto t_w100p m_flnone
+m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="color: #109db9; text-align: center; font-size: 20px;
+padding-top: 10px; padding-bottom: 20px; vertical-align:
+middle;">&bull;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- [if gte mso 9]> </td><td
+style="vertical-align:top;border-collapse:collapse"><![endif]-->
+<table cellpadding="0" cellspacing="0" border="0" width="381" align="right"
+class="d_right t_w93p t_flright m_w90p m_flright" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="381"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w100p m_flnone m_mauto m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; padding-top: 10px;
+padding-right: 25px; padding-bottom: 20px; vertical-align: middle;
+line-height: 22px;" class="m_pr15px poppins">une <span style="font-weight:
+bold;">garantie de temps d&rsquo;intervention (GTI)</span>
+sous&nbsp;8h.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="200"
+align="center" style="margin: auto; border-collapse: separate;"
+class="d_center t_flnone t_mauto t_w210px m_flnone m_mauto m_w210px"
+role="presentation">
+<tbody>
+<tr>
+<td style="background-color: #ff554b; border-radius: 4px; font-family:
+Arial,Helvetica,sans-serif; font-weight: bold; color: #ffffff; text-align:
+center; font-size: 16px; height: 45px; padding-right: 15px; padding-left:
+15px; vertical-align: middle; line-height: 18px;" class="poppins"
+height="45"><a
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=117&F=H"
+style="color: #ffffff; line-height: 18px; display: block; text-decoration:
+none; outline: 0;" target="_blank" rel="noopener"> Mon devis en 2 clics
+</a></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="512"
+align="center" style="margin: auto; clear: both;" class="d_center t_w100p
+m_w100p" role="presentation">
+<tbody>
+<tr>
+<td height="30" style="height: 30px; font-size: 30px; line-height:
+30px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; clear: both;" class="d_center t_w100p
+m_w100p" role="presentation">
+<tbody>
+<tr>
+<td height="30" style="height: 30px; font-size: 30px; line-height:
+30px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; background-color: #ffffff;"
+class="d_center t_flnone t_mauto t_w100p m_flnone m_mauto m_w100p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="576"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w90p" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+color: #00263c; text-align: left; font-size: 16px; vertical-align: middle;
+line-height: 22px; padding: 20px 10px 30px 10px;" class="poppins">&Agrave;
+tr&egrave;s bient&ocirc;t.<br /><br />Bouygues Telecom Entreprises</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="640"
+align="center" style="margin: auto; background-color: #f6f6f6;"
+class="d_center t_flnone t_mauto t_w100p m_flnone m_mauto m_w100p"
+role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="576"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w80p" role="presentation">
+<tbody>
+<tr>
+<td style="background-color: #f6f6f6; font-family:
+Arial,Helvetica,sans-serif; font-weight: 400; color: #00263c; text-align:
+left; font-size: 12px; padding-top: 30px; padding-bottom: 30px;
+vertical-align: middle; line-height: 16px;" class="poppins">Service
+disponible en France m&eacute;tropolitaine sous r&eacute;serve
+d&rsquo;&eacute;ligibilit&eacute; technique. Engagement 36 mois.
+D&eacute;tails et conditions de l&rsquo;offre disponibles sur demande
+aupr&egrave;s de notre service commercial ou de votre conseiller Bouygues
+Telecom Entreprises.<br /><br /><span style="font-weight: bold;">La Fibre
+Entreprise S&eacute;curis&eacute;e (FTTH)</span>&nbsp;: tr&egrave;s haut
+d&eacute;bit jusqu&rsquo;&agrave; 1&nbsp;Gbps en descendant et 1&nbsp;Gbps
+en montant. Routeur multiservice entreprise et routeur&nbsp;4G back up
+inclus install&eacute;s et test&eacute;s. Service internet
+s&eacute;curis&eacute; inclus et le routeur back up 4G inclus. Frais de
+mise en service de 150&nbsp;&euro; par acc&egrave;s seul.<br /><br /><span
+style="font-weight: bold;">Garantie de temps d&rsquo;intervention</span> 8h
+en heures ouvr&eacute;es, du lundi au vendredi de
+8h30&nbsp;&agrave;&nbsp;19h.<br /><br /><span style="font-weight:
+bold;">Continuit&eacute; de service</span>&nbsp;: en cas
+d&rsquo;interruption de l&rsquo;acc&egrave;s fibre, bascule automatique sur
+le r&eacute;seau&nbsp;4G du service internet, du service de
+cybers&eacute;curit&eacute; et de l&rsquo;adresse IP&nbsp;publique.
+Certains services sont susceptibles de subir une coupure au moment de
+bascule sur le r&eacute;seau&nbsp;4G.<br /><br /><span style="font-weight:
+bold;">Cybers&eacute;curit&eacute;</span> non compatible avec adresses IP
+publique. Seulement &eacute;ligibles sur notre r&eacute;seau en propre pour
+la fibre entreprise d&eacute;di&eacute;e s&eacute;curis&eacute;e.</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="576"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w80p" role="presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%"
+align="center" class="d_center t_w100p m_w100p" role="presentation">
+<tbody>
+<tr>
+<td style="text-align: center;"><img
+src="https://storage.effinity.fr/merchants/660014232/hosting/AFFILIATION-EMAIL-KIT-FIBRE-112023-145016669000/AFFILIATION-EMAIL-KIT-FIBRE-112023/images/Ligne_1.png"
+alt="" width="576" style="font-family: Arial,Helvetica,sans-serif;
+font-size: 13px; color: #000000; line-height: 13px; display: block; border:
+none;" class="t_w100p m_w100p" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="576"
+align="center" style="margin: auto;" class="d_center t_flnone t_mauto
+t_w90p m_flnone m_mauto m_w80p" role="presentation"></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img
+src="https://track.effipartenariatprotelecom.com/servlet/effi.pixel?id_compteur=22939889&amp;effi_param1=**id_bat**"
+/>
+<table width="600" border="0" align="center" cellpadding="0"
+cellspacing="0">
+<tbody>
+<tr>
+<td align="center">&Agrave; tout moment, vous disposez d'un droit
+d'acc&egrave;s, de modification, de rectification et de suppression de vos
+donn&eacute;es personnelles. Ce message est destin&eacute; aux
+soci&eacute;t&eacute;s et aux professionnels<br />Vous recevez ce mail
+d'information car vous &ecirc;tes enregistre(&eacute;) sur la base
+partenaire LeadsLeader. Pour cesser de recevoir nos informations &agrave;
+cette adresse, <a
+href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=3&F=H">d&eacute;sabonnez-vous.</a></td>
+</tr>
+</tbody>
+</table>
+<br/>
+	<br>
+
+	<table bgcolor="" cellpadding="0" width="100%" border="0">
+		<tr align="center">
+			<td>
+				<table bgcolor="white" width="450" border="0" cellpadding="5">
+					<tr>
+						<td>
+							<a href="https://top2goal.com/iem66/link.php?M=78980&N=213&L=1&F=H">
+								<img border="0" src="/admin/images/poweredby.gif" alt="Powered by
+Interspire" />
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<img
+src="https://top2goal.com/iem66/open.php?M=78980&L=2&N=213&F=H&image=.jpg"
+height="1" width="10" alt="track the open"></body>
+</html>
+

@@ -1,0 +1,172 @@
+Return-Path: <jessie@codestar.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1550935 invoked from network); 8 Aug 2023 07:12:33 -0000
+Received: from mail-pf1-x441.google.com (mail-pf1-x441.google.com [IPv6:2607:f8b0:4864:20::441])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 08 Aug 2023 07:12:33 -0000
+Received: by mail-pf1-x441.google.com with SMTP id d2e1a72fcca58-68730bafa6bso4199966b3a.1
+        for <bruce@untroubled.org>; Tue, 08 Aug 2023 00:12:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codestar-info.20221208.gappssmtp.com; s=20221208; t=1691478752; x=1692083552;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=EWx3aMOhgm0QTj/K+JkaYyiMsB/DuiDhcjbJr+czhSQ=;
+        b=AZnmeJodyfsfa1PpW/EUDuRt6tkgp+/WhAakr/WAqRI5wrWd5IUIMWZBsUF9AE0TX3
+         ACnmkxY4KgyDtJWHuzwo/JRG/N6ala6CJ/x+jAvzbr+4CNCt3xCADfj8rBkRMgmxV9Qy
+         2FmBQ+AlmdsweknBkxKfeI1s57Hix9M8Jjpx+G00osVd+ex8AXZZuClMH/qCSxDAQZwc
+         uY3vV9GeY+JnTTydH61cC41AQf6Hn3dw3UO/PujlV8LyHT5rN9nlxsuPFnMrD4g2AuFe
+         etsM9yADR5xgbcuM+U736sVKTfBx1JPUEAqQmXMNzeUvyozHy6gR3i/EpBVjI4+w4yY2
+         4nsA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691478752; x=1692083552;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=EWx3aMOhgm0QTj/K+JkaYyiMsB/DuiDhcjbJr+czhSQ=;
+        b=kPwybxKDHBxJqyP60JhuWIpswy4ScXsx6i9Veo3TOZ0aZcbIC3wi0z5dP0E1v5lVGe
+         gWrQ2vOobiWLkRgnTM/V6T+O3H0jvMXQkY2OgUwXbJSDtZzA0/3aJZKlAk9ZVQuKWBlv
+         eFjGQG0Z4oy6Cj+07fxe7t+XZWg/Dz/7IqlPkTL4RiJXetRpqmwY9GUH71DTGr4ZvFCk
+         3EDlVf2Z0BDm8gBdH8/0n9OXrKQPK/W6IF8SqDl7D3D+ObBFFvF+zAySL0k5gz6TQMCA
+         NeiRbZP2BsfkKKjI5cMsHOpIDnQGFqX6z3hym54J8OjO+yC6g1EkPfhHdDy5QZPzWCWM
+         SJEQ==
+X-Gm-Message-State: AOJu0YyliqDJpI8O58MWgTmO8j+KuqiEwi9Bw2uzSNLGHspAyTYXYxuD
+	agJAVRW0+2UYirIerRKC8z7B2yzKyexyaSbG4y/ROw==
+X-Google-Smtp-Source: AGHT+IEPx5fwwRF/hwGK4gQBsvWUC2BGYk0tvlwtdDWxuueNZH3UGSArJTIm00rZyGLLf7RwLH0LWw==
+X-Received: by 2002:a17:90a:2dc6:b0:268:798:a28b with SMTP id q6-20020a17090a2dc600b002680798a28bmr11343476pjm.23.1691478751615;
+        Tue, 08 Aug 2023 00:12:31 -0700 (PDT)
+Return-Path: <jessie@codestar.info>
+Received: from AkkiJanya ([2405:201:402b:20e2:8c0e:5818:cd3:9ef9])
+        by smtp.gmail.com with ESMTPSA id ja4-20020a170902efc400b001b8013ed362sm8192386plb.96.2023.08.08.00.12.30
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Aug 2023 00:12:30 -0700 (PDT)
+From: "Jessie" <jessie@codestar.info>
+To: <bruce@untroubled.org>
+Subject: Maximize Your SEO Potential
+Date: Tue, 8 Aug 2023 12:41:38 +0530
+Message-ID: <6ba301d9c9c7$b222a4b0$1667ee10$@codestar.info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_6BA4_01D9C9F5.CBDAE0B0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdnJwalATNvkbkP1T+qmBa3P7JLSaQ==
+Content-Language: en-in
+Content-Length: 4692
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_6BA4_01D9C9F5.CBDAE0B0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ 
+
+Dear,
+
+I am writing to introduce our web development services and to discuss how we
+can help you to achieve your goals. Our team specializes in creating custom
+web applications and websites. We offer a wide range of services, including
+website design and development, content management systems (CMS), e-commerce
+solutions, search engine optimization (SEO), social media integration, and
+much more.
+
+Our web developers have extensive experience and knowledge in creating
+high-quality, functional websites that are tailored to your exact needs. We
+use the latest technologies and can integrate existing systems into the new
+website design. Our team also provides ongoing support and maintenance to
+ensure your website runs smoothly.
+
+We understand that creating a successful website requires more than just
+coding. That's why we offer a holistic approach to web development, taking
+into account your business goals, target audience, and any technical
+requirements.
+
+We are committed to delivering the best results for our clients and we have
+an excellent track record of success. 
+
+If you are interested in learning more about our web development services
+and how we can help you to achieve your goals, please do not hesitate to
+contact us.
+
+We look forward to hearing from you.
+
+Sincerely, 
+[Jessie]
+
+
+------=_NextPart_000_6BA4_01D9C9F5.CBDAE0B0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN><div =
+class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:black'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'color:black'>Dear,<br><br>I am writing to introduce our web =
+development services and to discuss how we can help you to achieve your =
+goals. Our team specializes in creating custom web applications and =
+websites. We offer a wide range of services, including website design =
+and development, content management systems (CMS), e-commerce solutions, =
+search engine optimization (SEO), social media integration, and much =
+more.<br><br>Our web developers have extensive experience and knowledge =
+in creating high-quality, functional websites that are tailored to your =
+exact needs. We use the latest technologies and can integrate existing =
+systems into the new website design. Our team also provides ongoing =
+support and maintenance to ensure your website runs smoothly.<br><br>We =
+understand that creating a successful website requires more than just =
+coding. That&#8217;s why we offer a holistic approach to web =
+development, taking into account your business goals, target audience, =
+and any technical requirements.<br><br>We are committed to delivering =
+the best results for our clients and we have an excellent track record =
+of success. <br><br>If you are interested in learning more about our web =
+development services and how we can help you to achieve your goals, =
+please do not hesitate to contact us.<br><br>We look forward to hearing =
+from you.<br><br>Sincerely, =
+<br>[Jessie]<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_6BA4_01D9C9F5.CBDAE0B0--
+

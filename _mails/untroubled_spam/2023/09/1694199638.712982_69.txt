@@ -1,0 +1,145 @@
+Return-Path: <allison@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 663779 invoked from network); 7 Sep 2023 08:03:28 -0000
+Received: from mail-ua1-x944.google.com (mail-ua1-x944.google.com [IPv6:2607:f8b0:4864:20::944])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 07 Sep 2023 08:03:28 -0000
+Received: by mail-ua1-x944.google.com with SMTP id a1e0cc1a2514c-78a5384a5daso218751241.0
+        for <bruce@untroubled.org>; Thu, 07 Sep 2023 01:03:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1694073806; x=1694678606; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Ub1RL6iGgV++FJZLAWQvsRdUUIVmQDCGsJYB4PENANA=;
+        b=01I5BB6xpSk3MgiDAoKCiXC2ZBonzVUW803J7btrho+p60RDkamtUgi3CHbEcbJT6o
+         uWUHFIf6U7tGphRpfaEMd8MiDV4Brf5PMtuCqbzcxZDogxvwu8WyCvW2xxnWKsxy2kb4
+         7T1OPmKVhgrY90R2lYgM9bwizR3wycnt2ctfIL/U3Hk7h1DRWJhW/W0r0wuMy86cUjdb
+         X0jJktlarD1C7cwInxuyiGuQazc6PK8vVKTEfAetQNU/sBJACSlp15ey5Z4Nn/xEdW+g
+         Y/CYKVRTvFunV160UMBtY+825RiigjzycUaAYKH09rAU/FOtmdbdbFYOQW+oc1pw8dsW
+         HlVg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1694073806; x=1694678606;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Ub1RL6iGgV++FJZLAWQvsRdUUIVmQDCGsJYB4PENANA=;
+        b=hnmYklscMkw6rlrYiP3w2UK3xI6pBa/V88dC1JhesgDDLOM4TPMXC2rxTlXT9QYJA5
+         XDJPu7YQ4F8Lo53J4ssKV7nC74uHrSEEcyVxNeaQ8hIWx+DF8j8YsC3K32z83FoA98Tu
+         y593aA52yQDWg8YsdcGTqfvFuElZRW99vuPaHv6BRsWGWqd2llETDjAPWOspCFvPq9cJ
+         +fKNZHqaXCWdePYAyyVaEXU+uMaa4F3lE1V/2pchMwvScLVNii4AGHKuyZ9/kDhdp3b0
+         bWGDt9Sh0FcsScdtwpt39ePqUNyK7pOGSxzDV64h72qF2HEZDnLzrClXGtEJu9IxhouC
+         QvTA==
+X-Gm-Message-State: AOJu0YyE18ctoOhPLiHh6PsGpscnjsHbzwqoB7/eN5TfFwQ8E/pHpgr9
+	6Q6rPyguBcYIKWGnm6RBqJ+hrI/FG1MgyoLcWewe6jI9wZZYeDxf2H8=
+X-Google-Smtp-Source: AGHT+IE5SYnwYqiMBoD5p4Bbm/zJ3oi56PUi3YW3FS9PSiF1c/Zoan74iUsVbO66lL9DvBvbbwWRAoEW3t2//0wJovM=
+X-Received: by 2002:a05:6102:d5:b0:44e:828d:ce7f with SMTP id
+ u21-20020a05610200d500b0044e828dce7fmr4763218vsp.21.1694073806346; Thu, 07
+ Sep 2023 01:03:26 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 7 Sep 2023 08:03:25 +0000
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 7 Sep 2023 08:03:25 +0000
+MIME-Version: 1.0
+Sender: Allison <allison@webtechresearch.com>
+From: Allison <allison@webtechresearch.com>
+Date: Thu, 7 Sep 2023 08:03:25 +0000
+X-Google-Sender-Auth: dXMPcf7LAZ0r7WHkj9lxETJiuzc
+Message-ID: <CAOezBw7iFpWj-391SX6Yp+uR1_CR199ooz364yCz+4pLt7bVYw@mail.gmail.com>
+Subject: untroubled.org : Top Page Google
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000736d6d0604c04b28"
+Content-Length: 5276
+
+--000000000000736d6d0604c04b28
+Content-Type: text/plain; charset="UTF-8"
+
+Hello *untroubled.org <http://untroubled.org>,*
+
+Hope you are doing well.
+
+I was looking for Keywords and found your website, not in the top list on
+Google. If you were on page #1, you'd get so many prospects/new clients
+every day. Most of your targeted keywords are on pages #3-5. You're so
+close! Do you mind if I sent an *SEO Package* and a *Pricelist* of your
+site to see why you're not on page #1?
+
+It's totally free. I can send the *Audit report* in a couple of hours. If
+you have any questions, feel free to ask me. I have more than 10 years of
+experience in digital marketing.
+
+Can I send it over?
+
+Look forward to your reply.
+
+
+
+Kind Regards,
+
+*Allison Lowery  | Digital Marketing Specialist *
+
+------------------------------------------------------------------------------------------------------
+
+P.S: Reply back with us "*Interested"* and get the best SEO Proposal and
+quote for your website.
+[image: beacon]
+
+--000000000000736d6d0604c04b28
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><h2><p style=3D"font-weight:400;margin:0cm 0cm 10pt;line-h=
+eight:16.8667px;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"color:rgb(38,40,42);font-size:13.5pt">Hello=C2=A0</span><b style=3D"col=
+or:rgb(38,40,42);font-size:13.5pt"><a href=3D"http://untroubled.org">untrou=
+bled.org</a>,</b><br></p><p style=3D"font-weight:400;margin:0cm 0cm 10pt;li=
+ne-height:16.8667px;font-size:11pt;font-family:Calibri,sans-serif"><span st=
+yle=3D"font-size:13.5pt;line-height:20.7px;color:rgb(38,40,42)">Hope you ar=
+e doing well.=C2=A0</span></p><p style=3D"font-weight:400;margin:0cm 0cm 10=
+pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+13.5pt;color:rgb(38,40,42)">I was looking for=C2=A0Keywords=C2=A0and found =
+your website, not in the top list on Google. If you were on page #1, you&#3=
+9;d get so many prospects/new clients every day. Most of your targeted keyw=
+ords are on pages #3-5. You&#39;re so close! Do you mind if I sent an=C2=A0=
+</span><b><span style=3D"font-size:10.5pt;font-family:Verdana,sans-serif;co=
+lor:rgb(38,40,42)">SEO Package</span></b><span style=3D"font-size:10.5pt;fo=
+nt-family:Verdana,sans-serif;color:rgb(38,40,42)">=C2=A0and a=C2=A0<b>Price=
+list</b></span><span style=3D"font-size:13.5pt;color:rgb(38,40,42)">=C2=A0o=
+f your site to see why you&#39;re not on page #1?</span></p><p style=3D"fon=
+t-weight:400;margin:0cm 0cm 10pt;font-size:11pt;font-family:Calibri,sans-se=
+rif"><span style=3D"font-size:13.5pt;color:rgb(38,40,42)">It&#39;s totally =
+free. I can send the=C2=A0<b>Audit report</b>=C2=A0in a couple of hours. If=
+ you have any questions, feel free to ask me. I have more than 10 years of =
+experience in digital=C2=A0marketing.</span></p><p style=3D"font-weight:400=
+;margin:0cm 0cm 10pt;font-size:11pt;font-family:Calibri,sans-serif"><span s=
+tyle=3D"font-size:13.5pt;color:rgb(38,40,42)">Can I send it over?</span></p=
+><p style=3D"font-weight:400;margin:0cm;text-align:justify;font-size:11pt;f=
+ont-family:Calibri,sans-serif"><span style=3D"font-size:13.5pt;color:rgb(38=
+,40,42)">Look forward to your reply.</span><span style=3D"font-size:12pt;fo=
+nt-family:Georgia,serif;color:rgb(33,33,33)">=C2=A0</span></p><p style=3D"f=
+ont-weight:400;margin:0cm;text-align:justify;font-size:11pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"color:rgb(38,40,42)">=C2=A0</span></p><p st=
+yle=3D"font-weight:400;margin:0cm;font-size:11pt;font-family:Calibri,sans-s=
+erif"><span style=3D"font-size:13.5pt;color:rgb(38,40,42)">Kind Regards,</s=
+pan></p><p style=3D"font-weight:400;margin:0cm;font-family:Calibri,sans-ser=
+if"><b><span style=3D"font-family:Georgia,serif;color:rgb(53,28,117);font-s=
+ize:18.6667px">Allison Lowery=C2=A0=C2=A0</span><span style=3D"font-size:13=
+.5pt;font-family:Georgia,serif;color:rgb(53,28,117)">| Digital Marketing Sp=
+ecialist=C2=A0</span></b></p><p style=3D"font-weight:400;margin-right:0cm;m=
+argin-left:0cm;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"font-size:10pt;font-family:Helvetica,sans-serif;color:rgb(53,28,117)">-=
+---------------------------------------------------------------------------=
+--------------------------</span></p><p style=3D"font-weight:400;margin-rig=
+ht:0cm;margin-left:0cm;font-size:11pt;font-family:Calibri,sans-serif"><span=
+ style=3D"font-size:11pt;color:rgb(53,28,117);font-family:&quot;Times New R=
+oman&quot;,serif;text-align:justify">P.S: Reply back with us &quot;</span><=
+b style=3D"font-size:11pt;color:rgb(53,28,117);font-family:&quot;Times New =
+Roman&quot;,serif;text-align:justify">Interested&quot;</b><span style=3D"fo=
+nt-size:11pt;color:rgb(53,28,117);font-family:&quot;Times New Roman&quot;,s=
+erif;text-align:justify">=C2=A0and get the best SEO Proposal and quote for =
+your website.</span></p></h2></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2UFIP9D3ipxZ=
+dIA5fQZXUpd5BCZlhEeoFMIY7Xm4d4fbB2KpuigHNl5zw6zGcnoFWbdd345I-19cQo4ZfHidDle=
+j1fOQZaV-6kst7aD2MuTJfAkg9SI_SjnI0d3EBJ2I38NhgGREvEzmHKNC66cwfMMkvGUAxVaac"=
+ width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:non=
+e!important;">
+
+--000000000000736d6d0604c04b28--

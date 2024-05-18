@@ -1,0 +1,307 @@
+Return-Path: <>
+Received: from 10.226.14.104
+ by atlas107.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Mon, 17 Jul 2023 12:22:14 +0000
+X-Originating-Ip: [209.85.208.172]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.172 as permitted sender)
+Authentication-Results: atlas107.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Mon, 17 Jul 2023 12:22:14 +0000
+X-YMailAVSC: JaAlxeM3bBu.AjqOjM1AAMw9faS0gOLeBt2q.hFOXUWoepd
+ 4US7zRWP7I1mtNyKbPtZJ5OYIJvgBlzH8xLZ92Im3xlKV2CX.TTLLt_FPsWm
+ .T7jOjV.SSiF3hIVAUKtG_sxpLMSSKjKaEpvyKKapww1W1OXbjw1LC.TLWnU
+ jkVofPKlctFautArbTXkBTOYOyF.NUWw5OabBaNzIro.D57VbcKbQP41Rm5l
+ e9tCTv4qAg7HjPEiqOQerzgIf9XYhux7QEDd3Skw61.BTpBxaTSZNRlZPjPp
+ fq.Cft7Qn1omLA1V1g4ne..4V3Cb0y7iC_PyeZrBHhLVLb..ldh.mXG1iJp4
+ hQECTh2nJFcmuzwYw2QOpX0ESobX_1kDs39OuV1PTpviwThp95qKKbtDARqM
+ drng2qAw0mz7NPY2byFa_lgpc5DMHpRVz7lCI1NrBH1qFb.zGqJHoWHX1l.h
+ Q_jH0T7FYM874YxrQM5y5NGd8cooK5ICSljYt_sngiBmtHgkseH9ohgOySyM
+ qThgTiAL2CQNx.Wrn4N0TNX9pwle.Z1vEKFa162CZvFR5AE9VtM04QIZHQDn
+ xNa36x9tOjCxgLzT6SCpMTLBrHBxtOGepaBeFtwl5Jhg34PYttkpZ_8AkStf
+ jpWrCbf39FZ2cpkt8n2gokQ_GU5uX3cy3gwK5AEyc9mtOdchxjffoAWpuYV4
+ 3rpdAFylORo1ogZ5qC6feg8o89kwtrpe6JWNBbV0DpL6Y8qqYAwL2tEuK3jb
+ AvfIrNiNi.TltrzcPOjo1XKBJlktBbLUOyLAbn6i9KAdfN1dFMtgnntvl97z
+ qN_IDK.9d.HKbaokqC3kI22QB7wkjN0aT72Wk_w4yICIzwCuTKVDHW4a4KKm
+ dn4DfpRNLfQq6MBzHmkdeO5pNK1EtRaZXXGYm.7Tpy9bErWhtWiu1Y3E6_6T
+ 3NT1NqV4MBW1Cwna_06HVZIuipS__c_6UR55CJTm7DE8sY7QNfWXqr.lLK6n
+ 0MuCa_RGG3FcK0XdAxywspk_EsgIck16uYazZyPg5585_rRGCYJnvEtqu27a
+ zR3UfNL3f.LGAYluqyRzehQ--
+X-YMailISG: QbrRiLsWLDumLF5dYOxSUG.uyjdYmFOhJUi_f5OfOu3_QWsV
+ a9c3TEV4chWuIEIA6NtogMhQ1V0eS.wfBEvCqnROCoeVlL2G_z57DYzMdOeW
+ J1Cs5_hm2LP8eN0ghwR5TamFCnwvKCRL_xB06_43jm5MjBhqLTn7oNLIDSIo
+ KvBX29HjsnPbF0fNpUXc1jCBQmDhql65fhnVZUHHBK2.zgmaFYVI75q9fRQM
+ dxzO4SLxUtcjXlUArWGrWcs_UMD4MV1aN_X10u2gQp2HDEbwjZaee8hNWUPT
+ YtmDwYnt3ulrfVa_RRMX13GXCSXMhYKLSAB0B3QPuzbssSG984Xqq9ZwDPIm
+ RjQn6vkWfofpLiiv1IPVX0xUPMcy4.HgJpN5lfvjCN2eyjN3jC_PfCdW6ph7
+ nJDXFFitSG3RnK.V9L1wV2Pvy3E9YSEWkVZrHxNNUk6zFjO9jIDk9_1qXtwH
+ ESS73G8kvV1R90xdUD0QrMxmuHj.d0NWJ4DughJ9FIppAMMiOEd22jLlyWuS
+ uBbCIKVUKTdfErUtfj9bZGAbz6cGCmiOKQa_PhE7hWhIaSScGYKZ5o8EJQc.
+ yJDV3cFiIV84JKMehKsr3A4vrI.wGbPP7WdbzVmbkBJjEO2RUE.tGgG4As_v
+ wQ7HXx1WX3Vwvn0CrkD4Gn09WAKuHA2Noc36ZC6dFpcH9Zo3cGh0rHUqv.br
+ WlDXOeSqVP8vSK7I9.6pGH03F14bMHv31cGg0V2ga9OJS_nvfb0n_c.iMw.V
+ Q9IC71DSE0wcPsB6_7Eu67J1yLOQsQ7yu83vgYFI.wrfwyvvYbOVZpwwEask
+ EZmwmRs1ytHwQ77N4eLwUKxlnNHsnK8OUTx9VBhezvkZyUsqs08ncZO6MrFs
+ 4mOJ1FaoXwgM2Qn.0wocrrzyeSYiC86f3kIAvI22eCMKTfI8Zna5Hdt2bimV
+ hu7SDbhmzcAw_zohon_999M50huDxDlfewqQS9KLjibq7YZiDyKNUHUQ7ASb
+ ug8XQc42R5L6VymWxldR9Qprrt_NBC3ECb4GM_2KLM9jTjAQ_3sSIqyeWR9Z
+ 33vNp2rbhsWW6b102kDA5vURlFeXYP66.GvjmEvPJ4aCOoLa8V9sh1KUIK5y
+ JrzhDfYBGyoz9SnTtZfB5KJvWBpksc.NpsWl74jQjAF6q9IX9CKT5_i1JhRr
+ TTg1D66KOJ5ne3nFEYZPjCP1jCNK1KT7KeH3jL8-
+Received: from 209.85.208.172 (EHLO mail-lj1-f172.google.com)
+ by 10.226.14.104 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 17 Jul 2023 12:22:14 +0000
+Received: by mail-lj1-f172.google.com with SMTP id 38308e7fff4ca-2b8390003e2so50587551fa.0
+        for <bruce@untroubled.org>; Mon, 17 Jul 2023 05:22:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1689596533; x=1692188533;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=xtmyCMrdRLl5J0cRNIMkPiXCyykdzvgwXo8ZbaNwzEc=;
+        b=QGNWh55bEIhTeEai6iGBHtGeJMLdyLTgWkPiDQH/CbzaOAmBobd3+m1ckXnUsc8LAe
+         eoInn/RUe7seLG6urWHFJTzRnvekQLOk8bvG41HjtbZJ+NzOJDrISCIFkTLpuHUC+JDT
+         qEzquJu/fVL+jQDB9fPSR7isL/eNGsyK0Wgg5mVU9CG1uSiOCyW19M3fZTuZ6OBe1o2l
+         8n5Ggbhu5vem0L5PSfXzaSkTQwIAEKGRdj8eswIbtw+yEviGoAazyIwXZ1xhZYGk0P3F
+         oKvn5D87+NUPPtIQHka+Uc/bQQevy1H5FDraGSalvLAUtFeNQnWOzVjA+UPDtUskOkcL
+         b60w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689596533; x=1692188533;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=xtmyCMrdRLl5J0cRNIMkPiXCyykdzvgwXo8ZbaNwzEc=;
+        b=PlvMln5fPfqReTQDMMzYUwawalahbBE1/FGPAyJfOtiR9qLqM1ur6cQzHQWwknL610
+         erlSYrwIiAEyhRGjqVK0yLetX8CZKFBz/Ny7jmiq0GJU8hlTR1QqaxqsQIXcdisM6ZEm
+         mF2kv4ExMaS8veiqzDSp1mh5xOw0QgTMok3+3K6/JPFuXDRizQYaxGBA2Ke74I3cD1H+
+         w7NrnWIqIN7KJhERNdP/o3XmESw6FLQaXzq5vb42CUaPlSJzBeAxf6ZwBStxrHCwN/H5
+         96jtXu3PDEFPOYrS1pXbItqlIwjOg3+B5NzsdWC3bIUb0NIWaYCZZOy03Vtf4GoKG1c8
+         RauQ==
+X-Gm-Message-State: ABy/qLawxFemE8WIcjkOMfLFYXcJBu9RqmO2nT3fDgGyU7k5e61VKWE4
+	KJKa/LK6GcUshMUtMRA2ZidN6OCmzI4u6GsqsnZoyXSQ
+X-Google-Smtp-Source: APBJJlHmKtMblZJKjNbhN8iKMwSiIe/zPq2xu1iRlZf3pAt3p8Xg/2Z2Y/fiA6Z2jrjo+qwlTwNfblH/hW9h0KDGRSY=
+X-Received: by 2002:a2e:9b13:0:b0:2b6:ba00:f733 with SMTP id
+ u19-20020a2e9b13000000b002b6ba00f733mr8798759lji.18.1689596533516; Mon, 17
+ Jul 2023 05:22:13 -0700 (PDT)
+MIME-Version: 1.0
+From: "Harbor Freight Rewards" <bruce@untroubled.org>
+Date: Sat, 28 Oct 2023 15:47:28 -0500
+Message-ID: <fB1yiuo4YEeDuEtrRrZ-x5txbebLOU8-2L1T20NpyrM3cuA8nAK@mail.gmail.com>
+Subject: 170 Piece Stanley Tool Set Reward For You
+To: "Harbor Freight Rewards" <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 4606
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>170 Piece Stanley Tool Set</title>
+ <style>
+ body,table,thead,tbody,tr,td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #fff;
+ }
+ .logo {
+ margin-top: 10px;
+ }
+ h2 {
+ font-size: 50px;
+ color: #fff;
+ line-height: 1;
+ padding-bottom: 0px;
+ }
+ h2 span{
+ font-size: 30px;
+ font-weight: normal;
+ letter-spacing: 6px;
+ }
+ h1 {
+ padding-bottom: 0px;
+ padding-top: 10px;
+ font-size: 36px;
+ }
+ .title-para {
+ font-size: 25px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ border-bottom: 1px solid #fff;
+ width: 240px;
+ }
+ .feature-para {
+ width: 400px;
+ max-width: 90%;
+ padding-top: 0px;
+ color: #525252;
+ font-size: 16px;
+ }
+ .linebg {
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background: #FFED34 0% 0% no-repeat padding-box;
+ box-shadow: inset 0px 3px 6px #00000029;
+ border-radius: 20px;
+ opacity: 1; 
+ padding: 16px 20px;
+ display: block;
+ width: 250px;
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ }
+ .bg-wrap{
+ background-size: 150% !important;
+ background-position: top center;
+ }
+ 
+ h2 {
+ font-size: 32px;
+ }
+ h2 span {
+ font-size: 16px;}
+ h1 {
+ font-size: 26px;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ }
+ .title-para {
+ width: 220px;
+ font-size: 16px;
+ padding-top: 5px;
+ }
+ .feature-para {
+ width: auto;
+ }
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table bgcolor="#ffffff" class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" data="image_bg" background="https://pbs.twimg.com/media/F1PswhbWcAEKG32?format=jpg&name=large" style="background-position: top; background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;" class="bg-wrap">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" height="50" width="190">
+ <img border="0" src="https://pbs.twimg.com/media/F1Ps1rWXsAcQJ-O?format=png&name=900x900" style="max-width: 300px; max-height: 50px;">
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height: 30px;"></td>
+ </tr>
+
+ <tr>
+ <td align="center">
+ <h2>
+ <span>ANSWER</span><Br>&WIN </h2>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="title-para">A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <h1>170 Piece Stanley Tool Set</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/F1Ps5-4XsAA-lb0?format=png&name=900x900" alt="reward" style="width: 250px; max-width: 65%;" />
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://3HYAC9GHDBDJG7CJORJ8.golmi.co#cl/91042_md/1/343131/26569/2623/974221" class="cta">GET STARTED NOW!</a>
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height: 50px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p align="center"><a
+href="https://3HYAC9GHDBDJG7CJORJ8.golmi.co#un/91042_md/1/343131/26569/2623/974221"><img
+src="https://pbs.twimg.com/media/F1Pe156WwAAbbap?format=png&amp;name=small"
+      alt="" moz-do-not-send="true" width="549" height="49" border="0"></a></p>
+
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

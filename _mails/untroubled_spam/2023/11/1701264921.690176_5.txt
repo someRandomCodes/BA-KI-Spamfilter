@@ -1,0 +1,249 @@
+Return-Path: <naomitaverasseoservices_web@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 684629 invoked from network); 29 Nov 2023 09:51:34 -0000
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (mail-tyzapc01olkn2012.outbound.protection.outlook.com [40.92.107.12])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 29 Nov 2023 09:51:34 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=PY8f4hnBVQeS8RqkWHxfPF+GemtLw+Urt+HqIrB76f/AWXIPPJJvb05WqkqC30ADv+Y9rukECn+7BFU8tyl4Y/AocnTmwxJ6pnrGrw1pXsaePa2lnLUfkx7WVz9cg0AqOGWzaz6Qv7iM99PATqtwlPUVPaxLgjS2MuQ4k43XrVE+IfOJHUEHhgR/f+nT8/bufofd6TEX8HMbmq7Sjn3PIelFRE5+DE/K9Y1fHVYRg9K8cmkRWkGBbecZ61rKupOkRgFh57YZkGqYsAWoBSa5KR7ieIULg/nAK0EdAt5Ji1+ShU+1Yd877J97J7EBYYcwPnhJK/pw+/p0jjYhIO/Msg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=IXDOCvQX+fI5BfPNy0YsxfkWKEn/Ys1CMIHyt5TVFoI=;
+ b=lGgBDRwzUdBrHaNLOvzK0E6/QqQ5RUOj1+11PIJ0dwpUlAIbfnFIR0N2jaA0QDT2cYl4tY9N4B76YLRgGpGEMH0ZLYDUkvTTqwrR5YT5UJAbHqdklgU9TxPVF7Irxc3PqsfcVSlTHABPChzifj0jR4KnJl0I2WFAWruJmfukIoWcC4uWyz6W5waOxWixN3ucyqrbARV630s5h3UsXEvSpjcSl2y0ga/jb7bqODMgMkNPPRd+8NTVkv/5sXQiuV7mnJwSvdPByIrgNzO5A86ZwVIepM2FffoT34IdnoHOw/3KoPLW/NI7E99kKPiWh62jVn3/IMSJlKIa8mmnVqFvsw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from SEYPR03MB7293.apcprd03.prod.outlook.com (2603:1096:101:13b::13)
+ by KL1PR03MB5604.apcprd03.prod.outlook.com (2603:1096:820:58::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7025.29; Wed, 29 Nov
+ 2023 09:50:23 +0000
+Received: from SEYPR03MB7293.apcprd03.prod.outlook.com
+ ([fe80::4271:b92:42c5:1c91]) by SEYPR03MB7293.apcprd03.prod.outlook.com
+ ([fe80::4271:b92:42c5:1c91%4]) with mapi id 15.20.7025.022; Wed, 29 Nov 2023
+ 09:50:23 +0000
+From: David Smith <naomitaverasseoservices_web@outlook.com>
+Subject: Re: Web Designing Proposal
+Thread-Topic: Web Designing Proposal
+Thread-Index: AQHaEsuhal8Vw0+B20+pJ/kOqc2opLCRKxU9
+Date: Wed, 29 Nov 2023 09:50:21 +0000
+Message-ID:
+ <SEYPR03MB72937DD4A4F0C3EB472887088683A@SEYPR03MB7293.apcprd03.prod.outlook.com>
+References:
+ <SEYPR03MB7293F0F952E628890DA861CE86AFA@SEYPR03MB7293.apcprd03.prod.outlook.com>
+In-Reply-To:
+ <SEYPR03MB7293F0F952E628890DA861CE86AFA@SEYPR03MB7293.apcprd03.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [mkokQLFXJgdv6rEgMmVfHYxlAjnoL8aaXlkpQBdnMGCaD6TecEBbLvPBLMSqHiAz]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEYPR03MB7293:EE_|KL1PR03MB5604:EE_
+x-ms-office365-filtering-correlation-id: cf378a48-1714-422c-01a3-08dbf0c09a60
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ Ne9vgiNkKd9MXh+YFK+dLEg+Wo+PMkhH2tVzVPyxXN/C0togaefR3bOXiTZ/wiPKG+YDi9YjkcRCWNk8ym88/O26FcD6UmtAho8PeC60Cx1boPjzLbEAbFbhIBAzgqadZn4NindO8qQgEKab9DLfzL3hwoF9OSvPdhXjdXoKOUEnMXmg9GWqA/2GK9csRKdtvWqA8g0ZOSGAUB/79Lf1e2YEOQS2PYKvLy6o2ZeKsH2fcjnbUKXan54Z3UNc9Ru1aFwTU1cgbfPqbosyIU9lBuYUMO5tHs79wfoRE9Ruz8bINuXUrLJ26LQE+fL9QxpBUztJv4hOWdPMlukmXwX8F9n87rc0LkRTXVOlJnqlRIfD3O0Vv8iKvoRiNz5I4HskAe7AtR46ekEl9tvFzIKO0sDDoIPbTYW4XFo2+VWuHIUsoem2ZFXZVucNoaW/FHcWW38eDXK1AV174aJgY26Jow44hgyY2Ydj+uQ8Ea0FjZaJvRgNbL5v10uh72hazimZa7ML5s8Sll1NQSdHcW5qXW26UL9hYDjbAsUcCtHnOrYKYRiBI6fDCO8wSmXLMDXH
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?/z0NHW50mBGqi5V0bhsp5WoSLfxyWD9x6Kx0/J6UdFrB3G9KImOqVJ8srTav?=
+ =?us-ascii?Q?UlHRfK5edS8odoO9CJLSC6ydCPAlwR0lU0RoNPVhDmwPKOLizQwYevRBGOxc?=
+ =?us-ascii?Q?6SEx1Rwu1BP43YVnBiqERhDtVjt2uRhYGPOFlgnm7KqZIcd9IOwlu5JR0DyW?=
+ =?us-ascii?Q?ZX2h3T9Dt8iQxURkK/WCk9vcyk7ITcu/79HacSWE4YE8kNfWu1Rex9BzSs/L?=
+ =?us-ascii?Q?H9QGnMcnldq+LIxnYDlNDsYjF+8bgHT8NUDSI+a9xHIO/hzVMj7I34oRFolW?=
+ =?us-ascii?Q?xyqyNWJKGjllXf3HAmBGLdfFPD2icq/WYTSi8H+Y+O6W1CwNbfPNRmTEhWqX?=
+ =?us-ascii?Q?q70qbUOj/Z6q4hVIanyP0P6+DBh8GDWlChvYvJTUkKCTIVB+1OVLrZBXoU82?=
+ =?us-ascii?Q?HRP2//HsvMHNjfdM/kpovxr0Cv3rlRY53j16aa3oK8YrBPV8h3iV/srnL2W8?=
+ =?us-ascii?Q?8IyO7YrZpMHsip9Nw0o0+n24ax+nRUBAFwzd/uN3irGFkOKQQPC5eFIrYPRY?=
+ =?us-ascii?Q?pM0MVamuojGWxHp89JeZs+QqsIYMTb/DgcgK1ctTsTupcSy76+54qHWHdRIS?=
+ =?us-ascii?Q?aPbiQI+YFBCV6kYqp+djNE0azh4mv21kOjWEwZSigT0ReOEhW76gLB2Yxv5r?=
+ =?us-ascii?Q?sylZlG3MTXmcORAY6AJ0cS9HUI6BzovGhRgG2PpY6Wq2k2YpgljDkkd72pkj?=
+ =?us-ascii?Q?4N3xgoYcCvsaQGmd2Tdkk4qJLZAN6lyX+DaS5h4YrK89N3EnMCNs2dENga5E?=
+ =?us-ascii?Q?kMpNhyHrWaQitj+W+UZkyarERhfTT5xjaks6S1HRZ/aj3ukOXuTA4b9a1k8s?=
+ =?us-ascii?Q?9ETn4T4Sf+moqnb36u8wbrcNiwtGlPb1fGTc82S6IOrfvhDt3FXiIjbQMqrR?=
+ =?us-ascii?Q?RNuc0mgl9JFExV/IkDccDVp5AQjUH89jECR8CV/DarIJReBu9bYkk065GJ+5?=
+ =?us-ascii?Q?EmBg6p9H992WJ+tnYgQzCPMpI82ioih1wtdAgZEWcuIiM25bMB458JQuXpZJ?=
+ =?us-ascii?Q?fmZ0r6o7YK58i/sqqEWddCS37hPTQKZbP89QM8tZNSP3mzOFBZ1RHKWs7YyN?=
+ =?us-ascii?Q?SzughSvY/WA7A5UZniujiwKYZN29ICBqeQDOdxypsrDOsPBDjTZgncbozx8s?=
+ =?us-ascii?Q?d9PlK0Fh+Y3JhNaAob5E/xKiwTZwKZdrx8NEHyODzjeep39YxqYwJ7Bgl/mR?=
+ =?us-ascii?Q?vKT6jJPa6mJeyZXO6jVgtDo1sr0HkUCWiHMGFCYX8sh7ZfnK3Nv8FIrY/sn6?=
+ =?us-ascii?Q?NcbHIAGWpCA00b7pj+ssHkuhEeT+DA/TuNpBuf56t0QlSopmn7c//ARTR3Jn?=
+ =?us-ascii?Q?gvA9liSenoul2gEQp6Zk2Fy9aU0gYochjJOAcKqqPamnWg=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEYPR03MB72937DD4A4F0C3EB472887088683ASEYPR03MB7293apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEYPR03MB7293.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: cf378a48-1714-422c-01a3-08dbf0c09a60
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Nov 2023 09:50:21.7311
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR03MB5604
+Content-Length: 5044
+
+--_000_SEYPR03MB72937DD4A4F0C3EB472887088683ASEYPR03MB7293apcp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+
+
+In response to my earlier email, you have not responded. Just curious if yo=
+u'd be interested in a new and old website upgrade, repair or redesigning t=
+hat could be made for very little cost.
+
+
+
+Kind Regards,
+
+David Smith
+
+*********************************
+
+
+
+________________________________
+From: David Smith
+Sent: Thursday, November 9, 2023 5:18 AM
+Subject: Web Designing Proposal
+
+Hi,
+
+I am reaching out to see if there is anything that would like to upgrade, r=
+epair or redesign on your site. I am a web designer/developer that can do j=
+ust about anything you can imagine at very affordable prices.
+
+Our Services: -
+
+1.  Shopify Websites
+2.  WordPress Websites
+3.  E-commerce Websites
+4.  Magento Websites
+5.  Drupal Websites
+6.  Joomla Websites
+7.  CMS Websites
+8.  PHP Websites
+
+I'd be happy to send some of our Designing and Development samples & price =
+list, if you'd like to assess our work.
+
+Let me know what you think.
+
+Kind Regards,
+David Smith
+Web Designer/Developer
+************************************
+
+
+
+
+
+--_000_SEYPR03MB72937DD4A4F0C3EB472887088683ASEYPR03MB7293apcp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;">=
+<span style=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;;=
+ font-size: 12pt; color: rgb(0, 32, 96);">Hi,&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);">In response to my earlier email, you have not responded. Just curious=
+ if you'd be interested in a new and old<b>&nbsp;website upgrade,
+ repair or redesigning</b>&nbsp;that could be made for very little cost.&nb=
+sp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);"><b>Kind Regards,&nbsp;</b></span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);"><b>David Smith&nbsp;</b></span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;, &quot;serif&quot;; font-size: 12pt; color: rgb(0, 32, =
+96);"><b>*********************************&nbsp;</b></span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;" class=3D"elementToProof"><span style=
+=3D"font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; font-size:=
+ 12pt; color: rgb(0, 32, 96);">&nbsp;</span></p>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> David Smith<br>
+<b>Sent:</b> Thursday, November 9, 2023 5:18 AM<br>
+<b>Subject:</b> Web Designing Proposal</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_elementToProof" style=3D"font-family:Calibri,Helvetica,sans=
+-serif; font-size:12pt; color:rgb(0,0,0)">
+Hi,
+<div><br>
+</div>
+<div>I am reaching out to see if there is anything that would like to upgra=
+de, repair or redesign on your site. I am a web designer/developer that can=
+ do just about anything you can imagine at very affordable prices.</div>
+<div><br>
+</div>
+<div>Our Services: -</div>
+<div><br>
+</div>
+<div>1. &nbsp;Shopify Websites</div>
+<div>2. &nbsp;WordPress Websites</div>
+<div>3. &nbsp;E-commerce Websites</div>
+<div>4. &nbsp;Magento Websites</div>
+<div>5. &nbsp;Drupal Websites</div>
+<div>6. &nbsp;Joomla Websites</div>
+<div>7. &nbsp;CMS Websites</div>
+<div>8. &nbsp;PHP Websites</div>
+<div><br>
+</div>
+<div>I'd be happy to send some of our Designing and Development samples &am=
+p; price list, if you'd like to assess our work.</div>
+<div><br>
+</div>
+<div>Let me know what you think.</div>
+<div><br>
+</div>
+<div>Kind Regards,</div>
+<div>David Smith</div>
+<div>Web Designer/Developer</div>
+<div>************************************</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_SEYPR03MB72937DD4A4F0C3EB472887088683ASEYPR03MB7293apcp_--

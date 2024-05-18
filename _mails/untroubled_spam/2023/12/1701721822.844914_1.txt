@@ -1,0 +1,149 @@
+Return-Path: <adamserisier@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 808715 invoked from network); 3 Dec 2023 17:13:01 -0000
+Received: from mail-wr1-x444.google.com (mail-wr1-x444.google.com [IPv6:2a00:1450:4864:20::444])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 03 Dec 2023 17:13:01 -0000
+Received: by mail-wr1-x444.google.com with SMTP id ffacd0b85a97d-3334a701cbbso92996f8f.0
+        for <bruce@untroubled.org>; Sun, 03 Dec 2023 09:13:01 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1701623578; x=1702228378; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=kJ+lmMQkNxWWdMDLZF2J7UDbGs6BPRxbzMWzAi0M7F4=;
+        b=eVsDZqZqKxv2ekr66E6KzDhUymJ1nKxmfX3chjKjFO3TdYe+IY0AnA9K1abzXnxcNY
+         7nwwM4OJRVh0/84kN0rpj0JfMD46uJmmw2dICtUzuGpi4szk8pcEbOofr3ovlUm25ZR+
+         0TLu4OfHB4Qd2pcn7c5RbEqIbn2u78OgB5kD5dd0f0zYiZ0TreSXaDjKFn3lUHZ3sHqf
+         0SJBdRiUcBpSnHH7tfHUDp9Eog0ouMNIMcXerJZJs7X6Vqa/xKLmxOIfMaCX+VtXoN7C
+         JlmIJIxTN2lJHHB62PvTpBHzNFMHnc9DQovcqZkHpTZrZRbkupSMaOirLv32lias0+Jl
+         VBLQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1701623578; x=1702228378;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kJ+lmMQkNxWWdMDLZF2J7UDbGs6BPRxbzMWzAi0M7F4=;
+        b=iWB0WjB6r2RN0CkgQumEottgGhgquz4brkfdpnLRx8LywA4aE4FK4+qMKz2vZO+FLF
+         3pPNFATwWhqKcXMBUNymZVTZ/7V1l8e1hRx5sb6i29Q/vH1Hguuh3P/bQp6oJPvI8VSV
+         hOCeQmKYFA8AoS10rGyJM/ghw4TFUjpVl2TvlUmKMwJvUS0sn7tEDFmq7Sbti23NkUBO
+         C8eZd5Q9Rj+dnPc3AA4/YIKVlWqZvVtWybl19eDEwFhbaHLMTsFSmk5HVeQo6piZdauD
+         0G0HzS2nYN2QPw86ZXHihVFJsEu2fPPTp0KxQJ5dRBu4/YqDwzx55DzkJEkShKdOLyS4
+         Mk2g==
+X-Gm-Message-State: AOJu0YzgXtRzdcBxWkru6wDXeSvQu3V+KBpvZnYa83vZC2xdA85ZiecW
+	TwgYMW8tJZ/gKEW9oiOr+sA5P/cGoYG+XrtoTG2T4qpFKx8nB2elRBI=
+X-Google-Smtp-Source: AGHT+IEu4HhX9qmAu/8uSsO4IYdaShIxyxHzPFl/ix1sdhMg0sUaoBDxbqzdBx4AE4vDlmAtr+EGs3ytLMZLMiPseLA=
+X-Received: by 2002:adf:ab17:0:b0:333:3f8e:f7f1 with SMTP id
+ q23-20020adfab17000000b003333f8ef7f1mr774684wrc.62.1701623577827; Sun, 03 Dec
+ 2023 09:12:57 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 3 Dec 2023 09:12:57 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 3 Dec 2023 09:12:56 -0800
+MIME-Version: 1.0
+Sender: Adam Serisier <adamserisier@webtechresearch.com>
+From: Adam Serisier <adamserisier@webtechresearch.com>
+Date: Sun, 3 Dec 2023 09:12:57 -0800
+X-Google-Sender-Auth: aKT0WpQouWY79DA_1evKyshUaSE
+Message-ID: <CAC6x1tef=zJ05VX9DBKhTXR3CHJfBTfbN_Zqdkn6z65R6wjkpQ@mail.gmail.com>
+Subject: About your untroubled.org.
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000e5e8ef060b9e1c9d"
+Content-Length: 5566
+
+--000000000000e5e8ef060b9e1c9d
+Content-Type: text/plain; charset="UTF-8"
+
+*Hi** untroubled.org <http://untroubled.org>** Team, *
+
+Hope you are doing well.
+
+I was looking for Keywords and found your website on page 3-4 of Google. If
+you were on page #1, you'd get so many prospects/new clients every day.
+Most of your targeted keywords on page #3-5. You're so close! Do you mind
+if I sent a *SEO Packages* and *Price list* of your site to see why you're
+not on page #1?
+
+I can send the *past work details* in a couple hours. If you have any
+questions, feel free to ask me. I have more than 10 years of experience in
+digital marketing.
+
+Can I send it over?
+
+Look forward to your reply.
+
+*Kind Regards*
+
+
+*Adam SeriSier*
+
+
+*Business Development Manager*------------------------------
+-------------------------------------------
+*Note:* - Our next conversation will be on my corporate Email ID.  If you
+are interested, then reply to us *"Send your Proposal and Price list"*
+Click *here*
+<https://webtechresearch-dot-yamm-track.appspot.com/2kf7iAUqOwEcxBu2_hfLpxnpbRZ3LatcrqUzA7FOhDfupNaswjAEHiIP8aHjmzEzFW3ZuVDInlA4zbxBTGhTfXJnK6qrhHz2fbSWbMnRBJtyPvTylv6wmQM8_WfVAR3Mz2K8IB-HjcQkjx1qx61yM0Q_A7ird8AJpMsLnasYV_dLuuEYCqjXkhKEBUmQZlw>
+to
+unsubscribe.
+[image: beacon]
+
+--000000000000e5e8ef060b9e1c9d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 12pt;line-h=
+eight:14.95px"><font face=3D"verdana, sans-serif"><b><span style=3D"line-he=
+ight:14.95px">Hi</span></b><b><span style=3D"line-height:14.95px;color:blac=
+k">=C2=A0<a href=3D"http://untroubled.org">untroubled.org</a></span></b><b>=
+<span style=3D"line-height:14.95px">=C2=A0Team,=C2=A0</span></b><span style=
+=3D"line-height:14.95px"></span></font></p><p class=3D"MsoNormal" style=3D"=
+margin:0cm 0cm 10pt;line-height:normal"><font face=3D"verdana, sans-serif">=
+Hope you are doing well.=C2=A0</font></p><p class=3D"MsoNormal" style=3D"ma=
+rgin:0cm 0cm 10pt;line-height:normal"><font face=3D"verdana, sans-serif">I =
+was looking for=C2=A0Keywords=C2=A0and found your website on page 3-4 of Go=
+ogle. If you were on page #1, you&#39;d get so many prospects/new clients e=
+very day. Most of your targeted keywords on page #3-5. You&#39;re so close!=
+ Do you mind if I sent a=C2=A0<b>SEO Packages</b>=C2=A0and=C2=A0<b>Price li=
+st</b>=C2=A0of your site to see why you&#39;re not on page #1?</font></p><p=
+ class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:normal"><font=
+ face=3D"verdana, sans-serif">I can send the=C2=A0<b>past work details</b>=
+=C2=A0in a couple hours. If you have any questions, feel free to ask me. I =
+have more than 10 years of experience in digital=C2=A0marketing.</font></p>=
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:normal"><fo=
+nt face=3D"verdana, sans-serif">Can I send it over?</font></p><p class=3D"M=
+soNormal" style=3D"margin:0cm 0cm 10pt;line-height:normal"><font face=3D"ve=
+rdana, sans-serif">Look forward to your reply.</font></p><p class=3D"MsoNor=
+mal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"ver=
+dana, sans-serif"><b>Kind Regards</b></font><b style=3D"font-family:verdana=
+,sans-serif"><span style=3D"color:rgb(33,37,41);letter-spacing:0.1pt">=C2=
+=A0</span></b></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;l=
+ine-height:normal"><font face=3D"verdana, sans-serif"><b><br></b></font></p=
+><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal=
+"><b style=3D"font-family:Calibri,sans-serif;font-size:14.6667px"><span sty=
+le=3D"font-size:10pt;font-family:Verdana,sans-serif">Adam SeriSier</span></=
+b><br></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 12pt;line-height:1=
+4.95px"><span style=3D"font-family:verdana,sans-serif"><b>Business Developm=
+ent Manager<br></b></span><span style=3D"font-family:verdana,sans-serif">--=
+----------------------------</span><span style=3D"font-family:verdana,sans-=
+serif">------------------------------</span><span style=3D"font-family:verd=
+ana,sans-serif">-------------<br></span><b style=3D"font-family:verdana,san=
+s-serif">Note:</b><span style=3D"font-family:verdana,sans-serif">=C2=A0- Ou=
+r next conversation will be on my corporate Email ID.=C2=A0</span>=C2=A0<sp=
+an style=3D"color:black;font-family:verdana,sans-serif">If you are interest=
+ed, then reply to us=C2=A0</span><span style=3D"font-family:verdana,sans-se=
+rif"><b style=3D"color:black">&quot;Send your Proposal and Price list&quot;=
+</b><font color=3D"#000000"><b><br></b></font></span><span lang=3D"EN-US" s=
+tyle=3D"font-family:verdana,sans-serif">Click=C2=A0</span><span lang=3D"EN-=
+US" style=3D"font-family:verdana,sans-serif"><a href=3D"https://webtechrese=
+arch-dot-yamm-track.appspot.com/2kf7iAUqOwEcxBu2_hfLpxnpbRZ3LatcrqUzA7FOhDf=
+upNaswjAEHiIP8aHjmzEzFW3ZuVDInlA4zbxBTGhTfXJnK6qrhHz2fbSWbMnRBJtyPvTylv6wmQ=
+M8_WfVAR3Mz2K8IB-HjcQkjx1qx61yM0Q_A7ird8AJpMsLnasYV_dLuuEYCqjXkhKEBUmQZlw" =
+rel=3D"nofollow" target=3D"_blank"><b><span style=3D"color:red">here</span>=
+</b></a></span><span lang=3D"EN-US" style=3D"font-family:verdana,sans-serif=
+">=C2=A0to unsubscribe.</span>=C2=A0=C2=A0</p></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2gYJcjW2KSBA=
+fIcHP_9HCxhkU-PmbvqAipJ3yjbU-9AKfNaswjAHLuaY33LEPZLrKp-3rRSCJHxnCOpAK9q0sQy=
+y-rrkdwR3QiJQu4TT26MA65zdzVvqCVo8S0G2ylM03LKDIOFF1V2USSQIwHbLOCCzKMVLIl6TpJ=
+q4VEqa1" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; dis=
+play:none!important;">
+
+--000000000000e5e8ef060b9e1c9d--

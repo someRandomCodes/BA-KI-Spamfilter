@@ -1,0 +1,296 @@
+Return-Path: <>
+Received: from 10.195.64.156
+ by atlas106.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sat, 27 May 2033 12:40:03 +0000
+X-Originating-Ip: [209.85.208.179]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.179 as permitted sender)
+Authentication-Results: atlas106.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sat, 27 May 2033 12:40:03 +0000
+X-YMailAVSC: apRutTY3bBuN98x0G9SeIVJztfufp_E2knRGrhhQXfn4qoi
+ X5pWjRkr0di7mrEDosA7Dkvi4TOUK9opwCn2mVhivr1GTxY9AMlhOJYgNWGH
+ KspAiU1Eq_rp8FhHGNReoP4Vm87OCbj0skQZ98FJGoKL_5UiEwfmN7keOFqe
+ JQRnzdPrS4ONHvdtxR3Vp4IS7L3_zTTGSZsMj_.l82ZqB4g.asNaJMy5.pfM
+ _xYeLNKj2Dc7BXTysq8KfeNn3A95C8xTe8Cq4QmVblpwvEKd2X.cJT7jHcih
+ h0UQz2iUTOHGQ5ZBmusxMBxRyQxnSMFxZFJgBeEo4Y1NxwV1oxqjRuKR1G8M
+ vFZyr3zQ2qeaY24M8gMvvhzL6VF0IczPO9hjXjiaYS.ObBGrTtvCOBt0sXhx
+ eABOOJX8qfViB22BPpwDLUC5CXkh6cFC0h9.E3pNDC9q9kOFwOW_mNtTBvzO
+ _AtWQefN2s5s2RNyDGC.OMi9oZt6B2kA_55H82fZNe5tpSXy.NDVcwcVNiuC
+ no3bwac3I.S.hdEy8sb2LMJS38uJAGhd8QvRj9JqHSIL3x_UrUZoyoGWHXh9
+ vZfVhiPiq.5KGDaAX7Ok_B_l_TiOjweggJ5fm9CvLeTKSxClTO86UFDi9k_F
+ fsuMVIKk9q2h3XZObYZePWD3YjGO68VAZpKbeDeFA9kXWWx.nYwwdiBHobzE
+ BF.u3tDVPE5ZmoB.VmHu5RJXfPnN_Hlmo_JnZgiQOGErRq85g.0GOrMtOKyu
+ S2eXwPFJsuyhdqB6SpHbUS1jjSJccn2FEvvyZMuid2c6BGQZwsvGcHjRzAe6
+ eXNSyqke4uXwvlPZ0TEcXi7o4qexfWOlzugHPUydV2TyZaKVTfkCEtbKWTvt
+ e5zpP_KahteziSLgJBYR1PZtgrzFb__6bX06AOOa62s6a.VMLJoxM91fU_os
+ BXQvfdOi1AdLXc8pB37LM8A_YL.81NOavGPHC9JrMfPt.nwxQDt7sVPvqHJN
+ .PC5baWgNP5qrRC7CmEPR1d4Wgvu4HOlu53H25j32wMULNSgAy77qF8Pw0N8
+ 9q2npzC2lpHvVdSBnndY-
+X-YMailISG: dgyWeLsWLDtXu0FEGlBQFO.Cydk63rAx.hAkMrlaLyyPkTnt
+ Mqz2Ot9MiWxhqPg3yD2Fbt8A9HDDLYfWwa5V0rRbnvlVdsJ_Db63fu6xQC53
+ VgXCiBeBpAgo_2G39ztk0hhydco5CZCiRBbMRQWUpUCyFqC5UcclUC6QhCgb
+ qVsbpM8iAZ6lYF8u0aGDIX.YQGlz0tLuNa5QY3pH.moLlKylJe4G_XtBJxv0
+ EvjWJ.ULjYRTgA7jseBnOAZck8uNxuWiLd8Ohaj.6cU15UlCgv8ETf1dxBRt
+ XxRKsBn7w777kdNu.j5L3_2fqbqn4bDP_V6gyyuP_qpzo5j03ANSkz_pUj83
+ xTLpPvRV2TE0J3TMFQgT3H5FCcPDmwQtVnexRKaUeFlpazQPNrPLIepDW0Uy
+ itcbxklRtxonz09_h6_YHqc4vuUYNdb0lGfx_uwRr0S3PBphluETkVYisBOX
+ lEJ72vYdZQvR9N2czo3rd2qM81V_9eWKPwAoX30eh_zs8h3JU_jlWvoTyI7t
+ jRCyyRwfj0CoJ_W6aI.ZCtnjNkHWV75KqhFTlfxFso4p_47rbnchTGHGHGoc
+ J5If.5Y97qNfcRCXf79hG.gKIDFUZXrmFXrp9ymSpboleWvHqFEJzM.DdINm
+ Wm9CktlRk_Nu4.crp8kBJETAa44ea4TdIVIgdxVGrPTBKlXrLVFT8Cy2XNLW
+ Fc9vL5lmxg0digxk5d9kBQ0D89BEwKXNDIH2VQYQzKGEb8SSqMr6MaJWgffU
+ wFCiSfzfrOkq4HF0ZRdwhTaYcJtnzT3W3yO2Hg7CwXwfIYpaAgvj6ZapjBN3
+ 9bMqvW_Gm7Ev6xQoBAAo.gvmFXLV9NavQ3Fs16tv7XAw4wZt8V2l_3jH0p0c
+ uLKE_xchIkCOnkxVQ2o.lLOZx5BByISs34kavSHhGfiHiHzBPpCUPfEnHKWv
+ 9Ce6v8I_Nkpol8u_AEPSDiD4pMM5wvtyzN6EIgzMbP8iDZ_NngyVaID7SWMd
+ fFAER2A04uB3c4J8XJYyK_L.HObizICp4gbehC3tZVV4bIuynuPpgEXtWPnL
+ 5jsuiwv0Dm9saLesYugUyXdGFakFeB8-
+Received: from 209.85.208.179 (EHLO mail-lj1-f179.google.com)
+ by 10.195.64.156 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 27 May 2033 12:40:03 +0000
+Received: by mail-lj1-f179.google.com with SMTP id 38308e7fff4ca-2af24ee004dso19653521fa.0
+        for <bruce@untroubled.org>; Sat, 27 May 2033 05:40:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=a6PJr+kekM+jxm11MKD+mZogJev59fKlZ26yajmE5xjNH/MVxEi8b6OmFuGYBtwLBs
+         2Ron5QS0pCYU5CzQ6gqwUD/sJfiXuBC4kSd9MNm5/1Q8CTrHQxz8wed9MLqe3M6yDIpc
+         X/TMkUF0LP6fNWF9hroEZj3T18F+SbZfDnqcvEbTSz5Rwqj4PoNUPD7lqN5Co39j3MO+
+         zzoa9B0RYAJ9fQRaIYw/LKvJSzgRTrFF57tXdqEy9tTJLegxHQf+nJe1zn6KYGbeYz5h
+         0Z7jvzNCX9kPb/6qe9cMGqeGtANc+DjbNq8lzmiDJDxWq44DyYH3rz3qdZ27RkkwT5QS
+         V3sQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=JsMPsab0k32hPXRYvjfNkdc9y7Lc/YiMh7ebZoqnDDOumj97NASd1VN5kfsdPa56I4
+         OWB//Us/FQtMzSRR8N6vVn24ewMXJFoCfMhstHQ+kfoR2IeL6PDKxsCAvo5kuWNDjlCC
+         ouUeG3ivVK5C1naEBRY8GAVy/8A5ZWFEOk3gBTht8X3L0inJs8wY6Bw3xsFo94WIIjt0
+         j53hpPYDHN+8CDPP5OSFywrBSJwNmMEc0sDiPuoC4WW7/hyBkNDf66XxKP5N+RltlTbn
+         cwi7YBJvBZulyAMqvs6WniX/bSordWPO1UpBdaFchyOXYx+Bnnz4UJ8R05BA41ta/DNL
+         x0nA==
+X-Gm-Message-State: AC+VfDzw5mwV8ovOXB6Pi9n+bKnyvznTulMN+Hy1D9pXWIPgg5DIIWLb
+	4HlqIUYMB6eJUy33w/girEJpoJ4JTjVow4JcKe5jxE46
+X-Google-Smtp-Source: ACHHUZ6bzprdixXQKbtQc0BOUt0ol180aXAnHtQ8Fq0FR3VFwKVd7OmEvapTWyiYxU849O/9Z1KMtHJB9tywozKXIpw=
+X-Received: by 2002:a19:ae0f:0:b0:4f2:6857:1d98 with SMTP id
+ f15-20020a19ae0f000000b004f268571d98mr1720963lfc.48.1684586401930; Sat, 27
+ May 2033 05:40:01 -0700 (PDT)
+MIME-Version: 1.0
+From: Ice Maker <bruce@untroubled.org>
+Date: Sat, 27 May 2033 16:00:51 +0100
+Message-ID: <CAPrzedVz+QhLUbKJaIa9WWpM2NpnSHGHaEi5=[uan5]+VdJHLJY@mail.gmail.com>
+Subject: AICOOK Nugget Ice Maker Rewards For You
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 5326
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>OnlineMart</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #434343;
+ }
+ .logo{
+ width: 120px;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+ }
+
+ .product-name{
+ font-size: 24px;
+ color: #fff;
+ font-weight: bold;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ }
+ .feature-para{
+ max-width: 90%;
+ margin: auto;
+ font-size: 14px;
+ 
+ }
+ .title-para{
+ font-size: 32px;
+ color: #fff;
+ border-bottom: 2px solid #fff;
+ display: inline-block;
+ text-transform: uppercase;
+ padding: 0px 10px;
+ padding-bottom: 10px;
+ }
+ .cta{
+ display: block;
+ width: 230px;
+ background: #ff7e10;
+ padding: 16px;
+ font-size: 24px;
+ font-weight: bold;
+ text-decoration: none;
+ border-radius: 10px;
+ color: #000;
+ border: 3px solid #fff;
+ margin-bottom: 30px;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .logo {
+ margin-top: 12px;
+ }
+ .product-name{
+ font-size: 20px;
+ margin-top: 10px;
+ }
+
+
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ 
+ 
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#81B622" data="image_bg" background="https://1687.efuserassets.com/1687/offers/789/c/2505/assets/bg.jpg" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td width="550" valign="top" align="center">
+ <img border="0" src="https://1687.efuserassets.com/1687/offers/844/c/4012/assets/image_2022_12_19T19_01_48_520Z.png" alt="" width="200" style="margin-top:20px;margin-bottom:40px;" /> 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td data="image_bg" background="https://1687.efuserassets.com/1687/offers/789/c/2505/assets/cm.png" style="background-repeat: no-repeat;background-size: 340px;background-position: top center;" align="center">
+ <p>
+ <span style="font-size:32px;display:block;color:#fff;">ANSWER</span>
+ <span style="font-size:60px;color:#000;font-weight:bold;">&</span>
+ <span style="font-size:60px;color:#000;font-weight:bold;">WIN</span>
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="title-para">A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="product-name">AICOOK Nugget Ice Maker</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#aGFCa0c5SVNjSSs2TWVPemNweGIrUDlYaFI1N1NubU0xTmMxWUVEMFdLWmZtcndVcjhyOEU5WE5hZUFDR09hNXV4M1R6UUttK2RFN1pXeEhOTEltSGxEQU5rTE5WRTlSZkl4ZklFMlNvc1BWREpTTWpSRGdmS05Pb0RMVVBrV0FGNFZEMG9MMEVmTC95dVJ6V3kzRk53PT0_" class="cta">GET STARTED</a>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td align="center">
+ <img border="0" src="https://1687.efuserassets.com/1687/offers/789/c/2505/assets/icythingy.png" width="300" style="max-width: 65%;" alt="">
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ 
+ 
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#WEJKaDlVS2FRa21Ya0h2ZFl0RXA3a2phVmcyWVNCZjBDM0NxRDZDYUo0NklIVzRDdFVnTlVPMjErTGxwVUxBOGh5VHZVL01QZGVDZFZ0K3pKdksxNC9GZENESlo4R1UwZlZwdVkwMmhrTzdzakVBMkN5NXphRGZNSzUzQUVycnBWRlBaNUgzV3dZK3VFR3NpWmROMEh3PT0_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#WkJEK0hWdGhPeHBCdE9FT3VLRlcxK3hFRy9uUUlybjBOWFIwSlRYSnMrK2ppWlFITTBMTUt1MklBa294TlV6UHVBNWhWQkdEM3F0NkRKQTNva01nUkMxbTdnSlZydmJmVEVOdzZDem8rRlRKdE1jaGR0YmdDcDZuNnBVSGoyTVhnc3ovbTRvTGZQVUhJOFB0cHhKeU9BPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

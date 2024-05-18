@@ -1,0 +1,486 @@
+Return-Path: <academic@datastat.co.ke>
+Delivered-To: untroubl8492-bruceg@untroubled.org
+Received: (qmail 2931129 invoked from network); 8 Mar 2024 10:13:43 -0000
+Received: from m50.mxout.mta4.net (m50.mxout.mta4.net [67.227.85.50])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 08 Mar 2024 10:13:43 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=datastat.co.ke; s=api; c=relaxed/simple;
+	t=1709892819;
+	h=from:date:subject:reply-to:to:list-unsubscribe:list-unsubscribe-post:
+	mime-version;
+	bh=u5pubiSMt1qmNh7R/ZuRqhJlw1LK8EkrF6oU59eiW8A=;
+	b=gck5Srnu8qX9gpcKCnQwAyV2sVgkp+O7dCFzFsMORrlKR3vUcxS7a6dGGYMTUCsnYXV30ZV7Ckg
+	8r4uh39k/SglgivkLK5EUuB/owoaT6j8rQmOP2nzRNjO3VmwF0ZN52LT36MfZ1onHGnPawFihcun4
+	rW+hBbMaSA132nmaoTI=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1709892819;
+	h=from:date:subject:reply-to:to:list-unsubscribe:list-unsubscribe-post;
+	bh=u5pubiSMt1qmNh7R/ZuRqhJlw1LK8EkrF6oU59eiW8A=;
+	b=h0LbQXcXp6v0v/38sLVrsSa+hde8zJ2IgzUM03zW8TNBDpK1/IE6lMV/j6lA4TFSnVovXMNQI9y
+	uKhvkbn3MSgIERd8wAN+SmEKsRB2Y5SF3GCnPVmf/va8Sp/TkiDUjbHe9eYJL6rLnWP6n5LPQHV06
+	UtHsRQfXmF/Xp5DT84M=
+From: Academic Experts <academic@datastat.co.ke>
+Date: Fri, 08 Mar 2024 10:13:39 +0000
+Subject: Academic Thesis and Projects Assistance
+Message-Id: <4umhde8508m9.H-i5BwDTIuYD1elD9cDFpw2@tracking.datastat.co.ke>
+Reply-To: academic@datastat.co.ke
+Sender: academic@datastat.co.ke
+To: "bruceg@untroubled.org" <bruceg@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+H-i5BwDTIuYD1elD9cDFpw2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2Ftracking=2Edatastat=2Eco=2Eke=2Ftracking=2Funsubscribe=3Fmsgid=3DH-?=
+ =?us-ascii?q?i5BwDTIuYD1elD9cDFpw2&c=3D1728018585319826039=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Msg-EID: H-i5BwDTIuYD1elD9cDFpw2
+Disposition-Notification-To: academic@datastat.co.ke
+Return-Receipt-To: <academic@datastat.co.ke>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfLC/cqwfbA/O3f/ALOCzN9l1h8dg123WKzQ=="
+Content-Length: 23012
+
+--=-eZCfLC/cqwfbA/O3f/ALOCzN9l1h8dg123WKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQrCoA0KQWNhZGVtaWMgUmVzZWFyY2ggRXhwZXJ0cw0KwqANCndlIA0Kb2ZmZXIgdGhlIGZv
+bGxvd2luZyBBY2FkZW1pYyBTZXJ2aWNlczoNCg0KDQrCoA0KDQo8aHR0cDovL3RyYWNraW5n
+LmRhdGFzdGF0LmNvLmtlL3RyYWNraW5nL2NsaWNrP2Q9TERTVWhGYzN3SnNnSklGM0ktN2NX
+SmMzZFlCczdiaDNKNjdEMEZsQnFBdmFHZ1pwRzVEZ195MlhoQjlQVWViR3lLN01pQkxoZjNs
+NTBBYjNGZTgzUWN5Z3BzLVRhalRwNDVFY1VGaDU4OEl0YzVUQ3VhdWkwLW5wSmdES2xrYnkx
+VXNzOGREUm15eC1USU84b20wYjd2MU1QWTVDdjJwWkJwVW5PeUZ3Zi0xUjA+DQpTZWUgb3Vy
+IA0Kc2VydmljZXMNCsKgDQrCoA0KwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoFJlc2VhcmNowqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgIA0KRGF0YSBBbmFseXNpcyAoUXVhbGl0YXRpdmUgYW5k
+IFF1YW50aXRhdGl2ZSnCoMKgwqDCoMKgwqDCoMKgIA0KU29mdHdhcmUgdXNlIA0KdsKgIA0K
+UmVzZWFyY2ggcHJvcG9zYWwgDQp3cml0aW5nwqDCoMKgwqDCoCANCsKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqAgDQpEZXNjcmlwdGl2ZSBTdGF0aXN0aWNzwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgU3Bzcw0KdsKgIA0KRGlz
+c2VydGF0aW9uwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqAgDQrCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIA0KUmVncmVzc2lvbiBBbmFs
+eXNpc8KgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoCANClN0YXRhDQp2wqAgDQpUaGVzaXPCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoCANCsKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqAgDQpDb3JyZWxhdGlvbiBhbmQgY3Jvc3N0YWJ1bGF0aW9uwqDC
+oMKgwqDCoMKgwqDCoMKgwqAgDQpSLVN0YXRzDQp2wqAgDQpSZXNlYXJjaCBUb29sIA0KRGVz
+aWduaW5nwqDCoMKgwqDCoMKgwqAgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoCANClBhbmVsIERh
+dGEgYW5hbHlzaXPCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoCANClB5dGhvbg0KdsKgIA0KRmVhc2liaWxpdHkgDQpzdHVkaWVzwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIA0KwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoCANCkZhY3RvciBBbmFseXNpc8KgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIA0KTnZpdm8NCnbCoCANCkFz
+c2lnbm1lbnRzIChBbGwgDQpkaXNjaXBsaW5lcynCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIA0K
+Q29udGVudCBhbmQgVGhlbWF0aWMgQW5hbHlzaXPCoMKgwqDCoMKgwqDCoMKgwqAgDQpBdGxh
+cw0KwqANCsKgDQpDb250YWN0IA0KdXMgVmlhOg0KTW9iaWxlIA0KTm86wqArMjU0NzI0NTI3
+MTA0wqAoV2hhdHNhcHAgDQphbmQgQ2FsbHMpDQrCoA0KwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgDQpFbWFpbDogDQo8bWFpbHRv
+OmluZm9AYWNhZGVtaWNyZXNlYXJjaGV4cGVydHMuY28ua2U+DQppbmZvQGFjYWRlbWljcmVz
+ZWFyY2hleHBlcnRzLmNvLmtlDQrCoA0KwqANCsKgwqDCoCANClNlZSBvdXIgd2Vic2l0ZTog
+wqANCjxodHRwOi8vdHJhY2tpbmcuZGF0YXN0YXQuY28ua2UvdHJhY2tpbmcvY2xpY2s/ZD1u
+LXV1Z3JxV1pWa1h3VUlIUTBQbUk1MGJrelN1cUxoZlBMM2FaSmpza0RNVElyZGxHem1PV2Vj
+QTR3UDY5R2ozdGlLREw3ODYxWE56SkFmWkl3RGR2Sk93QkxKTTM2Vm5uZnhfY0pyLXBaYWJW
+ODR3WXpuOHpVcE5faFA1MW1maFItNmtOLXIzNElWTXgzdmtuSHBLSTNBMT4NCmh0dHBzOi8v
+YWNhZGVtaWNyZXNlYXJjaGV4cGVydHMuY28ua2UvDQrCoA0KLS0NCkFDQURFTUlDIA0KRVhQ
+RVJUUw0KQ29sbGVnZSANCkhvdXNlDQpBbG9uZyANClVuaXZlcnNpdHkgV2F5LCBOYWlyb2Jp
+LCBLZW55YQ0KDQo8aHR0cDovL3RyYWNraW5nLmRhdGFzdGF0LmNvLmtlL3RyYWNraW5nL2Ns
+aWNrP2Q9QkZ5Z2poRjNGaHFoclh3d3NyM3NlSzdvYUNLWHVvVUN6MDQ3V0NPNzZjZmFaNkY0
+WkpUbUp1LVJKUHV3Q1pCbE5IdHlORERrRmtPMHZ6UTJMMnRldTRhTlA3UXJ4Wm16VWR5TkM2
+UnFQbzRmQlhkdU9fbWo1a2JhbWVja3pBUEl5YjBzZzZFbk5hYUVxM0pnb0kwSkNCQWlFdmoy
+SU9WZUlXdnBXaWJUTXU3YzA+DQp3d3cuYWNhZGVtaWNyZXNlYXJjaGV4cGVydHMuY28ua2UN
+CsKgDQrCoA0KPGh0dHA6Ly90cmFja2luZy5kYXRhc3RhdC5jby5rZS90cmFja2luZy91bnN1
+YnNjcmliZT9kPVg2ZlRmMGx5R2FHc0JHbFVxRlMtLTRHb1c3N2NCT2RWbUloS0JWN3JISzRK
+ZUdHMVFBenBqVUVhZml3UUk4eTFFZkw0TXNITld5Z19aSDBiX21iRTQxak4waTBEamk2ZDZf
+WlBVaHZVRU5JNDA+DQpVTlNVQlNDUklCRQ0KPGh0dHA6Ly90cmFja2luZy5kYXRhc3RhdC5j
+by5rZS90cmFja2luZy9ib3RjbGljaz9tc2dpZD1ILWk1QndEVEl1WUQxZWxEOWNERnB3MiZj
+PTE3MjgwMTg1ODUzMTk4MjYwMzk+DQo=
+
+--=-eZCfLC/cqwfbA/O3f/ALOCzN9l1h8dg123WKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman",serif'><?xml:namespace prefix =
+=3D "o" ns =3D=20
+"urn:schemas-microsoft-com:office:office" /><o:p>&nbsp;</o:p></SPAN></=
+P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 8pt"=
+=20
+align=3Dcenter><B><I><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><FONT=20
+style=3D"BACKGROUND-COLOR: #00ff00">Academic Research Experts</FONT>=20
+</SPAN></I></B><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in; LINE-HE=
+IGHT: normal"=20
+align=3Dcenter><B><I><U><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; BACKGR=
+OUND: white; COLOR: #222222; mso-fareast-font-family: "Times New Roman=
+"; mso-font-kerning: 0pt'><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none">&nbsp;</SPAN></o:p></SPAN></U></I></B>=
+</P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in; LINE-HE=
+IGHT: normal"=20
+align=3Dcenter><B><I><U><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; BACKGR=
+OUND: white; COLOR: #222222; mso-fareast-font-family: "Times New Roman=
+"; mso-font-kerning: 0pt'>we=20
+offer the following Academic Services</SPAN></U></I></B><B><I><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; BACKGR=
+OUND: white; COLOR: #222222; mso-fareast-font-family: "Times New Roman=
+"; mso-font-kerning: 0pt'>:</SPAN></I></B><B><I><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; BACKGR=
+OUND: white; COLOR: #222222; mso-fareast-font-family: "Times New Roman=
+"; mso-font-kerning: 0pt'><BR=20
+style=3D"mso-special-character: line-break"><BR=20
+style=3D"mso-special-character: line-break"></SPAN></I></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"; mso-font-kerning: 0pt'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in; LINE-HEIG=
+HT: normal; mso-margin-top-alt: auto"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in; LINE-HEIG=
+HT: normal; mso-margin-top-alt: auto"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><A=20
+href=3D"http://tracking.datastat.co.ke/tracking/click?d=3DLDSUhFc3wJsg=
+JIF3I-7cWJc3dYBs7bh3J67D0FlBqAvaGgZpG5Dg_y2XhB9PUebGyK7MiBLhf3l50Ab3Fe=
+83Qcygps-TajTp45EcUFh588Itc5TCuaui0-npJgDKlkby1Uss8dDRmyx-TIO8om0b7v1M=
+PY5Cv2pZBpUnOyFwf-1R0"><FONT=20
+face=3D"Microsoft Sans Serif"><FONT size=3D4>See our=20
+services<o:p></o:p></FONT></FONT></A></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in; LINE-HEIG=
+HT: normal; mso-margin-top-alt: auto"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p></o:p></SPAN>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal; mso-marg=
+in-top-alt: auto"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p>&nbsp;</o:p></SPAN></P><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in; LINE-HEIGHT: normal; TEXT-IN=
+DENT: 0.25in"=20
+align=3Dcenter><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;<U>Research</U></SPAN></B><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'> <SPAN=
+=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><U>Data Analysis (Qualitative and Quantitative)</U><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;=20
+</SPAN><U>Software use </U></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in; LINE-HEIGHT: normal; TEXT-IN=
+DENT: 0.25in"=20
+align=3Dcenter><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'></SPAN=
+></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Resear=
+ch proposal=20
+writing<SPAN style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+</SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Descriptive Statistics<SPAN=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</S=
+PAN>Spss<o:p></o:p></SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: n=
+ormal; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 =
+lfo1"=20
+align=3Dcenter><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Disser=
+tation<SPAN=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Regression Analysis<SPAN=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Stata<o:p></o:p></SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: n=
+ormal; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 =
+lfo1"=20
+align=3Dcenter><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Thesis=
+<SPAN=20
+style=3D"mso-tab-count: 4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Correlation and crosstabulation<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;=20
+</SPAN>R-Stats<o:p></o:p></SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: n=
+ormal; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 =
+lfo1"=20
+align=3Dcenter><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Resear=
+ch Tool=20
+Designing<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Panel Data analysis<SPAN=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Python<o:p></o:p></SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: n=
+ormal; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 =
+lfo1"=20
+align=3Dcenter><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Feasib=
+ility=20
+studies<SPAN=20
+style=3D"mso-tab-count: 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Factor Analysis<SPAN=20
+style=3D"mso-tab-count: 3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Nvivo<o:p></o:p></SPAN></P>
+<P class=3DMsoListParagraphCxSpLast=20
+style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: n=
+ormal; TEXT-INDENT: -0.25in; mso-add-space: auto; mso-list: l0 level1 =
+lfo1"=20
+align=3Dcenter><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Wingdings; mso-fareast-font-fam=
+ily: Wingdings; mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D'FONT: 7pt "Times New Roman"=
+'>&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>Assign=
+ments (All=20
+disciplines)<SPAN style=3D"mso-tab-count: 1"> </SPAN><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Content and Thematic Analysis<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;=20
+</SPAN>Atlas<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in; LINE-HEIGHT: normal; TEXT-INDENT: 0.25in"></o:p>=
+</SPAN>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt"=20
+align=3Dcenter><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'>Contact=20
+us Via:</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt 36=
+.7pt"=20
+align=3Dcenter><B><I><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'>Mobile=20
+No:</SPAN></I></B><I><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'>&nbsp;+254724527=
+104&nbsp;(Whatsapp=20
+and Calls)</SPAN></I></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt 36=
+.7pt"=20
+align=3Dcenter><I><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'></SPAN></I><SPAN=
+=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p></o:p></SPAN>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0in 1in; LINE-HEIGHT: normal; TEXT-INDENT: 0.=
+5in"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;=20
+Email: </SPAN><SPAN=20
+style=3D'FONT-SIZE: 16pt; FONT-FAMILY: "Times New Roman",serif'><A=20
+href=3D"mailto:info@academicresearchexperts.co.ke">info@academicresear=
+chexperts.co.ke</A></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0in 1in; LINE-HEIGHT: normal; TEXT-INDENT: 0.=
+5in"><SPAN=20
+style=3D'FONT-SIZE: 16pt; FONT-FAMILY: "Times New Roman",serif'></SPAN=
+><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p><=
+/o:p></SPAN>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: center; MARGIN: 0in 0in 8pt"=20
+align=3Dcenter><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'>&nbsp;&nbsp;&nbs=
+p;=20
+See our website: &nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; LINE-HEIGHT: 107%; mso-color-alt: windowtext'><A=20
+href=3D"http://tracking.datastat.co.ke/tracking/click?d=3Dn-uugrqWZVkX=
+wUIHQ0PmI50bkzSuqLhfPL3aZJjskDMTIrdlGzmOWecA4wP69Gj3tiKDL7861XNzJAfZIw=
+DdvJOwBLJM36Vnnfx_cJr-pZabV84wYzn8zUpN_hP51mfhR-6kN-r34IVMx3vknHpKI3A1=
+"><FONT=20
+color=3D#0000ff>https://academicresearchexperts.co.ke/</FONT></A></SPA=
+N><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; LINE-H=
+EIGHT: 107%'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0in 0.5in; LINE-HEIGHT: normal; TEXT-INDENT: =
+0.5in"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; BACKGR=
+OUND: white; COLOR: #222222; mso-fareast-font-family: "Times New Roman=
+"; mso-font-kerning: 0pt'>--</SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"; mso-font-kerning: 0pt'><o:p></o:=
+p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'>ACADEMIC=20
+EXPERTS<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'>College=20
+House<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'>Along=20
+University Way, Nairobi, Kenya<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"; mso-font-kerning: =
+0pt'><A=20
+href=3D"http://tracking.datastat.co.ke/tracking/click?d=3DBFygjhF3Fhqh=
+rXwwsr3seK7oaCKXuoUCz047WCO76cfaZ6F4ZJTmJu-RJPuwCZBlNHtyNDDkFkO0vzQ2L2=
+teu4aNP7QrxZmzUdyNC6RqPo4fBXduO_mj5kbameckzAPIyb0sg6EnNaaEq3JgoI0JCBAi=
+Evj2IOVeIWvpWibTMu7c0" target=3D_blank><SPAN=20
+style=3D"COLOR: #1155cc">www.academicresearchexperts.co.ke</SPAN></A><=
+/SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #222222; mso-fareast-font-family: "Times New Roman"; mso-font-kerning=
+: 0pt'><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 8pt"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman",serif'><o:p>&nbsp;</o:p></SPAN=
+></P></BODY></HTML>
+
+<img src=3D"http://tracking.datastat.co.ke/tracking/open?msgid=3DH-i5B=
+wDTIuYD1elD9cDFpw2&c=3D1728018585319826039" style=3D"width:1px;height:=
+1px" alt=3D"" /><div style=3D"text-align:center; background-color:#fff=
+;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:sans-s=
+erif;"><a href=3D"http://tracking.datastat.co.ke/tracking/unsubscribe?=
+d=3DX6fTf0lyGaGsBGlUqFS--4GoW77cBOdVmIhKBV7rHK4JeGG1QAzpjUEafiwQI8y1Ef=
+L4MsHNWyg_ZH0b_mbE41jN0i0Dji6d6_ZPUhvUENI40" style=3D"text-align:cente=
+r;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div><a style=3D "=
+display : none;" href=3D"http://tracking.datastat.co.ke/tracking/botcl=
+ick?msgid=3DH-i5BwDTIuYD1elD9cDFpw2&c=3D1728018585319826039"></a>
+--=-eZCfLC/cqwfbA/O3f/ALOCzN9l1h8dg123WKzQ==--

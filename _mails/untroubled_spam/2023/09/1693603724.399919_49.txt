@@ -1,0 +1,516 @@
+Return-Path: <contactcentre@affinitycu.ca>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 366105 invoked from network); 31 Aug 2023 23:37:57 -0000
+Received: from ca-smtp-delivery-103.mimecast.com (ca-smtp-delivery-103.mimecast.com [170.10.147.103])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 31 Aug 2023 23:37:57 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=affinitycu.ca;
+	s=mimecast20220926; t=1693525076;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:content-type:content-type;
+	bh=hdNNf/mq131ftf56xZcmequ00Wjx9SHkjfTaIVbYCuw=;
+	b=RwES82uY1eiu2fpgcCKhlds4JosEeb9KtMLXvqsJ1qYuYrtPSPZq265d4RD+T8dyMJYNTA
+	LGH/DND3F8WNb2s/vRK9p5ojquW7Oa+/tWoZ+J3F+90szfAMpiOUM4FHTesRIk4pCwaniL
+	Ca4wwDDMfPg6uGZvRzhFyoMY5moi9kP3bWZrxFmKBjyxJSYZ8RaAwFAcUJd+8E9CPRK9aG
+	LNQ6YdlwQuCldEPT0836l4twiRk47LbWLkcGutVMhS8S+XisoAHwdDz9wwHLa3xa5/FTA4
+	aROgQsyJhF7h3rYUaSxflhFjIH0lycE/AESNplB4y03R85mAsGa7bGvsRNXlmQ==
+Received: from ca-smtp-1.mimecast.com (ca-mta-15-delivery-0.ca.mimecast.lan
+ [10.102.116.241]) by relay.mimecast.com with ESMTP id
+ ca-mta-15-Dr_TesrWMB-Bi3-L9hxCGA-1; Thu, 31 Aug 2023 19:37:54 -0400
+X-MC-Unique: Dr_TesrWMB-Bi3-L9hxCGA-1
+Subject: You have been sent a secure message
+Message-Id: <8878188-1693525074578@ca-mta-15.ca.mimecast.lan>
+Date: Thu, 31 Aug 2023 19:37:54 -0400
+From: "Affinity Contact Centre" <contactcentre@affinitycu.ca>
+To: "Bruce Guenter" <bruce@untroubled.org>
+X-MC-System: =vhW0ov9KbafpsvP50mN8NeksF6UNiTIashAxDxPO2vs1xbvmxKRcQ8/pSJkM6VM9M5tD3IFMZqqOCO8rwclO16ATASizHTjgKwh34lQgX52C75GBg2NbToAvQ9wLe+1n
+X-Mimecast-Spam-Score: 2
+X-Mimecast-Originator: affinitycu.ca
+Content-Type: multipart/alternative;
+	boundary="MCBoundary=_12308311937540231"
+Content-Length: 25457
+
+--MCBoundary=_12308311937540231
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+Affinity Credit Union sent you a secure message
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+The first time you access it you=E2=80=99ll be asked to enter your email ad=
+dress and create a password: https://protect-ca.mimecast.com/s/pkTSCq7BvrSl=
+5J2fQGFEy
+
+You can view your message at any time afterwards in our Secure Messaging se=
+rvice: https://protect-ca.mimecast.com/s/IDUUCoVzq0hZz6wU1Qq8U
+
+=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=
+=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=
+=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=
+=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=
+=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=
+=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=E2=80=93=
+=E2=80=93
+
+Powered by Mimecast
+
+=C2=A9 2020 Mimecast Services Limited and affiliates. The information conta=
+ined in this
+communication is confidential and may be legally privileged. It is intended=
+ solely for use
+by the intended recipient. If you are not the intended recipient, or author=
+ized to receive
+it, any disclosure, copying, distribution or reliance of the contents of th=
+is information
+is strictly prohibited.  For information about how your personal data is pr=
+ocessed through
+this service, read the Mimecast Secure Messaging Privacy Statement -
+https://www.mimecast.com/lfs-and-sm-privacy-statement.
+
+--MCBoundary=_12308311937540231
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style>
+        @media only screen {
+            html {
+                min-height: 100%;
+                background: #f2f2f2
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            table.mc-e-body table.mc-e-container .mc-e-show-for-large {
+                display: none!important;
+                width: 0;
+                mso-hide: all;
+                overflow: hidden
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            table.mc-e-body img {
+                width: auto;
+                height: auto
+            }
+            table.mc-e-body center {
+                min-width: 0!important
+            }
+            table.mc-e-body .mc-e-container {
+                width: 100%!important
+            }
+            table.mc-e-body .mc-e-columns {
+                height: auto!important;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding-left: 30px!important;
+                padding-right: 30px!important
+            }
+            table.mc-e-body .mc-e-columns .mc-e-columns {
+                padding-left: 0!important;
+                padding-right: 0!important
+            }
+            table.mc-e-body .mc-e-collapse .mc-e-columns {
+                padding-left: 0!important;
+                padding-right: 0!important
+            }
+            th.mc-e-small-3 {
+                display: inline-block!important;
+                width: 25%!important
+            }
+            th.mc-e-small-8 {
+                display: inline-block!important;
+                width: 66.66667%!important
+            }
+            th.mc-e-small-12 {
+                display: inline-block!important;
+                width: 100%!important
+            }
+            .mc-e-columns th.mc-e-small-12 {
+                display: block!important;
+                width: 100%!important
+            }
+        }
+
+        @media (max-width:600px) {
+            .mc-e-footer-container table.mc-e-row .mc-e-columns {
+                padding-left: 15px;
+                padding-right: 15px
+            }
+        }
+
+        @media (max-width:600px) {
+            .mc-e-header {
+                border-top-left-radius: 0!important;
+                border-top-right-radius: 0!important
+            }
+        }
+
+        @media (max-width:600px) {
+            .mc-e-main-container {
+                border-bottom-left-radius: 0!important;
+                border-bottom-right-radius: 0!important
+            }
+        }
+
+        @media (max-width:600px) {
+            .mc-e-header .mc-e-wrapper-inner,
+            table.mc-e-body .mc-e-columns {
+                padding-left: 15px!important;
+                padding-right: 15px!important
+            }
+        }
+    </style></head><body>
+
+
+
+   =20
+   =20
+   =20
+   =20
+
+
+<span class=3D"mc-e-preheader" style=3D"color:#f2f2f2;display:none!importan=
+t;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!impor=
+tant;opacity:0;overflow:hidden;visibility:hidden"></span>
+    <table class=3D"mc-e-body" style=3D"Margin:0;background:#f2f2f2;border-=
+collapse:collapse;border-spacing:0;color:#333;font-family:Helvetica,Arial,s=
+ans-serif;font-size:13px;font-weight:400;height:100%;line-height:1.428;marg=
+in:0;padding:0;text-align:left;vertical-align:top;width:100%">
+        <tbody><tr style=3D"padding:0;text-align:left;vertical-align:top">
+            <td class=3D"mc-e-center" align=3D"center" valign=3D"top" style=
+=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collaps=
+e!important;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13p=
+x;font-weight:400;hyphens:none;line-height:1.428;margin:0;padding:0;text-al=
+ign:left;vertical-align:top;word-wrap:break-word">
+               =20
+                    <table align=3D"center" class=3D"mc-e-container mc-e-no=
+-bg mc-e-float-center" style=3D"Margin:0 auto;background:0 0;border-collaps=
+e:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:c=
+enter;vertical-align:top;width:600px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"-moz-hyphens:none;-webkit-hyph=
+ens:none;Margin:0;border-collapse:collapse!important;color:#333;font-family=
+:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;hyphens:none;lin=
+e-height:1.428;margin:0;padding:0;text-align:left;vertical-align:top;word-w=
+rap:break-word">
+                                    <table class=3D"mc-e-spacer mc-e-show-f=
+or-large" style=3D"border-collapse:collapse;border-spacing:0;padding:0;text=
+-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <td height=3D"30px" style=
+=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collaps=
+e!important;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:30p=
+x;font-weight:400;hyphens:none;line-height:30px;margin:0;mso-line-height-ru=
+le:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-wor=
+d">=C2=A0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table align=3D"center" class=3D"mc-e-container mc-e-fl=
+oat-center" style=3D"Margin:0 auto;background:#fff;border-collapse:collapse=
+;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vert=
+ical-align:top;width:600px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"-moz-hyphens:none;-webkit-hyph=
+ens:none;Margin:0;border-collapse:collapse!important;color:#333;font-family=
+:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;hyphens:none;lin=
+e-height:1.428;margin:0;padding:0;text-align:left;vertical-align:top;word-w=
+rap:break-word">
+                                    <table style=3D"background-color:#576b7=
+c;border-collapse:collapse;border-spacing:0;border-top-left-radius:4px;bord=
+er-top-right-radius:4px;padding:0;text-align:left;vertical-align:top;width:=
+100%" class=3D"mc-e-wrapper mc-e-header" align=3D"center">
+                                        <tbody><tr style=3D"padding:0;text-=
+align:left;vertical-align:top">
+                                            <td class=3D"mc-e-wrapper-inner=
+" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:=
+collapse!important;color:#333;font-family:Helvetica,Arial,sans-serif;font-s=
+ize:13px;font-weight:400;hyphens:none;line-height:1.428;margin:0;padding:0 =
+30px;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                <table class=3D"mc-e-row mc=
+-e-collapse" style=3D"border-collapse:collapse;border-spacing:0;display:tab=
+le;padding:0;position:relative;text-align:left;vertical-align:top;width:100=
+%">
+                                                    <tbody>
+                                                        <tr style=3D"paddin=
+g:0;text-align:left;vertical-align:top">
+                                                            <th class=3D"mc=
+-e-small-12 mc-e-large-12 mc-e-columns mc-e-first mc-e-last" style=3D"Margi=
+n:0 auto;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13px;f=
+ont-weight:400;line-height:1.428;margin:0 auto;padding:0;padding-bottom:0;p=
+adding-left:0;padding-right:0;text-align:left;width:615px">
+                                                                <table styl=
+e=3D"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;ve=
+rtical-align:top;width:100%">
+                                                                    <tbody>=
+<tr style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                        <th=
+ style=3D"Margin:0;color:#333;font-family:Helvetica,Arial,sans-serif;font-s=
+ize:13px;font-weight:400;line-height:1.428;margin:0;padding:0;text-align:le=
+ft"><img src=3D"https://ca-api.mimecast.com/branding/affinitycu/NOTIFICATIO=
+N_LOGO_ID" alt=3D"Logo" height=3D"60" style=3D"-ms-interpolation-mode:bicub=
+ic;clear:both;display:block;height:60px;max-height:60px;max-width:150px;out=
+line:0;text-decoration:none;width:auto"></th>
+                                                                        <th=
+ class=3D"mc-e-expander" style=3D"Margin:0;color:#333;font-family:Helvetica=
+,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1.428;margin:0=
+;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                                    </tr>
+                                                                </tbody></t=
+able>
+                                                            </th>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table align=3D"center" class=3D"mc-e-container mc-e-ma=
+in-container mc-e-float-center" style=3D"Margin:0 auto;background:#fff;bord=
+er-bottom-left-radius:4px;border-bottom-right-radius:4px;border-collapse:co=
+llapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:cente=
+r;vertical-align:top;width:600px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"-moz-hyphens:none;-webkit-hyph=
+ens:none;Margin:0;border-collapse:collapse!important;color:#333;font-family=
+:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;hyphens:none;lin=
+e-height:1.428;margin:0;padding:0;text-align:left;vertical-align:top;word-w=
+rap:break-word">
+                                    <table class=3D"mc-e-row" style=3D"bord=
+er-collapse:collapse;border-spacing:0;display:table;padding:0;position:rela=
+tive;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <th class=3D"mc-e-small-12 =
+mc-e-large-12 mc-e-columns mc-e-first mc-e-last" style=3D"Margin:0 auto;col=
+or:#333;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:4=
+00;line-height:1.428;margin:0 auto;padding:0;padding-bottom:0;padding-left:=
+30px;padding-right:30px;text-align:left;width:570px">
+                                                    <table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                                        <tbody><tr style=3D=
+"padding:0;text-align:left;vertical-align:top">
+                                                            <th style=3D"Ma=
+rgin:0;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13px;fon=
+t-weight:400;line-height:1.428;margin:0;padding:0;text-align:left">
+                                                                <table clas=
+s=3D"mc-e-spacer" style=3D"border-collapse:collapse;border-spacing:0;paddin=
+g:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"30px" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin=
+:0;border-collapse:collapse!important;color:#333;font-family:Helvetica,Aria=
+l,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;m=
+argin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-ali=
+gn:top;word-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                                <h1 style=
+=3D"Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,s=
+ans-serif;font-size:23px;font-weight:300;line-height:1.428;margin:0;margin-=
+bottom:10px;padding:0;text-align:left;word-wrap:normal">Affinity Credit Uni=
+on sent you a secure message</h1>
+                                                                <p style=3D=
+"Margin:0;Margin-bottom:10px;color:#333;font-family:Helvetica,Arial,sans-se=
+rif;font-size:13px;font-weight:400;line-height:1.428;margin:0;margin-bottom=
+:10px;padding:0;text-align:left">The first time you access it you=E2=80=99l=
+l be asked to enter your email address and <a href=3D"https://protect-ca.mi=
+mecast.com/s/pkTSCq7BvrSl5J2fQGFEy" style=3D"Margin:0;color:#1976D2;font-fa=
+mily:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.428;margin:0;=
+padding:0;text-align:left;text-decoration:underline" target=3D"_blank">crea=
+te a password</a>.</p>
+                                                                <p style=3D=
+"Margin:0;Margin-bottom:10px;color:#333;font-family:Helvetica,Arial,sans-se=
+rif;font-size:13px;font-weight:400;line-height:1.428;margin:0;margin-bottom=
+:10px;padding:0;text-align:left">You can view your message at any time afte=
+rwards in our <a href=3D"https://protect-ca.mimecast.com/s/IDUUCoVzq0hZz6wU=
+1Qq8U" style=3D"Margin:0;color:#1976D2;font-family:Helvetica,Arial,sans-ser=
+if;font-weight:400;line-height:1.428;margin:0;padding:0;text-align:left;tex=
+t-decoration:underline" target=3D"_blank">Secure Messaging service</a>.</p>
+                                                            </th>
+                                                            <th class=3D"mc=
+-e-expander" style=3D"Margin:0;color:#333;font-family:Helvetica,Arial,sans-=
+serif;font-size:13px;font-weight:400;line-height:1.428;margin:0;padding:0!i=
+mportant;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class=3D"mc-e-spacer" style=3D"b=
+order-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical=
+-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <td height=3D"15px" style=
+=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:0;border-collapse:collaps=
+e!important;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:15p=
+x;font-weight:400;hyphens:none;line-height:15px;margin:0;mso-line-height-ru=
+le:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-wor=
+d">=C2=A0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table align=3D"center" class=3D"mc-e-container mc-e-no=
+-bg mc-e-footer-container mc-e-float-center" style=3D"Margin:0 auto;backgro=
+und:0 0;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;=
+padding:0;text-align:center;vertical-align:top;width:600px">
+                        <tbody>
+                            <tr style=3D"padding:0;text-align:left;vertical=
+-align:top">
+                                <td style=3D"-moz-hyphens:none;-webkit-hyph=
+ens:none;Margin:0;border-collapse:collapse!important;color:#333;font-family=
+:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;hyphens:none;lin=
+e-height:1.428;margin:0;padding:0;text-align:left;vertical-align:top;word-w=
+rap:break-word">
+                                    <table class=3D"mc-e-row" style=3D"bord=
+er-collapse:collapse;border-spacing:0;display:table;padding:0;position:rela=
+tive;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style=3D"padding:0;text-ali=
+gn:left;vertical-align:top">
+                                                <th class=3D"mc-e-small-12 =
+mc-e-large-12 mc-e-columns mc-e-first mc-e-last" style=3D"Margin:0 auto;col=
+or:#333;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:4=
+00;line-height:1.428;margin:0 auto;padding:0;padding-bottom:0;padding-left:=
+0;padding-right:0;text-align:left;width:570px">
+                                                    <table style=3D"border-=
+collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align=
+:top;width:100%">
+                                                        <tbody><tr style=3D=
+"padding:0;text-align:left;vertical-align:top">
+                                                            <th style=3D"Ma=
+rgin:0;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13px;fon=
+t-weight:400;line-height:1.428;margin:0;padding:0;text-align:left">
+                                                                <table clas=
+s=3D"mc-e-spacer" style=3D"border-collapse:collapse;border-spacing:0;paddin=
+g:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"30px" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin=
+:0;border-collapse:collapse!important;color:#333;font-family:Helvetica,Aria=
+l,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;m=
+argin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-ali=
+gn:top;word-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table><im=
+g src=3D"https://static-ca.mimecast.com/mimecast/resources/images/notificat=
+ions/powered-mimecast-logo-278x28.png" alt=3D"" width=3D"139" height=3D"14"=
+ style=3D"-ms-interpolation-mode:bicubic;clear:both;display:block;height:14=
+px;max-width:100%;outline:0;text-decoration:none;width:139px">
+                                                                <table clas=
+s=3D"mc-e-spacer" style=3D"border-collapse:collapse;border-spacing:0;paddin=
+g:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"7px" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin:=
+0;border-collapse:collapse!important;color:#333;font-family:Helvetica,Arial=
+,sans-serif;font-size:7px;font-weight:400;hyphens:none;line-height:7px;marg=
+in:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:=
+top;word-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table><sm=
+all style=3D"color:#333;font-size:11px">=C2=A9 2020 Mimecast Services Limit=
+ed and affiliates. The information contained in this communication is confi=
+dential and may be legally privileged. It is intended solely for use by the=
+ intended recipient. If you are not the intended recipient, or authorized t=
+o receive it, any disclosure, copying, distribution or reliance of the cont=
+ents of this information is strictly prohibited.  For information about how=
+ your personal data is processed through this service, read the <a href=3D"=
+https://www.mimecast.com/lfs-and-sm-privacy-statement" target=3D"_blank">Mi=
+mecast Secure Messaging Privacy Statement</a>.</small>
+                                                                <table clas=
+s=3D"mc-e-spacer" style=3D"border-collapse:collapse;border-spacing:0;paddin=
+g:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tbody>
+                                                                        <tr=
+ style=3D"padding:0;text-align:left;vertical-align:top">
+                                                                           =
+ <td height=3D"30px" style=3D"-moz-hyphens:none;-webkit-hyphens:none;Margin=
+:0;border-collapse:collapse!important;color:#333;font-family:Helvetica,Aria=
+l,sans-serif;font-size:30px;font-weight:400;hyphens:none;line-height:30px;m=
+argin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-ali=
+gn:top;word-wrap:break-word">=C2=A0</td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+                                                            </th>
+                                                            <th class=3D"mc=
+-e-expander" style=3D"Margin:0;color:#333;font-family:Helvetica,Arial,sans-=
+serif;font-size:13px;font-weight:400;line-height:1.428;margin:0;padding:0!i=
+mportant;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+               =20
+            </td>
+        </tr>
+    </tbody></table>
+   =20
+    <div style=3D"display:none;white-space:nowrap;font:15px courier;line-he=
+ight:0">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</div>
+
+
+</body></html>
+
+--MCBoundary=_12308311937540231--
+

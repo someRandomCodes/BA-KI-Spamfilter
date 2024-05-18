@@ -1,0 +1,516 @@
+Return-Path: <laurenhansen719@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 708968 invoked from network); 30 Nov 2023 01:26:09 -0000
+Received: from MW2PR02CU001.outbound.protection.outlook.com (mail-westus2azolkn19012035.outbound.protection.outlook.com [52.103.10.35])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 30 Nov 2023 01:26:09 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=WsvXHnZx8swRP5RkfRhc06EdtenwAyK23Z2IOcnFdbAvE1d3MzG4IEQbLDOjX8FuGjxzhAf1u6eWksOaHRKxcijWjWXn40dyb5BT1bR9J1kr1dhrFGLVV5Gt6svbKnwmGFpSLKpH2Sh+vmoXGQZEwqDrqwN9X2MtLJcxgJ/DRnRlpzt80vFH+eBhUPBpOBHPNh6rWt1aWSWYHhA/L87/X+DExg6W0l3MCiPxCIWgYL1PP+hFgdau859HHxlK9I73r951vJRR/YC2niRdXqTVtr/ldbOj3PnZqB/uAul52PD3FgqBH/oUlrQLykIoSvB9qpfMdsoMH7lMzY7dtP99yg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=q24W4Wf73IaQkP6yLmWQUI4v2XYk40s3I3Igi3AWMeg=;
+ b=E+iZYmjieQ5W9GSN6QMEU4ODt++M8a3KIdEPLA7AbGqJqRLIxDkSPbp9Ia4C73MDkQ+H5nMcYfp/9gVOKRHdvlu/irMAzap5jDfj88kyzTm3UWR2BTlzMNCXt1qLT7jeMzQ4QrDcc/zwKqh/uXXQELH3DJIu4v08T3O1Fwp7L15+jIdrsodS7XvmP+wVvjrcv0vNPMcDW+y3vB+arie6OXm94OJNZx3RCXFpjgH5IE9+RDALo6hdb5Mou+VdVAEi5fvT7p10Bd3Gz3t72qtbHSQbUk4xOlZH4QzIvx+EVGefRwWPVomeSUIDRsivZ1oekLC/4O/yuCCoZ5M8v534jw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=q24W4Wf73IaQkP6yLmWQUI4v2XYk40s3I3Igi3AWMeg=;
+ b=oWX/Gri9rVWyj65AaJ/MRLw9e2skGegiBCaNZbyxeSjd+mlafI5NmaEVDpqMYrJ9dE60AR1iJGD3DFXewBojsMbRMmb88iOx+Kat3UL0yb5zbUcagnwIOfsZbvJhCr68h/AcjU8gaflpOf607rlnIzsBvwIyvnegpS6Blo+v+/dEAzqsXXrfyD1d+0Pt/e0awhqxU7/IKDBqYiDd1sNU3iksqtSm073KJh3iFGwVPg+zlmdsMISu86Y6zPmTBrkVrFszFBbL4T3OlRnfSF25Dy+OySy6chw6yl7Gz1JrsBape8jDKZVef40UNsN4ofm2W61KiRxfJ3m0bL33e3pU8A==
+Received: from CY5PR05MB8963.namprd05.prod.outlook.com (2603:10b6:930:2d::8)
+ by SA0PR05MB7403.namprd05.prod.outlook.com (2603:10b6:806:bf::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7046.23; Thu, 30 Nov
+ 2023 01:25:55 +0000
+Received: from CY5PR05MB8963.namprd05.prod.outlook.com
+ ([fe80::7a8b:6a47:9fd5:374]) by CY5PR05MB8963.namprd05.prod.outlook.com
+ ([fe80::7a8b:6a47:9fd5:374%3]) with mapi id 15.20.7025.022; Thu, 30 Nov 2023
+ 01:25:55 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "laurenhansen719@hotmail.com" <laurenhansen719@hotmail.com>
+Subject: Our dating site is the best place to find your next date!
+Reply-To: "laurenhansen719@hotmail.com" <laurenhansen719@hotmail.com>
+Date: Thu, 30 Nov 2023 02:25:51 +0100
+Message-ID:
+ <CY5PR05MB89633213AFE01255090C61A1EE82A@CY5PR05MB8963.namprd05.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_5966_733011EF.81D08D6D"
+To: Undisclosed recipients:;
+X-TMN: [uY7ojVr8Cw8fu5QBMp5G9RjWm4q9EOYO]
+X-ClientProxiedBy: VI1PR06CA0127.eurprd06.prod.outlook.com
+ (2603:10a6:803:a0::20) To CY5PR05MB8963.namprd05.prod.outlook.com
+ (2603:10b6:930:2d::8)
+Return-Path: laurenhansen719@hotmail.com
+X-Microsoft-Original-Message-ID: <1.c010e3b9566692766472@DESKTOP-Q4CH77L>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: CY5PR05MB8963:EE_|SA0PR05MB7403:EE_
+X-MS-Office365-Filtering-Correlation-Id: 64c322dd-a452-44b2-57ed-08dbf1434be7
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?MnQ5RVR4enUrNFJ1YnNOYldxZFpjZHFpNmk5T0l1d3dvZVdQTEdrOFN6b2Fp?=
+ =?utf-8?B?MkFMcGpyRDRxaUNGaVFVRnpFWTIvTlhuRXVubktqZ2lkaVgvOGtPd3VRdHNF?=
+ =?utf-8?B?bUFuTVZra0F5MG9nbGcycm5MWVBHd2toN3RNc0V5azNhSE9sTVNsclpWRFEx?=
+ =?utf-8?B?M3MyRWMvZlJlSFJIbGJGTXBrWU5LQUVPakdYZEx5c0t5K1BaQmZkbVVhU1hS?=
+ =?utf-8?B?RHQzTEZkTi91ODJwYVdSUmF5Vldxc3hkSVBnRituaTd4a2lPU1VsTHJnTzBh?=
+ =?utf-8?B?aDlVb053VkhxRXBCMDhVNmRVUEtLRE1BeVQ0MTNWZWlwTWhjY3RmSmMySlcr?=
+ =?utf-8?B?NHJrZk84MGdRM3dNenVwQmNtTk5mZThBQnl5UWFEcS9GRnMyOWIvc1pwdUNs?=
+ =?utf-8?B?UCtHdUhqd0M4YW9GY1BKcmQ1UVdLM3k1Q1pYVVBNbmR5dlF1NGJCUkdaa2FG?=
+ =?utf-8?B?TVh5QlBlOFNZQlRBVUF0T3JkWjQvMWVLcm1UT3JEMUxOQklueGhqZDdpZEl3?=
+ =?utf-8?B?MVovMmE3TnlmNHFXYnlIaGNBOFp2MXNMeUVLTmVBZjBvMXVya0N6ZDBTdWFX?=
+ =?utf-8?B?Y1p5VTlDdUJwOWZrcTlnTnZRR1V4NC9rSngvUkVrVThpMGcvZlI3TENaL3lJ?=
+ =?utf-8?B?bkk4K2R3ZmNGbWlNNmtxVEN4dVNsZmZCODdjUEhSekN2dEU5QUk4SG5mQjND?=
+ =?utf-8?B?cnRWSWZrK0t6OXRTem53QTRDM2dnV0hNZWJBZTZoT2tXZW16U0ozUVpZNmVX?=
+ =?utf-8?B?aUJ2YU5OekhOTzJ5U1JOTkYrM0VOb3pUUDF2emdYaXVCOStwSVUxSHY0dDFT?=
+ =?utf-8?B?am4xL1poVVJ1emNnNVBqdGMvbWhXUVpoNm5NVExxdjRwSkRuZFZvdkE4RG96?=
+ =?utf-8?B?eWxKZjZwZmdtQWVkRlNOcTkzdW8wN2FkTEdVaHg2c3VhQzFoTTRyOUM5QVlr?=
+ =?utf-8?B?T1RmVEsxd2dCM05GbWtrbDJ0VXVoVHRjemhNUHVWRkl3M0FObHhtZWxQcCtr?=
+ =?utf-8?B?N3dwWG9XZVRQUC91RVNzRGVhU0l3OTdyYi9rZ212NXNjaGdlemJ4VldXekRw?=
+ =?utf-8?B?TjJxZVlZQ3ZRZTRLQ1BsanBFeGVqTjc3aG1FYnJKQk1HakFmTG9JK1BFbVVU?=
+ =?utf-8?B?bTJmc2swV1BZOFI2b3NpMkRPdzFjM1NTRlRORWJtMWVBbGdDSHkzYWJYc0ph?=
+ =?utf-8?B?K0VNdHRCMzl3SGQ3cjBWMzNEVjI4Vms5ME5ZOVBBVWNLUDVrZTNTWFRpUEwv?=
+ =?utf-8?B?Qk1hU08ydm1aRnhKNGJYYkp2MTRXVFQrYmJlSi9LVGZuQzlTUmlCMm9yU2Z0?=
+ =?utf-8?B?Z0l5THNpNjI2Uzh4a1IyY1hLT2htWmNHOG9uNmpQK1VGVkd5clFta3N4ZDEr?=
+ =?utf-8?B?L3hjYTdEbENXSkFSLzBOdmIvY3drZTlxaVV0R2J0dlNTZmhFSHdiekYrUkNK?=
+ =?utf-8?B?ZWlNQTJlOXc0T3g5YzM4UFdhY1JaT09sRUpCZSsxOFkyK3h4V05ReTlQbkY5?=
+ =?utf-8?B?TGwzU1U4Ym9sQVNON0MvUXJQWXVESEZ1OTVicTVzSWNKS1g1V1U0WFRNSDRr?=
+ =?utf-8?B?dXYzQjZ0dWdEZXUycjFPcEc3aVZYN0xNVklWVzNNUTkzR012d1RGa09PMVFi?=
+ =?utf-8?Q?eTHpY34l3Cet7dbraXVaRwMR0A/FvQXCm/b/PrJoqhds=3D?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?SjBLN2YzLzJicWswckdJNzIvNjlXQ1BGcU1YZ1hiV3duVWFIUWthOGxVWlZ2?=
+ =?utf-8?B?ekc4cVhJenJwMTdMN3ArN1g1S2dIQ2ovckJvRmVhZFJpaXd6TzRWY0ZQeko3?=
+ =?utf-8?B?djRwQmFua09FSHJpUmVDUU04dGcySmhpYVhjVEpzWEJnbmFsSHhvYzZBRC80?=
+ =?utf-8?B?NHJ1Tmtib2wvNHIxSDBwWXp1NGdMbWQ5YUZsTDVWZ0s0SG8zbXlHTWZ3Y1FT?=
+ =?utf-8?B?YWVhSjFBT2t4c21YN2tKNGlUS3FxeDJpU1dSOTZJNTQzTVRHKzhRYlQvTHp4?=
+ =?utf-8?B?L2Z3ek1kbUVLMTJUUW5yM3Y2OEdvVTMyTWFDaEVadFFHNDRicFB2KzFtT0pH?=
+ =?utf-8?B?aE43NFltMGMvNDIzVGFTcGhVdXNKOUFlcnlRQVFJNlZYWVduOCtYa3U0NGFx?=
+ =?utf-8?B?OXJuQnltTFVPVHB3QWg2YlpxMFlTUFpoT3BsUXdxNXV1NVBibE1sYkN4ZGtL?=
+ =?utf-8?B?enl3c1pYczVEdUpscWxXRGNsSlBiZHZud2trYjlRVWRIZzl6OFhmRndSUUhp?=
+ =?utf-8?B?a2U5ZGxrMithazhKN1hjZ1hHQk1aK3J0VnNGN1ZOYjROd1dLeHFLWHo3ZDZ4?=
+ =?utf-8?B?dE5RYXZNOFU1cnhEWkpzSlRSbStoQ1NTZkNSQnVuRVhoNEVCQTNEemdiVDR4?=
+ =?utf-8?B?OG9xWmZQY1B1cW83WnVmUWg2RHFGdHZLeGhaTlBFTHJOWTVRMXJjdy9aWVMz?=
+ =?utf-8?B?T24ya1c3Yi94NEM2U21HdURNVzdxb1BWcGxEUkVIa0duWDZUdzZwWE40dWJ0?=
+ =?utf-8?B?ZFF1TEJJeTNGN3RxdGsxY0RFbnhZdmtteDZESkRpSDRkYjEyTFZSRFlQeG9j?=
+ =?utf-8?B?WEFWZXNncXhJZkh1Z3RKUTlpb2hvVW52WUVvc2dadzdWVGkrZDFxQ1RNYmZI?=
+ =?utf-8?B?VVRkVXlMV2NIS0pCY3drZUlaaWJQZ2RWQUFKVG1tSlNZOU1MRWxkanA0ZmlL?=
+ =?utf-8?B?dVl6UmhxZUFTblg0QWwrOURFY0I5eE1IdVRCeU5Tc052L0FqTUVIbks2azlP?=
+ =?utf-8?B?bTdEWUVudWFsaFFLZXZUSWJRdVo1SE5vRXVsVlRwN3NYZ01VZ1p0UmFBRVlH?=
+ =?utf-8?B?TU93NnFRWDgzK3hVdWZjWHVsSk5MYmtFcUdzS2VuTTYzQU9yQXB6aTlHRUF0?=
+ =?utf-8?B?WDl1cXVTellTR2piTGZraWdKUkg4OXVWa25Va0RNRXNRVXBVTUpGcUpWWDJy?=
+ =?utf-8?B?bzFqVnBuMFpyU0QwNWN3TlBBYytnNTVVclRoaVM1VXRaRHVhOGp4RVR1OEg4?=
+ =?utf-8?B?MlFCVGhhaFFUZytMT1NNWTJ4d3lkc2FYTnlRY3I4MWpGbWYrU2J3eDR1d3kw?=
+ =?utf-8?B?Ti84OFAxRlk4MUFkRm5JcE1Pb3diM1VyTjhTWEF2cmsyR3FsY3pWdms3K3hP?=
+ =?utf-8?B?OUtMdmNsalJ0ZGs3NTV0d0haODI0anJwaityU2FoVnhSMk9EV3lQWFg5M0l1?=
+ =?utf-8?B?S2ZyRzF1c3J2VkVtbzhlNGNOQUZQcTNSQlROZkZCOS92VEJzRDRqaG16QXMw?=
+ =?utf-8?B?TXNrcHhsbEJtQTlFQkpPbndOQnBVYUdFb3lMS2ZBV04wK3RFRjk4K0htcTlP?=
+ =?utf-8?B?bWhPOVRwVzhZSms3NlVONXhMLzJVWVJBQXBHZHBVYnlOY056TFNqUzRIVTFN?=
+ =?utf-8?B?NDRITXFTYW5zNHlCN0NJU2ZTdnNtU0tlVmdxRFVyVmRHb1YvZUwwTzNWSkZo?=
+ =?utf-8?Q?N63Dm42sZsOsK9CouOr+?=
+X-OriginatorOrg: sct-15-20-4823-7-msonline-outlook-84f76.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 64c322dd-a452-44b2-57ed-08dbf1434be7
+X-MS-Exchange-CrossTenant-AuthSource: CY5PR05MB8963.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Nov 2023 01:25:54.4149
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR05MB7403
+Content-Length: 23444
+
+------=_NextPart_000_5966_733011EF.81D08D6D
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+GirlsInUkraine 
+  
+ 
+Exciting news! Stunning Ukrainian women are waiting to meet someone special=
+ in your area, and registration is completely free! 
+  
+ Discover the allure of Ukrainian charm: 
+  
+ Exquisite Beauty: Be captivated by their natural elegance. 
+  
+ Warmth and Kindness: Experience genuine hospitality and kindness. 
+  
+ Intelligence and Culture: Engage in stimulating conversations with educate=
+d and cultured individuals. 
+  
+ Strong Family Values: Build a relationship on loyalty and dedication. 
+  
+ Romantic Companionship: Embrace love and affection in its purest form. 
+  
+ 
+
+
+Plus, enjoy these additional features: 
+  
+ Free Registration: Join us without any cost! 
+  
+ Advanced Matching: Find your perfect match effortlessly. 
+  
+ Secure and Confidential: Your privacy is our priority. 
+  
+ 24/7 Support: Our team is here to assist you anytime. 
+  
+ 
+
+Start your exciting journey today! Click [here] to create your profile and =
+connect with Ukrainian singles near you. 
+  
+ 
+
+
+
+
+
+
+
+
+Remove me from base, on here 
+  
+ 
+
+=
+
+------=_NextPart_000_5966_733011EF.81D08D6D
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><s=
+pan id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" st=
+yle=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:sma=
+ll;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal=
+;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-inde=
+nt:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-wi=
+dth:0px;white-space:normal;text-decoration-thickness:initial;text-decoratio=
+n-style:initial;text-decoration-color:initial;"><span id=3D"gmail-docs-inte=
+rnal-guid-cdb567a3-7fff-a87f-d116-24abde9f5263">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<a href=3D"https://4xgz.short.gy/OsLZAI" style=3D"color:#1155CC;font-famil=
+y:Arial, sans-serif;font-size:21.3333px;text-decoration-line:none;"><span s=
+tyle=3D"font-size:18pt;background-color:transparent;font-weight:700;font-va=
+riant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates=
+:normal;font-variant-position:normal;text-decoration-line:underline;text-de=
+coration-skip-ink:none;vertical-align:baseline;white-space-collapse:preserv=
+e;">GirlsInUkraine</span></a>=0A=
+</p>=0A=
+</span></span><br style=3D"color:#222222;font-family:Arial, Helvetica, sans=
+-serif;font-size:small;font-style:normal;font-variant-ligatures:normal;font=
+-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-a=
+lign:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-w=
+ebkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:in=
+itial;text-decoration-style:initial;text-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;"><span id=3D"gmail-docs-in=
+ternal-guid-cdb567a3-7fff-a87f-d116-24abde9f5263">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-weight:700;font-variant-numeric:normal;fo=
+nt-variant-east-asian:normal;font-variant-alternates:normal;font-variant-po=
+sition:normal;vertical-align:baseline;white-space-collapse:preserve;">Excit=
+ing news! Stunning Ukrainian women are waiting to meet someone special in y=
+our area, and registration is completely free!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:10pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-weight:700;font-variant-numeric:normal;fo=
+nt-variant-east-asian:normal;font-variant-alternates:normal;font-variant-po=
+sition:normal;vertical-align:baseline;white-space-collapse:preserve;">Disco=
+ver the allure of Ukrainian charm:</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Exquisite Beauty: Be =
+captivated by their natural elegance.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Warmth and Kindness: =
+Experience genuine hospitality and kindness.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Intelligence and Cult=
+ure: Engage in stimulating conversations with educated and cultured individ=
+uals.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Strong Family Values:=
+ Build a relationship on loyalty and dedication.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Romantic Companionshi=
+p: Embrace love and affection in its purest form.</span>=0A=
+</p>=0A=
+</span></span><br class=3D"gmail-Apple-interchange-newline" style=3D"color:=
+#222222;font-family:Arial, Helvetica, sans-serif;font-size:small;font-style=
+:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:=
+400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-t=
+ransform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white=
+-space:normal;text-decoration-thickness:initial;text-decoration-style:initi=
+al;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;"><span style=3D"border=
+:none;display:inline-block;overflow:hidden;width:624px;height:260px;"><img =
+src=3D"https://lh7-us.googleusercontent.com/lta4cqLMfDTfoQswl3ZfmSBhIHjQDgg=
+w7_pRiMaaSlaQl_z9SXNoGZfVkPWlFNBjm8kOS_Boa9PhL5ROtmlbk1_wRxuWPWmTY_bZIv1IAm=
+ypUqzO6PKTgqpE3KnQf-2QPEu1q1UWHJXcsD_s0O5Qvlg" style=3D"margin-left:0px;mar=
+gin-top:0px;" width=3D"624" height=3D"260"></span></span>=0A=
+</p>=0A=
+</span><br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;=
+font-size:small;font-style:normal;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:st=
+art;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-t=
+ext-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;t=
+ext-decoration-style:initial;text-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Plus, enjoy these add=
+itional features:</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Free Registration: Jo=
+in us without any cost!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Advanced Matching: Fi=
+nd your perfect match effortlessly.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Secure and Confidenti=
+al: Your privacy is our priority.</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">24/7 Support: Our tea=
+m is here to assist you anytime.</span>=0A=
+</p>=0A=
+</span><br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;=
+font-size:small;font-style:normal;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:st=
+art;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-t=
+ext-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;t=
+ext-decoration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;"><span id=3D"gmail-doc=
+s-internal-guid-90b5e422-7fff-d924-758d-93a1d58a4231"> </span></span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span id=3D"gmail-docs-internal-guid-90b5e422-7fff-d924-758d-93a1d58a4231"=
+><span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Start your exciting j=
+ourney today! Click <span style=3D"font-variant-numeric:normal;font-variant=
+-east-asian:normal;font-variant-alternates:normal;font-variant-position:nor=
+mal;background-color:transparent;font-size:11pt;vertical-align:baseline;">[=
+</span><a href=3D"https://4xgz.short.gy/OsLZAI" style=3D"color:#1155CC;font=
+-size:21.3333px;white-space-collapse:collapse;text-decoration-line:none;"><=
+span style=3D"font-size:11pt;background-color:transparent;font-variant-nume=
+ric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;fo=
+nt-variant-position:normal;text-decoration-line:underline;text-decoration-s=
+kip-ink:none;vertical-align:baseline;white-space-collapse:preserve;">here</=
+span></a><span style=3D"font-variant-numeric:normal;font-variant-east-asian=
+:normal;font-variant-alternates:normal;font-variant-position:normal;backgro=
+und-color:transparent;font-size:11pt;vertical-align:baseline;">]</span></sp=
+an><span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#00000=
+0;background-color:transparent;font-variant-numeric:normal;font-variant-eas=
+t-asian:normal;font-variant-alternates:normal;font-variant-position:normal;=
+vertical-align:baseline;white-space-collapse:preserve;"> to create your pro=
+file and connect with Ukrainian singles near you.</span></span>=0A=
+</p>=0A=
+</span><br class=3D"gmail-Apple-interchange-newline" style=3D"color:#222222=
+;font-family:Arial, Helvetica, sans-serif;font-size:small;font-style:normal=
+;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;let=
+ter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transfor=
+m:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:=
+normal;text-decoration-thickness:initial;text-decoration-style:initial;text=
+-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;"></span><span style=3D=
+"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-colo=
+r:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;fo=
+nt-variant-alternates:normal;font-variant-position:normal;vertical-align:ba=
+seline;white-space-collapse:preserve;"></span>=0A=
+</p>=0A=
+</span><br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;=
+font-size:small;font-style:normal;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:st=
+art;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-t=
+ext-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;t=
+ext-decoration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-si=
+ze:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:=
+normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;tex=
+t-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-str=
+oke-width:0px;white-space:normal;text-decoration-thickness:initial;text-dec=
+oration-style:initial;text-decoration-color:initial;">=0A=
+<span id=3D"gmail-docs-internal-guid-2eb079f3-7fff-8581-06e9-d34c0ad245fa" =
+style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;font-size:s=
+mall;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norm=
+al;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-in=
+dent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-=
+width:0px;white-space:normal;text-decoration-thickness:initial;text-decorat=
+ion-style:initial;text-decoration-color:initial;">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial, sans-serif;color:#000000;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;font-variant-alternates:normal;font-variant-position:normal;ve=
+rtical-align:baseline;white-space-collapse:preserve;">Remove me from base, =
+on </span><a href=3D"https://rebrand.ly/csb134x" style=3D"color:#1155CC;tex=
+t-decoration-line:none;"><span style=3D"font-size:11pt;font-family:Arial, s=
+ans-serif;background-color:transparent;font-variant-numeric:normal;font-var=
+iant-east-asian:normal;font-variant-alternates:normal;font-variant-position=
+:normal;text-decoration-line:underline;text-decoration-skip-ink:none;vertic=
+al-align:baseline;white-space-collapse:preserve;">here</span></a>=0A=
+</p>=0A=
+</span><br style=3D"color:#222222;font-family:Arial, Helvetica, sans-serif;=
+font-size:small;font-style:normal;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:st=
+art;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-t=
+ext-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;t=
+ext-decoration-style:initial;text-decoration-color:initial;">=0A=
+<br>=
+
+------=_NextPart_000_5966_733011EF.81D08D6D--

@@ -1,0 +1,163 @@
+Return-Path: <royal.susan@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 289695 invoked from network); 19 Nov 2023 18:06:38 -0000
+Received: from EUR01-VE1-obe.outbound.protection.outlook.com (mail-ve1eur01olkn2098.outbound.protection.outlook.com [40.92.66.98])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Nov 2023 18:06:38 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=C7BiBo0VoJi1QVac5Xa2W6rSCIZsxahDcEmCXD6j/Xz57+eBqbtdg9VwC2j5G9MqOnJx5/tddppXYB+U7pqWIt+a/GXFOlO6BYH8/LCIG262RENT60ns9GNVw4PtigxjC13putGTtW+NiNMpg7c0GDXF3xBX1Ci1pZAIE+czB37Dd+hQlHBxULR8N/SerrWSGyC3RlY3SZ0J9nyFFODywkFi4HqZ6ZxbhK26RXksFQYFXNaap0oYCiO+2sVNyrx07n75hcwbOV19CXb/2ljoNjIJkcrJ5Rk59Y7e9NIG22vZonu2XcqdhNgq98DDEUSDxT0dlRP9pyGEvgbB9DCwmg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=AFX/IG5rbY8x1PraO0rXAalIkrQgBVLwszRIBP1JquA=;
+ b=cOVdQ67o6hl/iubMnDW1URgQUmoDCWeAw2H/OdUAQbG9RWyHdsY8mpWH6CdiDq+XnTTFjcHjZOPT0J7P773Gty13NOgWfn13MqfgXgYqRjs69CSs2ROS8ue2jA1oQHdAt9xF40OyF1VOe4LP+xRWF3Eeu6QEC1V/5flzP5cPfcunhTrO5vjViD3q8UGsLq/q/mcmK5CXFfees1T5IOt4Wa/E7JNsf7bvGo+smJWo1bduMQwb90TnIUNQXrDOjjGGd4RHt3ja4anwX3W9HWOV4tf6ONt3KkWV/2odTSLFr9H2Dbf9beCctk8kBrEvAxvKmElLRJLf1fXjSPTEf31ySA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=AFX/IG5rbY8x1PraO0rXAalIkrQgBVLwszRIBP1JquA=;
+ b=sjPtrNUV9EiFTjnC5J1Vhk23pu7/1oJcKaUtc9uHlIRPR33Mutoey6RxkjslLvA9TypEfQGURz5SSBxGetnJ9AD8uk9et1qXqez5ROaYs/TqTovudd9UYXAnti/VC+xeuTAx7e81I0frsRadkoF9e5DSD3x1jPRl/fCPDAIGD2ypcKFKU3Yzhp/SRiM6/sBAT8Zx4kLFsZ3MVI42JHepPBeH0ERHhGhD8Nl99a3xNgB+kdLv6Qdc2uOyG0BadagzbozYUF3yyQp27hU3PxIrOPD9pyXtXXUfFm4h7Q+UquNWQBS+/E5q6ghjpLgHixVSm0oGLz30O99xyEeLxAj7qA==
+Received: from AM8P194MB0978.EURP194.PROD.OUTLOOK.COM (2603:10a6:20b:241::11)
+ by AS2P194MB1982.EURP194.PROD.OUTLOOK.COM (2603:10a6:20b:559::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7002.27; Sun, 19 Nov
+ 2023 18:06:31 +0000
+Received: from AM8P194MB0978.EURP194.PROD.OUTLOOK.COM
+ ([fe80::5748:6dc9:8b2c:5958]) by AM8P194MB0978.EURP194.PROD.OUTLOOK.COM
+ ([fe80::5748:6dc9:8b2c:5958%3]) with mapi id 15.20.7002.027; Sun, 19 Nov 2023
+ 18:06:31 +0000
+Content-Type: multipart/alternative; boundary="===============8592689475468540281=="
+Subject: Thank you for joining our dating site. We are here to help you find your perfect match!
+From: <royal.susan@hotmail.com>
+CC: <royal.susan@hotmail.com>
+Date: Sun, 19 Nov 2023 18:06:12 +0000
+X-TMN: [GBT37IsROZ/omSHA2eT7asf5jbvzSOax]
+X-ClientProxiedBy: FR2P281CA0178.DEUP281.PROD.OUTLOOK.COM
+ (2603:10a6:d10:9f::7) To AM8P194MB0978.EURP194.PROD.OUTLOOK.COM
+ (2603:10a6:20b:241::11)
+Return-Path: royal.susan@hotmail.com
+Message-ID:
+ <AM8P194MB0978870FBA7ABC9BC0F82C1DF2B5A@AM8P194MB0978.EURP194.PROD.OUTLOOK.COM>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM8P194MB0978:EE_|AS2P194MB1982:EE_
+X-MS-Office365-Filtering-Correlation-Id: 8520913a-86eb-4d94-6043-08dbe92a41d2
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?+TLt1bnnxwF2SYbH6e3pln2y8/riwwXwEzLofH9ISSuc4icE4CbPQhNfsO1U?=
+ =?us-ascii?Q?bR4Wlter/bsZrxljJn87QDzYFY5YWFLOh52E9YMmDC/xGzWnEqeZjw3JnWvE?=
+ =?us-ascii?Q?iWlbjvkR+aEyz5MjEGBl8Z5uRn8lSdTAnRQdxNczsHtKkBPZSrO3940Ij6QT?=
+ =?us-ascii?Q?PgzgsvJSgRQVmhoJC6he8tCqutl2wN63SXjhuU74nmb8NNtprUcvbRtywXyN?=
+ =?us-ascii?Q?ItrN4Y0cg8Q1SHVFpM99VjSKbNmB1IuJn1+nNCBEAuufK8JXwTptpMztBEBF?=
+ =?us-ascii?Q?+idpp9T03G8d1Awiqjr/ygNBBRpNkmOeHWEFL8DB062SOjSmzK3+k87tqo8R?=
+ =?us-ascii?Q?hx1CG86S3P/MHqqFKbKDIGB533gHTvw7kpKRrGYes5HFr/ynsi1WCNHRr/8W?=
+ =?us-ascii?Q?zd8mG0unQTuPgkIBhfzeDOOWnOYebHKjDkvYQ+7IA/h/EDDqwnUb+RaSymaY?=
+ =?us-ascii?Q?s+Lj0XAsgmOOnInai0SojV2jYLP9eLLAMdII2cdIWSENz/RHQcHg0IkiqW7Z?=
+ =?us-ascii?Q?2f/2s0nNLIVmVbWR73XIv21e1G5h0sZEjSpv3+oVthS7A7UKqBQqLpJSNsdT?=
+ =?us-ascii?Q?UnEqvmapHPpzE7QAZ6uLpkZJznfeTieYAU7yn3EVUObmbgxxIBhdFdguBtMu?=
+ =?us-ascii?Q?v8mFZKVuL/bTahwM5X6ROBsWRb9x4srXDajQEhg8fH4BnjJQE83hmKEcJd26?=
+ =?us-ascii?Q?REwAGQWCS0H+PdN8KadevKFC089cFDz3ItOpbAEJvzvN2QFRklvnHcJYAgGI?=
+ =?us-ascii?Q?eQPJdvb2deegebJJLzbUaSq0QX2Mlyt5OHVtQfUBtOKInX2D1II4OfHH0oJe?=
+ =?us-ascii?Q?r8VytmrL5dCyUeKQRmzvlh2ZQfclt5TrCW7lVxqKpV20dqV8VkkOImwW6h8+?=
+ =?us-ascii?Q?Nqrn+0eCK9H+CzfdC1X3OV6evct+KR/8Sp1WBatTO9JGctxCBgtYGvyo/Lvi?=
+ =?us-ascii?Q?EDlZeHskLq42sa7AjoZiB0XBjXpKbVNIhaGv8pJYbFS2Xc9qfdnWXNJLvwt7?=
+ =?us-ascii?Q?HzX01BB5i9Mur+z8D0DF4sJpYfbFbpvVjR0uPlo4UsVZLYtd/8ZEXAT/T2y/?=
+ =?us-ascii?Q?6lQ9tA0c6ZafzVyc+eOoDWy9RJJHmpDyDlvtJ/Cr9B8yz+BCKc6jgfLZ9HUV?=
+ =?us-ascii?Q?yk4alunCCal/73ecu9pXxiGjh3Eu5ANON7jZhrS+WPhX+1wdJYSRaYInRTBr?=
+ =?us-ascii?Q?iYLL81M1GFpFlk85L1f5Y+IxoTXJCM/QgZJfl3RThgV3HIRwiCo5ot9Yw+P0?=
+ =?us-ascii?Q?RRBE2NP5SUDr4GIQFKUMxvT0BU9Lpl5Ext0o3zwdX1hKUizXRyiv9HwGgKTQ?=
+ =?us-ascii?Q?jgdg0xtIdt5zj4W1p6GbCgIaFOcLIvDIa+FYiqMr+YcA+bFRlOtFPfUCpJRX?=
+ =?us-ascii?Q?8mIngTUZmBOGlI91UuzaZkWfbrzYK3sCIpMThjLA7LYRcDU9zxdOLEBy4w9n?=
+ =?us-ascii?Q?Gkiif98B7Trz4r0BU2emjf5qLEURykQtNPz1NbAAmjo9/oYhZKjzFCmmpo9k?=
+ =?us-ascii?Q?ZeEBXy+pbpalCbryPf3gfUKguhfRwqJNG+hrXd3eugbt5M1xoU1BVk/BpBT6?=
+ =?us-ascii?Q?xE5n27T7hznFYD1RI8Viiwgv5hrLFPLcGaTuyjTeJ1sQoR+VoYyd2nLZPBqV?=
+ =?us-ascii?Q?ccpdhfj8y4GynrcY9dfxT01Wa0CbaUwV+Xy7t8S8OXzwrJBItqQRbLb1C60D?=
+ =?us-ascii?Q?eadwBg=3D=3D?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?Tr81azG2VqqN2y5IJKt5WYsBfAD3Fph+IPmx0HIc3KZzPYQCsBBj0TVp3TMC?=
+ =?us-ascii?Q?oDgY+dftmMILn+QERmxXrPbV4uIzgPTXxYb5L/P4VTtkimR5Flwg4knFHhjj?=
+ =?us-ascii?Q?+InsoNnpFYo3IR3RaQkiwhzudsXHJuX/BF75qh93004vxKnHqBUkn/ouOiQw?=
+ =?us-ascii?Q?/1lJe2BZvLedA9Ieq1QfGbYFlWLSB1Mwo+dooiBi1fpAlIngiH9ZidoDgfI+?=
+ =?us-ascii?Q?7B/tPXTkpohyWjbko6Vs3Ws2E6711SncBIlsvug2gM8tFEnT8CkK7zVbTQYn?=
+ =?us-ascii?Q?FQ1UPaLavdT4zHuUuKMEJuVwd+45bzMuFh+7fo56Qa1TahYHKweGSqfTviKG?=
+ =?us-ascii?Q?RXEloW5U78lRst7PK0M1rWqPSJALw3N5sGHt84B9L48Nu1ow7qG5PNrJsovv?=
+ =?us-ascii?Q?Ly8Ecnn7LbvPi0NoQ3IbQSymBxefz4S+udN9MpaVQsuS2fu0jJxHu3F9aq36?=
+ =?us-ascii?Q?Ok4y6pfyKCrdjiH311lFVfVuCFa1StmFI7jWA8XW5qRgemAKR7wW/JZnuvjB?=
+ =?us-ascii?Q?ZnQmqLGoJNXW2K0lNtNG9nevb5NH1IzkxOOQ38/KuiT1X8dillV4P84FT/7X?=
+ =?us-ascii?Q?Aa8OEcc5G04OG8E/xp0ySwvkwMvKtfkdIOD41hWIA8hYsOXPfIaY5N7GSweJ?=
+ =?us-ascii?Q?B/MRZrMeTqsV5Ethn0YhNmxKSPW+IRqJiAfFnmV8o1ucxoOVVQnCdsxD/UIS?=
+ =?us-ascii?Q?bs3CQ9k6NoJ4hCc1BV5B88enKkyHzlQqv6EWLb8h1ghmr8OecR0Bk6K23lqf?=
+ =?us-ascii?Q?hXNCvAxhO3QMDEfPkA1D0x82FNgdmQKkFYL7mEJBq9mKtEbWS00ati9zFbLT?=
+ =?us-ascii?Q?QjSPPNOQiGoIEUy8cOFjkhJliALthA/AP2TaoHNo4s3jiKxiwr4StE7enBWh?=
+ =?us-ascii?Q?EJx4M2hnymaR8X9wNImc2SvprLG5dhaslqPXuDBUmHdEiWADaYDdhRA64CUh?=
+ =?us-ascii?Q?2V4B1Qc0wk103/GDNkMiXF0gLMGtd/jPcalTugeCgXkXH9NX1El7O4kw/T2w?=
+ =?us-ascii?Q?qrP6QCp0ygnJonNIczeVcTUnU7xVQHy/AGDuvNK02dBF1ovEbAhcqwGLl/11?=
+ =?us-ascii?Q?lE/FFIsD4tg3tKj6Q6atQP9y//1xh9GnIArPtGn+kacGzcc5FlHm/nTzysup?=
+ =?us-ascii?Q?ljLIOenZ032TsVs/fSpVe26tF0GZgs6NqUAbQl0IOHjTLHdaP6DvRbo0gN9w?=
+ =?us-ascii?Q?CNjxNkQV0rR7tdmHtoj+wYkd5vz6fwLkcK3TWcFRaNr/ZvfUk2dGT9OQCFY?=
+ =?us-ascii?Q?=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-84264.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8520913a-86eb-4d94-6043-08dbe92a41d2
+X-MS-Exchange-CrossTenant-AuthSource: AM8P194MB0978.EURP194.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Nov 2023 18:06:31.2537
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS2P194MB1982
+Content-Length: 4556
+
+--===============8592689475468540281==
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><p style="text-align:center"><a href="https://clck.ru/36eXyd" style="text-decoration:none"><span style="font-size:15pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><strong><u>Charming Ukrainian</u></strong></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Exciting news! Stunning Ukrainian women are waiting to meet someone special in your area, and registration is completely free!</strong></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:10pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Discover the allure of Ukrainian charm:</strong></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Exquisite Beauty: Be captivated by their natural elegance.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Warmth and Kindness: Experience genuine hospitality and kindness.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Intelligence and Culture: Engage in stimulating conversations with educated and cultured individuals.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Strong Family Values: Build a relationship on loyalty and dedication.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Romantic Companionship: Embrace love and affection in its purest form.</span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh99t3rWLeNzRNqKK3pRnBAi9oNUt_paWgJmfWWKQPw5gC8kJxB9bX3HOuH49eiHamAs1C3MME_aCsP-sZb-GxXMnB7iiUXQgBBrBP6TcCi_zb-upUH3HCiKyzgx0BzSeZb1AY4Ubo3ME-xA0UBdYgDXVit_pqsgtJzQeB9MlxU9OfDFzJMqEJHdD5U95M/w640-h269/12-10-2023_1209_22.png"><br>
+&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Plus, enjoy these additional features:</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Free Registration: Join us without any cost!</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Advanced Matching: Find your perfect match effortlessly.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Secure and Confidential: Your privacy is our priority.</span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">24/7 Support: Our team is here to assist you anytime.</span></span></span></p>
+
+<p><br>
+&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Start your exciting journey today! Click [</span></span></span><a href="https://clck.ru/36eXyd" style="text-decoration:none"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>here</u></span></span></span></a><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">] to create your profile and connect with Ukrainian singles near you.</span></span></span></p>
+
+<p style="text-align:center"><br>
+<br>
+<br>
+<br>
+<span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Remove me from base, on </span></span></span><a href="https://4xh4.short.gy/iqxGsE" style="text-decoration:none"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>here</u></span></span></span></a></p>
+
+--===============8592689475468540281==--

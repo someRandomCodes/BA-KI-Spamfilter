@@ -1,0 +1,900 @@
+Return-Path: <workshop=afriex.or.ke@bounces.elasticemail.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1902190 invoked from network); 14 Jun 2023 19:03:04 -0000
+Received: from m16.mxout.mta4.net (m16.mxout.mta4.net [67.227.85.16])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 14 Jun 2023 19:03:04 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=bounces.elasticemail.net; s=api;
+	c=relaxed/simple; t=1686769374;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=UM5ZCcBDodBtUDBtaMG1QFH/5iBPGlgwLT9okCq5Bks=;
+	b=Duj/IQB3R8S1W8qoOMId/JJQeOzQmh0vZSbkruLFZcmjjj+MsnkLBZSckc2kAYZbGiaF9NTKa2d
+	q9Heo4GNpMztV1b5kQUGazWk/mJDw4OaiCUqSLk+kVfgN906iTjJzBVCZBuTN2UKPcfOJz7qmiHTX
+	gF8EzQ/oGlhoadD8ixM=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1686769374;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=UM5ZCcBDodBtUDBtaMG1QFH/5iBPGlgwLT9okCq5Bks=;
+	b=YRPnTJQXCxSPLneonZ46sjCMovanzuTcOCWU574n+Mu5ZvK1SuE9U6WdUmhxqCjJ4v8Q33S+KkK
+	dG273ZGCc2VI6DPmaZOlVToyjlj/XRsUxKciFTC7OJB4gg663WaS/ro3sxIYVM1Fe6G22cHeJfBmJ
+	HpdR2LJ51D9t6YjM8C8=
+From: Afriex Training <workshop@afriex.or.ke>
+Date: Wed, 14 Jun 2023 19:02:54 +0000
+Subject: INTERNATIONAL WORKSHOP ON GRANTS MANAGEMENT AND FUNDRAISING COURSE
+ FROM 17TH-28TH JULY 2023
+Message-Id: <4uk7eml48pgn.7wEbtLh8GFTqExZs8z1MPQ2@14T8W.trk.elasticemail.com>
+Reply-To: workshop@afriex.or.ke
+Sender: workshop=afriex.or.ke@bounces.elasticemail.net
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+7wEbtLh8GFTqExZs8z1MPQ2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2F14T8W=2Etrk=2Eelasticemail=2Ecom=2Ftracking=2Funsubscribe=3Fmsgid?=
+ =?us-ascii?q?=3D7wEbtLh8GFTqExZs8z1MPQ2&c=3D1560583493564682338=3E?=
+X-Msg-EID: 7wEbtLh8GFTqExZs8z1MPQ2
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfU3Xw/DHgL5+5TP0+TDH7wVx4hNMV/XWKzQ=="
+Content-Length: 44460
+
+--=-eZCfU3Xw/DHgL5+5TP0+TDH7wVx4hNMV/XWKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQpHcmVldGluZ3MgDQpmcm9twqBBZnJpZXggdHJhaW5pbmcgTGltaXRlZCwNCsKgDQpXZSAN
+Cmludml0ZSB5b3UgdG8gYcKgMTDCoGRheXMgd29ya3Nob3Agb27CoA0KPGh0dHBzOi8vMTRU
+OFcudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1OSVp1UURGTEpxZHlO
+SDB6SjRHY0lVTmVIMDRDbXh3Z2txdVA0aG9mX01oY0xvam9vaHcyV1J1T2ZDdkhrczBqTEcw
+ZWE1NFVBNVYtbHp3LTR6OEw1TXE0X0dKSXVjbURnR2tYOEc4a2F4Z3pybEI2cGE4bmxlWEdR
+a1hUc0dQajNtZmxYYUVvZXI1cGJPR0Qzb0hQSm5CMktQT2RyTG91RmpxSTk2YTBoRmo4OTRL
+Z0VESXlBaXhkX21CTG1JMWdfelA5SmxYLVAwNnZiV2NwTW1aWXVZQk5XZjAzRlh1TjljSDJ0
+TVBhdVdleDc4UklNMDNiUUh1WmdVTFlBUVZfMmdYei1rM2JDQzRValpvOURqUVVVVU0xPg0K
+IA0KR1JBTlRTIE1BTkFHRU1FTlQgQU5EIEZVTkRSQUlTSU5HIENPVVJTRSBGUk9NIDE3VEgg
+LTI4VEjCoEpVTFkgMjAyMw0KwqANClBsZWFzZSANCm5vdGU6IEFsbCBvdXIgY291cnNlcyBh
+cmUgZGVsaXZlcmVkIHdpdGgga2VlbiByZWZlcmVuY2UgdG8geW91ciBvcmdhbml6YXRpb24g
+Zm9yIA0KZWFzZSBvZiBhcHBsaWNhdGlvbi4gQWxzbywgd2UgZXh0ZW5kIDYgbW9udGhz4oCZ
+IHBvc3QgdHJhaW5pbmcgc3VwcG9ydCBmb3IgYWxsIHRoZSANCmNvdXJzZXMgd2Ugb2ZmZXIu
+DQpUbyANCnJlZ2lzdGVyLCB5b3UgY2FuIGVtYWlsLCBmb2xsb3cgdGhlIGxpbmtzIGJlbG93
+wqBvciBzZW5kIA0KdXPCoA0KwqANCsKgDQoNCjxodHRwczovLzE0VDhXLnRyay5lbGFzdGlj
+ZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9TkladVFERkxKcWR5Tkgweko0R2NJVU5lSDA0
+Q214d2drcXVQNGhvZl9NaGNMb2pvb2h3MldSdU9mQ3ZIa3MwakxHMGVhNTRVQTVWLWx6dy00
+ejhMNU1xNF9HSkl1Y21EZ0drWDhHOGtheGd6cmxCNnBhOG5sZVhHUWtYVHNHUGozbWZsWGFF
+b2VyNXBiT0dEM29IUEpuQjJLUE9kckxvdUZqcUk5NmEwaEZqODk0S2dFREl5QWl4ZF9tQkxt
+STFnX08za0FkdTl1QUtEMm9KTFZaVWIxN0lmZk5fVlNoQl9EMzJiN2lOSVBhRVV2OTZDZGhU
+d0hlZkpUVUI5Z0p6X3FBX1pCem0xMHVXMGVtUmpYbTdoZHJJMT4NCklOVEVSTkFUSU9OQUwg
+V09SS1NIT1AgT04gR1JBTlRTIE1BTkFHRU1FTlQgQU5EIEZVTkRSQUlTSU5HIENPVVJTRSAN
+CkZST00gMTdUSC0yOFRIIEpVTFkgMjAyMw0KwqANCg0KPGh0dHBzOi8vMTRUOFcudHJrLmVs
+YXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1OSVp1UURGTEpxZHlOSDB6SjRHY0lV
+TmVIMDRDbXh3Z2txdVA0aG9mX01oY0xvam9vaHcyV1J1T2ZDdkhrczBqTEcwZWE1NFVBNVYt
+bHp3LTR6OEw1TXE0X0dKSXVjbURnR2tYOEc4a2F4Z3pybEI2cGE4bmxlWEdRa1hUc0dQajNt
+ZmxYYUVvZXI1cGJPR0Qzb0hQSm5CMktQT2RyTG91RmpxSTk2YTBoRmo4OTRLZ0VESXlBaXhk
+X21CTG1JMWdwTS1lUUpUN3YxN0xZTURwVGx0cDZuWmc3azRGWlpZaEdvMnhnNThxbzVQOVJZ
+alNtUkJrMVZ4TUJpbUNZMW85ODBkTTJZaC1RbmxTVkJXcHBYV2hiYmcxPg0KT1VSIDIwMjMg
+Q09VUlNFIENBTEVOREVSDQrCoA0KDQo8aHR0cHM6Ly8xNFQ4Vy50cmsuZWxhc3RpY2VtYWls
+LmNvbS90cmFja2luZy9jbGljaz9kPTB1TGc4SXY5REREMnVIMDFXVmtMT1NYVmtqbHp4MDJS
+RG4zMEt4MUNEdnJKZWlLcS1PaGcwOWdjOVdkc1YzRXR3WEFqeWtOeVVPdTEyX1VfdGw2Umly
+TkdtZ2lZdy1qdHd4QkNUZHVfLTlldnhCUnNHQUE4aEVQWWM5bEJxcVJXU2JsNTFpbmROejI2
+YnNqaVVfaGhyUDYzNUZELS01Ym5ERzRhTks1WlZQaGJ4UXRSOXljRE1mTFJpQ0pBdklzVjRk
+Uml3Q0N3QzROVXhoSFZIbHotMVdGYVhielE0VEhFbk1xOXotUF8zTkw3UThqRUlocWJLX0tQ
+N09lV2NMZExPekMtZVJaQW1ITjhkbXZ0RmZtR3NwRmJWNkdLSm84UTZMLUx5T2wzekxpZzA+
+DQpSRUdJU1RFUiBUTyBBVFRFTkQNCsKgDQpQQVJUSUNJUEFUSU9OIA0KRkVFOiAyMzIwIFVT
+RA0KwqANClZFTlVFOiANCkJFU1QgV0VTVEVSTiwgTUVSSURJQU4gSE9URUwsIE5BSVJPQkks
+IEtFTllBDQpPZmZpY2UgDQpUZWxlcGhvbmU6ICsyNTQtNzE1LTMxMC02ODUNClJlZ2lzdGVy
+IA0KYXMgYSBncm91cCBvZiAzIG9yIG1vcmUgcGFydGljaXBhbnRzIGFuZCBnZXQgMTAlIGRp
+c2NvdW50IG9uIHRoZSBjb3Vyc2UgZmVlLiANCg0KU2VuZCANCnVzIGFuIGVtYWlsOiANCjxo
+dHRwczovLzE0VDhXLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9ZEts
+MTlNYklveVVETFV3WEdtY09zSWVFREpqTDhRZkk3ZXQwNnhBWU9MX1NLbjFpYUZkN2FzRnFw
+QWFQN2lxd1Awc3VidXo1TkNtRGtaYW9reVIzRm9rOXZramFNX2tRdUFxSWIzay1TX0lnYW9a
+N1hzY0tkcVloNDlDNjJXXy1WelUwYjBUQzBZTGRPc3lRdlB4alhRSFVOSlVMTXhGYWpHU2R2
+cEg2R0ZWNWozRnZRMWhGSWNBWms2aGFPdy1KUncyPg0KdHJhaW5pbmdAYWZyaWV4dHJhaW5p
+bmcub3JnIA0Kb3IgY2FsbCArMjU0LTcxNS0zMTAtNjg1DQrCoA0KSU5UUk9EVUNUSU9OIA0K
+DQpNb3N0IA0Kb2YgdGhlIGRldmVsb3BtZW50IHByb2plY3RzIGFyZSBmaW5hbmNlZCB0aHJv
+dWdoIGdyYW50cyBmcm9tIGRvbm9ycy4gSXQgaXMgdGhlIA0KcmVzcG9uc2liaWxpdHkgb2Yg
+dGhlIHByb2plY3QgbWFuYWdlbWVudCB0ZWFtIHRvIGVuc3VyZSB0aGF0IHRoZSBsaW1pdGVk
+IA0KcmVzb3VyY2VzIGFyZSB1c2VkIG9wdGltYWxseSBhbmQgZWZmaWNpZW50bHkgdG8gYWNo
+aWV2ZSBtYXhpbXVtIA0KaW1wYWN0LsKgVGhpcyBjb3Vyc2UgaXMgZGVzaWduZWQgdG8gZXF1
+aXAgdGhlIHBhcnRpY2lwYW50cyB3aXRoIGJlc3QgDQpwcmFjdGljZXMgYW5kIGVzc2VudGlh
+bHMgc2tpbGxzIGluIGVmZmVjdGl2ZSBncmFudHMgDQptYW5hZ2VtZW50Lg0KV0hPIA0KU0hP
+VUxEIEFUVEVORA0KVGhpcyANCnRyYWluaW5nIGlzIGRlc2lnbmVkIGZvciBncmFudHMgbWFu
+YWdlbWVudCBvZmZpY2Vycy9tYW5hZ2VycywgZmluYW5jaWFsIG1hbmFnZXJzIA0KYW5kIHRo
+ZSBwcm9qZWN0IG1hbmFnZXJzIG9mIGRvbm9yIGZ1bmRlZCBwcm9qZWN0cy4NCk9CSkVDVElW
+RVMNCkJ5IA0KdGhlIGVuZCBvZiB0aGlzIHRyYWluaW5nIHRoZSBwYXJ0aWNpcGFudHMgd2ls
+bCBsZWFybiB0bzoNCkhhbmRsZSANCiAgcHJlLWF3YXJkIGFjdGl2aXRpZXMgdGhhdCB3aWxs
+IHNldCB5b3VyIHByb2dyYW0gb24gdGhlIHJpZ2h0IA0KICB0cmFjaw0KT3ZlcnNlZSANCiAg
+cG9zdC1hd2FyZCBzdGFydC11cCwgb3BlcmF0aW9uLCBhbmQgY2xvc2VvdXQgZHV0aWVzDQpF
+bnN1cmUgDQogIGNvbXBsaWFuY2Ugd2l0aCBmdW5kZXIgcmVxdWlyZW1lbnRzDQpBZGRyZXNz
+IA0KICB0aGUgY3JpdGljYWwgYXNwZWN0cyBvZiBtYW5hZ2luZyBncmFudCBmaW5hbmNlcw0K
+RWZmZWN0aXZlbHkgDQogIHJlcG9ydCBncmFudHMgbWFuYWdlbWVudCBwcm9ncmVzcyB0byAN
+CnN0YWtlaG9sZGVyc8KgDQpDT1VSU0UgDQpEVVJBVElPTg0KMTAgDQpkYXlzDQpDT1VSU0Ug
+DQpPVVRMSU5FDQpJbnRyb2R1Y3Rpb24gDQp0byBHcmFudHMgTWFuYWdlbWVudA0KV2hhdCAN
+CiAgaXMgZ3JhbnRzIG1hbmFnZW1lbnQ/DQpHcmFudHMgDQogIG1hbmFnZW1lbnQgYW5kIHBy
+b2plY3QgZGV2ZWxvcG1lbnQNCktleSANCiAgZ3JhbnRzLXJlbGF0ZWQgdGVybWlub2xvZ2ll
+cw0KT3ZlcnZpZXcgDQpvZiBQcm9qZWN0IEF3YXJkIFR5cGVzDQpHcmFudHMNCkNvbnRyYWN0
+cw0KQ29vcGVyYXRpdmUgDQogIEFncmVlbWVudHMNClN1YmNvbnRyYWN0cw0KVHlwZXMgDQpv
+ZiBHcmFudHMNCkluLWtpbmQNClN0YW5kYXJkDQpNaXhlZA0KR3JhbnRzIA0KTGlmZWN5Y2xl
+DQpQcmUtQXdhcmQgDQogIGFjdGl2aXRpZXMNClBsYW5uaW5nDQpQcm9wb3NhbCANCiAgU3Vi
+bWlzc2lvbg0KQXdhcmQgDQogIG9mIEdyYW50DQpQb3N0LUF3YXJkIA0KICBhY3Rpdml0aWVz
+DQpJbXBsZW1lbnRhdGlvbg0KTW9uaXRvcmluZyANCiAgYW5kIEV2YWx1YXRpb24NCkFtZW5k
+bWVudHMNClJlcG9ydGluZw0KQ2xvc2UgDQogIG91dA0KRWxlbWVudHMgDQpvZiBHcmFudHMg
+QXBwbGljYXRpb24NCkdyYW50cyANCiAgUHJlcGFyYXRpb24gYW5kIFBsYW5uaW5nDQpEZXZl
+bG9waW5nIA0KICBHb2FscywgYW5kIE9iamVjdGl2ZXMNCkZpbmFsaXppbmcgDQogIGFuZCBT
+dWJtaXR0aW5nIEdyYW50cyBBcHBsaWNhdGlvbg0KR3JhbnRzIA0KQnVkZ2V0aW5nDQpJbnRy
+b2R1Y3Rpb24gDQogIHRvIEdyYW50cyBCdWRnZXRpbmcNCkdyYW50cyANCiAgQnVkZ2V0IEVs
+ZW1lbnRzDQpCdWRnZXQgDQogIERldmVsb3BtZW50DQpCdWRnZXQgDQogIE1hbmFnZW1lbnQN
+CkFjY291bnRpbmcgDQpFc3NlbnRpYWxzIGZvciBHcmFudA0KQWNjb3VudGluZyANCiAgbXVs
+dGlwbGUgZ3JhbnRzLyBhd2FyZHMNClRyYWNraW5nIA0KICBvZiBtYXRjaGluZyBmdW5kcw0K
+QWNjb3VudGluZyANCiAgZm9yIGluLWtpbmQgY29udHJpYnV0aW9ucw0KRGV2ZWxvcGluZyAN
+CiAgYWNjb3VudCBjb2RlIHN0cnVjdHVyZQ0KQ29tcGxpYW5jZQ0KRmluYW5jaWFsIA0KICBh
+bmQgcHJvY3VyZW1lbnQgcnVsZXMNCkNvbnRyYWN0dWFsIA0KICBhZ3JlZW1lbnQNCkRvbm9y
+IA0KICBjb21wbGlhbmNlDQpMZWdpc2xhdGl2ZSANCiAgY29tcGxpYW5jZQ0KQWNjb3VudGlu
+ZyANCiAgU3RhbmRhcmRzIGFuZCBQcmFjdGljZXMNCkNvbW11bml0eSANCiAgYW5kIGN1bHR1
+cmFsIENvbXBsaWFuY2UNCkNvbnRyYWN0IA0KTWFuYWdlbWVudA0KQ29udHJhY3QgDQogIGFz
+c2Vzc21lbnQNCkNvbnRyYWN0IA0KICBuZWdvdGlhdGlvbg0KQ29udHJhY3QgDQogIG1hbmFn
+ZW1lbnQNCkludGVybmFsIA0KQ29udHJvbCBpbiBHcmFudHMgTWFuYWdlbWVudA0KQ29udHJv
+bCANCiAgZW52aXJvbm1lbnQNClJpc2sgDQogIGFzc2Vzc21lbnQNCkNvbnRyb2wgDQogIGFj
+dGl2aXRpZXMNCkluZm9ybWF0aW9uIA0KICBhbmQgY29tbXVuaWNhdGlvbg0KTW9uaXRvcmlu
+ZyANCiAgYWN0aXZpdGllcw0KR3JhbnRzIA0KUmVwb3J0aW5nDQpGaW5hbmNpYWwNCk5hcnJh
+dGl2ZQ0KRXZhbHVhdGlvbnMNCkFtZW5kbWVudHMNCsKgDQo8aHR0cHM6Ly8xNFQ4Vy50cmsu
+ZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy91bnN1YnNjcmliZT9kPWJLSDdIcUYxMXRfQzNj
+YXFfdFBRT01SamUzekFtcjAxYnlxdlotR1lsLWRRcUp6eE1Ea2tLcklhenp6LUVyNHpSMnlI
+VnlMMUlxZGNsci1KaGlueFNVTlBfNlViOWFxVExhR250SGI0MHVwbjA+DQpVTlNVQlNDUklC
+RQ==
+
+--=-eZCfU3Xw/DHgL5+5TP0+TDH7wVx4hNMV/XWKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'>Greetings=20
+from&nbsp;<B>Afriex training Limited,</B><?xml:namespace prefix =3D "o=
+" ns =3D=20
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'><o:p>&nbsp;</o:p=
+></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'>We=20
+invite you to a&nbsp;<B>10&nbsp;days workshop on&nbsp;</B></SPAN><A=20
+href=3D"https://14T8W.trk.elasticemail.com/tracking/click?d=3DNIZuQDFL=
+JqdyNH0zJ4GcIUNeH04CmxwgkquP4hof_MhcLojoohw2WRuOfCvHks0jLG0ea54UA5V-lz=
+w-4z8L5Mq4_GJIucmDgGkX8G8kaxgzrlB6pa8nleXGQkXTsGPj3mflXaEoer5pbOGD3oHP=
+JnB2KPOdrLouFjqI96a0hFj894KgEDIyAixd_mBLmI1g_zP9JlX-P06vbWcpMmZYuYBNWf=
+03FXuN9cH2tMPauWex78RIM03bQHuZgULYAQV_2gXz-k3bCC4UjZo9DjQUUUM1"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'TEXT-DECORATION: none; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: windowtext; text-underline: none'>=20
+GRANTS MANAGEMENT AND FUNDRAISING COURSE FROM 17<SUP>TH</SUP> -28<SUP>=
+TH</SUP>=20
+<SPAN style=3D"mso-spacerun: yes">&nbsp;</SPAN>JULY 2023</SPAN></B></A=
+><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman",serif'><o:p></o:p></SPAN></B><=
+/P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'><o:p>&nbsp;</o:p=
+></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'>Please=20
+note: All our courses are delivered with keen reference to your organi=
+zation for=20
+ease of application. Also, we extend 6 months&rsquo; post training sup=
+port for all the=20
+courses we offer.</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'><o:p></o:p></SPA=
+N></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #5f5f5f; mso-fareast-font-family: "Times New Roman"'>To=20
+register, you can email, follow the links below&nbsp;or send=20
+us&nbsp;<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><A=20
+href=3D"https://14T8W.trk.elasticemail.com/tracking/click?d=3DNIZuQDFL=
+JqdyNH0zJ4GcIUNeH04CmxwgkquP4hof_MhcLojoohw2WRuOfCvHks0jLG0ea54UA5V-lz=
+w-4z8L5Mq4_GJIucmDgGkX8G8kaxgzrlB6pa8nleXGQkXTsGPj3mflXaEoer5pbOGD3oHP=
+JnB2KPOdrLouFjqI96a0hFj894KgEDIyAixd_mBLmI1g_O3kAdu9uAKD2oJLVZUb17IffN=
+_VShB_D32b7iNIPaEUv96CdhTwHefJTUB9gJz_qA_ZBzm10uW0emRjXm7hdrI1"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><FONT=20
+color=3D#0000ff>INTERNATIONAL WORKSHOP ON GRANTS MANAGEMENT AND FUNDRA=
+ISING COURSE=20
+FROM 17<SUP>TH</SUP>-28<SUP>TH</SUP> JULY 2023</FONT></SPAN></B></A><B=
+=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p><=
+/o:p></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><A=20
+href=3D"https://14T8W.trk.elasticemail.com/tracking/click?d=3DNIZuQDFL=
+JqdyNH0zJ4GcIUNeH04CmxwgkquP4hof_MhcLojoohw2WRuOfCvHks0jLG0ea54UA5V-lz=
+w-4z8L5Mq4_GJIucmDgGkX8G8kaxgzrlB6pa8nleXGQkXTsGPj3mflXaEoer5pbOGD3oHP=
+JnB2KPOdrLouFjqI96a0hFj894KgEDIyAixd_mBLmI1gpM-eQJT7v17LYMDpTltp6nZg7k=
+4FZZYhGo2xg58qo5P9RYjSmRBk1VxMBimCY1o980dM2Yh-QnlSVBWppXWhbbg1"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><FONT=20
+color=3D#0000ff>OUR 2023 COURSE CALENDER</FONT></SPAN></B></A><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p><=
+/o:p></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><A=20
+href=3D"https://14T8W.trk.elasticemail.com/tracking/click?d=3D0uLg8Iv9=
+DDD2uH01WVkLOSXVkjlzx02RDn30Kx1CDvrJeiKq-Ohg09gc9WdsV3EtwXAjykNyUOu12_=
+U_tl6RirNGmgiYw-jtwxBCTdu_-9evxBRsGAA8hEPYc9lBqqRWSbl51indNz26bsjiU_hh=
+rP635FD--5bnDG4aNK5ZVPhbxQtR9ycDMfLRiCJAvIsV4dRiwCCwC4NUxhHVHlz-1WFaXb=
+zQ4THEnMq9z-P_3NL7Q8jEIhqbK_KP7OeWcLdLOzC-eRZAmHN8dmvtFfmGspFbV6GKJo8Q=
+6L-LyOl3zLig0"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><FONT=20
+color=3D#0000ff>REGISTER TO ATTEND</FONT></SPAN></B></A><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p><=
+/o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #4472c4; mso-fareast-font-family: "Times New Roman"; mso-themecolor: =
+accent5'><o:p>&nbsp;</o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #4472c4; mso-fareast-font-family: "Times New Roman"; mso-themecolor: =
+accent5'>PARTICIPATION=20
+FEE: 2320 USD<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>&nbsp;<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>VENUE:=20
+BEST WESTERN, MERIDIAN HOTEL, NAIROBI, KENYA<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Office=20
+Telephone: +254-715-310-685<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Register=20
+as a group of 3 or more participants and get 10% discount on the cours=
+e fee.=20
+<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Send=20
+us an email: </SPAN><A=20
+ href=3D"https://14T8W.trk.elasticemail.com/tracking/click?d=3DdKl19Mb=
+IoyUDLUwXGmcOsIeEDJjL8QfI7et06xAYOL_SKn1iaFd7asFqpAaP7iqwP0subuz5NCmDk=
+ZaokyR3Fok9vkjaM_kQuAqIb3k-S_IgaoZ7XscKdqYh49C62W_-VzU0b0TC0YLdOsyQvPx=
+jXQHUNJULMxFajGSdvpH6GFV5j3FvQ1hFIcAZk6haOw-JRw2" ><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ #3a80f6; mso-fareast-font-family: "Times New Roman"'>training@afriext=
+raining.org</SPAN></A><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>=20
+or call +254-715-310-685<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p>&=
+nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+; mso-outline-level: 3"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>INTRODUCTION=20
+<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Most=20
+of the development projects are financed through grants from donors. I=
+t is the=20
+responsibility of the project management team to ensure that the limit=
+ed=20
+resources are used optimally and efficiently to achieve maximum=20
+impact.&nbsp;This course is designed to equip the participants with be=
+st=20
+practices and essentials skills in effective grants=20
+management.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+; mso-outline-level: 3"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>WHO=20
+SHOULD ATTEND<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>This=20
+training is designed for grants management officers/managers, financia=
+l managers=20
+and the project managers of donor funded projects.<o:p></o:p></SPAN></=
+P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+; mso-outline-level: 3"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>OBJECTIVES<o:p></o:p></SPAN></B>=
+</P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>By=20
+the end of this training the participants will learn to:</SPAN></B><SP=
+AN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l2 level1 lfo1; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Handle=20
+  pre-award activities that will set your program on the right=20
+  track<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l2 level1 lfo1; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Oversee=20
+  post-award start-up, operation, and closeout duties<o:p></o:p></SPAN=
+></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l2 level1 lfo1; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Ensure=20
+  compliance with funder requirements<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l2 level1 lfo1; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Address=20
+  the critical aspects of managing grant finances<o:p></o:p></SPAN></L=
+I>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l2 level1 lfo1; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Effectively=20
+  report grants management progress to=20
+stakeholders&nbsp;<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+; mso-outline-level: 3"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>COURSE=20
+DURATION<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'>10=20
+days<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+; mso-outline-level: 3"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>COURSE=20
+OUTLINE<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Introduction=20
+to Grants Management</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l10 level1 lfo2; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>What=20
+  is grants management?<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l10 level1 lfo2; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Grants=20
+  management and project development<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l10 level1 lfo2; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Key=20
+  grants-related terminologies<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Overview=20
+of Project Award Types</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l3 level1 lfo3; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Grants<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l3 level1 lfo3; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Contracts<o:p></o:p></SPAN></L=
+I>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l3 level1 lfo3; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Cooperative=20
+  Agreements<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l3 level1 lfo3; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Subcontracts<o:p></o:p></SPAN>=
+</LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Types=20
+of Grants</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l0 level1 lfo4; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>In-kind<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l0 level1 lfo4; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Standard<o:p></o:p></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l0 level1 lfo4; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Mixed<o:p></o:p></SPAN></LI></=
+UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Grants=20
+Lifecycle</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Pre-Award=20
+  activities<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Planning<o:p></o:p></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Proposal=20
+  Submission<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Award=20
+  of Grant<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Post-Award=20
+  activities<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Implementation<o:p></o:p></SPA=
+N></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Monitoring=20
+  and Evaluation<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Amendments<o:p></o:p></SPAN></=
+LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Reporting<o:p></o:p></SPAN></L=
+I>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l1 level1 lfo5; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Close=20
+  out<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Elements=20
+of Grants Application</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l8 level1 lfo6; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Grants=20
+  Preparation and Planning<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l8 level1 lfo6; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Developing=20
+  Goals, and Objectives<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l8 level1 lfo6; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Finalizing=20
+  and Submitting Grants Application<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Grants=20
+Budgeting</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l5 level1 lfo7; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Introduction=20
+  to Grants Budgeting<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l5 level1 lfo7; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Grants=20
+  Budget Elements<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l5 level1 lfo7; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Budget=20
+  Development<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l5 level1 lfo7; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Budget=20
+  Management<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Accounting=20
+Essentials for Grant</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l4 level1 lfo8; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Accounting=20
+  multiple grants/ awards<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l4 level1 lfo8; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Tracking=20
+  of matching funds<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l4 level1 lfo8; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Accounting=20
+  for in-kind contributions<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l4 level1 lfo8; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Developing=20
+  account code structure<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Compliance</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Financial=20
+  and procurement rules<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Contractual=20
+  agreement<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Donor=20
+  compliance<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Legislative=20
+  compliance<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Accounting=20
+  Standards and Practices<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l9 level1 lfo9; tab-stops: lis=
+t .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Community=20
+  and cultural Compliance<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Contract=20
+Management</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l11 level1 lfo10; tab-stops: l=
+ist .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Contract=20
+  assessment<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l11 level1 lfo10; tab-stops: l=
+ist .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Contract=20
+  negotiation<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l11 level1 lfo10; tab-stops: l=
+ist .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Contract=20
+  management<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Internal=20
+Control in Grants Management</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l7 level1 lfo11; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Control=20
+  environment<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l7 level1 lfo11; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Risk=20
+  assessment<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l7 level1 lfo11; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Control=20
+  activities<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l7 level1 lfo11; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Information=20
+  and communication<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l7 level1 lfo11; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Monitoring=20
+  activities<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'>Grants=20
+Reporting</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-fa=
+reast-font-family: "Times New Roman"'><o:p></o:p></SPAN></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l6 level1 lfo12; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Financial<o:p></o:p></SPAN></L=
+I>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l6 level1 lfo12; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Narrative<o:p></o:p></SPAN></L=
+I>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l6 level1 lfo12; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Evaluations<o:p></o:p></SPAN><=
+/LI>
+  <LI class=3DMsoNormal=20
+  style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al; mso-margin-top-alt: auto; mso-list: l6 level1 lfo12; tab-stops: li=
+st .5in"><SPAN=20
+  style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; mso-=
+fareast-font-family: "Times New Roman"'>Amendments<o:p></o:p></SPAN></=
+LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #f1f1f1; TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt=
+ 0.25in; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif'><o:p><=
+/o:p></SPAN>&nbsp;</P></BODY></HTML>
+
+<img src=3D"https://14T8W.trk.elasticemail.com/tracking/open?msgid=3D7=
+wEbtLh8GFTqExZs8z1MPQ2&c=3D1560583493564682338" style=3D"width:1px;hei=
+ght:1px" alt=3D"" /><div style=3D"text-align:center; background-color:=
+#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:sa=
+ns-serif;"><a href=3D"https://14T8W.trk.elasticemail.com/tracking/unsu=
+bscribe?d=3DbKH7HqF11t_C3caq_tPQOMRje3zAmr01byqvZ-GYl-dQqJzxMDkkKrIazz=
+z-Er4zR2yHVyL1Iqdclr-JhinxSUNP_6Ub9aqTLaGntHb40upn0" style=3D"text-ali=
+gn:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfU3Xw/DHgL5+5TP0+TDH7wVx4hNMV/XWKzQ==--

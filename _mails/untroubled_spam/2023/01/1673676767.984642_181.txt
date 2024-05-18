@@ -1,0 +1,310 @@
+Return-Path: <ups.news-bruce=untroubled.org@take-ups.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 316334 invoked from network); 11 Jan 2023 19:12:07 -0000
+Received: from mail.take-ups.info ([45.13.189.13])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 11 Jan 2023 19:12:06 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=take-ups.info;
+ h=Date:From:To:Subject:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ i=ups.news@take-ups.info;
+ bh=mjFPeF+I8haijW3SVfql4BMO1KU=;
+ b=kZj5U4SfygDaQEvgnB6WXdQLxC9iaAvzitrNpzaISeuHSsTFvtOcR3PJfHM2iIZbp2CtGHEQW7Xm
+   VgmoFnFyC//XCkEV5YZ/QU5vxiXlNF+vaDxmvh+AVjRgmty6FOb5l22wnjak02dhM48ojpOgjiBp
+   rAVecvF3ug/IGUc8Yxo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=take-ups.info;
+ b=Q8GibxXLh4JcaaSPjRxXL6d52WUan5xRZOsKE4i6ox2IkUmX3x6KFoT0WBXGnVi8HWVUCe8pIx+9
+   df5wwvBD+o8EiZb2Fqcb2iu7OwAdNppLBP8cx39bWJBoGHdzkAxkWzYk0W/7rKgtEwQG9xCuUdIl
+   9OhY0Vi4VbYfRVbMMPo=;
+Received: by mail.take-ups.info id hnsf8e0001g2 for <bruce@untroubled.org>;
+ Wed,
+ 11 Jan 2023 15:32:45 -0500 (envelope-from <ups.news-bruce=untroubled.org@take-ups.info>)
+Date: Wed, 11 Jan 2023 15:32:45 -0500
+From: "Ups News" <ups.news@take-ups.info>
+To: <bruce@untroubled.org>
+Subject: ups
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_79_312792297.1673463889575"
+List-Unsubscribe: 
+ <http://www.take-ups.info/6fb4J2395P89zI13qN11ZGzW10c0n21NFv4GIf4rxvs4FhIHEsvZ7yQqdRdK6jlM1N05pJ@wD/hushes-parched>
+Message-ID: <0.0.0.8.1D925FBDCA703D6.F4C75@mail.take-ups.info>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 7549
+
+------=_Part_79_312792297.1673463889575
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head> 
+  <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" /> 
+  <meta content="width=device-width" name="viewport" /> 
+  <title>NC State</title> 
+ </head> 
+ <body bgcolor="#FFFFFF" marginheight="0" style="font-family: arial,sans-serif;" topmargin="0"> 
+  <style type="text/css">body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif !important;
+}
+
+tr, td {
+	margin, padding: 0;
+}
+
+table[class="wrapper"] {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	font-size: 14px;
+	border: 1px solid #333;
+    
+}
+
+div[class="header"] {
+	background-color: #333;
+	
+	width: 100%;
+}
+
+div[class="header"] img {
+	margin-left: 10%;
+	height: 60px;
+	width: 125px;
+}
+
+div[class="title"] {
+	width: 90%;
+	margin: 0 5%;
+	padding-top: 45px;
+}
+
+div[class="title"] h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+div[class="date"] {
+	width: 90%;
+	padding: 2% 0 0 5%;
+}
+
+div[class="date"] p {
+	color: #cc0000;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+div[class="news_story"] {
+	/*border-top: 3px solid #000;*/
+	width: 90%;
+	padding: 0 10% 0 0;
+	line-height: 130%;
+	clear: both;
+}
+
+div[class="news_story"] img {
+	float: left;
+	width: 25%;
+	max-width: 150px;
+	padding: 3% 0 0 5%;
+}
+
+div[class="news_story"] div[class="story_teaser"] {
+	float: left;
+	width: 65%;
+	padding: 0 0 7% 5%;
+}
+
+div[class="news_story"] div[class="story_teaser"] h2 {
+	margin: 3% 0 3% 0;
+	line-height: 1.3em;
+	font-size: 1.5em;
+}
+
+div[class="news_story"] div[class="story_teaser"] p {
+	margin: 0;
+	clear: both;
+}
+
+div[class="news_story"] div[class="story_teaser"] a {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+div[class="call-to-action"] {
+	width: 90%;
+	padding: 1% 0 2% 5%;
+	clear: both;
+}
+
+div[class="call-to-action"] p a {
+	color: #cc0000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+div[class="footer"] {
+	width: 100%;
+	background-color: #cc0000;
+	color: #fff;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 1em 0 2em 0;
+}
+
+div[class="footer"] a {
+	color: #fff;
+}
+
+div[class="footer"] p[class="social"] {
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+div[class="footer"] p[class="social"] a {
+	text-decoration: none;
+}
+
+@media only screen and (max-device-width: 675px) {
+
+	table[class="wrapper"] {
+		width: 100% !important;
+	}
+	
+	div[class="header"] img {
+		margin-left: 2em !important;
+	}
+	
+	div[class="news_story"] img {
+		width: 100% !important;
+		max-width: 150px !important;
+		height: auto;
+	}
+
+	div[class="news_story"] div[class="story_teaser"] {
+		width: 90% !important;
+		padding: 0 0 0 5% !important;
+		margin-left: 0 !important;
+	}
+	
+	div[class="news_story"] div[class="story_teaser"] h2 {
+		font-size: 1.8em !important;
+	}
+	
+	div[class="news_story"] p[class="copy"] {
+		font-size: 1.3em !important;
+		line-height: 140% !important;
+	}
+
+}
+</style> 
+  <center> 
+   <table cellpadding="0" cellspacing="0" class="wrapper" style="max-width: 550px"> 
+    <tbody> 
+     <tr> 
+      <td> 
+       <div class="header" style="line-height: normal; padding: 0px"> 
+        <div style="line-height: normal; padding: 12px; color: #fff"> 
+         <p style="margin: 0">January 11, 2023</p> 
+        </div> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div class="title"> 
+        <h1 style="font-size: 40pt; padding: 0px; margin: 0">UPS</h1> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <table cellpadding="1" cellspacing="1" width="100%"> 
+        <tbody> 
+         <tr> 
+          <td align="center"> 
+           <table cellpadding="1" cellspacing="1" width="100%"> 
+            <tbody> 
+             <tr> 
+              <td align="center"> 
+               <table cellpadding="1" cellspacing="1" width="100%"> 
+                <tbody> 
+                 <tr> 
+                  <td align="center"> 
+                   <table cellpadding="1" cellspacing="1" width="100%"> 
+                    <tbody> 
+                     <tr> 
+                      <td align="center"> 
+                       <table cellpadding="1" cellspacing="1" width="100%"> 
+                        <tbody> 
+                         <tr> 
+                          <td align="center"><a href="http://www.take-ups.info/b6f4B2395V8F6Y12p4611Vh10c0m21yFv4GIf4rxvs4FhIHEsvZ7pQqdRdK6vDCR106D@OwD@/hushes-parched"><img alt="" src="http://www.take-ups.info/Matilda-magna/7746O2_W395O7ayL11s4613h10c0O21qFv4GIf4rxvs4FhIHEsvZ7FQqdRdK5Q10zs6y1wTUD" width="100%" /> </a></td> 
+                         </tr> 
+                        </tbody> 
+                       </table> </td> 
+                     </tr> 
+                    </tbody> 
+                   </table> </td> 
+                 </tr> 
+                </tbody> 
+               </table> </td> 
+             </tr> 
+            </tbody> 
+           </table> </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <div class="date"> 
+        <p align="center" style="font-size: 22pt; color: #000">Get just a few clicks away from The $100 <b>UPS</b> Card, by completing our 20-Second Service Survey about your recent experience with us.</p> &nbsp; 
+        <center>
+         <a href="http://www.take-ups.info/b6f4B2395V8F6Y12p4611Vh10c0m21yFv4GIf4rxvs4FhIHEsvZ7pQqdRdK6vDCR106D@OwD@/hushes-parched" style="text-decoration: none; font-size: 26px; color:#3C4121"><span style="display: block; max-width: 200px; border: solid 2px #3C4121; padding: 15px; border-radius: 5px; text-align: center; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'"><b>Start Now Here</b></span></a>
+         <br /> &nbsp; 
+         <p style="mso-line-height-rule:exactly; line-height:150%; text-align: center; font-size: 22px">Your input is important to us and will help us improve our stores and the products and services we offer</p> 
+        </center> 
+       </div> 
+       <div class="news_story"> 
+        <div class="story_teaser"> 
+         <h2 class="headline">&nbsp;</h2> 
+         <p class="copy">&nbsp;</p> 
+         <p class="copy">&nbsp;</p> 
+        </div> 
+       </div> 
+       <div class="news_story"> 
+        <div class="story_teaser"> 
+         <h2 class="headline">&nbsp;</h2> 
+         <p class="copy">&nbsp;</p> 
+         <p class="copy">&nbsp;</p> 
+        </div> 
+       </div> 
+       <div class="news_story"> 
+        <div class="story_teaser"> 
+         <h2>&nbsp;</h2> 
+         <p class="copy">&nbsp;</p> 
+         <p class="copy">&nbsp;</p> 
+        </div> 
+       </div> 
+       <div class="call-to-action"> 
+        <p>&nbsp;</p> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td> 
+       <div class="footer"> 
+        <p>&nbsp;</p> 
+        <p>&nbsp;</p> 
+        <p>&nbsp;</p> 
+        <p class="social" style="font-size: 14px; font-weight: normal"><span style="text-decoration: none;">No longer want to receive information?,</span><a href="http://www.take-ups.info/24b4a2395h8Zx612L4T612B10c0j21mFv4GIf4rxvs4FhIHEsvZ7PQqdRdK6hq10qA6lJ3wDO/cartographer-precinct" style="text-decoration-line: none; color: red"> <span>Click-Over-Here </span> </a><br /> 126 E 23rd St New York, NY, US 10010<br /> <br /> <br /> <br /> <br /> <br /> [randomhtml</p> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </center>   
+ <img src="http://www.take-ups.info/7914v2395G8GF512Sq4614G10c0l21CFv4GIf4rxvs4FhIHEsvZ7zQqdRdK6r10Zmu5Yk@wD/flowcharts-happens" alt=""/></body>
+</html>
+
+------=_Part_79_312792297.1673463889575--
+

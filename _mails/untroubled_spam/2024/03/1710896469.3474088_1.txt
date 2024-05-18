@@ -1,0 +1,84 @@
+Return-Path: <securedatainfo3@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3464913 invoked from network); 19 Mar 2024 19:37:39 -0000
+Received: from mail-yb1-xb2b.google.com (mail-yb1-xb2b.google.com [IPv6:2607:f8b0:4864:20::b2b])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 19 Mar 2024 19:37:39 -0000
+Received: by mail-yb1-xb2b.google.com with SMTP id 3f1490d57ef6-dcc80d6004bso5589815276.0
+        for <bruce@untroubled.org>; Tue, 19 Mar 2024 12:37:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1710877059; x=1711481859; darn=untroubled.org;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :in-reply-to:references:mime-version:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=NjZlYXfZ88mUhr0N6R1fvuBR2U295HWF3k1Z/XW4LJg=;
+        b=fVzW2bttSXfFzkhEbL0qgnAs3LkQ+cvDihgwxc5LBksJBSnioGrBhG3buSKVKYxVUZ
+         QFgUedKrmLN7ME+3QLke584kw/tu7jujHDJj7a+RLiGZH9wxGNTCzhsD9cpk6mhjzF5q
+         hBHVZGoJrfPwOShPbQuqGRZx/+UZaEIV8zwG9vpNLBOPFbK+2AndxUSMcWOuHJh9LLfI
+         uLHZsPjwQqliyvQxYEHPKYuNIdZsyxWx0F4ikRmqfQyJJQ+FyxUv/2kcqbpnWR7TOG4l
+         6/1m9943UkC2zxzvwDxblxxRJ3PKJwaVVAX7hbaOrFmNADLrROloCxkNN1EAx4GD/lsj
+         fKnA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1710877059; x=1711481859;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :in-reply-to:references:mime-version:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=NjZlYXfZ88mUhr0N6R1fvuBR2U295HWF3k1Z/XW4LJg=;
+        b=hAK4mLEjwxVUNtyvAFll/3++sSgrMwUzeo5pRYw/FXL9wtNlKT/nXovQu0dH7E9nGs
+         X9poQ9/N7w4Pw2YkpKltd40Pp23DDo0huxfR9NyopD2wldwQ5d3TIJi6ooLP86yKZ3Z6
+         CTTNBVPMt3rxiRQ12yX2G1770RIZWjUe9cbnzHQD+X5MOcz0Gr3shW2APy2k+iuQU9T8
+         FQoHp8A6m0Rj0UpmIElULqNm2o0NhNplxrXxakUkO+sTagv6RdCFGP2UIrtm+ob6ko4c
+         l6bGa7EWfa5lIcG5eDna9WbHQDMu8nv04HhIgkrqzXVWVlFPVtSBY59T5eHS+w30xv/0
+         2EFQ==
+X-Forwarded-Encrypted: i=1; AJvYcCVYoQxTLA93qPMD1PSrJJ0w2ldsx2wBAS4qI/SOo/7ezYNyD4LVhf3ujwv/C+7gjBm3H5gCQvRUzjqy5KyiUE8sEUmwGw==
+X-Gm-Message-State: AOJu0YyeGFPx1RJxwTakI8drVgrpGN98oVZ9rsNY5rIhWsC2LU19YvVO
+	Dgpx2Behkdef3o0p6Op9F5S5LYOj4Ey7XUqO7+doXhhGGdw6RydlfrS79U2sFmPyiLsK6CGcZCB
+	7Az3UKHEM4GUmaj3JUWGrecBTbmk=
+X-Google-Smtp-Source: AGHT+IHpC9yr1jtVprviDoA8DuL3Q5Fy+cPRrvRLW2HSUCOyWsa7hVdKuDtan3yTMrtrK4Yg+/MoUJ0jF0fTKOagc38=
+X-Received: by 2002:a25:a28d:0:b0:dc6:4b66:2636 with SMTP id
+ c13-20020a25a28d000000b00dc64b662636mr12350451ybi.19.1710877058800; Tue, 19
+ Mar 2024 12:37:38 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAChF1wCoCYVaw+eOuXuDPWrAygn2AByFrcykPoWb1VZZ=9s4MA@mail.gmail.com>
+In-Reply-To: <CAChF1wCoCYVaw+eOuXuDPWrAygn2AByFrcykPoWb1VZZ=9s4MA@mail.gmail.com>
+From: Lilly anna <securedatainfo3@gmail.com>
+Date: Tue, 19 Mar 2024 14:37:22 -0500
+Message-ID: <CAChF1wATtkWPTT7NFMaUXsWWxpLv1wbp25t5-UqGhRtm+b=+Ww@mail.gmail.com>
+Subject: Re: Veterinary Professionals Data List 2024
+To: Lilly anna <securedatainfo3@gmail.com>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Bcc: bruce@untroubled.org
+Content-Length: 608
+
+Hi,
+
+How are you doing today? Did you have the chance to review my previous
+email with the follow up below request, I am wondering if it actually
+reached you.
+
+Kindly let me know your interest on this
+
+Thanks and waiting for your response.
+
+Kind Regards,
+Lilly Anna
+Marketing Coordinator
+
+
+On Fri, Mar 15, 2024 at 5:23=E2=80=AFPM Lilly anna <securedatainfo3@gmail.c=
+om> wrote:
+>
+> Hi,
+>
+> Would you be interested in acquiring Veterinary Professionals Data List 2=
+024?
+>
+> No of Contacts:- 30,526
+> Cost: $ 2,689
+>
+> Looking forward for your response,
+>
+> Kind Regards,
+> Lilly Anna
+> Marketing Coordinator

@@ -1,0 +1,288 @@
+Return-Path: <info.3B8EA9AZMCR28BC3J02P9ZO7AV2ND9CMQQ6Q@kisphuket.ac.th>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1431659 invoked from network); 21 Dec 2023 19:06:53 -0000
+Received: from APC01-PSA-obe.outbound.protection.outlook.com (mail-psaapc01on2062.outbound.protection.outlook.com [40.107.255.62])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 21 Dec 2023 19:06:52 -0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=U+0e45BcA7/9q6YcwANEtURPc8ncyTVnaqNEzny3gWkpgHr0T8VSvtwOYwpr8KxA9GpLhS0ikQc+EJIaJ89iJpDJk+MT1wSUMtpfOGpX8lZPG/eSki8l8vlUwpVIT3WKR3+a2RHMdOk85PNmZ32lbb/MgRLLtmgfUVSDXiipNsWlEDBXxMNTO+P7Pkm0GV29THjnqIqMzmeN03ZXNVnG2ibPm94/9Yq5khcdUI4zF6NTpSS7K2agSvB8gNXUKMTLF3oHjVrLBsbDLZdWkfC4+8SHlYoCGG3jFT3QoW5G+F6xnIRPRJMcJz7GwaG+TC6QAPbwvmcHOPmWULugFGOoJQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=eI8cDTYjgAXVgWBiXZmyb6cMOwhLMDGQldQeptXocHE=;
+ b=FpjA6bOp3CLBoeN0WxrfZqWAJQO6xfkgFFeWVeg5To7gaX6E/QO8nQhQzYthIKU8An5ZoWA9B6iamPuj4cl/uslhPS5zuy7fT+dEj/hHR4+ApQrZoyC4RNQBm+zBwPLa+zqIq/iy1Wfnwvljga2wV72LyWW/HN/yRh0exiKd4ugiBWBTsIbwq8Lx7TgWxCS2Cb80gJfHBw89j9KgFpqgWpFJgPQW6i4Qr57FD1seSFxhlKWmUn/ZTqmwATt01G+IvHWB03QB9OPrVRmdHKGCkW7/Y+42A3MkO/tLVHsJOWUPSEpze6ReOELpNMWRbNnLY2FVElp8NVW9VaKXfae4JA==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=none (sender ip is
+ 185.66.141.131) smtp.rcpttodomain=untroubled.org
+ smtp.mailfrom=kisphuket.ac.th; dmarc=none action=none
+ header.from=mypanier.com; dkim=fail (signature did not verify)
+ header.d=ksd3.klaviyomail.com; dkim=fail (signature did not verify)
+ header.d=sendgrid.info; arc=fail (47)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=kispacademy.onmicrosoft.com; s=selector2-kispacademy-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=eI8cDTYjgAXVgWBiXZmyb6cMOwhLMDGQldQeptXocHE=;
+ b=x+I4fP7WNG/Qo7/n5BOXSJanGo3JtEn+yY/uVuAt1DMHMEPzpGmwEu1Mm5kmEFAKLwfWiHbrn9XFkUp+K3IS5PHBbik4UjnL/w78WC6YaJXD44Hk5ZWdl8umzITZPzXYgOGeyze5FD0SHCcOBu1ExNiMKpN6P+FLJPF4pzjfdvw=
+Received: from SI2PR01CA0046.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:193::18) by TYZPR06MB5482.apcprd06.prod.outlook.com
+ (2603:1096:400:287::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.21; Thu, 21 Dec
+ 2023 19:06:46 +0000
+Received: from HK3PEPF00000221.apcprd03.prod.outlook.com
+ (2603:1096:4:193:cafe::45) by SI2PR01CA0046.outlook.office365.com
+ (2603:1096:4:193::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.21 via Frontend
+ Transport; Thu, 21 Dec 2023 19:06:45 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 185.66.141.131)
+ smtp.mailfrom=kisphuket.ac.th; dkim=fail (signature did not verify)
+ header.d=ksd3.klaviyomail.com;dmarc=none action=none
+ header.from=mypanier.com;
+Received-SPF: None (protection.outlook.com: kisphuket.ac.th does not designate
+ permitted sender hosts)
+Received: from kisphuket.ac.th (185.66.141.131) by
+ HK3PEPF00000221.mail.protection.outlook.com (10.167.8.43) with Microsoft SMTP
+ Server id 15.20.7113.14 via Frontend Transport; Thu, 21 Dec 2023 19:06:44
+ +0000
+Reply-To: madyousifg58@stu.madisondistrict.org
+Received: by 2002:a59:cca4:0:b0:43c:5856:5afa with SMTP id p4csp289620vqv;
+        Thu, 21 Dec 2023 08:43:05 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IF3zhOPdZhj//L9WzWtM98/3ucs40+CiioYyd6dezouEnNbiPpNkvpOZ2kOUXXwq8TSg58h
+X-Received: by 2002:a05:622a:148e:b0:427:759a:44ab with SMTP id t14-20020a05622a148e00b00427759a44abmr4860022qtx.106.1703176985165;
+        Thu, 21 Dec 2023 08:43:05 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1703176985; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XmQGi3MmrRCcNejDwrauYIh8i0BsLFe+C7gOYS3AB3gRCh0IiuD5wZiaUgaIO4pAWA
+         1mW1kzhND07DCDcrE77fp5DLXFj5MJedBV9BOA+lG9QLBcS8KvUd7zLlqrmHzbjmp8Dl
+         BUrHYiTyjrpwipnc+6Gc8gS0/EjsRjrknyoKmCrri8H+MI1i8i/CT6eBDqJyHeSjih08
+         qU3swobnpihfMTx5vO8tKASt39cIIBa4KYDOOrP6WgyuhnI6oAgCNSeaVucW6DP/OwkU
+         PAajB8xl0zUnQFpmDAKUsOXrXcaznzUkiQ1ULt0CvDZTMUkND+VzsA7KF2pm+or89fkL
+         A56g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:list-unsubscribe:feedback-id:subject:message-id:mime-version
+         :from:date:dkim-signature:dkim-signature;
+        bh=FsfjDbCEIpAfH4noi5ytH0IjK2BwpdkefXCOiNSloOU=;
+        fh=McLkFaVqiEj1fAQpcziJYrDA8PaKVZhfVuLZobZj3zE=;
+        b=Mrik9/FGwJWgOR76yi0jSj8Llzr8DIWvEn0vF0j8N6aUjrMOUXc4FXJMba7CA8xeKT
+         sqwdfKh2gJLWfnwI0OA7FD2TySKsURebjMwgUu0FAlOKFAGl+g7+86//n+dcVGNFkF14
+         tGrTPIPgvgaW44//qq6Vt/3pJUbf/vhWBXDHTbGqRE7XkrpfFjNCyUFXJs9cbrw8QlN0
+         BbwWfn934nWI/N/GYIiv0toanfcw7+9dxB1xd7dc/XJ+B5MGVdLv8eetU5P1ebJGV4kY
+         f9mz9WqJj2aBVVxUHMjbvWpeYs2YWQExVz2KtHeYC/qkbyIXkXay/UFyrn4lIE1Q97pe
+         kOug==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ksd3.klaviyomail.com header.s=m1 header.b=DaJx4u2Z;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="eYZXLJf/";
+       spf=pass (google.com: domain of bounces+10036157-a57c-abdelmoutalebjilali=gmail.com@send.ksd3.klaviyomail.com designates 167.89.75.102 as permitted sender) smtp.mailfrom="bounces+10036157-a57c-abdelmoutalebjilali=gmail.com@send.ksd3.klaviyomail.com"
+Return-Path: info.3B8EA9AZMCR28BC3J02P9ZO7AV2ND9CMQQ6Q@kisphuket.ac.th
+Received: from o1323.shared.klaviyomail.com (o1323.shared.klaviyomail.com. [167.89.75.102])
+        by mx.google.com with ESMTPS id 4-20020ac85704000000b004277b584742si2481800qtw.505.2023.12.21.08.43.05
+        for <abdelmoutalebjilali@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 21 Dec 2023 08:43:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+10036157-a57c-abdelmoutalebjilali=gmail.com@send.ksd3.klaviyomail.com designates 167.89.75.102 as permitted sender) client-ip=167.89.75.102;
+Authentication-Results-Original: mx.google.com;       dkim=pass
+ header.i=@ksd3.klaviyomail.com header.s=m1 header.b=DaJx4u2Z;       dkim=pass
+ header.i=@sendgrid.info header.s=smtpapi header.b="eYZXLJf/";       spf=pass
+ (google.com: domain of
+ bounces+10036157-a57c-abdelmoutalebjilali=gmail.com@send.ksd3.klaviyomail.com
+ designates 167.89.75.102 as permitted sender)
+ smtp.mailfrom="bounces+10036157-a57c-abdelmoutalebjilali=gmail.com@send.ksd3.klaviyomail.com"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ksd3.klaviyomail.com; h=content-type:from:mime-version:subject:list-unsubscribe:x-feedback-id: to:cc:content-type:from:subject:to; s=m1; bh=FsfjDbCEIpAfH4noi5ytH0IjK2BwpdkefXCOiNSloOU=; b=DaJx4u2Z8ric10D5U9vTwYU1VNhUrm0+RqyZ9inAAeW7lBZeE7bnYJ4C9iNjwV0igQQi m7IYOGJEwFBWGsTlwAHFf2r4Vy3oGGOjUifYThS1YZnjlah5dwkZejmfHHb69nDA3YkYy5 PLz24mVHLqKCJdk2xFMFiYO4E3yf7c4ak=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=content-type:from:mime-version:subject:list-unsubscribe:x-feedback-id: to:cc:content-type:from:subject:to; s=smtpapi; bh=FsfjDbCEIpAfH4noi5ytH0IjK2BwpdkefXCOiNSloOU=; b=eYZXLJf/6z8K+QE64XdGLKdZQap8kPZF8A0YeONmkgIJ5fU9GkJNi40j0/F+9Zwjqxxa wG2bIyMj7nwB/wtX0vOwgxUdFcvUs5mBjN+rE9RSmkddzyBA8o/M/OhvyvbVW5bMgXIhof PhwTdORlrHkqNUEP2udcm2F5gUUsc1aig=
+Received: by filterdrecv-7d9554bd5c-h8hfd with SMTP id filterdrecv-7d9554bd5c-h8hfd-1-65846B18-56
+        2023-12-21 16:43:04.897624725 +0000 UTC m=+5608883.331002834
+Received: from MTAwMzYxNTc (unknown) by geopod-ismtpd-13 (SG) with HTTP id BUrHifN_Q1u7AFWM5ibftQ Thu, 21 Dec 2023 16:43:04.872 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=fefe87c7eccf8dddbf29d24ee5c6bd1d96535af9c305db18cdc2140ad71c
+Date: Thu, 21 Dec 2023 11:06:43 -0800
+From: "myPanier - Gourmet & European Goods" <hello@mypanier.com>
+Mime-Version: 1.0
+Message-ID: <BUrHifN_Q1u7AFWM5i28i0nyfibftQ@geopod-ismtpd-13>
+Subject: RE: View Ticket #US-24090545
+Feedback-ID: PtqUEh:25032814703:kl
+X-Kmail-Message: 01HJ4B7M3RCCFPFPMDDG0H206Q
+List-Unsubscribe: <https://manage.kmail-lists.com/subscriptions/unsubscribe?a=PtqUEh&c=01H3SMP2KTJM92FESW1Q150XX1&k=b660afef244e3bba0d7e244c07fcfedf&m=01HJ4B7M3RCCFPFPMDDG0H206Q&r=35MHxnGC>
+X-Kmail-Ops: 01H3SMP2KTJM92FESW1Q150XX1
+X-Kmail-Account: PtqUEh
+X-Feedback-ID: 10036157:SG
+X-SG-EID: 5UKWAh6RSMU0q1fTcE3O+HSdsDYS1ZZqzHpmsIs7n2IpjwkdLgelkgpOzbHspTYEM6/SUzEkH6VxF9e2l1YWejiUDtyWy5WPQwlKejV54uCVkQ/xXERtrM9+PCGtbDgYvCKnZ48nGQp9YYi/2krXwbFc4InCnXPoW3eASLsnVqgI2ygG8F6wAO3h4nU5TW+l5fMtdbD+HfCk7b2oN2zs0nMo654C2k+Wl52SNOH8MfbZTvdaCUw+hugszjNTsyVTxMxD+WtmViQBQUDRc7Xbw6F0RlXy1G2OGtlskFmrwx0=
+X-SG-ID: N2C25iY2uzGMFz6rgvQsb3WdckyvbC2eFaxvdDHn8D1nndBBW0fUClUlZF2fTQ6KgbUgsoekx/pMA+4AP/4rwyXuHM3tU1M1HxWcAH79m3Aegq4pEXirT/8Tqj70c93/+gPl4A60MoyKq3v0E3L0jYMBGJtalHWLsbBO8qSIcxpnTBQtfvZtnqXVqN+MPV1/CzfFIJHhk4xW6sDZqVlZD4eLaghQCmmTXIwGk3OXvgN6N1NQjTWoxdIJubgQRiGLo9m0JVvvxWIL4Lrf8GVTIw==
+To: bruce@untroubled.org
+X-Entity-ID: kA1Tylsnd7RhvqTDsYOxyg==
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: HK3PEPF00000221:EE_|TYZPR06MB5482:EE_
+X-MS-Office365-Filtering-Correlation-Id: e6636348-f80d-455e-440c-08dc0257f981
+X-MS-Exchange-SenderADCheck: 2
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	eb54gTm+7DG0vySiB20qKcLznMdkPjFWWu+udSUoOE2bfR0VBq2ScbITM06SSkMDO2j7HEMPCnImt277YO+KubH0eY/+rSv0PM+YcMyd6MDdqI8XfoWYMwqMO+7I+QZUj226CilU/6R0WWFHj4tA4uk96dDUfGa8B4HRi78eJ9nNc5348Nnb82UJwsJb136GqsEGRX8M9/qPcv97d8uAKN3zZ4Ot/vJ8wY8n6dePeJmNV9ypYJJm34GpMjnOrwt7iWNxQcfnAMNxhEOr3D0xPLs/hvx1USowoa68X/FRaYknm9HUwENPuw7OLZdC6mCQkh/viyEJBXiODJyMXnPCxveKjIFEEDbNCEQjN4DRdMrM7BJ3/xslW45wfCu3IMpFqsQlbs3KSeJBH0BAXozdhe+SCUzTxyaL0bx4QLH5i12bmhktfcGRTlYag0SnlekbBmBEDXnTXo1IJ6L8r+2nmXBkPCWHQ7LwluqAFE4qRzVIv0NqbhtV9Ui4XA2v8tTdHjlZnKqiju7jmFj2rD51vLGr5oEF/f/X8pGHcNp9l63SckssztgaAwtrbGO64J6MZEwQ25z43I38dwrMunTxFA2LDBnXOZp+w4zWs/EAkktDRnJ3eKcVHRclR3MD+KdOyFfk54J6j4srh9OqYl2BrMJw1D+Ab5XzoGv5GMcxG4X2jPi/CYtym3Oy5BFAJEXKccfduLlxElVnXBECgPpC2g8g+4hGU3pUb9PUf8QzBZHipdum4A2z101vmOpQuq504IOkrg4MR9fbe4fw8xO4Zg==
+X-Forefront-Antispam-Report: 
+	CIP:185.66.141.131;CTRY:BZ;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:kisphuket.ac.th;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230031)(7916004)(396003)(136003)(376002)(346002)(39850400004)(230922051799003)(82310400011)(186009)(48200799006)(61400799012)(64100799003)(451199024)(46966006)(36840700001)(40470700004)(6916009)(26005)(83380400001)(70586007)(786003)(316002)(70206006)(336012)(9686003)(478600001)(40480700001)(40460700003)(966005)(42882007)(8676002)(8936002)(235185007)(5660300002)(34020700004)(2906002)(66899024)(47076005)(36860700001)(41320700001)(356005)(82740400003)(33716001)(81166007)(41300700001)(83170400001)(33964004)(1406899027)(5006899006)(84790400001)(36900700001);DIR:OUT;SFP:1101;
+X-OriginatorOrg: kisphuket.ac.th
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Dec 2023 19:06:44.6957
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e6636348-f80d-455e-440c-08dc0257f981
+X-MS-Exchange-CrossTenant-Id: 4311bc69-1519-4439-aec6-649f4966029d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=4311bc69-1519-4439-aec6-649f4966029d;Ip=[185.66.141.131];Helo=[kisphuket.ac.th]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	HK3PEPF00000221.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYZPR06MB5482
+Content-Length: 3926
+
+--fefe87c7eccf8dddbf29d24ee5c6bd1d96535af9c305db18cdc2140ad71c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Hello,
+
+The invoice has been marked as paid.
+
+Need anything else? Just let us know. We're here to help.
+
+Regards,
+Support Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[visit website >](https://www.mypanier.com/discount/HOLIDAYDRINKS)
+
+[NEW ARRIVALS](https://www.mypanier.com/collections/newest-products)
+[HOLIDAY SEASON](https://www.mypanier.com/discount/CHOCOLATETRUFFLES?redire=
+ct=3D%2Fpages/holiday-gift-guide)
+[BEST SELLERS](https://www.mypanier.com/collections/best-selling-products)
+
+[Shop Teisseire on sale today >](https://www.mypanier.com/discount/HOLIDAYD=
+RINKS?redirect=3D%2Fcollections/teisseire)
+
+=E2=80=8A
+
+Green Mint, Lychee, Hazelnut.. Infuse your drinks this Holiday season with =
+the Teisseire collection of 45+ flavors, on sale today.
+
+[Shop 15% OFF](https://www.mypanier.com/discount/HOLIDAYDRINKS?redirect=3D%=
+2Fcollections/teisseire)
+
+=E2=80=8A
+
+[Shop the Holiday Collection >](https://www.mypanier.com/collections/holida=
+y)
+
+=E2=80=8A
+
+Get ready for New Year's Eve! Shop[holiday specialties](https://www.mypanie=
+r.com/discount/HOLIDAYDRINKS?redirect=3D%2Fcollections%2Fholiday)for a pani=
+er full of exquisite wonders.
+
+=E2=80=8A
+
+=E2=80=8A
+
+[Why myPanier? Learn more >](https://www.mypanier.com/pages/about)
+
+=E2=80=8A
+
+[The largest online collection of sweets imported from France in the US! Sh=
+op French >](https://www.mypanier.com/collections/france)
+
+=E2=80=8A
+
+[Buy now, pay later with SHOP PAY](https://www.mypanier.com/discount/MYDAIL=
+YCHOCOLATE)
+
+[Easy, fast and secure checkout](https://www.mypanier.com/discount/MYDAILYC=
+HOCOLATE)
+
+[Download the app(etite) on APPLE STORE >](https://apps.apple.com/us/app/my=
+panier/id1587949981)
+
+[GOOGLE PLAY >](https://play.google.com/store/apps/details?id=3Dco.tapcart.=
+app.id_cDMOyGBbPo&hl=3Den_GB&gl=3DUS&pli=3D1)
+
+=E2=80=8A
+
+[Download the app(etite) on the APP STORE >](https://apps.apple.com/us/app/=
+mypanier/id1587949981)
+
+[GOOGLE PLAY >](https://play.google.com/store/apps/details?id=3Dco.tapcart.=
+app.id_cDMOyGBbPo&hl=3Den_GB&gl=3DUS&pli=3D1)
+
+=E2=80=8A
+
+[Tiktok](https://www.tiktok.com/@mypanier)
+https://www.facebook.com/mypanier/
+https://www.instagram.com/mypanier/
+https://www.pinterest.com/mypanier/_shop/
+https://twitter.com/mypanier
+
+[FREE SHIPPING | GOOGLE TRUSTED | A+ BBB RATED](https://www.mypanier.com/di=
+scount/CHOCOLATETRUFFLES)
+
+=E2=80=8A
+
+[Carbon neutral shipping on all orders. Learn more >](https://www.mypanier.=
+com/pages/climate-commitment)
+
+=E2=80=8A
+
+*20% OFF promotion applies to the [Teisseire collection](https://www.mypani=
+er.com/discount/HOLIDAYDRINKS?redirect=3D%2Fcollections/teisseire). Must us=
+e promo code: HOLIDAYDRINKS at checkout to redeem. Valid until 11:59pm PST =
+12/22.
+
+=E2=80=8A
+
+myPanier.com 27136 Burbank Foothill Ranch, CA 92610
+
+Would you like more personalized content? [Manage Preferences](https://mana=
+ge.kmail-lists.com/subscriptions/update?a=3DPtqUEh&c=3D01H3SMP2KTJM92FESW1Q=
+150XX1&k=3Db660afef244e3bba0d7e244c07fcfedf&m=3D01HJ4B7M3RCCFPFPMDDG0H206Q&=
+r=3D35MHxnGC). I wish to no longer receive exclusive email offers and annou=
+ncements: [Unsubscribe](https://manage.kmail-lists.com/subscriptions/unsubs=
+cribe?a=3DPtqUEh&c=3D01H3SMP2KTJM92FESW1Q150XX1&k=3Db660afef244e3bba0d7e244=
+c07fcfedf&m=3D01HJ4B7M3RCCFPFPMDDG0H206Q&r=3D35MHxnGC). Learn more about ou=
+r [shipping policy here](https://www.mypanier.com/pages/policies).
+--fefe87c7eccf8dddbf29d24ee5c6bd1d96535af9c305db18cdc2140ad71c
+Content-Type: message/external-body; access-type=x-deleted; length=92076
+
+
+Content-Type: application/octet-stream; 
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment; filename="=?UTF-8?B?SW52b2ljZSBGaWxlIEFkb2JlIENocmlzdG1hcyAuSFRN?="
+
+--fefe87c7eccf8dddbf29d24ee5c6bd1d96535af9c305db18cdc2140ad71c--

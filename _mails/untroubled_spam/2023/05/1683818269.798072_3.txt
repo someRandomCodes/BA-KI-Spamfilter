@@ -1,0 +1,175 @@
+Return-Path: <sara@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 791896 invoked from network); 11 May 2023 10:34:09 -0000
+Received: from mail-ej1-x62c.google.com (mail-ej1-x62c.google.com [IPv6:2a00:1450:4864:20::62c])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 11 May 2023 10:34:09 -0000
+Received: by mail-ej1-x62c.google.com with SMTP id a640c23a62f3a-956ff2399c9so1611651066b.3
+        for <bruce@untroubled.org>; Thu, 11 May 2023 03:34:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20221208.gappssmtp.com; s=20221208; t=1683801247; x=1686393247;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=LKRhzH2F96YMxG+5rgOtqCsLvS1dnFior2W4kO/cRSo=;
+        b=FRc+2C8Fzfk+vaoCa1zRax6ksRMqzUvnLPhfnG1825Q02uS2djzQjPK1gCknMRkCjE
+         t0M5eODjxjWC85Zqer7uAIdxMYRdmSqLuAnM0UGXhF4FwxNZjQnIuZA6Ik9bV/vLc0Kw
+         wBdxC8SxinYLgMnvRZiKFBu4KSMQx3xEqPTXm+zgag/3Vg8Ro3MANGsOdghyB04Hqz8f
+         YIrtvVUpNRFDor9nPMPdyCHgEoK8TF4cjHRTNArR1jDcUJn0cuc5SyG+QmzwDit9xUXD
+         6Z4RSnravUM8EQPMmY2KG9eOPK9a+vhbId2i+20Y9PV+j5CMjcUS9jIliWzo03RKrlVX
+         VevQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683801247; x=1686393247;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=LKRhzH2F96YMxG+5rgOtqCsLvS1dnFior2W4kO/cRSo=;
+        b=jEF6vQ228AjHhcB0wDzMWYu81L0IRCKRXjWO3VIv2AljMW1bwKTBizk3fxvuNGYYVH
+         Mu7DT16eP33Gf6IAe4s53MGhExLgpMuAH4DbqkHQNfXgDgw1haiumh0TC+7XPEKDJoYI
+         AcOAPaT7LdkH0J4G/w4zUs7yB167oe+qBDea2fMPXG5h+o3bn65FSeK2VVJErU/9ZzLm
+         O7Va0fxk3Pf9eohA/IPb+MFltWo5/Nc4SK//UdQMLFq8lXLXzXbYmYf9n9tj36PBjYH7
+         HpjBKdVi+SBI4lUMa6M+loLiUBY6vnNIqFSsMIZ8JYnVezqoxd1f5xSsaJTGzOX9CU8/
+         4jYQ==
+X-Gm-Message-State: AC+VfDzm+i+1h2jcD0AS8QcFEsVbZqhfvlM3qpBA8UXcLQUi7G+qzpI/
+	CUriL8RQPSzsoSv56BT9BCUZtgydPX2qt0E4fXOwSq+JDOmUS1sP
+X-Google-Smtp-Source: ACHHUZ5IKHhL3J5AtfXlUKgr/3PxhczSgUvDYzMEgt+VBhQrGcq0tbApc39Bnj0O1/j11XaLD0/InRvKXH0ipJwn4XA=
+X-Received: by 2002:a17:907:d91:b0:933:4d37:82b2 with SMTP id
+ go17-20020a1709070d9100b009334d3782b2mr18778429ejc.57.1683801247060; Thu, 11
+ May 2023 03:34:07 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 11 May 2023 03:34:06 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 11 May 2023 03:34:06 -0700
+MIME-Version: 1.0
+Sender: Sara <sara@smartstreamingott.com>
+From: Sara <sara@smartstreamingott.com>
+Date: Thu, 11 May 2023 03:34:06 -0700
+X-Google-Sender-Auth: dczwBd0HVaqum2aUQ9iWUsvmC3Y
+Message-ID: <CAGWcFWikyqtCTSro0y_1RWH01KK-+my3dV4C_CwSLtXGU1aS0A@mail.gmail.com>
+Subject: About Your : untroubled.org
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000003420df05fb688784"
+Content-Length: 6930
+
+--0000000000003420df05fb688784
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi *untroubled.org <http://untroubled.org> *Team,
+
+
+
+I noticed something really interesting while checking through your
+website *untroubled.org
+<http://untroubled.org>.*
+
+It's apparent that you have used Ad Words marketing to promote your
+business in the past, however, your website does see some organic search
+traffic here and there. Now, I believe I can help enhance that portion of
+organic traffic significantly at *untroubled.org <http://untroubled.org>.*
+
+I believe you would like to come top on searches for potential traffic
+driven keywords related to *untroubled.org <http://untroubled.org> **... *I
+found a number of relevant keywords to your business aren't in the 1st
+Page, that's stopping you from getting that traffic.
+
+I guarantee you will see a drastic change in your search ranking and
+traffic once these issues are fixed. Also, this is one time, so no paying
+Ad Words every month.
+
+
+Is this something you are interested in?
+
+If yes, please allow me to send you a *no obligation report and **quote*.
+
+Hoping to hear from you and take this business partnership ahead.
+
+
+*Kind Regards,*
+
+
+
+*SaraBusiness Analyst.*
+
+
+PS 1: Please answer our email with =E2=80=9C*Web Analysis Report*=E2=80=9D =
+so that we will
+know the status of your inquiry and act accordingly. If you are interested
+then I will send more details on our =E2=80=9C*corporate identity*=E2=80=9D=
+, =E2=80=9C*company
+profile*=E2=80=9D, =E2=80=9C*why you should choose us*?=E2=80=9D, =E2=80=9C=
+*Price list*=E2=80=9D.
+[image: beacon]
+
+--0000000000003420df05fb688784
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:normal;background-image:initial;background-position:initial;backg=
+round-size:initial;background-repeat:initial;background-origin:initial;back=
+ground-clip:initial"><font face=3D"arial, sans-serif">Hi=C2=A0<b><span styl=
+e=3D"color:blue;background-image:initial;background-position:initial;backgr=
+ound-size:initial;background-repeat:initial;background-origin:initial;backg=
+round-clip:initial"><a href=3D"http://untroubled.org">untroubled.org</a>=C2=
+=A0</span></b>Team,=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:=
+0in 0in 0.0001pt;line-height:normal;background-image:initial;background-pos=
+ition:initial;background-size:initial;background-repeat:initial;background-=
+origin:initial;background-clip:initial"><font face=3D"arial, sans-serif">=
+=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-he=
+ight:normal;background-image:initial;background-position:initial;background=
+-size:initial;background-repeat:initial;background-origin:initial;backgroun=
+d-clip:initial"><font face=3D"arial, sans-serif">I noticed something really=
+ interesting while checking through your website=C2=A0<b><span style=3D"col=
+or:blue;background-image:initial;background-position:initial;background-siz=
+e:initial;background-repeat:initial;background-origin:initial;background-cl=
+ip:initial"><a href=3D"http://untroubled.org">untroubled.org</a>.</span></b=
+><b><span style=3D"color:rgb(61,133,198)"><br></span></b>=C2=A0<br>It&#39;s=
+ apparent that you have used Ad Words marketing to promote your business in=
+ the past,=C2=A0however,=C2=A0your website does see some organic search tra=
+ffic here and there. Now, I believe I can help enhance that portion of orga=
+nic traffic significantly at=C2=A0<b><span style=3D"color:blue;background-i=
+mage:initial;background-position:initial;background-size:initial;background=
+-repeat:initial;background-origin:initial;background-clip:initial"><a href=
+=3D"http://untroubled.org">untroubled.org</a>.</span></b><span style=3D"col=
+or:blue"><br></span><br>I believe you would like to come top on searches fo=
+r potential traffic driven keywords related=C2=A0to=C2=A0<b><span style=3D"=
+color:blue;background-image:initial;background-position:initial;background-=
+size:initial;background-repeat:initial;background-origin:initial;background=
+-clip:initial"><a href=3D"http://untroubled.org">untroubled.org</a>=C2=A0</=
+span></b><b>...=C2=A0</b>I found a number of relevant=C2=A0keywords to your=
+ business aren&#39;t in the 1st Page, that&#39;s stopping you from getting =
+that traffic.<br><br>I guarantee you will see a drastic change in your sear=
+ch ranking and traffic once these issues are fixed. Also, this is one time,=
+ so no paying Ad Words every month.=C2=A0=C2=A0</font></p><p class=3D"MsoNo=
+rmal" style=3D"margin:0in 0in 8pt;line-height:normal;background-image:initi=
+al;background-position:initial;background-size:initial;background-repeat:in=
+itial;background-origin:initial;background-clip:initial"><font face=3D"aria=
+l, sans-serif"><br>Is this something you are interested in?<br><br>If yes, =
+please allow me to send you a=C2=A0<b><span style=3D"color:black;background=
+:yellow">no obligation report=C2=A0and=C2=A0</span></b><b><span style=3D"co=
+lor:black;background:aqua">quote</span></b><span style=3D"color:black;backg=
+round:aqua">.<br><br></span>Hoping to hear from you and take this business =
+partnership ahead.<br><br><b>Kind Regards,<br></b></font></p><p class=3D"Ms=
+oNormal" style=3D"margin:0in 0in 8pt;line-height:normal;background-image:in=
+itial;background-position:initial;background-size:initial;background-repeat=
+:initial;background-origin:initial;background-clip:initial"><b><span style=
+=3D"color:rgb(0,0,255);font-family:&quot;Google Sans&quot;,Roboto;font-size=
+:14px;white-space:nowrap">Sara</span><br style=3D"color:rgb(0,0,255)"><span=
+ style=3D"font-family:arial,sans-serif;color:rgb(79,129,189)">Business Anal=
+yst.</span><br></b></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;l=
+ine-height:normal;background-image:initial;background-position:initial;back=
+ground-size:initial;background-repeat:initial;background-origin:initial;bac=
+kground-clip:initial"><font face=3D"arial, sans-serif"><b><span style=3D"co=
+lor:rgb(68,114,196)"><br></span></b><span style=3D"color:rgb(0,32,96)">PS 1=
+:=C2=A0Please answer our email with=C2=A0=E2=80=9C<b>Web Analysis Report</b=
+>=E2=80=9D=C2=A0so that we will know the status of your inquiry and act acc=
+ordingly. If you are interested then I will send more details on our=C2=A0=
+=E2=80=9C<b>corporate identity</b>=E2=80=9D, =E2=80=9C<b>company profile</b=
+>=E2=80=9D, =E2=80=9C<b>why you should choose us</b>?=E2=80=9D, =E2=80=9C<b=
+>Price list</b>=E2=80=9D.</span></font></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2avD_0G7oE=
+Z_StAghPuobBc9pDfO1pugkIeUIyl-0p4d6CWAKiAE1ZJodg-7C_1HzcqXD88e8dNctTIbSLbMR=
+3bDPYo7gvzEZjb60XnwJPkpkQHOFyIVCT_PbOWR0BrM4k4HkLK3npkJZov5hYZwWvZelgIeStQh=
+cV0il" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; displ=
+ay:none!important;">
+
+--0000000000003420df05fb688784--

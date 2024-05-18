@@ -1,0 +1,151 @@
+Return-Path: <mila@mobrilzed.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3517546 invoked from network); 21 Mar 2024 07:51:39 -0000
+Received: from mail-pj1-x1044.google.com (mail-pj1-x1044.google.com [IPv6:2607:f8b0:4864:20::1044])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 21 Mar 2024 07:51:39 -0000
+Received: by mail-pj1-x1044.google.com with SMTP id 98e67ed59e1d1-29de4e12d12so523516a91.3
+        for <bruce@untroubled.org>; Thu, 21 Mar 2024 00:51:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobrilzed.com; s=google; t=1711007498; x=1711612298; darn=untroubled.org;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=gtZtI2OD8KJxYC0uG0HoXuOhfzumwhDisMfeaRcD678=;
+        b=ZjuHu7pFFxNnWPJkQsKsjLat2UOo1Hc4qUwwwO8nrp9lumHIqbvucOlYFJ3wNyubuK
+         jNMEwNclHvqKvlJtsGc83QuiihwUoJLbO2rVPYW8ZiTHQfR2srEYQoOZYaP9WBLZ11na
+         5aWS0Pbwejsjt7O881dRmNSez0npCv4ZcUvut1IzmbHyPRcN7iifumi5Zef0tcdr3urz
+         BBHtyMn9p8MAYEfQ6cPqeq++xkL4Q3weltdf3Zy9VjcbwyBCgb89c4QkLTry1mZqyCzv
+         q7UC/XrS7MiMmBr3zccc43K6YK0j2NDWjyvxWMTMHOv/HtcZcCADecYt5gwodA5wPQJe
+         k33w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1711007498; x=1711612298;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=gtZtI2OD8KJxYC0uG0HoXuOhfzumwhDisMfeaRcD678=;
+        b=sjLtoyO35evqyRCIVbwPyhSlI3TXiavb+NV+xHyyej44E3H8jyNFQxhBLa+wo+nwKR
+         nedjVvdVXPPhhsKbSSS3gj0fOSF4nx47u83S7B3dzyXDwJ9zmVGLVb4IEGYvE6MFZZOM
+         PVGpwx0UHsYJdxTmp0TzC5Q3CqtP4i53KlgApmVY6fD5vgCjBqtrd9zp8n1MGxQcg5GD
+         jBTNlWdUwE2e/wJN5rlWQ3xKqQNlWpOVWt7OLwvYGlC7ukWOP4sSD3QTBjAY1/eozcaj
+         Tt/KzU+vaOT2y/CCf1siEkP0QDrZ3cqEJVx/lyYkUy/EIuGa1WFHnhn+RxBo0RW31COw
+         0Mag==
+X-Gm-Message-State: AOJu0YwBs6ulto+i0Jpq6MrrZiMq0VUwuXivzAHLhsxYyned+lDNekFk
+	vpkzAevx9mViErZT37oh5xr1riJwFlYvhJ/gU0HsuQBfxapcRMEZVcJA8ZWhVgkMSqlgEDv1ZvN
+	zysY=
+X-Google-Smtp-Source: AGHT+IHqNCZYl2jx23aXaUv3mrbRpo/RqcBk2DwuiNHQMdGKxVQzrw9yrGDJs4f6Ax/Ank5t+iPD1w==
+X-Received: by 2002:a05:6a20:8f25:b0:1a3:60ab:b07a with SMTP id b37-20020a056a208f2500b001a360abb07amr1532701pzk.38.1711007081190;
+        Thu, 21 Mar 2024 00:44:41 -0700 (PDT)
+Return-Path: <mila@mobrilzed.com>
+Received: from DESKTOP4G8IRDI ([122.161.75.147])
+        by smtp.gmail.com with ESMTPSA id cp12-20020a170902e78c00b001e005a58237sm9752406plb.93.2024.03.21.00.44.40
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 21 Mar 2024 00:44:40 -0700 (PDT)
+From: "Mila" <mila@mobrilzed.com>
+To: <bruce@untroubled.org>
+Subject: Design/Developer
+Date: Thu, 21 Mar 2024 13:11:02 +0530
+Message-ID: <20f4b01da7b63$a1835b10$e48a1130$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_20F4C_01DA7B91.BB3B9710"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adp7XeIo/Aj+Y+W4SGCH4iYE4LmEwg==
+Content-Language: en-in
+Content-Length: 3119
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_20F4C_01DA7B91.BB3B9710
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I am a professional graphic designer with over 8 years of graphic design and
+web experience. I make  clean, creative designs.
+
+I design new websites, UX-UI web design and development, graphic design,
+e-commerce platforms, other promotional related work.
+
+If you are interested, please share your requirement.
+
+It would be great if you can share your contact number WhatsApp/Skype.
+
+Thank you,
+
+Mila,
+Business Consultant (INDIA) 
+
+ 
+
+
+------=_NextPart_000_20F4C_01DA7B91.BB3B9710
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,</p><p =
+class=3DMsoNoSpacing>I am a professional graphic designer with over 8 =
+years of graphic design and web experience. I make&nbsp; clean, creative =
+designs.</p><p class=3DMsoNoSpacing>I design new websites, UX-UI web =
+design and development, graphic design, e-commerce platforms, other =
+promotional related work.</p><p class=3DMsoNoSpacing>If you are =
+interested, please share your requirement.</p><p class=3DMsoNoSpacing>It =
+would be great if you can share your contact number =
+WhatsApp/Skype.</p><p class=3DMsoNoSpacing>Thank you,</p><p =
+class=3DMsoNoSpacing><strong>Mila,</strong><b><br></b>Business =
+Consultant (INDIA)&nbsp;</p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_20F4C_01DA7B91.BB3B9710--
+

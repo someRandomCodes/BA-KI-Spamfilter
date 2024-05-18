@@ -1,0 +1,127 @@
+Return-Path: <franqui.leah3@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2076939 invoked from network); 22 Feb 2024 08:11:03 -0000
+Received: from mail-lf1-x135.google.com (mail-lf1-x135.google.com [IPv6:2a00:1450:4864:20::135])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 22 Feb 2024 08:11:03 -0000
+Received: by mail-lf1-x135.google.com with SMTP id 2adb3069b0e04-5112bd13a4fso704929e87.0;
+        Thu, 22 Feb 2024 00:11:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1708589461; x=1709194261; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ayTF5ctj/KRuakMnWKj2+HTTpMkwTyL8H4lE3P3FHvM=;
+        b=LTzia5MDwJytDV0Befmd0j0LNYN0Ab2rhaJ5UJ+QQ09/BDbE5vQelKiXPZyGR9Ev8z
+         s/xzztD07s4MYZdOnxKzaUFHxHd32HN2qPavc9BBPLW6mImf2XvL5cbpOoXxQoHAo3Es
+         ylHbFeVp5K+4/32oLTHkoaKSil77kuyMrNeHyj982oRYfwR9g+OzF15/JG+Ao6q0fSHT
+         +8QhKXF82IZT6U4c1zcmmfXVzPZOLl9SuQjBMQUwsqK86ouMA/Rm5l2V+Rys/gBBhPmX
+         gbgqTElzyIuq906vQ1Ks7hVCqhI4OrMrl5N5Jub93KBUDFVWTBrjYe+1IqgRsZZvth7E
+         tPOA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708589461; x=1709194261;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ayTF5ctj/KRuakMnWKj2+HTTpMkwTyL8H4lE3P3FHvM=;
+        b=VrxmCT01j/JH2ccE66E4N6aAlYOA4lviKT8valdhHQ/daQpI7rZd8Eeghc/LI4RAkO
+         fGs69qnNYoFh+igHLru0j0gstNshSBCDkoIrLlMc16XdHEbj6Ll4fBblOLiNVUpW7Ye0
+         4OFLEizCQ3l3X3iNLjKSgy8lWhz0Ps9iLiogVWcy839wN468pLbE2y+6olfklZ4C5hQ8
+         nTYUOJxzdp+h7leo8UgOTru+RVj3TunfU3bLz5l4C4kZ8CMSgOMjrxm+snCnbagSL8Sg
+         IiEJvG/rZjHd7tWOhaoxdhsggna4gfaS5xefaAER5ALz7z3Dkm3nJXethKm5VEUy4Qus
+         IbYw==
+X-Forwarded-Encrypted: i=1; AJvYcCWgMp5YVwEdk6YEMJYvo4yhO6/fvF9oq7axv3Dnn9Uv8GS1Ml+pF4T40CRXABDNYaJff/8VO/8jhPQlNah90Ld2IEt44xVxE6U=
+X-Gm-Message-State: AOJu0YwykhT4xJ28yDm5Py4N1HgargEBOnTYUajupjA6pBFzWOo9wuju
+	f5QDdpvmjjZFomb3z43S+m/234ESI+xX0aOxyRh77+7YPl5WwgF1LGIBcSOJCcbec/myIfEgLsJ
+	f08QqDa6Z8pmfu43hgwcoKSKGh8mEgrUY
+X-Google-Smtp-Source: AGHT+IH7NgnP0vzzvvM+Hglp8wBzrFxckwbALKpXXKqYaooHeLxRV54RccVwuyhPyoHfn96tUalMMt7t1f6xwuPLNok=
+X-Received: by 2002:ac2:4842:0:b0:512:a89f:3933 with SMTP id
+ 2-20020ac24842000000b00512a89f3933mr566512lfy.24.1708589461150; Thu, 22 Feb
+ 2024 00:11:01 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 22 Feb 2024 00:11:00 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 22 Feb 2024 00:11:00 -0800
+MIME-Version: 1.0
+Sender: Leah Franqui <franqui.leah3@gmail.com>
+From: Leah Franqui <franqui.leah3@gmail.com>
+Date: Thu, 22 Feb 2024 00:11:00 -0800
+X-Google-Sender-Auth: vt1p_KG02a3Q6tiHiswNe_JNqP8
+Message-ID: <CANcmsTpOLiFqNwr5a-c7PhY2dUq+4bkrF1qLSjyOiKVcQnD98A@mail.gmail.com>
+Subject: Untroubled.org : Eliminate Website Issues & Launch a Stunning Redesign!
+To: Bruce <bruce@untroubled.org>, Inquiries <inquiries@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000e61f070611f3fb72"
+
+--000000000000e61f070611f3fb72
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+I hope you're well.
+
+While reviewing your website, it became clear that it could greatly benefit
+from modern updates. Our team excels in leveraging the latest technologies
+for *faster loading times and a superior user experience*.
+Specializing in *WordPress,
+Shopify, PHP, JavaScript, Node.js, React.js, Angular* and more, we have
+over 20 years of experience ready to serve your needs.
+
+Upgrading with us means your site will not only be *faster and error free
+but also more appealing to your audience*, keeping you ahead of the
+competition.
+
+If you're interested, we'd be happy to showcase our portfolio and discuss
+how we can tailor our services to your specific requirements. For a more
+detailed conversation, feel free to provide your *phone number or WhatsApp* or
+suggest a time for a Google Meet call.
+
+Looking forward to potentially working together.
+
+With Warm Regards,
+
+*Leah Franqui*
+Business Development Executive
+[image: beacon]
+
+--000000000000e61f070611f3fb72
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><font size=3D"2" fa=
+ce=3D"verdana, sans-serif">Hello,<br><br>I hope you&#39;re well.<br><br>Whi=
+le
+ reviewing your website, it became clear that it could greatly benefit=20
+from modern updates. Our team excels in leveraging the latest=20
+technologies for=C2=A0<b>faster loading times and a superior user experienc=
+e</b>. Specializing in=C2=A0<b>WordPress, Shopify, PHP, JavaScript, Node.js=
+, React.js, Angular</b>=C2=A0and more, we have over 20 years of experience =
+ready to serve your needs.<br><br>Upgrading with us means your site will no=
+t only be=C2=A0<b>faster and error free but also more appealing to your aud=
+ience</b>, keeping you ahead of the competition.<br><br>If
+ you&#39;re interested, we&#39;d be happy to showcase our portfolio and dis=
+cuss=20
+how we can tailor our services to your specific requirements. For a more
+ detailed conversation, feel free to provide your=C2=A0<b>phone number or W=
+hatsApp</b>=C2=A0or suggest a time for a Google Meet call.<br><br>Looking f=
+orward to potentially working together.</font></div><div><font size=3D"2"><=
+span style=3D"text-align:justify"><font color=3D"#000000" face=3D"verdana, =
+sans-serif"><br></font></span></font></div><div><font size=3D"2"><span styl=
+e=3D"text-align:justify"><font color=3D"#000000" face=3D"verdana, sans-seri=
+f">With Warm Regards,</font></span></font></div><p class=3D"MsoNormal" styl=
+e=3D"margin:0in 0in 10pt;text-align:justify;line-height:16.8667px"><font si=
+ze=3D"2"><font color=3D"#000000" face=3D"verdana, sans-serif"><span style=
+=3D"background-image:initial;background-position:initial;background-size:in=
+itial;background-repeat:initial;background-origin:initial;background-clip:i=
+nitial"></span></font></font></p><p class=3D"MsoNormal" style=3D"margin:0cm=
+ 0cm 8pt;line-height:9.45pt"><font size=3D"2"><font color=3D"#000000" face=
+=3D"verdana, sans-serif"><span lang=3D"EN-US"></span></font></font></p><p c=
+lass=3D"MsoNormal" style=3D"margin:0in 0in 10pt;text-align:justify;line-hei=
+ght:16.8667px"><i style=3D"text-align:start"><b style=3D""><font face=3D"ve=
+rdana, sans-serif">Leah Franqui</font></b></i><font face=3D"verdana, sans-s=
+erif"><font size=3D"2"><font color=3D"#000000"><i><br></i>Business Developm=
+ent Executive</font></font></font></p></div></div></div>
+<img src=3D"https://franqui-leah3-dot-yamm-track.appspot.com/2_MwY3lx6piwlB=
+S-II8ErNtNemri6WrkQqjhwLbAlgQSlKt7PjQH8kTzmXBC1w_NaSJt7avD8mHAL4D27ZBTjLAWW=
+icM85lBSwbcUtSZjhFnbNFr-qWO51faR6lam9ffR6npyeA6VcMLDFPO0MTzV41n8h1QP4g" wid=
+th=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:none!im=
+portant;">
+
+--000000000000e61f070611f3fb72--

@@ -1,0 +1,318 @@
+Return-Path: <>
+Received: from 10.195.64.156
+ by atlas106.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sat, 20 May 2030 12:40:03 +0000
+X-Originating-Ip: [209.85.208.179]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.179 as permitted sender)
+Authentication-Results: atlas106.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sat, 20 May 2030 12:40:03 +0000
+X-YMailAVSC: apRutTY3bBuN98x0G9SeIVJztfufp_E2knRGrhhQXfn4qoi
+ X5pWjRkr0di7mrEDosA7Dkvi4TOUK9opwCn2mVhivr1GTxY9AMlhOJYgNWGH
+ KspAiU1Eq_rp8FhHGNReoP4Vm87OCbj0skQZ98FJGoKL_5UiEwfmN7keOFqe
+ JQRnzdPrS4ONHvdtxR3Vp4IS7L3_zTTGSZsMj_.l82ZqB4g.asNaJMy5.pfM
+ _xYeLNKj2Dc7BXTysq8KfeNn3A95C8xTe8Cq4QmVblpwvEKd2X.cJT7jHcih
+ h0UQz2iUTOHGQ5ZBmusxMBxRyQxnSMFxZFJgBeEo4Y1NxwV1oxqjRuKR1G8M
+ vFZyr3zQ2qeaY24M8gMvvhzL6VF0IczPO9hjXjiaYS.ObBGrTtvCOBt0sXhx
+ eABOOJX8qfViB22BPpwDLUC5CXkh6cFC0h9.E3pNDC9q9kOFwOW_mNtTBvzO
+ _AtWQefN2s5s2RNyDGC.OMi9oZt6B2kA_55H82fZNe5tpSXy.NDVcwcVNiuC
+ no3bwac3I.S.hdEy8sb2LMJS38uJAGhd8QvRj9JqHSIL3x_UrUZoyoGWHXh9
+ vZfVhiPiq.5KGDaAX7Ok_B_l_TiOjweggJ5fm9CvLeTKSxClTO86UFDi9k_F
+ fsuMVIKk9q2h3XZObYZePWD3YjGO68VAZpKbeDeFA9kXWWx.nYwwdiBHobzE
+ BF.u3tDVPE5ZmoB.VmHu5RJXfPnN_Hlmo_JnZgiQOGErRq85g.0GOrMtOKyu
+ S2eXwPFJsuyhdqB6SpHbUS1jjSJccn2FEvvyZMuid2c6BGQZwsvGcHjRzAe6
+ eXNSyqke4uXwvlPZ0TEcXi7o4qexfWOlzugHPUydV2TyZaKVTfkCEtbKWTvt
+ e5zpP_KahteziSLgJBYR1PZtgrzFb__6bX06AOOa62s6a.VMLJoxM91fU_os
+ BXQvfdOi1AdLXc8pB37LM8A_YL.81NOavGPHC9JrMfPt.nwxQDt7sVPvqHJN
+ .PC5baWgNP5qrRC7CmEPR1d4Wgvu4HOlu53H25j32wMULNSgAy77qF8Pw0N8
+ 9q2npzC2lpHvVdSBnndY-
+X-YMailISG: dgyWeLsWLDtXu0FEGlBQFO.Cydk63rAx.hAkMrlaLyyPkTnt
+ Mqz2Ot9MiWxhqPg3yD2Fbt8A9HDDLYfWwa5V0rRbnvlVdsJ_Db63fu6xQC53
+ VgXCiBeBpAgo_2G39ztk0hhydco5CZCiRBbMRQWUpUCyFqC5UcclUC6QhCgb
+ qVsbpM8iAZ6lYF8u0aGDIX.YQGlz0tLuNa5QY3pH.moLlKylJe4G_XtBJxv0
+ EvjWJ.ULjYRTgA7jseBnOAZck8uNxuWiLd8Ohaj.6cU15UlCgv8ETf1dxBRt
+ XxRKsBn7w777kdNu.j5L3_2fqbqn4bDP_V6gyyuP_qpzo5j03ANSkz_pUj83
+ xTLpPvRV2TE0J3TMFQgT3H5FCcPDmwQtVnexRKaUeFlpazQPNrPLIepDW0Uy
+ itcbxklRtxonz09_h6_YHqc4vuUYNdb0lGfx_uwRr0S3PBphluETkVYisBOX
+ lEJ72vYdZQvR9N2czo3rd2qM81V_9eWKPwAoX30eh_zs8h3JU_jlWvoTyI7t
+ jRCyyRwfj0CoJ_W6aI.ZCtnjNkHWV75KqhFTlfxFso4p_47rbnchTGHGHGoc
+ J5If.5Y97qNfcRCXf79hG.gKIDFUZXrmFXrp9ymSpboleWvHqFEJzM.DdINm
+ Wm9CktlRk_Nu4.crp8kBJETAa44ea4TdIVIgdxVGrPTBKlXrLVFT8Cy2XNLW
+ Fc9vL5lmxg0digxk5d9kBQ0D89BEwKXNDIH2VQYQzKGEb8SSqMr6MaJWgffU
+ wFCiSfzfrOkq4HF0ZRdwhTaYcJtnzT3W3yO2Hg7CwXwfIYpaAgvj6ZapjBN3
+ 9bMqvW_Gm7Ev6xQoBAAo.gvmFXLV9NavQ3Fs16tv7XAw4wZt8V2l_3jH0p0c
+ uLKE_xchIkCOnkxVQ2o.lLOZx5BByISs34kavSHhGfiHiHzBPpCUPfEnHKWv
+ 9Ce6v8I_Nkpol8u_AEPSDiD4pMM5wvtyzN6EIgzMbP8iDZ_NngyVaID7SWMd
+ fFAER2A04uB3c4J8XJYyK_L.HObizICp4gbehC3tZVV4bIuynuPpgEXtWPnL
+ 5jsuiwv0Dm9saLesYugUyXdGFakFeB8-
+Received: from 209.85.208.179 (EHLO mail-lj1-f179.google.com)
+ by 10.195.64.156 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 20 May 2030 12:40:03 +0000
+Received: by mail-lj1-f179.google.com with SMTP id 38308e7fff4ca-2af24ee004dso19653521fa.0
+        for <bruce@untroubled.org>; Sat, 20 May 2030 05:40:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=a6PJr+kekM+jxm11MKD+mZogJev59fKlZ26yajmE5xjNH/MVxEi8b6OmFuGYBtwLBs
+         2Ron5QS0pCYU5CzQ6gqwUD/sJfiXuBC4kSd9MNm5/1Q8CTrHQxz8wed9MLqe3M6yDIpc
+         X/TMkUF0LP6fNWF9hroEZj3T18F+SbZfDnqcvEbTSz5Rwqj4PoNUPD7lqN5Co39j3MO+
+         zzoa9B0RYAJ9fQRaIYw/LKvJSzgRTrFF57tXdqEy9tTJLegxHQf+nJe1zn6KYGbeYz5h
+         0Z7jvzNCX9kPb/6qe9cMGqeGtANc+DjbNq8lzmiDJDxWq44DyYH3rz3qdZ27RkkwT5QS
+         V3sQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=JsMPsab0k32hPXRYvjfNkdc9y7Lc/YiMh7ebZoqnDDOumj97NASd1VN5kfsdPa56I4
+         OWB//Us/FQtMzSRR8N6vVn24ewMXJFoCfMhstHQ+kfoR2IeL6PDKxsCAvo5kuWNDjlCC
+         ouUeG3ivVK5C1naEBRY8GAVy/8A5ZWFEOk3gBTht8X3L0inJs8wY6Bw3xsFo94WIIjt0
+         j53hpPYDHN+8CDPP5OSFywrBSJwNmMEc0sDiPuoC4WW7/hyBkNDf66XxKP5N+RltlTbn
+         cwi7YBJvBZulyAMqvs6WniX/bSordWPO1UpBdaFchyOXYx+Bnnz4UJ8R05BA41ta/DNL
+         x0nA==
+X-Gm-Message-State: AC+VfDzw5mwV8ovOXB6Pi9n+bKnyvznTulMN+Hy1D9pXWIPgg5DIIWLb
+	4HlqIUYMB6eJUy33w/girEJpoJ4JTjVow4JcKe5jxE46
+X-Google-Smtp-Source: ACHHUZ6bzprdixXQKbtQc0BOUt0ol180aXAnHtQ8Fq0FR3VFwKVd7OmEvapTWyiYxU849O/9Z1KMtHJB9tywozKXIpw=
+X-Received: by 2002:a19:ae0f:0:b0:4f2:6857:1d98 with SMTP id
+ f15-20020a19ae0f000000b004f268571d98mr1720963lfc.48.1684586401930; Sat, 20
+ May 2030 05:40:01 -0700 (PDT)
+MIME-Version: 1.0
+From: TurboCharge Pro <bruce@untroubled.org>
+Date: Sat, 20 May 2030 13:40:51 +0100
+Message-ID: <CAPrzedVz+5Qt6nrAnI5knp8NwKWPpYyMf6Ze=[uan5]+l8Mz0ZU@mail.gmail.com>
+Subject: Your devices deserve the best – say hello to Turbo Charge Pro
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 13050
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<title></title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css"/>
+<!--<![endif]-->
+<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		@media (max-width:520px) {
+
+			.image_block img.big,
+			.row-content {
+				width: 100% !important;
+			}
+
+			.mobile_hide {
+				display: none;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+		}
+	</style>
+</head>
+<body style="background-color: #f5f1f1; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"><div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Charge Your Smartphone 4x Faster</div>
+<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f5f1f1;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0068a5; color: #000000; width: 500px;" width="500">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-bottom: 2px solid transparent; border-left: 2px solid transparent; border-right: 2px solid transparent; border-top: 2px solid transparent; vertical-align: top; padding-top: 0px; padding-bottom: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="text_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad">
+<div style="font-family: Arial, sans-serif">
+<div class="" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; mso-line-height-alt: 14.399999999999999px; color: #393d47; line-height: 1.2;">
+<p style="margin: 0; mso-line-height-alt: 14.399999999999999px;"><span style="font-size:24px;color:#ffffff;"><strong><span style="">Don't run out of battery!</span></strong></span></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="10" cellspacing="0" class="text_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad">
+<div style="font-family: Arial, sans-serif">
+<div class="" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; mso-line-height-alt: 14.399999999999999px; color: #393d47; line-height: 1.2;">
+<p style="margin: 0; mso-line-height-alt: 14.399999999999999px;"><span style="font-size:17px;color:#ffffff;"><strong><span style=""><span style="color:#ff1616;">SPECIAL OFFER: </span><span style="color:#ccdbfb;">TurboCharge Pro (<span style="color:#ff1616;"><span style="">50%</span> OFF</span>)</span></span></strong></span></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #d6e1e6; color: #000000; width: 500px;" width="500">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 10px; padding-bottom: 10px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="text-align:center;width:100%;">
+<h3 style="margin: 0; color: #294593; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 400; letter-spacing: normal; line-height: 150%; text-align: center; margin-top: 0; margin-bottom: 0;">Discover the ultra-fast charger that can charge four devices twice as fast as a conventional charger</h3>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #e9f8fd; color: #000000; width: 500px;" width="500">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 0px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="2" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment" style="line-height:10px"><a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#SUZJejZTbUNqa05jRDFFdkRFSlN6UkFqUFgxUXV0bVlJK0Q4Q1dvUGVDZno2NksxK0lYQjlPM1I3Z2NEaDl4WGdMT2VZV2Vrb0RnQXFHckJmc05pRGNhUUNLVVptM2cwUnk4SnpFOGtLZkhGWisyL3JFclFYS3hVaHA4M2EvZDlNZktYRmJzWXdZOHY5NVo1a2VLVFlRPT0_" style="outline:none" tabindex="-1" target="_blank"><img alt="Neck Cool Plus" class="big" src="https://pbs.twimg.com/media/FwkyrXNWwAESDYX?format=png&name=900x900" style="display: block; height: auto; border: 0; width: 485px; max-width: 100%;" title="Neck Cool Plus" width="485"/></a></div>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="text_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad" style="padding-bottom:4px;padding-left:09px;padding-right:09px;padding-top:2px;">
+<div style="font-family: Arial, sans-serif">
+<div class="" style="font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; mso-line-height-alt: 21.6px; color: #393d47; line-height: 1.8;">
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 25.2px;"><span style="font-size:18px;"><strong>Charge Your Smartphone and Other Devices 4x Faster</strong><br/></span><span style="font-size:14px;"><strong> </strong><span style="font-size:16px;">A Powerful, Adaptive Charger With Intelligent Surge Protection</span></span></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad" style="padding-right:40px;padding-left:40px;">
+<div style="color:#101112;font-size:16px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-weight:400;line-height:120%;text-align:left;direction:ltr;letter-spacing:0px;mso-line-height-alt:19.2px;">
+<p style="margin: 0; margin-bottom: 16px;"><strong><br/>✅ULTRA-FAST CHARGING:</strong>QC 3.0 technology is 4 times faster - Go from 0%-70% in 35 minutes</p>
+<p style="margin: 0; margin-bottom: 16px;"><strong>✅CHARGING PORTS:</strong>Charge all of your devices at once</p>
+<p style="margin: 0; margin-bottom: 16px;"><strong>✅SURGE PROTECTION:</strong>Intelligent Current Recognition ensures your devices won't overheat, overcharge, or short circuit.</p>
+<p style="margin: 0;"><strong>✅SAVE TIME AND SPACE:</strong>Clean up clutter and use all 4 ports for fast charging at one time<br/><br/></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #d6e1e6; color: #000000; width: 500px;" width="500">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 0px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="button_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#SUZJejZTbUNqa05jRDFFdkRFSlN6UkFqUFgxUXV0bVlJK0Q4Q1dvUGVDZno2NksxK0lYQjlPM1I3Z2NEaDl4WGdMT2VZV2Vrb0RnQXFHckJmc05pRGNhUUNLVVptM2cwUnk4SnpFOGtLZkhGWisyL3JFclFYS3hVaHA4M2EvZDlNZktYRmJzWXdZOHY5NVo1a2VLVFlRPT0_" style="height:53px;width:362px;v-text-anchor:middle;" arcsize="8%" strokeweight="0.75pt" strokecolor="#8a3b8f" fillcolor="#f54747"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Arial, sans-serif; font-size:16px"><![endif]--><a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#SUZJejZTbUNqa05jRDFFdkRFSlN6UkFqUFgxUXV0bVlJK0Q4Q1dvUGVDZno2NksxK0lYQjlPM1I3Z2NEaDl4WGdMT2VZV2Vrb0RnQXFHckJmc05pRGNhUUNLVVptM2cwUnk4SnpFOGtLZkhGWisyL3JFclFYS3hVaHA4M2EvZDlNZktYRmJzWXdZOHY5NVo1a2VLVFlRPT0_" style="text-decoration:none;display:block;color:#ffffff;background-color:#f54747;border-radius:4px;width:75%;border-top:1px solid #8a3b8f;font-weight:400;border-right:1px solid #8a3b8f;border-bottom:1px solid #8a3b8f;border-left:1px solid #8a3b8f;padding-top:10px;padding-bottom:10px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 32px;"> Learn More About <strong>TurboCharge Pro</strong> >></span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tr>
+	<td align="center">
+	<p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+	If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#K2lpVTR5TlVUdnY3aGd1YWlCNGk3aEhSZFZrL1ZPSS80TWsvS0l5L1plU08zZGt0SktFRVYvWkFxbUkrRmhWMStjUTJDK0VHZWROQnl2R3NKVmlFRXY0MFRwaEd3RXUrMkhhM1d2WklQbk80OEQ3OUd3Zmw0VGdsRlMrQ29hclFHY29FM3FDWk0yVHg3cVB1SitPSVdBPT0_" style="color:#666;text-decoration:none;">clicking here</a>
+	</p>
+	</td>
+	</tr>
+</table><!-- End -->
+</body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#Y2gwc3hXMUpHRzFXTk9xYkZXNE1CVVZPbytiY3VtY0FWTUxFeU5yZ1RTc1FPa0p6Rk51aTY4RzNDS0xWY0gxOVZBdTZqSzE1MGFLTEJ4QTRRbXpZSThiU0xPZFNsWmFQaUg5UEVIbmpuWTNFWjdabUtWTjF0NE5McWZxSzhZMDBFNW8yTmYra3REMTRBL2V2a0Vna1FnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

@@ -1,0 +1,72 @@
+Return-Path: <graybrittanyb@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 399199 invoked from network); 28 Apr 2023 12:18:33 -0000
+Received: from mail-vk1-xa33.google.com (mail-vk1-xa33.google.com [IPv6:2607:f8b0:4864:20::a33])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 28 Apr 2023 12:18:32 -0000
+Received: by mail-vk1-xa33.google.com with SMTP id 71dfb90a1353d-4408b81ed86so3525015e0c.3;
+        Fri, 28 Apr 2023 05:18:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1682684312; x=1685276312;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=XlqK1pBSlOWRNytGspKrA4BRLjc+dHL535RxpfITkP8=;
+        b=gK+Xmv83qgM2dMT33tpEocqbLornbDz2tQpUe5YZMRMrcSX1j33bHYReywC6pHH7c4
+         EfcLizR+Y1jExP5qatp5vIww+yDr+cGpXGt9jZ25D4h9uBhLh0R2XQO3jef77OHmPAWH
+         ln/z3dBFvaprvABM5QmaRhR1sgOzUXekLumcyYIglvL7UIhIyXqEWO1tqPyJknBPAR6O
+         Z2pBwTk3iCHuyrxzkqhH671fleYQ+ehj9p+ZdWVUytaGlIZHeCtVE22I2unt8Dp/F7EU
+         9pnHmy9ZlvUnUMiGv7aKEBcSFr5pfBRCZ20ITHjkSssDqHzDlaP3k48XHl3s6Rzu5v07
+         bvWw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682684312; x=1685276312;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=XlqK1pBSlOWRNytGspKrA4BRLjc+dHL535RxpfITkP8=;
+        b=gPBRSFmztQRE9PGR+eOKz3uonwWPW5jBlVA7/rBzIGMfb+Yq8hxAuiWMpKKlPJ/LMi
+         zOSqsB8sui5xUzTX49G88WCt9OVLL+QMABu0FqGvfn9xfq85B0Who+zo7pVc2emOVO5b
+         R3K2e21CAEpwHo+N57XTr3Z8Ft6sm4YW0O8FzCAvveOP5NMPtR1NT8R33/twJg+XTXsV
+         rB9lbbjidumzRhWimsOyP18mZt+aaYQWiXDOo75TS6HVxw9xaD+rNu94u/kQAnbwEnIG
+         EVyBDIx8kKVZ8YA4H9d4UjEwLD9MHH+wjIchGsev4VpxsWHHeew8rM6ui6P4NUhilYLw
+         ltqw==
+X-Gm-Message-State: AC+VfDwMz/Yf61H/UK6GNvi/mHd2jkL7CFi7XJcQlDrqeUPv/SmJoSHI
+	wnfU/3WIp9VQCqYHfqz7vGRpvEseUi0xF6qQLTGPNywwwkw=
+X-Google-Smtp-Source: ACHHUZ6qchcz0O9+qQpCg55+mpRwNQGFZ+0CX4zXk7qlqYyqkGcfJOOqCTwu3qp42HR/niHHu2TLU77K+gg/vdyaRbE=
+X-Received: by 2002:a1f:d206:0:b0:3ea:7af1:9ea4 with SMTP id
+ j6-20020a1fd206000000b003ea7af19ea4mr1685336vkg.12.1682684311788; Fri, 28 Apr
+ 2023 05:18:31 -0700 (PDT)
+MIME-Version: 1.0
+From: Brittany B Gray <graybrittanyb@gmail.com>
+Date: Fri, 28 Apr 2023 17:47:03 +0530
+Message-ID: <CACgvv5m8qQtLbtekMxUPQahR4LDrDcaeHeQYq5Vj9n00EdTHsA@mail.gmail.com>
+Subject: Blog post request
+To: bruce@untroubled.org, inquiries@untroubled.org
+Content-Type: multipart/alternative; boundary="000000000000ac5e0e05fa6478a0"
+
+--000000000000ac5e0e05fa6478a0
+Content-Type: text/plain; charset="UTF-8"
+
+Greeting of the day
+I have came across your site untroubled.org
+
+Could you please let me know how much it will cost to publish an article on
+your site, just like the following one:
+http://untroubled.org/lori/article.php?story=20140131104208952
+
+and have a link on it towards realcasinoscanada.com
+
+Regards
+
+--000000000000ac5e0e05fa6478a0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-size:10pt;font-family:Arial">Greeting =
+of the day<br>I have came across your site <a href=3D"http://untroubled.org=
+">untroubled.org</a><br><br>Could you please let me know how much it will c=
+ost to publish an article on your site, just like the following one:<br><a =
+href=3D"http://untroubled.org/lori/article.php?story=3D20140131104208952">h=
+ttp://untroubled.org/lori/article.php?story=3D20140131104208952</a><br><br>=
+and have a link on it towards <a href=3D"http://realcasinoscanada.com">real=
+casinoscanada.com</a><br><br>Regards</span><br></div>
+
+--000000000000ac5e0e05fa6478a0--

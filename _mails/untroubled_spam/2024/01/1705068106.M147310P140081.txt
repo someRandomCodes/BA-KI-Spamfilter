@@ -1,0 +1,171 @@
+Return-Path: <bounce-bruce=untroubled.org@zaims.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 139944 invoked from network); 12 Jan 2024 07:22:36 -0000
+Received: from mail.zaims.info (mail.zaims.info [139.144.196.246])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 12 Jan 2024 07:22:36 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=zaims.info;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=noreply@zaims.info;
+ bh=p3b+gC+UdW6K6X9OuU7BMyk2IIJ8TwA5LIvJW5GsicA=;
+ b=QkMBS32HTXurFZxo5EG/3uEelkXXZb0ngV+qeApOKc/EgO8xrAgYkq7CkK7auaZAnEsCuZJp4QeD
+   YEw96HkV0umqByt+yUfKlkhtKz7b00L0kPFu+ZplqsKHdeTQE2x94OMMHIU+ChS7aMRNEcIiilzj
+   XHNP28kn1vs4fFtKtdIfcv9i9QoHuiHbGtyNNsQo2mvbzl74QnwTtg1okv6n/qaUgs59Rf/0Sm2r
+   kgd79bhxnu7S7cEnWFmPJeqXgpAm5Fuul8+YjWGFuZdYi0njUXSq127dH5eud7m0wS+P/+GdKR3v
+   EuKwj2ObD2h45jyQDzKwweymfTzbG9Kjv0w/ug==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=zaims.info;
+ b=uZwjQ+B/1swXl/NVi1VxXLoBGkkBqlenFhZHEWJkriNhGV7l7pKJEJ6GM+58xcLUoDNuZLtkYm3a
+   WGu/sA3/FSeTYaHf/HP4gBe183ByYa3xfQ1JJ+qcepjXOmKWe+s5MxKd7Jvif9+HYcwmqYfAGX+3
+   jxkfxX+K7GSkKCEXjre2r50LeRPoaQ7TiPHX0vqKfFreRVFf/p/RNpTH1qBqye+mS+AUFQOEsMqX
+   GRBG6SFQpZ8oWTMPDTX83H/PLL+EBHOwLvM3mmODmQ6taFbZIrlYOKg/Lz4IhzrMM7+7ftOmBsCL
+   j1NcdPcsxAX58YNi0rrKNbnyD6GvhHqNcaGsGA==;
+Received: from widemail.info (172.105.58.166) by mail.zaims.info id hk3kbo0001gg for <bruce@untroubled.org>; Fri, 12 Jan 2024 07:22:36 +0000 (envelope-from <bounce-bruce=untroubled.org@zaims.info>)
+Return-Path: <bounce@zaims.info>
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=p3b+gC+UdW6K6X9OuU7BMyk2IIJ8TwA5LIvJW5GsicA=; d=zaims.info; h=Message-ID:
+ Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe-Post: List-Unsubscribe: List-Id: Feedback-ID; i=@zaims.info;
+ s=mailer; c=relaxed/relaxed; t=1705044156;
+ b=c8S4ma3DZVvkx75mAzrPn5+7vK6fFwI/NY90e/sU97WHX0ErfR/U0mzFgQrtJrrjU+oLZy84i
+ pboX95JHk1KMR3exgbBB5wkT1r+y06n/XHOyqbTd833FAbfgykPTJHg7rjP6m7P6zfRD62aIV
+ IRFX4dZi6RAGQeBFX95wqrwkBJchkt/cJ6daKYraRXQYt+H4gXhenhia85rldiCS+TKTqrsIv
+ +O4eU1nGQdFcNkahB3V+543PWFQShRN4HdxgMMKrtQoD9XEBm4c5viaB3ISosYQm5LbY3Twa4
+ qFEqhlreHmmJcoG9O2LAw23S0K4bPLaY6Qs6otjr7L/Vc0+3iQ==
+Message-ID: <68bb0c7b9337685401013cbdd24c94b286189c2c@zaims.info>
+Date: Fri, 12 Jan 2024 07:22:34 +0000
+Subject: Hello bruce@untroubled.org,Extend Your Netflix Subscription for
+ Free! =?utf-8?Q?=F0=9F=8C=9F=F0=9F=93=BA?=
+From: Netflix Client Service! <noreply@zaims.info>
+Reply-To: Netflix Client Service! <noreply@widemail.info>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1705044154_8aee21fb55338676161e7381946548dc_=_"
+X-Report-Abuse: https://widemail.info/index.php/campaigns/ql226ggw9q774/report-abuse/rk9317jy1t944/gp8593mg0l5eb
+x-job: ql226ggw9q774
+X-EBS: https://widemail.info/index.php/lists/block-address
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://widemail.info/index.php/lists/rk9317jy1t944/unsubscribe/gp8593mg0l5eb/ql226ggw9q774?source=email-client-unsubscribe-button>,
+ <mailto:noreply@widemail.info?subject=Campaign-Uid%3Aql226ggw9q774%20%2F%20Subscriber-Uid%3Agp8593mg0l5eb%20-%20Unsubscribe%20request&body=Please%20unsubscribe%20me%21>
+List-Id: rk9317jy1t944 <US>
+Feedback-ID: ql226ggw9q774:gp8593mg0l5eb:rk9317jy1t944:nd702ov6b011d
+
+
+--_=_swift_1705044154_8aee21fb55338676161e7381946548dc_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+claim your offer!
+Dear user,
+
+Great news! As a valued member of the N=
+etflix family,
+we're thrilled to offer you an exclusive opportunity to ex=
+tend your
+Netflix subscription for free.=C2=A0
+
+=F0=9F=8E=AC YOUR EXC=
+LUSIVE OFFER - EXTEND YOUR NETFLIX SUBSCRIPTION
+[https://widemail.info/in=
+dex.php/campaigns/ql226ggw9q774/track-url/gp8593mg0l5eb/e5bf933c160cfbafeee=
+17bfd2d4a0fe39ac091ee]
+
+ [https://widemail.info/index.php/campaigns/ql2=
+26ggw9q774/track-url/gp8593mg0l5eb/e5bf933c160cfbafeee17bfd2d4a0fe39ac091ee=
+]
+
+=F0=9F=8C=9F WHY WE LOVE HAVING YOU WITH NETFLIX
+
+Your enthusias=
+m for amazing shows and movies is what fuels us to
+continuously bring you=
+ the best in entertainment.
+With an extended subscription, you'll have mo=
+re time to explore
+Netflix's vast library of content, including:
+
+=
+=F0=9F=93=B1 TAKE ADVANTAGE OF YOUR OFFER TODAY!
+[https://widemail.info/i=
+ndex.php/campaigns/ql226ggw9q774/track-url/gp8593mg0l5eb/e5bf933c160cfbafee=
+e17bfd2d4a0fe39ac091ee]
+
+Thank you for being a valued member of Netflix=
+.
+We're excited to keep you entertained for even longer!
+
+Happy strea=
+ming!
+
+Best regards,
+
+Netflix Team
+
+If you dont want to claim o=
+ffer please Unsubscribe Here
+[https://widemail.info/index.php/campaigns/q=
+l226ggw9q774/track-url/gp8593mg0l5eb/014bf4f04df51d82e395666e34d6e390149504=
+25]
+
+--_=_swift_1705044154_8aee21fb55338676161e7381946548dc_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta charset=3D"utf-8"/>
+=09<title>Hello bruce@untroubled.org,Extend Your Netflix Subscription for F=
+ree! =F0=9F=8C=9F=F0=9F=93=BA</title>
+<style type=3D"text/css">span.preheader{display:none!important;mso-hide:all=
+;}</style></head>
+<body><span class=3D"preheader" style=3D"display:none!important;mso-hide:al=
+l;">claim your offer!</span>
+<p>Dear user,</p>
+
+<p>Great news! As a valued member of the Netflix family,<br />
+we're thrilled to offer you an exclusive opportunity to extend your Netflix=
+ subscription for free.=C2=A0</p>
+
+<p><a href=3D"https://widemail.info/index.php/campaigns/ql226ggw9q774/track=
+-url/gp8593mg0l5eb/e5bf933c160cfbafeee17bfd2d4a0fe39ac091ee">&#x1f3ac; <str=
+ong>Your Exclusive Offer - Extend Your Netflix Subscription</strong></a></p=
+>
+
+<p><a href=3D"https://widemail.info/index.php/campaigns/ql226ggw9q774/track=
+-url/gp8593mg0l5eb/e5bf933c160cfbafeee17bfd2d4a0fe39ac091ee"><img alt=3D"" =
+src=3D"https://cloud.appsmtpmailers.com/frontend/assets/files/customer/et09=
+2sqlrmee5/Netflix-Extend-for-Free.png" style=3D"width: 435px; height: 527px=
+;" /></a></p>
+
+<p>&#x1f31f; <strong>Why We Love Having You with Netflix</strong></p>
+
+<p>Your enthusiasm for amazing shows and movies is what fuels us to continu=
+ously bring you the best in entertainment.<br />
+With an extended subscription, you'll have more time to explore Netflix's v=
+ast library of content, including:</p>
+
+<p><a href=3D"https://widemail.info/index.php/campaigns/ql226ggw9q774/track=
+-url/gp8593mg0l5eb/e5bf933c160cfbafeee17bfd2d4a0fe39ac091ee">&#x1f4f1; <str=
+ong>Take Advantage of Your Offer Today!</strong></a></p>
+
+<p>Thank you for being a valued member of Netflix.<br />
+We're excited to keep you entertained for even longer!</p>
+
+<p>Happy streaming!</p>
+
+<p>Best regards,</p>
+
+<p>Netflix Team<br />
+<br />
+<br />
+<br />
+If you dont want to claim offer please <a data-unsubtag=3D"_UNSUBSCRIBE_URL=
+_" href=3D"https://widemail.info/index.php/campaigns/ql226ggw9q774/track-ur=
+l/gp8593mg0l5eb/014bf4f04df51d82e395666e34d6e39014950425">Unsubscribe Here<=
+/a></p>
+<img width=3D"1" height=3D"1" src=3D"https://widemail.info/index.php/campai=
+gns/ql226ggw9q774/track-opening/gp8593mg0l5eb" alt=3D"" />
+</body>
+</html>
+
+--_=_swift_1705044154_8aee21fb55338676161e7381946548dc_=_--
+

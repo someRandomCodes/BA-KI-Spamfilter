@@ -1,0 +1,123 @@
+Return-Path: <>
+Received: from 10.196.121.118
+ by atlas109.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Thu, 27 Apr 2024 13:04:05 +0000
+X-Originating-Ip: [209.85.167.46]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.46 as permitted sender)
+Authentication-Results: atlas109.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Thu, 27 Apr 2024 13:04:05 +0000
+X-YMailAVSC: NiuNVXc3bBvLuuINDDic84fNP8VIkKCS2PkstkjrmM_Kd1X
+ LVXgs_jQaTuyXnxS3XmlgBTdpT0M3O9jlh81GTu8PHKPBx7FbMcnperprsk.
+ Z9vOgi0zyhDwcxXRiHv4wB6cGJx_uwdlbNkySC86dARzrfGvCJ7XqjOkO9vt
+ K2jwJEm.Ql3JdAi8MzyRUKRDxpSMriSlAp5tlDd.JB8WfzFGWvIYonQ..wqu
+ up.Jf6B7sQMBXF88mUOIyU0uHSrn8ObYoAMSReLuQafm.w0UaJoC_sbDTJgs
+ Kv_mT3Uq_cAz9OUEEFqOVbp9lMCsam1WeCYegjOQzmNsR9uRgLUaGLDV6XFj
+ CGIHT0U1XTzIOrTd5lqGfT6MhIrJ1cycBi7LZNTHDYC7r3q5Goqp_NFQT1l3
+ Wbg.Ug56_2YCy8RB7Y4wZTIlsuRcuAwXWH_9GvegJyaX4bGeeFEp_ErPSEZw
+ TGx_dQ7z9Eu8QM5gXmFG_.1JXFRcmDigu2sEzjQvspVghysqGBxKcBx1qAZU
+ 1rXJrsSe8YTfPSnd9k_b8I5tTYdcRI_eD0dyhbC15IbHGy9l6khPbiAm9YBY
+ JxEuLKTAqKJaACI2kvU1F5paYYQKDkifvm3fZqK9ykHDme_0rhkYOhKj_VQZ
+ xceCiStyqqLd0FiUV6Z5KRklWdvo3EU._.sEwRmpwSBhk5acDVHrmHSRSlrW
+ A36JDmTFrvqOZ_agejkZC3f4ULL5eYsLRXwhwsWBVtI3m9hFjuj7qbjEdICE
+ tPRERByC8dUZwwbyRwxQqLEzZYoeWCNdcwVvVkQTNkUwqHVPo6PFrUShSMcf
+ eZBVMOHVLfD1vzdYOMs1BAvUPMCvB_Z96dY_iCQWu5eKZrpIy02yV_sl2fAe
+ 1ZTfYO1LyjtuNOcHMoph3S97S.q_l8GpWHiUQDfEe8aAUfsqwwbwqlKuFO2N
+ NPvVYrftiPCnmTEw3h7PhBOZ7hn2_thWatsClTlQ7U2GbPeXAlFFPQPDhkrX
+ ohiO0X83hf7Kodj01oRVOYErPHYckUOBm9S1nyhQW2E6bbC0LRDHqBkdxJ.W
+ oytTeeVabNg4-
+X-YMailISG: F6mGkmEWLDsxgT3OAJs1TC61bGx5UZVoAQyBrr5hh5FxgEwu
+ P7HjSjDUMVbbLxznJRotsfeDBsxZv.NjH3aF0WABxHW6ENGJTk9nwy.CcQPt
+ Mmy1dPLKbv_IZuweyTJYNJ.UskDliCrSGvWKewBNZYI4p2UfRkEP6M9rJGrM
+ XzLxVnBjO0Xv7xPlB95v36QhPfWCRHqSaQKPG8SkPu5CyCSp0GN2u3Mx1kIp
+ FXCcb8CkVnp6RQFj58kjV0iM5EPr9NWMXhOxKdOFlaU82vUyoEkP3tqjfUlA
+ sCjZIZJi8.Wsh_XFf4PHbIM1MJy_aDpaVzxG2w0slEg2oaQ2yKNMa01EU8Ts
+ hHFCNOkDTaOeuM7pjiVtiynO0EVGYstn6HGgkeff79Iel9ZtwwrYNuWmKC5b
+ skgYUmTvoNakwKYOkg_PywNCrY9TfkJRiswvRs5uN5uNszeBcUQqkv7H0FAd
+ 1YwBE5pq6kqyFYapu2ARfXXL1YBnWZy98Mlw.JssiOYFp5sdSGcqsoNCeg2z
+ RT_2wNKcM3aivTn2nn4vh.F9e0jWmdUb0CHgHyyJIYa4ExGZikwNy1RG5pC.
+ pRCMwPmUKTj9RT9OX3ttjr213K9iyGxjMa3IGMru456QERFriN_bldk8P9IG
+ aTXxmtCh.Ig.trUTGNkyo5GgniuviYEknBoChXv8Bpdi.h6RyYlx.BSSjw9w
+ u4GJ6O78aXveUkhzfQRJQV0LIkvUWvwIFh7dq0mh32NmWWpl0aMWvgIv3wZ4
+ MBbrL1sje40BFhGCRMw54Z6l3fRizdu4_JdPyQ0pNiSYhyVH2LWTF.wg0CFh
+ aDw4JNgrsUDL1lW.9gudSg.WQ0KiSIs9jZsx05EK4.pZsa68_pZb3Q8j12u6
+ tLtYyHDeodjaBcaQ6kblQoW.ah5Ab5CkqkTndCVMURTSGQNStMGYJWv5R89w
+ x7VtKNRLY7zydCfN27hfwCVrErcT95TmX4fNuNzVKhgO_8bUO6ZXCUbKzgJt
+ s_UYoqLiZ2j.Flh7WX8VnK7iFb7G.vFpu9.l0aZjRLMoxvfkeHrgEttXNKcl
+ IC.GIvABwpK6FoaOChyGYw1OCutFE2Y-
+Received: from 209.85.167.46 (EHLO mail-lf1-f46.google.com)
+ by 10.196.121.118 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 27 Apr 2024 13:04:05 +0000
+Received: by mail-lf1-f46.google.com with SMTP id 2adb3069b0e04-4f0025f4686so3125715e87.3
+        for <bruce@untroubled.org>; Thu, 27 Apr 2024 06:04:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1682600643; x=1685192643;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Wb1ooPdFClzpSjqNxxXf/JtgrGniioh6F13pvRlOFW8=;
+        b=MF4+mZ8ncfyUXm+gHO/brtb86m1KCq/tg+G6Cb9UtxxMdkNbeGKnb6TSGPS/9UCpRr
+         roQ+Xxh0qD9lUsW2Bsmku/+pefydj/txewAGu1SJyNogq5u/d1snWK/eXG7DbeEu03vZ
+         55uR7IliB/dVzIjIVgt51YZZQ9IQmzCf/Hv0bC5+mCwBeeRWHPoD11h0zaHEW58bVc4h
+         TtaSbmdVDkN2iBS1ZMcGCF65KnCrYuF5n3WkZ9g1g4Drl9oifFwHvWGEM22f5YE7O5mN
+         fkMBL4U1nQNNcTorLFgIyeR2fvStYBlwT5xMaPKONdAqoxmR5kjxM0KMH7KE41dVz4xM
+         9t0w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682600643; x=1685192643;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Wb1ooPdFClzpSjqNxxXf/JtgrGniioh6F13pvRlOFW8=;
+        b=DFHxvp930LW1CLvoo2CEx91HWFfZqNUaAUX983m4Mn966upZiCP4OSedjT+e117hO9
+         w4YQtWNNrUltDHFBTfTqU7bX/2rBu2tcfRRxPwuoMWFHh5jEJ7S1zr6YrbeIBh59cv6i
+         VxBC/lhQdfHK5GKPVx62+kFAz34i6p+WZ1RURHTVCZhXppc763+jKkFJIxmlcaJ9c4HF
+         TDGoWclf5DKopx7dMtsa799ZXFb5Lxoxnp5XBbrAXjL38sxA5AjYPWV8bCCbc3Yshja0
+         FxwHikBF12WaxQBDJAyU+OzRur4gYnHwM1dWQ1QyShcsoo64I31J4X2EsrOifT2Sz6lC
+         x/aw==
+X-Gm-Message-State: AC+VfDxB9bKkdyzM4xYDRBGjBeW67Ol+58abC3Zt9Nj5pnIZ5rAxdQEy
+	MbqwIs1DKZbW5ptxT5lgzKsgUhxIQaG0tzvNcO34BPnO
+X-Google-Smtp-Source: ACHHUZ4WKEt3PJwPXzE8hk1RnzJiA5iinEHTJQe9QQ3MG5Frwocv8/IcbKZSHZ3TwevCxV9Jmry/vFHM0xFKeFFq4z8=
+X-Received: by 2002:a05:6512:98b:b0:4ef:b18c:89b1 with SMTP id
+ w11-20020a056512098b00b004efb18c89b1mr603107lft.63.1682600643418; Thu, 27 Apr
+ 2024 06:04:03 -0700 (PDT)
+MIME-Version: 1.0
+From: Alpha Heater<bruce@untroubled.org>
+Date: Thu, 27 Apr 2024 13:03:52 +0000
+Message-ID: <CAPrzedV_uG8oRNC1EFqBd-qq39em0omYHEj01kOT91s36+z+Zg@mail.gmail.com>
+Subject: Heat Up any Room FAST with this latest breakthrough of 2023
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2413
+
+<p>&nbsp;</p>
+<table style="font-family: Arial, sans-serif; width: 100%; border-collapse: collapse; border: 0; border-spacing: 0; background: #ffffff;" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial, sans-serif; padding: 0;">
+<p style="font-family: Arial, sans-serif;">This powerful heater cozies up any room&hellip; and uses LESS ENERGY than a furnace.</p>
+<p style="font-family: Arial, sans-serif;">It has built-in safety features that are essential for homes with families, like:</p>
+<ul>
+<li>Auto shut off</li>
+<li>Heat sensor (won't overheat)</li>
+<li>Tip over protection</li>
+<li>Built-in custom timer</li>
+<li>Adjustable temperature</li>
+</ul>
+<p style="font-family: Arial, sans-serif;"><a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#cl/75111_md/8/261039/7465/2501/788433"><img src="https://pbs.twimg.com/media/FuuW_l6WwAEkZ79?format=png&name=small" alt="" border="0" /></a></p>
+<p style="font-family: Arial, sans-serif;">MANY AMERICANS have already made the switch and are currently paying lower heating bills.</p>
+<p style="font-family: Arial, sans-serif;"><a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#cl/75111_md/8/261039/7465/2501/788433">Click here to learn more about this mini power heater &gt;&gt;</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="font-family: Arial, sans-serif; width: 100%; border-collapse: collapse; border: 0; border-spacing: 0; background: #ffffff; margin-top: 100px;" role="presentation">
+<tbody>
+<tr>
+<td style="font-family: Arial, sans-serif; padding: 0; font-size: 90%; font-style: italic;" align="center">
+<p style="font-family: Arial, sans-serif;">This advertisement is sent on behalf of:<br />Alpha Heater<br />220 Faraday Avenue<br />Suite 103<br />Jackson, NJ 08527</p>
+<p style="font-family: Arial, sans-serif;">If you would like to unsubscribe from receiving offers from Alpha Heater, please <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#un/75111_md/8/261039/7465/2501/788433">click here</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#oop/75111_md/8/261039/7465/2501/788433">here</a> to remove yourself from our emails list</span><br/><br/>

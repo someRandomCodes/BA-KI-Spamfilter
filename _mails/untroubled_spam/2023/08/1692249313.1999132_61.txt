@@ -1,0 +1,72 @@
+Return-Path: <marklee22@dmatexas.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1866678 invoked from network); 14 Aug 2023 10:51:22 -0000
+Received: from mail-pl1-x641.google.com (mail-pl1-x641.google.com [IPv6:2607:f8b0:4864:20::641])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 14 Aug 2023 10:51:22 -0000
+Received: by mail-pl1-x641.google.com with SMTP id d9443c01a7336-1bdc243d62bso13079245ad.3
+        for <bruce@untroubled.org>; Mon, 14 Aug 2023 03:51:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dmatexas-com.20221208.gappssmtp.com; s=20221208; t=1692010281; x=1692615081;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=bAMWHJqp3vej0BSQ3M6riu+t7mmhsfA97xEP0KwL6HM=;
+        b=wBdANT5+6Ox/Rr3YGIPXJTOnI37qQ2+BFK0bRpbRxJmPZAGUZ1PokNWhzK5Iu85IWd
+         zRzDGvuFOJBrktw9H2xTr+KcbCNw1rSaPk0+jDnadNd6cDVpcH5vd7MEEZWTYc+VjF0g
+         /zFwjaw+3NKNKCtneipOG/Ec8w0thnHwYmhp3A4KbZov4kTo6OCPklFSZDihY58aP0Jn
+         hhQsIZW91NMWKNTxUsl5OXrbh63K1avFrZQdtCx1uSxzIAneN3kHttelXYXM5eB+s5ul
+         P5XP3mjHgVhVdbyQQMuVz2vs0VAdmVjnXTvId1NLsDSe0t3nD+5itRE1bxGE73A12GZh
+         CgFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1692010281; x=1692615081;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=bAMWHJqp3vej0BSQ3M6riu+t7mmhsfA97xEP0KwL6HM=;
+        b=EUo1+HVnKCzN3Jsx+eHf0VvW5D09FJtK4oip9vWBBFPzu/zmhN0dFNPsuY75ipWGKI
+         9HxV4l7an9TGlFe5HfAl1cO3Q9gKE1AFB25Ar/GeuhiPMT7tdya6jsFDifnxYisVBsiz
+         mmwNu1Jb0auDVEL+LTFTi386EDzm4K4SMV//DKhvfUqB4qlK5I1CQPxOOi1PmltWaluX
+         DzlPxASC0OwGg4/PZFcj0hzqFs02teuoFrjddobtt0+FI5m5H9ek5Lx6ZAxxG8OcYZNK
+         /NUS4EkjnrxCZXCR05ZkrESGsslCxAmgqn8nGrpl9+O4iK9Dt1lsBOl075ye8BglED8W
+         b8Mw==
+X-Gm-Message-State: AOJu0Ywy7OlfO5FlSsKYG3GD/w+mtCGn1Jv6LWAU8v1ApMbvUUsUb4ys
+	FN0iYlpavWu/aSmbWJ0g/16FnNC9U85/KeO0SfsSwA==
+X-Google-Smtp-Source: AGHT+IGb0+eUCE1TYxfNMrCvVV+623KocXYFQZWcJIbhk33ZWTwXZFJ//ZRiNeOuJp1ofBKE6IzvCQ==
+X-Received: by 2002:a17:902:f68a:b0:1b8:865d:6e1d with SMTP id l10-20020a170902f68a00b001b8865d6e1dmr9194291plg.51.1692010281215;
+        Mon, 14 Aug 2023 03:51:21 -0700 (PDT)
+Return-Path: <marklee22@dmatexas.com>
+Received: from DESKTOP6QH7NHO ([103.165.168.37])
+        by smtp.gmail.com with ESMTPSA id io23-20020a17090312d700b001bc21222e34sm9162711plb.285.2023.08.14.03.51.19
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Mon, 14 Aug 2023 03:51:20 -0700 (PDT)
+From: Mark Lee <marklee22@dmatexas.com>
+X-Google-Original-From: "Mark Lee" <mark@pulpsysmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Reply-To: marklee@pulpsys.com
+Date: Mon, 14 Aug 2023 16:21:07 +0530
+Subject: Re: untroubled.org domain errors
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DESKTOP6QH7NHOe9cb51b7b0f6421587a36454668b9b13@DESKTOP6QH7NHO>
+Content-Length: 1259
+
+Dear Team at untroubled=2Eorg,=0D=0AI hope you do not mind me contacting =
+you directly and take just a couple of minutes of your valuable time=2E I=
+ love your website (untroubled=2Eorg) but would really appreciate being a=
+ble to help you to solve few technical issues I have noticed while browsi=
+ng across=2E Apologies if it works fine at your end but, if you want it t=
+o work on a worldwide platform, I have some ideas that may help=2E I can =
+help you solve the technical difficulties to render it properly on every =
+type of device=2E=0D=0A=0D=0AI am a website designer and developer with 9=
+ years experience and have helped many different clients=2E If you are in=
+terested, I would like to suggest some ideas that could take your website=
+ from being =27great=27 to being =27truly amazing=27=2E=0D=0A=0D=0AMany t=
+hanks again for your time and I look forward to hearing from you if you a=
+re interested=2E=0D=0A=0D=0ABest Regards,=0D=0AMark Lee =7C Business Deve=
+lopment Manager=0D=0ACall=2E: +1 (806) 275-9759=0D=0ASkype: business=40pu=
+lpsys=2Ecom=0D=0APulpsys LLC =7C  www=2Epulpsys=2Ecom=0D=0A=0D=0AP=2ES=2E=
+ If you prefer no further emails from me then you can add your email to m=
+y unsubscribe list at: https://pulpsys=2Ecom/unsubscribe/
+

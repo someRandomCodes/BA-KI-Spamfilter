@@ -1,0 +1,182 @@
+Return-Path: <justin@rank-websites.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1093035 invoked from network); 13 Dec 2023 08:04:30 -0000
+Received: from mail-wr1-x441.google.com (mail-wr1-x441.google.com [IPv6:2a00:1450:4864:20::441])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 13 Dec 2023 08:04:30 -0000
+Received: by mail-wr1-x441.google.com with SMTP id ffacd0b85a97d-3363aa1b7d2so277285f8f.0
+        for <bruce@untroubled.org>; Wed, 13 Dec 2023 00:04:30 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=rank-websites.com; s=google; t=1702454668; x=1703059468; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=PfQryt86rtiQ1JZ0RwwJGsiZDCIDqaGqJZ32DPYddi0=;
+        b=fmXdhQDheFy1fx/pm0ur9MSJFgFlgtxrrmW1G6B7jRSEIN7U3MW4KjU4dmLGXErCVr
+         pSmisBJBRKJ1y7yEtC1bdQbkGjkACldEvTScmz9yJgn1HbM6YN/x0HCw7DMmgFW7qfsq
+         DqGUYFozEg7yfsBq1eZ3k7Zx8+uctNhvlXYWnIY/vDQK0ncUoTY2pOBe/NZVajy5vS5i
+         io65dnkG+o32phf/UppWWJCpZqCjpCpwXP26naDiLk3bg+BkLv73/4WiZtPZOEJKQW3+
+         HrdtoTZ9IwlB0cgnZe/2Qa3utKzgqhvfOc2MmJX4slk/UTz2cDc9D+V7RNDOCvnyEKJ5
+         BV9Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702454668; x=1703059468;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=PfQryt86rtiQ1JZ0RwwJGsiZDCIDqaGqJZ32DPYddi0=;
+        b=sXWC1T6z08qrSw0ofwfptfRKSK/jl4ppxAjj0LblW3QRWt77olzBLYlihB/hxlmWhH
+         Slxxy7/ElquR/KdTca4pDZbY9gU9cAylCa0fl1wBd8fEL8MZGNHl6mE6IMt5sRScPKKe
+         77Q82vcOv17YhQHm2XqWZDT9G9LU6uuRmc6rcNvLHbcaNaCxYj5jXHZieBYyoDaXrEyD
+         8nSIV/MizeLKdRTd5I8TVFM3bxZ+zT0+j8Fk594SVemDX15KEWTUZ4+ZDBJhNGDpSufO
+         aFjCT6N5mHSJWqsw99ONMY8GT4xgEsoKI5FuehYCRZPhALQEk6C3YK+i/QzJiWdquF1M
+         wdZw==
+X-Gm-Message-State: AOJu0YyNTVFHPAajIlikU+FMaG9ofwKCUDkyruecnLPAdULya2samu/Y
+	bX6wG5P80ZdOPeAAjn+PWE51/YQoZPElyxZPa04hoHmlNmyb5EF5UMHv1A==
+X-Google-Smtp-Source: AGHT+IHkCohwcoy9Q0ANzYhc7PlfSzvwN6UP3FGhsHIbWAowmxSYhfoHMeFz6K0lhkjXklvykusgGybLNUnoDH0cL3s=
+X-Received: by 2002:a5d:4f90:0:b0:336:3516:3edc with SMTP id
+ d16-20020a5d4f90000000b0033635163edcmr789318wru.122.1702454668264; Wed, 13
+ Dec 2023 00:04:28 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 13 Dec 2023 00:04:27 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 13 Dec 2023 00:04:27 -0800
+MIME-Version: 1.0
+Sender: Justin Taylor <justin@rank-websites.com>
+From: Justin Taylor <justin@rank-websites.com>
+Date: Wed, 13 Dec 2023 00:04:27 -0800
+X-Google-Sender-Auth: o38ls3pVfXmB--1x-cF939tEq14
+Message-ID: <CAAXpqx4ZXpxK_w278P21XjLAG36LMRH2zSVpK4VhpyZ6K9Gohw@mail.gmail.com>
+Subject: =?UTF-8?Q?website_errors_preventing_untroubled=2Eorg_from_showin?=
+	=?UTF-8?Q?g_up_in_Google=E2=80=A6?=
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000bf9c34060c5f9dcf"
+Content-Length: 5374
+
+--000000000000bf9c34060c5f9dcf
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello untroubled.orgTeam,
+
+This is Justin Taylor here, While searching over the search engine thought,
+it would be a good idea to do an analysis on untroubled.org as your website
+looked exquisite!, very well written and informative. That said,
+Coronavirus has slowed things down for businesses everywhere. In due
+course, customers are going to need help from you or a competitor. Here is
+a chance, to either drive them to untroubled.org or drive them to your
+competitors.
+
+I see your competitors in Google Maps, I can=E2=80=99t find your business f=
+or the
+keywords that can bring in visitors. I can send you a free audit that will
+show you the issues that are causing the website performance over search
+engines.
+
+    Fixing the issues will boost the website reach and help you get more
+customers for untroubled.org.
+    Generate leads and revenue in few months.
+    Freeze competitors out Google=E2=80=99s search results for specific, hi=
+gh-value
+keywords.
+
+I am keeping this short, but I can give you my word, if given a chance, we
+can turn this around to make the website a huge success. If you would be
+interested, I can send you an analysis report of the website for your
+reference.
+
+Looking forward to your response.
+
+Have a great day.
+
+Thanks & Regards,
+Justin Taylor | (Analyst)
+
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------
+Disclaimer:-If Interested we will send more details on our =E2=80=9Ccorpora=
+te
+identity=E2=80=9D, =E2=80=9Ccompany profile=E2=80=9D, =E2=80=9Cwhy you shou=
+ld choose us?=E2=80=9D, =E2=80=9CPrice list=E2=80=9D,
+etc. in our next email. Newsletter, If Not, You can simply reply with
+=E2=80=9Cremove=E2=80=9D and we will delete your email from our list. "The =
+CAN-SPAM Act of
+2003".
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------
+
+[image: beacon]
+
+--000000000000bf9c34060c5f9dcf
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+  </head>
+  <body>
+    <p>Hello untroubled.orgTeam,<br>
+      <br>
+      This is Justin Taylor here, While searching over the search engine
+      thought, it would be a good idea to do an analysis on <a href=3D"http=
+://untroubled.org">untroubled.org</a> as
+      your website looked exquisite!, very well written and informative.
+      That said, Coronavirus has slowed things down for businesses
+      everywhere. In due course, customers are going to need help from
+      you or a competitor. Here is a chance, to either drive them to
+      <a href=3D"http://untroubled.org">untroubled.org</a> or drive them to=
+ your competitors.<br>
+      <br>
+      I see your competitors in Google Maps, I can=E2=80=99t find your busi=
+ness
+      for the keywords that can bring in visitors. I can send you a free
+      audit that will show you the issues that are causing the website
+      performance over search engines.<br>
+      <br>
+      =C2=A0=C2=A0=C2=A0 Fixing the issues will boost the website reach and=
+ help you
+      get more customers for <a href=3D"http://untroubled.org">untroubled.o=
+rg</a>.<br>
+      =C2=A0=C2=A0=C2=A0 Generate leads and revenue in few months.<br>
+      =C2=A0=C2=A0=C2=A0 Freeze competitors out Google=E2=80=99s search res=
+ults for specific,
+      high-value keywords.<br>
+      <br>
+      I am keeping this short, but I can give you my word, if given a
+      chance, we can turn this around to make the website a huge
+      success. If you would be interested, I can send you an analysis
+      report of the website for your reference.<br>
+      <br>
+      Looking forward to your response.<br>
+      <br>
+      Have a great day.<br>
+      <br>
+      Thanks &amp; Regards,<br>
+      Justin Taylor | (Analyst)<br>
+      <br>
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------<br>
+      Disclaimer:-If Interested we will send more details on our
+      =E2=80=9Ccorporate identity=E2=80=9D, =E2=80=9Ccompany profile=E2=80=
+=9D, =E2=80=9Cwhy you should choose
+      us?=E2=80=9D, =E2=80=9CPrice list=E2=80=9D,=C2=A0 etc. in our next em=
+ail. Newsletter, If Not,
+      You can simply reply with =E2=80=9Cremove=E2=80=9D and we will delete=
+ your email
+      from our list. &quot;The CAN-SPAM Act of 2003&quot;.<br>
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------
+      <br>
+    </p>
+  </body>
+</html>
+<img src=3D"https://rank-websites-dot-yamm-track.appspot.com/2tfHeuLen4pK1W=
+RzLiQqh_tvn3sv33vb1XzTnmSDfwUIyqDRijAETeLRGtjMueInlrWlFVnDwYp9nDA6QeFMV4da_=
+Nboxx6KfTjndJpWGr06A6tBRrxQRYHV_7R2qF8TY00tDbX1ki2u16eZ5iBjNsdxzBmKGvl_7SUg=
+" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:no=
+ne!important;">
+
+--000000000000bf9c34060c5f9dcf--

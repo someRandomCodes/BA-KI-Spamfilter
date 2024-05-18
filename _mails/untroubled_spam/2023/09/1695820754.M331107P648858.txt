@@ -1,0 +1,112 @@
+Return-Path: <seymour@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 638670 invoked from network); 27 Sep 2023 07:34:24 -0000
+Received: from mail-qk1-x731.google.com (mail-qk1-x731.google.com [IPv6:2607:f8b0:4864:20::731])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 27 Sep 2023 07:34:24 -0000
+Received: by mail-qk1-x731.google.com with SMTP id af79cd13be357-77433e7a876so353342185a.3
+        for <bruce@untroubled.org>; Wed, 27 Sep 2023 00:34:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1695800063; x=1696404863; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Q/f2QUJ9izp90emwB1EAa6us0T26NWPEOFtHPRmlScY=;
+        b=MHaND3kQ5lEf0jmICzVs9u21pAY+cXY+6AysZVLJJ0t2Eer9Hsrx7I48Rz8by2Oos+
+         /lAE/Rjx6C8rAqxDaCOz0kmZveyUtESbIZPp/6UbcNITwWL8fK4oX5OduX/rgS2T8+eg
+         u94jD0sXQ01LEdP460lFZjr4OJUehF2YJeGkOUXfmjY7uq4F3zB/lglWoSOCVzA/E4Zl
+         7t7F9JCH+vctHr0u/tDEpJbU1pTRQvzbjZ/vYeDuP+b38LhJqMp2xQrKDuXPZAnByEG8
+         8Ljn3DOITM0K0Kp/wCU6c95ApTiSy1DtZlPAzcXHUnaz971tHH+EO1UkMT4Xs8m13yUj
+         olmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695800063; x=1696404863;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Q/f2QUJ9izp90emwB1EAa6us0T26NWPEOFtHPRmlScY=;
+        b=cnl+ukNdAclphUR7I6l9e5WgMlGp4yGRJVkEIey+8M2CoX+O+VTzGfQ5rnRzXaashv
+         BhjVfdpWzxEe2NLoBiJGk4D6qU6v9L8ZE47NWc30n/POTYhx0Zs5Ma2FurmPs5rSWLH+
+         9TZ7XQ9hYLsHF4RzDt/OHDK07s8OunrsoDTXEExnlQYLuFE75f+42QSlq8K13rh/3t0w
+         9oDTD3u2CVOtw8YMFtbvR5qBlQ3jkIlmWrTq6ePUVvq3GRSorrf2T4G/L4jPDZNPdNsY
+         WyX8anIMJXcJ4sF6EuGxzCEsYkmo6nUqgSR/MHZiKBcxJDCZQ8JNE7losjAbRKhpw+lT
+         GuXg==
+X-Gm-Message-State: AOJu0YyBXp1zqotJ4ElFStCCjGgLa9IN85JN+3LGVduPUBEgRmShSjqN
+	9RGLEAeHCGIggXHcrcTjidb+ceJ/l38XSOjZg0Mp61GOs3CzpVoO
+X-Google-Smtp-Source: AGHT+IEi/X4eFV/5L+ybkz3FYsf9gNSreQgkJU8lU56aWHrW1miDuDPxe9TXEzwPpcgvSU0f7LePQzpTmo4oIvJloV0=
+X-Received: by 2002:a0c:f1c1:0:b0:65b:2830:452b with SMTP id
+ u1-20020a0cf1c1000000b0065b2830452bmr1378276qvl.31.1695800063185; Wed, 27 Sep
+ 2023 00:34:23 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 27 Sep 2023 02:34:22 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 27 Sep 2023 02:34:22 -0500
+MIME-Version: 1.0
+Sender: Seymour <seymour@smartstreamingott.com>
+From: Seymour <seymour@smartstreamingott.com>
+Date: Wed, 27 Sep 2023 02:34:22 -0500
+X-Google-Sender-Auth: UNe0g3Irvev96gQvy-Z1F28Wqp8
+Message-ID: <CAD8G2O8TCMKBWTBtfhrqCK_mAAqBiPr_wCBT1m=B-Sg6Zd2usw@mail.gmail.com>
+Subject: untroubled.org : Revamping for a responsive web design!!
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000006064c406065238f9"
+
+--0000000000006064c406065238f9
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>,*
+
+I am  *Seymour Joseph,*  working with a highly experienced team of
+*web**developers,
+SEO experts and mobile app developers *for the last 10 years. We got good
+hands on *PHP, React, JS, **CSS, HTML, Angular Ajax, MySQL, Bootstrap,
+Github, Asana and Slack etc.*
+
+I am wondering if you are* interested* in checking my
+portfolio, pricing?
+
+Best wishes
+*Seymour Joseph,*
+
+
+Business Development Manager
+----------------------------------------------------------------
+
+Click here to *unsubscribe *
+[image: beacon]
+
+--0000000000006064c406065238f9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font color=3D"#000000" style=3D""><font face=3D"verdana, =
+sans-serif" style=3D"">Hi=C2=A0<b style=3D""><a href=3D"http://untroubled.o=
+rg">untroubled.org</a>,</b><br style=3D"box-sizing:border-box">=C2=A0<br st=
+yle=3D"box-sizing:border-box">I am=C2=A0</font></font>=C2=A0<b style=3D"fon=
+t-family:verdana,sans-serif"><span style=3D"color:rgb(32,33,36);letter-spac=
+ing:0.2pt">Seymour Joseph,</span></b>=C2=A0<font color=3D"#000000" style=3D=
+""><font face=3D"verdana, sans-serif">=C2=A0working with a highly experienc=
+ed team of=C2=A0<b>web</b><b>developers, SEO experts and mobile app develop=
+ers=C2=A0</b>for the last 10 years. We got=C2=A0good hands on=C2=A0<b>PHP, =
+React, JS,=C2=A0</b><b>CSS, HTML, Angular Ajax, MySQL, Bootstrap, Github, A=
+sana=C2=A0and Slack etc.</b><br style=3D"box-sizing:border-box">=C2=A0<br s=
+tyle=3D"box-sizing:border-box">I am wondering if you are<b>=C2=A0interested=
+</b>=C2=A0in checking my<br style=3D"box-sizing:border-box">portfolio, pric=
+ing?<br style=3D"box-sizing:border-box">=C2=A0<br style=3D"box-sizing:borde=
+r-box">Best wishes<br style=3D"box-sizing:border-box"></font></font><b styl=
+e=3D"font-family:verdana,sans-serif"><span style=3D"color:rgb(32,33,36);let=
+ter-spacing:0.2pt">Seymour Joseph,</span></b><font color=3D"#000000" style=
+=3D""><font face=3D"verdana, sans-serif"><br></font></font><div><p class=3D=
+"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><font face=
+=3D"verdana, sans-serif" color=3D"#000000"><br></font></p><div><font face=
+=3D"verdana, sans-serif" color=3D"#000000">Business Development Manager</fo=
+nt></div><div><font face=3D"verdana, sans-serif" color=3D"#000000">--------=
+--------------------------------------------------------<br></font></div><p=
+ class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><=
+span style=3D"font-family:verdana,sans-serif">Click here to=C2=A0</span><b =
+style=3D"font-family:verdana,sans-serif">unsubscribe=C2=A0</b></p></div></d=
+iv>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2j2W_l9F-o=
+vm_y6nmW94K400VWMoLtcYyjsnUySsTSk4zco_VigG2lsFIEO-fe12X8hFVUPb6drAKm7Leky8l=
+laX78R_0sTkYQTabx_WDZ3I55RBGDcRvk73KwAuuJ4abLuSt57SI_8ebDho_9HCsb_yUYK18Kcd=
+F8qE9t-k" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; di=
+splay:none!important;">
+
+--0000000000006064c406065238f9--

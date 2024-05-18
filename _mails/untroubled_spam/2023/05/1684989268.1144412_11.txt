@@ -1,0 +1,322 @@
+Return-Path: <>
+Received: from 10.226.14.45
+ by atlas214.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Wed, 24 May 2030 12:05:50 +0000
+X-Originating-Ip: [209.85.167.50]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.50 as permitted sender)
+Authentication-Results: atlas214.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Wed, 24 May 2030 12:05:50 +0000
+X-YMailAVSC: 3m0CJ8I3bBti0c2zR1IKqt_n18DdG8pN4EsttnvsB.i_TEJ
+ e7K7CbRiRcRM80Rko9IUYwcTp0ReBDqiQHv3JvBJ857n6wJfpfaRXw_qyU3e
+ aQ6Ths4T6GkceSSAiOV9fkH8WxDsSp1kfTK2iCzkVWKei7ZI2j9fGVrIdlb3
+ YZNMLybrX8kvHlJbVLI.SyggwGifZMhurNlluZhVwNyP0iJEwSttKH9gbMTf
+ zBNTp5CuIJZ0_c79xhaCP70VzhQ374z6adDq8yKgjGQWwykFSTAx3J0jDQYr
+ SSfgrAGJDbfAxqRitm5gDkrd4xDLR.L3BqBaL4zsjyXFj1bLPsqLfVddcvc9
+ CTwMpv1alUzATGGU6UQuoGNZN.xOXAhwULDRLF_XR6AXx_JIEnRYdkklYLmn
+ LqcDE.oGI3kbYRKqxVx1zQfX9CklvdBm_Mzwt3Evaf.APhSgZ9r7nCZRCp3Z
+ Qo3CXxiNSUKEkydeDZPZxp8dO54J00hdwhIyqr.QzlW0pjZKwWzlMqRIZtIw
+ 2KhX4.mtXHWdw68h1lumnTMRtOtsJrJkqRURZjtul4n5HznAD4o8Xm2pUCYx
+ 7bzwMx_TuL.PP_tzAqX28PeQ.Y_hjNtzuSMr_QUnb4TCv_o2cQQCe.lYLWTL
+ FPTxpr84ETfx748Af2DIPrx8inSNGuupca.Kj2qQfYfMR56AeJBRhwFaBUam
+ cDlgGR.EjHaRJgq04XFCdj79ErIV9re2YVzVVXvX2TbjeYluOEe4KGbPpcb5
+ gJXD3pnMWbKJsr.65civq8iNj6wS6o3DUUuqELfpD61RPC11xtdUIrEIbeql
+ ec.2UlyNVtxAHltezZzDcEdmNE0_TGF0sdIG_ebf_yF078UyYv83WgM6Ka6R
+ KI0EQ2deP_K25y9GfjenjlwiAAVNwpiklfkPalOaDCtn06Lhcazz1nQtR8hE
+ BbRg3w2fkD2.6CvOvd2g83OtyGdB3C5cuOFj_KZ1l.6QiWqo7A9w1TutTv8G
+ xj1uZKJ9P9oxcE3ZKYhvBanrifLYGK6DRbz.QSZWdGBPIoUgbQx83kg1ID4B
+ 1n4wOhbbkhjA-
+X-YMailISG: msYcB0AWLDs2QGpUnp1bD1jlPNN2ks6RDReIPfw82b._kHPv
+ rI8PoBnsw2HjfcF_s59Mj3IMElllfQ4_QbF7GZZDWyoqeHu28gJnnFZJ4b9N
+ JKqtEX4kn9fHk0YIiHHpLuaZ9piWvMlArDSKeg0JTUlLmq9GM4bhQ9szCwiz
+ .T_VuZLaxzXmKITjzhmXxK_K30aCqAGzioP_L1AkIjlDjYrejub2H_FaMy2W
+ iLJ9LzrlOJJlgUFTUVhZurG_azhLCQs07OfL875lKVQ3i.VxBGe63RWpPwi3
+ FIb_2ahK__RmWUAa812tC2_w47HN9BUtrQqfhOzlDoyjeDBRMFhFrz7.717J
+ Y2Sct35wSHuaeeLLzBG1ijLYQfYd4Uf9mOXHHXXmyi7Pv9jnjT3UqazBWeCt
+ Tu0u_cNOIEERYmxEVBbaf4LGIXNM.tTC_6w0_dUstoUvki3YKHTicGodtknJ
+ q_5L0xC9BO.1TeWaYq6BDxyBPL9zZUYGMBv0feitIb6Tw8FiMUrGSokx_hyc
+ zl3BzXq0iBAyYz_pwJ131.yGyLJgW3B8fIDrJRUT.XmGD.PDocmTZEwGsbNs
+ GUGnz8Ndt_5_g1bebmNZ7tvzOdLMP99WUfIeVs5Aqd3kLbzYspsHsKXTi6Gw
+ VPoVEbOgI3XRru1a0bQwDKlNU4BF8AMCphunAVMREB.WWXGWeKjlJv77I71v
+ kFlH4MbFT6xaFCWDmLcCrBdJdidzKu9i_q7uE13VoBJvTWQPiMBl0rMl85E7
+ JF1gzOdxeH_qAjI7kaZ1VGmfBGA5yBndf3F00CwACAeNm.rGdmI9tBtS4y.l
+ rXEglGBIAmBEmolJxcg2i2K9I57bfg7SJ3fPKGmHgaQWz6QcHXp2ICTtocp2
+ x8zrMUS88_KiZXXGUu.ZMqZ97pYXpVrhAxGLItyTmd4zG.pZEb1t_Bx5r5lo
+ dqa0UWTqgfoeKhgK9pibycHflNzOc3b5RdnmSKhYH92vehKr_yM_k0VMgj2G
+ 1y57_zDuluUtp82biBneoChW7qvFu4pF0wfnY7OBkiTcx5YzAvnSmIBpcDml
+ t4csMX1yAK84UWi6IA1EMnynMxvkZzy78jY-
+Received: from 209.85.167.50 (EHLO mail-lf1-f50.google.com)
+ by 10.226.14.45 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 24 May 2030 12:05:50 +0000
+Received: by mail-lf1-f50.google.com with SMTP id 2adb3069b0e04-4f3ba703b67so800594e87.1
+        for <bruce@untroubled.org>; Wed, 24 May 2030 05:05:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684929949; x=1687521949;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=YadtVAMIpdvNE6bbVptoETXZ/kpMXgnV64GhUpObXvY=;
+        b=pFT30ZGYMigagT25IEgzNOXG58+Tj5d5rmeMbZyqSXbMwVxuhOWuodNGApIfSGsLAs
+         qNHWv0ssN7r8QgwduNpVA7YZgzdPbK8UE2dlbHkAjQMGzk4IMy9cr7Izdt7CMLFdFVlv
+         n3dH9VGnJQXy0Sahn4yykand0JCl6FcJiOYy+GsYNeavHjp6sy2PFNwCqbm+mzLJtd8y
+         er8fJe45vo6OmD5HddT2l671OsFdHMDDufaiQJ4f6LaMG3XgY6D2ML4WTpg23S5+egxC
+         Q859ILRl0JyN/c4cja9jWf1WGMLiWEyks/uePKHQP36MoClLVB/8fO8NQSbZI1xKRWjf
+         lLZw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684929949; x=1687521949;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=YadtVAMIpdvNE6bbVptoETXZ/kpMXgnV64GhUpObXvY=;
+        b=VoHTfXNPUH2wqC0OHvvPsgWg+zE3/SVcZQ2yF/WfgdmkDJ11L8k5hF5Br9f/yHMOFs
+         7stf0kTASThET33fLNmAX5sfZIEuWeMyPJ8/8mXh0CMDsMrZdfjBxSCIrR9F1RTy5Cc6
+         zNWTaCFJvXKM7/loNGNUUbmkeCKd8ZN5MKRt2BcnQe0Or+GekSvYuNVznxPZdjpYcU6/
+         RMGBJXsZLARuvO88XRx0lfWVcfr4V0byzS3ARjyYjFAjXh7qJP2rC+oUNvoPUkuPDcxp
+         PI1qzqYchrOHfFSxI+b3k+/LMMMizgNOl8GERUvPiQrmo0IY1gWln93zr4tMmWjc5ekV
+         Ralw==
+X-Gm-Message-State: AC+VfDzf7mesgGLR0LApAzAveg0ZRjcTbsrdWP4jweEteZ0Fvi+Av9Bc
+	8HdqkruwfUk46cm2ezn7KOIlOBO0c9UKWSqNpWZjaq3V
+X-Google-Smtp-Source: ACHHUZ6Szr80S0DBmnFTPAgU0FETiIHpcaoUNJ53b5HCDue5HGHQbeHJLRK/03TiTjHdjQ6Yn6w43quiiS7WtkTtQQc=
+X-Received: by 2002:a2e:7302:0:b0:2ad:8623:a97e with SMTP id
+ o2-20020a2e7302000000b002ad8623a97emr5374807ljc.50.1684929948543; Wed, 24 May
+ 2030 05:05:48 -0700 (PDT)
+MIME-Version: 1.0
+From: Enence<bruce@untroubled.org>
+Date: Wed, 24 May 2030 13:08:37 +0100
+Message-ID: <CAPrzedWMG1bO-_kM2TzXKT9zKcX+aHGaiYpej8OkDMhLL5_0hg@mail.gmail.com>
+Subject: Smart Japanese Innovation
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 5655
+
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Enence</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.4;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #fff;
+ }
+ .logo {
+ width: 140px;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ }
+ h2 {
+ font-size: 32px;
+ font-weight: bold;
+ color: #73226E;
+ padding-bottom: 0;
+ background: #fff;
+ width: 320px;
+ padding: 10px;
+ border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+ }
+ h1 {
+ padding-bottom: 0px;
+ padding-top: 10px;
+ font-size: 32px;
+ line-height: 1.1;
+ }
+ .title-para {
+ font-family: Verdana, "Arial", sans-serif;
+ font-size: 22px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 15px;
+ border-bottom: 2px solid #fff;
+ width: 340px;
+ }
+ .feature-para {
+ width: 480px;
+ max-width: 90%;
+ padding-top: 0px;
+ color: #525252;
+ font-size: 16px;
+ }
+ .feature-img {
+ width: 360px;
+ max-width: 100%;
+ margin-top: 10px;
+ }
+ .linebg {
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #fe346e;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .logo {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ width: 110px;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ 
+ h2 {
+ margin-top: 0px;
+ text-align: center;
+ width: 220px;
+ font-size: 18px;
+ }
+ h1 {
+ font-size: 20px;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ }
+ .title-para {
+ width: 220px;
+ font-size: 16px;
+ padding-top: 5px;
+ }
+ .feature-para {
+ width: auto;
+ }
+ .feature-img{margin-top: 0px;width: 210px;}
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#fff" background="https://pbs.twimg.com/media/FvSPq3uWIAER2dZ?format=png&name=small" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FvSPmtFXoAACtG_?format=png&name=small" alt="logo" class="logo" />
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+
+ 
+ <tr>
+ <td align="center">
+ <h1>ENENCE instant translator. Any language any country</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="10" align="center" style="line-height: 10px;padding:15px;">
+ <p>Have a real time two-way communication with any person on this planet. Simply press the button, speak and get the voice translation in 1.5 seconds.
+
+</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="left">
+ <img border="0" src="https://pbs.twimg.com/media/FvSPfkKWwAAK0Mq?format=png&name=medium" alt="reward" class="feature-img" />
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="feature-para">ENENCE - a revolutionary device enables you to communicate in 36 languages around the world faster, easier and cheaper than ever before! Technological breakthrough allows translating your speech in just 1.5s.</p>
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height: 30px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#Y0g4MVVNQnlEQWRYYktMU0FnakpRWHVrOVFLN1NUSnZ5by9jRjdCMUdteXl1UDFGNmw0dU9adi9rQUduN2Z6SkZmcUlFNGNGbkNLdVdSYXQyWDcrNmRNRER6M2lpY2JoNmlzRTMvNms0R1ljeTJCMzVmdE5tOHJaQ1ZOTW5uSDBXVjhnSmVWc29zSFZ6VVVPb2JGVHhnPT0_" class="cta">ORDER NOW TO GET A SPECIAL 50% OFF DEAL!</a>
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height: 50px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;"> </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#UTc2R094L3BjSHdqNDRESG01M0FEL05yRnJQUGZQbk1qTjNLZ2dEQzMzRldFbnFGa0xPZ0d0WXVFY3dUd29QUXV2aFpQWExJQUs1N29zbWkrYmVHbDZnSzlYbFdzQWZyNHFqMWlrSHBIOUMzRDZTeGl2M0g2b2lnQmg2VHNYMGJtYStXdWFsNnZNNW5KNXNRRTB4aUZnPT0_" style="color: #666; text-decoration: none;">clicking here</a>
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/426702c8bd4583232754/2aa85650313800884a3b#bi9WUDN5OTJxTXFoRGV0U3RkRXlWSlRpaUR6VC9sd1ZkUUJUSm41ZEQ0cXp6MlBJcm1VYU1oZlN5bHhWUU5MdVBwTzJ6N0tSbEd3VUN4WDB0NHAzSjZFbGhoTUVUNVRyVWhMRU1yN1VrLzloNVdaNzJrYmJhRTZSQ1RxcUc3Y21KejhmcExSYWhMZzcrbW5OWWFnUllBPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

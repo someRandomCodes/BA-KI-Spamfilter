@@ -1,0 +1,88 @@
+Return-Path: <marklee07@dmatexas.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 763980 invoked from network); 25 Jan 2024 15:12:31 -0000
+Received: from mail-pl1-x644.google.com (mail-pl1-x644.google.com [IPv6:2607:f8b0:4864:20::644])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 25 Jan 2024 15:12:31 -0000
+Received: by mail-pl1-x644.google.com with SMTP id d9443c01a7336-1d72f71f222so30486215ad.1
+        for <bruce@untroubled.org>; Thu, 25 Jan 2024 07:12:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dmatexas-com.20230601.gappssmtp.com; s=20230601; t=1706195550; x=1706800350; darn=untroubled.org;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=2lHJHlGgVrgtFhymP3VQMro3YQe6VQJaumYI9sNRFZM=;
+        b=EjqasC9CbmuVi8L1UA3MbaR45hu9E63F5tbyHuwWB0uaIjyDlsDBFjK25ELC5nEf4p
+         hWpRky5ZjK5ObNblbg9JniTgI9Jd4Kw8YC6ovRj8wNdDq1lBi7e/IDRM2k/hqkqSV/fg
+         hezHo5f6+9mdtDHAwfafXodg38e6PtN/ooEDKuQTVq4w/hy37cBNr1M5X/W+Q3B/kr3w
+         faRPvtBHGdJrFkEoD4saAv/YjaMbJ7P8EUxI2o1lJxwhn8hsG1+aU0u06JnyissUasx/
+         EGfhrifwgbKNlzN8R7xnJQm7qUEVVKIhxmH8X+OsEdrLMQEYnMr5mspozRVS5OykPFqB
+         gDag==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706195550; x=1706800350;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=2lHJHlGgVrgtFhymP3VQMro3YQe6VQJaumYI9sNRFZM=;
+        b=MkzF2b83N+vnc7WpmwlVg8cCE+284C4RmpaKV+TaUHOe6Pfy8/OQeZ+yii+tFW5+oc
+         CGQO9KFA7VQCK78yYYotFBs8Yibr6/6ZNUlgby1eqv5wIrOLZ70rBx5acjIGFLjrgAJU
+         gU53VbRn6iwscScJu4YZZJ7TxleDq/NhyW4TAyIexL18/59EbnKL4w8i08Ypz6qU/HmC
+         fXCe4SIxxadlf70Zey2khTi1tjWeBDfW7MaxmEyJS/M9Rvk/IsmhHcwb0AI8akCbqRa9
+         dyudWFFFE/4BIYCTAJlG173XDIAh4Bh89Re1quil94FkkL4ppmgcu1uzhUK44Q0dOqUT
+         9YoA==
+X-Gm-Message-State: AOJu0Ywb6gfXhi7xUr7WiPnGZeU35mxncDcxaJI8/odY74gRME7/o8Kr
+	CcOPmL6Rxe9XQ+A90hg77yVol0h5jKhSfMEDXVzbU2A/BGQ+C32OxWO5x5BylO8SWzzZDzMhMl3
+	dbgM=
+X-Google-Smtp-Source: AGHT+IFTTiimRfh0GRSbWgxUbd2mMjtB7MUw66rCt9ZtAKsiy/QbMTcPMBURtH+hZk4sZK4zdzAyaw==
+X-Received: by 2002:a17:903:32c4:b0:1d4:caea:5fad with SMTP id i4-20020a17090332c400b001d4caea5fadmr1087316plr.33.1706195550040;
+        Thu, 25 Jan 2024 07:12:30 -0800 (PST)
+Return-Path: <marklee07@dmatexas.com>
+Received: from DESKTOP6QH7NHO ([103.165.168.20])
+        by smtp.gmail.com with ESMTPSA id k8-20020a170902694800b001d46274b533sm12048924plt.138.2024.01.25.07.12.28
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Thu, 25 Jan 2024 07:12:29 -0800 (PST)
+From: Tom Marcus <marklee07@dmatexas.com>
+X-Google-Original-From: "Tom Marcus" <tom@bluemez.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Reply-To: tom@bluemez.com
+Date: Thu, 25 Jan 2024 20:42:16 +0530
+Subject: Re: untroubled.org errors !!!
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DESKTOP6QH7NHOb3b7c28af8ba4f23b5f4085616f81995@DESKTOP6QH7NHO>
+Content-Length: 2377
+
+Dear Team of untroubled=2Eorg,=0D=0AI hope you are doing great today=21=0D=
+=0A=0D=0AI=27m not sure if you knew that your website untroubled=2Eorg ha=
+s some problems that you might need to consider looking into=2E I spent 5=
+-6 minutes on your website and found those errors, which I have listed be=
+low:=0D=0A=0D=0A- The loading speed of the site is less ( Slow loading sp=
+eed can lead to high bounce rates )=2E Check on your Google Analytics for=
+ the same=2E=0D=0A- It=27s not fully optimized for all type of mobile scr=
+eens ( Affecting user experience )=2E=0D=0A- Cross-browser compatibility =
+issues found=2E It doesn=27t adjust properly when you resize the page on =
+different browsers=A0(Affecting user experience)=2E=0D=0A- Non-functional=
+ contact form as the server rejects SMTP connections sometime=2E( You mig=
+ht be losing a potential client/visitor on your site as the submission fa=
+ils sometime=2E)=0D=0A- The design can be improved to put the site ahead =
+of your competitors=2E=0D=0A=0D=0AAn incredible site can be a great sourc=
+e of business development=2E A poor site can cause harm to your brand=27s=
+ reputation=2E=0D=0A=0D=0AI actually do web design for living, so I figur=
+ed to reach out and let you know that there is serious room for dead easy=
+ and affordable improvement=2E=0D=0A=0D=0AI can develop the website on a =
+more advanced platform at an affordable price=2E That price also includes=
+ making it fully mobile responsive, which will support all modern device =
+screens=2E=0D=0A=0D=0AIs that something you=27d be interested in? Reply =22=
+YES=22 to get the detailed plan/proposal to fix the above mentioned issue=
+s=2E=0D=0A=0D=0A=0D=0ABest regards,=0D=0A=0D=0ATom Marcus=0D=0ABusiness D=
+evelopment Manager=0D=0APhone: +1(408) 600-2830=0D=0ASkype: business=40bl=
+uemez=2Ecom =0D=0ABluemez Inc=2E =7C www=2Ebluemez=2Ecom=0D=0A-----------=
+-------------------------------------------------=0D=0AP=2ES-1: If you wa=
+nt to receive detailed proposal, please feel free to reply =22YES=22, We =
+will get back to you with details=2E=0D=0A=0D=0AP=2ES-2: If you find this=
+ email unsolicited, please reply with =22REMOVE=22 in the subject line an=
+d we will take care that you don=27t receive any further promotional mail=
+=2E You can also unsubscribe your email using the the below link:=0D=0A=0D=
+=0AUnsubscribe here: https://bluemez=2Ecom/un/
+

@@ -1,0 +1,419 @@
+Return-Path: <heersinkjezrael96@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 758082 invoked from network); 1 Dec 2023 14:02:53 -0000
+Received: from CO1PR02CU002.outbound.protection.outlook.com (mail-westus2azolkn19010007.outbound.protection.outlook.com [52.103.10.7])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Dec 2023 14:02:53 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=DRYAi3+giwulNZNm7M8I8dvyAQZYtpR1ha9WClz2yCWJGaakyxw60g8Lw57DF0fBQVhdXiBX7XhSYzBHBtwlqoYNRN061VVEh4IyY/t3zANjtO3jCDsAnXccQIN4Qgm5ijfiBTq9qvPzIzUe0r1w6ZvITqzTnOzT/3yvIHRQXJ+oUfVdDKGsQytUolOFkHebqjK4eLkBCvTAMY5ObowjFT48hMeBeKw4GH7rsaiNKEvOWcp9E/krLLCoT4S1qRgxWoKQeJRxJ59XoUv/wCMLlfxniJCvDx1+3E9GEgZM0yDHbcdHvp4DDJoQCrbC1EQzs3kQc6VyJXXUW8pKDJBK8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Ku6AjV4s2CpysILM1A+o2SarjoigMWnAJuQWrIzFkhM=;
+ b=X/nRzmrUMHva41BwuPPdZt+fm9puTEy18OjREpD26CcEOlE49XZTd6MnRo+kj4Wr+VfsYQjupHIqPmKAACsBSoCjb1Mqk7w1PnrZpamEt+peKZjDYrdvp//Qm57CbDsQiJvmF+sPNen4/EFKL5qWBAacXTFa7ejSJZfoH/fJNuhdGls0w5BJJgKQsLqSVfzm0p6sHdPmuKXfTGUFOnRWLYVqPRpz23gtSruKj67zJtB427HOBdfNZyMzT41im3gXoHu02wZoFxK/FFuuABi+l+EuYnIiZ0LHPlU7a+1hR+iSeRxq3aIo/9SOou2zg8ycChI5o8816JINXUWdvhLWzQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Ku6AjV4s2CpysILM1A+o2SarjoigMWnAJuQWrIzFkhM=;
+ b=JnLWkT6oUCnNhcgxtVaYEv/yJ0bFSPOETJs5gbxaWYvzMxGwqWHtQyBqaSEQBaODeNYr1Z/QIWsYbnB3LQ/v/rQrnayRGbE6r4y1ssvr/vT2P0U4Insu6/rKGVyS2YstqtOeRVVhaCKMGuqUl94IGvrpUrq77BD5QplDZpgDT5Ft59VA71vtgim6wxuPWrIOU4EOYTavi9nh0qdXl5O6ePu147fZnyjzAZ0EgjcGv858U4a20o+m2yRQcuMVDCLokUHlZCDlau6JSP4Ld9iQjFyM5tF5UbG8Y8mEnzXd3E9RtlrIh/QUu9AE/U9s82ZVdB/PLLZqixB6liSJrnmHVg==
+Received: from DM4PR05MB10196.namprd05.prod.outlook.com (2603:10b6:8:180::16)
+ by BYAPR05MB6629.namprd05.prod.outlook.com (2603:10b6:a03:115::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7046.24; Fri, 1 Dec
+ 2023 14:02:35 +0000
+Received: from DM4PR05MB10196.namprd05.prod.outlook.com
+ ([fe80::f7a:b758:927e:858a]) by DM4PR05MB10196.namprd05.prod.outlook.com
+ ([fe80::f7a:b758:927e:858a%7]) with mapi id 15.20.7046.028; Fri, 1 Dec 2023
+ 14:02:35 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "heersinkjezrael96@outlook.com" <heersinkjezrael96@outlook.com>
+Subject: Ukrainian woman looking for fun!
+Reply-To: "heersinkjezrael96@outlook.com" <heersinkjezrael96@outlook.com>
+Date: Fri, 01 Dec 2023 15:02:30 +0100
+Message-ID:
+ <DM4PR05MB101969B349526D0ED843FD102B981A@DM4PR05MB10196.namprd05.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_9769_D635D44F.6EE7DF77"
+To: Undisclosed recipients:;
+X-TMN: [FMD9dpUM5qjHyMQMvg9uWPMJ0gASKijs]
+X-ClientProxiedBy: VI1P189CA0010.EURP189.PROD.OUTLOOK.COM
+ (2603:10a6:802:2a::23) To DM4PR05MB10196.namprd05.prod.outlook.com
+ (2603:10b6:8:180::16)
+Return-Path: heersinkjezrael96@outlook.com
+X-Microsoft-Original-Message-ID: <1.aa119a0f88e70d7a4f1f@DESKTOP-PKC9ISR>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DM4PR05MB10196:EE_|BYAPR05MB6629:EE_
+X-MS-Office365-Filtering-Correlation-Id: a43eda7f-ebaa-41a0-9bdc-08dbf27629ed
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bHhZaVZHVitnTWJTa2dzWFdZUk5YUS9Pc21WWEt6aHZaUUFCQWd6cWNyekkw?=
+ =?utf-8?B?K2FOOWVOTjBpeWdVK3FDUGVSb2c1bjJiSXFraitJM1RHK000VWVQWlUwL1Nl?=
+ =?utf-8?B?TUw4MEt4Njhra0MyNHdDMVhyUDJvTGNaOWRsdTJIbDJFVW9hbElsQ1JMeHIw?=
+ =?utf-8?B?eFR1d2JqNXpodzRjZlZqR2I0cVZiQ3JtQXVJUHRZMFdrYWhBRFg5VGgrTVlX?=
+ =?utf-8?B?VEs1Nk5LaEIxcWFZTU5KcVJQMlVGRGU0SEFIdXNhcVIwb3lVSEsvbjZRSCs3?=
+ =?utf-8?B?VXpoenI0d2t1U0NqTW5HOEJOamswZkVxWVRiTEpZdm1wb3hMc3JtVmlLRzVs?=
+ =?utf-8?B?ZzAxdEhmWkVpVjFIQTBOUjFyZ2xzazlOdTJKNmcrUExhd0RiRjJhL2l6Z2tZ?=
+ =?utf-8?B?YXRFVTBESUJrbVVpcHUwSlhHWGZTYSsveEkrTVp2aHdkWVhlcTREb1UzWkZv?=
+ =?utf-8?B?VFV5UnRXS0oxOFFvMGJZa2phL1FnUGs0VWp5QnpUK1dRZkZqbm5TYS9SdXpM?=
+ =?utf-8?B?MGtFc2Vic1ZPcmt5RmFZclVDRkl5MEhkTnY5cWhZNm1lVnNnQlVJSmdlSWU0?=
+ =?utf-8?B?azNQcGdiYlFaeXRXS1dLSzZnaENLOGsyZ3QyaHVzZ2oyRFM1UDZaRjczZEcr?=
+ =?utf-8?B?N1BhcW1zSkdqVWsyeENlakFJS2txWlVHUjZvcnlpU3RIVHR1NE9hOGY2czRS?=
+ =?utf-8?B?OWlBTjNsYUd0K2FMWXBhc2hrZHRSQ1VTc25DcnlaMWkvS3NuakpXNng2Zml1?=
+ =?utf-8?B?ZWpWdmMwcStRUk8vRmZyNlNnS0VZUWRFMldaeFQ2RXhkbk4yVWJ6MzhwOVpJ?=
+ =?utf-8?B?Tk16Y1c0M2ZHUDIydk5aYUFvd3FNN3hmWU8zOVVrQVh6bGNSbzdCQ05VeXRz?=
+ =?utf-8?B?TDhRQUpiZjdhUDRSMHdSbGZzSFp6bFdWUFJZK2NmSmVlVXhncXIzZXRLVWtV?=
+ =?utf-8?B?YWNLVWI4ZnY4STQvRVN4UWhrYjhUZUlXOTFIVHJkL3RHMTcyc1dFemUzQXVW?=
+ =?utf-8?B?eERSdlNYN0YzeGtPc3dDVlU0U3M0M3ozVlhLS05vUlo5K0dWZnc1TVN2NytQ?=
+ =?utf-8?B?RzR3VnlTNlJhY1FGRE1uL0s1NkNkNS9NQUNFSTJ1K0V3VmxiTWlzZ0hTYy9G?=
+ =?utf-8?B?QzlVRlBYZW51b3ZOODFUZTNObDRHbjFBV2ZqSm16YmJPNnZubDRpOUZUb0dY?=
+ =?utf-8?B?UytTNENRY0M3dmg4SU1nMXYxSFpSRytnZEh1ZHpDendJMEh5ZzA0WStNR1pm?=
+ =?utf-8?B?Q2puWitQaHpxdHVtV1NPRWU0RU9kcFhYVnZNRER1cUhKOGVLenVDN0tPT0F2?=
+ =?utf-8?B?WE8yYmFpdnphTGJOUlFTQmI4ZWtlcm03VU9hWHFOVXpmbFhiODB3NHJWZUpy?=
+ =?utf-8?B?RFR5REgyVDl2QzV5WkVRZ1JUM2dUVFl3bWw3SGQyY0RIUXNWaTR6MVdzZjhk?=
+ =?utf-8?B?akhGcC84dzM1Qk1GZm1iNlJIdkVCR2VRQzlSSHcrczliWFc4cUF2TTdhWGV2?=
+ =?utf-8?B?QnYwdVdXMHJIdXNUbnAwTFpkMnZLdFo2UkEwWnY1ZDZPR3hkWUFtWC81MWR0?=
+ =?utf-8?B?Tmo4dz09?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?ZWU2TnB6aVR3V0c0cDBXRmVjRFlCNjZUdEtMSXpneTVFazZORDdCc0tJV3JM?=
+ =?utf-8?B?bEpSQ1BBNkZDTW95YmUzcE94Z1FKSThwZktwNDVaL1RwWkpiTFlMRWxnSDlU?=
+ =?utf-8?B?MWJPZnlKVUcxemZmQXNwMTBCUW9RaWtDb2ZhRXlxeHVhUEo4ZXp4ZWREWk9j?=
+ =?utf-8?B?N25hU2ZvVnN3OEFzOTlqb1JqdGlndHBCMHN6RTlOeW9jY0h6YytFVGYzZDRp?=
+ =?utf-8?B?NExvK1FqUml4TmtyMG0vQVFwcWExVE0reU5sVkYwMmZvazNUTzF6SHZheldW?=
+ =?utf-8?B?UDg5WVhxdVFwcVp6cG9rMHNnOW4yNTZxWC9nQzN6Qm16OVdhVGQwYUc5TlBY?=
+ =?utf-8?B?MHMyVGNkNmQrK0FmY2dZUkZFSmVxWGx6ZFBCUGJVb0UyMlJjdm1hQkVjcDJD?=
+ =?utf-8?B?T0U0dDhQKzE1dGFaR2k4ZFhFb1lBWjRhVVVGZ0NJbEJIdlBLdnJnRDJITnlV?=
+ =?utf-8?B?dkp5cjQvNWJQTkZFTzNpYmtUa21tQ2VlUUFMSURuMFVEZVcwSElqdlVadjJo?=
+ =?utf-8?B?R1JrVTNCc1ZJTTg2cTJmTXZNZ0V5bDRFS285K2ZvUndpazgwYmF4TkFDa0hU?=
+ =?utf-8?B?RGRydFJLNm5FdGVacmFDYTgxYW1KbXh2ei91TmdaeGd6UEN2bkVZUWdmVFNH?=
+ =?utf-8?B?dzVLWDEwbXUwdHg0ZFpCWWtDV0V2MFlORUMvUVFFUldSRnVuS09iSTRVVDdZ?=
+ =?utf-8?B?UlVmTWpRdm50WlZYZFdDRU01YWRmT0JCMk5POEp4Sk5sbEswMUpRakYyUU5l?=
+ =?utf-8?B?U0hHOE12YmZCNDFCbkI2UEF1VFNzYnVrek4vQmtMaVVhMTdsV0VnZ01GdWxz?=
+ =?utf-8?B?Mk9IOWZxbm84a053a3hPNmUzVTFkY0xkcExhdWpLbEtsbnRsWnRsdnMzbFp6?=
+ =?utf-8?B?bVpHMTRjK242SkJsaXF6SER0ZGxaOWE2azNRSWp2bVRUUmtlSTA0VXZPdDkz?=
+ =?utf-8?B?cEsxOU9zem1sYmNveWpCNFl3R0wrSisvTmZDdVYwUThHRVEyMVBuQmY5K1Na?=
+ =?utf-8?B?d3hBeUtmKzdodmJIb3R6RXl2MTlOeUYyckF0VG1Fc2VLV3ZQQWszZm0weWp1?=
+ =?utf-8?B?NnpIVi9ZRjA1K2pDZzZJN3BGeVl1NCswZ0tMdjRMc2lDaitXSk83enhXYkpK?=
+ =?utf-8?B?bzdGQ3djRjhDR0phcTl6bjFRTkNGQmVVbFdaN1VkL3JGdExxOE5sMjhlT2I2?=
+ =?utf-8?B?eFBsTG9hZWM0OFFrRjQraTRNREUzbWVSaEpySy9vM2F0SUlWQ2ZFMERrZWpx?=
+ =?utf-8?B?Wnc1MG5Tb0k4OW1ITEhkZmlXczFqNUxDM1NyS2ROdVRMNmVPUllLNld5TEF5?=
+ =?utf-8?B?cUhUcmhjUDNFWDhCZ2o4VTRWMTJmbXNwemY4QS93eU13UVpyZHk4OXhLbFJR?=
+ =?utf-8?B?VitoNVE5Vmk1MEp6SGRBN1hhSElZcDNpeTExSWJJRTFueDdlcFRSajhFOTB5?=
+ =?utf-8?B?Mm1FT2pGMXNkU0pmNHlFNmpJTGNzWjQ5TXBLcWJ3VWQ2aVJQcmQ0Ri9Jd1N3?=
+ =?utf-8?B?di9DbTZUVWhKWFlJRnBIeTU0U0VsZjJZYVN0bHFxVk9tUzR1d1RrMW9tR3Av?=
+ =?utf-8?B?bjFuYTRPRnRrK1Fkd2QyRUt5T3I4Nm01eU9PQXI1NG43R0h4eFkxMXRGVFZH?=
+ =?utf-8?B?ZXNCWDNRa1o3YlowUmJ4WmNreGU5cDBHcHg2cW9WRis4YTMvTCtrY1l4T0dk?=
+ =?utf-8?Q?sLVXVV0FtQgmPtAXY3go?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: a43eda7f-ebaa-41a0-9bdc-08dbf27629ed
+X-MS-Exchange-CrossTenant-AuthSource: DM4PR05MB10196.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Dec 2023 14:02:34.7225
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR05MB6629
+Content-Length: 8963
+
+------=_NextPart_000_9769_D635D44F.6EE7DF77
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Do you live in the United Kingdom and do you want to meet the most beautifu=
+l woman in the world? 
+  
+ Ukrainian women are the most beautiful and loyal women in the world, we ha=
+ve created a page where you can meet Ukrainian women near you today! 
+  
+ As a result of the situation in Ukraine, more than 10,000,000 people have =
+left Ukraine, and more than 500,000 are expected to come to these countries=
+ by the end of 2023. More than 500,000 already live in the United Kingdom. =
+
+  
+ If you are interested in meeting, chatting and finding someone, check out =
+our new brand today! 
+  
+ 
+
+UkrainianLove 
+  
+ =E2=9C=94=EF=B8=8FRegistration is free=E2=9C=94=EF=B8=8F 
+  
+ =E2=9C=94=EF=B8=8FAll members are verified and genuine=E2=9C=94=EF=B8=8F 
+  
+ =E2=9C=94=EF=B8=8FMore than 150,000 Ukrainian women on the site=E2=9C=94=
+=EF=B8=8F 
+  
+ 
+
+The site offers many features: chat, camera, phone calls, stickers and many=
+ more options that you can try today!! 
+  
+ 
+You can join for free today with this limited time offer 
+  
+ 
+All users are verified and correct. Sign up for free today! 
+  
+ 
+
+
+Remove me from the list 
+  
+ 
+
+
+
+
+
+here 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+------=_NextPart_000_9769_D635D44F.6EE7DF77
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-af90ccf2-7fff-9ee1-=
+677c-8b67e3add53d">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+Do you live in the United Kingdom and do you want to meet the most beautifu=
+l woman in the world?</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+Ukrainian women are the most beautiful and loyal women in the world, we hav=
+e created a page where you can meet Ukrainian women near you today!</span>=
+=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+As a result of the situation in Ukraine, more than 10,000,000 people have l=
+eft Ukraine, and more than 500,000 are expected to come to these countries =
+by the end of 2023. More than 500,000 already live in the United Kingdom.</=
+span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+If you are interested in meeting, chatting and finding someone, check out o=
+ur new brand today!</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+<span style=3D"border:none;display:inline-block;overflow:hidden;width:624px=
+;height:260px;"><img src=3D"https://lh7-us.googleusercontent.com/6fGAJPF8LJ=
+Bf5vicDuTndSchFayscVa6Wyb-4IP2OQAlJqoDrliEXdz0SeUHYDqOYr_NY2y1Eg-nC9gR8Tows=
+M2C9YStB_nHzUKPjEVTRNDDNwTe3jgx0VMtrYcTAAqQ3JQ9JUGKkvht7YS9k0E2R7Y" style=
+=3D"margin-left:0px;margin-top:0px;" width=3D"624" height=3D"260"></span></=
+span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:4.120655999999999;text-align:center;mar=
+gin-top:0pt;margin-bottom:0pt;">=0A=
+	<a href=3D"http://clck.ru/36khtD" style=3D"text-decoration:none;"><span st=
+yle=3D"font-size:20pt;font-family:Arial,sans-serif;color:#1155cc;background=
+-color:transparent;font-weight:700;font-style:normal;font-variant:normal;te=
+xt-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-s=
+kip-ink:none;vertical-align:baseline;white-space:pre-wrap;">UkrainianLove</=
+span></a>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+=E2=9C=94=EF=B8=8FRegistration is free=E2=9C=94=EF=B8=8F</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+=E2=9C=94=EF=B8=8FAll members are verified and genuine=E2=9C=94=EF=B8=8F</s=
+pan>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+=E2=9C=94=EF=B8=8FMore than 150,000 Ukrainian women on the site=E2=9C=94=EF=
+=B8=8F</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+The site offers many features: chat, camera, phone calls, stickers and many=
+ more options that you can try today!!</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+You can join for free today with this limited time offer</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+All users are verified and correct. Sign up for free today!</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:#000000;b=
+ackground-color:transparent;font-weight:700;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">=
+Remove me from the list</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:5.9337480000000005;text-align:center;ma=
+rgin-top:0pt;margin-bottom:0pt;">=0A=
+	<a href=3D"http://clck.ru/36khtD" style=3D"text-decoration:none;"><span st=
+yle=3D"font-size:13.999999999999998pt;font-family:Arial,sans-serif;color:#1=
+155cc;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;t=
+ext-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;"=
+>here</span></a>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</b><br>=
+
+------=_NextPart_000_9769_D635D44F.6EE7DF77--

@@ -1,0 +1,174 @@
+Return-Path: <>
+Received: from BN8NAM11FT058.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:408:13e:cafe::66) by BN9P220CA0008.outlook.office365.com
+ (2603:10b6:408:13e::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6521.24 via Frontend
+ Transport; Thu, 22 Jun 2023 21:08:15 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.122.149)
+ smtp.mailfrom=mail.e.kotaku.com; dkim=pass (signature was verified)
+ header.d=e.kotaku.com;dmarc=pass action=none
+ header.from=e.kotaku.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.e.kotaku.com
+ designates 54.240.122.149 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.122.149;
+ helo=a122-149.smtp-out.amazonses.com; pr=C
+Received: from a122-149.smtp-out.amazonses.com (54.240.122.149) by
+ BN8NAM11FT058.mail.protection.outlook.com (10.13.177.58) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6500.42 via Frontend Transport; Thu, 22 Jun 2023 21:08:14 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:33AA643A1223670ABED74C5F3B794B00E5848CA4E22F9E8198ADF6B0DDAF83F2;UpperCasedChecksum:BBE94E839A955F627EACE39E965F783831A2CFA4BFF61D8FBA3069027090E202;SizeAsReceived:1822;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=wdt5tycwzejrv7hsp4zj4fb4n4ek3u2p; d=e.kotaku.com; t=1687468094;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date;
+	bh=b1+crvIcc9X1AkezfZFlRPCQp/7Nqodfu25sFbHxWZ8=;
+	b=AwgVUB5zWdr3yphvJBucy+geATezOKLMMlvCXJ5Y19wUFYrDwIh3Fp10bOLID3oV
+	yYwzecWAp1Xb/CliAZWeWi+lCvJ7w1T/G2vqxK+l+IEQmgjqPm6JltvpxndM1w7pwkx
+	NfFyBSncTyJ98L1tuBOuhI3VDPjxsPaM52NFVGFA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1687468094;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date:Feedback-ID;
+	bh=b1+crvIcc9X1AkezfZFlRPCQp/7Nqodfu25sFbHxWZ8=;
+	b=Hk/6SXK85NcMH+5tKp8HkwHBqdCqeKqjRyQ4fwR1nh0iNu0iCzw6273qrIDVjjal
+	GvBEqL11cLVn0e0d01sc25gUBBplYjcVDp7fJ4D57JVpqXksCJkyjZAb/RgT2lQ0+I6
+	JsCZc9oNeUK3sNZrPK9W7f+Tre48SK9ktkXK/fiY=
+From: Exclusive Delta Airlines Rewards <bruce@untroubled.org>
+To: Exclusive Delta Airlines Rewards <bruce@untroubled.org>
+Message-ID: <01000188e4eSTcMa-4V7XalAG-3b92-4e11-a112-b0fcL0R4oCr4-000000@email.amazonses.com>
+Subject: Re: Your Experience with Delta Airlines
+Content-Type: text/html; 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Fri, 23 Jun 2023 21:51:11 +0200
+Feedback-ID: 1.us-east-1.CTT0BE9giLbwLsJiM5FiKSFAj/YD8cbE+FhiW2M2Llo=:AmazonSES
+X-SES-Outgoing: 2023.06.22-54.240.122.149
+X-IncomingHeaderCount: 13
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Jun 2023 21:08:15.0176
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 4515c652-1a38-4f29-397a-08db7364cb71
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BN8NAM11FT058:EE_|AM8P250MB0124:EE_|DB9P250MB0451:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM11FT058.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 6/22/2023 7:47:55 PM
+X-MS-Office365-Filtering-Correlation-Id: 4515c652-1a38-4f29-397a-08db7364cb71
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.122.149
+X-SID-PRA: bruce@untroubled.org
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 2
+X-Microsoft-Antispam: BCL:3;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Jun 2023 21:08:14.9551
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4515c652-1a38-4f29-397a-08db7364cb71
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM11FT058.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM8P250MB0124
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.0469129
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6521.025
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(9050020)(9100338)(944500132)(4810010)(4910033)(8820095)(9910022)(9545005)(10170022)(9320005);
+X-Message-Info:
+	qZelhIiYnPm8XPty+wcISCRm3hFb0qofHsXtvzTh7ugBX4xebmOw9ds/1Z5CrnuhCv0x8i/RuoaXlN1Iy8TsjR9hqdLYEQoZWYXTjadbKBJLz7Mk8KX8yAFtghe4Zu6c40kGIvmuCNJGUJnh4oS+/D9NgWilzOwNpCfS/Q+jIDZYE4UGAvHUfQmIQ/kAVNMhZyj4DrTsvuzbhlgZlru2NQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?U3NrdTlGVmUwazhKM2x4TSsvSWM2Tkt0aVZMaGh6cXpyTys4UnYvMVFPenVB?=
+ =?utf-8?B?UFdYWFpjQ2ZYNjE2bE9sV1pFb05XVXpXdmdHa3dqeWc2T241WVo5Rkt6akRy?=
+ =?utf-8?B?MDlrZE9rY1ErR2RVYkdVVlFvcGdwOEtrcW8yRDVlT1VxVjFpL2tQb0VIY0JP?=
+ =?utf-8?B?RFJkZHk1ekFBb0pnTmRnTnFldDdWQ2xTUU9NcFZRMUEzS2VrVFZZcy9tUE41?=
+ =?utf-8?B?cHdFTW1SRFBjVDJvYmNBalZleVduVkVOTmMwc2h0bEV4d2l5M3FIMXNMd09x?=
+ =?utf-8?B?dHNJdHo3bkhtbmtIOUZ0TGNpc2hFN2VoUm1TOTAwdmJJNm96TStsNnlNeEJU?=
+ =?utf-8?B?NXlMK1N3U3piazM2aGJ0Q0dZaUVBZEs3K1ViWXVQRkZvWVplUno3RTJDRHM0?=
+ =?utf-8?B?QnlRNkxiVU91WE9zeEJBekNBdWNBVFdsUFJzOXNaZVNNTXp3azBNMUV1YTBw?=
+ =?utf-8?B?S3o4alViWkQzZG1YVDRBWGh2QVFtU0NjZ3U4dWhuWXRCQkdJSDhNRlEySTVL?=
+ =?utf-8?B?M0pRYXZpTnIzYVlhdUExdFMzQnBnemU2bm56cGxFOTlmZjZiVzBqVGw3RThy?=
+ =?utf-8?B?WjUvTDNVNmRSYXRJS1dYWlN5cXZKVUU4MHV1a1p0Y0pwclZOam4wSDFSMHBh?=
+ =?utf-8?B?STNhbFZwZDVacCtDMFVXNXVoTjBlS3hJNldVZll3TWVmSmtOOU96bDNZb3JT?=
+ =?utf-8?B?OGhyTXNYRFhoRUcxVkw1aTIxZWUwOXA5dEdjTkZoT0NQRzJXYjQwcUM0VUVS?=
+ =?utf-8?B?Wk01OFdPMy9MRWk2MEJ5cGNiRHc4QmYwNytIQjFJc2MvZVBiSmFLR3RhOUZq?=
+ =?utf-8?B?OW54Wk9peTM3Z1pqWXR0RERxcmZjZ0pWbitsY0xTcjh1RTlZS3JZN3FrU3N1?=
+ =?utf-8?B?VjhGQ3hzNnB5eEpTWkpCWW0xL3pHVStydGZYOVpjVi9zbXdNUnNSUm9SQ3FP?=
+ =?utf-8?B?ZEY4UXlRZ0R6ZC8zUCtIYkFSK08rR1BVdmttOXZIWlM4bStSRnRiRjlSREpa?=
+ =?utf-8?B?NVVDalBPTUFqL29yTkp6b09OZVFvYVhKL2g2UGRsSWRCM0UzdWp1dG1lVURF?=
+ =?utf-8?B?Sjh0L1E1QUF1OFA4S3VYa05xWW9UazUwMzJEc3ZGS1gwNG9GQTlIOGlzZnZQ?=
+ =?utf-8?B?RS9QZ2R0UDVYQlYwN3VsY1Z2aG1DaXd5N0Zqcit5TUJWdldKaEdwcDU2TEd3?=
+ =?utf-8?B?VG4rS0pESWZuZHZkSkVOb3NIeThJbUI0TVNkR3JsZHVWMENaeWlHWXdpSld0?=
+ =?utf-8?B?M3VsSko3UDNlbGpxcTNORTJZN2N1NG1keGRBSmNYNnRZTVNqNGNSUjZ4bjBH?=
+ =?utf-8?B?R1ZRUnk2dXRRdlBNcHhKZFRKSnFBVkFLdWMzYW5IMkRXOTNMaVJHRndSZExq?=
+ =?utf-8?B?NkQ0MytVZkZGVDVKT3Z5MUdVaEJ4dEoyeEJwdDFxRjRVQWJqZ0FIWEVpRnBr?=
+ =?utf-8?B?cFM0TWtRcmUwd3VPaDMrUkt0Vkh4RHNmZ3MyV2JJdGMzTHAzUlBPYVcvL3h0?=
+ =?utf-8?B?M1BrUUdYL1I3YzM2QVhRa1V4U0Z6WWNJdTgwdkZRNWU0c3RzSDFHVmlFSEY3?=
+ =?utf-8?B?V0d5SnFFWUlTVzg1Uy9DNllDcGlEVjVDaEprL0xJeW1jNFVWUDhqbGdmZEY5?=
+ =?utf-8?B?eU1tc2o5ek80bkRydE0raHRZSGNldVg3YU9Za2FqNjRkQnkyRzVtbHAvM25y?=
+ =?utf-8?B?TjNQZmcvOGYxbk9BR29xcExEMTJaeUxnZlBubXQ0ZzlmNldDbGxvVy9MU05E?=
+ =?utf-8?B?V1kzL3NqRnlkaDVDOXpKSDZuQ3dLNE1yMy9KRFpSbGQ5N0x0TlV1bXpkTitH?=
+ =?utf-8?B?VkxMVHBIZklReHpabjJGQThYY05vNUxDYkhZVkpvZXZjdG5pVjFiTGlla0lF?=
+ =?utf-8?B?YUYvWmhCQUd1emZoV29JakEyWGJ5NE1OeDRPSXhMemNHdUtVRmp6U1VJOGhp?=
+ =?utf-8?B?eTlPdDFaRnVRcXBhN0k2alRxN0kxRUc0andwNzFPT01sd0FIVW9IQ3J4cTcw?=
+ =?utf-8?B?MXM4ZFp4UUZqc0pGWXpSaHVldkRTU3c4MDRKVG9WUkEwdUxHUXdJL3lrbnJK?=
+ =?utf-8?B?S3JZRWNLNEFMSjNLb2tKK0hmYWxCSGk0V0xkcjRKOENuYzZ0Q3ZsSVFKTVVl?=
+ =?utf-8?B?MW9tdlhkdk9NMnNpU29DaHNEOU1VT0o4MXpPMVRDb0hJb0R2L2FFSklxNGpM?=
+ =?utf-8?B?NGdxOTQzUFpNajhRVGNFTlF0VHBkdFJYYVJWZTRmdEpVTU9BeVhWSHpMckh3?=
+ =?utf-8?B?MWtTaU9WTVUzenJuT3NKUGZ2T1o1UUdXVkx1TEZQZUwwTFJIRVMzS3hIdVRN?=
+ =?utf-8?B?c0swMnRLYzFyWFdONE1hWTBRazVRVytRMlFxVXZacjNRaFRrM3NrbHI4ZDhq?=
+ =?utf-8?B?aWRQVzF6bzJ4djNzdERlZWtHblh2blczUnlhNno0RklMMGdMQ2JzR3dxZkJi?=
+ =?utf-8?B?MEhkTm9VTWVxM1U3S1NZQkd1b2xpYjBZUzNSNFJaclg1SHo1SEFvK2pnczRa?=
+ =?utf-8?B?cTljcUk4V2J1S2hvOU82WTBIODVxT2tReXZVSUozL2NYSDZmYXpwMHUzdG1v?=
+ =?utf-8?Q?opLAElqRN5LVt2hqpR15dVc9AK8p6p?=
+MIME-Version: 1.0
+Content-Length: 3625
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+ <title></title>
+ </head><center>
+<font size="2">View in a we</font><font color="#ff8000"><font size="2"
+    color="#000000">b</font><font size="2"> <a moz-do-not-send="true"
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#VEMzeklZd3dudUMyaVpYbFArU2ZzalZRVHFMTmhtVHJZZTY5N1haTEdjc1R6OVl2LzBIeGN3OTRHcG4yQlZ4QmJuRTdCcDVVRWdReVBTOTJnYUY1TUJoOUFHaW0ybDNWck5iazRPb2JESTE1a3ljQzZXTHFBckRENVdxWW0wOUZ3a0tlVGFaTGs4enZ2SElXWlZUMHd3PT0_"><font
+        color="#ff8000">browser</font></a></font></font>
+<br><br>
+<br>
+<div align="center">
+  <blockquote>
+    <div align="center"><font size="4" color="#623131"><font
+          color="#000000"><font color="#ff8000"><b><font size="6"><font
+                  color="#008000"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#VEMzeklZd3dudUMyaVpYbFArU2ZzalZRVHFMTmhtVHJZZTY5N1haTEdjc1R6OVl2LzBIeGN3OTRHcG4yQlZ4QmJuRTdCcDVVRWdReVBTOTJnYUY1TUJoOUFHaW0ybDNWck5iazRPb2JESTE1a3ljQzZXTHFBckRENVdxWW0wOUZ3a0tlVGFaTGs4enZ2SElXWlZUMHd3PT0_"><font
+                      color="#008000"><font size="6" color="#ff8000"><a
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#VEMzeklZd3dudUMyaVpYbFArU2ZzalZRVHFMTmhtVHJZZTY5N1haTEdjc1R6OVl2LzBIeGN3OTRHcG4yQlZ4QmJuRTdCcDVVRWdReVBTOTJnYUY1TUJoOUFHaW0ybDNWck5iazRPb2JESTE1a3ljQzZXTHFBckRENVdxWW0wOUZ3a0tlVGFaTGs4enZ2SElXWlZUMHd3PT0_"
+                          moz-do-not-send="true"><b><font
+                              color="#ff8000">Your Experience with Delta
+                              Airlines</font></b></a></font></font></a><br>
+                </font></font></b></font></font></font></div>
+    <div align="center"></div>
+  </blockquote>
+</div>
+
+ <body>
+ <center>
+ <a href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#VEMzeklZd3dudUMyaVpYbFArU2ZzalZRVHFMTmhtVHJZZTY5N1haTEdjc1R6OVl2LzBIeGN3OTRHcG4yQlZ4QmJuRTdCcDVVRWdReVBTOTJnYUY1TUJoOUFHaW0ybDNWck5iazRPb2JESTE1a3ljQzZXTHFBckRENVdxWW0wOUZ3a0tlVGFaTGs4enZ2SElXWlZUMHd3PT0_"><img border="0" width="590" height="1032"  src="https://pbs.twimg.com/media/FzUBJCVX0AIjWzk?format=jpg&name=large" alt=""></a><br>
+ <br>
+ <font size="2"><br>
+ 126 E 23rd St New York, NY, US 10010</font>
+ <p>
+ <font size="2"><a href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#bTVuV1NoS2dpTUMwcm5RRzRySWtxR3RDT1N2Ryt3WjRJZmlBWjlKVDNyajRmYi92endZSGJDeTh4cWRmQjFlUVJpT20yaXBBd1dHTlZKaVlVU0g3Vk9HVTdyM2NnL0g4Wm44V3NvZnZqMWx0WmRoKy83ZnhuNVhja3lib2xFTlJtM0ZKUmlYeHJ2QUVHNVRPMmtSVEFBPT0_" style="color:#0000ff"><u>Unsubscribe here</u></a></font>
+ </p>
+ </center>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#dTNWdFBKQW9FMnp2M240MStYeCt2UDV3elhqSy81RmM3WHBETjU0TVhnS2d6NFNDRCtUdHgzdmRwMUk0TWcvWWZFT3RWQkxidjhmeGlhd1cySHVraEZIaURHRitNMWI5LzQvbEdYZ3lhY0Fna1NFeW9sTGUyUGpxeU9kcTJ6bmN3YXdhS0IrbS8vTDdBckdrUXVab1pnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

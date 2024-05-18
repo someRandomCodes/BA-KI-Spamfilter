@@ -1,0 +1,70 @@
+Return-Path: <t.yokoyama@omltd.co.jp>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 875423 invoked from network); 27 Jan 2024 17:13:56 -0000
+Received: from khi.mrd-esa2.in (mrdesa2.ptcl.net [59.103.239.94])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 27 Jan 2024 17:13:55 -0000
+Message-Id: <94fc38$94g0o@khi.mrd-esa2.in>
+X-IPAS-Result: =?us-ascii?q?A2ExEwDcOLVl/zSeZzsNTRsBAQEBPAEBAQMDAQEBAgEBA?=
+ =?us-ascii?q?QUBAQEVCYFIXHMCAQEBgw8BAS2EU5QJm2QTgWoPAQEBAQEBAQEBHRMdBAEBh?=
+ =?us-ascii?q?QEBAgEBh04nSwECBAEBAQEDAgMBAQEBAQEIAQEBBQEBAQEBAQYEAQICgRmFL?=
+ =?us-ascii?q?4cXJ1YoDQImAkgpgwG3L3qBMhpnhGCvC4JILAMBAQEBgWSBCIU1AYFVa4MtD?=
+ =?us-ascii?q?YQvg2SFOoI8ARIBboMOFYJTBIIUgxopjg+FHwcCBWNigSVvGxEeNxEQEw0DC?=
+ =?us-ascii?q?G4dAjE8AwUDBDIKEgwLIQURRANABighCwMCGgUDAwSBMAUNGgIQLCYDAxIVN?=
+ =?us-ascii?q?AIQFAM4AwMGAwoxMIEWDFADZR8yCTwPDBoCNg0nIwIsVBACFgMiGjQRCQsmA?=
+ =?us-ascii?q?yoGNwISDAYGBgRZJhYJBCUDCAQDVAMhFV8RAwQFBQMUBwsHeINGAQMBEgFGA?=
+ =?us-ascii?q?Q2BOQFpPT4DMxEdNwkDeD0gFQgMG0MIQx0SmV94AYFHgVQhhUSJKQeIMo19o?=
+ =?us-ascii?q?GIHiGCFOZtUARKMd4ZbA5JChjGFLIwAC2ypI4FceHCCXgmBQFKiSGk7AgcLA?=
+ =?us-ascii?q?QEDCYpoAQE?=
+IronPort-Data: A9a23:ZUNHWKAiCShOPxVW/ynjw5YqxClBgxIJ4kV8jS/XYbTApD0ghjRWn
+ 2dJW2GHOq2JZ2Oge9Elbtjg905V7MPRyIVgTANkpHpgZkwRpJueD7x1DKtR0wB+jCHnZBg6h
+ ynLQoCYdKjYdleF+lH1dOKJQUBUjclkfJKlYAL/En43HVIMpBsJ00o5x7Zg2NAw2LBVPivU0
+ T/Mi5yHULOa82MsWo4kw/rrRMRH5amaVJsw5zTSVNgT1LPsvyB94KE3fMldG0DFrrx8RYZWc
+ QphIIaRpQs19z91Yj+sfy2SnkciGtY+NiDW4pZatjTLbrGvaUXe345iXMfwZ3u7hB24lPopl
+ NpTuKafahwRZq3tttQEYjxXRnQW0a1uoNcrIFCM6J3JiRSYIz21ha80UXRe0Y8wp7cxWDkVs
+ 6VFeHZQNHhvhMrvqF6/YvUql8MgK9jiOYo3vXRk0T2fBvFgQ4irr6DitIIIgGlu36iiG96CN
+ us0SgdiSC7QZhNAIQwPVJwbku6B0yyXnzpw7Qj9SbAMy2LJ0Qd8+KPgOdncYpqBQsA9tkyCu
+ 2nL13/0CwodMseAxCGZtHmrg4fnlznmU486D7Cz6+RnnUaSwGdVAxoTPXOxu+Syh2alVtNEM
+ 0sO5jFopq83nGShVMT2UjWjrXqJtQIdXcFIHuYmrgqKz8L86RyEDWUsVTNHc98r8sk7WVQC3
+ EWUlN7BHjxmvLqKD3SQ6t+8pymvMiU9Nm8LaSgbVgwL/5/op4RbphjVU91uOLW1g9PxFCu1w
+ DmKqm41gLB7pcQRyq621UvHji/qoYLGCBM2ji3dRH+u4ytiZIm9aoGpr1Pc6J5oJpyERVSpp
+ 3kBg8yT9qYFCpTlvCaXXe4ANKqo4f2CNnvXhlsHN5M76j+g02Wie5tN6TV/OFYvOcEBERfje
+ lLYtCtK4ZJVPXTsZqhyC6q7EdkhwID7ENPmW+GSaNdSCrB7bhKM8Ql1YkqX2mfriEwxlKs+P
+ 5jdesGpZV4QE7lswRKtQOEc2vktyzxW7WnJWJv25w+gzLySeHmYQK0ZMB2FaeVR0U+fiFiEt
+ Y8HbI3TlkUZDbeWjjTrzLP/5GsidRATba0aYeQOHgJfCmKK013NxxMcLX3NtmClc2loej/0w
+ 0yA
+IronPort-HdrOrdr: A9a23:M603xaDrIGAN9eLlHem855DYdb4zR+YMi2TDGXoQdfSdGvb1qy
+ nIppkmPH7P4wr5N0tQ+uxoVJPgfZq+z/RICOAqVN+ftW/dyQmVxepZgrcKrQePJxHD
+X-Talos-CUID: 9a23:9ZK4j29NR8FFktL6oSqVv38fMJh5fWPQ9ljzOHfgCUdHeKSkbFDFrQ==
+X-Talos-MUID: 9a23:C9hBLwS7BZv7IX5XRXSw1RBPF/plx56+DU4Cis4e58ehOyVZbmI=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-AV: E=Sophos;i="6.05,220,1701111600"; 
+   d="scan'208";a="9584664"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from unknown (HELO [192.168.1.225]) ([59.103.158.52])
+  by khi.mrd-esa2.in with ESMTP; 27 Jan 2024 22:13:42 +0500
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Your Respond
+To: t.yokoyama@omltd.co.jp
+From: <t.yokoyama@omltd.co.jp>
+Cc: satoshi.tomioka@itoham.co.jp
+Date: Sun, 28 Jan 2024 01:13:29 +0800
+Reply-To: grantsprogram@cpn.it
+Content-Length: 366
+
+Ref No: WBCF/XGM/01015/0024.
+
+Your email address was chosen at random during an internet search to receiv=
+e USD805,000.00 from me, the chairman and CEO of Berkshire Hathaway. If you=
+ are interested, please respond promptly via email to learn more about the =
+donation and how to claim it. {grantsprogram@cpn.it}
+
+Congratulations
+!!
+
+Regards,
+Warren Edward Buffett

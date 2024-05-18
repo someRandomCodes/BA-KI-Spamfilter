@@ -1,0 +1,131 @@
+Return-Path: <>
+Received: from 10.226.14.116
+ by atlas206.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Sat, 13 May 2030 12:27:47 +0000
+X-Originating-Ip: [209.85.167.41]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.41 as permitted sender)
+Authentication-Results: atlas206.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sat, 13 May 2030 12:27:47 +0000
+X-YMailAVSC: 9bJ6WW83bBvG1J_UC.KRQb21GBnE_.r9vZ1fPCiKt0IJGR6
+ aA5._BJr5KVupJZQO9te6dHZpTaUv8jlL55y1KeGlP2GwjNC6isyzge86RCZ
+ 6Q3phyco0_H4BCE1uUXlR2yY4hezLxIV2OtF.XQEUghVHLr8FfFZ5SIvqsKp
+ G0DUAe2N7PmT5i4Dmp6juYvGv87GLFj1uNYUL25q3ZI3Fh3RPj.vx18_kIFc
+ NBBNA4Ixv188VNeJDdaRsx1Qu10vv9VXU3S8lXMHv902DUhqRdJUeF6uwv35
+ k4NfEMkV.rvJxL29hk4rwI7x55srRSibBGcJAsy8nDRV4Q8H6ONsA6mojldp
+ p9lVFVU.cyyOTRkvTvllN0KV_h.KqASerHiZjCsixo3I5ri6xOJ66zndr3t9
+ MF5enGT7_bUU6999.PxgGRFIzT4WTlcS7fdvC6wFcdmgs55eaG2Q73c_JBpS
+ S2LQ6XxkWGn7XQTy6gVnP4WlLDkiqhj_pC44kocB9M5k5UN3lcA6Dmax6an8
+ Vcfo43X8.FAfAy9txcL53NyI2EzVLjFrDx6NlfNiPdehPNxeYS5bsMBu0jWv
+ jenxoOi2GRMcbwW0apw_4_FvT8_6HwFKUCbwhBPmYR4yHV_31mUJHL1l5sNO
+ NyFYLb5BReZApogkUSKfNPlHY3a_OhsbPkVKpABG8BuikDjnvaDjnTdhTvrL
+ L9A1BHpSk0CYkzw71x8hFTVIZ5o6qPjE7fhmEnYOM8_EM9Y9UVT4aqLz2F1s
+ oL1ab6gCJdaU21NVU5jwSXg1maynUwJLBgmhQqQU59hLgg0ZK2YjWNakihP_
+ IjU4Gm1vcBt9p8RcBmUgqdNdNDfZSyG56_gbfVTo0Dg95yAON_GM7OTwpU6j
+ 1XvqDQMHRdGNodOMFEKHuEUM.z.Bh0bbS2gc2zHqC3DcPksK40jwYczvH4PK
+ U9bWxZRWjN1eyGAt7aZ_K_1TC_KhRYR3crfqzTcHW8P_h2F5gUJG6ma8tLaq
+ VLAR8syGodbnn0iFdws_o3oq2pIlR8nBbQekIoupwDX5PbNpaHk4yWmnTJZy
+ rlcj_QOvzDxI-
+X-YMailISG: tu9ApbIWLDviHAKSGRp5smPWVYwIwc6v9Rnk51eQTcAehITD
+ WIu9Y2Kk5xfUyujxZEwbLPanZIuk3U1S.JCeaj2CIRtNb_pILZ9z60LseMT.
+ dqdw6K9MAITnpvJOBlxe6ajbCFrWs0DXZ6VUVbREuujAVKMErcF.6.Cl4hR.
+ f8UJZfhxs_qXo0fJ8orCr7n4WSu2jxkxw_89uaZRBZV5TvSao_tpbqL96JaA
+ zccH8Rv0aL6Szn52619ASgLRQ8_eItfPIMZgvQq57QwOUNOiT3sVEDqCOzQI
+ .AeQryQshFcLo8NuhvCb.3CXHW6EfTsB1TOe0Tc1fAQbH2Ga2L5w6djw7ZIz
+ yZzDCYSo.UfiyoIAkeAVRc9kwOVV41HEcZ78Gw2PS4SwMeDuw8Sb89NLJDSv
+ uO5zzrU.9sTMVHZMq5CIyyJrQqH2kqhMhPivjhWOdjh.PaLBFZBMfnay_WGp
+ 1wwUp3AL7GDULoT5GPgpBeXsszyqiP39qt4orPuNpn1ZvaasOJzh1AJwGc55
+ M.bVUqv69njyQ77GgkJQF4FqfTeJ3.p_kYVSM.w21EgDJERNYusnz31O3AYJ
+ 5YK9qhR.gqAflPTVZi7EEvGygYSdoJ73mcnr7qdhJHJHQsqWACTA8NjteoGm
+ SnlfI5aiw_0Pv_1yS.5Mw4VfI1_hlxEPqpqZMCl_1cfYfzpO3x6L.v4tCzfD
+ ag33sGy7GtyKqUX44UNjRtd9Rauy56hp0vUDCuDMVOynjq35jK7yOGAxBqFg
+ XwQiCOI7yRt6Y3xYrydeC7OiDehmRKqj3QGm8U.dusuYmZsf4C4pohm5rrvY
+ MBCRG5qoxQDU2sT48m6E2HirpX0dZbdCk__koyZ8IBbuYsaOEPXoFxuJDGHN
+ bxM18ba8qrhLCvPJ5iirvUl8G_jaXOW0TXrL.jKr5_HgNvX_.VsQzxmNNHKG
+ u13pisuvnFTS0jZL7WtnqFKBtjbvl4ei0lC0ci2QA8BxBV33cdRvWUVkqfVF
+ FN3PNyZuJhaKQ9OlVhXIy8MllIP4xNRT1lKWaieexRv5txaL7e5a39WfE0KO
+ yrvMAnXwzMwJxVnvm8KBJl7wVKfu9kKawJc-
+Received: from 209.85.167.41 (EHLO mail-lf1-f41.google.com)
+ by 10.226.14.116 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 13 May 2030 12:27:47 +0000
+Received: by mail-lf1-f41.google.com with SMTP id 2adb3069b0e04-4f1fe1208a4so9420945e87.2
+        for <bruce@untroubled.org>; Sat, 13 May 2030 05:27:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1683980866; x=1686572866;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=JG8GQyWTzBF/KWYtJXPfj5P/RsxO/zDZHYCilz+sEkg=;
+        b=XIqhWZxeKi7qc9Ilds9H6HNf2K9D4GW4xUtQB8sGRXbPMXntHSuxY8tKJjY8YeZ75V
+         q85j7YesyYDO24cs/x5ASqU2UILBF1Y/Rrv9f8n+IqlwJW4NyPAFUb9NVQDHNy1K4y42
+         xSWKT2ggm2BUZtLiUlPw++bJp6k8srk/xXNF7jb8R8RT5jF1H52DLk3ZZ1w1I+2w2rWB
+         Z0x2jfKdjM5qgwnHVSUZkaUmzS+61abTHqcZBU9HIBEou1HxNJ/MbrG9akSzk9XruLzD
+         37Zd2PoMFyPxzY24x/Jn5jbOn8iyWjqlGwWzQs5fq4TOpz8M66D7NnrYyI5F95GthKqz
+         MnNw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683980866; x=1686572866;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JG8GQyWTzBF/KWYtJXPfj5P/RsxO/zDZHYCilz+sEkg=;
+        b=Do5NAAL5ynLa4rxii/qcJeCMPFLM3oMNwA1ssdLpIxkuwsvgrBNfjXFgmF1nBq9uOK
+         bLlPRM9P4sWPY0XdvC1sLiDh6SJhjLxV4TAlTwyhEo6F2Xzbq1mBo0vaCi3L9HhGTcnd
+         tHrCiD7gGPa812AR19q+vvNhLNNKC8GFFsOXS5WJyUN8J5o+SON2AkKI7lvMQRt0e50E
+         HFpO9sLSZu13XI5OyjZSG/dRsFC/qd/NxP3MJq/YZvBZzhKmjuT1JTx7WOk6+5EG1Yq9
+         93+da1d/yPrGOfXDD+OFN57e2oVgQtU/m1Uy625+4QGj0jZoZYFqlo1JdrH4t5tIZaZ+
+         bDww==
+X-Gm-Message-State: AC+VfDwN24cIqpDOS9wzsRxE0Rodwv+gufvZn+kXxUZAyLrHUJy/vE0L
+	jC6EVw+kc6xJLqDhdS+MlPDDP+8YFfdlLut5jjQVBXEr
+X-Google-Smtp-Source: ACHHUZ6pAFgvt4C3B2Koq0okLDaqJltm8MQLr3wuB3AQZpiT+75v5BqX7OSX/OtTlTcU64AIuxg4ORsD/JHkJu34r2Q=
+X-Received: by 2002:a05:6512:1024:b0:4ec:89d3:a8ac with SMTP id
+ r4-20020a056512102400b004ec89d3a8acmr4121431lfr.30.1683980865691; Sat, 13 May
+ 2030 05:27:45 -0700 (PDT)
+MIME-Version: 1.0
+From: Please respond <bruce@untroubled.org>
+Date: Sat, 13 May 2030 13:51:34 +0100
+Message-ID: <CAPrzed+jSAHKo766V0+OxrkyYQoqSnO9qR-KHZMyOT044P2xzv@mail.gmail.com>
+Subject: We want to reward you for your continued loyalty
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2813
+
+<html>
+ <head></head>
+ <body bgcolor="#EEEEEE" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+  <title>Survey</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:wght@500&family=Poppins&display=swap" rel="stylesheet" />   
+  <table width="100%" border="0" cellpadding="0" style="width: 100%;"> 
+   <tbody>
+    <tr> 
+     <td width="100%" style="width: 100%;" align="center"> 
+      <table bgcolor="white" width="700" border="0"> 
+       <tbody>
+        <tr> 
+         <td> 
+          <!-- start --> <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#NUhMQnhubUtKZmdhaDRWcmJsNFBHYlBnWDBWWmwrMjBtTHJaR3J1bGt3Z0dGWTdySjFqb2VxMWczTFc1TEUxL3ZGdU5kMWR2UUloN0VZOVVoZVo5NWhBL2QvZk5DL2ZmU0xOTGhkd3NkZEc1OGl1dFZBV2l3dmxaemFFakNudCtIeDZZTS81Y2RPMGF6d0lnTTVMdDdBPT0_" style="border: none; outline: none; text-decoration: none; display: inline-block; color: black; padding: 0px; margin: 0;"> <img src="https://pbs.twimg.com/media/FwCafacWAAEXhEG?format=jpg&name=large" width="700" border="0" /> </a>
+          <table width="700" border="0" cellpadding="0" style="padding-bottom: 20px;"> 
+           <tbody>
+            <tr>  
+            </tr> 
+           </tbody>
+          </table> 
+          <table width="700" border="0" cellpadding="0"> 
+           <tbody>
+            <tr align="center"> 
+             <td> 
+              <hr /> <p style="padding: 0px 20px; font-size: 10px;font-family: monospace; width: 500px; text-align: center;"> We hope you enjoy receiving this message. However, if you prefer not to receive future emails. Please unsubscribe <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eWFXRGtJQjZWZ01RaVVZUVZQWjlMdXF5ZklWWjhCbCtLS29yYUxVdGtOdGFYZ1Q3UVIwQmNwUnEyTEJlRGtMSVpPSDI5emtQdzVGSjY3SDFjcVQ1djRCaTMwZ29TNmZLUG56VmtOVmZweFBaS1J2WkFEYk1mNjJzK3ludFRwZm5FaitPUDBpMWdHWjFvVWIySHdqbjl3PT0_" style="border: none; outline: none; text-decoration: none; display: inline-block; color: red; padding: 0px; margin: 0;">here.</a> </p> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <!-- end --> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#Z1hVWC90VEkyeU00alpBWnF6RHdNOUNxZWdFZzdKWHVRemU1WUdsY25CUnBvQUVjeWN6aXBMWk5lZXFlbGJwZ3pWeXdBeEdNaGxlWkFUaDVuTUw2Z25uNTE2dHd5dk0wVDZtdmhCN1lzdlNsdHNLcy9VSUcxWTg0U1dpNGcrZEVUa2RtTk9IVEp0WXljc2ZvQ0dCa3lnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

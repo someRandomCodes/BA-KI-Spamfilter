@@ -1,0 +1,305 @@
+Return-Path: <>
+Received: from 10.226.14.168
+ by atlas107.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Sun, 14 May 2030 12:32:12 +0000
+X-Originating-Ip: [209.85.167.45]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.45 as permitted sender)
+Authentication-Results: atlas107.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sun, 14 May 2030 12:32:12 +0000
+X-YMailAVSC: xu.h1Gg3bBsjnQrmFNn.b0Zd_0CyvoJ1NIehKfMt5RFq3wy
+ eoq4Yf2SDFhC7gbo4EfaqzHQVfHIfrQ_QNnpBibmpdwsvr2fd1AxtWssayn.
+ A736QIngfAHG2C1fJj_jfxfT9RkGVC8I8O48m3Y_IPCdjSj2MJcknOgUpSxr
+ 8qqqMeE0mF_RaVIWVw17_5DzDpkG.q8i2yuNWqrAFR6NrlIX2BL4yHkxj0D9
+ N7a837De_.o2sev.lwjyyhzTS3JWrDOR8Qa32sKnlWdtReThx57uPz2Hg.qo
+ OWypVHZk.MeTo1Phz2YyY2OuLE7u6EHXtBfLdSIIbS8vNc8FqyjM5Bi8K0eY
+ MQ70HkE5ypvKAPjmcNh2FazBEGooo8h1aPyU._yeKNilTgydtdc.p5Ok5WJ3
+ 15pHCbI1fkF7EDIAaPI50uhHNNVD7otwhRGvKbU4XWwY2R2nwfyJCf3VqO3p
+ i65RS9Kszz4meEEYjjJ9VG2eZqQUYiuB7RL.qsACMc7aL2vk9bBX7ct68BQe
+ Zb2EtuSj0p6yWnWZ3JQF0KvyC44qfXDixwUIxxp.0qdvXpaUEuYi4Qaaiukj
+ xvoshAMeKjida47K4IpEVp6_0Z3yVw9IKAQEQfDGVXnsw9Dhr.1yR5FYTVS_
+ 8KZ5F.RfQW_txo3OPmeoXN1ye25pubdTMYx6btpgzWm5WwXBJP3bbcO0QWM7
+ C9956AsG7g7z4UB0CVBL5TWnVFofk3Gr9GVWUR_ydy1oVwEHjLhzBTE6ZOs7
+ kRdhmDoC7nVoZa_BOIh7zDDm9yiI.PPj2neF3d5xvU47gstZzZLivqUyXVOZ
+ u5dMpnF2abhrpfnBTU0JOsTnpwLZsGyMXD5dwza.2TNxQefa1sHrhzQBbz0J
+ 2RonWS5bO2rvtm6OZqdKBRUZKNr7Jd9uc.81zGNc7f1cAesAr8u4hr7Kp7pb
+ nvS3S80ZDDbmXBDF3DjdxJt58V7wY3048jbQVnV6IhAAFPvNF0tk3gQ2qaAl
+ 685hN_yOy_S1WybxnETdWc63oDYa2EYLVu7wfQVg2l4EJywLwJ7cm9FisiIe
+ Ok9lIsD7BCOE-
+X-YMailISG: FzzChfwWLDulSS6gy_Xn77BMoDCkxBsBBFuaF3_ME5DkKIRi
+ .6_qwlarMHoFOI68vnk4DewvTF8_yRBAsngf5poYlmg97qgy8IksDElvkQG9
+ GQYjAiOfpWtPPNr_kSXH.jnl3LLSiSgzNwI4UyOzTpQ8gp09hSPbgIrKOiJe
+ fKPflKG0809LWT3zGDIYYTTUoGsdneIqS78xMWXeQFua5ZkjO8iI8SooXU7G
+ Iojmh931CWouqE5edqDP6_HTCz9ShLUt6BFFY5dnndi6YLk2S.2L8n3Mncgy
+ dcIr0o0ZFi5cTvtRGdgnKPQ7P8osquRyEz_QYPfsOZFb2_9ByHdTtbQ0qhng
+ KhYH3Dm2EXRVY3aqVH22mAX.sJ83AyDZvTUTUG7fPcx36oimXd10w9i9eLj4
+ EMo5h2qldCoGDM3.asOgJAsEB7BthIeQbhpktbrEq4PA_H9dKtyLAHEaGA7H
+ jCaW_X5KowolNVpbgBpQDgQMZAzdVcvjdRt2wyEFDfhCmnR7l9Hyqsn4IKjg
+ Ei_BTBXIbstGvvTrqXhZDHB5CfQug.AB5_OXdGwMCvo72uNbVSgWESdjQyZ_
+ FiVvhgHwow7TmypUFimwPMOa1D8lC0diVnbBDzcCLKnrRwcJgjaoAVoE9RXS
+ cHUtLEw2K3HTqY245Rk22TMgpOH_6XS0Q5jDEY_ec3kh5ebgQAZ8MNUjo.7X
+ 8XT4mzJoSve9piEhICD6c9EYlPAO5gwYkPR3SUlUaZ0hS8aIIIxbhTFNaZQC
+ p2Jde6ne7Mkik6YBzP2CJ0hYWAwzwO.9G5RzLnO8JuMEgFSXQefsCPuC2Pxt
+ etHbsCes3TWVmoqdIR360zjcJeOB6RZt4o9K3a3hQY1KdOM2Qo05ou.cD8B5
+ r8CXEPYtByGqagp0jR0tIPFwo5o3ksr1z1o3h7bPUhJHE_AsDjts9mDuPVl9
+ e10anxsQKWCDZK9PWEo07_h.htCp51hECGdFXYQIo2chVrTBDKWN3V1XuDX6
+ mx1u0pt.owkcbzSpYcNle.0ZZfTpIsHe.VRQWkkPY_TDEpIF70Bt45m3zArz
+ 3was7Spwcucr._X2LRnRT3vP3hJc8VA-
+Received: from 209.85.167.45 (EHLO mail-lf1-f45.google.com)
+ by 10.226.14.168 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 14 May 2030 12:32:12 +0000
+Received: by mail-lf1-f45.google.com with SMTP id 2adb3069b0e04-4f13d8f74abso13301609e87.0
+        for <bruce@untroubled.org>; Sun, 14 May 2030 05:32:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684067531; x=1686659531;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=47hWbtaxa+vgBTvxVPCxiVwFNJC+zI5aZhQlUm7n8Gs=;
+        b=aP+/cbWhS9bas7OYAQ3OOU+q04Gp2BfBBUMtqiNSgtzcP/W2nlZNQF9RSeX1cj0v8T
+         D5vVo1v2Z5VB31yyJ+/iwEL80iQc1T++t+6YEEz2VPwIE+vUGztQWNR+PXxHzKVPycnC
+         GpJatcbX9VUgvRicWIi4dmIKqO52m6O58I/VLJzSzoADQjgwejeCjeeN/wZLYkRYzApD
+         nzYrv9IMy5Z9ULqi8eRNdHhTs0EbdS7B4IRi5DK7GMFHvP0XKZIHYxSbIJbmt+pKB2N1
+         Om9BM16nhn02NUROo1Y9pwT9Reo3tgoZCVmhk6ZTyLyKtcusEB8B0NVHTGEZfhbwo5Lj
+         ussQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684067531; x=1686659531;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=47hWbtaxa+vgBTvxVPCxiVwFNJC+zI5aZhQlUm7n8Gs=;
+        b=QQrIjo6Cz7UjVgHzsHX1I9UAkVZ5If3cyPZeyH5hWFeyri+05Z6L0551/lyV2XWYzA
+         bZXJGSWjeobeaebWcMZjuXjAZYOSwlx7FFClrmbGxmiqOcUKStsXTLiFpPfACAP9r/6V
+         +tmb1lBRHQJKHm4cpNgbBDW/p1PufwUyqdCinFduDn+Lb7PNXN+WKhfQICXu/bd9fZPD
+         NdV73aVEFuPFT23FVzdHUEkxo13imFK27DkfwYy69JjA+q311ak9io8bkcaWpPuquQy+
+         BjECXcJWmF6cqCSVhFpI/ytifEzVb3M9gmiqHrJgFdCSd5MTK90UAQB225piEcRjkPw6
+         TxFA==
+X-Gm-Message-State: AC+VfDy47vmIJabOCLBVAVgTw0hkNKmx1aWpIAIYu1Aq1qo6Y4lIPPMf
+	hVHoAvmkdJhkCWRcs5JMGmqciG7UqvRsXyT4FePu0Hg5
+X-Google-Smtp-Source: ACHHUZ7ySd2HaNIcIkPW9MPJwMzzRjAR18MYWInIAnfscZUGZGK3CSVOloLcET+hOmJSpf8zoUFNhsWRP0ME9VRtuHI=
+X-Received: by 2002:ac2:424b:0:b0:4ef:f1f7:eb8f with SMTP id
+ m11-20020ac2424b000000b004eff1f7eb8fmr4863191lfl.42.1684067531160; Sun, 14
+ May 2030 05:32:11 -0700 (PDT)
+MIME-Version: 1.0
+From: Confirmation <bruce@untroubled.org>
+Date: Sun, 14 May 2030 13:37:00 +0100
+Message-ID: <CAPrzedU=jlk8DtqKUgCt4b-0Vw3dhhJRd0INJ+3DhcjJHJdJdU@mail.gmail.com>
+Subject: Craftsman Generator Ordr ID IU23611546
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 4599
+
+<html>
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Craftsman Generator</title>
+ <style>
+ body,table,thead,tbody,tr,td,img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, 'Arial', sans-serif;
+ color: #fff;
+ }
+ h2 {
+ font-size: 32px;
+ COLOR: #ffef00;
+ font-weight: normal;
+ padding-bottom: 0;
+ }
+ h1 {
+ padding-bottom: 0px;
+ font-size: 36px;
+ }
+ p, li {
+ font-family: Verdana, 'Arial', sans-serif;
+ font-size: 16px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 40px;
+ }
+ .linebg{
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #ffef00;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ h2 {
+ margin-top: 0px;
+ font-size: 24px;
+ text-align: center;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ } 
+
+ 
+ }
+ </style>
+</head>
+<body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height:35px;">  </td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" bgcolor="#9bc212" cellpadding="" cellspacing="" width="550">
+ <tbody><tr>
+ <td align="center">
+ <table>
+ <tbody>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ <tr>
+ <td>
+ <img border="0" src="https://pbs.twimg.com/media/FuqOophWwAEbx_Q?format=png&name=small" alt="logo" class="logo">
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#caee4f" width="550">
+ <tbody><tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td valign="top">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <h2>ANSWER & WIN!</h2>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" class="linebg" >
+ <p>A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <h1>Craftsman Generator</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FuqOzqHWwAAbGaG?format=png&name=small" alt="reward" style="max-width:90%;">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" bgcolor="#caee4f" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p style="width: 400px;max-width: 90%;padding-top:0px;">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ 
+ 
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#cl/78533_md/8/265793/7907/2501/788433" class="cta">GET STARTED NOW!</a> 
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height:50px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table>
+ <tbody>
+ <tr>
+ <td height="25" style="line-height:25px;">  </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size:12px;color: #797979;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#un/78533_md/8/265793/7907/2501/788433" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height:35px;">  </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+
+
+
+
+</body></html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#oop/78533_md/8/265793/7907/2501/788433">here</a> to remove yourself from our emails list</span><br/><br/>

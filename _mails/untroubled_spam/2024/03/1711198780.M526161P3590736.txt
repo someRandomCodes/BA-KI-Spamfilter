@@ -1,0 +1,79 @@
+Return-Path: <danielouedraogo370@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3588423 invoked from network); 23 Mar 2024 06:42:37 -0000
+Received: from mail-pf1-x444.google.com (mail-pf1-x444.google.com [IPv6:2607:f8b0:4864:20::444])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 23 Mar 2024 06:42:37 -0000
+Received: by mail-pf1-x444.google.com with SMTP id d2e1a72fcca58-6ea9a616cc4so93415b3a.1
+        for <bruce@untroubled.org>; Fri, 22 Mar 2024 23:42:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1711176156; x=1711780956; darn=untroubled.org;
+        h=subject:to:content-transfer-encoding:mime-version:from:date
+         :message-id:from:to:cc:subject:date:message-id:reply-to;
+        bh=cRiKFx+WYmh1WWQEGM8sJpCj0bp8QPRbzi2beZ1JGrw=;
+        b=RVMuz+yENJYnUm0YHnauyUPZSVRtC2xXi5D32OL2GktNpwky6+dlo6vcY0W4BbVr8T
+         dC3z3WD6TNCT+dY8D8lVxqSpOJ2bbrPKg0N06F7HOqBVwr5Uzs3zK+GStNx9pAh2eTI8
+         skr5U+AcK2dI4AhL9RFn10o0KW6U4O9iO4AUCPPMM6ZHoCvMvTguWgRdCh+b+fKnkYVE
+         SBfrHXkkxP1KxbGTOFvw+sS7AKya85TFlNw4JCMdf+5zBPg0iLh95ja9uMMf0sc7Jh+M
+         LIC9Gkw+Bo2HlajDJ+YUOO/zeJdCxghGcHxvlgPxtNDzSAiXneHp3rIFxIG+1EYB8WYm
+         CSfw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1711176156; x=1711780956;
+        h=subject:to:content-transfer-encoding:mime-version:from:date
+         :message-id:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=cRiKFx+WYmh1WWQEGM8sJpCj0bp8QPRbzi2beZ1JGrw=;
+        b=eF+n3Um31jx8rvpONCx+fP04V6dpZ1iGZh/INWCR/sWa7/7o79GRgnqNw+VWkKGBf/
+         UtKqA7PNXsEd30h+vVG1vPCt7HPVBSKp0UlyEJurHAJVhkOiYPTqzNrh+nRZba7dlaPX
+         ORzGzwGHlAVHAUJzuLizbSSRa5jmMBo32Y0LHcCt/l5FMDXcDBfQ/cuNP9wvyahOHIA1
+         U3b8wEGe+PtsdxOewwY5d96h6znsNG3m4bQezXV1yfT2s4ZpanwifV2Z9xbTHp4liRjJ
+         l76/5DEImILaGuD+hSXk240IStpLIY5UVhjoUI7VqZh1kKMoUghatl+9bXfKz2he8gpq
+         LFCw==
+X-Forwarded-Encrypted: i=1; AJvYcCU7BfsSSGYrSVkE0G8vNTtzEap5Zjb05AHH6GvNxn002nfj3ocnCFQbc1/Ex1iZLuEEVr9ZpK+hmAS/jKXJ3R9/JWNItQ==
+X-Gm-Message-State: AOJu0Yyeu1ZnhA99TwNHWt/029GYHerREwUewvTG956f7myA0VEZgelw
+	hI1jrsSSJjzBOr5uR8wQesVKUlGUzklQ0qLnVRCaPHPhm6d/TkbrBVdF7SZHVLemnw==
+X-Google-Smtp-Source: AGHT+IEgbVAOtD28+6SsFWBEdYy/RNSbvruUXl6Rc483c/W/Q35nC4Y+fpRHHZOINO0mgpE5Uk9cBA==
+X-Received: by 2002:a05:6a20:b96:b0:1a3:6a7c:fca5 with SMTP id i22-20020a056a200b9600b001a36a7cfca5mr1368931pzh.52.1711176156326;
+        Fri, 22 Mar 2024 23:42:36 -0700 (PDT)
+Return-Path: <danielouedraogo370@gmail.com>
+Received: from [192.168.31.128] ([116.21.30.64])
+        by smtp.gmail.com with ESMTPSA id x15-20020a170902ec8f00b001ddda95074fsm867571plg.11.2024.03.22.23.42.34
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 22 Mar 2024 23:42:35 -0700 (PDT)
+Message-ID: <65fe79db.170a0220.39921.2b3f@mx.google.com>
+Date: Fri, 22 Mar 2024 23:42:35 -0700 (PDT)
+From: "=?utf-8?q?ellen?=" <danielouedraogo370@gmail.com>
+X-Google-Original-From: =?utf-8?q?ellen?=
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+To: =?utf-8?q?bruce=40untroubled=2Eorg?=
+Subject: =?utf-8?q?Blog_Cooperation?=
+
+CkRlYXIgQmxvZ2dlcgoKTmljZSB0byBzZWUgc29tZSBncmVhdCBjb250ZW50IG9uIHlvdXIgc2l0
+ZSwgd291bGQgeW91IGxpa2UgdG8gZG8gYSBjb2xsYWJvcmF0aW9uIHdpdGggbWU/IEJlZm9yZSB0
+aGF0LCBwbGVhc2UgYWxsb3cgbWUgdG8gaW50cm9kdWNlIG15c2VsZiEKCkkgY29tZSBmcm9tIHRo
+ZSBXZWxsZm9yIGJyYW5kLiBUaGlzIGlzIG91ciB3ZWJzaXRlIHdlbGxmb3IuICBjb20uIElmIHlv
+dSBhZ3JlZSB3aXRoIG91ciBicmFuZCBwaGlsb3NvcGh5LCBJIHdpbGwgcHJvcG9zZSB0aHJlZSBj
+b29wZXJhdGlvbiBtZXRob2RzLCBhbmQgeW91IGNhbiBjaG9vc2UgYW55IG9mIHRoZW0gT25lLCBq
+dXN0IHRlbGwgbWU6CgoxLiBCbG9nIGNvbnRlbnQgY29vcGVyYXRpb246IEkgaG9wZSB0aGF0IHlv
+dSB3aWxsIGNyZWF0ZSBhbiBhcnRpY2xlIGNvbnRlbnQgb2YgODAwLTEwMDAgd29yZHMgZm9yIG91
+ciBicmFuZCwgYW5kIGF0dGFjaCAyLTMgZG9mb2xsb3cgbGlua3MuIE9mIGNvdXJzZSwgSSB3aWxs
+IHByb3ZpZGUgeW91IHdpdGggY29ycmVzcG9uZGluZyBrZXl3b3Jkcy4gWW91IGp1c3QgSnVzdCBu
+ZWVkIHRvIHB1Ymxpc2ggaXQgb24geW91ciB3ZWJzaXRlIHBlcm1hbmVudGx5LiBJZiB5b3UgZG9u
+6Yil5qqbIHByb3ZpZGUgd3JpdGluZyBjb250ZW50LCBJIGNhbiBhbHNvIHByb3ZpZGUgYXJ0aWNs
+ZXMgZm9yIHlvdSB0byBwdWJsaXNoIGRpcmVjdGx5LiBGb3IgdGhpcywgSSB3aWxsIGJlIHdpbGxp
+bmcgdG8gcGF5IHlvdSBhIGNlcnRhaW4gYW1vdW50LiBPZiBjb3Vyc2UsIHdlIGNhbiBuZWdvdGlh
+dGUgdG9nZXRoZXIgcHJpY2UgdGhpcyBwaWVjZTsKCjIuIEluc2VydCBsaW5rIGNvb3BlcmF0aW9u
+OiBJIGFtIGFsc28gd2lsbGluZyB0byBpbnNlcnQgb3VyIHByb2R1Y3QgY29udGVudCBpbiB5b3Vy
+IGV4aXN0aW5nIGFydGljbGUgYW5kIGF0dGFjaCBhIGRvZm9sbG93IGxpbms7CgozLiBCYW5uZXIg
+YWR2ZXJ0aXNpbmcgY29vcGVyYXRpb246IEkgYW0gYWxzbyB3aWxsaW5nIHRvIHByb3ZpZGUgcGlj
+dHVyZXMgYWJvdXQgb3VyIHByb2R1Y3RzIGZvciB5b3UgdG8gcGVybWFuZW50bHkgaW5zZXJ0IG9u
+IHRoZSBzaWRlYmFyIG9mIHRoZSB3ZWJzaXRlLgoKSW4gdGVybXMgb2YgYnVkZ2V0LCB5b3UgY2Fu
+IHJlc3QgYXNzdXJlZCB0aGF0IEkgaGF2ZSBlbm91Z2ggYnVkZ2V0IHRvIHdvcmsgd2l0aCB5b3Us
+IGJ1dCBJIHdpbGwgbWFrZSBhIHJlYXNvbmFibGUgcHJpY2UgYWNjb3JkaW5nIHRvIHRoZSBxdWFs
+aXR5IG9mIHRoZSB3ZWJzaXRlLCBzbyBwbGVhc2UgZG9uJ3Qgd29ycnkuCgpJZiB5b3UgYXJlIG5v
+dCBpbnRlcmVzdGVkIGluIG91ciBjb29wZXJhdGlvbiBhdCBhbGwsIEkgYW0gdmVyeSBzb3JyeSBm
+b3IgdGhpcywgcGxlYXNlIGlnbm9yZSB0aGlzIGVtYWlsLgoKV2FpdGluZyBmb3IgeW91ciBwb3Np
+dGl2ZSByZXBseS4KQmVzdCB3aXNoZXMh

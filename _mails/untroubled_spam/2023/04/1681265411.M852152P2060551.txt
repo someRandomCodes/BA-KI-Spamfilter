@@ -1,0 +1,130 @@
+Return-Path: <scohen@shoplocalfirst.org>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2060743 invoked from network); 12 Apr 2023 02:02:42 -0000
+Received: from mail-vs1-xe44.google.com (mail-vs1-xe44.google.com [IPv6:2607:f8b0:4864:20::e44])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 12 Apr 2023 02:02:42 -0000
+Received: by mail-vs1-xe44.google.com with SMTP id b17so9236051vsj.7
+        for <bruce@untroubled.org>; Tue, 11 Apr 2023 19:02:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=shoplocalfirst.org; s=google; t=1681264961; x=1683856961;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=XyOj4n30F/RkGru1kPXNJ68CaADGcMYGCLpPxxqfQkk=;
+        b=Ywgwwvyn+wOmF6Qu73HkkMZbs9gxH1An1lr6jbN0dINlxs0ckaUiFHHDL1el/zNxDj
+         YxvCwv+j/NfGxKjfr/AR2dfXn9vobx3oJY6J84ai85W2gL3QDBAHoINpUUq1NlKwjZti
+         gVjGjUri24Y6hsbqQMOB8/hq3jxBc0+kNIpBSWqdL/TzwHQs4D3JrzRfR/YepCUeh3ty
+         bTVAiG1oQj7zwgnkRcYMcDJAEyBBQqG13lGpKF+YU8pvKeILvmeHAdjnnqjWgwNrzP9R
+         LkmJ39vT24QaMRYzpQt6b3wKMqy43F1qDWIkFg6wFDgIBmB3vFgwvn216AwoXOWZh02H
+         1ioA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1681264961; x=1683856961;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=XyOj4n30F/RkGru1kPXNJ68CaADGcMYGCLpPxxqfQkk=;
+        b=zv1jCEEDi6PmhIrTrA7YT/dD/ewxJm1BOMvfumAtmSsYa3DIYBN2I+ycO6WGhwzfu9
+         7WH5gzgZaHnMrKbJ5ZFSPn6oZxsXSzLh073Y3GX8Vz3futtKsNhbZxnatFZyMmmy/k4O
+         pJd6V76b4idudy67//shJU32YFXOHZ6unALs2ikjLB4rO6z88/C0xlhwdmAUaHDjYlh4
+         Fibi2ushSJyq3mbeMvbAwWz6zKhhIDovRvOhTpRbcevqfyZYlfAog8jqOW4aLdlP7rio
+         prnQnqH4s7oYMSL/FkYGg2aMA/uxBxDOgUPOvdGkTNaWtLjS4o2x1l3VB8WSsMXYEJ1p
+         2BQQ==
+X-Gm-Message-State: AAQBX9dtmZn54c96GT+8rZmXf4lgKCflrTjNDLMmQV5SvLOrIKC1pVgP
+	f+dam124QF2vnL6SjlbR1XFgux4Yh9HEQ3WOF2pANizUzsGAItClPiELpg==
+X-Google-Smtp-Source: AKy350YBLOhBWUvaiG/G2HKXD6fBnXBN9fva7iEudMOGNwz6obU8jP5NdbuACY4pjH0xUqRag6/WgQ4hDwQ/htpqI5A=
+X-Received: by 2002:a67:ca81:0:b0:426:7730:1b89 with SMTP id
+ a1-20020a67ca81000000b0042677301b89mr3128916vsl.0.1681264960851; Tue, 11 Apr
+ 2023 19:02:40 -0700 (PDT)
+Received: from 193648715289 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 11 Apr 2023 22:02:40 -0400
+MIME-Version: 1.0
+Sender: scohen@shoplocalfirst.org
+From: scohen@shoplocalfirst.org
+Date: Tue, 11 Apr 2023 22:02:40 -0400
+X-Google-Sender-Auth: uPlQqHGxYrHgL7RzIJbSax2CTtM
+Message-ID: <CAF5CoFAG1DXVvUhMuG254uY9kjhHesG3PYKW1HwL9aiOa2nfsQ@mail.gmail.com>
+Subject: Article pitch -- please review
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="000000000000c3d3c305f91a0031"
+
+--000000000000c3d3c305f91a0031
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Are your readers interested in learning how to handle multi-state living
+arrangements as a business owner or entrepreneur? If so, I have the perfect
+guest article for your website.
+
+My piece is designed specifically with these individuals in mind and can
+give them helpful advice on handling their properties across different
+locations. This could be extremely beneficial! Let me know if this type of
+content interests you; I'm more than happy to submit my draft quickly for
+review.
+
+Thank you so much - greatly appreciate your time and consideration!
+
+Sadie Cohen
+
+https://shoplocalfirst.org/
+
+=EF=BD=9EIf, by any chance, you=E2=80=99d prefer an article on a different =
+topic, please
+send over your suggestions. However, if you'd prefer not to receive emails
+from me, please let me know!
+
+--000000000000c3d3c305f91a0031
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><span id=3D"gmail-docs-internal-g=
+uid-c912fbd3-7fff-54e8-095a-7e7e09120411"><p dir=3D"ltr" style=3D"line-heig=
+ht:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;fon=
+t-family:Arial;color:rgb(0,0,0);background-color:transparent;font-variant-n=
+umeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal=
+;vertical-align:baseline;white-space:pre-wrap">Hello,</span></p><br><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:11pt;font-family:Arial;color:rgb(0,0,0);background-color=
+:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;fon=
+t-variant-alternates:normal;vertical-align:baseline;white-space:pre-wrap">A=
+re your readers interested in learning how to handle multi-state living arr=
+angements as a business owner or entrepreneur? If so, I have the perfect gu=
+est article for your website.=C2=A0</span></p><br><p dir=3D"ltr" style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:=
+11pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-v=
+ariant-numeric:normal;font-variant-east-asian:normal;font-variant-alternate=
+s:normal;vertical-align:baseline;white-space:pre-wrap">My piece is designed=
+ specifically with these individuals in mind and can give them helpful advi=
+ce on handling their properties across different locations. This could be e=
+xtremely beneficial! Let me know if this type of content interests you; I&#=
+39;m more than happy to submit my draft quickly for review.=C2=A0</span></p=
+><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:=
+0pt"><span style=3D"font-size:11pt;font-family:Arial;color:rgb(0,0,0);backg=
+round-color:transparent;font-variant-numeric:normal;font-variant-east-asian=
+:normal;font-variant-alternates:normal;vertical-align:baseline;white-space:=
+pre-wrap">Thank you so much - greatly appreciate your time and consideratio=
+n!</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Arial;color:rgb(=
+0,0,0);background-color:transparent;font-variant-numeric:normal;font-varian=
+t-east-asian:normal;font-variant-alternates:normal;vertical-align:baseline;=
+white-space:pre-wrap">Sadie Cohen</span></p><p dir=3D"ltr" style=3D"line-he=
+ight:1.38;margin-top:0pt;margin-bottom:0pt"><a href=3D"https://shoplocalfir=
+st.org/" style=3D"text-decoration-line:none"><span style=3D"font-size:11pt;=
+font-family:Arial;background-color:transparent;font-variant-numeric:normal;=
+font-variant-east-asian:normal;font-variant-alternates:normal;text-decorati=
+on-line:underline;vertical-align:baseline;white-space:pre-wrap">https://sho=
+plocalfirst.org/</span></a><span style=3D"font-size:11pt;font-family:Arial;=
+color:rgb(0,0,0);background-color:transparent;font-variant-numeric:normal;f=
+ont-variant-east-asian:normal;font-variant-alternates:normal;vertical-align=
+:baseline;white-space:pre-wrap">=C2=A0</span></p><br><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:11pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;f=
+ont-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal=
+;font-variant-alternates:normal;vertical-align:baseline;white-space:pre-wra=
+p">=EF=BD=9EIf, by any chance, you=E2=80=99d prefer an article on a differe=
+nt topic, please send over your suggestions. However, if you&#39;d prefer n=
+ot to receive emails from me, please let me know!</span></p></span><br clas=
+s=3D"gmail-Apple-interchange-newline"></div></div></div></div>
+
+--000000000000c3d3c305f91a0031--

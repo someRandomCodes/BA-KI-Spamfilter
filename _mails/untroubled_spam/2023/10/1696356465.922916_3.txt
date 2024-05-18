@@ -1,0 +1,2753 @@
+Return-Path: <bounces+34517871-0b6d-bruce=untroubled.org@em2840.tldrsec.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 920226 invoked from network); 3 Oct 2023 17:16:32 -0000
+Received: from o1.mail.beehiiv.com (o1.mail.beehiiv.com [149.72.123.205])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 03 Oct 2023 17:16:31 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tldrsec.com;
+	h=content-type:from:mime-version:subject:reply-to:list-unsubscribe:to:
+	cc:content-type:from:subject:to;
+	s=2b4; bh=A3U0SJiVCJ5TI0yr5kj3sacqgbjUbc+HE/V70nr4hZ8=;
+	b=h0iRPd8aIKoVf798T3wtRnW921MRq3SGSzpaJaBrI0qptjvhbm9flJSM+RphC51b52+w
+	u0ZRuhJBKy1fqANSEluNqJfsiyvIhyBjffgpOr6ipNAwPtt9NkqBgQIIy8+Du2ZMHcvmdL
+	DO0TNKiAfnMNNgqVMGJL4unICJewYu9Zwmt3iDEW42w6g9vmv1HtIHAEZYkxq3q6++Bdy+
+	RsMWPuPgTtBuOagl/moN9MHZV9PPbnfQa29DVY6rlEZshgO6dGDyaFlB2p7wZBNJnDgnc2
+	TgH3HsARNc7BfTOSNLWvkKYRJyeCA+xhdeagUNq3mQXveu+6OQAqMJ8IyeCxtdDQ==
+Received: by filterdrecv-57f77ffbc6-4wt8z with SMTP id filterdrecv-57f77ffbc6-4wt8z-1-651C4C37-141
+        2023-10-03 17:15:36.19233671 +0000 UTC m=+4742344.897498217
+Received: from MzQ1MTc4NzE (unknown)
+	by geopod-ismtpd-30 (SG) with HTTP
+	id yizOb34RTfOB0AGfpd27aQ
+	Tue, 03 Oct 2023 17:15:35.796 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=9251b902d92ea31a6a24da51ef7b9660f855db1ae22eb830ba379610e789
+Date: Tue, 03 Oct 2023 17:16:20 +0000 (UTC)
+From: Clint Gibler & Francis Odum <clint@tldrsec.com>
+Mime-Version: 1.0
+Message-ID: <yizOb34RTfOB0AGfpd27aQ@geopod-ismtpd-30>
+Subject: Software Supply Chain Vendor Landscape
+Reply-To: "Clint at tl;dr sec" <clint@tldrsec.com>
+x-newsletter: https://tldrsec.com/p/software-supply-chain-vendor-landscape
+x-beehiiv-ids: 
+ =?us-ascii?Q?{=22account=5Fname=22=3A=22https=3A=2F=2Ftldrsec=2Ecom=2F=22=2C=22campaign=5Fid=22=3A=2226d5692d?=
+ =?us-ascii?Q?-2d99-48b0-8883-f25f8dca5dbc=22=2C=22category?=
+ =?us-ascii?Q?=22=3A=22newsletter=22=2C=22email=5Fgenerated=5Fat=22=3A169?=
+ =?us-ascii?Q?6353335=2C=22user=5Fid=22=3A=22080a561f-2435-4477-a?=
+ =?us-ascii?Q?549-ab9f115e047c=22}?=
+Feedback-ID: 
+ =?us-ascii?Q?26d5692d-2d99-48b0-8883-f25f8dca5dbc=3Anewsletter=3A080a561f-2435-?=
+ =?us-ascii?Q?4477-a549-ab9f115e047c=3Ac3bcbca152a34c3?=
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3A080a561f-2435-4477-a549-ab9f115e047c+df945fac-656c-4c2?=
+ =?us-ascii?Q?1-970e-2f410a3b2f58+26d5692d-2d99-48b0-?=
+ =?us-ascii?Q?8883-f25f8dca5dbc=40unsub=2Ebeehiiv=2Ecom=3E=2C?=
+ =?us-ascii?Q?_=3Chttps=3A=2F=2Ftldrsec=2Ecom=2Fsubscribe=2Fdf945fac-656c-4c21-970e-2f410a3?=
+ =?us-ascii?Q?b2f58=2Fmanage=3Fpost=5Fid=3D26d5692d-2d99-48b0?=
+ =?us-ascii?Q?-8883-f25f8dca5dbc=3E?=
+x-beehiiv-type: newsletter
+x-newsletter-id: https://tldrsec.com/
+sId: 080a561f-2435-4477-a549-ab9f115e047c
+x-list-id: 080a561f-2435-4477-a549-ab9f115e047c
+x-newsletter-signup: https://tldrsec.com/subscribe
+x-list-owner: <mailto:clint@tldrsec.com>
+X-SG-EID: 
+ =?us-ascii?Q?Az+mhwNNBhqi4Hqqy4CMt+1sGpG=2F2KKZsR1P=2FZkDrQYGyOVhiAUPrKIPjmCptT?=
+ =?us-ascii?Q?Y8yxsJC=2FZ870gYZrDt4MeV=2FC3u9hgz8L+7muqq4?=
+ =?us-ascii?Q?7lgHcZ4RbD7+bAkO0wz1KD8CWvb+7NDT+cVk6im?=
+ =?us-ascii?Q?FqC5PAk5PqP8HRti3302jP9vdVa52Dxi8uhXRuw?=
+ =?us-ascii?Q?VF4u1JbeFZ+fApJHmtLQT1q5PEkjD2iaWdyV2CV?=
+ =?us-ascii?Q?tDHwt0TCzuUp24B2R7M1fZocNmsHxgtTrdxw86d?=
+ =?us-ascii?Q?SO+E2FTSIwuh3DIaEy+Ug=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FLxVM69ceEc1HIRn6NgiB?=
+ =?us-ascii?Q?p7dt+rT3Kxb0rYcSTo6yui0WZiSb+0EE17rthoM?=
+ =?us-ascii?Q?BedFCezfSvBhtMnTgPXEAHAieDiyK1HK6IA+JpH?=
+ =?us-ascii?Q?FZMuU5Tt6Lo2W1y2EDcq=2FZtwLyClSZshuc6FM4E?=
+ =?us-ascii?Q?sV6QeuMFUFszVJ8z2y=2FXRuor0U0Vzih0aEkuN2E?=
+ =?us-ascii?Q?ZkDinYSt04oMSO5CeCu4mmktkChKs43djAyaiNQ?=
+ =?us-ascii?Q?1016gfGeRz1R=2FGK7rfNXw=3D=3D?=
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+X-Entity-ID: 6oikNBd8Ritm6ycRs0KnJg==
+Content-Length: 182076
+
+--9251b902d92ea31a6a24da51ef7b9660f855db1ae22eb830ba379610e789
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Hello there! A quick note from me ([Clint Gibler](https://www.linkedin.com/=
+in/clintgibler/)), the creator of _tl;dr sec_.
+
+Welcome to Part 2 of _tl;dr sec_=E2=80=99s supply chain security guide!=20
+
+In [Part 1](https://tldrsec.com/p/supply-chain-security-overview), we provi=
+ded an overview of the core areas of supply chain security.
+
+This report focuses on analyzing the current approaches taken by **over 20 =
+software supply chain security (SSC) vendors** to secure the various aspect=
+s of the software supply chain.
+
+I=E2=80=99ll pass it off to [Francis Odum](https://www.linkedin.com/in/fran=
+cis-odum-0a8673100/), the primary author of this report, who is also the au=
+thor of the [software analyst](https://softwareanalyst.substack.com/) blog =
+and co-creator of a cybersecurity & SaaS [bootcamp](https://maven.com/saas1=
+01live/saasbootcamp) on Maven.=20
+
+
+
+## **Actionable Summary**
+
+* Software applications are no longer built solely from custom code. Instea=
+d, they consist of a complex web of open-source components and libraries. T=
+his dependency chain allows developers to use their preferred tools and ena=
+bles teams to quickly deliver functional software to users. However, it als=
+o exposes organizations and their customers to vulnerabilities introduced b=
+y changes outside of their direct control.
+
+* As discussed in part 1 of our [overview of software supply chain](https:/=
+/tldrsec.com/p/supply-chain-security-overview), we highlighted the prevalen=
+ce of open source in modern applications and the increasing urgency around =
+it. Open-source components have become a popular target for software supply=
+ chain attacks.
+
+* Part 2 of this report focuses on the key vendors in this market and their=
+ different approaches to securing the software supply chain. This report pr=
+imarily examines new and emerging vendors founded in recent years.
+
+* Due to the complexity of the modern software supply chain, there has been=
+ a surge in the number of vendors created over the past 3-5 years. Many of =
+these companies have developed their solutions based on the SLSA framework,=
+ NIST Secure Software Development Framework (SSDF), or OpenSSF Scorecard.
+
+* Compliance and regulation have been major drivers for the increase in the=
+ number of vendors and demand for software supply chain solutions. Presiden=
+t Biden's [executive order](https://www.whitehouse.gov/briefing-room/presid=
+ential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersec=
+urity/) to improve the nation's cybersecurity mandates that organizations w=
+anting to do business with the US Government or its agencies must provide a=
+ Software Bill of Materials (SBOM). There has been a growing focus on attes=
+tations due to emerging Federal software supply chain requirements. In Sept=
+ember 2022, the US Office of Management and Budget issued a [memo](https://=
+www.whitehouse.gov/wp-content/uploads/2022/09/M-22-18.pdf) requiring federa=
+l agencies to obtain a self-attestation and SBOM from software suppliers, a=
+s necessary. Software consumers are also increasingly demanding assurances =
+of secure software development practices. As one of the largest consumers o=
+f [open-source solutions](https://thehill.com/opinion/technology/4105586-th=
+e-internet-was-built-on-open-source-software-its-more-important-today-than-=
+ever/), the US Government engages with numerous enterprises that must demon=
+strate compliance with the executive order.
+
+* In addition to the public sector, there is also increased demand for soft=
+ware supply chain solutions among enterprises, especially in highly regulat=
+ed sectors. As discussed in part 1, [NightDragon's software supply chain re=
+port](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpX=
+VCJ9.eyJ1cmwiOiJodHRwczovL2luZm8uY2lzY29pbnZlc3RtZW50cy5jb20vZG93bmxvYWQtY2=
+lzby1zdXJ2aXZhbC1ndWlkZS0yMz91dG1fY2FtcGFpZ249Y2lzb3N1cnZpdmFsZ3VpZGUyMDIzJ=
+nV0bV9zb3VyY2U9bmlnaHRkcmFnb24mdXRtX21lZGl1bT1yZWZlcnJhbCZ1dG1fY29udGVudD1i=
+bG9nIiwicG9zdF9pZCI6Ijk5Mjg1MjJlLWMwZDQtNDIxOS05YzBhLTAwNjI5NDQ5ZmE4MCIsInB=
+1YmxpY2F0aW9uX2lkIjoiMDgwYTU2MWYtMjQzNS00NDc3LWE1NDktYWI5ZjExNWUwNDdjIiwidm=
+lzaXRfdG9rZW4iOiJhZTlmMjBlZS01OTgxLTRjN2MtYTU3MS04Zjg4YmQyZTI3MmYiLCJpYXQiO=
+jE2OTU5OTUxNjUsImlzcyI6Im9yY2hpZCJ9.7EwH79YEH7zkV4nnI4USIPoWMphDIE4YC8hKkJE=
+VlY4) revealed that over 96% of CISOs stated they are currently using or co=
+nsidering implementing SSC solutions within the next 12 months. This furthe=
+r supports the growth of software supply chain vendors.
+
+## **Part 1: An Overview To Software Supply Chain**
+
+In our initial report, we laid out a definition for software supply chain a=
+nd discussed the major phases that needs to be secured. We defined software=
+ supply chain security as measures to secure and prevent a malicious party =
+from tampering with the steps and artifacts required to build a software pr=
+oduct.
+
+We categorize supply chain attacks into three broad areas that can be inter=
+twined across: **source**, **build**, and **deployment and package layer**.=
+ In each of these stages, malicious actors can manipulate or introduce step=
+s to modify the software output. This can be done through malicious third-p=
+arty dependencies or due to a developer's mistake during the software devel=
+opment lifecycle.
+
+View image: (https://media.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,forma=
+t=3Dauto,onerror=3Dredirect,quality=3D80/uploads/asset/file/595a4b18-3059-4=
+eb2-9be7-9586fad9fb07/image.png)
+Caption:=20
+
+Part 1: An Overview of Software Supply Chain Security  (https://tldrsec.com=
+/p/supply-chain-security-overview)
+
+## **Part 2: Software Supply Chain Vendors**
+
+This report focuses on analyzing the current approaches taken by SSC vendor=
+s to secure all aspects of the software supply chain. While most vendors ha=
+ve similar offerings, we observed a few differences in how these vendors ap=
+proach the problem. This report focuses on providing a discussion around em=
+erging vendors.
+
+
+
+### Inclusion and Exclusion Criteria
+
+* There are over 30+ companies focused on securing different aspects of the=
+ software supply chain. Due to the large number of vendors, we couldn=E2=80=
+=99t cover every one of them.
+
+* The vendors discussed in this report are all samples or examples of solut=
+ions that address unique aspects of the software supply chain.
+
+* We recognize some vendors offer multiple products that cater to multiple =
+categories of the software supply chain. However, in this discussion, we wi=
+ll specifically focus on a core feature of their product line to illustrate=
+ how each component of the supply chain can be secured.
+
+* We have placed more emphasis on emerging startups founded after 2018, as =
+they bring unique and modern approaches to solving software supply chain ch=
+allenges.
+
+* Many of the solutions discussed in this document involve analyzing source=
+ code or the source code management (SCM) or CI/CD platforms surrounding it=
+.
+
+* Application Security Posture Management (ASPM)**:** It=E2=80=99s importan=
+t to note that some vendors discussed categorize themselves as Application =
+Security Posture Management (ASPM). Gartner defines [ASPM](https://www.gart=
+ner.com/en/documents/4366999) as vendors that enable the correlation of sec=
+urity data from multiple sources, triage all the data and offer a more comp=
+rehensive view of security risks across an application. This provides teams=
+ with insight into the overall status of a complete system. These offerings=
+ serve as a management and orchestration layer for security tools. Increasi=
+ngly, ASPM solutions are being categorized as software supply chain vendors=
+. However, it is important to note that while ASPM provide SSC security fea=
+tures, they should not be categorized as full SSC vendors.
+
+
+
+## **Legacy** **Platform Vendors**
+
+We provide a brief discussion on the legacy software supply chain vendors. =
+We recognize it is important to acknowledge they play a key role within sof=
+tware supply chain and many enterprises still rely on these solutions.
+
+[Veracode](https://www.veracode.com/), [Checkmarx](https://checkmarx.com/),=
+ and [Synopsys](https://www.synopsys.com/) were all established prior to 20=
+07. They were developed before cloud and open-source tools became widely us=
+ed among developers. Initially, their focus was on serving a market where o=
+rganizations primarily wrote code on-premises. These vendors specialize in =
+Application Security Testing (AST) and offer tools and solutions to help or=
+ganizations identify, assess, and mitigate vulnerabilities in their softwar=
+e applications, covering SAST, DAST, and IAST. In recent years, many of the=
+se legacy vendors have acquired emerging start-ups and adapted their platfo=
+rms to cater to cloud-native environments and modern SCA solutions.
+
+These vendors continue to be popular in the market due to their established=
+ reputations and strong vendor lock-ins. Many large and highly-regulated or=
+ganizations rely on these solutions across their technology stack, making i=
+t challenging for new emerging startups to replace them. These vendors have=
+ acquired start-ups and developed solutions that integrate popular open-sou=
+rce tools. These incumbents have capitalized on their large customer base t=
+o upsell their solutions, which startups struggle to do in the current mark=
+et that emphasizes vendor consolidation. We believe that these vendors may =
+retain non-trivial market share within the next 1-3 years and should not be=
+ overlooked.
+
+## **Modern** **Platform Vendors**
+
+[Snyk](https://snyk.io/) was founded in 2015, and gained notable traction i=
+nitially with [Snyk open-source](https://snyk.io/product/open-source-securi=
+ty-management/) geared around SCA. They=E2=80=99ve expanded their platform =
+to cover SAST, DAST as well as cloud security with the [acquisition of Fugu=
+e](https://snyk.io/news/snyk-acquires-fugue-enters-cloud-security-market/).=
+ Despite recent trouble, laying off [15% of its workforce](https://silicona=
+ngle.com/2022/10/24/snyk-cut-14-workforce-latest-round-tech-industry-layoff=
+s/) a few months after laying off 5% in late 2022, and seeing its valuation=
+ [plunge over 50%](https://www.calcalistech.com/ctechnews/article/skghv7kk3=
+) in secondary deals in 2023, we believe Snyk will continue to remain a pla=
+tform play for some large cloud-native enterprises looking to consolidate a=
+ number of application security solutions in one platform.
+
+# Modern Software Supply Chain Vendors
+
+## Source Code Layer
+
+----------
+=F0=9F=92=A1 In part 1 of our report, we discussed the importance of securi=
+ng source code management (SCM) systems. This includes managing access to c=
+ode environments and enforcing source code reviews, as these systems serve =
+as the central hub for developers.
+
+Developer environments represent a primary attack vector for malicious acto=
+rs attempting to carry out SSC attacks. It is crucial for software teams to=
+ have visibility into every element of their applications, from source code=
+ to third-party dependencies.
+
+Many of the vendors mentioned in the source code play a vital role early in=
+ the development lifecycle. They offer code monitoring, prevent code tamper=
+ing, detect source code leakage, and alert developers to triggers or warnin=
+g flags. We observed that many of these solutions are integrated with Git, =
+GitHub, GitLab, and BitBucket, allowing them to perform these security acti=
+ons within the developers' core environment.
+
+
+----------#### **GitLab and GitHub**
+
+It would be impossible not to begin with a discussion on the central compon=
+ents for millions of software developers. GitLab and GitHub revolve around =
+the Git version control system, enhance collaboration, support repo hosting=
+ and are hubs for open-source projects. Due to the urgency of software supp=
+ly chain attacks in recent years, these vendors have started to offer solut=
+ions that help secure source code all the way to securely using third-party=
+ dependencies. GitLab has its [dependency scanning features](https://docs.g=
+itlab.com/ee/user/application_security/dependency_scanning/) and [SCM solut=
+ions for developers](https://about.gitlab.com/solutions/source-code-managem=
+ent/). GitHub has its [advanced security](https://github.com/features/secur=
+ity), which performs SAST on first party code, SCA for third-party code, an=
+d secrets scanning. GitHub has largely acquired companies for its security =
+offerings - primarily [Dependabot](https://dev.to/peter/github-acquires-dep=
+endabot-i8n) and [Semmle](https://techcrunch.com/2019/09/18/github-acquires=
+-code-analysis-tool-semmle/) in 2019. Whereas GitLab largely wraps open sou=
+rce tools like Semgrep, Clair, Trivy, and Grype to offer many of its securi=
+ty solutions, although it has acquired some small security start-ups in rec=
+ent years.
+
+#### **Arnica and Jit.io**
+
+Both vendors have relative similar product characteristics with a core focu=
+s on tightening the loophole between security and development teams. Howeve=
+r, they both have different approaches to their technical features.
+
+**[Arnica](https://www.arnica.io/)** tackles the SSC problem using several =
+approaches. Arnica's platform tracks every action performed by developers t=
+hrough its behavioral graph, enabling it to identify compromises in source =
+control systems and identify any vulnerable code or unauthorized access to =
+source code repositories. Once identified, Arnica notifies the code author,=
+ pusher, or any designated team in real time using ChatOps (usually Slack o=
+r Teams). For instance, developers can receive immediate notifications on t=
+heir native communication platforms if they inadvertently push code contain=
+ing exposed secrets, along with step-by-step instructions on how to rectify=
+ the issue.
+
+Secondly, Arnica runs and maintains all real-time code scanning capabilitie=
+s into their platform, which helps the customer avoid deploying multiple in=
+dividual SCA or SAST solutions. Arnica utilizes what they call a 'pipeline-=
+less' approach, which means they reduce the need for their customers to int=
+egrate multiple CI/CD tool to secure their pipeline. Arnica uses its built-=
+in [code security features](https://www.arnica.io/solution/code-security) (=
+that combines SAST, SCA & IAC) in one to provide full coverage/context for =
+their customers.
+
+Another core feature of the platform worth noting as it relates to source c=
+ode is managing developer access and behavioral analysis. Arnica=E2=80=99s =
+automated developer permissions feature takes the approach of identifying p=
+otential injection of bad code through [anomaly detection](https://www.arni=
+ca.io/solution/anomalous-developer-behavior) and strict branch protection p=
+olicies. Arnica=E2=80=99s [dynamic developer access management](https://www=
+.arnica.io/solution/developer-access-management) sets up behavioral profile=
+s for all developers and applies least privileged access to minimize unauth=
+orized users from abusing source code or systematically adjusting developer=
+ permissions based on historical access patterns.
+
+
+
+#### **Jit.io**
+
+[Jit.io](http://jit.io/) is an open product security orchestration platform=
+ that allows for the integration of multiple security tools to secure vario=
+us stages of the SDLC. Their platform supports popular open-source tools fo=
+r SAST, SCA, secret detection, cloud scanning, and DAST. Jit addresses the =
+software supply chain problem through a concept called [Jit security plans]=
+(https://docs.jit.io/docs/introduction-2). This approach takes into conside=
+ration the business goals and requirements when securing all aspects of the=
+ software supply chain. The company offers security plans that guide users =
+in achieving specific business goals while ensuring certification readiness=
+. These include [AWS Foundational Technical Review (FTR)](https://aws.amazo=
+n.com/partners/foundational-technical-review/), [Jit MVS for AppSec](https:=
+//docs.jit.io/docs/jit-mvs-for-appsec-plan), and the [OWASP Top 10 complian=
+ce](https://www.jit.io/blog/the-in-depth-guide-to-owasps-top-10-vulnerabili=
+ties) framework for applications. Jit can help an engineering team comply w=
+ith these frameworks from code to cloud.
+
+Unlike solutions like Arnica, Jit allows users to use their own SAST and SC=
+A tools. Jit assists with integrating and orchestrating these tools through=
+out the development lifecycle. Another unique aspect of Jit is its breadth =
+and openness. Jit collaborates with other SSC and ASPM vendors in an open m=
+anner. Users can connect different security tools to the Jit platform, whic=
+h then orchestrates and executes them primarily within GitHub. Users have t=
+he flexibility to add their own security tools by specifying the input, out=
+put, and execution methods.
+
+
+
+## **The Build & Pipeline Layer**
+
+----------
+=F0=9F=92=A1 Vulnerabilities in CI/CD can arise from insecure configuration=
+s of CI/CD tools and infrastructure, such as insecure build servers, artifa=
+ct registries, and containers. The discussed vendors provide CI/CD pipeline=
+ security, build artifacts provenance checks, and code validation before a =
+major build. Compromising any of these steps or environments can impact the=
+ integrity of the software artifacts that are produced and distributed.
+
+Our analysis primarily focuses on vendors within SCA (Software Composition =
+Analysis) that address issues related to third-party dependencies, whether =
+they are unintentionally included as transitive dependencies or introduced =
+within the pipeline. We also cover the deployment of containers and registr=
+ies. Many of the solutions discussed integrate with popular build automatio=
+n tools and CI/CD tools such as Jenkins, CircleCI, Azure DevOps, and GitHub=
+ Actions. Additionally, we discuss vendors that specialize in securing cont=
+ainers and their registries.
+
+
+----------## Software Composition Analysis (SCA)
+
+**Software Composition Analysis (SCA) tools** were developed to identify an=
+d scan all open-source software and third-party dependencies in codebases t=
+o ensure compliance with licensing requirements and find dependencies with =
+known security vulnerabilities.
+
+**How Do SCA Tools Work?**
+
+At a high level, most SCA tools are composed of two parts:
+
+1. A **database** of known vulnerabilities ([CVEs](https://www.cvedetails.c=
+om/)) that are associated with specific versions of third-party dependencie=
+s.
+
+2. An **engine** that can examine a code repository, detect the dependencie=
+s it uses and what versions, and then compare those to its database of know=
+n CVEs.
+
+SCA tools inspect package managers, source code, binary files, container im=
+ages, and other code components. Essentially, SCA tools examine your code a=
+nd say, =E2=80=9CI see you=E2=80=99re using lodash version 4.17.20, and I k=
+now that=E2=80=99s vulnerable to [CVE-2021-23337](https://nvd.nist.gov/vuln=
+/detail/cve-2021-23337).=E2=80=9C SCA tools are able to provide an inventor=
+y of all the open-source code components used in the code build and evaluat=
+e them against a vulnerability databases like the National [Vulnerability D=
+atabase (NVD)](https://nvd.nist.gov/) and [Open Source Vulnerability Databa=
+se (OSVDB)](https://osv.dev/).
+
+Some SCA tools aim to make it even easier for developers to resolve identif=
+ied issues by automatically creating Pull Requests (PRs) that update a depe=
+ndency to a version that is no longer vulnerable.=20
+
+However, there=E2=80=99s a problem with the straightforward, SCA 1.0 approa=
+ch. In practice, many organizations will receive thousands to tens of thous=
+ands of warnings about vulnerable dependencies. No development team can han=
+dle all of them.=20
+
+_How do you know which to prioritize?_ Enter: _reachability analysis_.
+
+**What is =E2=80=9CReachability Analysis=E2=80=9D?**
+
+At the time of this writing, =E2=80=9Creachability=E2=80=9D is the latest a=
+dvancement in SCA. Instead of warning users about thousands of =E2=80=9Cvul=
+nerable=E2=80=9D dependencies with no regards to their risk, SCA tools that=
+ perform =E2=80=9Creachability analysis=E2=80=9D determine not just if a re=
+pository is using a dependency at a vulnerable version, but also **if the f=
+irst party code is actually invoking the vulnerable function in the third-p=
+arty library**. [Initial evidence](https://semgrep.dev/blog/2022/a-deep-div=
+e-into-semgrep-supply-chain/) suggests that =E2=80=9Creachability=E2=80=9D =
+reduces >90% of SCA alerts, saving security teams and developers from wasti=
+ng time doing work that minimally reduces risk.
+
+At the time of this writing, it appears that only [Semgrep Supply Chain](ht=
+tps://semgrep.dev/products/semgrep-supply-chain/) and [Endor Labs](https://=
+www.endorlabs.com/) are meaningfully pursuing reachability analysis in SCA.
+
+
+
+## SCA Vendors
+
+**Dependabot**
+
+Dependabot ([acquired](https://www.crunchbase.com/acquisition/github-acquir=
+es-dependabot--2585bd2b) by GitHub in 2019) was one of the earlier players =
+in the SCA space, is free for open source repositories, and requires [an Ad=
+vanced Security plan](https://docs.github.com/en/get-started/learning-about=
+-github/about-github-advanced-security) for private repos. Dependabot can i=
+ssue PRs to easily update vulnerable dependencies, supports exporting SBOMs=
+, and ensuring license compliance.
+
+**Snyk**
+
+As discussed earlier, Snyk has grown rapidly over the past few years, with =
+Snyk [Open Source](https://snyk.io/product/open-source-security-management/=
+), their SCA product, being their original driver of revenue, which they us=
+ed to buy a number of companies with complementary products (e.g. SAST, con=
+tainer scanning, etc.) to scale their business horizontally. Snyk has their=
+ own vulnerability database, and similar to Dependabot, supports auto-gener=
+ating fix PRs, license compliance, and exporting an SBOM.
+
+----------
+=F0=9F=92=A1 Though their product pages and documentation are not explicit =
+on how their analysis works, it appears that Dependabot and Snyk may work b=
+y simply comparing a project=E2=80=99s listed dependencies and versions wit=
+h their CVE database. That is, they may _not_ leverage a full-fledged code =
+analysis engine that can effectively reason about code, resolve method call=
+s, etc.
+
+This would explain why Dependabot ([source](https://github.blog/2022-04-14-=
+dependabot-alerts-now-surface-if-code-is-calling-vulnerability/)) and Snyk =
+([source](https://snyk.io/blog/reachable-vulnerabilities/)) discussed doing=
+ reachability analysis, but in practice they do not appear to have prioriti=
+zed this work in their products, despite the clear user value in allowing d=
+evelopers to focus on upgrading the dependencies that meaningfully reduce r=
+isk.
+
+
+----------#### **Semgrep**
+
+**[Semgrep](https://semgrep.dev/products/semgrep-supply-chain/)**[ Supply C=
+hain](https://semgrep.dev/products/semgrep-supply-chain/) has focused on [r=
+eachability analysis](https://semgrep.dev/blog/2022/a-deep-dive-into-semgre=
+p-supply-chain/) to help users focus on the dependencies that matter, that =
+is, dependencies that may be exploited due to the fact that an application=
+=E2=80=99s first party code is calling the vulnerable function in the depen=
+dency. Semgrep Supply Chain (and Semgrep=E2=80=99s other products) is free =
+for up to 10 monthly users.
+
+Semgrep Supply Chain also supports license compliance, SBOM export, and [de=
+pendency search](https://semgrep.dev/blog/2023/dependency-search-and-licens=
+e-compliance/), which lets you search across every codebase in your organiz=
+ation for any dependency at any version, on demand. This can save hours or =
+days of person-time in the case of a new, high-profile vulnerability droppi=
+ng, such as log4shell, in which you need to know where you=E2=80=99re affec=
+ted as soon as possible.
+
+Semgrep also has [Semgrep Code](https://semgrep.dev/products/semgrep-code/)=
+, a SAST product that extends their popular [open source engine](https://gi=
+thub.com/returntocorp/semgrep) with more advanced analyses and additional s=
+ecurity coverage, and recently launched [Semgrep Secrets](https://semgrep.d=
+ev/blog/2023/introducing-semgrep-secrets/), which leverages Semgrep=E2=80=
+=99s code analysis capabilities to go beyond regex when finding secrets in =
+source code and can automatically validate if detected secrets are currentl=
+y live. =20
+
+#### **Endor Labs**
+
+[Endor](https://www.endorlabs.com/) Labs similarly uses [program analysis](=
+https://www.endorlabs.com/blog/introduction-to-program-analysis) to perform=
+ reachability analysis of CVEs in a project=E2=80=99s dependencies and supp=
+orts exporting an [SBOM](https://www.endorlabs.com/sbom-vex).
+
+
+
+#### **Oligo**
+
+[Oligo](https://www.oligo.security/) uses [eBPF](https://www.oligo.security=
+/blog/scaling-runtime-security-how-ebpf-is-solving-decade-long-challenges) =
+to provide runtime visibility into the OSS libraries an applications relies=
+ on and how the libraries interact and behave. Using runtime data, Oligo ca=
+n inform users of which vulnerable dependencies are live and may be exploit=
+able. Further, Oligo has a database of baseline behavior profiles of OSS li=
+braries, which they then compare to live package behavior, and alert when a=
+ library deviates from its expected activity, as that may indicate a succes=
+sful attack.
+
+
+
+----------
+=F0=9F=92=A1 **Software Composition Analysis (SCA): Static vs Dynamic Appro=
+aches **
+
+It is useful to highlight the differences between Static vs Dynamic SCA sol=
+utions.=20
+
+Static SCA performs analysis on source code including libraries, dependenci=
+es, and custom code, allowing for early detection of vulnerabilities before=
+ software is executed. Meanwhile, a dynamic SCA tool scans for vulnerabilit=
+ies at runtime, allowing developers to understand how an application utiliz=
+es external dependencies in runtime environments.=20
+
+One potential trade-off between the approaches is that static tools may rep=
+ort issues in libraries that are not used at runtime, which are effectively=
+ =E2=80=9Cfalse positives,=E2=80=9D in that they are not exploitable. More =
+recently, some SCA tools have been adding **reachability** **analysis**, th=
+at are able to only flag CVEs in dependencies for which the actual vulnerab=
+le function is called. Further, the runtime configuration of an application=
+ may make practically exploiting a vulnerability impossible.=20
+
+Meanwhile, a dynamic SCA tool could be able to only flag vulnerable third-p=
+arty code that is used at runtime (fewer =E2=80=9Cfalse positives=E2=80=9D)=
+, but a) risks discovered much later in the development cycle could be more=
+ costly and take longer to fix (vs being within developers=E2=80=99 existin=
+g workflows), and b) it=E2=80=99s possible that the vulnerable code is expl=
+oitable, but via infrequently called edge case code, so it may not be obser=
+ved at runtime.=20
+
+In general, SCA tools are an important tool in securing a company=E2=80=99s=
+ use of third-party dependencies.=20
+
+_Note_: SCA tools looks for known vulnerable dependencies, and generally do=
+ not look for malicious dependencies, except for dependencies that have alr=
+eady been determined to be malicious.
+
+
+----------
+
+## **Malicious Dependency** **Vendors**
+
+In this section, we will discuss several vendors who specialize in identify=
+ing malicious third-party dependencies in popular open source packages.=20
+
+#### **Socket**
+
+[Socket](https://socket.dev/) approaches the supply chain problem by provid=
+ing a platform that detects vulnerable packages in real time. It enables de=
+velopers to understand the nature of the dependencies they are using throug=
+h [Socket dependency search](https://socket.dev/features/dependency-search)=
+, dependency risk assessment, and content-based analysis for detecting capa=
+bilities.
+
+Through its native [integration with GitHub](https://socket.dev/features/gi=
+thub), Socket can provide developers feedback directly on PR comments about=
+ a dependency=E2=80=99s behavior and security risk. These [dependency overv=
+iew](https://socket.dev/blog/introducing-dependency-overview-comments) comm=
+ents provide a quick summary of which dependencies were added or updated, w=
+hat =E2=80=9Ccapabilities=E2=80=9D or API usage a dependency has (e.g. acce=
+sses the file system, makes network requests, runs shell commands, etc.), a=
+nd the number of new transitive dependencies. This helps engineering teams =
+understand and make informed decisions about the impact of code changes in =
+their applications.
+
+Socket has also written about leveraging large language models (LLMs) to de=
+tect malicious dependencies [here](https://socket.dev/blog/using-gpt-at-wor=
+k) and [here](https://socket.dev/blog/introducing-socket-ai-chatgpt-powered=
+-threat-analysis).
+
+#### **Phylum**
+
+Phylum approaches the problem of software supply chain security by leveragi=
+ng big data and machine learning to automatically identify and mitigate att=
+acks and other risks associated with open-source software. They achieve thi=
+s by continuously monitoring package publications in major open-source ecos=
+ystems, including npm, PyPI, RubyGems, Maven, Nuget, [Crates.io](http://cra=
+tes.io/), and Golang.
+
+In real-time, Phylum examines the source code, authors, metadata, and other=
+ factors of newly published packages. They use heuristics, analytics, and m=
+achine learning to determine if a package exhibits suspicious behavior indi=
+cative of malware. This year alone, they are projected to analyze nearly a =
+billion files across 15 million package publications, providing comprehensi=
+ve coverage of popular open source solutions used by developers. By catalog=
+ing and classifying this vast number of packages, Phylum can offer organiza=
+tions insights into attacker behavior.
+
+Phylum believes in a defense-in-depth approach to software supply chain sec=
+urity works. They recognize that developers, with access to source code and=
+ production infrastructure, are high-value targets. Therefore, Phylum goes =
+beyond blocking attacks during CI/CD (with integrations for popular CI prov=
+iders like Github and Gitlab) and also focuses on ensuring developers' safe=
+ty during the development process. To this end, they have open-sourced a sa=
+ndbox ([Birdcage](https://github.com/phylum-dev/birdcage)) that restricts n=
+etwork, disk, and environment access.
+
+#### **Datadog=E2=80=99s GuardDog**
+
+[GuardDog](https://securitylabs.datadoghq.com/articles/guarddog-identify-ma=
+licious-pypi-packages/) is a new open-source solution [announced](https://s=
+ecuritylabs.datadoghq.com/articles/guarddog-identify-malicious-pypi-package=
+s/) by Datadog earlier this year that allows developers to identify malicio=
+us Python packages using [Semgrep](https://semgrep.dev/products/semgrep-sup=
+ply-chain/) for static analysis and package metadata analysis. GuardDog int=
+roduces support for scanning not only PyPI, but also npm packages. GuardDog=
+ can be integrated into a continuous integration (CI) pipeline and scan new=
+ dependencies introduced by pull requests. Datadog open sourced a number of=
+ [malicious packages](https://github.com/datadog/malicious-software-package=
+s-dataset) they found during their research.
+
+#### **Endor Labs**
+
+Though it does not appear to currently be a focus of the company or an avai=
+lable product offering, Endor has shared some blog posts about prototyping =
+malware detection using LLMs [here](https://www.endorlabs.com/blog/llm-assi=
+sted-malware-review-ai-and-humans-join-forces-to-combat-malware) and [here]=
+(https://www.endorlabs.com/blog/reviewing-malware-with-llms-openai-vs-verte=
+x-ai).
+
+
+
+## CI/CD Pipeline Security
+
+#### **OX Security**
+
+[OX Security](https://www.ox.security/)'s approach to supply chain security=
+ focuses on the software CI/CD pipeline. OX introduced the term [PBOM (Pipe=
+line Bill of Materials)](https://www.ox.security/the-anatomy-of-a-pbom/). F=
+or every pipeline build, OX generates a signed knowledge graph called PBOM,=
+ which creates a dynamic Bill of Materials (BOM) showing the software linea=
+ge throughout the development lifecycle. Essentially, it is an continuously=
+ updated map that includes everything an SBOM would have, along with a reco=
+rd of the infrastructure that the software has passed through (e.g., pipeli=
+ne branches, builds, pull requests, tickets, known issues). [OX Security AS=
+OC](https://www.ox.security/single-source-of-truthasoc/) Single Source of T=
+ruth and [CI/CD Workflow automation and security posture](https://www.ox.se=
+curity/ci-cd-security-posture/) specifically help achieve traceability and =
+visibility of all components throughout the build and pipeline stages.
+
+OX Security co-created the [Open Software Supply Chain Attack Reference (OS=
+C&R)](https://www.ox.security/open-software-supply-chain-attack-reference-f=
+ramework/), an open-source framework for understanding and evaluating threa=
+ts to the software supply chain including tactics and techniques for addres=
+sing these issues. OX security built their product using this framework whi=
+ch is why they have solution catered across the supply chain.
+
+OX examines code repos and maps pipelines to find security flaws and incorr=
+ect setups. OX deploys various security tools like static analysis, SAST, s=
+ecrets scan, containers scan, and IaC scan to identify risks or misconfigur=
+ations during a build. It then generates a benchmarking application risk sc=
+ore after analyzing code scans, secrets hygiene, packages, and pipelines.
+
+#### **Cycode**
+
+[Cycode](https://cycode.com/source-control-ci-cd-security/) specializes in =
+CI/CD security and build hardening through its [source control](https://cyc=
+ode.com/source-control-ci-cd-security/) feature. Cycode utilizes a lightwei=
+ght eBPF (Extended Berkeley Packet Filter) security solution that can detec=
+t attacks during the build process. They can manage supply chain breaches b=
+y scanning for compromised pipeline runners and monitor against attacks suc=
+h as typoSquatting or malicious dependencies in the build. Cycode also offe=
+rs a [source code leakage detection](https://cycode.com/source-code-leakage=
+-detection/) product that reduces the likelihood and risk of code leakage. =
+It alerts on suspicious behavior and identifies actual leaks of proprietary=
+ code, enabling quick containment.
+
+#### **Tromzo**
+
+Tromzo addresses supply chain security through what it calls [Product ](htt=
+ps://tromzo.com/platform)**[Security](https://tromzo.com/platform)**[ Opera=
+ting Platform](https://tromzo.com/platform) (PSOP). This means they go abou=
+t solving SSC issues by bringing visibility across a company=E2=80=99s soft=
+ware asset inventory and all aspects of the CI/CD pipeline. They provide cu=
+stomizable security policies in CI/CD (that cuts across secure defaults, co=
+de ownership, and scan coverage) to enable teams to build security systems.=
+ In addition, Tromzo offers a CI/CD (Continuous Integration/Continuous Depl=
+oyment) posture management solution that ensures build servers require auth=
+entication, limits the ability to create public repositories, and sets secu=
+rity keys to expire by default. The company also addresses potential vulner=
+abilities in the pipeline by restricting risky development practices, such =
+as executing third-party resources before verification or referencing image=
+s in a build that may be externally altered.
+
+Their platform is more targeted for ASPM buyers due to the breadth of cover=
+age closer to the deployment stage. Security teams utilize Tromzo's proprie=
+tary [Intelligence Graph](https://www.newswire.com/news/tromzo-intelligence=
+-graph-delivers-a-prioritized-risk-view-of-the-22007662) to identify critic=
+al software assets, including ownership and lineage, and address the vulner=
+abilities that pose the highest risk to the business.
+
+#### **[Cider Security](https://www.cidersecurity.io/about/)**** (now part =
+of Palo Alto Networks, ****[Prisma Cloud](https://www.paloaltonetworks.com/=
+prisma/cloud/ci-cd-security)****)**
+
+The original Cider product, now sold as Prisma Cloud, utilizes a graph-base=
+d database to provide a consolidated inventory of a company=E2=80=99s CI/CD=
+ pipeline in a single view. The product specifically scans for exposed cred=
+entials in webhooks or pipeline logs that could be abused. Due to Palo Alto=
+=E2=80=99s wide product range, they are able to correlate disparate signals=
+ across codebases, scanners, orchestration and automation tools to centrali=
+ze visibility and control over a developer=E2=80=99s workflow.
+
+
+
+## Container Security
+
+#### **Chainguard**
+
+[Chainguard Images](https://www.chainguard.dev/chainguard-images) offers a =
+suite of security-first container base images without extraneous packages t=
+hat allow developers to build upon this clean image signed by Sigstore. Thr=
+oughout the process, developers can generate SBOMs during the build process=
+ using Chainguard. The images for platform teams reduce overall scanner noi=
+se, are designed to help users to increase their SLSA assurance levels and =
+stop manual patching by taking care of updating images. They can be used to=
+ ensure continuous verification, ensuring packages in development remain in=
+ compliance with no vulnerabilities even post-deployment.
+
+#### **Aqua**
+
+[Aqua](https://www.aquasec.com/) Security offers a [broad set](https://www.=
+aquasec.com/products/software-supply-chain-security/) of software supply ch=
+ain features that includes SBOM generation with popular industry formats. H=
+owever, its core strength lies in its container security product. They can =
+scan containers running on VMs, and serverless containers such [as Fargate =
+and Azure Container Instances (ACI)](https://www.kuppingercole.com/reprints=
+/822356627654a75f85a2ce7ec32574b3). Aqua=E2=80=99s provides image scanning =
+as well as the ability to provide dynamic analysis of images. Their solutio=
+n integrates with a wide range of container registries and Kubernetes platf=
+orms.
+
+#### **Rapidfort**
+
+[Rapidfort](https://www.rapidfort.com/) has taken a container-based approac=
+h to tackle the problem. They introduced the concept of "RBOM" (Real Bill o=
+f Materials), which is an SBOM (Software Bill of Materials) post-container =
+optimization technique aimed at reducing noise to minimize vulnerability al=
+erts during scanning. Rapidfort automatically optimizes containers to inclu=
+de only what is necessary. Developers can provide fine-grained configuratio=
+ns or use vendor-provided recommendations, and the solutions offer post-opt=
+imization analyses that detail which files, packages, and vulnerabilities w=
+ere removed.
+
+
+
+## **The Packaging & Deployment Layer**
+
+----------
+=F0=9F=92=A1 The packaging & deployment layer discusses vendors that focus =
+on code provenance, code signing, SBOM generation/management and artifact r=
+epository. Many of the vendors provide visibility across software assets, c=
+ompliance and important software metrics.
+
+
+----------### Software Bill of Materials (SBOMs) / Code Provenance / Code S=
+igning
+
+#### **Chainguard**
+
+[Chainguard Enforce](https://www.chainguard.dev/chainguard-enforce) provide=
+s policy management following the SLSA and NIST frameworks, and utilizes co=
+mpliance automation tools to generate SBOMs. They further help identify and=
+ investigate policy violations, and production insights to allow users see =
+live views of production environments. With this approach, Chainguard helps=
+ developers exert control and enforce policy, reducing the risk of injectio=
+n of malicious submits, commits, artifacts, or dependencies.
+
+#### **Legit Security**
+
+[Legit Security](https://www.legitsecurity.com/) takes a core approach to s=
+oftware supply chain security by focusing on SBOM compliance. It offers dev=
+elopers an Application Security Posture Management (ASPM) tool that provide=
+s observability and visibility into all critical aspects of code-to-cloud d=
+eployment.
+
+At the source code layer, Legit integrates with all source code repositorie=
+s and ensures that accessing source code requires multi-factor authenticati=
+on. It protects source code through code reviews and branch protection, and=
+ it audits third-party integrations that have access to the source code. Le=
+git's [code-to-cloud traceability](https://www.legitsecurity.com/code-to-cl=
+oud-traceability-and-security) features provide context from source code re=
+positories involved in building the source artifact.
+
+Legit Security prioritizes continuous [SBOM compliance](https://www.legitse=
+curity.com/continuous-compliance-sbom) for companies. Their SBOM supports l=
+eading regulatory frameworks like the SBOMs in CycloneDX format. Their SBOM=
+s help companies identify compliance gaps, aggregate multiple sources of SB=
+OMs, and distill the differences among different SBOM formats.
+
+According to [Kuppinger Cole](https://www.kuppingercole.com/reprints/822356=
+627654a75f85a2ce7ec32574b3), Legit Security's Build Integrity products rank=
+ among the highest on the market. Their solution performs various container=
+ security checks before a software build, such as image compliance, detecti=
+ng drifts in software artifacts, and preventing the release of potential ha=
+rd-coded secrets. Legit integrates with all major build automation tools an=
+d provides support for a variety of programming and script languages.
+
+#### Apiiro
+
+[Apiiro](https://apiiro.com/) approaches SBOM using a comprehensive approac=
+h called [Extended Bill of Materials (XBOM)](https://apiiro.com/product/sof=
+tware-bill-of-materials-sbom/). This product, built around a graph-database=
+, includes all the core SBOM features that look for vulnerable dependencies=
+. However, it goes beyond that by providing additional visibility across a =
+company's application stack, pipeline components, Infrastructure as Code (I=
+aC), container images, and APIs. Apiiro also aggregates, prioritizes, and f=
+ixes risks by deduplicating alerts, linking each risk to a code owner, and =
+triggering remediation workflows. While Apiiro offers products aimed at app=
+lication development and cloud security, they also provide visibility, prio=
+ritization, and remediation across software supply chain pipelines. This in=
+cludes analyzing developer behavior and using a risk graph to detect malici=
+ous packages in open-source solutions.
+
+
+
+### Special Mentions
+
+* [Anchore](https://anchore.com/) provides a container-based and cloud-nati=
+ve software supply chain security solution.
+
+* [ArmorCode](https://www.armorcode.com/) AppSecOps platform integrates and=
+ correlates data from security, CI/CD, and cloud infrastructure tools, as w=
+ell as ticketing and collaboration solutions in an organization's IT ecosys=
+tem
+
+* [Lineaje](https://www.lineaje.ai/) offers an SBOM 360 product with a CLI/=
+SCA tool that supports SPDX and CycloneDX formats. The tool analyzes softwa=
+re from different sources, and uses its Lineaje's Deep Learning Engine (LDL=
+E) to break down and map software components. Lineaje's strength is in prov=
+iding businesses with advanced SBOM data, which is valuable for companies r=
+equiring strict SBOM compliance.
+
+## Concluding Thoughts
+
+Solving the software supply chain issue is complex and hard. It will take t=
+ime for companies to get it right. As an industry that only evolved less th=
+an five years ago, it will take time to fully operationalize across organiz=
+ations.
+
+A common similarity among all vendors is their tight integration with sourc=
+e code repositories and CI/CD solutions such as GitHub and GitLab. They off=
+er solutions that enhance access control to IDE and source code environment=
+s. Additionally, they are capable of detecting known malicious dependencies=
+ in packages and libraries, promptly alerting developers. Perhaps due to th=
+e recent [executive order](https://www.whitehouse.gov/briefing-room/preside=
+ntial-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecu=
+rity/), many vendors provide the ability to generate SBOMs for customers re=
+gardless of the format.
+
+We believe that the greatest value lies in vendors who can seamlessly bridg=
+e the gap between security and engineering teams, minimizing context switch=
+ing for developers.
+
+The software supply chain category is already highly fragmented, with nearl=
+y 30+ startups addressing related issues. As this sector continues to grow =
+with a multitude of new solutions, the topic of vendor consolidation is oft=
+en discussed. For instance, Palo Alto networks [acquired](https://www.paloa=
+ltonetworks.com/company/press/2022/palo-alto-networks-completes-acquisition=
+-of-cider-security) Cider Security last year. This year, we=E2=80=99ve obse=
+rved more ASPM acquisitions. Snyk [acquired](https://www.enso.security/post=
+/enso-security-joins-snyk-enabling-security-leaders-to-scale-their-appsec-p=
+rogram-with-aspm) Enso Security and Crowdstrike recently [acquired](https:/=
+/www.crowdstrike.com/blog/crowdstrike-to-expand-cloud-security-leadership-w=
+ith-bionic-acquisition/) [Bionic.ai](http://Bionic.ai). It is anticipated t=
+hat as this market evolves and certain vendors mature, leading application =
+security vendors may consider acquiring some of these companies to enhance =
+their larger platforms.
+
+
+=E2=80=94=E2=80=94=E2=80=94
+
+You are reading a plain text version of this post. For the best experience,=
+ copy and paste this link in your browser to view the post online:
+https://tldrsec.com/p/software-supply-chain-vendor-landscape
+
+--9251b902d92ea31a6a24da51ef7b9660f855db1ae22eb830ba379610e789
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" style=3D"font-size:16px;"><head><!-- Some yahoo clients rem=
+ove the first <head> reference. Having a duplicate head here allows us to c=
+ontrol yahoo --><!-- We still need to include some meta tags and styles her=
+e though b/c some clients will only pull those from the first head --><meta=
+ charset=3D"utf-8"/><!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible"=
+ content=3D"IE=3Dedge"/><!--<![endif]--><meta name=3D"viewport" content=3D"=
+width=3Ddevice-width,initial-scale=3D1"/><meta name=3D"x-apple-disable-mess=
+age-reformatting"/><meta name=3D"format-detection" content=3D"telephone=3Dn=
+o,address=3Dno,email=3Dno,date=3Dno,url=3Dno"/><meta name=3D"color-scheme" =
+content=3D"light"/><meta name=3D"supported-color-schemes" content=3D"light"=
+/><title>Software Supply Chain Vendor Landscape </title><!--[if mso]><xml><=
+o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch>=
+</o:OfficeDocumentSettings></xml><![endif]--><style>
+  p a, .e a, ul a, li a  { word-break:break-word;color:#2C81E5 !important;t=
+ext-decoration:underline;text-decoration-color:#2C81E5; }
+</style></head><head><meta charset=3D"utf-8"/><!--[if !mso]><!--><meta http=
+-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/><!--<![endif]--><meta nam=
+e=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"/><meta na=
+me=3D"x-apple-disable-message-reformatting"/><meta name=3D"format-detection=
+" content=3D"telephone=3Dno,address=3Dno,email=3Dno,date=3Dno,url=3Dno"/><m=
+eta name=3D"color-scheme" content=3D"light"/><meta name=3D"supported-color-=
+schemes" content=3D"light"/><title>Software Supply Chain Vendor Landscape <=
+/title><!--[if mso]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPe=
+rInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--><sty=
+le>
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-ad=
+just: 100% !important; -webkit-transform: scale(1) !important; -webkit-text=
+-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !importa=
+nt; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-lay=
+out: fixed; }
+  img { border: 0 !important; outline: none !important; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=3Dtrue],
+  a[x-apple-data-detectors=3Dtrue],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit =
+!important; font-size: inherit !important; font-family: inherit !important;=
+ font-weight: inherit !important; line-height: inherit !important; }
+  span.MsoHyperlink { color: inherit !important; mso-style-priority: 99 !im=
+portant; }
+  span.MsoHyperlinkFollowed { color: inherit !important; mso-style-priority=
+: 99 !important; }
+  .a { background-color:#FFFFFF; }
+  .b { background-color:#2C81E5; }
+  .c  { background-color:#FFFFFF; }
+  .d { background-color:#FFFCDD; }
+  .d2 { background-color:#FFFFFF; }
+  .d3 { background-color:#FFFFFF; }
+  h1 { color:#2A2A2A; }
+  h2 { color:#2A2A2A; }
+  h3 { color:#2A2A2A; }
+  h4 { color:#2A2A2A; }
+  h5 { color:#2A2A2A; }
+  h6 { color:#2A2A2A; }
+  h1 a { text-decoration:underline;color:#2A2A2A !important; }
+  h2 a { text-decoration:underline;color:#2A2A2A !important; }
+  h3 a { text-decoration:underline;color:#2A2A2A !important; }
+  h4 a { text-decoration:underline;color:#2A2A2A !important; }
+  h5 a { text-decoration:underline;color:#2A2A2A !important; }
+  h6 a { text-decoration:underline;color:#2A2A2A !important; }
+  h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, ul, li, ol, p=
+, p a { margin: 0;padding: 0; }
+  h1 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:28px;line-height:42px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h2 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:24px;line-height:36px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h3 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:20px;line-height:30px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h4 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:18px;line-height:27px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h5 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:16px;line-height:24px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h6 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:14px;line-height:21px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  p { font-family:'Helvetica',Arial,sans-serif;color:#2D2D2D;font-size:16px=
+;line-height:24px;padding-bottom:12px;padding-top:12px;mso-margin-top-alt:1=
+2px;mso-margin-bottom-alt:12px; }
+  p a, .e a, ul a, li a  { word-break:break-word;color:#2C81E5 !important;t=
+ext-decoration:underline;text-decoration-color:#2C81E5; }
+  p .bold { font-weight:bold;color:#2D2D2D; }
+  p span[style*=3D"font-size"] { line-height: 1.6; }
+  .f p { font-size:12px;line-height:15px;color:#2D2D2D;padding:0; }
+  .f p a { text-decoration:underline;color:#2D2D2D !important; }
+  .g p { font-family:'Helvetica',Arial,sans-serif;font-size:14px;line-heigh=
+t:20px;font-weight:normal;margin:0; }
+  .g p a  { text-decoration: underline; }
+  .i p { font-family:'Helvetica',Arial,sans-serif;line-height:27px;font-siz=
+e:15px;color:#2D2D2D; }
+  .i p a { text-decoration:underline;color:#2D2D2D !important; }
+  .i2 p { font-family:'Helvetica',Arial,sans-serif;line-height:18px;font-si=
+ze:15px;color:#2D2D2D; }
+  .i2 p a { text-decoration:underline;color:#2D2D2D !important; }
+  .i3 p { font-family:'Helvetica',Arial,sans-serif;line-height:43px;font-si=
+ze:24px;color:#2D2D2D; }
+  .i3 p a { text-decoration:underline;color:#2D2D2D !important; }
+  .h p a { text-decoration:underline;color:#595959 !important; }
+  .h2 p a { text-decoration:underline;color:#595959 !important; }
+  .h3 p a { text-decoration:underline;color:#595959 !important; }
+  .j { border-top:1px solid #c0c0c0; }
+  .k p { padding-left:15px;padding-bottom:0px;padding-top:6px;mso-margin-to=
+p-alt:6px;mso-margin-bottom-alt:0px;mso-margin-left-alt:15px; }
+  .o { background-color:#FFFFFF;border:1px solid #F1F1F1;border-radius:5px;=
+ }
+  .o p { font-family:'Helvetica',Arial,sans-serif;padding:0px;margin:0px; }
+  .l p,
+  .l p a { font-size:14px;line-height:20px;font-weight: bold;color:#2D2D2D;=
+padding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .m p,
+  .m p a { font-size:13px;line-height:18px;font-weight:400;color:#2D2D2D;pa=
+dding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .n p,
+  .n p a { font-size:12px;line-height:17px;font-weight:400;color:#2D2D2D;pa=
+dding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .p { background-color:#FFFFFF;max-width:520px;border:1px solid #E1E8ED;bo=
+rder:1px solid rgba(80, 80, 80, 0.3);border-radius:5px; }
+  .q { font-size:16px;font-family:Helvetica,Roboto,Calibri,sans-serif !impo=
+rtant;border:1px solid #e1e8ed;border:1px solid rgba(80, 80, 80, 0.3);borde=
+r-radius:5px;background-color:#FFFFFF; }
+  .q p { font-size:16px;font-family:Helvetica,Roboto,Calibri,sans-serif !im=
+portant;color:#222222; }
+  .r { border:1px solid #E1E8ED !important;border-radius:5px; }
+  .s p { font-size: 14px; line-height: 17px; font-weight: 400; color: #6978=
+82; text-decoration: none; }
+  .t p { font-family:'Helvetica',Arial,sans-serif;font-size:12px;line-heigh=
+t:18px;font-weight:400;color:#000000;font-style:italic;padding:4px 0px 0px;=
+}
+  .v { border-radius:5px;border:solid 0px #DFD150;background-color:#3b9cba;=
+font-family:'Verdana',Geneva,sans-serif;color:#FFFFFF; }
+  .v a { text-decoration:none;display:block;color:#FFFFFF; }
+  .w p { font-size:12px;line-height:15px;font-weight:400;color:#FFFFFF; }
+  .w p a { text-decoration: underline !important;color:#FFFFFF !important; =
+}
+  ul { font-family:'Helvetica',Arial,sans-serif;margin:0px 0px 0px 25px !im=
+portant;padding:0px !important;color:#2D2D2D;line-height:24px;list-style:di=
+sc;font-size:16px; }
+  ul li { font-family:'Helvetica',Arial,sans-serif;margin:10px 0px 0px 0px =
+!important;padding: 0px 0px 0px 0px !important; color: #2D2D2D; list-style:=
+disc; }
+  ol { font-family:'Helvetica',Arial,sans-serif;margin: 0px 0px 0px 25px !i=
+mportant;padding:0px !important;color:#2D2D2D;line-height:24px;list-style:d=
+ecimal;font-size:16px; }
+  ol li { font-family:'Helvetica',Arial,sans-serif;margin:10px 0px 0px 0px =
+!important;padding: 0px 0px 0px 0px !important; color: #2D2D2D; list-style:=
+decimal; }
+  .e h3,
+  .e p,
+  .e span { padding-bottom:0px;padding-top:0px;mso-margin-top-alt:0px;mso-m=
+argin-bottom-alt:0px; }
+  .e span,
+  .e li { font-family:'Helvetica',Arial,sans-serif;font-size:16px;color:#2D=
+2D2D;line-height:24px; }
+  .rec { font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSys=
+temFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color E=
+moji" !important; }
+  .rec__button:hover { background-color: #f9fafb !important; }
+  .copyright a {color: inherit !important; text-decoration: none !important=
+; font-size: inherit !important; font-family: inherit !important; font-weig=
+ht: inherit !important; line-height: inherit !important;}
+  .txt_social p { padding: 0; }
+  @media only screen and (max-width:667px) {
+    .aa { width: 100% !important; }
+    .bb img { width: 100% !important; height: auto !important; max-width: n=
+one !important; }
+    .cc { padding: 0px 8px !important; }
+    .ee { padding-top:10px !important;padding-bottom:10px !important; }
+    .ff ul, .ff ol { margin: 0px 0px 0px 10px !important;padding: 0px !impo=
+rtant; }
+    .ff li { margin:10px 0px 0px 10px !important; }
+    .r {height:140px !important;}
+    .s p { font-size:13px !important;line-height:15px !important; }
+    .mob-hide {display:none !important;}
+    .mob-stack {display:block !important;width:100% !important;}
+    .mob-block {display:block !important;}
+    .embed-img {padding:0px 0px 12px 0px !important;}
+    .socialShare {padding-top:15px !important;}
+    .rec { padding-left:15px!important;padding-right:15px!important; }
+  }
+  @media screen and (max-width: 480px) {
+    u + .a .gg { width: 100% !important; width: 100vw !important; }
+    .tok-heart { padding-top:75% !important; }
+    .tok-play { padding-top: 250px !important; }
+  }
+  @media screen and (max-width: 320px) {
+    .tok-heart { padding-top:65% !important; }
+  }
+  .u { border: 1px solid #CACACA !important; border-radius: 2px !important;=
+ background-color: #ffffff !important; padding: 0px 13px 0px 13px !importan=
+t; font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Se=
+goe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif !important;fon=
+t-size: 12px !important; color: #767676 !important; }
+  .u a { text-decoration: none; display: block !important; color: #767676 !=
+important; margin: 0px !important; }
+  .u span, .u img { color: #767676 !important;margin:0px !important; max-he=
+ight:32px !important;background-color:#ffffff !important; }
+</style><!--[if mso]><style type=3D"text/css">
+    sup { font-size: 100% !important;vertical-align: .5em !important;mso-te=
+xt-raise: -1.5% !important;line-height: 0 !important; }
+    ul { margin-left:0px !important; margin-right:10px !important; margin-t=
+op:20px !important; margin-bottom:20px !important; }
+    ul li { margin-left: 0px !important; mso-special-format: decimal; }
+    ol { margin-left:0px !important; margin-right:10px !important; margin-t=
+op:20px !important; margin-bottom:20px !important; }
+    ol li { margin-left: 0px !important; mso-special-format: decimal; }
+    li.listItem { margin-left:15px !important; margin-top:0px !important; }
+    .paddingDesktop { padding: 10px 0 !important; }
+    .edm_outlooklist { margin-left: -20px !important; }
+    .embedImage { display:none !important; }
+  </style><![endif]--></head><body class=3D"a" style=3D"margin:0px auto;pad=
+ding:0px;word-wrap:normal;word-spacing:normal;background-color:#FFFFFF;"><d=
+iv role=3D"article" aria-roledescription=3D"email" aria-label=3D"email_name=
+" lang=3Den style=3D"font-size:1rem"><div style=3D"display:none;max-height:=
+0px;overflow:hidden;"> An analysis of over 20 supply chain security vendors=
+, from securing source code access and CI/CD pipelines to SCA, malicious de=
+pendencies, container security, SBOMs, code provenance, and more &#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204; </div><table role=3D"none" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" align=3D"center" cellpadding=3D"0"=
+ class=3D"gg"><tr><td align=3D"center" valign=3D"top"><table role=3D"none" =
+width=3D"670" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"aa"=
+ style=3D"width:670px;table-layout:fixed;"><tr><td align=3D"center" valign=
+=3D"top" style=3D"padding:10px 5px 10px 5px;"><table role=3D"none" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><t=
+r><td align=3D"center" valign=3D"top" style=3D"border:0px solid #FFFFFF;bor=
+der-radius:10px;background-color:#FFFFFF;" class=3D"c"><table role=3D"none"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"c=
+enter"><tr><td class=3D"f" align=3D"right" valign=3D"top" style=3D"padding:=
+20px 15px;"><p> October 03, 2023 &nbsp; | &nbsp; <a href=3D"https://link.ma=
+il.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTb2Mnn5A-J-U6WZk4T4prxAdk3M5mBBZCy1=
+8dqBhoOnaWxcnw_Sb9JwwMZwIjJANxCQTC4-iOdKBP659CQJQPN12aCR-K6vRoifFdQb0N4XYFD=
+Dslo3wy8JnwvsV3X9_Rrvrd_GTycKcuJTxet0uxeAFhFBDb5L-V0CgzDmNXMsnlZafehDNFbGYi=
+jxhluAPuVzgokFuZOEcrAgA1WBFqK3HVHkKIqqLLye0d7S3zciuTIlMRjI4a5c62l_GvkTZyw2G=
+P_O519cI98YW6ET-D3nd-weRlCJbr_Ti70oe169SrpY6Syl72P5v-rBobsoTAhGm5LfdztDg0lD=
+L2Tfpa1NV4hT3ZvwyMMUQ6IO0oE39TruG2ifQzUXnMLx0Wd7A5vE0F-NCL7Ger4QXx7UA8rIkCA=
+sSh0DhuH0FiYBK2vtvbc9hCDFpcErrbNZ-Y9byg3XIspGyp76f2Bv7zkWxMWe_WleGn8a21E90o=
+F-a-qif7yAnWXR15mE5Ww1Sx6juDn34CwwsIi9H6K_RqSb53iOE5jDq_t7KZYGUIrzeKf43/404=
+/n0lRMlcyQFCsJXcgUSy8tA/h0/ziDa1anhNwBXfJTMfLrE4sMBvygiv0qV0kxn8fzd_Dg">Rea=
+d Online</a></p></td></tr><tr><td class=3D"dd" align=3D"center" valign=3D"t=
+op" style=3D"padding:0px 15px 20px;"><table role=3D"none" width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td ali=
+gn=3D"center" valign=3D"top"><h1 style=3D"text-align:left;font-family:&#39;=
+Trebuchet MS&#39;,&#39;Lucida Grande&#39;,Tahoma,sans-serif;font-weight:Bol=
+d;font-size:32px;color:#2A2A2A;padding:2px 0;line-height:38px;"> Software S=
+upply Chain Vendor Landscape </h1><p style=3D"text-align:left;font-family:&=
+#39;Helvetica&#39;,Arial,sans-serif;font-weight:normal;font-size:20px;color=
+:#3E3E3E;padding:5px 0;line-height:24px;"> An analysis of over 20 supply ch=
+ain security vendors, from securing source code access and CI/CD pipelines =
+to SCA, malicious dependencies, container security, SBOMs, code provenance,=
+ and more </p></td></tr></table></td></tr><tr><td align=3D"center" valign=
+=3D"top" style=3D"padding:5px 15px;" class=3D"dd"><table class=3D"mob-block=
+" role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center"><tr><td aling=3D"center" valign=3D"middle"><table r=
+ole=3D"none" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"righ=
+t" class=3D"socialShare mob-stack"><tr><td align=3D"left" valign=3D"middle"=
+><table role=3D"none" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"left" style=3D"width:140px;"><tr><td align=3D"left" valign=3D"middle">=
+<a style=3D"text-decoration:none;" href=3D"https://link.mail.beehiiv.com/ss=
+/c/AVcX7Ry0si0xJzhLsnBfz9c87oDMNiambukS13BYWMvWqoTsQD_ulYre5IbFIzAL-9gXlySl=
+_W0j_cMjxcVPzJZ99rbc_IAPZzYp_RgoVsfjsR0aY4ztLutiddz1McFMbnvHEm38hQ9nBTtgdyW=
+VZ4XaFndY36q36lZVfn73FTdce8zkjZI4774UPrI0IHj1vQRbNsvr5OxBSVQaA_s8m_7Lmd_Ubo=
+ImkQXtJZW1icFQ3db3JtQKfmmPS9h-UyhX0cS3M-FeuV1Xu3ZOucB8R9Fm8BfDhJE0HaXjl4M82=
+m8/404/n0lRMlcyQFCsJXcgUSy8tA/h1/_s67gFUCbOJqe5zZ8ICSeZQm4xPRtSnWQF3hYviPKL=
+Q"><img style=3D"display:block;color:#000000;max-width:28px;" width=3D"28" =
+alt=3D"fb" border=3D"0" src=3D"https://media.beehiiv.com/cdn-cgi/image/fit=
+=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/static_assets/s=
+ocial_share/fb_round.png"/></a></td><td width=3D"14" style=3D"width:14px;">=
+&nbsp;</td><td align=3D"left" valign=3D"middle"><a style=3D"text-decoration=
+:none;" href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTcKT=
+ZB41Z583NE6bs3AIdY8mYdqEhMA0plCu-6VMcwdrOrvqm5uWrf_rkLKvUP9vn8BAhR61eLLEYr-=
+Hp1CwJzWmjgEypYv6NB0ek5ZCrn5WSkmN_UYtU44FBkV3GduKIr7SRiDZ3pQ401lmzsK9vxV4Uk=
+VVPX6PiMQ0Xz2NYH1UB8YFh6XnJtsYWbr99B_kaj57RS6wt-8YqWfTIeiiP5IfNHZG7EuxqfXxL=
+0lCj4jazFv-ctbRr_6NSuwH4wibBrrE7hyqkRxu9kszzB5xEAjH5AFN8x_al9mwwRqKnND7XMTr=
+gnR8Wa5QWoNPBgRseJCRL1-bp8pGqoll5-xv2TbJXEJYtqpJBJOPHKOsbBUKviMOFwcGlx3f8Ct=
+fmP1du0Op4sHqF2NmZjhhNKntmCXwyto3ffiK2LpA-8CfWdlQ6i6rOO5YWh5QbEGJVwbybQ/404=
+/n0lRMlcyQFCsJXcgUSy8tA/h2/IXmvrxvkNz47fV8eS3xOklh1uUDDdzHls9-yyLF8aGY"><im=
+g style=3D"display:block;color:#000000;max-width:28px;" width=3D"28" alt=3D=
+"tw" border=3D"0" src=3D"https://media.beehiiv.com/cdn-cgi/image/fit=3Dscal=
+e-down,format=3Dauto,onerror=3Dredirect,quality=3D80/static_assets/social_s=
+hare/x_round.png"/></a></td><td width=3D"14" style=3D"width:14px;">&nbsp;</=
+td><td align=3D"left" valign=3D"middle"><a style=3D"text-decoration:none;" =
+href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz-DHf3lRzzzf=
+pTTNS86MdALoH3vDC3DhbS7PPevSDb3Z25rEW437quAvknzv1pbmv0jinO-gLHzxOP2b4_1riAM=
+x0j_nnM4EJmhIncQfDx0Tl_DULnDlR385uZbeBOasgA1pTJ9Khyvdy7PkqRVjv1J4mSJqu-So7h=
+n0lKPVZ-uzbpTQtpf9jvX8tCdwVZQOiL_GWyIG8leZy-izY7sjc4m6fdXAHeyNuFo4BEXLOwR2w=
+WLsJv1f0Ad8Y5xyallexHDxhCJ5wTBX5VQZjbhe0byO9RQcRgTCSA9YuHrhOeg5/404/n0lRMlc=
+yQFCsJXcgUSy8tA/h3/Meclnc3FvjtL_Ya6ltpbwp87FNANuCxhB6kooXMGrqs"><img style=
+=3D"display:block;color:#000000;max-width:28px;" width=3D"28" alt=3D"in" bo=
+rder=3D"0" src=3D"https://media.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,=
+format=3Dauto,onerror=3Dredirect,quality=3D80/static_assets/social_share/li=
+nkedin_round.png"/></a></td><td width=3D"14" style=3D"width:14px;">&nbsp;</=
+td><td align=3D"left" valign=3D"middle"><a style=3D"text-decoration:none;" =
+href=3D"mailto:?subject=3DPost%20from%20tl%3Bdr%20sec&amp;body=3DSoftware%2=
+0Supply%20Chain%20Vendor%20Landscape%20%3A%20An%20analysis%20of%20over%2020=
+%20supply%20chain%20security%20vendors%2C%20from%20securing%20source%20code=
+%20access%20and%20CI%2FCD%20pipelines%20to%20SCA%2C%20malicious%20dependenc=
+ies%2C%20container%20security%2C%20SBOMs%2C%20code%20provenance%2C%20and%20=
+more%0A%0Ahttps%3A%2F%2Ftldrsec.com%2Fp%2Fsoftware-supply-chain-vendor-land=
+scape"><img style=3D"display:block;color:#000000;max-width:28px;" width=3D"=
+28" alt=3D"email" border=3D"0" src=3D"https://media.beehiiv.com/cdn-cgi/ima=
+ge/fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/static_as=
+sets/social_share/email_round.png"/></a></td></tr></table></td></tr></table=
+></td></tr></table></td></tr><tr><td style=3D"height:0px;width:0px;"><div s=
+tyle=3D"height:1px;" data-open-tracking=3D"true"> <img src=3D"https://link.=
+mail.beehiiv.com/ss/o/DUjGAfC2XRS-p_K8xjn2sQ/404/n0lRMlcyQFCsJXcgUSy8tA/ho.=
+gif" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !im=
+portant;width:1px !important;border-width:0 !important;margin-top:0 !import=
+ant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !imp=
+ortant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0=
+ !important;padding-left:0 !important;"/> </div></td></tr><tr id=3D"content=
+-blocks"><td class=3D"email-card-body" align=3D"center" valign=3D"top" styl=
+e=3D"padding-bottom:15px;"><table role=3D"none" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td class=3D"dd" =
+align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-w=
+ord;"><p> Hello there! A quick note from me (<a class=3D"link" href=3D"http=
+s://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz-DHf3lRzzzfpTTNS86MdAKe=
+a1XQL12gB2D7_QdFwJ5h2SCGyVRSLvildGlJbjwuDcgsEFSaCCGhM_TjyqkSNddsM_P5jCoD4Aw=
+fmeVKUTLkQYCLfswLMt5p7UT3W3XJUWy_QL4J8HQc-M6iK1A1qMthd07MjfITpgX1GY7lHFZEGq=
+JZYdugBEFF0gghCgqBRA/404/n0lRMlcyQFCsJXcgUSy8tA/h4/MsI-D_8pFCNiCFqeAzTZQe6a=
+-7aLOVmEVppUjtpy000" target=3D"_blank" rel=3D"noopener noreferrer nofollow"=
+>Clint Gibler</a>), the creator of <i>tl;dr sec</i>. </p></td></tr><tr><td =
+class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-=
+break:break-word;"><p> Welcome to Part 2 of <i>tl;dr sec</i>=E2=80=99s supp=
+ly chain security guide! </p></td></tr><tr><td class=3D"dd" align=3D"left" =
+style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> In <a=
+ class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMr=
+l5MxTeG5Gv0DsGxAxsgyZBtmKNtQsnwnFTWTV2CmHyIDvBJtwVCrrO0LSSe9is35VKZXtK5OxtS=
+eAzuuCnfVwaMhjGFa02MIdt_jrrAGtynfgKVHLHUgbzrGMznv63PV6XUGdeR_Wjxexs8b0yaikX=
+60RekyARpc5-YYTvf_2d0V6UMlY_6IyTrf8sMFD_3TaMfKoJIucJZ1VMCoigtWKshV_rFwiYSVn=
+e06QEN61VZFhwmuXe4BfqiTBLN1XQqaI0cf7fd_yhmlRYbKRrauynrzMfAFxUQVDhpk8b8KNUaS=
+ZtFOxczvzCVPftHDLQl_jHszQAHHMOeH8ixnqxyxfpfZgNYAjudkQFhQePKdlJyKsIOhw6_ePM7=
+W3QjB7DPwfUDFkPxFp0Vci1_hXpO2YvzAc6AJY2qyW69BQTBOn6WKOD6zyPgBszIk7tB97PYHTp=
+7XWlylxJNBw0zsGSb_eZggt-FvlRUn62fUjtIL7-I1fVOQU1IDKvQpvFq3u0D20xyDG6ajRcoSp=
+U_4TpdY4pq0JEw/404/n0lRMlcyQFCsJXcgUSy8tA/h5/Z_wh_1SuRMj2J9hpeAaN1jfKFsj8HY=
+IODnGeQD0eShA" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Part =
+1</a>, we provided an overview of the core areas of supply chain security. =
+</p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px=
+;text-align:left;word-break:break-word;"><p> This report focuses on analyzi=
+ng the current approaches taken by <b>over 20 software supply chain securit=
+y (SSC) vendors</b> to secure the various aspects of the software supply ch=
+ain. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px=
+ 15px;text-align:left;word-break:break-word;"><p> I=E2=80=99ll pass it off =
+to <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0=
+xJzhLsnBfz-DHf3lRzzzfpTTNS86MdALukTTrOxOQvT5mBpwHExllVxqS3pVwtPsWwiYbYzUyRE=
+ClCDut3URts3rRHjMvytLT51SMAROBc6fh73vEDiq6IpNJ4zKVerW2pwdDuVCTk250F7dQ_nv6g=
+MfalcmQPqyPHENU9RcSWvfGwVrFeV4cvG8-gWC0lrj_C1IwzK9yow/404/n0lRMlcyQFCsJXcgU=
+Sy8tA/h6/d3x4_ZhLiuSJVbnK7Dxyb-DT3zYprCVRV70ev6nhy7E" target=3D"_blank" rel=
+=3D"noopener noreferrer nofollow">Francis Odum</a>, the primary author of t=
+his report, who is also the author of the <a class=3D"link" href=3D"https:/=
+/link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ2DTEuzI5fx8GpMd6uWhNZnNKSP=
+qez4JcbJXML3irAZZknVo6Z0YN2fNnGInJylN_T1tExqByvkwLhd2XRMYi5BavhY4pCuXHzVoLy=
+dQ4tvvo0-4pn4OSjYPaPbiAnr73X0NBqz7QEVwO_A87m9_a0XlpR0fUkd56QXhJKxIQCyf/404/=
+n0lRMlcyQFCsJXcgUSy8tA/h7/QMXoEYk3seGPQKvx41fVlHWN9pv2x7jZd-pvVT6MjPA" targ=
+et=3D"_blank" rel=3D"noopener noreferrer nofollow">software analyst</a> blo=
+g and co-creator of a cybersecurity &amp; SaaS <a class=3D"link" href=3D"ht=
+tps://link.mail.beehiiv.com/ss/c/leOGzwBNaw0dokTIw0JVXxeV-K0KMidxT6_xePvIDl=
+CVZzJcEZSHylCqZryNnUe447XPWJbgpw4M1Y7cBZVWgXvqti9ndFiMk26omSMZ0ASC9uzmsdWai=
+HQcWmWXVslv7CjXoKyJIrlXGKQiJ2uOs85fzGujWJt6Z0364bKhejsatl0Gp0TSdJrM9nolXTTy=
+x86ZpwZVByZ3mjbRtfetzw/404/n0lRMlcyQFCsJXcgUSy8tA/h8/QT_vLdLO0ToP_5xk_QZy3X=
+O8x6kcTvft9iqkpbjkBMU" target=3D"_blank" rel=3D"noopener noreferrer nofollo=
+w">bootcamp</a> on Maven. </p></td></tr><tr><td class=3D"dd" align=3D"left"=
+ style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p></p><=
+/td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"paddin=
+g:0px 15px;text-align:left;"><h2><b>Actionable Summary</b></h2></td></tr><t=
+r><td style=3D"padding-bottom:12px;padding-left:37px;padding-right:27px;pad=
+ding-top:12px;" class=3D"ee"><div style=3D"margin-left:0px;" class=3D"edm_o=
+utlooklist"><ul style=3D"list-style-type:disc;margin:0px 0px;padding:0px 0p=
+x 0px 0px;"><li class=3D"listItem ultext"><p style=3D"padding:0px;text-alig=
+n:left;word-break:break-word;"> Software applications are no longer built s=
+olely from custom code. Instead, they consist of a complex web of open-sour=
+ce components and libraries. This dependency chain allows developers to use=
+ their preferred tools and enables teams to quickly deliver functional soft=
+ware to users. However, it also exposes organizations and their customers t=
+o vulnerabilities introduced by changes outside of their direct control. </=
+p></li><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align:lef=
+t;word-break:break-word;"> As discussed in part 1 of our <a class=3D"link" =
+href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTeG5Gv0DsGxA=
+xsgyZBtmKNtQsnwnFTWTV2CmHyIDvBJtwVCrrO0LSSe9is35VKZXtK5OxtSeAzuuCnfVwaMhjGF=
+a02MIdt_jrrAGtynfgKVHLHUgbzrGMznv63PV6XUGdeR_Wjxexs8b0yaikX60RekyARpc5-YYTv=
+f_2d0V6UMlY_6IyTrf8sMFD_3TaMfKoJIucJZ1VMCoigtWKshV_rFwiYSVne06QEN61VZFhwmuX=
+e4BfqiTBLN1XQqaI0cf7fd_yhmlRYbKRrauynrzMfAFxUQVDhpk8b8KNUaSZtFOxczvzCVPftHD=
+LQl_jHszQAHHMOeH8ixnqxyxfpfZgNYAjudkQFhQePKdlJyKsIOhw6_ePM7W3QjB7DPwfUDFkPx=
+Fp0Vci1_hXpO2YvzAc6AJY2qyW69BQTBOn6WKOD6zyPgBszIk7tB97PYHTp7XWlylxJNBw0zsGS=
+b_eZggt-FvlRUn62fUjtIL7-I1fVOQU1IDKvQpvFq3u0D20xyDG6ajRcoSpU_4TpdY4pq0JEw/4=
+04/n0lRMlcyQFCsJXcgUSy8tA/h9/bWoVq4BiQZuUme06iPLSbXH8lUxXqauF0dQK548yVW4" t=
+arget=3D"_blank" rel=3D"noopener noreferrer nofollow">overview of software =
+supply chain</a>, we highlighted the prevalence of open source in modern ap=
+plications and the increasing urgency around it. Open-source components hav=
+e become a popular target for software supply chain attacks. </p></li><li c=
+lass=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;word-break=
+:break-word;"> Part 2 of this report focuses on the key vendors in this mar=
+ket and their different approaches to securing the software supply chain. T=
+his report primarily examines new and emerging vendors founded in recent ye=
+ars. </p></li><li class=3D"listItem ultext"><p style=3D"padding:0px;text-al=
+ign:left;word-break:break-word;"> Due to the complexity of the modern softw=
+are supply chain, there has been a surge in the number of vendors created o=
+ver the past 3-5 years. Many of these companies have developed their soluti=
+ons based on the SLSA framework, NIST Secure Software Development Framework=
+ (SSDF), or OpenSSF Scorecard. </p></li><li class=3D"listItem ultext"><p st=
+yle=3D"padding:0px;text-align:left;word-break:break-word;"> Compliance and =
+regulation have been major drivers for the increase in the number of vendor=
+s and demand for software supply chain solutions. President Biden&#39;s <a =
+class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLs=
+nBfzxiNmayu9KhhW0IFo2ixE-2_y5DyFTKu1tuLLoTJuImfDSrjl3AWYwfNzQ5KrGdjqwtBbf4v=
+gyXc5zR2LwuSYa7cPgt_WzTQ7ZSLmT_rIrxAZpONhTAe60GQo5Wuyz8OPSCd99lRlugi_-2b9rh=
+JZjpQPjNplqLHbXaWD2bAm33h7ib9oLwh5-rAQ4PvXjnKJlzfFCAfc5x2RUimGn97km4x99HEBP=
+fFVGnWWd20QgTdmUEKuH9CKkuZnsO-6ASL4esXOQ5HigBcOlkcuOmlmm7ClgQFVHhoQrK4Rzoyy=
+FYu/404/n0lRMlcyQFCsJXcgUSy8tA/h10/384CpqgRiXbkUuts8ckr4dF9bgjgAtlcUhTmOGH4=
+XLY" target=3D"_blank" rel=3D"noopener noreferrer nofollow">executive order=
+</a> to improve the nation&#39;s cybersecurity mandates that organizations =
+wanting to do business with the US Government or its agencies must provide =
+a Software Bill of Materials (SBOM). There has been a growing focus on atte=
+stations due to emerging Federal software supply chain requirements. In Sep=
+tember 2022, the US Office of Management and Budget issued a <a class=3D"li=
+nk" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzxiNmayu=
+9KhhW0IFo2ixE-0jVOw-VcliUVsbC4OWCGNhL1tKHjvpKKujaqb75N3Y-LRvbGO-BpQn5LabuIE=
+UqGpxyaCEP5gwPSo8ZAOmORxQoEwkvCsdUIRgt-qSvUHCz7DDXrOrI_Ki6d3yLsYLNrcDsMB4lH=
+TVwWkYq05ow39HeiOsgWPJNiJ_ReSJLLjKsaOn_-E8CSdGZIEbC9JplRo/404/n0lRMlcyQFCsJ=
+XcgUSy8tA/h11/JxqccGf7WGIy-icxXHqhWseyOuYj90mrQOur36w-7ww" target=3D"_blank=
+" rel=3D"noopener noreferrer nofollow">memo</a> requiring federal agencies =
+to obtain a self-attestation and SBOM from software suppliers, as necessary=
+. Software consumers are also increasingly demanding assurances of secure s=
+oftware development practices. As one of the largest consumers of <a class=
+=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTR=
+pA8RFHzqAgofBrlb9GnZRL5xDvvrUjwfmoS7eGz9PCdJnMjBmnBMoTBkpEJawOH-RmCzR5ricbn=
+0dsEFWOqX1QwcWV4YK6Z2JD16L4iiIFMUdZ68kZ-cwQ9UDd6HA_QoGhuZzNcP0pkIV20ir8_76T=
+V3ef_1331rQadwS1QV_Mj-jz0pEMZZQAF1C8lwmLCJYoVrn4a4cUYfyrYgmDSQfFH23d5NPVn7G=
+I2qT4Vit2OZdoqmmLwzEJ61XAj1ruFQRZVTWuNUxZG7BxUxq4qD2v2cy4Q9tdoI_ikR-q9fiy/4=
+04/n0lRMlcyQFCsJXcgUSy8tA/h12/FigDcUBxcXSKK8guvOFSb6TIHSx2Py-Y-sJc_N8goV0" =
+target=3D"_blank" rel=3D"noopener noreferrer nofollow">open-source solution=
+s</a>, the US Government engages with numerous enterprises that must demons=
+trate compliance with the executive order. </p></li><li class=3D"listItem u=
+ltext"><p style=3D"padding:0px;text-align:left;word-break:break-word;"> In =
+addition to the public sector, there is also increased demand for software =
+supply chain solutions among enterprises, especially in highly regulated se=
+ctors. As discussed in part 1, <a class=3D"link" href=3D"https://link.mail.=
+beehiiv.com/ss/c/w5WA2oZ3-smjs-FC5JklUwoalyE5SwL9Y9AuU_Z3PSBffaMtStXh7cjY1d=
+QGVa_gzBALVv638qiAPwxFur4ruYTZrCDH0qX6TmFgBzQs_f-QsJsyFFkc3vMxQ8TzopEYAtzUo=
+YmKdWVzdGejhWfPTGJSRQHiId6u6MPgHP9luYAU6h9KTW842NanZwnTh2xobTRylqYTvmEau8Mi=
+f0d2JmD21_57NK4vsP_f9cbSq1ffRYHfBBWsyCNGCXTUFtVPgYDKUS4WWBhma11kkJ0bmQLgWcF=
+iT7ctwP-KQuX4ivEym9jABmvrmsO_BUL6EUUVehi4I8Z_91GBEcyMLrduXSOiyR2crIDj82d3x8=
+Vyi2BJLdI2CRa8mZZE2vaOuV4ur6wgxX3ZPXEZ4E38OXCIyxok-CIXGObIHlHwwzDet7rXMEh4J=
+hU5aWVjc_fJh1sKoyzZGvVzFh5N1tDUvP4BDnt7eoP4eVr2j7wwmbWOay2jaWp404802zqktT6O=
+0ikWIEPzzOR1DiWZIf8zifINy9xReUUnYUHkNRWYtFzpUaAmLK18GtynrOZLVoi6LI2z30MD_oN=
+ov_-z_ltQjXz0HH2h56a00WIBc4PCINWJaK_qM7lZrM0YjxXLBF2vaz-qIKtAfnKgGpWeS3Uk-W=
+Ki7pzJG3gv5rVFFY_JDrZ4c4Mnury7tZS7JdyK8SFioyhgEwv0KCB_ayF0JYxnRCjsueZjbSOhn=
+tURBbtDGYGPzRbaAH3yteaVTfhLPzt0Vp3L8LWWXLCc_DXQluJEv53YGpfN8GNVbnVHaierEk1b=
+SEa0B2h6SUONPJWj69AjLUuD2-oFTWj8aNegAxoBMpBW73m7FGqsK58Jlsw2exGVvmZA1ErqDIX=
+iKoWH_gIOeh7lz-t--LfEf_qbCnqqtxieJFvth0bOTcsSNAoj1jvr6Pk/404/n0lRMlcyQFCsJX=
+cgUSy8tA/h13/zbYeJ7Wq7mnitUMZQNqKJJV2ksIUJXM9ak4GNMKlOP8" target=3D"_blank"=
+ rel=3D"noopener noreferrer nofollow">NightDragon&#39;s software supply cha=
+in report</a> revealed that over 96% of CISOs stated they are currently usi=
+ng or considering implementing SSC solutions within the next 12 months. Thi=
+s further supports the growth of software supply chain vendors. </p></li></=
+ul></div></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=
+=3D"padding:0px 15px;text-align:left;"><h2><b>Part 1: An Overview To Softwa=
+re Supply Chain</b></h2></td></tr><tr><td class=3D"dd" align=3D"left" style=
+=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> In our ini=
+tial report, we laid out a definition for software supply chain and discuss=
+ed the major phases that needs to be secured. We defined software supply ch=
+ain security as measures to secure and prevent a malicious party from tampe=
+ring with the steps and artifacts required to build a software product. </p=
+></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;te=
+xt-align:left;word-break:break-word;"><p> We categorize supply chain attack=
+s into three broad areas that can be intertwined across: <b>source</b>, <b>=
+build</b>, and <b>deployment and package layer</b>. In each of these stages=
+, malicious actors can manipulate or introduce steps to modify the software=
+ output. This can be done through malicious third-party dependencies or due=
+ to a developer&#39;s mistake during the software development lifecycle. </=
+p></td></tr><tr><td align=3D"center" valign=3D"top" style=3D"padding: 20px =
+15px 20px; " class=3D"dd"><table role=3D"none" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"margin:0 auto 0 auto;"><tr><td align=3D"cente=
+r" valign=3D"top" style=3D"width:630px;"><img src=3D"https://media.beehiiv.=
+com/cdn-cgi/image/fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=
+=3D80/uploads/asset/file/595a4b18-3059-4eb2-9be7-9586fad9fb07/image.png" al=
+t=3D"" height=3D"auto" width=3D"630" style=3D"display:block;width:100%;" bo=
+rder=3D"0"/></td></tr></table></td></tr><tr><td align=3D"center" valign=3D"=
+top" style=3D"padding-bottom:14px;padding-left:15px;padding-right:15px;padd=
+ing-top:14px;text-align:center;width:100%;word-break:break-word;" class=3D"=
+dd"><table role=3D"none" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" a=
+lign=3D"center"><tr><td class=3D"v" align=3D"center" valign=3D"middle" heig=
+ht=3D"52" style=3D"height:52px;"><a href=3D"https://link.mail.beehiiv.com/s=
+s/c/sPxAZsZTRcGYFYMrl5MxTeG5Gv0DsGxAxsgyZBtmKNtQsnwnFTWTV2CmHyIDvBJtwVCrrO0=
+LSSe9is35VKZXtK5OxtSeAzuuCnfVwaMhjGFa02MIdt_jrrAGtynfgKVHLHUgbzrGMznv63PV6X=
+UGdeR_Wjxexs8b0yaikX60RekyARpc5-YYTvf_2d0V6UMlY_6IyTrf8sMFD_3TaMfKoJIucJZ1V=
+MCoigtWKshV_rFwiYSVne06QEN61VZFhwmuXe4BfqiTBLN1XQqaI0cf7fd_yhmlRYbKRrauynrz=
+MfAFxUQVDhpk8b8KNUaSZtFOxczvzCVPftHDLQl_jHszQAHHMOeH8ixnqxyxfpfZgNYAjudkQFh=
+QePKdlJyKsIOhw6_ePM7W3QjB7DPwfUDFkPxFp0Vci1_hXpO2YvzAc6AJY2qyW69BQTBOn6WKOD=
+6zyPgBszIk7tB97PYHTp7XWlylxJNBw0zsGSb_eZggt-FvlRUn62fUjtIL7-I1fVOQU1IDKvQpv=
+Fq3u0D20xyDG6ajRcoSpU_4TpdY4pq0JEw/404/n0lRMlcyQFCsJXcgUSy8tA/h14/EJneoMKuu=
+cMo4aPCoMp4yPXVSLZu9c-LdPXuuz2oRno" target=3D"_blank" rel=3D"noopener noref=
+errer nofollow" style=3D"color:#FFFFFF;font-size:18px;padding:0px 22px;text=
+-decoration:none;"> Part 1: An Overview of Software Supply Chain Security <=
+/a></td></tr></table></td></tr><tr><td class=3D"dd" align=3D"left" valign=
+=3D"top" style=3D"padding:0px 15px;text-align:left;"><h2><b>Part 2: Softwar=
+e Supply Chain Vendors</b></h2></td></tr><tr><td class=3D"dd" align=3D"left=
+" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> Thi=
+s report focuses on analyzing the current approaches taken by SSC vendors t=
+o secure all aspects of the software supply chain. While most vendors have =
+similar offerings, we observed a few differences in how these vendors appro=
+ach the problem. This report focuses on providing a discussion around emerg=
+ing vendors. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"pad=
+ding:0px 15px;text-align:left;word-break:break-word;"><p></p></td></tr><tr>=
+<td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;te=
+xt-align:left;"><h3>Inclusion and Exclusion Criteria</h3></td></tr><tr><td =
+style=3D"padding-bottom:12px;padding-left:37px;padding-right:27px;padding-t=
+op:12px;" class=3D"ee"><div style=3D"margin-left:0px;" class=3D"edm_outlook=
+list"><ul style=3D"list-style-type:disc;margin:0px 0px;padding:0px 0px 0px =
+0px;"><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align:left=
+;word-break:break-word;"> There are over 30+ companies focused on securing =
+different aspects of the software supply chain. Due to the large number of =
+vendors, we couldn=E2=80=99t cover every one of them. </p></li><li class=3D=
+"listItem ultext"><p style=3D"padding:0px;text-align:left;word-break:break-=
+word;"> The vendors discussed in this report are all samples or examples of=
+ solutions that address unique aspects of the software supply chain. </p></=
+li><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;wo=
+rd-break:break-word;"> We recognize some vendors offer multiple products th=
+at cater to multiple categories of the software supply chain. However, in t=
+his discussion, we will specifically focus on a core feature of their produ=
+ct line to illustrate how each component of the supply chain can be secured=
+. </p></li><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align=
+:left;word-break:break-word;"> We have placed more emphasis on emerging sta=
+rtups founded after 2018, as they bring unique and modern approaches to sol=
+ving software supply chain challenges. </p></li><li class=3D"listItem ultex=
+t"><p style=3D"padding:0px;text-align:left;word-break:break-word;"> Many of=
+ the solutions discussed in this document involve analyzing source code or =
+the source code management (SCM) or CI/CD platforms surrounding it. </p></l=
+i><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;wor=
+d-break:break-word;"> Application Security Posture Management (ASPM)<b>:</b=
+> It=E2=80=99s important to note that some vendors discussed categorize the=
+mselves as Application Security Posture Management (ASPM). Gartner defines =
+<a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJz=
+hLsnBfz0Ws3xZplgMSlQaF6wTDPWNIh_TEhFyY4_ryg-XUoVtJRA73q7XODiyv-r-Ur5dCJjvaX=
+_26AMu26hPQNhSL2_rL5tQ3ZEska-t5WExMAWErZunbgGftVXu7BMCod7-Qy3PbLaI53jIk4TKH=
+bWM7CCStw6zD2sHib2QqUdsuAjNW5qA1jzY_N15bhOQ0pWFggw/404/n0lRMlcyQFCsJXcgUSy8=
+tA/h15/gAp2fIwljebMcwsRfyPguq_O_-UwMzpp5XMX_Hc5PCk" target=3D"_blank" rel=
+=3D"noopener noreferrer nofollow">ASPM</a> as vendors that enable the corre=
+lation of security data from multiple sources, triage all the data and offe=
+r a more comprehensive view of security risks across an application. This p=
+rovides teams with insight into the overall status of a complete system. Th=
+ese offerings serve as a management and orchestration layer for security to=
+ols. Increasingly, ASPM solutions are being categorized as software supply =
+chain vendors. However, it is important to note that while ASPM provide SSC=
+ security features, they should not be categorized as full SSC vendors. </p=
+></li></ul></div></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"pad=
+ding:0px 15px;text-align:left;word-break:break-word;"><p></p></td></tr><tr>=
+<td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;te=
+xt-align:left;"><h2><b>Legacy</b>=C2=A0<b>Platform Vendors</b></h2></td></t=
+r><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:=
+left;word-break:break-word;"><p> We provide a brief discussion on the legac=
+y software supply chain vendors. We recognize it is important to acknowledg=
+e they play a key role within software supply chain and many enterprises st=
+ill rely on these solutions. </p></td></tr><tr><td class=3D"dd" align=3D"le=
+ft" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><a=
+ class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhL=
+snBfz79Zo6R684v77jfYeB-XHmrsVIE_weqkSDtfzgXgbKNncpdBXr883aYLyIAFHBrgk1kftLl=
+WQB_pNLVaeG3CCj6eNgMp51UcZssT9zRz-q4-cGDs9S71beqF6UyUGiplIz6RpBRAScN5SI_D7Y=
+l8bKx74-EiIMHMjNp8UkZCgTs-/404/n0lRMlcyQFCsJXcgUSy8tA/h16/WjLAGnKTTyUyjR9bE=
+e92_1DLbAnuM4XWgCW8NWSOF3U" target=3D"_blank" rel=3D"noopener noreferrer no=
+follow">Veracode</a>, <a class=3D"link" href=3D"https://link.mail.beehiiv.c=
+om/ss/c/qo9WS1QC0AuWQxr9i-K2dFnaRrUQiZaGJO3oCY3jsxnzf1IBvLQhGh7hK2G6NBJS285=
+N3BcatOItVDrUUQx9-ognU_3CQgA6Bx_c161IuFG48lqRH-wuIW_LgUeARgzwtLb_Vz0G5NEuMx=
+wFSS15Fjap469yEBmwZfXm3PsEfPk/404/n0lRMlcyQFCsJXcgUSy8tA/h17/Bgqgj1YuaOc_mw=
+LPypl6ig2aVS2Xx1INtqL6li8SUeA" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow">Checkmarx</a>, and <a class=3D"link" href=3D"https://link.mail.b=
+eehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzyBvPkdSDdGJhPZuo007HDc9IR8nlAqiXVfwJxH=
+FUUrG8oqfmRM4Xyk8b3PK2Rdkt3JnWG6AdR9ucr8a6A-GIYNSgV16aDMODdFyZAyag3mnf5KtJF=
+u0GuLa_MX4rDkv9K_JOUV-FPYBXRnYRqwhlX6g2b2imgdbW6P0JrTdjhtI/404/n0lRMlcyQFCs=
+JXcgUSy8tA/h18/fkfDkhSzAJLdE0bXlqkaygKBPLtKMDFiobWg2JeE7n8" target=3D"_blan=
+k" rel=3D"noopener noreferrer nofollow">Synopsys</a> were all established p=
+rior to 2007. They were developed before cloud and open-source tools became=
+ widely used among developers. Initially, their focus was on serving a mark=
+et where organizations primarily wrote code on-premises. These vendors spec=
+ialize in Application Security Testing (AST) and offer tools and solutions =
+to help organizations identify, assess, and mitigate vulnerabilities in the=
+ir software applications, covering SAST, DAST, and IAST. In recent years, m=
+any of these legacy vendors have acquired emerging start-ups and adapted th=
+eir platforms to cater to cloud-native environments and modern SCA solution=
+s. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 1=
+5px;text-align:left;word-break:break-word;"><p> These vendors continue to b=
+e popular in the market due to their established reputations and strong ven=
+dor lock-ins. Many large and highly-regulated organizations rely on these s=
+olutions across their technology stack, making it challenging for new emerg=
+ing startups to replace them. These vendors have acquired start-ups and dev=
+eloped solutions that integrate popular open-source tools. These incumbents=
+ have capitalized on their large customer base to upsell their solutions, w=
+hich startups struggle to do in the current market that emphasizes vendor c=
+onsolidation. We believe that these vendors may retain non-trivial market s=
+hare within the next 1-3 years and should not be overlooked. </p></td></tr>=
+<tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15p=
+x;text-align:left;"><h2><b>Modern</b>=C2=A0<b>Platform Vendors</b></h2></td=
+></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-al=
+ign:left;word-break:break-word;"><p><a class=3D"link" href=3D"https://link.=
+mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZzQGnWrPLkXbl-5W8LWAOb2AseqmXBF-b=
+vj4B8SA-daR0oWfGhwsSGk8yktfLc87JtnvDyiCT5YEc-mV0HJpwHMxkzxqBMuVSuUejEqW6rui=
+_AAqSrlRHLumlRA6gBMGeck-bYI0bixTEWQ0FJs5sic/404/n0lRMlcyQFCsJXcgUSy8tA/h19/=
+Rn7e-yJc4G0bObcxUr3J99mJocjBk1TZYJgEpKtkc84" target=3D"_blank" rel=3D"noope=
+ner noreferrer nofollow">Snyk</a> was founded in 2015, and gained notable t=
+raction initially with <a class=3D"link" href=3D"https://link.mail.beehiiv.=
+com/ss/c/YdY8luUTay86bxp1ZIEAZyBC8iwPGWlcCm0WJUn_gus6Pr4_V_hvULl_cNhyq4qFkP=
+N7mXtlj7pdloQ55rItYpBO0FmYj4Y5XEzVfFzyjjXCSpVDtU2GrODKjt16eKCJMQ35AEWZU6wSl=
+7qb48ibtL4-Ya0sS0SygS5xfweTYy1OvmXuasb24Dj5DKF2ewvyHNHskCokG4jbv2wzsY0LI6cQ=
+8lpg-mmfnGl-UkT6u3Y/404/n0lRMlcyQFCsJXcgUSy8tA/h20/qs0g9CX04gh4sKOglk_F2wkx=
+5e1Yog_vsZNsxHZJbts" target=3D"_blank" rel=3D"noopener noreferrer nofollow"=
+>Snyk open-source</a> geared around SCA. They=E2=80=99ve expanded their pla=
+tform to cover SAST, DAST as well as cloud security with the <a class=3D"li=
+nk" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ3WHYgD9=
+IAZQIIsIdccMm2Ivx9zZrzomJ_58iWWRlLv_w9Iy7MOpl3kQLC9iIuOVe243z5KRrSf2_RKJem7=
+41udskD2eldFiY5v_9nf34mvXswQp5EXNonIzKaF34eaiE5stjTGp039pk4SjprbkZe0HHXmBLV=
+ntgHCLfUyELp7cvOU6g1b88ezd2rb6Kw5z3VbapApKhR0eyfCblDWTFtk/404/n0lRMlcyQFCsJ=
+XcgUSy8tA/h21/sDIYjTXYslaBY6Pd6WV42BPbV0qq50QFVkgIw2n4utE" target=3D"_blank=
+" rel=3D"noopener noreferrer nofollow">acquisition of Fugue</a>. Despite re=
+cent trouble, laying off <a class=3D"link" href=3D"https://link.mail.beehii=
+v.com/ss/c/YdY8luUTay86bxp1ZIEAZyU0NtCPhSWQrewYpH2uN06OO-L_xRKyRl0xyJ_NX_Lt=
+mdbs8tp9TXZYv6Bvbl1lncsPjBvtnLOK8ssLL6iLVboZJIWggNJInyaFC6oVVzIyH1f46BzlRLJ=
+cVGbrteMqvlqlcf7eR44AELGr8ImhLN-s3FkOOvon4T8y8lPrUVvgNrVsUV6noBtJKGsd1EOI4V=
+uSXST3OwEih53aha9tsOg0lN2Bi2iG2q_SDN0j-UX3dsUnjAHEOrkyeJpXDsA8yA/404/n0lRMl=
+cyQFCsJXcgUSy8tA/h22/EE-v0Ojtp23E1Rr5hBbAx9LNxprrCtQoqoZQmx-kUvg" target=3D=
+"_blank" rel=3D"noopener noreferrer nofollow">15% of its workforce</a> a fe=
+w months after laying off 5% in late 2022, and seeing its valuation <a clas=
+s=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz=
+2Nj0Afd9Y4xhU-9EzzHLBrBOTpHPMuSY5nAcKMmHvQteaZPti3q_06uA5XGjhoyTG0qEs3xL_QD=
+Ior5YEOc56JzyMdKQX27TMiqdGd92g3o1eZ6n9JPtL7CkcmeFChxLU4fWxqx3left32OKnMEAYE=
+fXCP4r06GMwZdJVgvmcGZ5vmyauFI84fo8LcBvwVcx_51n67VMc6CiYeQryBs_Vc/404/n0lRMl=
+cyQFCsJXcgUSy8tA/h23/O5D2MonqQS5gMYRXty_Z6d17rJQrTpA-DM40zuIl3nc" target=3D=
+"_blank" rel=3D"noopener noreferrer nofollow">plunge over 50%</a> in second=
+ary deals in 2023, we believe Snyk will continue to remain a platform play =
+for some large cloud-native enterprises looking to consolidate a number of =
+application security solutions in one platform. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h1>Modern Software Supply Chain Vendors</h1></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h2>Source Code Layer</h2></td></tr><tr><td><table role=3D"none" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D""><tr=
+><td bgcolor=3D"#d9edd9" style=3D"background-color:#d9edd9;padding:5px 5px =
+5px 5px;"><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"><tr><td class=3D"dd" align=3D"left" style=3D"padding:0p=
+x 15px;text-align:left;word-break:break-word;"><p> =F0=9F=92=A1<span style=
+=3D""> In part 1 of our report, we discussed the importance of securing sou=
+rce code management (SCM) systems. This includes managing access to code en=
+vironments and enforcing source code reviews, as these systems serve as the=
+ central hub for developers.</span></p></td></tr><tr><td class=3D"dd" align=
+=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"=
+><p><span style=3D"">Developer environments represent a primary attack vect=
+or for malicious actors attempting to carry out SSC attacks. It is crucial =
+for software teams to have visibility into every element of their applicati=
+ons, from source code to third-party dependencies.</span></p></td></tr><tr>=
+<td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;w=
+ord-break:break-word;"><p><span style=3D"">Many of the vendors mentioned in=
+ the source code play a vital role early in the development lifecycle. They=
+ offer code monitoring, prevent code tampering, detect source code leakage,=
+ and alert developers to triggers or warning flags. We observed that many o=
+f these solutions are integrated with Git, GitHub, GitLab, and BitBucket, a=
+llowing them to perform these security actions within the developers&#39; c=
+ore environment.</span></p></td></tr></table></td></tr></table></td></tr><t=
+r><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;=
+text-align:left;"><h4><b>GitLab and GitHub</b></h4></td></tr><tr><td class=
+=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break=
+:break-word;"><p> It would be impossible not to begin with a discussion on =
+the central components for millions of software developers. GitLab and GitH=
+ub revolve around the Git version control system, enhance collaboration, su=
+pport repo hosting and are hubs for open-source projects. Due to the urgenc=
+y of software supply chain attacks in recent years, these vendors have star=
+ted to offer solutions that help secure source code all the way to securely=
+ using third-party dependencies. GitLab has its <a class=3D"link" href=3D"h=
+ttps://link.mail.beehiiv.com/ss/c/8vDQboJZ7tsCc0RVWv88UKa_6gPB5K2tD8ygLzbKR=
+GUt1b7UKMT0k4G5YIfdHRsSiqA4EnCVUlaczZc8vS1MRJaS8FR4hm10FI9GU2-pvuE0kPIAdVv7=
+dTXQuIAygoxU5BQr4OCq5nLlf91-EY5RI_3rWYJ8Lgf34j4cu31BsbVqL0RDZBFIC0hRfZog4oM=
+jTZftnR8VBBp14Xm-HGSenLYNJgA0eGb0o9lKfakeKnNxyws0HXgwnyEWUNn0zkRm/404/n0lRM=
+lcyQFCsJXcgUSy8tA/h24/Jg4nrHWKXhknFRAviK1hwoYYVz_NiBU6AIPAbEn-KtI" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">dependency scanning featur=
+es</a> and <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/d5u=
+vLg7YRp2ZtXIlj6sd1maUv78-hRwkbl4wVH3Y_2tuUhPJT9AJ3xkUMKglf9YHs2SUu3Rbk5YIGP=
+ShBQw9qLSjSTCqnMN2LNetVPjoSZKkaFVHr8af_zib1Sl_WMdbms4OWwPzTmaeZcXWexI90Evvn=
+kriWDyoV9EldCx02xn9mhe88MJcScgWoLeT74TnzQflviepKWu5z2VJwQzcngEtpgmDAqfFigNt=
+KLJD70w/404/n0lRMlcyQFCsJXcgUSy8tA/h25/HSlf-QalWAdK-sLXcEY8HjcYMpq9qljIFTEn=
+cCp0KII" target=3D"_blank" rel=3D"noopener noreferrer nofollow">SCM solutio=
+ns for developers</a>. GitHub has its <a class=3D"link" href=3D"https://lin=
+k.mail.beehiiv.com/ss/c/hgAGhxaLoz4B9_OiKIsIymnMBerfTXkxITT2wMHVFFdXMTpPFeY=
+s4YYBTODPc5gyTSPc9vnaFYNZnuevQ3jWn4K-2riKR3Ft4WUE1z87NYdIls4K1Z3J8KbUyHCNOY=
+Ch10omtDA_HMLhjhP2I0d-lI3bhqLTvtHgzGsn4gk-xUEszYBAbwtis25QC_zbIKqz/404/n0lR=
+MlcyQFCsJXcgUSy8tA/h26/WSTPy1C9EThc4vjSUofP8ps1sPdsUD1tXhG3lFIAPsU" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">advanced security</a>, whi=
+ch performs SAST on first party code, SCA for third-party code, and secrets=
+ scanning. GitHub has largely acquired companies for its security offerings=
+ - primarily <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/8=
+vDQboJZ7tsCc0RVWv88UNJxxKIkseee9WykVIJDySZzd2D7ZSIqoLzuZ6Atrn7m82XfSlJd0i_Y=
+4ykjYUBHs9tAOj-VMQIC-Nx-Gk8j2njxs04t22QhVJAD_e9bTQFt92f4UOYHajNkdOs8yd78wtt=
+ikmvu0q6bG3yH_Sc2ROuHR_upL-9V8g4aOnONVGv-OjztI78V8b-kMHy--LSmxw/404/n0lRMlc=
+yQFCsJXcgUSy8tA/h27/zGsuOgJyam_qv_apb96geCsWU9AJ0zyJhEqF3phvWZM" target=3D"=
+_blank" rel=3D"noopener noreferrer nofollow">Dependabot</a> and <a class=3D=
+"link" href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTVh2J=
+aN-ruid9tKOf7YuVNCgFzoVtsHbx3ex4gC4ZNX30UFttjeqY_x23B8I8WzghOgImXJJj2Q2RjCJ=
+qb6VrjL77JGgMxZbxrRA56b5EG3gT53rcGX0Yy7GyX238ESaCzriYyMoF-4SO64dQ8FUxxPSD6R=
+xzSQM44qKKlZgWMRZX81GFmLWX8vtGd8QE31SEsP0XC39HxRxvCYR-JEYGEmtUIuHL2skvJu8Im=
+zqDFUe/404/n0lRMlcyQFCsJXcgUSy8tA/h28/xI6LXmmUsuLpm2WKbz4PVAnigUuMgfzMqzyjx=
+qFFEbY" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Semmle</a> i=
+n 2019. Whereas GitLab largely wraps open source tools like Semgrep, Clair,=
+ Trivy, and Grype to offer many of its security solutions, although it has =
+acquired some small security start-ups in recent years. </p></td></tr><tr><=
+td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;tex=
+t-align:left;"><h4><b>Arnica and Jit.io</b></h4></td></tr><tr><td class=3D"=
+dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:bre=
+ak-word;"><p> Both vendors have relative similar product characteristics wi=
+th a core focus on tightening the loophole between security and development=
+ teams. However, they both have different approaches to their technical fea=
+tures. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0=
+px 15px;text-align:left;word-break:break-word;"><p><b><a class=3D"link" hre=
+f=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz_w0IF2c1hTbA09=
+vz7zjJnWKvGIVBoWpE1AtE8xWPpGuB1N2zROLcxzQgT5pSMlpU5Vwsiy-gWgl9AkC2Gfb5XwRWO=
+EvAC6ve3cDh4JqLIMtiZXplV1QoA0RGHoQEtCXNB_VMAFRMeV7HhI6pzkLz4w/404/n0lRMlcyQ=
+FCsJXcgUSy8tA/h29/GdarfAeieKjSv9wvVCOi7e1zsvIg-kXNR5UTj1BlbDo" target=3D"_b=
+lank" rel=3D"noopener noreferrer nofollow">Arnica</a></b> tackles the SSC p=
+roblem using several approaches. Arnica&#39;s platform tracks every action =
+performed by developers through its behavioral graph, enabling it to identi=
+fy compromises in source control systems and identify any vulnerable code o=
+r unauthorized access to source code repositories. Once identified, Arnica =
+notifies the code author, pusher, or any designated team in real time using=
+ ChatOps (usually Slack or Teams). For instance, developers can receive imm=
+ediate notifications on their native communication platforms if they inadve=
+rtently push code containing exposed secrets, along with step-by-step instr=
+uctions on how to rectify the issue. </p></td></tr><tr><td class=3D"dd" ali=
+gn=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word=
+;"><p> Secondly, Arnica runs and maintains all real-time code scanning capa=
+bilities into their platform, which helps the customer avoid deploying mult=
+iple individual SCA or SAST solutions. Arnica utilizes what they call a &#3=
+9;pipeline-less&#39; approach, which means they reduce the need for their c=
+ustomers to integrate multiple CI/CD tool to secure their pipeline. Arnica =
+uses its built-in <a class=3D"link" href=3D"https://link.mail.beehiiv.com/s=
+s/c/AVcX7Ry0si0xJzhLsnBfz3QBR7XLZ-Vsm1w3X7gA0fECMycUbntz6mtEx3mtef3NVXsErFX=
+jmFwVSfpajyRVMJYKPw6SId12Qw7zettILIcESc0aL-6LoGBzTThmiK8vXwe2l_Bag5pmbyyEB9=
+tlhVh2zEMpTTEUZ4tXlj5Y_YId-YW3caaZgt0eNxPzYI9wL8SjZW_4oMQkaG1vu5kuAA/404/n0=
+lRMlcyQFCsJXcgUSy8tA/h30/AvhL2XlbzOJ-Z3PCdli5LP02L6XynWqMrCFAsNTFOSA" targe=
+t=3D"_blank" rel=3D"noopener noreferrer nofollow">code security features</a=
+> (that combines SAST, SCA &amp; IAC) in one to provide full coverage/conte=
+xt for their customers. </p></td></tr><tr><td class=3D"dd" align=3D"left" s=
+tyle=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> Anothe=
+r core feature of the platform worth noting as it relates to source code is=
+ managing developer access and behavioral analysis. Arnica=E2=80=99s automa=
+ted developer permissions feature takes the approach of identifying potenti=
+al injection of bad code through <a class=3D"link" href=3D"https://link.mai=
+l.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz3QBR7XLZ-Vsm1w3X7gA0fG5eS1kO4LwwN0n=
+a-StDL4RAH_Muy9ZQAXvOuPr1CBLlaXampmtlHVNAj2XPJr9reN8AUr4roqXpgCdCUmuaRnOQYn=
+TKPfFEv6ppOLyOdH0G8fhLayjh_FqzBQvPYugzRAj8XWVxKDb64Irlmo-6MMMYRJP0HSTwz3vCv=
+-RtoTTED_12F7Q6Nb27Sp3RNHvY98/404/n0lRMlcyQFCsJXcgUSy8tA/h31/i7Px7mEp1slWX1=
+uT0ywmPrNMn6eB3U79sq6HPJpGLms" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow">anomaly detection</a> and strict branch protection policies. Arn=
+ica=E2=80=99s <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/=
+AVcX7Ry0si0xJzhLsnBfz3QBR7XLZ-Vsm1w3X7gA0fGwKU3H1UlctVSI_0ouoeLh1UpXlIJ3WIM=
+6PpyZxD6FqTqq619lo3vc-kkrRaw38CdFA5zGhNGlJaL7da8ksajyH2aa7Jis_o5Y6IhzmMjeg8=
+-7ZnypHCmucJJ-GcT9SJwaEAN7FUkv8mnIDHuzXNsE7laMfVYeNEAVtmXjXI86nitPOShphdrdX=
+NllWXK6ua8/404/n0lRMlcyQFCsJXcgUSy8tA/h32/g3i_04rvoyW6QO-aieJHy5sveFBziWEvm=
+9NZo2dslG4" target=3D"_blank" rel=3D"noopener noreferrer nofollow">dynamic =
+developer access management</a> sets up behavioral profiles for all develop=
+ers and applies least privileged access to minimize unauthorized users from=
+ abusing source code or systematically adjusting developer permissions base=
+d on historical access patterns. </p></td></tr><tr><td class=3D"dd" align=
+=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"=
+><p></p></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=
+=3D"padding:0px 15px;text-align:left;"><h4><b>Jit.io</b></h4></td></tr><tr>=
+<td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;w=
+ord-break:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/113pbj9U0JFQOXWO52kge7nUhme4Q5nabRxVDCns4yqm908J9vo9Ayrb85Iu7OB=
+lPsv-34PnLXI0FA5YdopLzZM2CJk244prLAzgnLzVdiTI0RdWl45j3YH5eS3gfn-ZnpeQ60ugJX=
+K_AEAFwWj5RfmchjtEBrlTunwwPSurXXQ/404/n0lRMlcyQFCsJXcgUSy8tA/h33/suSY_6IqSX=
+DP7L5wfmBOpRjT73FSoN7SilIlLS0POl8" target=3D"_blank" rel=3D"noopener norefe=
+rrer nofollow">Jit.io</a> is an open product security orchestration platfor=
+m that allows for the integration of multiple security tools to secure vari=
+ous stages of the SDLC. Their platform supports popular open-source tools f=
+or SAST, SCA, secret detection, cloud scanning, and DAST. Jit addresses the=
+ software supply chain problem through a concept called <a class=3D"link" h=
+ref=3D"https://link.mail.beehiiv.com/ss/c/8vDQboJZ7tsCc0RVWv88UOnm7LHqLwWhb=
+jXibh3WVddzfoNO5-zszxeE9197-wyvuBfZ4bqm9mv12uYpbsm5o0FRLFBeox2zeOn2wuiJfpHk=
+VUHI14bVU3BNy_c85Yjs3NN2eVnR-FL1ySQ5QKl8LH4oIDABIvPxirHCA_WjRFJ4oOIjA8BBdGQ=
+EyExMbDRF/404/n0lRMlcyQFCsJXcgUSy8tA/h34/Cmc3zEuCB9Y4iOojd4o64d6XQQPLY_P6Iq=
+J-Q_-ZRS0" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Jit secur=
+ity plans</a>. This approach takes into consideration the business goals an=
+d requirements when securing all aspects of the software supply chain. The =
+company offers security plans that guide users in achieving specific busine=
+ss goals while ensuring certification readiness. These include <a class=3D"=
+link" href=3D"https://link.mail.beehiiv.com/ss/c/d5uvLg7YRp2ZtXIlj6sd1qq4aM=
+vbMu3CvpVmpGMqUcae1FFifcRhbfpe_WxuerAWvDtaLyoKvyGzx5TCnwVW52OWoLmmHi18peXQf=
+80DNQeGQtFC9FebYXMTs0jhDkjADoo7vyS_DmYgKbyq5wvjjSk5ipuM2XraiQYjXWaCyzrehIo8=
+seqjyNR_US7KzY6tMUSKGTxqHi04jpu56O6SvYy8-Yeh2VynCZGFwXNWNaE/404/n0lRMlcyQFC=
+sJXcgUSy8tA/h35/t9uFqIeFw24rdnV2wfIPgqS_jWr-O_zeluOTHFb_h8A" target=3D"_bla=
+nk" rel=3D"noopener noreferrer nofollow">AWS Foundational Technical Review =
+(FTR)</a>, <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/8vD=
+QboJZ7tsCc0RVWv88UOnm7LHqLwWhbjXibh3WVdfcDoBtL6s1WWiyz5wVmicpvSEXCsT61C2M1n=
+n6tV5nO8Zh24kYYwFkylbAMkbgi13aBS1wsGwvLVItmv6faIQazUX0b27jVmPtL-EIMVpT_U7WI=
+F1hUF747C0CKXWpqy5R9ZFCm5yC9djBy6GZgWC9SQ5X4iLzRUXvi0AtcTwF7w/404/n0lRMlcyQ=
+FCsJXcgUSy8tA/h36/WJua2jqy0qvsYpTU2ard2prja_yeEHfH4FHhovIMGec" target=3D"_b=
+lank" rel=3D"noopener noreferrer nofollow">Jit MVS for AppSec</a>, and the =
+<a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJz=
+hLsnBfzyYDLst2hxn62-YAVeMFuC1NiW1rmZpr0sFVgEz6YA637oLj9ouGmJxpDTbWse9iRcbXw=
+7nmr_Ynxn_D-JUlDOwTn2Nv-kQas9O7tJus3AVNfq_0zGtVjAJKabEiXMdArfiDvn5iCeBdKdya=
+rqW7Lf64PGj7QDvWuS6NGtf_2z-EXiL5uA8DyoaoqLzVMfFm2PebZnfJn-ijTqDixw1tYuCrGdV=
+L4UzhgZOVdrecGCia/404/n0lRMlcyQFCsJXcgUSy8tA/h37/QS4_9DZ8izyUEg22j0eI0cJ7PU=
+OUqlPF9-1LlH2S16M" target=3D"_blank" rel=3D"noopener noreferrer nofollow">O=
+WASP Top 10 compliance</a> framework for applications. Jit can help an engi=
+neering team comply with these frameworks from code to cloud. </p></td></tr=
+><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:l=
+eft;word-break:break-word;"><p> Unlike solutions like Arnica, Jit allows us=
+ers to use their own SAST and SCA tools. Jit assists with integrating and o=
+rchestrating these tools throughout the development lifecycle. Another uniq=
+ue aspect of Jit is its breadth and openness. Jit collaborates with other S=
+SC and ASPM vendors in an open manner. Users can connect different security=
+ tools to the Jit platform, which then orchestrates and executes them prima=
+rily within GitHub. Users have the flexibility to add their own security to=
+ols by specifying the input, output, and execution methods. </p></td></tr><=
+tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:lef=
+t;word-break:break-word;"><p></p></td></tr><tr><td class=3D"dd" align=3D"le=
+ft" valign=3D"top" style=3D"padding:0px 15px;text-align:left;"><h2><b>The B=
+uild &amp; Pipeline Layer</b></h2></td></tr><tr><td><table role=3D"none" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D""><t=
+r><td bgcolor=3D"#d9edd9" style=3D"background-color:#d9edd9;padding:5px 5px=
+ 5px 5px;"><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0"><tr><td class=3D"dd" align=3D"left" style=3D"padding:0=
+px 15px;text-align:left;word-break:break-word;"><p> =F0=9F=92=A1<span style=
+=3D""> Vulnerabilities in CI/CD can arise from insecure configurations of C=
+I/CD tools and infrastructure, such as insecure build servers, artifact reg=
+istries, and containers. The discussed vendors provide CI/CD pipeline secur=
+ity, build artifacts provenance checks, and code validation before a major =
+build. Compromising any of these steps or environments can impact the integ=
+rity of the software artifacts that are produced and distributed.</span></p=
+></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;te=
+xt-align:left;word-break:break-word;"><p><span style=3D"">Our analysis prim=
+arily focuses on vendors within SCA (Software Composition Analysis) that ad=
+dress issues related to third-party dependencies, whether they are unintent=
+ionally included as transitive dependencies or introduced within the pipeli=
+ne. We also cover the deployment of containers and registries. Many of the =
+solutions discussed integrate with popular build automation tools and CI/CD=
+ tools such as Jenkins, CircleCI, Azure DevOps, and GitHub Actions. Additio=
+nally, we discuss vendors that specialize in securing containers and their =
+registries.</span></p></td></tr></table></td></tr></table></td></tr><tr><td=
+ class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-=
+align:left;"><h2><span style=3D"color:rgb(34, 34, 34);">Software Compositio=
+n Analysis (SCA)</span></h2></td></tr><tr><td class=3D"dd" align=3D"left" s=
+tyle=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><b>Soft=
+ware Composition Analysis (SCA) tools</b> were developed to identify and sc=
+an all open-source software and third-party dependencies in codebases to en=
+sure compliance with licensing requirements and find dependencies with know=
+n security vulnerabilities. </p></td></tr><tr><td class=3D"dd" align=3D"lef=
+t" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><b>=
+How Do SCA Tools Work?</b></p></td></tr><tr><td class=3D"dd" align=3D"left"=
+ style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> At a=
+ high level, most SCA tools are composed of two parts: </p></td></tr><tr><t=
+d style=3D"padding-bottom:12px;padding-left:37px;padding-right:27px;padding=
+-top:12px;" class=3D"ee"><div style=3D"margin-left:0px;" class=3D"edm_outlo=
+oklist"><ol start=3D"1" style=3D"list-style-type:decimal;margin:0px 0px;pad=
+ding:0px 0px 0px 0px;"><li class=3D"listItem ultext"><p style=3D"padding:0p=
+x;text-align:left;word-break:break-word;"> A <b>database</b> of known vulne=
+rabilities (<a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AV=
+cX7Ry0si0xJzhLsnBfz8KCu-uZBoHsHcN3dPdaaHxUC4OZ2OYriZzLRol_y9IqX6bIUCY6-O__3=
+0_wpv8Pf7EtKTyMvO-HxRyjGs8NtNpdBzd48AYexgEhFx4Tz0TOgRjpjQJ2koNQSKITZ7XtDA8C=
+XhX3KMYUbVi1VRyWRr4cLgBUsvP4pr3v4gV28arC/404/n0lRMlcyQFCsJXcgUSy8tA/h38/bVF=
+8J5pDqhsCwBzciICqjN-YQSaJzeANyBX9DFUFLOQ" target=3D"_blank" rel=3D"noopener=
+ noreferrer nofollow">CVEs</a>) that are associated with specific versions =
+of third-party dependencies. </p></li><li class=3D"listItem ultext"><p styl=
+e=3D"padding:0px;text-align:left;word-break:break-word;"> An <b>engine</b> =
+that can examine a code repository, detect the dependencies it uses and wha=
+t versions, and then compare those to its database of known CVEs. </p></li>=
+</ol></div></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0=
+px 15px;text-align:left;word-break:break-word;"><p> SCA tools inspect packa=
+ge managers, source code, binary files, container images, and other code co=
+mponents. Essentially, SCA tools examine your code and say, =E2=80=9CI see =
+you=E2=80=99re using lodash version 4.17.20, and I know that=E2=80=99s vuln=
+erable to <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/sDe0=
+yfmsquzapC9XW_PPXTsias7235v68ZxaGGbDET5ag2ewNt3cn58DG0x_KFWgCqVB1JmAjoWCTcK=
+wU3UDjYQwlaxdCmup1mh1TmAnGyT0wBlGiv3Ql98jzmFsASQyMU85MUoAEP-ilAeOjWoEvaMtnH=
+tWhAriblqvYshuL4Vbjz2SCAIlowq3kWD7lzv6k-q74B4hASaTWMBUUW90fw/404/n0lRMlcyQF=
+CsJXcgUSy8tA/h39/cimLR2qAqc-T3VZ3LtKcsV1LaAKcf9N4l6uGQ5qy3XQ" target=3D"_bl=
+ank" rel=3D"noopener noreferrer nofollow">CVE-2021-23337</a>.=E2=80=9C SCA =
+tools are able to provide an inventory of all the open-source code componen=
+ts used in the code build and evaluate them against a vulnerability databas=
+es like the National <a class=3D"link" href=3D"https://link.mail.beehiiv.co=
+m/ss/c/sDe0yfmsquzapC9XW_PPXYLv0FRKmK75wOZZfhIMULR7BgcWd-BRMpHuPtJUpmPz0k1V=
+HgbFxz_-WZYMXQVdEuObLO_WcAdv1JD1veOpJlRFUuTk8fhEcK3VQs9KhGA7I2jduMRNiBxAbSh=
+fcYicTOBuowdr9N-lsXGXMGMCtWk/404/n0lRMlcyQFCsJXcgUSy8tA/h40/uAG-daGK_6GZNLO=
+x0cX3lGkNIDkdN9RyRN1eiv8E4Fk" target=3D"_blank" rel=3D"noopener noreferrer =
+nofollow">Vulnerability Database (NVD)</a> and <a class=3D"link" href=3D"ht=
+tps://link.mail.beehiiv.com/ss/c/efVlpxdHJlT7Ev_5BVGm1OrnRyXs4N4rhohYNiJKQy=
+VEkMmOYB5ZvZhnQ120AXzjmT-XC7e5qE1GdEP-kqCZDInIly5h5bmWSV1FP1fGlmfSyY2x39w5w=
+uVverBWeKzCCMmF-GNdnEi4CbUxlBaKpAMsGUCXWjSNttsXy4CUevM/404/n0lRMlcyQFCsJXcg=
+USy8tA/h41/kQHdV601N9Z4kvpT6yapk7M7_421IsNPfvM_lfBpbww" target=3D"_blank" r=
+el=3D"noopener noreferrer nofollow">Open Source Vulnerability Database (OSV=
+DB)</a>. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding=
+:0px 15px;text-align:left;word-break:break-word;"><p> Some SCA tools aim to=
+ make it even easier for developers to resolve identified issues by automat=
+ically creating Pull Requests (PRs) that update a dependency to a version t=
+hat is no longer vulnerable. </p></td></tr><tr><td class=3D"dd" align=3D"le=
+ft" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> H=
+owever, there=E2=80=99s a problem with the straightforward, SCA 1.0 approac=
+h. In practice, many organizations will receive thousands to tens of thousa=
+nds of warnings about vulnerable dependencies. No development team can hand=
+le all of them. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"=
+padding:0px 15px;text-align:left;word-break:break-word;"><p><i>How do you k=
+now which to prioritize?</i> Enter: <i>reachability analysis</i>. </p></td>=
+</tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-ali=
+gn:left;word-break:break-word;"><p><b>What is =E2=80=9CReachability Analysi=
+s=E2=80=9D?</b></p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"p=
+adding:0px 15px;text-align:left;word-break:break-word;"><p> At the time of =
+this writing, =E2=80=9Creachability=E2=80=9D is the latest advancement in S=
+CA. Instead of warning users about thousands of =E2=80=9Cvulnerable=E2=80=
+=9D dependencies with no regards to their risk, SCA tools that perform =E2=
+=80=9Creachability analysis=E2=80=9D determine not just if a repository is =
+using a dependency at a vulnerable version, but also <b>if the first party =
+code is actually invoking the vulnerable function in the third-party librar=
+y</b>. <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luU=
+Tay86bxp1ZIEAZxHoow_4ERhQUGBNdoUTLJS5TjWccXYqmHvnkL_9ya7azsWlKYNIF3ZsccOVeN=
+oitrRr1hH4VNZ1W3voZLmAXxxHkKPB_r5kG6tUvSRexSI4xG0QiaGf80m0AuDdO6Yw76iGzIwmM=
+Zc41biHSoz6e-eXnVnlCev5-UajuBZByaCcSlNET7rlduEgyA30HxfGkMd9EDDoxVYP-BgLJEy5=
+nko/404/n0lRMlcyQFCsJXcgUSy8tA/h42/2vkr6JLsoNvTHOV7TLMJqpFexQDsAvxcoyIutiPS=
+Sfk" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Initial evidenc=
+e</a> suggests that =E2=80=9Creachability=E2=80=9D reduces &gt;90% of SCA a=
+lerts, saving security teams and developers from wasting time doing work th=
+at minimally reduces risk. </p></td></tr><tr><td class=3D"dd" align=3D"left=
+" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> At =
+the time of this writing, it appears that only <a class=3D"link" href=3D"ht=
+tps://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZwGcETuDUe0VkWjwArI-t6=
+yziew1zNuvFzjEwpDrTNJRl8pJkX7GApcNeGqDDUyb0Hl84YZv74HHM_4liBUFcaivOmCrPrIY-=
+5lvkdfkwQf2_ESx3KMmVmvXDr2WeXnReYmJBKhlmlIcb6hxblCTkexxAITxDupKw-apHzsuMXda=
+evhZKiaXoYscWWdl6nyXvQ/404/n0lRMlcyQFCsJXcgUSy8tA/h43/9vSjJ6XWsjWon8_cPhhUb=
+XxMeyEa_e4PcHZ72cFflmE" target=3D"_blank" rel=3D"noopener noreferrer nofoll=
+ow">Semgrep Supply Chain</a> and <a class=3D"link" href=3D"https://link.mai=
+l.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz_QqqMuSb3_vd_iqLnwBuOhd-aL0WX8ucwug=
+rv-YMTFn6c-6XFs2CXeV_JFtu-fv-bZJqWQANgmZnn1TCx1ZvvtofAsBtsAYsDyAZn-DyPelf6g=
+ovp5PFJQ7Lvc8xygnygMIA7BQtWql_NDJ_3zfagi_gPvL2P7AEXcqGmczgB4y/404/n0lRMlcyQ=
+FCsJXcgUSy8tA/h44/EMwgqDajg1lUFuetrJWdOyGhS99AHagbzUXKagfE8A4" target=3D"_b=
+lank" rel=3D"noopener noreferrer nofollow">Endor Labs</a> are meaningfully =
+pursuing reachability analysis in SCA. </p></td></tr><tr><td class=3D"dd" a=
+lign=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-wo=
+rd;"><p></p></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" st=
+yle=3D"padding:0px 15px;text-align:left;"><h2>SCA Vendors</h2></td></tr><tr=
+><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;=
+word-break:break-word;"><p><b>Dependabot</b></p></td></tr><tr><td class=3D"=
+dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:bre=
+ak-word;"><p> Dependabot (<a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz3--J6W7gETJE_3d9JPkVn_wq1W9ULqhc0xYB28oojK=
+nYLFGN6KQWKNpE1VcTQQOdXdWztk5Y0ndNellesArsA5nWXYBflVGjzQXIC8aJ-u6O-KrH_EpeJ=
+CpVGAzSjKG9qpxUMNr9fP2Z-S7fLxANIAlchf4R9cUBwGo--MgU3wyO4S-A8PTiv_N2cDlY7eBi=
+TZmYUhM5vrpbSTvAIhc7LJDwdc_pbiUvEoPwdKCI0Dg/404/n0lRMlcyQFCsJXcgUSy8tA/h45/=
+lmezv2yDNAjNGdVwShWdx8y20GANy7i_QmGPfe8Xd7g" target=3D"_blank" rel=3D"noope=
+ner noreferrer nofollow">acquired</a> by GitHub in 2019) was one of the ear=
+lier players in the SCA space, is free for open source repositories, and re=
+quires <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/8vDQboJ=
+Z7tsCc0RVWv88UJSLHpidLR-RBwZeBVsFNeRUrR28HMyMAXlOW7lNE5Lk3J46Ba8bxC1NpgsOs1=
+epMnhMasBH4YhDQ3Yz9cv3Hm8yvHkgeKoYntsVQ8JNbKQh2U658LR1wjLbjdXORwplIy555Nwfe=
+ggWGJ1sp0eNTKOXsrmi_mxqyxxySBe8gPhSSUn-nOAPpC31ncM43i5Q11PKGw9wzAVIihVTsbtO=
+BeTvS2_uuetx0cqnz0uWlevfv4pd-x4CT2OmnHj7pZhcdg/404/n0lRMlcyQFCsJXcgUSy8tA/h=
+46/QzoPtSzhUqnLcRFQVMyb4iOYle17oOJUjtA-Dm3I_9g" target=3D"_blank" rel=3D"no=
+opener noreferrer nofollow">an Advanced Security plan</a> for private repos=
+. Dependabot can issue PRs to easily update vulnerable dependencies, suppor=
+ts exporting SBOMs, and ensuring license compliance. </p></td></tr><tr><td =
+class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-=
+break:break-word;"><p><b>Snyk</b></p></td></tr><tr><td class=3D"dd" align=
+=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"=
+><p> As discussed earlier, Snyk has grown rapidly over the past few years, =
+with Snyk <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8=
+luUTay86bxp1ZIEAZyBC8iwPGWlcCm0WJUn_gus6Pr4_V_hvULl_cNhyq4qFkPN7mXtlj7pdloQ=
+55rItYpBO0FmYj4Y5XEzVfFzyjjXCSpVDtU2GrODKjt16eKCJMQ35AEWZU6wSl7qb48ibtL4-Ya=
+0sS0SygS5xfweTYy1OvmXuasb24Dj5DKF2ewvyHNHskCokG4jbv2wzsY0LI6cQ8lpg-mmfnGl-U=
+kT6u3Y/404/n0lRMlcyQFCsJXcgUSy8tA/h47/81UGIzEzrg1gAyu3M8qQh21rhD9qu3tuA0I4l=
+C278yI" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Open Source<=
+/a>, their SCA product, being their original driver of revenue, which they =
+used to buy a number of companies with complementary products (e.g. SAST, c=
+ontainer scanning, etc.) to scale their business horizontally. Snyk has the=
+ir own vulnerability database, and similar to Dependabot, supports auto-gen=
+erating fix PRs, license compliance, and exporting an SBOM. </p></td></tr><=
+tr><td><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D""><tr><td bgcolor=3D"#d9edd9" style=3D"background=
+-color:#d9edd9;padding:5px 5px 5px 5px;"><table role=3D"none" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td class=3D"dd" ali=
+gn=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word=
+;"><p> =F0=9F=92=A1<span style=3D""> Though their product pages and documen=
+tation are not explicit on how their analysis works, it appears that Depend=
+abot and Snyk may work by simply comparing a project=E2=80=99s listed depen=
+dencies and versions with their CVE database. That is, they may </span><spa=
+n style=3D""><i>not</i></span><span style=3D""> leverage a full-fledged cod=
+e analysis engine that can effectively reason about code, resolve method ca=
+lls, etc.</span></p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"=
+padding:0px 15px;text-align:left;word-break:break-word;"><p><span style=3D"=
+">This would explain why Dependabot (</span><span style=3D""><a class=3D"li=
+nk" href=3D"https://link.mail.beehiiv.com/ss/c/hgAGhxaLoz4B9_OiKIsIyhQtvVNy=
+7XomEI8sPyQQwwgYmKqxMpUHMr199AXsan1JT9CRLUT2H_ohdwPYIXuA24EcKaqPrY6K7uJjL_W=
+LiYLu9rhq3KnsI_iPtzhIRWQK6KmCqzd2UW7VS2xyB74MJg7lp7gvn92JZ2P-xMvyFjPgjtPFKx=
+UcTwZFjsWiKDcar9SdRNlsEsgmRbiwyr-jtMISJsns5gTw3xWWKb1sCjvcRTB6ci6OpXnFd0V_Y=
+69phbwy9mTmK1O2O_iXmdPIyg/404/n0lRMlcyQFCsJXcgUSy8tA/h48/zEaKrkTqVt2G41rHm1=
+yiqAmrNqo-qHidbYSm3laGXrc" target=3D"_blank" rel=3D"noopener noreferrer nof=
+ollow">source</a></span><span style=3D"">) and Snyk (</span><span style=3D"=
+"><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86=
+bxp1ZIEAZyK5Sa0yVr-fLnLEVAPtI7VyhbR3g-xBnEeUVmRf-GJOvzSIKwwr2VvVOoeWehmsOMQ=
+EOctYl9A9s1h8ob6MFn1zTXu8KSbSMn0aeLkrRTIWqz_0_oKOosId3iDy93pC6a48mVqflR1JNm=
+7Hbi--zSnXrAav_pJb9aHxOi5MZ3lAgeRW7d5tuaFR5R9Ib0CeGw/404/n0lRMlcyQFCsJXcgUS=
+y8tA/h49/b6lOe7JnoJM09EZJtLWG-7smH_0n0c0Gc9egkFLgyS0" target=3D"_blank" rel=
+=3D"noopener noreferrer nofollow">source</a></span><span style=3D"">) discu=
+ssed doing reachability analysis, but in practice they do not appear to hav=
+e prioritized this work in their products, despite the clear user value in =
+allowing developers to focus on upgrading the dependencies that meaningfull=
+y reduce risk.</span></p></td></tr></table></td></tr></table></td></tr><tr>=
+<td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;te=
+xt-align:left;"><h4><b>Semgrep</b></h4></td></tr><tr><td class=3D"dd" align=
+=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"=
+><p><b><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luU=
+Tay86bxp1ZIEAZwGcETuDUe0VkWjwArI-t6yziew1zNuvFzjEwpDrTNJRl8pJkX7GApcNeGqDDU=
+yb0Hl84YZv74HHM_4liBUFcaivOmCrPrIY-5lvkdfkwQf2_ESx3KMmVmvXDr2WeXnReYmJBKhlm=
+lIcb6hxblCTkexxAITxDupKw-apHzsuMXdaevhZKiaXoYscWWdl6nyXvQ/404/n0lRMlcyQFCsJ=
+XcgUSy8tA/h50/M0z4AemojnamcrCNa5lAeygRfHVLlMG9QH3W5J8MyYg" target=3D"_blank=
+" rel=3D"noopener noreferrer nofollow">Semgrep</a></b><a class=3D"link" hre=
+f=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZwGcETuDUe0VkWj=
+wArI-t6yziew1zNuvFzjEwpDrTNJRl8pJkX7GApcNeGqDDUyb0Hl84YZv74HHM_4liBUFcaivOm=
+CrPrIY-5lvkdfkwQf2_ESx3KMmVmvXDr2WeXnReYmJBKhlmlIcb6hxblCTkexxAITxDupKw-apH=
+zsuMXdaevhZKiaXoYscWWdl6nyXvQ/404/n0lRMlcyQFCsJXcgUSy8tA/h51/dZKuoHWzWYvKuC=
+hFiTEEFRvxhLYXRO50NBTYWfwWWc8" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow"> Supply Chain</a> has focused on <a class=3D"link" href=3D"https=
+://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZxHoow_4ERhQUGBNdoUTLJS5T=
+jWccXYqmHvnkL_9ya7azsWlKYNIF3ZsccOVeNoitrRr1hH4VNZ1W3voZLmAXxxHkKPB_r5kG6tU=
+vSRexSI4xG0QiaGf80m0AuDdO6Yw76iGzIwmMZc41biHSoz6e-eXnVnlCev5-UajuBZByaCcSlN=
+ET7rlduEgyA30HxfGkMd9EDDoxVYP-BgLJEy5nko/404/n0lRMlcyQFCsJXcgUSy8tA/h52/gNb=
+KuccCqXctQmlw4-5M5Ukt5ePdc9oeWh5EsLuyweM" target=3D"_blank" rel=3D"noopener=
+ noreferrer nofollow">reachability analysis</a> to help users focus on the =
+dependencies that matter, that is, dependencies that may be exploited due t=
+o the fact that an application=E2=80=99s first party code is calling the vu=
+lnerable function in the dependency. Semgrep Supply Chain (and Semgrep=E2=
+=80=99s other products) is free for up to 10 monthly users. </p></td></tr><=
+tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:lef=
+t;word-break:break-word;"><p> Semgrep Supply Chain also supports license co=
+mpliance, SBOM export, and <a class=3D"link" href=3D"https://link.mail.beeh=
+iiv.com/ss/c/YdY8luUTay86bxp1ZIEAZxHoow_4ERhQUGBNdoUTLJTSOwZY90hTiCY0Mr6gZC=
+R695M7Zc7485_3aFVCZ-qWzATyuyJJIMAWhI6brsVJsgbOHFOccL-PqKGiz7MMnATbGYlsSwbml=
+VrsgyrqAqDhku4EMZm29mJUKeH0O9HRLsFjNgAaTaKvBT6IL_jHg-lpCDcLQC0_qvTuQG4dFdBM=
+LMgSwsi00P928tXWvddG2_M/404/n0lRMlcyQFCsJXcgUSy8tA/h53/SwX3E7tLhqDFt2HGLuOz=
+TS6qoLkbbzl6pIixDgxdgGQ" target=3D"_blank" rel=3D"noopener noreferrer nofol=
+low">dependency search</a>, which lets you search across every codebase in =
+your organization for any dependency at any version, on demand. This can sa=
+ve hours or days of person-time in the case of a new, high-profile vulnerab=
+ility dropping, such as log4shell, in which you need to know where you=E2=
+=80=99re affected as soon as possible. </p></td></tr><tr><td class=3D"dd" a=
+lign=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-wo=
+rd;"><p> Semgrep also has <a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/YdY8luUTay86bxp1ZIEAZwGcETuDUe0VkWjwArI-t6yNf5aSGV2EZPXPm86rYyW=
+WHTVtBz7toKClcZ9u_DvTGm33XflxiO-KMBTj8k8GVHmgyc_f4nKphDSmWOdgE2hFJjdBa0qyiJ=
+h4u-HbhWbtxw9CvEAls3PIREtKtX8M3trIL1k-BWS6-tn_rCUlUzYOHMbRme4jtAOgMBHLWrPak=
+g/404/n0lRMlcyQFCsJXcgUSy8tA/h54/4yIZ-ZjLi_vvPJZYgFMOwg-cJaIE220L_ZWX4zpe3u=
+8" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Semgrep Code</a>,=
+ a SAST product that extends their popular <a class=3D"link" href=3D"https:=
+//link.mail.beehiiv.com/ss/c/hgAGhxaLoz4B9_OiKIsIyn0NH5Qw0NzjeWoYzPKTQ7Dv66=
+fG4K0t_XbMPwH9kNHB_wo3Siw0-s0D5jKYhAF9NbVqJqJOBuyEnQ8DylRP1sfMtqLL8-cUBt7Dm=
+shR_a1W1sh07aFtjbV0MO0o31Bp92Hk_PZEovYpxZNXrnW-4cd6b-OVB1kwmGQxVx--0ClS/404=
+/n0lRMlcyQFCsJXcgUSy8tA/h55/YR8oEdFgNgRqRz2Hnb8ANe-Az4T0UaI2P3reSV_I_Sc" ta=
+rget=3D"_blank" rel=3D"noopener noreferrer nofollow">open source engine</a>=
+ with more advanced analyses and additional security coverage, and recently=
+ launched <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8=
+luUTay86bxp1ZIEAZxHoow_4ERhQUGBNdoUTLJRD_ogXyr2nqWckpOoP97GYf5p3FIzWnidnX-2=
+DXmpXoUffPj9GtChuPHCknIlv7NsZoHXF3DGf1ny_rZu8dcgW6jSG_tkiXEo_iRujMnYR5o4xmj=
+Fm7GIGAbA6qenVzPGa46k3EdB-lEAYvnRUoSAGE-_m7DGUsxNXIGGhTjTGvpwfHsutYorgfASM0=
+nyLyEk/404/n0lRMlcyQFCsJXcgUSy8tA/h56/MOJU2GeRP1DRkGWa_XtTrwSp6sWvmKF_cHxY0=
+q9cMBQ" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Semgrep Secr=
+ets</a>, which leverages Semgrep=E2=80=99s code analysis capabilities to go=
+ beyond regex when finding secrets in source code and can automatically val=
+idate if detected secrets are currently live. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h4><b>Endor Labs</b></h4></td></tr><tr><td class=3D"dd" align=3D"le=
+ft" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><a=
+ class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhL=
+snBfz_QqqMuSb3_vd_iqLnwBuOhd-aL0WX8ucwugrv-YMTFn6c-6XFs2CXeV_JFtu-fv-bZJqWQ=
+ANgmZnn1TCx1ZvvtofAsBtsAYsDyAZn-DyPelf6govp5PFJQ7Lvc8xygnygMIA7BQtWql_NDJ_3=
+zfagi_gPvL2P7AEXcqGmczgB4y/404/n0lRMlcyQFCsJXcgUSy8tA/h57/wNZYP2DNV0eWZkHpJ=
+fo-BicktCMAkg8fu1YLGBsaQ1U" target=3D"_blank" rel=3D"noopener noreferrer no=
+follow">Endor</a> Labs similarly uses <a class=3D"link" href=3D"https://lin=
+k.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz_QqqMuSb3_vd_iqLnwBuOif4InMlNm=
+vZa4jka9y-qS1kivyV2Yy8zDpnknvfJ26ytsSrLpVTMi4iARIgHyBijkmeWWNj4M_IuGR1jDWny=
+FdgKV5fouHxJOkyoq4AEPjYOT9LEQjgbhT4DOnrgUgPy9OxckVaMWZ_1WniSj2KSUAXP2E9a2wu=
+hv88F1G_CTgP66xfH9Ar5Po35QvCbRAPH0/404/n0lRMlcyQFCsJXcgUSy8tA/h58/CgcrV9IIn=
+JPogBZsXcQxhgca9op1KHoI5Xb3UB_n6E0" target=3D"_blank" rel=3D"noopener noref=
+errer nofollow">program analysis</a> to perform reachability analysis of CV=
+Es in a project=E2=80=99s dependencies and supports exporting an <a class=
+=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz_=
+QqqMuSb3_vd_iqLnwBuOjl1pMUpyqVNjIj2-8OFXADGQZibPdc8Kl3naSi_3MhtKvcxwKCTgBtz=
+Zz33yhtjk6N-rmbZRiyKEuN1gKhGMgDf8ajzPdWpXLVUCwoNxz0KhOnqKar8oLAWZ7eTNu_q6-s=
+lp97H0PPzoOQiPNEiY3b/404/n0lRMlcyQFCsJXcgUSy8tA/h59/0g33rv--P-S9YMbfeD81HFe=
+Ae0w00ywBwZmeEGI637I" target=3D"_blank" rel=3D"noopener noreferrer nofollow=
+">SBOM</a>. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padd=
+ing:0px 15px;text-align:left;word-break:break-word;"><p></p></td></tr><tr><=
+td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;tex=
+t-align:left;"><h4><b>Oligo</b></h4></td></tr><tr><td class=3D"dd" align=3D=
+"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p=
+><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJ=
+zhLsnBfz14eYZd7-gGr1NBTR-4s81tkufNyrSsmYS6t1UPwTzGywoyaWQ1koi8TotMuRerpN2rA=
+1lJ13KXWJY3jW8KHQdYHmEK9csjuX7IvRHYKDzHR_UdgJ7yHlUgH4dm31db1G0AtBVPT0p_Jc0Y=
+73aD6aJveKuwfMN2rjUYG3MC7Zt00/404/n0lRMlcyQFCsJXcgUSy8tA/h60/Qu3xFIbkhVPSno=
+IbVb8gtpa-IdjvQu2Dp2i0Wnb30vE" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow">Oligo</a> uses <a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz14eYZd7-gGr1NBTR-4s81vaiAQOtYvuD_p9T281Lox=
+dQb3HGcnULXG7JJJOw8SHe9wpNLVHlXAGwNA8Qq2gYcqyQVuD16xUOhV0x_lQCqFmkYcemcBbS2=
+1eqVGWsDwBjbvTALkWAX2FSKwN3rdVIdvGhb1ljDSE9ZKIEzvebZRnUMuAdVe-06w1P8POKGpad=
+pCkd7mdl6dHPlhiTgZuN3ykzpIiY9XMtM8h9RPNifZUjHls3L_m5n-cgIrPUl96Wg/404/n0lRM=
+lcyQFCsJXcgUSy8tA/h61/gNH4yW4H5fY6zNQGxrCKP7JURYacvMMBB0an6Y5QApY" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">eBPF</a> to provide runtim=
+e visibility into the OSS libraries an applications relies on and how the l=
+ibraries interact and behave. Using runtime data, Oligo can inform users of=
+ which vulnerable dependencies are live and may be exploitable. Further, Ol=
+igo has a database of baseline behavior profiles of OSS libraries, which th=
+ey then compare to live package behavior, and alert when a library deviates=
+ from its expected activity, as that may indicate a successful attack. </p>=
+</td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;tex=
+t-align:left;word-break:break-word;"><p></p></td></tr><tr><td><table role=
+=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D""><tr><td bgcolor=3D"#d9edd9" style=3D"background-color:#d9edd9;pad=
+ding:5px 5px 5px 5px;"><table role=3D"none" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0"><tr><td class=3D"dd" align=3D"left" style=
+=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> =F0=9F=92=
+=A1<span style=3D"">=C2=A0</span><span style=3D"color:rgb(55, 53, 47);"><b>=
+Software Composition Analysis (SCA): Static vs Dynamic Approaches </b></spa=
+n></p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15=
+px;text-align:left;word-break:break-word;"><p><span style=3D"color:rgb(55, =
+53, 47);">It is useful to highlight the differences between Static vs Dynam=
+ic SCA solutions. </span></p></td></tr><tr><td class=3D"dd" align=3D"left" =
+style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><span =
+style=3D"color:rgb(55, 53, 47);">Static SCA performs analysis on source cod=
+e including libraries, dependencies, and custom code, allowing for early de=
+tection of vulnerabilities before software is executed. Meanwhile, a dynami=
+c SCA tool scans for vulnerabilities at runtime, allowing developers to und=
+erstand how an application utilizes external dependencies in runtime enviro=
+nments. </span></p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"p=
+adding:0px 15px;text-align:left;word-break:break-word;"><p><span style=3D"c=
+olor:rgb(55, 53, 47);">One potential trade-off between the approaches is th=
+at static tools may report issues in libraries that are not used at runtime=
+, which are effectively =E2=80=9Cfalse positives,=E2=80=9D in that they are=
+ not exploitable. More recently, some SCA tools have been adding </span><sp=
+an style=3D"color:rgb(55, 53, 47);"><b>reachability</b></span><span style=
+=3D"color:rgb(55, 53, 47);">=C2=A0</span><span style=3D"color:rgb(55, 53, 4=
+7);"><b>analysis</b></span><span style=3D"color:rgb(55, 53, 47);">, that ar=
+e able to only flag CVEs in dependencies for which the actual vulnerable fu=
+nction is called. Further, the runtime configuration of an application may =
+make practically exploiting a vulnerability impossible. </span></p></td></t=
+r><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:=
+left;word-break:break-word;"><p><span style=3D"color:rgb(55, 53, 47);">Mean=
+while, a dynamic SCA tool could be able to only flag vulnerable third-party=
+ code that is used at runtime (fewer =E2=80=9Cfalse positives=E2=80=9D), bu=
+t a) risks discovered much later in the development cycle could be more cos=
+tly and take longer to fix (vs being within developers=E2=80=99 existing wo=
+rkflows), and b) it=E2=80=99s possible that the vulnerable code is exploita=
+ble, but via infrequently called edge case code, so it may not be observed =
+at runtime. </span></p></td></tr><tr><td class=3D"dd" align=3D"left" style=
+=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><span style=
+=3D"color:rgb(55, 53, 47);">In general, SCA tools are an important tool in =
+securing a company=E2=80=99s use of third-party dependencies. </span></p></=
+td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-=
+align:left;word-break:break-word;"><p><span style=3D"text-decoration:underl=
+ine;"><span style=3D"color:rgb(55, 53, 47);">Note</span></span><span style=
+=3D"color:rgb(55, 53, 47);">: SCA tools looks for known vulnerable dependen=
+cies, and generally do not look for malicious dependencies, except for depe=
+ndencies that have already been determined to be malicious.</span></p></td>=
+</tr></table></td></tr></table></td></tr><tr><td class=3D"dd" align=3D"left=
+" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p></p>=
+</td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"paddi=
+ng:0px 15px;text-align:left;"><h2><b>Malicious Dependency</b>=C2=A0<b>Vendo=
+rs</b></h2></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0=
+px 15px;text-align:left;word-break:break-word;"><p> In this section, we wil=
+l discuss several vendors who specialize in identifying malicious third-par=
+ty dependencies in popular open source packages. </p></td></tr><tr><td clas=
+s=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align=
+:left;"><h4><b>Socket</b></h4></td></tr><tr><td class=3D"dd" align=3D"left"=
+ style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><a cl=
+ass=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIE=
+AZ7M_rdLr5tujxL6h6IBzyS9J4sLf-Y4RQWUVaJCb3uQbgc5bfQBAd4dle7jAvDI3uNhL2fzjhD=
+2IKSnjZhcn0ZVy0fOl5Itx11o177uQbUD5PegLOsPr2W_no_pJnn4xH9m3MCQiGIix00naLmeBH=
+bY/404/n0lRMlcyQFCsJXcgUSy8tA/h62/Qwbk_QBBcl41Lv-GF80AK6zDRpC41GvZfparzrTed=
+Vg" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Socket</a> appro=
+aches the supply chain problem by providing a platform that detects vulnera=
+ble packages in real time. It enables developers to understand the nature o=
+f the dependencies they are using through <a class=3D"link" href=3D"https:/=
+/link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ44rkwCqcQZTTnGoC4AITBRyRKg=
+Boq87Line2GmJ0jJOAaD9j0AuaLc-pG_C0671kTKprxiWEaLy94a3rzaHyGtXgVLZ4amT3e331T=
+LE-4v0Ib-uhmZRWOM3Y06foo4PQkUxDF--zlzZ9KwMrwrO_fTW9Bkqyg1GxqkgSK0KWL2Ru4U0j=
+9aM-xeWO8p12GbSbw/404/n0lRMlcyQFCsJXcgUSy8tA/h63/-k6RR8C7bj5ISmrTxfwj-zSKNe=
+HFZdicTRq1ReN2QFg" target=3D"_blank" rel=3D"noopener noreferrer nofollow">S=
+ocket dependency search</a>, dependency risk assessment, and content-based =
+analysis for detecting capabilities. </p></td></tr><tr><td class=3D"dd" ali=
+gn=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word=
+;"><p> Through its native <a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/YdY8luUTay86bxp1ZIEAZ44rkwCqcQZTTnGoC4AITBSMWebnFk7-vgNRyLuQ3Cu=
+WO9ppDBv62vC8p1l_2Jw4ghmi9KI3VM0XRJD9I4zqDpo_iunq_66OqawuDUsMS-0ihRlX0hXvO9=
+RLY3LiHkHoDcKMl-BiW254i2i2UHO5_t5FVuqtvUsIyoOBwZGgsM_O/404/n0lRMlcyQFCsJXcg=
+USy8tA/h64/h3HZ_ReOTwQw4JPewcFPWRrrQV-8PIQJKgD0o2lNhKI" target=3D"_blank" r=
+el=3D"noopener noreferrer nofollow">integration with GitHub</a>, Socket can=
+ provide developers feedback directly on PR comments about a dependency=E2=
+=80=99s behavior and security risk. These <a class=3D"link" href=3D"https:/=
+/link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ0NpSvGe1h10jQJx5O1JoiMtjxN=
+jE7h_73SIh3smX8M-pyWnaY9v7pyWlLxGZjWTVKZCC5lPUW2DG2nGYnAVMa2vpk2AEQ7TdreFIG=
+K12Ssa7drYEEwrP4i640igVDzyRv8HPMKv-yEq5EBJpR2mmc8whiFxOCWrr_Uh7DlWihsP4IqlT=
+IVN_8Wa2TKC4e1n9RWaATZ72Q-ynH6yIdoTTSA/404/n0lRMlcyQFCsJXcgUSy8tA/h65/QQU4X=
+fOuQwELrJXJ6DsVz0ks4rHmuY7IBERj42czxU0" target=3D"_blank" rel=3D"noopener n=
+oreferrer nofollow">dependency overview</a> comments provide a quick summar=
+y of which dependencies were added or updated, what =E2=80=9Ccapabilities=
+=E2=80=9D or API usage a dependency has (e.g. accesses the file system, mak=
+es network requests, runs shell commands, etc.), and the number of new tran=
+sitive dependencies. This helps engineering teams understand and make infor=
+med decisions about the impact of code changes in their applications. </p><=
+/td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text=
+-align:left;word-break:break-word;"><p> Socket has also written about lever=
+aging large language models (LLMs) to detect malicious dependencies <a clas=
+s=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ=
+w_ykYYPd-9fU4gDr7VDYzTePw5bnqgzg9-lG-1cJx79IcSecKRGjYzdx8JircmmVkiiG2iZKZ51=
+6xHNM1Tx4jD5eXJWmBCIZwGFSdTwYxKa7THbvX0UaMFUADG6CAJdWonK3d2TuIc4nEKoiHMrQ1Y=
+xXvs7gET7umr15oUA9wFvW-qZ5bnKVCqnwF_56FW0Zw/404/n0lRMlcyQFCsJXcgUSy8tA/h66/=
+fAGjRsOD9Q4glEk1KL4wzeh3gzpzIpX9kSAwt3jjkbI" target=3D"_blank" rel=3D"noope=
+ner noreferrer nofollow">here</a> and <a class=3D"link" href=3D"https://lin=
+k.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZ0NpSvGe1h10jQJx5O1JoiNkg2rV7km=
+efzbY5zu3l6insDHfJ62Xp9cwiz5rCBUalcBBgoOgJzB2hcOzcq03-vQayrI9U5aeMwpVyfgHlO=
+Cj2r0A4rjEIEGCPExE_3kOHw7cVo1kpOgB2_Q68hV5wYopOxFiMfon2xjnWrhhLgnlce6nRK6Lr=
+5JDfJDBtb2Jz3YXkjwkAgv865MJ9wQmvpHO_C1SxJyav3eKx-jWL2PR/404/n0lRMlcyQFCsJXc=
+gUSy8tA/h67/E5o8sYdBcYMrG1Oe9gi9OQPkAt83EipBN5JAuTPqd8E" target=3D"_blank" =
+rel=3D"noopener noreferrer nofollow">here</a>. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h4><b>Phylum</b></h4></td></tr><tr><td class=3D"dd" align=3D"left" =
+style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> Phylu=
+m approaches the problem of software supply chain security by leveraging bi=
+g data and machine learning to automatically identify and mitigate attacks =
+and other risks associated with open-source software. They achieve this by =
+continuously monitoring package publications in major open-source ecosystem=
+s, including npm, PyPI, RubyGems, Maven, Nuget, <a class=3D"link" href=3D"h=
+ttps://link.mail.beehiiv.com/ss/c/MTjxEF7wjrCDOAukHzgADemBJ7FXUi0KvY9WfWeKP=
+zIjKCPh__NOItEnfL2g52yca9Y8Ip78l8prhA3rgGuWO-B0QHnC6sD1m5zGKzM0dzOzoC-cWr1w=
+aE-DBq1f96ic0ZXwlECihNgrhLTaaUWw_SSpMScZIlpPMKckT-g8xv4/404/n0lRMlcyQFCsJXc=
+gUSy8tA/h68/9hmVpYJn7gOoU7EE-IuGcsFVN0JGz1xmA8CTH6QTNIk" target=3D"_blank" =
+rel=3D"noopener noreferrer nofollow">Crates.io</a>, and Golang. </p></td></=
+tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align=
+:left;word-break:break-word;"><p> In real-time, Phylum examines the source =
+code, authors, metadata, and other factors of newly published packages. The=
+y use heuristics, analytics, and machine learning to determine if a package=
+ exhibits suspicious behavior indicative of malware. This year alone, they =
+are projected to analyze nearly a billion files across 15 million package p=
+ublications, providing comprehensive coverage of popular open source soluti=
+ons used by developers. By cataloging and classifying this vast number of p=
+ackages, Phylum can offer organizations insights into attacker behavior. </=
+p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;t=
+ext-align:left;word-break:break-word;"><p> Phylum believes in a defense-in-=
+depth approach to software supply chain security works. They recognize that=
+ developers, with access to source code and production infrastructure, are =
+high-value targets. Therefore, Phylum goes beyond blocking attacks during C=
+I/CD (with integrations for popular CI providers like Github and Gitlab) an=
+d also focuses on ensuring developers&#39; safety during the development pr=
+ocess. To this end, they have open-sourced a sandbox (<a class=3D"link" hre=
+f=3D"https://link.mail.beehiiv.com/ss/c/hgAGhxaLoz4B9_OiKIsIyoMcCCsRkQHSvWx=
+XcX-KdwRfbASLZ7D_H0A9YDX77WT71BqhWYh-eLOFi32AWhtyYm4i2-5aLTsNO34dguu10e7r3R=
+88lyHA4jRmPJ7enC35g_flGc1HreFMoJzwF9BNXkTWcg6lviBOy_zcZOprGtYAx3lgPXdLz4kMH=
+Tk9lmGL/404/n0lRMlcyQFCsJXcgUSy8tA/h69/jLVvILvz0c4CVFQThdCs4FIVLWWM_WcGjfd_=
+KcWLbgI" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Birdcage</a=
+>) that restricts network, disk, and environment access. </p></td></tr><tr>=
+<td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;te=
+xt-align:left;"><h4><b>Datadog=E2=80=99s GuardDog</b></h4></td></tr><tr><td=
+ class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word=
+-break:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.=
+com/ss/c/YdY8luUTay86bxp1ZIEAZws1pD4Jwo4E-krVpq3OVsNdZoaEUaM1XVuT062UgigzdC=
+4uE_1BTVcoKpV79cmQJ8RJNz3Irb_QFUQTPrOG9KSxiUOUg6tJQzUq3tY1UsP0XroedVsOz9VJ4=
+CjB3yUGXccclPGeL3-SZAqb24EvSHvkaXS-4q19W9yRtBOra04p9u2dm7vyDE9M3Uaf-ZRkG6eh=
+Oiw_m0-Kpg8HISkhffgMMTRa9xXI6uPIV8lxMEOs/404/n0lRMlcyQFCsJXcgUSy8tA/h70/DYQ=
+wxx0oAMNNfVRkzV8FFAXj7kLIbra2sxSikRcG8hU" target=3D"_blank" rel=3D"noopener=
+ noreferrer nofollow">GuardDog</a> is a new open-source solution <a class=
+=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/YdY8luUTay86bxp1ZIEAZw=
+s1pD4Jwo4E-krVpq3OVsNdZoaEUaM1XVuT062UgigzdC4uE_1BTVcoKpV79cmQJ8RJNz3Irb_QF=
+UQTPrOG9KSxiUOUg6tJQzUq3tY1UsP0XroedVsOz9VJ4CjB3yUGXccclPGeL3-SZAqb24EvSHvk=
+aXS-4q19W9yRtBOra04p9u2dm7vyDE9M3Uaf-ZRkG6ehOiw_m0-Kpg8HISkhffgMMTRa9xXI6uP=
+IV8lxMEOs/404/n0lRMlcyQFCsJXcgUSy8tA/h71/a3-xmOfJb21wH7MWiW-3hxjLSgwqN9IHg7=
+d5E7ISYiA" target=3D"_blank" rel=3D"noopener noreferrer nofollow">announced=
+</a> by Datadog earlier this year that allows developers to identify malici=
+ous Python packages using <a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/YdY8luUTay86bxp1ZIEAZwGcETuDUe0VkWjwArI-t6yziew1zNuvFzjEwpDrTNJ=
+Rl8pJkX7GApcNeGqDDUyb0Hl84YZv74HHM_4liBUFcaivOmCrPrIY-5lvkdfkwQf2_ESx3KMmVm=
+vXDr2WeXnReYmJBKhlmlIcb6hxblCTkexxAITxDupKw-apHzsuMXdaevhZKiaXoYscWWdl6nyXv=
+Q/404/n0lRMlcyQFCsJXcgUSy8tA/h72/YSe5oXRQxWB7hBfsqtA2xRSBFPSC4GY_CDBUdZoU5R=
+4" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Semgrep</a> for s=
+tatic analysis and package metadata analysis. GuardDog introduces support f=
+or scanning not only PyPI, but also npm packages. GuardDog can be integrate=
+d into a continuous integration (CI) pipeline and scan new dependencies int=
+roduced by pull requests. Datadog open sourced a number of <a class=3D"link=
+" href=3D"https://link.mail.beehiiv.com/ss/c/hgAGhxaLoz4B9_OiKIsIyrZ_wyCYIb=
+hxnhV-7pZqLib6vYwHyoJwt0H4qTce8NS6xm1NJwTG4_3ot4PuPBX7XgKzdr59mUhtB1p8aY45-=
+o_Adw-9CoPV4dWOEXMqLIj_8-uP18dN6Cy7o_M6X3osdt7u4JW-XeAX6gGLqmKRJRFP5KMq5mcC=
+bUF2_KBqzLH9w8fLTai6m10FXu7klozVKqSrKSgKr0TVQF5znN8m3Lg/404/n0lRMlcyQFCsJXc=
+gUSy8tA/h73/BKwpcIscKkOV27pNgYCmg7xqZ05wnTcQo3G76PWNKxw" target=3D"_blank" =
+rel=3D"noopener noreferrer nofollow">malicious packages</a> they found duri=
+ng their research. </p></td></tr><tr><td class=3D"dd" align=3D"left" valign=
+=3D"top" style=3D"padding:0px 15px;text-align:left;"><h4><b>Endor Labs</b><=
+/h4></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px=
+;text-align:left;word-break:break-word;"><p> Though it does not appear to c=
+urrently be a focus of the company or an available product offering, Endor =
+has shared some blog posts about prototyping malware detection using LLMs <=
+a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzh=
+LsnBfz_QqqMuSb3_vd_iqLnwBuOhJctOp5_r6SYkwSnj3qgj9iCLVsYQtxFYKDUX5qubSvYbhfR=
+4XkN6jdP7e9d3DrZoaFZpgCvkm6IjGRCyFnp-Ts36wl-2X5SUr3rchzN5NZeKMtVKVjQth4N8LE=
+qiSWqr9A7if44x72izRBCGxEhSIsXxkPFMGJvqA7YmhJDKWPaX_UvmU64ht5lIGavz9fFJ_gsD3=
+JRoV5mOAwzLmfU-F0NSDzt6HubOgbRECk3Rsvw/404/n0lRMlcyQFCsJXcgUSy8tA/h74/12cFa=
+3-q3dQpxSWQwWxmn3c9LqC4Yro_NoVJhutW6hI" target=3D"_blank" rel=3D"noopener n=
+oreferrer nofollow">here</a> and <a class=3D"link" href=3D"https://link.mai=
+l.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz_QqqMuSb3_vd_iqLnwBuOg9-r3DsG56khsB=
+Xt1F8D3uzIGPl1yrO7ZD5bWeq_54i-pVSZrmPRTHqofrZxLMjNT3ipdIdRvlIfulmfT_-DqLqiY=
+Gei9imD_Ol0a5ELCaP-ZBoTQuWXee3h3Q8axxjC86NY6eBDN2TSbalx-cOfJd98IkuC8PBRRivr=
+meC0iSjNb5iaXlEGpHaU4dysGcaxBeHYLLHkKMM1-9H4eFxeGn/404/n0lRMlcyQFCsJXcgUSy8=
+tA/h75/eLHFXuFNDJBq9F1-N3PW2XupGNniYQHB7Gg9vpMIHGE" target=3D"_blank" rel=
+=3D"noopener noreferrer nofollow">here</a>. </p></td></tr><tr><td class=3D"=
+dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:bre=
+ak-word;"><p></p></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"to=
+p" style=3D"padding:0px 15px;text-align:left;"><h2>CI/CD Pipeline Security<=
+/h2></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"p=
+adding:0px 15px;text-align:left;"><h4><b>OX Security</b></h4></td></tr><tr>=
+<td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;w=
+ord-break:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehi=
+iv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz60z3UZyiXLQQz1-zwO8TJYiPs2kf96v9dJGO15gE2U=
+1IXNPOcYtRF8Z6UxAHb3YBGOqnFTGJO3g2IvxflGsJWP4XG8yLBFDqtJEnBbppR4-a0gzEtYdkf=
+xvQlFxoDIktT9R3tw4hqUPkrIhbS6guhDmHZp84CKA8ZPBdUwNBf8c/404/n0lRMlcyQFCsJXcg=
+USy8tA/h76/DskR2PZ0In7kxmFnFWnM6YWum5byviIglnJFlPHfTAs" target=3D"_blank" r=
+el=3D"noopener noreferrer nofollow">OX Security</a>&#39;s approach to suppl=
+y chain security focuses on the software CI/CD pipeline. OX introduced the =
+term <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0s=
+i0xJzhLsnBfz4l7fVr35qrN1ofLMLThcKh2w0EV0mf23Rms3lqWJ1pD6TrfXH4sEB9HCCDXJ7mw=
+5UrQ6UDm5vboDyFEF2eKW4HR_fvfsFzztZHNSjJEL58kHy8gZZCeAscAi8205k8EmqAiMKnH-dU=
+XDVVJfDEN8KeZbleJhtjnB66f61FSmZeeIfZP_NMaGg-cYPbY39RX0Q/404/n0lRMlcyQFCsJXc=
+gUSy8tA/h77/_F1dfw8LppZuGTzF4hgsP9ZzY3It61MUN_mzEtPkQ3g" target=3D"_blank" =
+rel=3D"noopener noreferrer nofollow">PBOM (Pipeline Bill of Materials)</a>.=
+ For every pipeline build, OX generates a signed knowledge graph called PBO=
+M, which creates a dynamic Bill of Materials (BOM) showing the software lin=
+eage throughout the development lifecycle. Essentially, it is an continuous=
+ly updated map that includes everything an SBOM would have, along with a re=
+cord of the infrastructure that the software has passed through (e.g., pipe=
+line branches, builds, pull requests, tickets, known issues). <a class=3D"l=
+ink" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz6soTFY=
+TcD5n5_c5oPsN32fT5wyET5J5Em5TQtTzesYHWIKGzmcfE2Th2YAQnodZ7p1rPDZhAJdAvYr1Sw=
+Dyo2MN5lpKa3maxEk9OGVPZivFFfMwiA11rXVm7KfGtikeZ-0skkdZiXkarkuBzitEkWlgOjxmN=
+wjgbNlW8ef95E8-VqFG2aP5eVtROo1z81u48A/404/n0lRMlcyQFCsJXcgUSy8tA/h78/u6ljb9=
+C1Epy3aBaziAspGnJb2iCN2_LmndYJ4wf9ohI" target=3D"_blank" rel=3D"noopener no=
+referrer nofollow">OX Security ASOC</a> Single Source of Truth and <a class=
+=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz-=
+Q-V83Jzp9819Le3vdcOYSf9cvTqNDuh4KFRXit1gsDs_-zXSagQB8AjCn6s_ccURxXU0kUxMBsb=
+Up214Dbk8u69gDEHEYwwGO8XrIfYbPeSDmsqdAY_qHtcOLSWOe91AZVHDk5E7riSry3tmAuf3Od=
+AzijO4yr5EZZ-I1n6bFP6mHyl6Ze4lFcpZohAHzrLA/404/n0lRMlcyQFCsJXcgUSy8tA/h79/c=
+pr2Ve5VcR6MnxVTvpN4Tb6xyKIuvTi2NKPmZIr_nfY" target=3D"_blank" rel=3D"noopen=
+er noreferrer nofollow">CI/CD Workflow automation and security posture</a> =
+specifically help achieve traceability and visibility of all components thr=
+oughout the build and pipeline stages. </p></td></tr><tr><td class=3D"dd" a=
+lign=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-wo=
+rd;"><p> OX Security co-created the <a class=3D"link" href=3D"https://link.=
+mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzxtka926_MraeGPjv1OeScEItHOmqN1Mn=
+MnWGsUlSODpawW6YHTuWMJ5nbBSQQz1mBJRxYN5N9DAWql8tqNtLSrLBq2j1Mc5f8HZXepzGBEJ=
+jdBvDM-O97x4tgBBgQcc2o7Xj46INekpBOOM4k06Qg-DgpkLArHGgtGum9LEP8T5NMUbmdJIA1I=
+B4gK5ARRKK3M1y7crXVJWdKkTM-nbsZJEhsnRkzRkMfCn8TH0OU1a/404/n0lRMlcyQFCsJXcgU=
+Sy8tA/h80/SD9DmKxc13w8f51sllaMOO-2PUpXVH8EisAs7Isb2Mw" target=3D"_blank" re=
+l=3D"noopener noreferrer nofollow">Open Software Supply Chain Attack Refere=
+nce (OSC&amp;R)</a>, an open-source framework for understanding and evaluat=
+ing threats to the software supply chain including tactics and techniques f=
+or addressing these issues. OX security built their product using this fram=
+ework which is why they have solution catered across the supply chain. </p>=
+</td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;tex=
+t-align:left;word-break:break-word;"><p> OX examines code repos and maps pi=
+pelines to find security flaws and incorrect setups. OX deploys various sec=
+urity tools like static analysis, SAST, secrets scan, containers scan, and =
+IaC scan to identify risks or misconfigurations during a build. It then gen=
+erates a benchmarking application risk score after analyzing code scans, se=
+crets hygiene, packages, and pipelines. </p></td></tr><tr><td class=3D"dd" =
+align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:left;"><=
+h4><b>Cycode</b></h4></td></tr><tr><td class=3D"dd" align=3D"left" style=3D=
+"padding:0px 15px;text-align:left;word-break:break-word;"><p><a class=3D"li=
+nk" href=3D"https://link.mail.beehiiv.com/ss/c/qo9WS1QC0AuWQxr9i-K2dOnW_0Jn=
+SmRRsAB51HGjAeH0ADlP8WsOSX2jba8utE_XJA6V2UsqXhlgmyJcXtdWIIeEgTfrtXgtpYJTpVk=
+fwPzW5vBa8e3hoU1YS7OT-pcP1nyOd3F_RGqWA9Sc7vNOMcRjKmSdDUt5UUIRFsVuE5Nn5OhU08=
+GtUcY1TRZSYnwqfNavRydoeowJuUA3gyYxvg/404/n0lRMlcyQFCsJXcgUSy8tA/h81/U3_F8Fx=
+4cZCkZAbl_KB-cBHxv7lPiNvCgxPtz6FWvog" target=3D"_blank" rel=3D"noopener nor=
+eferrer nofollow">Cycode</a> specializes in CI/CD security and build harden=
+ing through its <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/=
+c/qo9WS1QC0AuWQxr9i-K2dOnW_0JnSmRRsAB51HGjAeH0ADlP8WsOSX2jba8utE_XJA6V2UsqX=
+hlgmyJcXtdWIIeEgTfrtXgtpYJTpVkfwPzW5vBa8e3hoU1YS7OT-pcP1nyOd3F_RGqWA9Sc7vNO=
+McRjKmSdDUt5UUIRFsVuE5Nn5OhU08GtUcY1TRZSYnwqfNavRydoeowJuUA3gyYxvg/404/n0lR=
+MlcyQFCsJXcgUSy8tA/h82/mBxhulYWe2RMWBaxmlqoo-P35jNzXDixvoIb8dDekes" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">source control</a> feature=
+. Cycode utilizes a lightweight eBPF (Extended Berkeley Packet Filter) secu=
+rity solution that can detect attacks during the build process. They can ma=
+nage supply chain breaches by scanning for compromised pipeline runners and=
+ monitor against attacks such as typoSquatting or malicious dependencies in=
+ the build. Cycode also offers a <a class=3D"link" href=3D"https://link.mai=
+l.beehiiv.com/ss/c/qo9WS1QC0AuWQxr9i-K2dOnW_0JnSmRRsAB51HGjAeG9-C170f5Xx2R0=
+GZUrbylWdWEsPyENQ5vUqDOxU3pTzj_wwcPoXoQYKX5ilej6Vwpev_5gtrIce8Qe0arfYl6spU4=
+mCDPF5-xK6kRYNI_3TtkiMg6FMicFEQ2ElWWZAosoTYg74O8wRoPaS_awgTXsdq6xtRXh5Dob_-=
+SvoBxQ7Q/404/n0lRMlcyQFCsJXcgUSy8tA/h83/Va6iUEcNwzcUnR7mx1vXciRX1lMv60Zbuek=
+Q4J9bPtg" target=3D"_blank" rel=3D"noopener noreferrer nofollow">source cod=
+e leakage detection</a> product that reduces the likelihood and risk of cod=
+e leakage. It alerts on suspicious behavior and identifies actual leaks of =
+proprietary code, enabling quick containment. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h4><b>Tromzo</b></h4></td></tr><tr><td class=3D"dd" align=3D"left" =
+style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> Tromz=
+o addresses supply chain security through what it calls <a class=3D"link" h=
+ref=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTbiAAoIiTPyID=
+yt0vbG2FK-BWFNe4eoYdOxMEZVDHg9LxyPokU3tsTIJGjl8Trggtyq7ktcSBKED5wPfQL4axDbp=
+0VLN728JsglfW09TdgfLKGsPi--R9TmIlHzFLipBq470bGfEQMNtfVl8ZwT9X93exm3LLnfVo2v=
+2jGtOx6aY/404/n0lRMlcyQFCsJXcgUSy8tA/h84/soMTGKHLJ6kPtqHKk13P8tgE21oga6kacu=
+y0DwfbO4U" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Product <=
+/a><b><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZT=
+RcGYFYMrl5MxTbiAAoIiTPyIDyt0vbG2FK-BWFNe4eoYdOxMEZVDHg9LxyPokU3tsTIJGjl8Trg=
+gtyq7ktcSBKED5wPfQL4axDbp0VLN728JsglfW09TdgfLKGsPi--R9TmIlHzFLipBq470bGfEQM=
+NtfVl8ZwT9X93exm3LLnfVo2v2jGtOx6aY/404/n0lRMlcyQFCsJXcgUSy8tA/h85/BkFelEd1C=
+CbzQ84F3LpKDMrVBhdptjJuEk6jJqGZPa0" target=3D"_blank" rel=3D"noopener noref=
+errer nofollow">Security</a></b><a class=3D"link" href=3D"https://link.mail=
+.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTbiAAoIiTPyIDyt0vbG2FK-BWFNe4eoYdOxME=
+ZVDHg9LxyPokU3tsTIJGjl8Trggtyq7ktcSBKED5wPfQL4axDbp0VLN728JsglfW09TdgfLKGsP=
+i--R9TmIlHzFLipBq470bGfEQMNtfVl8ZwT9X93exm3LLnfVo2v2jGtOx6aY/404/n0lRMlcyQF=
+CsJXcgUSy8tA/h86/N-8TysE_Vlb6AdVG8T970uP2d6aHvET2lqHz8McFt5c" target=3D"_bl=
+ank" rel=3D"noopener noreferrer nofollow"> Operating Platform</a> (PSOP). T=
+his means they go about solving SSC issues by bringing visibility across a =
+company=E2=80=99s software asset inventory and all aspects of the CI/CD pip=
+eline. They provide customizable security policies in CI/CD (that cuts acro=
+ss secure defaults, code ownership, and scan coverage) to enable teams to b=
+uild security systems. In addition, Tromzo offers a CI/CD (Continuous Integ=
+ration/Continuous Deployment) posture management solution that ensures buil=
+d servers require authentication, limits the ability to create public repos=
+itories, and sets security keys to expire by default. The company also addr=
+esses potential vulnerabilities in the pipeline by restricting risky develo=
+pment practices, such as executing third-party resources before verificatio=
+n or referencing images in a build that may be externally altered. </p></td=
+></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-al=
+ign:left;word-break:break-word;"><p> Their platform is more targeted for AS=
+PM buyers due to the breadth of coverage closer to the deployment stage. Se=
+curity teams utilize Tromzo&#39;s proprietary <a class=3D"link" href=3D"htt=
+ps://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz1TQ8WC7kSWUuBvS5SSYJYV=
+bXucCXS7Wuni_qnv7slH0E9FSzhLAzA7_-I6XrsXJPcBt8e-nV-A2gQl6tD3U4yENUot8ziXc4Q=
+Y4W68nEy0VMq3OkeKKgldWENdVm7keMs60P_LCdYN4bVdV3Y17wklvqA3CggSiubw8AVLezAr6r=
+0uY7dXwCFsdMwzI6ugdmgz9VQ5nIQ0gHjc1OP1gUOZXWszM4GTiIpavqONwQFr83uuzRrEFiQJS=
+egGsNQaGwv4eC4DblSEbmcIS8aRO-DE/404/n0lRMlcyQFCsJXcgUSy8tA/h87/nz78BmvImr18=
+bFhhdOYZuEubj8QQYemh3_B_XuzbzuI" target=3D"_blank" rel=3D"noopener noreferr=
+er nofollow">Intelligence Graph</a> to identify critical software assets, i=
+ncluding ownership and lineage, and address the vulnerabilities that pose t=
+he highest risk to the business. </p></td></tr><tr><td class=3D"dd" align=
+=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:left;"><h4><b=
+><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJ=
+zhLsnBfz9IupL3jD8JRvdEThuACvE0mfGjPaKBIIPUgg8QMrmaF5rsn3EL9fjyNam4rADkY9Uhl=
+cZWc2ui6pfg95B-ncaASxwQzQqK6zMxt0qSWsL475fAk-zHOtR30sS4HFU2gTWJRue8ksLlIsvB=
+Jjhz9m6xLMUzRjTq9FTuLY_sp6t_E/404/n0lRMlcyQFCsJXcgUSy8tA/h88/WyXatY-I28nXcc=
+YMIpOBIzRjTa088yOwnNWFHN6uzgY" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow">Cider Security</a></b><b> (now part of Palo Alto Networks, </b><=
+b><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0x=
+JzhLsnBfzzH5eyDYccgEpUyIgfN_p5sKtO3ZvumSjq-Oiw0-Zv2tEthttdC9Nj9bueFnYc8Pdmb=
+DcRvYNxfo3jeZJio7m5od9NqZB7z0TSU5-_GX-4gHvX9ABMnw5wxf6XFH9YIClkcdEK0Y2iwgEb=
+UH-VpTZoiTCGI_uvKl2LyFOviR84Den1EIReuR1GpPcA84EjUYTwEWvCEVtjRqZJ9bukUZr0w/4=
+04/n0lRMlcyQFCsJXcgUSy8tA/h89/SpagcDAdn_MuDgZocCclgW28BbqN8rfVL9GCC_JydPE" =
+target=3D"_blank" rel=3D"noopener noreferrer nofollow">Prisma Cloud</a></b>=
+<b>)</b></h4></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding=
+:0px 15px;text-align:left;word-break:break-word;"><p> The original Cider pr=
+oduct, now sold as Prisma Cloud, utilizes a graph-based database to provide=
+ a consolidated inventory of a company=E2=80=99s CI/CD pipeline in a single=
+ view. The product specifically scans for exposed credentials in webhooks o=
+r pipeline logs that could be abused. Due to Palo Alto=E2=80=99s wide produ=
+ct range, they are able to correlate disparate signals across codebases, sc=
+anners, orchestration and automation tools to centralize visibility and con=
+trol over a developer=E2=80=99s workflow. </p></td></tr><tr><td class=3D"dd=
+" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break=
+-word;"><p></p></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top"=
+ style=3D"padding:0px 15px;text-align:left;"><h2>Container Security</h2></t=
+d></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:=
+0px 15px;text-align:left;"><h4><b>Chainguard</b></h4></td></tr><tr><td clas=
+s=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-brea=
+k:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.com/s=
+s/c/AVcX7Ry0si0xJzhLsnBfz_QiwUq09uMgSv7ICxxJRk4KKE6K3mtqEbvgFNLNnLID210BtbX=
+M7tk9gPDdZfCMkOHT8zFz3lGyl0VoxQup48GbL1upQL9uMm872rffTQYrW-eeSAy3-48j9PqPTE=
+QIZypdguo5VdgQUiKtSTPRqXY5OYJ9rhjcx1pt76xlBOJDMXlzWHbLN6DZSrm5aKxnJw/404/n0=
+lRMlcyQFCsJXcgUSy8tA/h90/qobr2N4Re0_eGLrck9CJBXT6Kv9Hmdk6t-un5fO8JlE" targe=
+t=3D"_blank" rel=3D"noopener noreferrer nofollow">Chainguard Images</a> off=
+ers a suite of security-first container base images without extraneous pack=
+ages that allow developers to build upon this clean image signed by Sigstor=
+e. Throughout the process, developers can generate SBOMs during the build p=
+rocess using Chainguard. The images for platform teams reduce overall scann=
+er noise, are designed to help users to increase their SLSA assurance level=
+s and stop manual patching by taking care of updating images. They can be u=
+sed to ensure continuous verification, ensuring packages in development rem=
+ain in compliance with no vulnerabilities even post-deployment. </p></td></=
+tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px =
+15px;text-align:left;"><h4><b>Aqua</b></h4></td></tr><tr><td class=3D"dd" a=
+lign=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-wo=
+rd;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7R=
+y0si0xJzhLsnBfzwg9tIA66z5kspCNMvBmmhf-XHtpGN3zTtOSFD7siFMUGfnKwDJM04pduGpEm=
+nDJ9tTGkkPfHG3ZF_Rp0Z7YBShpIcArraP5-bJD3yrxD1hM07bdsHfg6gdn9yfNK5hlMvhXSazN=
+WYe_7frzQyOLrVf7K64egPJrXGYDfaoFi7ja/404/n0lRMlcyQFCsJXcgUSy8tA/h91/CF63LUV=
+pXsb80LGr7Q2_dFWve-4jNWfaBYxNlEk-WuA" target=3D"_blank" rel=3D"noopener nor=
+eferrer nofollow">Aqua</a> Security offers a <a class=3D"link" href=3D"http=
+s://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz5TAEsaqRSOumnvobm2jGaLv=
+YxGwdoHQ0Hdroh5NQcTzRcIqIBos6zsvJ-Oi1SLCip5xNZV8IbX1-wWh2iNkgJHSe68A0ECbjoi=
+CCdQnmlpLoSv_bbhedCTygDMyIsRthFBZkx9jjKF69xVA0aKZ6mcUqWxwiLHnhesMT-Ct0wPbD0=
+U6_MRS_ReaYWUMJGJSsQ88Jr2gvkN-LLSgc5Wo6dQ/404/n0lRMlcyQFCsJXcgUSy8tA/h92/dt=
+7v4IeAaLi4hp52hFYeF5oIf06kj3cw0joRpNZvjAI" target=3D"_blank" rel=3D"noopene=
+r noreferrer nofollow">broad set</a> of software supply chain features that=
+ includes SBOM generation with popular industry formats. However, its core =
+strength lies in its container security product. They can scan containers r=
+unning on VMs, and serverless containers such <a class=3D"link" href=3D"htt=
+ps://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzyy--ZrkXzA-1zD8SIHiMbJ=
+IlY85l0X7o_o1prV0PosOnqG76kMCt0TR9B0alXvdKMTaMJxhnor-KuC0dQYJuDLeebsTRAa937=
+XvRBjuOTB3mQytcoJ-l3Pd4ed6Kon_buK0y_mfRAOoaiMk3mOn6A4ulI3d6eObaJQaer5u3CAm_=
+NXKds4W4Tww12Aiga-A067jJRpvUm78hTGGj1R81H8/404/n0lRMlcyQFCsJXcgUSy8tA/h93/n=
+1KadPDd4KOYRDrCWkSDfXkbWEpre6jH3NG9EGrLDgo" target=3D"_blank" rel=3D"noopen=
+er noreferrer nofollow">as Fargate and Azure Container Instances (ACI)</a>.=
+ Aqua=E2=80=99s provides image scanning as well as the ability to provide d=
+ynamic analysis of images. Their solution integrates with a wide range of c=
+ontainer registries and Kubernetes platforms. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h4><b>Rapidfort</b></h4></td></tr><tr><td class=3D"dd" align=3D"lef=
+t" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p><a =
+class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLs=
+nBfz8lWHgtHFcKHN8ZxCoFV2M4eGPqwfdjQeQJ-NKeiuH84-It4d5R4pzWPzEdncescLoUxenZP=
+SidVZzSKn7Dxu28B2fdaAH35ffszzKnYkhV4ZmNk48NMtsa80UaEAp_jaHG7cGJZvAoTxY2nWzX=
+nOhGOm7ba7mlvBbq8rIMUfr9v/404/n0lRMlcyQFCsJXcgUSy8tA/h94/aSMUd6LH4Q-fY1n56o=
+HL0ghzR9SR9di0XiV4rdwOBTk" target=3D"_blank" rel=3D"noopener noreferrer nof=
+ollow">Rapidfort</a> has taken a container-based approach to tackle the pro=
+blem. They introduced the concept of &quot;RBOM&quot; (Real Bill of Materia=
+ls), which is an SBOM (Software Bill of Materials) post-container optimizat=
+ion technique aimed at reducing noise to minimize vulnerability alerts duri=
+ng scanning. Rapidfort automatically optimizes containers to include only w=
+hat is necessary. Developers can provide fine-grained configurations or use=
+ vendor-provided recommendations, and the solutions offer post-optimization=
+ analyses that detail which files, packages, and vulnerabilities were remov=
+ed. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px =
+15px;text-align:left;word-break:break-word;"><p></p></td></tr><tr><td class=
+=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15px;text-align:=
+left;"><h2><b>The Packaging &amp; Deployment Layer</b></h2></td></tr><tr><t=
+d><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D""><tr><td bgcolor=3D"#d9edd9" style=3D"background-colo=
+r:#d9edd9;padding:5px 5px 5px 5px;"><table role=3D"none" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td class=3D"dd" align=3D=
+"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p=
+> =F0=9F=92=A1<span style=3D""> The packaging &amp; deployment layer discus=
+ses vendors that focus on code provenance, code signing, SBOM generation/ma=
+nagement and artifact repository. Many of the vendors provide visibility ac=
+ross software assets, compliance and important software metrics.</span></p>=
+</td></tr></table></td></tr></table></td></tr><tr><td class=3D"dd" align=3D=
+"left" valign=3D"top" style=3D"padding:0px 15px;text-align:left;"><h3>Softw=
+are Bill of Materials (SBOMs) / Code Provenance / Code Signing</h3></td></t=
+r><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 1=
+5px;text-align:left;"><h4><b>Chainguard</b></h4></td></tr><tr><td class=3D"=
+dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:bre=
+ak-word;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/A=
+VcX7Ry0si0xJzhLsnBfz_QiwUq09uMgSv7ICxxJRk5U0dAk4yiK8KSaMf1rH--lRYK6hC6K3yaY=
+FiU8QR7t4h593eKz0JzbilaLXo7u8nXf5tc8t53ktYqa6662LjrvGv8bswM2qZ5B9O_Bi873SQp=
+dxtDtdZMuku50oCTw6Cc9s8AUmSfNqJRF6ma6wOYsmO12wSC8AT60VRY3EvOUUw/404/n0lRMlc=
+yQFCsJXcgUSy8tA/h95/l7LqMhaCEOO4kibO2CaBTRzwml1_WRlKR2aXEUz0C34" target=3D"=
+_blank" rel=3D"noopener noreferrer nofollow">Chainguard Enforce</a> provide=
+s policy management following the SLSA and NIST frameworks, and utilizes co=
+mpliance automation tools to generate SBOMs. They further help identify and=
+ investigate policy violations, and production insights to allow users see =
+live views of production environments. With this approach, Chainguard helps=
+ developers exert control and enforce policy, reducing the risk of injectio=
+n of malicious submits, commits, artifacts, or dependencies. </p></td></tr>=
+<tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"padding:0px 15p=
+x;text-align:left;"><h4><b>Legit Security</b></h4></td></tr><tr><td class=
+=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break=
+:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss=
+/c/AVcX7Ry0si0xJzhLsnBfz2EJW_zEM4CE2_057gsXpGFfxUMmAesFeAXLcBCsgFHI1aDZXhvU=
+bALNvzn3yQ_Qr9_oNYfNnHvHX8CgJ1ievKjhSQb5ejKS-TSe6U6RMJZB_BAxjs7fp-MrxLQu2jg=
+d2ChZNtyCSnyT-_rQ4u4ZMNgiRPGS8x1eCmhefvFaXCcQ/404/n0lRMlcyQFCsJXcgUSy8tA/h9=
+6/Wg0pJ-KdYHgyWiqInyrDkbp5t9a06G43GnkkNTZg9ts" target=3D"_blank" rel=3D"noo=
+pener noreferrer nofollow">Legit Security</a> takes a core approach to soft=
+ware supply chain security by focusing on SBOM compliance. It offers develo=
+pers an Application Security Posture Management (ASPM) tool that provides o=
+bservability and visibility into all critical aspects of code-to-cloud depl=
+oyment. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:=
+0px 15px;text-align:left;word-break:break-word;"><p> At the source code lay=
+er, Legit integrates with all source code repositories and ensures that acc=
+essing source code requires multi-factor authentication. It protects source=
+ code through code reviews and branch protection, and it audits third-party=
+ integrations that have access to the source code. Legit&#39;s <a class=3D"=
+link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz2EJW_=
+zEM4CE2_057gsXpGFCCZswhHpj6uKmVJAgiBc7vr-LZHy1ZGpPp6hUAj7o9Ba09qy2cOl-6UsGp=
+DYkElRXQeZmIhNAk-SmyCiDWbLJcjqWZy7H5gY3dQFFxPXstW5nyDfcL6Z-nWCY5EMolbiTJ713=
+j3412qGhXH727PvKOn1W5XXuenEzTzi6AfsbVA50NWFntnUOO1TS-fZ_NMc/404/n0lRMlcyQFC=
+sJXcgUSy8tA/h97/YVCNA0ORa3lXRXowcYmPRuM_IZ2pcR0fyH3w6azegk8" target=3D"_bla=
+nk" rel=3D"noopener noreferrer nofollow">code-to-cloud traceability</a> fea=
+tures provide context from source code repositories involved in building th=
+e source artifact. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=
+=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p> Legit Secu=
+rity prioritizes continuous <a class=3D"link" href=3D"https://link.mail.bee=
+hiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz2EJW_zEM4CE2_057gsXpGFRyj_pAWaYv5ZqFidgg=
+lyhr4gOwtHsFfOPoQ4qzjcgQ2pjgTzpxnC8Wf-qijg1TdpYithphywYqvxJjdofq5gyYUvxT1mT=
+tt7LCG0VRRmFDzs7gLirjBzpjgXp-3HXOSHXJWYsKUojZsQ3Dm_KgICNyaFOknRa_tVzhsqfBsr=
+sDKsf5F8skHiZmcGs-D03jpw/404/n0lRMlcyQFCsJXcgUSy8tA/h98/NdNwKktOG3Wl3nDBZYR=
+DHgkSeILb_QNOgq2tUhs-d1A" target=3D"_blank" rel=3D"noopener noreferrer nofo=
+llow">SBOM compliance</a> for companies. Their SBOM supports leading regula=
+tory frameworks like the SBOMs in CycloneDX format. Their SBOMs help compan=
+ies identify compliance gaps, aggregate multiple sources of SBOMs, and dist=
+ill the differences among different SBOM formats. </p></td></tr><tr><td cla=
+ss=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-bre=
+ak:break-word;"><p> According to <a class=3D"link" href=3D"https://link.mai=
+l.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzyy--ZrkXzA-1zD8SIHiMbJIlY85l0X7o_o1=
+prV0PosOnqG76kMCt0TR9B0alXvdKMTaMJxhnor-KuC0dQYJuDLeebsTRAa937XvRBjuOTB3mQy=
+tcoJ-l3Pd4ed6Kon_buK0y_mfRAOoaiMk3mOn6A4ulI3d6eObaJQaer5u3CAm_NXKds4W4Tww12=
+Aiga-A067jJRpvUm78hTGGj1R81H8/404/n0lRMlcyQFCsJXcgUSy8tA/h99/3-tYmT3nFbVn-8=
+qJxpVEmaFeHTuxFA9AgBjx70VPNLM" target=3D"_blank" rel=3D"noopener noreferrer=
+ nofollow">Kuppinger Cole</a>, Legit Security&#39;s Build Integrity product=
+s rank among the highest on the market. Their solution performs various con=
+tainer security checks before a software build, such as image compliance, d=
+etecting drifts in software artifacts, and preventing the release of potent=
+ial hard-coded secrets. Legit integrates with all major build automation to=
+ols and provides support for a variety of programming and script languages.=
+ </p></td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"=
+padding:0px 15px;text-align:left;"><h4>Apiiro</h4></td></tr><tr><td class=
+=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break=
+:break-word;"><p><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss=
+/c/d5uvLg7YRp2ZtXIlj6sd1tj4k-kD-ApxeNM7lI83G7Zx8MVci0pFLnNyrdiFwk4TlVucAxOQ=
+DTNLQQgq94O5JWRCr0zbtqvje8WVAuLY6qYHcVMEyXMZiBVfhGx8XdclQaZSjHkVlKKwWzdRYvI=
+EXlpY7I1CplO2T3TSr3Jh2oc/404/n0lRMlcyQFCsJXcgUSy8tA/h100/kxtqzZplYVr5CJvVBz=
+2AA_t07GJ9xXDo6MJ16uD07F0" target=3D"_blank" rel=3D"noopener noreferrer nof=
+ollow">Apiiro</a> approaches SBOM using a comprehensive approach called <a =
+class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/d5uvLg7YRp2ZtXIlj=
+6sd1rJs4o7r89z5rdeGAxwrY-1-fyJr6jS5qhZt4XfvTB90rAb09dgLN9kknU6XayUhjAYGzmI7=
+5hDXLxNzWehtsjsaW_LnJeyKtB8LJvtTprP7BBHNeU9Pz8UE8hk3KU5E_zhToclCIc1G8iaksHO=
+NCof4M0Cc1RcnKYytWfjWdMUaXEeOe1e472xvE3AIy0VNiBX3IaeE2BXleunhtsYNzII/404/n0=
+lRMlcyQFCsJXcgUSy8tA/h101/H61wpXrSAbMgWRproz6ovuRM7lJjbRkkt1BNFJrOXh8" targ=
+et=3D"_blank" rel=3D"noopener noreferrer nofollow">Extended Bill of Materia=
+ls (XBOM)</a>. This product, built around a graph-database, includes all th=
+e core SBOM features that look for vulnerable dependencies. However, it goe=
+s beyond that by providing additional visibility across a company&#39;s app=
+lication stack, pipeline components, Infrastructure as Code (IaC), containe=
+r images, and APIs. Apiiro also aggregates, prioritizes, and fixes risks by=
+ deduplicating alerts, linking each risk to a code owner, and triggering re=
+mediation workflows. While Apiiro offers products aimed at application deve=
+lopment and cloud security, they also provide visibility, prioritization, a=
+nd remediation across software supply chain pipelines. This includes analyz=
+ing developer behavior and using a risk graph to detect malicious packages =
+in open-source solutions. </p></td></tr><tr><td class=3D"dd" align=3D"left"=
+ style=3D"padding:0px 15px;text-align:left;word-break:break-word;"><p></p><=
+/td></tr><tr><td class=3D"dd" align=3D"left" valign=3D"top" style=3D"paddin=
+g:0px 15px;text-align:left;"><h3>Special Mentions</h3></td></tr><tr><td sty=
+le=3D"padding-bottom:12px;padding-left:37px;padding-right:27px;padding-top:=
+12px;" class=3D"ee"><div style=3D"margin-left:0px;" class=3D"edm_outlooklis=
+t"><ul style=3D"list-style-type:disc;margin:0px 0px;padding:0px 0px 0px 0px=
+;"><li class=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;wo=
+rd-break:break-word;"><a class=3D"link" href=3D"https://link.mail.beehiiv.c=
+om/ss/c/d5uvLg7YRp2ZtXIlj6sd1rCiXI5q00VKfMdaTp4yBaK0g6BGAAc04buDx23MiX6VKML=
+wLFn1sHJfLspjFSzP7q9tan6KWkEtbpXnhIBlENY2SE4Aai4MZqC3gam2K-cQAqNgeORQhv-a20=
+Z0mN2G0KkYbiKj8HJ1f9zdzZfm3Qc/404/n0lRMlcyQFCsJXcgUSy8tA/h102/-GqhM40BMg4dk=
+X9Qgq4d0-JoLqBY0r-hlHKmEEI6pEs" target=3D"_blank" rel=3D"noopener noreferre=
+r nofollow">Anchore</a> provides a container-based and cloud-native softwar=
+e supply chain security solution. </p></li><li class=3D"listItem ultext"><p=
+ style=3D"padding:0px;text-align:left;word-break:break-word;"><a class=3D"l=
+ink" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz8CSVzK=
+pXhUoDM2ZjvxPz4rshNW9VHkWyKTsJswpUnlV_-yqmTGJ3VgerxuXhrwQO4B9MUTx2aG6g5z3lc=
+LEQ5NOHObBd6_29yptP_LV_y7dWqWxH3UqU2LXXght2xqdTYyU4086oXmjgUbRiaE0KZ0DGu1ol=
+usmlHpScMgUSAn7/404/n0lRMlcyQFCsJXcgUSy8tA/h103/a-l2VT-kkvIuff2cWWltXyc5SLu=
+hB2DQeheewgpocmQ" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Ar=
+morCode</a> AppSecOps platform integrates and correlates data from security=
+, CI/CD, and cloud infrastructure tools, as well as ticketing and collabora=
+tion solutions in an organization&#39;s IT ecosystem </p></li><li class=3D"=
+listItem ultext"><p style=3D"padding:0px;text-align:left;word-break:break-w=
+ord;"><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0=
+si0xJzhLsnBfz_iczFsgdpq5Jp95f8QDn1bJpbCub8v1daeAnQqOq4L-C4q_FWCPdpn8vSAAdhi=
+FYJYfrXuIZ50uWjP_LoKjx6dSej9MmLcLuogy6tDDTefJ5LleIozU7hhJRpQ-m5X_BDfeLdO6w3=
+SX98xWQCNmS0Y/404/n0lRMlcyQFCsJXcgUSy8tA/h104/lJwzdX3d2mfNM_bcOlhfT6DT2WK7H=
+gwTQnszYfVJQjw" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Line=
+aje</a> offers an SBOM 360 product with a CLI/SCA tool that supports SPDX a=
+nd CycloneDX formats. The tool analyzes software from different sources, an=
+d uses its Lineaje&#39;s Deep Learning Engine (LDLE) to break down and map =
+software components. Lineaje&#39;s strength is in providing businesses with=
+ advanced SBOM data, which is valuable for companies requiring strict SBOM =
+compliance. </p></li></ul></div></td></tr><tr><td class=3D"dd" align=3D"lef=
+t" valign=3D"top" style=3D"padding:0px 15px;text-align:left;"><h2>Concludin=
+g Thoughts</h2></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"paddi=
+ng:0px 15px;text-align:left;word-break:break-word;"><p> Solving the softwar=
+e supply chain issue is complex and hard. It will take time for companies t=
+o get it right. As an industry that only evolved less than five years ago, =
+it will take time to fully operationalize across organizations. </p></td></=
+tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align=
+:left;word-break:break-word;"><p> A common similarity among all vendors is =
+their tight integration with source code repositories and CI/CD solutions s=
+uch as GitHub and GitLab. They offer solutions that enhance access control =
+to IDE and source code environments. Additionally, they are capable of dete=
+cting known malicious dependencies in packages and libraries, promptly aler=
+ting developers. Perhaps due to the recent <a class=3D"link" href=3D"https:=
+//link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzxiNmayu9KhhW0IFo2ixE-2_y5=
+DyFTKu1tuLLoTJuImfDSrjl3AWYwfNzQ5KrGdjqwtBbf4vgyXc5zR2LwuSYa7cPgt_WzTQ7ZSLm=
+T_rIrxAZpONhTAe60GQo5Wuyz8OPSCd99lRlugi_-2b9rhJZjpQPjNplqLHbXaWD2bAm33h7ib9=
+oLwh5-rAQ4PvXjnKJlzfFCAfc5x2RUimGn97km4x99HEBPfFVGnWWd20QgTdmUEKuH9CKkuZnsO=
+-6ASL4esXOQ5HigBcOlkcuOmlmm7ClgQFVHhoQrK4RzoyyFYu/404/n0lRMlcyQFCsJXcgUSy8t=
+A/h105/cTQUoBIA5baV7FVR8jcSH4lfOE3kJqm1ULx6NtU8Ja0" target=3D"_blank" rel=
+=3D"noopener noreferrer nofollow">executive order</a>, many vendors provide=
+ the ability to generate SBOMs for customers regardless of the format. </p>=
+</td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;tex=
+t-align:left;word-break:break-word;"><p> We believe that the greatest value=
+ lies in vendors who can seamlessly bridge the gap between security and eng=
+ineering teams, minimizing context switching for developers. </p></td></tr>=
+<tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:le=
+ft;word-break:break-word;"><p> The software supply chain category is alread=
+y highly fragmented, with nearly 30+ startups addressing related issues. As=
+ this sector continues to grow with a multitude of new solutions, the topic=
+ of vendor consolidation is often discussed. For instance, Palo Alto networ=
+ks <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0=
+xJzhLsnBfzzH5eyDYccgEpUyIgfN_p5uRl8GQtSv-UUVuJq-uyDarA8jChpSMcgVndGd-hOLnfQ=
+SM12mxtz2QL_FL6ZmOweh9KAgpmnhm8xqjJOJHVFZ-r-EKmR7kMbGL7QrUHNu9CrdKyKpycOH-3=
+dj4mf4NPI3UPPmPTNmTRmPcrMHAaKdnkakWc7uGG7vd72GDExJ7DPibyZdEbTRX3F1oASfEiFjn=
+GKXJOWTuaQr3V4Ep1M-seJKmqBHyuMHeVuJzD7GpIDcvSOzqpaQ9Rg6EItiDwJg/404/n0lRMlc=
+yQFCsJXcgUSy8tA/h106/yB9f1VST_Sxfy8VMjCCA_qBT6cmoKej7HbYYiGhL0Tc" target=3D=
+"_blank" rel=3D"noopener noreferrer nofollow">acquired</a> Cider Security l=
+ast year. This year, we=E2=80=99ve observed more ASPM acquisitions. Snyk <a=
+ class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhL=
+snBfz263AmjaJEjOsLkFUmjvsbtqDtFSB4LlAKtuKqftPnGX853mQGSWo5PAQjFWpyTk3ZGdIId=
+KR4Mf-g6wGvkOWlTwjCYEnI8G2BrAVgFuM9kG-tsPX9FRQvTddZ3-K7_Q40d6ya_BUI8Cx907Zt=
+QjXiVVwa7xY9o8k4GYAtmsKZqPSIWRdLs85yC08PZsTarN5jF9nFiybu0DeF8YnXY9SY-PPHOk2=
+acZZhctZ86EmPP-yauwKErm6maOy23dtZcrd8lm4XhTMFpm1cJMgUsSgl88LcWeW2dHpL28uex8=
+j7k4/404/n0lRMlcyQFCsJXcgUSy8tA/h107/l41VOu0oOuUMp_RPg_YwZEBc8-UYNYyBABEl6b=
+1CAR4" target=3D"_blank" rel=3D"noopener noreferrer nofollow">acquired</a> =
+Enso Security and Crowdstrike recently <a class=3D"link" href=3D"https://li=
+nk.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfzy_d1h1fXn95ZJbw3Dw3P4EO6BS-ju=
+roAMV4j6wsXi9DunHBRVpil9LVKs6ngbTV4Rh0Zm_u8rfKXhGEsQ3mrIg5kvNI6Qjdmzfarx10d=
+1cJmL_QokKa2C-O4qFMCxkyEXphEz5gI67Sb9ia9QlFuv9u0NHhhy0PZE_hGwArZwsmiOdtFmes=
+uVA1THTyuKN4QcnV8MhNSw6a8ndxvE20HRh3MaYGPFDALXdwid92uSgglAHEMSFdhHSPy8SXpMS=
+ce57cIZOIUNIF4a_MyR6I_rU/404/n0lRMlcyQFCsJXcgUSy8tA/h108/XyVvlLzRMDL4jabbKB=
+ZESAkup-9E8oNtatJoa0NMjOI" target=3D"_blank" rel=3D"noopener noreferrer nof=
+ollow">acquired</a>=C2=A0<a class=3D"link" href=3D"https://link.mail.beehii=
+v.com/ss/c/YObcL9KT4t9SeeAWKwB82lZ0SeJ433WhxZyuyvzllv73kPmONaePpkDXJOp9GF-m=
+lJHOKYtIxi6rL1LL1q7IF3c9Ci0K79NjIGfeiHPrMRrwzxeiNN_8FxUmrf5bxJCtBK8uK3FGeX5=
+eYJfGHHYfEEinbCucTfj_jgUA3IQZAWo/404/n0lRMlcyQFCsJXcgUSy8tA/h109/HBzv39D__B=
+I7jn-HB_lQLIlQn6Cpu-87k2Rl1Y258ZM" target=3D"_blank" rel=3D"noopener norefe=
+rrer nofollow">Bionic.ai</a>. It is anticipated that as this market evolves=
+ and certain vendors mature, leading application security vendors may consi=
+der acquiring some of these companies to enhance their larger platforms. </=
+p></td></tr></table></td></tr><tr><td class=3D"b" align=3D"center" valign=
+=3D"top" bgcolor=3D"#2C81E5" style=3D"padding:0px;border-bottom-left-radius=
+:10px;border-bottom-right-radius:10px;"><table role=3D"none" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td =
+align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" style=3D"padding:12px">=
+<table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" align=3D"center"><tr><td><span style=3D"padding-left:1px;"></span=
+></td><td align=3D"center" valign=3D"middle" width=3D"75" style=3D"width:75=
+px;"><a href=3D"https://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTfl9=
+Dp5j30A5ZYb4VuwSCcRo2mw4Ony7a4KHdBuapJyluJEGwjO5INSuNOOG_kiyQiMhecPd5QPciLt=
+vmOsTwnCq9FQ4VsMHYwBvvV3IjYHTephW6lp284cz9OzeNvd_YTG0RcCHA1uQIdWLKZTmBYlGRi=
+GRQTsfmaisAw6Kk0LA/404/n0lRMlcyQFCsJXcgUSy8tA/h110/p4hjeK76ouMxHo4wVVpuyh2h=
+rfsXPZ7aQVmKhXOxh2M" style=3D"text-decoration:none;"><img width=3D"22" alt=
+=3D"tw" border=3D"0" style=3D"display:block;max-width:22px;" src=3D"https:/=
+/media.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,format=3Dauto,onerror=3Dr=
+edirect,quality=3D80/static_assets/x_dark.png"/></a></td><td align=3D"cente=
+r" valign=3D"middle" width=3D"75" style=3D"width:75px;"><a href=3D"https://=
+link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzhLsnBfz-DHf3lRzzzfpTTNS86MdAKea1XQ=
+L12gB2D7_QdFwJ5h2SCGyVRSLvildGlJbjwuDcgsEFSaCCGhM_TjyqkSNddsM_P5jCoD4AwfmeV=
+KUTLkQYCLfswLMt5p7UT3W3XJUWy_QL4J8HQc-M6iK1A1qMthd07MjfITpgX1GY7lHFZEGqJZYd=
+ugBEFF0gghCgqBRA/404/n0lRMlcyQFCsJXcgUSy8tA/h111/9ZuKGqYnHOX9idsx4YYDWHGQxT=
+9kth2spjFhUFBkOjQ" style=3D"text-decoration:none;"><img width=3D"22" alt=3D=
+"in" border=3D"0" style=3D"display:block;max-width:22px;" src=3D"https://me=
+dia.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,format=3Dauto,onerror=3Dredi=
+rect,quality=3D80/static_assets/linkedin_dark.png"/></a></td><td><span styl=
+e=3D"padding-left:1px;"></span></td></tr></table></td></tr><tr><td height=
+=3D"10" style=3D"line-height:1px;font-size:1px;height:10px;"> &nbsp; </td><=
+/tr><tr><td class=3D"w" align=3D"center" valign=3D"top" style=3D"padding:15=
+px;"><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" align=3D"center"><tr><td align=3D"center" valign=3D"top"><p =
+style=3D"font-family:'Verdana',Geneva,sans-serif;color:#FFFFFF!important;">=
+ Update your email preferences or unsubscribe <a class=3D"link" href=3D"htt=
+ps://link.mail.beehiiv.com/ss/c/sPxAZsZTRcGYFYMrl5MxTdFDRtznb2Dl0E9lo8wK4AG=
+z4poGJbxrC6bNtDFwiqu7APrsUJMWp_umlkw83qHBDyVEiMa1U62DyKmCNY_ULTNu9sRF7xKDic=
+AZt3LIvlI_iYRQL6jTXVnT7ByShn6t3LVlcsQhmO0y-SU9PqETljFPEJlh1HK3VJznMrSlbdveu=
+ed8fzfF-GCzz7yOQhvgulmIuPsXss3SrYW7KAE8onAB5j35Np-edvyIN6Lm0J8RX5no0mVu98DT=
+IjOZJV3nC-t8HbHLRfg9UaYeNTVvC4-sGKPa6Oe4H7ItDg73DtoCnD1F_T358Z8dDUpGSQB1USF=
+aqnI6-k5YUT8FFxw5Sn6rBPRNc6PRFLfqmHHhNuRrzzCctK94uQ2KvL7peE0jNpN7P90PzmvoKz=
+5wPs0TGhTpBqp0nFpyYRgcaJgu10gMtfX0oehOeF4oYmRhqeuHF-rXvPF1iiMcPopJxlerNpQ-n=
+j0Zlv5zuUT-iw68UOCC/404/n0lRMlcyQFCsJXcgUSy8tA/h112/t6iGUk3t9US_yi81he0ef74=
+QOO8ESxUdWyVmwjeCGEk" style=3D"text-decoration:underline;text-decoration-co=
+lor:#FFFFFF!important;color:#FFFFFF!important;"> here</a></p><p class=3D"co=
+pyright" style=3D"font-family:'Verdana',Geneva,sans-serif;color:#FFFFFF!imp=
+ortant;"> &copy; 2023 tl;dr sec </p><p style=3D"font-family:'Verdana',Genev=
+a,sans-serif;color:#FFFFFF!important;"> 228 Park Ave S, #29976, New York, N=
+ew York 10003, United States </p></td></tr><tr style=3D"display: table-row =
+!important;"><td align=3D"center" valign=3D"top" style=3D"padding-top:20px;=
+" style=3D"display:table-cell !important;"><table role=3D"none" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"display:tab=
+le !important;"><tr style=3D"display:table-row !important;"><td class=3D"u"=
+ align=3D"center" valign=3D"middle" height=3D"32" style=3D"height:32px;disp=
+lay:table-cell !important; max-height: 32px !important;margin:0px !importan=
+t;"><a style=3D"line-height:32px !important;text-decoration:none;display:bl=
+ock !important;" href=3D"https://link.mail.beehiiv.com/ss/c/AVcX7Ry0si0xJzh=
+LsnBfz3f8XScgZjSnI5VYvYVdZwvrrd6XQNw1U4jV_2OUOEhku1tIP8uoPelUXw44uMI0guCRem=
+qyowf9juySQtwpMkYb5UioooCC5y83RY8GjGO9CejqiPn3lxh-bzZx4Xeexdz7IN6Y4aoQMlkCV=
+gSvGwk/404/n0lRMlcyQFCsJXcgUSy8tA/h113/k-EgRjcshJs2DD4IVPECunWUzoRrD5PVWWJm=
+DKTnL1c"><img src=3D"https://media.beehiiv.com/output-onlinepngtools.png" w=
+idth=3D"16" alt=3D"beehiiv logo" style=3D"display:inline-block !important;m=
+ax-width:16px !important; vertical-align:-3px !important;width: 16px !impor=
+tant;" border=3D"0"/><span style=3D"padding-left:11px !important;display: i=
+nline-block !important;">Powered by beehiiv</span></a></td></tr></table></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr></table></td><=
+/tr></table></td></tr></table></div></body></html>
+--9251b902d92ea31a6a24da51ef7b9660f855db1ae22eb830ba379610e789--

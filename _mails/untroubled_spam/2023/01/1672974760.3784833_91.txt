@@ -1,0 +1,189 @@
+Return-Path: <henry@digitalbizland.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 193403 invoked from network); 5 Jan 2023 10:18:53 -0000
+Received: from mail-ed1-x542.google.com (mail-ed1-x542.google.com
+ [IPv6:2a00:1450:4864:20::542])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 05 Jan 2023 10:18:52 -0000
+Received: by mail-ed1-x542.google.com with SMTP id i15so52313396edf.2
+        for <bruce@untroubled.org>; Thu, 05 Jan 2023 02:18:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=digitalbizland.com; s=google;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=nF6q9tw+GtseZNWy503/9H/Bt9b2mgF92hU4AQX900A=;
+        b=TCG23ClEHaXpW7p6cX5SdFE731pBxzCy5MsveUkGevgdR92Bif4vymoIccTTosxA5G
+         FiAjsxaXkdIkR1HsJRdX33JCEcH1pAyL8ebBR/jU9k2SCbRbb8J8YSACTM+kzSmVXquY
+         CZ5pZS+m5PO+mNF7CqvfwV27Zb8eGcXN/QHO0u2ZSDpi7FMEvIz4DI+E7EfJv2mgqQ+T
+         LJWiGwEItcIBAn5045R6QqqmKjdl4uVVkjHb7RBDvqTvxRSpGeB5oZlJuQfKHEGgedz0
+         eyJMVggpGxJ+jD6E0RSvrrxEAi/MnRygrUCNOyzM/06xC6KY4wsvo15VUD//9hsCxAl/
+         4RLg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=nF6q9tw+GtseZNWy503/9H/Bt9b2mgF92hU4AQX900A=;
+        b=vPfBhlqRKbvRAfJbIsOU4WCmhHeruZGOdtW35P7/wQRNXRe/93bg3pdAAs/cVHFV0F
+         FYwfAZ6DByf0m3ImCRhG+DNy/XE8Ev0blNB54fnsbvyjgP7B6bn0LcOsuCtIT3VqgIOV
+         l+469iW/K30nvbCk0RI1Qop6QuiTUGTdmiVDLNJXYOoFDkb2jqijiVoM/IXC97X42lEO
+         zI8K3mlgA/7VZ1eqOvCXiD4Bk/0ohnYoJjP1pWTFv2KF/22LjzDxwndgsYMyFSuUHpW5
+         BSZBI3XhRc6x3qtG/YTFXNYF6iJyDSlC+ECAJTf4e2cvcPkxPa/hytxSOt7TfIDKqPb8
+         oj7g==
+X-Gm-Message-State: AFqh2kqqj1T3F8YbS1lu9DACscOSGzTQj9jC+xJR8IzWon0sTCinzpOS
+	EJx6sIGwPUZgln/Tmo3eDXmoA/ztl5y2L7zsWM/HqBwVrP1p5g==
+X-Google-Smtp-Source: 
+ AMrXdXtfUU7A+X+T5ZsPRqmjG1HusQdlKFkq57PnzpQlAiQ+UZRbDuFEh1BgeK4ehMO0d77Qx3McVsM6algpJG8IYvE=
+X-Received: by 2002:a05:6402:1205:b0:48e:a97d:e14a with SMTP id
+ c5-20020a056402120500b0048ea97de14amr1091686edw.352.1672913930584; Thu, 05
+ Jan 2023 02:18:50 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 5 Jan 2023 04:18:49 -0600
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 5 Jan 2023 04:18:49 -0600
+MIME-Version: 1.0
+Sender: Henry Jones <henry@digitalbizland.com>
+From: Henry Jones <henry@digitalbizland.com>
+Date: Thu, 5 Jan 2023 04:18:49 -0600
+X-Google-Sender-Auth: XNKbgOg98_XXdR00TceZ41-09Lk
+Message-ID: 
+ <CAGQpxTu-eFN=qkzEVtPOK6OuxjDruZ7Hz7NWno3znQNeL07NFQ@mail.gmail.com>
+Subject: Wonder why your competitors outranks untroubled.org
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000092894505f181a018"
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 5780
+
+--00000000000092894505f181a018
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello untroubled.org Team,
+
+I hope you are doing well.
+
+This is Henry, while searching over the search engine I came across your
+website and thought, it would be a good idea to do an analysis on the
+website as your website looked exquisite!, very well written and
+informative. But not being on the top page results in low traffic. After
+going through the analysis, I can say why the website may not be driving
+traffic. The basic point missing in the website is back-links, adding to
+this the coding issues are not making it any good either.
+
+I am keeping this short, but I can give you my word, if given a chance, we
+can turn this around to make the website a huge success.
+
+If you are already using someone for the website, they should be aware of
+the basic reasons for the under perfornamce of the website and looking at
+the current status of the website, I am not sure, how they plan to turn
+this around. So would let it to your wise decision here. If you would be
+interested, I can send you an analysis report of the website for your
+reference.
+
+Please do let me know if you need any information.
+
+Have a great day.
+
+Thanks & Regards,
+Henry Jones | (Analyst)
+
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------
+Disclaimer:-If Interested we will send more details on our =E2=80=9Ccorpora=
+te
+identity=E2=80=9D, =E2=80=9Ccompany profile=E2=80=9D, =E2=80=9Cwhy you shou=
+ld choose us?=E2=80=9D, =E2=80=9CPrice list=E2=80=9D,  etc.
+in our next email. Newsletter, If Not, You can simply reply with =E2=80=9Cr=
+emove=E2=80=9D
+and we will delete your email from our list. "The CAN-SPAM Act of 2003".
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-------------------------------------
+
+--00000000000092894505f181a018
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+  </head>
+  <body>
+    <p><span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Hel=
+lo <a href=3D"http://untroubled.org">untroubled.org</a> Team,</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">I ho=
+pe you are doing well.</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">This=
+ is Henry,
+        while searching over the search engine I came across your
+        website and thought,
+        it would be a good idea to do an analysis on the website as your
+        website looked
+        exquisite!, very well written and informative. But not being on
+        the top page results
+        in low traffic. After going through the analysis, I can say why
+        the website may
+        not be driving traffic. The basic point missing in the website
+        is back-links,
+        adding to this the coding issues are not making it any good
+        either.</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">I am=
+ keeping this
+        short, but I can give you my word, if given a chance, we can
+        turn this around
+        to make the website a huge success.</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">If y=
+ou are already
+        using someone for the website, they should be aware of the basic
+        reasons for
+        the under perfornamce of the website and looking at the current
+        status of the
+        website, I am not sure, how they plan to turn this around. So
+        would let it to
+        your wise decision here. If you would be interested, I can send
+        you an analysis
+        report of the website for your reference.</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Plea=
+se do let me know if you need any
+        information.</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Have=
+ a great day.</span><span style=3D"font-size:12.0pt;line-height:115%" lang=
+=3D"EN-IN"></span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Than=
+ks &amp; Regards,</span><br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Henr=
+y Jones | (Analyst)</span><br>
+      <br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">----=
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------------------------------</span><br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">Disc=
+laimer:-If
+        Interested we will send more details on our =E2=80=9Ccorporate
+        identity=E2=80=9D, =E2=80=9Ccompany
+        profile=E2=80=9D, =E2=80=9Cwhy you should choose us?=E2=80=9D, =E2=
+=80=9CPrice list=E2=80=9D,<span style=3D"mso-spacerun:yes">=C2=A0 </span>et=
+c. in our next email.
+        Newsletter, If Not,
+        You can simply reply with =E2=80=9Cremove=E2=80=9D and we will dele=
+te your email
+        from our list.
+        &quot;The CAN-SPAM Act of 2003&quot;.</span><br>
+      <span style=3D"font-size:12.0pt;line-height:115%" lang=3D"EN-IN">----=
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------------------------------</span></p>
+  </body>
+</html>
+
+--00000000000092894505f181a018--

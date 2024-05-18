@@ -1,0 +1,1967 @@
+Return-Path: <training=skillsforafrica.co.ke@bounces.elasticemail.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1769536 invoked from network); 17 Oct 2023 21:59:08 -0000
+Received: from m53.mxout.mta4.net (m53.mxout.mta4.net [67.227.85.53])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 17 Oct 2023 21:59:07 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=bounces.elasticemail.net; s=api;
+	c=relaxed/simple; t=1697579939;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=8GcLTxL77UyGeaU43oFk1wD8s+1x7Kr8204/RsQAs6Y=;
+	b=BxTl3G+KHnX+hy1dGc9c8a+w2dWO3shraYSlN6gDEgoWqGDqtZAyrTRrBfklCCjSYXEP+4ZeAj8
+	2xggeDLEzoE/JoZXAsaCM4nz9GP18xnj2H8ALiIe5Ya+4XGpul5OS6LKJ4uWswO/xUnFjdPbJ1YJY
+	91qJKcz8kSui1LKTBkU=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1697579939;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=8GcLTxL77UyGeaU43oFk1wD8s+1x7Kr8204/RsQAs6Y=;
+	b=guuV9PHwgjhNKORdsLymUj9f137GoIHabfyG0VWFg7+A3fBTyxK4DCGLcZPZRGGHus+9IybNGty
+	kDJc2P2s6fLpcG/1urpo+Hnmb0IQ+wQAh+Ex7rB43CvYeoYgfQnCm7kgbt1kW5c4+c2keflvPubaO
+	SnQh6v/jomGfnwOAdwY=
+From: "training@skillsforafrica.co.ke" <training@skillsforafrica.co.ke>
+Date: Tue, 17 Oct 2023 21:58:59 +0000
+Subject: Training Seminar On Effective Monitoring & Evaluation For Public And
+ Donor-funded Programmes
+Message-Id: <4ul9q5mxir2p._Uy_3QC93Zoadr-AMRNZIQ2@133IK.trk.elasticemail.com>
+Reply-To: training@skillsforafrica.co.ke
+Sender: training=skillsforafrica.co.ke@bounces.elasticemail.net
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+=5FUy=5F3QC93Zoadr-AMRNZIQ2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2F133IK=2Etrk=2Eelasticemail=2Ecom=2Ftracking=2Funsubscribe=3Fmsgid?=
+ =?us-ascii?q?=3D=5FUy=5F3QC93Zoadr-AMRNZIQ2&c=3D1468560650031829931=3E?=
+X-Msg-EID: _Uy_3QC93Zoadr-AMRNZIQ2
+Disposition-Notification-To: training@skillsforafrica.co.ke
+Return-Receipt-To: <training@skillsforafrica.co.ke>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfO1fMwXb9BJ7NUMYubTuM8ylQ+8QM/XWKzQ=="
+Content-Length: 104852
+
+--=-eZCfO1fMwXb9BJ7NUMYubTuM8ylQ+8QM/XWKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNr
+P2Q9MVJ1VVMtaGtleTFFcFl0Q3JQSFJXUnprZVczRC1PSHJza1NEZHRVVDI4THNxSlJ4WVc5
+cm9aMTlLMFB6U0RKRGUyZDlReDgzQmNIMlRKX1BaandDLXdtcW9mbXNHYWFfNDNGOXBiLWw4
+TE9hZi1HclFSeVMwT01aWDBHVWI3NnpnWVpkbV95Z3ptOFlYaEZSemxxLW0zUTE+DQpUcmFp
+bmluZyBTZW1pbmFyIE9uIEVmZmVjdGl2ZSBNb25pdG9yaW5nIA0KJiBFdmFsdWF0aW9uIEZv
+ciBQdWJsaWMgQW5kIERvbm9yLWZ1bmRlZCBQcm9ncmFtbWVzIA0KwqANCkRhdGVzDQpGZWVz
+DQpMb2NhdGlvbg0KQXBwbHkNCjA2LzExLzIwMjPCoC3CoDE3LzExLzIwMjMNCiQzMDAwDQpN
+b21iYXNhDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5n
+L2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0UElh
+MndkNWpCYnRmVnR6SzZzMlZvNU5oTk00WEN2Y2lHbkE1Wm9FQVVucHdnNFZqWER2amVzbFRO
+UWd6UGFKWHdtNThoY0ZXdi1faTJzWDhBMHloOHlFNDFhUnZ6Z2RxQWY4cG1SSHhfNHlCemY0
+cE9LLUp0dzVYdnZvSU1EeTNGeDA+DQpQaHlzaWNhbCANCiAgICAgIENsYXNzDQoNCg0KPGh0
+dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1Xb2Fw
+b3ktcFRyRmhoNzkyUkhlSjktUnQyMjVZWXNQbVdqTldzcXFyVHRPcjcxcDNTaHVYa3JUaGlY
+eGFIbld6QlZYWE5CRjhCR3AxZmlQdXFvdTRqZ1l5eGE3MzhOVjNYSlFyOWF0WFUwbWQyVG1x
+cEQ2OEV3dWlCc2wyTmk3Wjdtby1va3g4SzhCYjBuSkFCWWRTWTRpR1FaeFp6OG5uTlNxYlhk
+MnhwN3RQMD4NCk9ubGluZSANCiAgICAgIENsYXNzDQowNC8xMi8yMDIzwqAtwqAxNS8xMi8y
+MDIzDQokMjcwMA0KTmFpcm9iaQ0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWls
+LmNvbS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1Bt
+V2pOV3NxcXJUdFBJYTJ3ZDVqQmJ0ZlZ0eks2czJWbzVFOWhPbkpMRmtjWWxXUHFESGFJT2FX
+YUEwNVJwZnpLakRyMExIRzl5Rkg3c0dMNFoyb0gwMUVNUFlNMUU0eWpDMkNPSEljZ2FHdDRP
+NVFFRmhEMEp1amFOSmJFZUIwX3ZPdTBwYkRFbTc5YTMwPg0KUGh5c2ljYWwgDQogICAgICBD
+bGFzcw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5n
+L2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0T3I3
+MXAzU2h1WGtyVGhpWHhhSG5XenExdS1EbVdYdFRxbjVGc1BkU0paQTl6SDJuNkM5Q2x5VlBX
+eXo5eXRoVnVvS25vZk5SbDNORVd3YXBkb05oT2E2SXY1RXFXNzQ2STY0VTJlZE55Tkk1QXQy
+Q0RtVjhNbmV2TmEtcTFzS21QTDA+DQpPbmxpbmUgDQogICAgICBDbGFzcw0KMTUvMDEvMjAy
+NMKgLcKgMjYvMDEvMjAyNA0KJDMwMDANCk5haXJvYmkNCg0KPGh0dHBzOi8vMTMzSUsudHJr
+LmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1oTjVqRlVPdlBrY0ZTbWk3R2Vn
+SldHb0lET0xtY2pXNHVSRzJBcjJTdnBhaVRNemZyaGxUWUVJUGZaejZaM0NMSGRJemZNQkh1
+VzlFaThCTFFqSFZXVWlyNTVpcE9rTHRfQmxaUzY0THlSUVFyNTdvMDE2UUJXX1MwYVlwd3hH
+bGJxaDBDMnMyaHRnVDFRMHlOTGJYd2w2UWRjSU9NU2ZnMTVONEcxWlZGMXdNMD4NClBoeXNp
+Y2FsIA0KICAgICAgQ2xhc3MNCg0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWls
+LmNvbS90cmFja2luZy9jbGljaz9kPWhONWpGVU92UGtjRlNtaTdHZWdKV0dvSURPTG1jalc0
+dVJHMkFyMlN2cFlOcDNiV2Jfam8tUjRPU3lWWVF1ZzZWVFNfMUQ4bUJFZ3lqRDVVbTNIVTJf
+TWI4RldXWTd6djk3Ti0yYkE4THhpcXp4eVJDUk9yZG9rRHRZN0U5Ylo2aHcxd0FfekdGLVQw
+Tk1tREh3anlpRVpVS3cxY3N1YWRWV1JKZ2RlYWUxaXcwPg0KT25saW5lIA0KICAgICAgQ2xh
+c3MNCjEyLzAyLzIwMjTCoC3CoDIzLzAyLzIwMjQNCiQzMDAwDQpNb21iYXNhDQoNCjxodHRw
+czovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9aE41akZV
+T3ZQa2NGU21pN0dlZ0pXR29JRE9MbWNqVzR1UkcyQXIyU3ZwYWlUTXpmcmhsVFlFSVBmWno2
+WjNDTElVcGVuNUIzZEtaQ2dMRExkby1ITlU0RDJIZldhbF9GWU9PdTdRNVdKU2MxVmo1ZDct
+NVZQOERFV3VHZkFnMkxadm90bzNWeXZVZU1Ib1J4b0FQbjRvNEFKbXg0ZDY3TDlPaE5sbDRo
+SmJZMzA+DQpQaHlzaWNhbCANCiAgICAgIENsYXNzDQoNCg0KPGh0dHBzOi8vMTMzSUsudHJr
+LmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1oTjVqRlVPdlBrY0ZTbWk3R2Vn
+SldHb0lET0xtY2pXNHVSRzJBcjJTdnBZTnAzYldiX2pvLVI0T1N5VllRdWc2cEZJM05oLU9G
+THJkdjdDZjYyUVV0YkhuQ3ZLaFRVS0QzX1NIeTZ0TGtIdlFDcUx5NC11TWxKVkYwbngtZmE4
+Q085MnpnUXQ5UFA0eWZiUFgyaUFYQVZENll4bFN1SUJJOGxxaUh6aFk4TWhUMD4NCk9ubGlu
+ZSANCiAgICAgIENsYXNzDQoxMS8wMy8yMDI0wqAtwqAyMi8wMy8yMDI0DQokMzAwMA0KTmFp
+cm9iaQ0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9j
+bGljaz9kPWhONWpGVU92UGtjRlNtaTdHZWdKV0dvSURPTG1jalc0dVJHMkFyMlN2cGFpVE16
+ZnJobFRZRUlQZlp6NlozQ0xMVTNEX190X05vZ3U1cDZ6bzBxUThlaVZvTVh3akdQNWg3NW5O
+R0dMNzhNXzJka1RqaTAzWWhsWjY1Y1NmOUo2bjZSM0ZqdnpocVdwb2ZXanJ5V1ZtRU9mbEFN
+ME9icE16MlRVOWY2UU82UFEwPg0KUGh5c2ljYWwgDQogICAgICBDbGFzcw0KDQoNCjxodHRw
+czovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9aE41akZV
+T3ZQa2NGU21pN0dlZ0pXR29JRE9MbWNqVzR1UkcyQXIyU3ZwWU5wM2JXYl9qby1SNE9TeVZZ
+UXVnNlNhczRCSmhEdmEzVVZWd0VtbjNOTGF2SHNrSTRhNHhIUHF0MzRaNlNWeTZwVFBIN2JK
+UVJLX2JkdkYxS2xWRDhtR0p6amRxbHVrTEthZFFqcWpfUnN5UVNEZ2w0eHM3b2VuX0pFYlUx
+TVpKeDA+DQpPbmxpbmUgDQogICAgICBDbGFzcw0KMDgvMDQvMjAyNMKgLcKgMTkvMDQvMjAy
+NA0KJDM5NTANCktpZ2FsaQ0KDQo8aHR0cHM6Ly8xMzNJSy50cmsuZWxhc3RpY2VtYWlsLmNv
+bS90cmFja2luZy9jbGljaz9kPWhONWpGVU92UGtjRlNtaTdHZWdKV0dvSURPTG1jalc0dVJH
+MkFyMlN2cGFpVE16ZnJobFRZRUlQZlp6NlozQ0xhZFVWWmZLZ2hGSXBzTVVHZHhvYU5TSzFZ
+ZGhEVFhCUVFGandfQlZEdTBBdmE2ZnJGaUVic3kwR2ZiT2I1YVRCQzI5elZPVTdLWnFwcW9U
+aUZCRTFwQURPbFpNMFZpQ3VXUl9GOFp2ZzNsb20wPg0KUGh5c2ljYWwgDQogICAgICBDbGFz
+cw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFzdGljZW1haWwuY29tL3RyYWNraW5nL2Ns
+aWNrP2Q9aE41akZVT3ZQa2NGU21pN0dlZ0pXR29JRE9MbWNqVzR1UkcyQXIyU3ZwWU5wM2JX
+Yl9qby1SNE9TeVZZUXVnNjMyeHBaajctaFk3eG1lZzdHbm9PSzlXUzRVaHJVc21mbW1Ba1Rv
+UXZfUVpBSklvcmJyQWlibVRibWppdXhUd0lyREQ2LW5oYUNMX1BGUGtMclE5WDBPUk0yX1NU
+ZUVySDZFWG9zYjY0aXB5STA+DQpPbmxpbmUgDQogICAgICBDbGFzcw0KMTMvMDUvMjAyNMKg
+LcKgMjQvMDUvMjAyNA0KJDU1MDANCkR1YmFpDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFz
+dGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9aE41akZVT3ZQa2NGU21pN0dlZ0pXR29J
+RE9MbWNqVzR1UkcyQXIyU3ZwYWlUTXpmcmhsVFlFSVBmWno2WjNDTFkzbEI1T1Myd21xSUJt
+U2VLbXI2UXZFQzJfM21fcGFndlZud0xPZW40V3g1MjZwVUIxX0NkWjJaOHFPaFJxd0pvVFdt
+Q0RwSWk4XzVKeFhCRS12c215Y1BqSVp4b2c4S0M5dFNrTHE0R3FxRTA+DQpQaHlzaWNhbCAN
+CiAgICAgIENsYXNzDQoNCg0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20v
+dHJhY2tpbmcvY2xpY2s/ZD1oTjVqRlVPdlBrY0ZTbWk3R2VnSldHb0lET0xtY2pXNHVSRzJB
+cjJTdnBZTnAzYldiX2pvLVI0T1N5VllRdWc2QkZ5eG1XNWttTnl4STlOSWZJNW01ejRZZnJK
+MVBOdmlWRk1weGdNZDVmNXpJMUVDRGFodjY1VGtiQmtneVQyMnJBaFQ4dU9wNmNGTHZBc0cx
+Z2V2X24waW9xSXV0WVM4LXJxeC1lYV9TMW1oMD4NCk9ubGluZSANCiAgICAgIENsYXNzDQox
+MC8wNi8yMDI0wqAtwqAyMS8wNi8yMDI0DQokMzAwMA0KTmFpcm9iaQ0KDQo8aHR0cHM6Ly8x
+MzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPWhONWpGVU92UGtj
+RlNtaTdHZWdKV0dvSURPTG1jalc0dVJHMkFyMlN2cGFpVE16ZnJobFRZRUlQZlp6NlozQ0xP
+ZDlIel9lZjFFSU95aGdMcUs5YU5KQ19nUUNBM0VwMUozZVllb1M2MWpUTExELWhPY1FJdkpU
+S3k5eldIOVQ3SEdzRXVmbWhMbWhpMkdFYjZMUXUwcnR2eTYtOU51VmJHS1RaMHJDUHJnRzQw
+Pg0KUGh5c2ljYWwgDQogICAgICBDbGFzcw0KDQoNCjxodHRwczovLzEzM0lLLnRyay5lbGFz
+dGljZW1haWwuY29tL3RyYWNraW5nL2NsaWNrP2Q9aE41akZVT3ZQa2NGU21pN0dlZ0pXR29J
+RE9MbWNqVzR1UkcyQXIyU3ZwWU5wM2JXYl9qby1SNE9TeVZZUXVnNnEyMV9qbXljWEpncExa
+T2IwSzN2c2VJUG4tOVlVUGJhN3lSMk5ydlU4YVM2NE9vZ1R4bDJyYUE1QUtlNUZxMEpvUFdN
+R0wxSkUwRGNxR1pGVHBCVmgyWERMNVpQR0NCbVp4bkFOVjZyeE9mZDA+DQpPbmxpbmUgDQog
+ICAgICBDbGFzcw0KMDgvMDcvMjAyNMKgLcKgMTkvMDcvMjAyNA0KJDMwMDANCk5haXJvYmkN
+Cg0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/
+ZD1oTjVqRlVPdlBrY0ZTbWk3R2VnSldHb0lET0xtY2pXNHVSRzJBcjJTdnBhaVRNemZyaGxU
+WUVJUGZaejZaM0NMcGRWYVU0VjlLQ1h6YTByUzMwUHZGWVRabE12cXA0SUt3cXh1MGpKNmd6
+UkwtVC1TM3oxMWtyeG9HVVBZazNQdmRZaGxYakNYNllucjR3LW9PZWw2S2JXWk9JMWNGTEM1
+ZFROaDNaeHJHS2dwMD4NClBoeXNpY2FsIA0KICAgICAgQ2xhc3MNCg0KDQo8aHR0cHM6Ly8x
+MzNJSy50cmsuZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPWhONWpGVU92UGtj
+RlNtaTdHZWdKV0dvSURPTG1jalc0dVJHMkFyMlN2cFlOcDNiV2Jfam8tUjRPU3lWWVF1ZzZ1
+aEVyUTA1dWVMWE8ta3liWUNJXzJBc0xzMU9uVzAtV2IwTDUzRF9TZURYOEJoS2E2OUE0OFB1
+d0ZGd29SUlk3RkRJdEZnXzlkSkgtZUFTdXBzRTBuSDZKanl3U2tsMzFHT2liN25YRy1QRUkw
+Pg0KT25saW5lIA0KICAgICAgQ2xhc3MNCsKgDQrCoA0KDQo8aHR0cHM6Ly8xMzNJSy50cmsu
+ZWxhc3RpY2VtYWlsLmNvbS90cmFja2luZy9jbGljaz9kPTRSU09HZVM1SEk2S0ZKaXhRcHlr
+VUg3U0JEU2owQTJFZEhkY3FxRWstS01TYTkwVGxHQ0tLSjVoSUg0aV9pd1FNazY1SWNKVUlS
+aVNMWEVIOGpfVnFzWS1qWGJTalZsdVhSNDJMd0l1ejVhamJYMnlRTDlraElRNmIxSmV4WHFY
+aU9wTHJhdDMtMjkxcjc1QnRmZ1E2MUUxPg0KQ2FsZW5kYXIgZm9yIDIwMjMvMjAyNCANCldv
+cmtzaG9wcw0KwqANCg0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJh
+Y2tpbmcvY2xpY2s/ZD00UlNPR2VTNUhJNktGSml4UXB5a1VIN1NCRFNqMEEyRWRIZGNxcUVr
+LUtOZU10QlZxd3IwT2I4RXRRRThFdFZFQ2YzbEZSRXF3S3B5cThjdlFORjB1R1UwVUZHaHRt
+ZEFfV0dBQm03S2E2Q0VpN3YtNnpXdWFzbk1LT3VWZV9lZktJVndsanVTcHZrMFlYT1JZUXJw
+d0Y0MT4NCkNvbnRhY3QgDQp1cw0KwqANCg0KPGh0dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNl
+bWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1UZE8xZ0N1UTcxaHBXTDYwQldObnR1d2YySVdK
+Zmtfa0pRX09leDVfZWpoRS1qeGpCVHI4UTNOTHloaVlLcmxuMC10WVctMWdCNVQwcHJqWWhV
+bFVGMXRISk9sRkJmck9wRzFWMW1kdWNyTnBPejdUVHE4ZFladllPUFVnY214NHNMc3U4dVdy
+NFBrVkFJYzhqaXlYbUFnMT4NCldoYXRhcHANCsKgDQpPZmZpY2UgDQpUZWxlcGhvbmU6ICsy
+NTQtNzAyLTI0OS00NDkNClJlZ2lzdGVyIGFzIGEgZ3JvdXAgb2YgNSBmb3IgdGhlIHByaWNl
+IG9mIDQgb24gdGhlIGNvdXJzZSBmZWUuIA0KDQpTZW5kIA0KdXMgYW4gZW1haWw6IA0KPGh0
+dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvY2xpY2s/ZD1yYV9L
+cnF1eW1fdkFIN2EweGZ5aVJSUkowbW1Nb2dueWc1NmttUGVKRGNPQVRnNWhSa040am1ITXdF
+ekYwemd0TzQ4S05OdUxHVWR3bEcxcUtqVW5iVU0ySWVUMEljT1diZkpsbFQ0MkpzWGY2WTE5
+UWhXQzhvS0NnMHdHVmhNTVZXU3lGTnhpT3U2TUg1N1RHSi1VNzVzNWVXa2NpdEdwZDZFMXN1
+Sko5bVpwZTdacWNnaDVzQTU0Q0JuQlM5YjVjbkgxcnJHMzRKYWhRWjU5MFhCWmlhNmpORGF5
+eTNndDJBbjJNZDIxUkt2OTA+DQp0cmFpbmluZ0Bza2lsbHNmb3JhZnJpY2Eub3JnwqBvciBj
+YWxsICsyNTQtNzAyLTI0OS00NDkNCsKgDQpJTlRST0RVQ1RJT04NClRoaXMgdHJhaW5pbmcg
+aW50cm9kdWNlcyBrZXkgcHJpbmNpcGxlcyBhbmQgcHJhY3RpY2VzIGluIHRoZSANCm1hbmFn
+ZW1lbnQsIG1vbml0b3JpbmcsIGFuZCBldmFsdWF0aW9uIG9mIGludGVybmF0aW9uYWwgZGV2
+ZWxvcG1lbnQgcHJvamVjdHMsIA0KYW5kIGVxdWlwcyBwYXJ0aWNpcGFudHMgd2l0aCBwcm9q
+ZWN0IG1hbmFnZW1lbnQsIE1vbml0b3JpbmcsIGFuZCBFdmFsdWF0aW9uIA0Kc2tpbGxzLiBU
+aGUgdHJhaW5pbmcgYmxlbmRzIHBsYW5uaW5nIGFuZCBtYW5hZ2VtZW50IHByaW5jaXBsZXMg
+d2l0aCBza2lsbCANCmRldmVsb3BtZW50IHJlbGF0ZWQgdG8gZGF0YSBjb2xsZWN0aW9uIGFu
+ZCANCmFuYWx5c2lzLg0KQ09VUlNFIA0KT0JKRUNUSVZFUw0KQnkgDQogIHRoZSBlbmQgb2Yg
+dGhlIGNvdXJzZSBwYXJ0aWNpcGFudHMgd2lsbCBiZSBhYmxlIA0KICB0bzoNClVuZGVyc3Rh
+bmQgdGhlIGNvbmNlcHRzIG9mIG1vbml0b3JpbmcgYW5kIA0KICBldmFsdWF0aW9uDQpEZXNp
+Z25pbmcgTSZFIHN5c3RlbXMgYW5kIA0KICBmcmFtZXdvcmtzDQpVbmRlcnN0YW5kIHRoZSBm
+cmFtZXdvcmsNClByZXBhcmF0aW9uIGFuZCBpbXBsZW1lbnRhdGlvbiBvZiBtb25pdG9yaW5n
+IGFuZCANCiAgZXZhbHVhdGlvbg0KRGV0ZXJtaW5lIHJlbGV2YW50IGluZGljYXRvcnMgYW5k
+IGRhdGEgbmVjZXNzYXJ5IGZvciANCiAgZXZhbHVhdGlvbg0KRGVmaW5pbmfCoHJlYWxpc3Rp
+YyBleHBlY3RlZCByZXN1bHRzwqBiYXNlZCANCiAgb27CoGFwcHJvcHJpYXRlIGFuYWx5c2lz
+DQpNb25pdG9yaW5nIHByb2dyZXNzIHRvd2FyZCByZXN1bHRzIGFuZCByZXNvdXJjZXMgDQog
+IGNvbnN1bWVkwqB3aXRoIHRoZSB1c2Ugb2YgYXBwcm9wcmlhdGUgDQogIGluZGljYXRvcnMN
+CkRVUkFUSU9ODQoxMCBkYXlzLg0KV0hPIA0KU0hPVUxEIEFUVEVORA0KVGhpcyANCiAgdHJh
+aW5pbmcgaXMgaW50ZW5kZWQgZm9yIFByb2plY3QgTWFuYWdlbWVudCBPZmZpY2lhbHMsIGdv
+dmVybm1lbnQgb2ZmaWNpYWxzLCANCiAgZGVwYXJ0bWVudCBoZWFkcyBhbmQgcHJvZ3JhbSBt
+YW5hZ2VyczvCoHBvbGljeSBtYWtlcnMgYW5kIHByb2dyYW0gDQogIGltcGxlbWVudGVyczvC
+oGRldmVsb3BtZW50IHByYWN0aXRpb25lcnMgYW5kIGFjdGl2aXN0cyBhbmQgTkdPIGFuZCBD
+U08gDQogIG1lbWJlcnMsIFVuaXZlcnNpdHkgUmVzZWFyY2hlcnMgYW1vbmcgb3RoZXJzLg0K
+wqDCoMKgwqDCoCBDT1VSU0UgDQpDT05URU5UDQpNb2R1bGUgDQoxOkJhc2ljIENvbmNlcHRz
+wqBpbsKgbW9uaXRvcmluZyBhbmQgZXZhbHVhdGlvbg0KSW50cm9kdWN0aW9uIHRvIE0mRQ0K
+TSZFIGFuZCB0aGUgcHJvamVjdC9wcm9ncmFtbWUgDQogIGN5Y2xlDQpJbXBvcnRhbmNlIG9m
+IE0mRQ0KUHVycG9zZXMgYW5kIHVzZXMgb2YgTSZFDQpJZGVudGlmeWluZyBnYXBzIGluIE0m
+RQ0KQmFycmllcnMgdG8gZWZmZWN0aXZlIE0mRQ0KSW50cm9kdWN0aW9uIHRvIFByb2JsZW0g
+QW5hbHlzaXMNCk1vZHVsZSAyOiANClJlc3VsdHMtYmFzZWQgTSZFDQpEZWZpbml0aW9uIG9m
+IFJlc3VsdCBCYXNlZCBNJkUNCldoeSANCiAgcmVzdWx0cy1iYXNlZCBtYW5hZ2VtZW50Pw0K
+UmVzdWx0cy1iYXNlZCBNJkUgb3V0bGluZSBhbmQgDQogIGN5Y2xlDQpIb3cgDQogIHRvIHVz
+ZSByZXN1bHRzLWJhc2VkIG1hbmFnZW1lbnQgTSZFDQpSZXN1bHQgQmFzZWQgTSZFIHRvb2xz
+DQpUaGUgDQogIHBlcmZvcm1hbmNlIEluZGljYXRvcnMgYW5kIHBlcmZvcm1hbmNlIG1lYXN1
+cmVtZW50IA0KICBmcmFtZXdvcmsNClN0ZXBzIHRvIGNvbXBsZXRlIGEgUGVyZm9ybWFuY2Ug
+TWVhc3VyZW1lbnQgDQogIEZyYW1ld29yaw0KTW9kdWxlIA0KMzrCoFJlYWRpbmVzcyBBc3Nl
+c3NtZW50ICbCoERldGVybWluYXRpb24gb2YgT3V0Y29tZXMgZm9yIA0KTSZFDQpSZWFkaW5l
+c3MgDQogIEFzc2Vzc21lbnQNCk0mRSByZWFkaW5lc3MgYXNzZXNzbWVudCBhbmQgaXRzIA0K
+ICBzaWduaWZpY2FuY2UNCkFzcGVjdHMgb2YgTSZFIHJlYWRpbmVzcyANCiAgYXNzZXNzbWVu
+dA0KSG93IA0KICB0byBjb25kdWN0IFJlYWRpbmVzcyBBc3Nlc3NtZW50DQpEZXRlcm1pbmF0
+aW9uIA0KICBvZiBPdXRjb21lcw0KVGhlIA0KICBJbXBvcnRhbmNlIG9mIE91dGNvbWVzDQpJ
+c3N1ZXMgdG8gQ29uc2lkZXIgaW4gQ2hvb3NpbmcgT3V0Y29tZXMgdG8gTW9uaXRvciBhbmQg
+DQogIEV2YWx1YXRlDQpTZWxlY3RpbmcgS2V5IFBlcmZvcm1hbmNlIEluZGljYXRvcnMgdG8g
+TW9uaXRvciANCiAgT3V0Y29tZXMNCkhvdyANCiAgdG8gY2hvb3NlIEdvb2QgUGVyZm9ybWFu
+Y2UgSW5kaWNhdG9ycw0KVGhlIA0KICBVc2Ugb2YgUHJveHkgSW5kaWNhdG9ycw0KVGhlIA0K
+ICBQcm9zIGFuZCBDb25zIG9mIFVzaW5nIFByZWRlc2lnbmVkIEluZGljYXRvcnMNCkNvbnN0
+cnVjdGluZyBJbmRpY2F0b3JzDQpTZXR0aW5nIEluZGljYXRvcnMNCk1vZHVsZSA0OiANCkJh
+c2VsaW5lIEFzc2Vzc21lbnQNCldoYXQgDQogIGlzIGJhc2VsaW5lIGFzc2Vzc21lbnQ/DQpJ
+bXBvcnRhbmNlIG9mIGJhc2VsaW5lIGFzc2Vzc21lbnQNClNldHRpbmcgYmFzZWxpbmVzIGFu
+ZCBpbmRpY2F0b3JzDQpHYXRoZXJpbmcgZGF0YSBvbiBiYXNlbGluZSANCiAgSW5kaWNhdG9y
+cw0KVXNlIA0KICBvZiBCYXNlbGluZSBkYXRhIG9uIGluZGljYXRvcnMNCkV4YW1wbGVzIG9m
+IGJhc2VsaW5lIHN0dWR5DQpNb2R1bGUgDQo1OsKgTSZFIFN5c3RlbXMgYW5kwqBGcmFtZXdv
+cmtzDQpQcmluY2lwbGVzIG9mIE0mRSBzeXN0ZW0NCklkZW50aWZ5aW5nIHRoZSBwdXJwb3Nl
+IGFuZCBzY29wZSBvZiB0aGUgTSZFIA0KICBzeXN0ZW0NCkRlc2lnbiAmIHNldCB1cCBvZiBN
+JkUgDQogIHN5c3RlbQ0KUHJhY3RpY2FsIG9uIGRlc2lnbmluZyB0aGUgTSZFIA0KICBzeXN0
+ZW0NCkRlZmluaXRpb24gb2YgTSZFIGZyYW1ld29ya3MNCkRldmVsb3BpbmcgYW5kIGltcGxl
+bWVudGluZyBNJkUgDQogIGZyYW1ld29ya3MNCkxpbmtpbmcgTSZFIGZyYW1ld29ya3MgdG8g
+DQogIGluZGljYXRvcnMNCk1vZHVsZSANCjY6wqBQZXJmb3JtYW5jZU0mRcKgZm9yIFJlc3Vs
+dHMNClR5cGVzIGFuZCBMZXZlbHMgb2YgTW9uaXRvcmluZw0KTGlua3MgYmV0d2VlbiBJbXBs
+ZW1lbnRhdGlvbiBNb25pdG9yaW5nIGFuZCBSZXN1bHRzIA0KICBNb25pdG9yaW5nDQpOZWVk
+cyBvZiBFdmVyeSBSZXN1bHRzLUJhc2VkIE1vbml0b3JpbmcgDQogIFN5c3RlbQ0KRXZhbHVh
+dGlvbiB0ZWNobmlxdWVzDQpHZW5kZXIgZGlzaW50ZWdyYXRpb24gaW4gTSZFIA0KICBwbGFu
+bmluZw0KQ29tbXVuaWNhdGluZyBNJkUgZmluZGluZ3MNClRoZSANCiAgVXNlIG9mIE1vbml0
+b3JpbmcgYW5kIEV2YWx1YXRpb24gRmluZGluZ3MNCkFzc2Vzc2luZyBwcm9ncmFtIGltcGFj
+dA0KTW9kdWxlIDc6IA0KU3RhdGlzdGljYWwgQ29uY2VwdHMsIFJlc2VhcmNoIE1ldGhvZG9s
+b2d5LMKgRGF0YSBDb2xsZWN0aW9uIGFuZCANCk1hbmFnZW1lbnQNCk1lYW5pbmcgUXVhbGl0
+YXRpdmUgYW5kIHF1YW50aXRhdGl2ZSANCiAgZGF0YQ0KVHlwZXMgb2YgdmFyaWFibGVzIChO
+dW1lcmljYWwsIGRpc2NyZXRlIHZhcmlhYmxlcywgZHVtbXkgDQogIHZhcmlhYmxlcywNCkRl
+dGVybWluYXRpb24gb2YgcmVzZWFyY2ggZGVzaWducw0KU2FtcGxpbmcgdGVjaG5pcXVlcyBh
+bmQgc2FtcGxlIHNpemUNCkRlc2lnbmluZyByZXNlYXJjaCB0b29scywgRGF0YSBjb2xsZWN0
+aW9uIA0KICB0ZWNobmlxdWVzDQpFbnRlcmluZyBjYXRlZ29yaWNhbCBhbmQgY29udGludW91
+cyANCiAgZGF0YQ0KRGVmaW5pbmcgYW5kIGxhYmVsaW5nIHZhcmlhYmxlcw0KVmFsaWRhdGlv
+biBhbmQgU29ydGluZyB2YXJpYWJsZXMNClRyYW5zZm9ybWluZywgcmVjb3JkaW5nIGFuZCBj
+b21wdXRpbmcgDQogIHZhcmlhYmxlcw0KTW9kdWxlwqA4OsKgVGFidWxhdGlvbiANCmFuZCBn
+cmFwaGljYWwgcHJlc2VudGF0aW9uIG9mIGRhdGENCkRlc2NyaXB0aXZlIFN0YXRpc3RpY3MN
+CkZyZXF1ZW5jeSB0YWJsZXMNClRhYmxlcyBmb3IgY2F0ZWdvcmljYWwgZGF0YQ0KR3JhcGhz
+IGFuZCBjaGFydHMNCk1vZHVsZSANCjk6wqBEYXRhIGFuYWx5c2lzIGFuZCBpbnRlcnByZXRh
+dGlvbiBmb3IgTSZFDQpIeXBvdGhlc2lzIHRlc3RpbmcNCkNvbXBhcmluZyBNZWFucy4NClJl
+Z3Jlc3Npb24gYW5kIENvcnJlbGF0aW9uIEFuYWx5c2lzDQpJbnRlcnByZXRpbmcgdGhlIGRh
+dGENCkludHJvZHVjdGlvbiB0byBhbmFseXppbmcgcXVhbGl0YXRpdmUgZGF0YSBhbmQgcXVh
+bGl0YXRpdmUgZGF0YSANCiAgYW5hbHlzaXMgc29mdHdhcmUgKE5WSXZvKQ0KTW9kdWxlIA0K
+MTA6IE1vYmlsZSBCYXNlZCBEYXRhIENvbGxlY3Rpb24gKE9ESykgYW5kIG1hcHBpbmcNCklu
+dHJvZHVjdGlvbiB0byBtb2JpbGUgcGhvbmUgZGF0YSANCiAgY29sbGVjdGlvbg0KQWR2YW50
+YWdlcyBhbmQgY2hhbGxlbmdlcyBvZiBNb2JpbGUgDQogIEFwcGxpY2F0aW9ucw0KQ29tcG9u
+ZW50cyBvZiBPcGVuIERhdGEgS2l0IChPREspDQpPREsgDQogIHBsYXRmb3JtcyBhbmQgZm9y
+bWF0cw0KRG93bmxvYWRpbmcgYW5kIGluc3RhbGwgT0RLIENvbGxlY3QgaW50byBtb2JpbGUg
+ZGV2aWNlcyBvciANCiAgdXNpbmdBUEsgZmlsZQ0KRGVzaWduaW5nIGFuZCBjcmVhdGluZyBG
+b3Jtcw0KT0RLIA0KICBBZ2dyZWdhdGUgU2VydmVyDQpUcmFuc2Zvcm0gZGF0YSBhbmTCoFVz
+aW5nwqBHUFPCoENvb3JkaW5hdGVzwqBmb3IgDQogIE1hcHBpbmcvVmlzdWFsaXppbmcNCsKg
+DQrCoMKgwqDCoMKgIEdlbmVyYWwgDQpOb3Rlcw0KVGhpcyANCiAgY291cnNlIGlzIGRlbGl2
+ZXJlZCBieSBvdXIgc2Vhc29uZWQgdHJhaW5lcnMgd2hvIGhhdmUgdmFzdCBleHBlcmllbmNl
+IGFzIA0KICBleHBlcnQgcHJvZmVzc2lvbmFscyBpbiB0aGUgcmVzcGVjdGl2ZSBmaWVsZHMg
+b2YgcHJhY3RpY2UuIFRoZSBjb3Vyc2UgaXMgDQogIHRhdWdodCB0aHJvdWdoIGEgbWl4IG9m
+IHByYWN0aWNhbCBhY3Rpdml0aWVzLCB0aGVvcnksIGdyb3VwIHdvcmtzIGFuZCBjYXNlIA0K
+ICBzdHVkaWVzLg0KVHJhaW5pbmcgbWFudWFscyBhbmQgYWRkaXRpb25hbCByZWZlcmVuY2Ug
+bWF0ZXJpYWxzIGFyZSBwcm92aWRlZCANCiAgdG8gdGhlIHBhcnRpY2lwYW50cy4NClVwb24g
+DQogIHN1Y2Nlc3NmdWwgY29tcGxldGlvbiBvZiB0aGlzIGNvdXJzZSwgcGFydGljaXBhbnRz
+IHdpbGwgYmUgaXNzdWVkIHdpdGggYSANCiAgY2VydGlmaWNhdGUuDQpXZSANCiAgY2FuIGFs
+c28gZG8gdGhpcyBhcyB0YWlsb3ItbWFkZSBjb3Vyc2UgdG8gbWVldCBvcmdhbml6YXRpb24t
+d2lkZSBuZWVkcy4gDQogIENvbnRhY3QgdXMgdG8gZmluZCBvdXQgbW9yZTogDQogIHRyYWlu
+aW5nQHNraWxsc2ZvcmFmcmljYS5vcmcNClRoZSANCiAgdHJhaW5pbmcgd2lsbCBiZSBjb25k
+dWN0ZWQgYXQgU0tJTExTIEZPUiBBRlJJQ0EgVFJBSU5JTkcgDQogIElOU1RJVFVURQ0KVGhl
+IA0KICB0cmFpbmluZyBmZWUgY292ZXJzIHR1aXRpb24gZmVlcywgdHJhaW5pbmcgbWF0ZXJp
+YWxzLCBsdW5jaCBhbmQgdHJhaW5pbmcgDQogIHZlbnVlLiBBY2NvbW1vZGF0aW9uIGFuZCBh
+aXJwb3J0IHRyYW5zZmVyIGFyZSBhcnJhbmdlZCBmb3Igb3VyIHBhcnRpY2lwYW50cyANCiAg
+dXBvbiByZXF1ZXN0Lg0KUGF5bWVudCBzaG91bGQgYmUgc2VudCB0byBvdXIgYmFuayBhY2Nv
+dW50IGJlZm9yZSBzdGFydCBvZiANCiAgdHJhaW5pbmcgYW5kIHByb29mIG9mIHBheW1lbnQg
+c2VudCB0bzogDQogIHRyYWluaW5nQHNraWxsc2ZvcmFmcmljYS5vcmcNCsKgDQrCoA0KPGh0
+dHBzOi8vMTMzSUsudHJrLmVsYXN0aWNlbWFpbC5jb20vdHJhY2tpbmcvdW5zdWJzY3JpYmU/
+ZD10dmRIbG04WGNIa05sNGlUUEhSeWhwRU45RWJkZWlybnoxTWlPbXVGc05UTDdrcTZCZkNq
+Z29wdFNZS01hZUFLUkw5dHZZRWY4cTQzNl9oNmJkQ2w4WmJLbVB4Vm9tZXdlc2x4YmNOTHlq
+VU8wPg0KVU5TVUJTQ1JJQkU=
+
+--=-eZCfO1fMwXb9BJ7NUMYubTuM8ylQ+8QM/XWKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<P class=3DMsoNormal=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: medium none; PADDING-BOTTOM: 0cm; TEXT-ALIGN: justify; PADDING-T=
+OP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; MARGIN: 0cm 0cm =
+0pt; LINE-HEIGHT: normal; PADDING-RIGHT: 0cm; mso-outline-level: 2; ms=
+o-border-bottom-alt: solid #15B055 1.5pt; mso-padding-alt: 0cm 0cm 4.0=
+pt 0cm"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D1RuUS-hk=
+ey1EpYtCrPHRWRzkeW3D-OHrskSDdtUT28LsqJRxYW9roZ19K0PzSDJDe2d9Qx83BcH2TJ=
+_PZjwC-wmqofmsGaa_43F9pb-l8LOaf-GrQRyS0OMZX0GUb76zgYZdm_ygzm8YXhFRzlq-=
+m3Q1"><FONT color=3D#410082><SPAN=20
+style=3D"mso-bidi-font-family: Calibri">Training Seminar On Effective =
+Monitoring=20
+&amp; Evaluation For Public And Donor-funded Programmes </SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; FONT-WEIGHT: normal"><?xml:namespace prefix =
+=3D "o" ns =3D=20
+"urn:schemas-microsoft-com:office:office"=20
+/><o:p></o:p></SPAN></FONT></A></SPAN></B></P></DIV>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<TABLE class=3DMsoNormalTable=20
+style=3D"WIDTH: 442.75pt; BACKGROUND: #202c45; BORDER-COLLAPSE: collap=
+se; mso-yfti-tbllook: 1184"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D738 border=3D0>
+  <THEAD>
+  <TR style=3D"HEIGHT: 23.65pt; mso-yfti-irow: 0; mso-yfti-firstrow: y=
+es">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: n=
+ormal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: white'>Dates<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: white; LINE-HEIGHT: 115%'>Fees<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: white; LINE-HEIGHT: 115%'>Location<o:p></o:p></SPAN></B></P></=
+TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0c=
+m 10pt"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: white; LINE-HEIGHT: 115%'>Apply<o:p></o:p></SPAN></B></P></TD>=
+</TR></THEAD>
+  <TBODY>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 1">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>06/11/2023<B>&nbsp;-</B>&nbsp;17/11/2023<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Mombasa<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPIa2wd5jBbtfVtzK6s2Vo5NhNM4XCv=
+ciGnA5ZoEAUnpwg4VjXDvjeslTNQgzPaJXwm58hcFWv-_i2sX8A0yh8yE41aRvzgdqAf8p=
+mRHx_4yBzf4pOK-Jtw5XvvoIMDy3Fx0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtOr71p3ShuXkrThiXxaHnWzBVXXNBF8=
+BGp1fiPuqou4jgYyxa738NV3XJQr9atXU0md2TmqpD68EwuiBsl2Ni7Z7mo-okx8K8Bb0n=
+JABYdSY4iGQZxZz8nnNSqbXd2xp7tP0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 2">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>04/12/2023<B>&nbsp;-</B>&nbsp;15/12/2023<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$2700<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtPIa2wd5jBbtfVtzK6s2Vo5E9hOnJLF=
+kcYlWPqDHaIOaWaA05RpfzKjDr0LHG9yFH7sGL4Z2oH01EMPYM1E4yjC2COHIcgaGt4O5Q=
+EFhD0JujaNJbEeB0_vOu0pbDEm79a30"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DWo=
+apoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtOr71p3ShuXkrThiXxaHnWzq1u-DmWX=
+tTqn5FsPdSJZA9zH2n6C9ClyVPWyz9ythVuoKnofNRl3NEWwapdoNhOa6Iv5EqW746I64U=
+2edNyNI5At2CDmV8MnevNa-q1sKmPL0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 3">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>15/01/2024<B>&nbsp;-</B>&nbsp;26/01/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLHdIzfMBH=
+uW9Ei8BLQjHVWUir55ipOkLt_BlZS64LyRQQr57o016QBW_S0aYpwxGlbqh0C2s2htgT1Q=
+0yNLbXwl6QdcIOMSfg15N4G1ZVF1wM0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6VTS_1D8m=
+BEgyjD5Um3HU2_Mb8FWWY7zv97N-2bA8LxiqzxyRCROrdokDtY7E9bZ6hw1wA_zGF-T0NM=
+mDHwjyiEZUKw1csuadVWRJgdeae1iw0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 4">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>12/02/2024<B>&nbsp;-</B>&nbsp;23/02/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Mombasa<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLIUpen5B3=
+dKZCgLDLdo-HNU4D2HfWal_FYOOu7Q5WJSc1Vj5d7-5VP8DEWuGfAg2LZvoto3VyvUeMHo=
+RxoAPn4o4AJmx4d67L9OhNll4hJbY30"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6pFI3Nh-O=
+FLrdv7Cf62QUtbHnCvKhTUKD3_SHy6tLkHvQCqLy4-uMlJVF0nx-fa8CO92zgQt9PP4yfb=
+PX2iAXAVD6YxlSuIBI8lqiHzhY8MhT0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 5">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>11/03/2024<B>&nbsp;-</B>&nbsp;22/03/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLLU3D__t_=
+Nogu5p6zo0qQ8eiVoMXwjGP5h75nNGGL78M_2dkTji03YhlZ65cSf9J6n6R3FjvzhqWpof=
+WjryWVmEOflAM0ObpMz2TU9f6QO6PQ0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6Sas4BJhD=
+va3UVVwEmn3NLavHskI4a4xHPqt34Z6SVy6pTPH7bJQRK_bdvF1KlVD8mGJzjdqlukLKad=
+Qjqj_RsyQSDgl4xs7oen_JEbU1MZJx0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 6">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>08/04/2024<B>&nbsp;-</B>&nbsp;19/04/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3950<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Kigali<o:p></o:p></SPAN></P></TD=
+>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLadUVZfKg=
+hFIpsMUGdxoaNSK1YdhDTXBQQFjw_BVDu0Ava6frFiEbsy0GfbOb5aTBC29zVOU7KZqpqo=
+TiFBE1pADOlZM0ViCuWR_F8Zvg3lom0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug632xpZj7-=
+hY7xmeg7GnoOK9WS4UhrUsmfmmAkToQv_QZAJIorbrAibmTbmjiuxTwIrDD6-nhaCL_PFP=
+kLrQ9X0ORM2_STeErH6EXosb64ipyI0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 7">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>13/05/2024<B>&nbsp;-</B>&nbsp;24/05/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$5500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Dubai<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLY3lB5OS2=
+wmqIBmSeKmr6QvEC2_3m_pagvVnwLOen4Wx526pUB1_CdZ2Z8qOhRqwJoTWmCDpIi8_5Jx=
+XBE-vsmycPjIZxog8KC9tSkLq4GqqE0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6BFyxmW5k=
+mNyxI9NIfI5m5z4YfrJ1PNviVFMpxgMd5f5zI1ECDahv65TkbBkgyT22rAhT8uOp6cFLvA=
+sG1gev_n0ioqIutYS8-rqx-ea_S1mh0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 8">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>10/06/2024<B>&nbsp;-</B>&nbsp;21/06/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLOd9Hz_ef=
+1EIOyhgLqK9aNJC_gQCA3Ep1J3eYeoS61jTLLD-hOcQIvJTKy9zWH9T7HGsEufmhLmhi2G=
+Eb6LQu0rtvy6-9NuVbGKTZ0rCPrgG40"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6q21_jmyc=
+XJgpLZOb0K3vseIPn-9YUPba7yR2NrvU8aS64OogTxl2raA5AKe5Fq0JoPWMGL1JE0DcqG=
+ZFTpBVh2XDL5ZPGCBmZxnANV6rxOfd0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 9; mso-yfti-lastrow: ye=
+s">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue'>08/07/2024<B>&nbsp;-</B>&nbsp;19/07/2024<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>$3000<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'>Nairobi<o:p></o:p></SPAN></P></T=
+D>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "helvetica neue",serif;=
+ COLOR: aliceblue; LINE-HEIGHT: 115%'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpaiTMzfrhlTYEIPfZz6Z3CLpdVaU4V9=
+KCXza0rS30PvFYTZlMvqp4IKwqxu0jJ6gzRL-T-S3z11krxoGUPYk3PvdYhlXjCX6Ynr4w=
+-oOel6KbWZOI1cFLC5dTNh3ZxrGKgp0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm">Physical=20
+      Class</SPAN></A><BR><BR><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DhN=
+5jFUOvPkcFSmi7GegJWGoIDOLmcjW4uRG2Ar2SvpYNp3bWb_jo-R4OSyVYQug6uhErQ05u=
+eLXO-kybYCI_2AsLs1OnW0-Wb0L53D_SeDX8BhKa69A48PuwFFwoRRY7FDItFg_9dJH-eA=
+SupsE0nH6JjywSkl31GOib7nXG-PEI0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m">Online=20
+      Class</SPAN></A><o:p></o:p></SPAN></P></TD></TR></TBODY></TABLE>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KMSa90TlGCKKJ5hIH4i_iwQMk65IcJUIRiSLX=
+EH8j_VqsY-jXbSjVluXR42LwIuz5ajbX2yQL9khIQ6b1JexXqXiOpLrat3-291r75BtfgQ=
+61E1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Calendar fo=
+r 2023/2024=20
+Workshops<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3D4RSOGeS5=
+HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KNeMtBVqwr0Ob8EtQE8EtVECf3lFREqwKpyq8=
+cvQNF0uGU0UFGhtmdA_WGABm7Ka6CEi7v-6zWuasnMKOuVe_efKIVwljuSpvk0YXORYQrp=
+wF41" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Contact=20
+us<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3DTdO1gCuQ=
+71hpWL60BWNntuwf2IWJfk_kJQ_Oex5_ejhE-jxjBTr8Q3NLyhiYKrln0-tYW-1gB5T0pr=
+jYhUlUF1tHJOlFBfrOpG1V1mducrNpOz7TTq8dYZvYOPUgcmx4sLsu8uWr4PkVAIc8jiyX=
+mAg1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Whatapp<o:p=
+></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Office=20
+Telephone: +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>Register as a group of 5 for the price of 4 on the cour=
+se fee.=20
+<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Send=20
+us an email: </FONT><A=20
+ href=3D"https://133IK.trk.elasticemail.com/tracking/click?d=3Dra_Krqu=
+ym_vAH7a0xfyiRRRJ0mmMognyg56kmPeJDcOATg5hRkN4jmHMwEzF0zgtO48KNNuLGUdwl=
+G1qKjUnbUM2IeT0IcOWbfJllT42JsXf6Y19QhWC8oKCg0wGVhMMVWSyFNxiOu6MH57TGJ-=
+U75s5eWkcitGpd6E1suJJ9mZpe7Zqcgh5sA54CBnBS9b5cnH1rrG34JahQZ590XBZia6jN=
+Dayy3gt2An2Md21RKv90" ><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT=20
+color=3D#410082>training@skillsforafrica.org&nbsp;</FONT></SPAN></A><F=
+ONT=20
+face=3DCalibri>or call +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ; m=
+so-layout-grid-align: none"><B><SPAN=20
+lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ; m=
+so-layout-grid-align: none"><FONT=20
+face=3DCalibri><B><SPAN lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN">INTRODUCTION</SPAN></B><SPAN=20
+lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN"><o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal=
+; mso-margin-top-alt: auto"><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><FONT=20
+face=3DCalibri>This training introduces key principles and practices i=
+n the=20
+management, monitoring, and evaluation of international development pr=
+ojects,=20
+and equips participants with project management, Monitoring, and Evalu=
+ation=20
+skills. The training blends planning and management principles with sk=
+ill=20
+development related to data collection and=20
+analysis.<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 36pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">COURSE=20
+OBJECTIVES</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>By=20
+  the end of the course participants will be able=20
+  to:<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Understand the concepts of monitoring and=20
+  evaluation<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Designing M&amp;E systems and=20
+  frameworks<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Understand the framework<o:p></o:p></FONT></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Preparation and implementation of monitoring and=20
+  evaluation<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Determine relevant indicators and data necessary for=20
+  evaluation<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Defining&nbsp;realistic expected results&nbsp;based=20
+  on&nbsp;appropriate analysis<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Monitoring progress toward results and resources=20
+  consumed&nbsp;with the use of appropriate=20
+  indicators<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 36pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">DURATION</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 36pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><FONT=20
+face=3DCalibri>10 days.<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 36pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">WHO=20
+SHOULD ATTEND</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>This=20
+  training is intended for Project Management Officials, government of=
+ficials,=20
+  department heads and program managers;&nbsp;policy makers and progra=
+m=20
+  implementers;&nbsp;development practitioners and activists and NGO a=
+nd CSO=20
+  members, University Researchers among others.<o:p></o:p></FONT></SPA=
+N></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal=
+; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>COUR=
+SE=20
+CONTENT</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+1:Basic Concepts&nbsp;in&nbsp;monitoring and evaluation</SPAN></B><SPA=
+N=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Introduction to M&amp;E<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>M&amp;E and the project/programme=20
+  cycle<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Importance of M&amp;E<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Purposes and uses of M&amp;E<o:p></o:p></FONT></SPAN>=
+</LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Identifying gaps in M&amp;E<o:p></o:p></FONT></SPAN><=
+/LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Barriers to effective M&amp;E<o:p></o:p></FONT></SPAN=
+></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Introduction to Problem Analysis<o:p></o:p></FONT></S=
+PAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module 2:=20
+Results-based M&amp;E</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Definition of Result Based M&amp;E<o:p></o:p></FONT><=
+/SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Why=20
+  results-based management?<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Results-based M&amp;E outline and=20
+  cycle<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>How=20
+  to use results-based management M&amp;E<o:p></o:p></FONT></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Result Based M&amp;E tools<o:p></o:p></FONT></SPAN></=
+LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  performance Indicators and performance measurement=20
+  framework<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Steps to complete a Performance Measurement=20
+  Framework<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+3:&nbsp;Readiness Assessment &amp;&nbsp;Determination of Outcomes for=20
+M&amp;E</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><FONT=20
+  face=3DCalibri><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-=
+family: Calibri">Readiness=20
+  Assessment</SPAN><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p>=
+</SPAN></FONT></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>M&amp;E readiness assessment and its=20
+  significance<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Aspects of M&amp;E readiness=20
+  assessment<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>How=20
+  to conduct Readiness Assessment<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><FONT=20
+  face=3DCalibri><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-weight: bold; mso-bidi-font-=
+family: Calibri">Determination=20
+  of Outcomes</SPAN><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p></o:p>=
+</SPAN></FONT></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  Importance of Outcomes<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Issues to Consider in Choosing Outcomes to Monitor an=
+d=20
+  Evaluate<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Selecting Key Performance Indicators to Monitor=20
+  Outcomes<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>How=20
+  to choose Good Performance Indicators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  Use of Proxy Indicators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  Pros and Cons of Using Predesigned Indicators<o:p></o:p></FONT></SPA=
+N></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Constructing Indicators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Setting Indicators<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module 4:=20
+Baseline Assessment</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>What=20
+  is baseline assessment?<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Importance of baseline assessment<o:p></o:p></FONT></=
+SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Setting baselines and indicators<o:p></o:p></FONT></S=
+PAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Gathering data on baseline=20
+  Indicators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Use=20
+  of Baseline data on indicators<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Examples of baseline study<o:p></o:p></FONT></SPAN></=
+LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+5:&nbsp;M&amp;E Systems and&nbsp;Frameworks</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Principles of M&amp;E system<o:p></o:p></FONT></SPAN>=
+</LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Identifying the purpose and scope of the M&amp;E=20
+  system<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Design &amp; set up of M&amp;E=20
+  system<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Practical on designing the M&amp;E=20
+  system<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Definition of M&amp;E frameworks<o:p></o:p></FONT></S=
+PAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Developing and implementing M&amp;E=20
+  frameworks<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Linking M&amp;E frameworks to=20
+  indicators<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+6:&nbsp;PerformanceM&amp;E&nbsp;for Results</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Types and Levels of Monitoring<o:p></o:p></FONT></SPA=
+N></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Links between Implementation Monitoring and Results=20
+  Monitoring<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Needs of Every Results-Based Monitoring=20
+  System<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Evaluation techniques<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Gender disintegration in M&amp;E=20
+  planning<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Communicating M&amp;E findings<o:p></o:p></FONT></SPA=
+N></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  Use of Monitoring and Evaluation Findings<o:p></o:p></FONT></SPAN></=
+LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Assessing program impact<o:p></o:p></FONT></SPAN></LI=
+></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module 7:=20
+Statistical Concepts, Research Methodology,&nbsp;Data Collection and=20
+Management</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Meaning Qualitative and quantitative=20
+  data<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Types of variables (Numerical, discrete variables, du=
+mmy=20
+  variables,<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Determination of research designs<o:p></o:p></FONT></=
+SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Sampling techniques and sample size<o:p></o:p></FONT>=
+</SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Designing research tools, Data collection=20
+  techniques<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Entering categorical and continuous=20
+  data<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Defining and labeling variables<o:p></o:p></FONT></SP=
+AN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Validation and Sorting variables<o:p></o:p></FONT></S=
+PAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Transforming, recording and computing=20
+  variables<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module&nbsp;8:&nbsp;Tabulation=20
+and graphical presentation of data</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Descriptive Statistics<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Frequency tables<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Tables for categorical data<o:p></o:p></FONT></SPAN><=
+/LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Graphs and charts<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+9:&nbsp;Data analysis and interpretation for M&amp;E</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Hypothesis testing<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Comparing Means.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Regression and Correlation Analysis<o:p></o:p></FONT>=
+</SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Interpreting the data<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Introduction to analyzing qualitative data and qualit=
+ative data=20
+  analysis software (NVIvo)<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt 18pt; LINE-HEIGHT: n=
+ormal; mso-margin-top-alt: auto"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i">Module=20
+10: Mobile Based Data Collection (ODK) and mapping</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Introduction to mobile phone data=20
+  collection<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Advantages and challenges of Mobile=20
+  Applications<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Components of Open Data Kit (ODK)<o:p></o:p></FONT></=
+SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>ODK=20
+  platforms and formats<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Downloading and install ODK Collect into mobile devic=
+es or=20
+  usingAPK file<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Designing and creating Forms<o:p></o:p></FONT></SPAN>=
+</LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>ODK=20
+  Aggregate Server<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l0 level1 lfo1"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Transform data and&nbsp;Using&nbsp;GPS&nbsp;Coordinat=
+es&nbsp;for=20
+  Mapping/Visualizing<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal=
+"><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal=
+"><FONT=20
+face=3DCalibri><B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>Gene=
+ral=20
+Notes</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 12pt; COLOR: #333333; mso-bidi-font-family: Calibr=
+i"><o:p></o:p></SPAN></FONT></P>
+<UL type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>This=20
+  course is delivered by our seasoned trainers who have vast experienc=
+e as=20
+  expert professionals in the respective fields of practice. The cours=
+e is=20
+  taught through a mix of practical activities, theory, group works an=
+d case=20
+  studies.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Training manuals and additional reference materials a=
+re provided=20
+  to the participants.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Upon=20
+  successful completion of this course, participants will be issued wi=
+th a=20
+  certificate.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>We=20
+  can also do this as tailor-made course to meet organization-wide nee=
+ds.=20
+  Contact us to find out more:=20
+  training@skillsforafrica.org<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  training will be conducted at SKILLS FOR AFRICA TRAINING=20
+  INSTITUTE<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>The=20
+  training fee covers tuition fees, training materials, lunch and trai=
+ning=20
+  venue. Accommodation and airport transfer are arranged for our parti=
+cipants=20
+  upon request.<o:p></o:p></FONT></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"COLOR: #333333; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; L=
+INE-HEIGHT: normal; tab-stops: list 36.0pt; mso-margin-top-alt: auto; =
+mso-list: l1 level1 lfo2"><SPAN=20
+  style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><FONT=20
+  face=3DCalibri>Payment should be sent to our bank account before sta=
+rt of=20
+  training and proof of payment sent to:=20
+  training@skillsforafrica.org<o:p></o:p></FONT></SPAN></LI></UL>
+<P class=3DMsoListParagraph style=3D"MARGIN: 5pt 0cm 0pt 22.5pt"><SPAN=
+=20
+style=3D'FONT-FAMILY: "Calibri",sans-serif'><o:p>&nbsp;</o:p></SPAN></=
+P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></P></BODY></HTML>
+
+<img src=3D"https://133IK.trk.elasticemail.com/tracking/open?msgid=3D_=
+Uy_3QC93Zoadr-AMRNZIQ2&c=3D1468560650031829931" style=3D"width:1px;hei=
+ght:1px" alt=3D"" /><div style=3D"text-align:center; background-color:=
+#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:sa=
+ns-serif;"><a href=3D"https://133IK.trk.elasticemail.com/tracking/unsu=
+bscribe?d=3DtvdHlm8XcHkNl4iTPHRyhpEN9Ebdeirnz1MiOmuFsNTL7kq6BfCjgoptSY=
+KMaeAKRL9tvYEf8q436_h6bdCl8ZbKmPxVomeweslxbcNLyjUO0" style=3D"text-ali=
+gn:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfO1fMwXb9BJ7NUMYubTuM8ylQ+8QM/XWKzQ==--

@@ -1,0 +1,516 @@
+Return-Path: <Benconsultium06@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2107351 invoked from network); 25 Oct 2023 11:04:52 -0000
+Received: from NAM12-DM6-obe.outbound.protection.outlook.com (mail-dm6nam12olkn2052.outbound.protection.outlook.com [40.92.22.52])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 25 Oct 2023 11:04:52 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=WnxRfx0HvlKQ6kZjahqat+b+iAcqlUs5zymKVKpVe6zbh3dnUtBAaXBkBWmCo+6Jwa/yyQgiaRmYPj0hB2VdL2ivjQ7pkoIfjXD/rCeNhDSqPtnxWNgF9ktyIwCARXnGGjXATld7ngXrQc0KcDQv8i7TeD5chkckHTeVpkG/+oaelEcmK/yutRBb+ZoYe0Hbuv+ID0nzjWbv4I7WEQldQuVBgneF+51mPAwxZWBmMo60oFhV8DCMLoaX9SLmFcS5/nPYv6YMBQuJHzQBqNjxRyxa2usuHLgWNBo8uIFeUggjGKrfg01AGRLKKSK9SBkIr7s88ypyTDId/vejhU3DJQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=H8wXVvNOK7VZApK71+4X13K/josHUaftUGZYaukSPzU=;
+ b=DSyddMSBsUJ/Khg74VoJX1aSw0BRl/5ay2Jeno12fW/iuQju9krgqZqsAefz/wm5udbMtncWfh7JWotXZhP7j20yQdWBTvhvZCdsLwn1MygSNSVF5k4XIFv963iy/4nxR7zylUzsm+4ViEX+pE3j7nnYGElHIPtjayMaFm84eONmkWHcexGsVJM1aXlWN9GZ5Ik93zPTai74dkodW3gjHCLEqYb/FC6mLgPz6e+bOgV5I5mfSsUcDvVF/AyKZUXUmmYmslJimnhXHW8HfN78XZDJ2WtQw6hffaiehvlGhkY28ciEhR89tGC2o3fR7+PuJyekA65WZNdHE3db9Y7w6w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=H8wXVvNOK7VZApK71+4X13K/josHUaftUGZYaukSPzU=;
+ b=cG6MnQvXhSUsiHEA917nSgIUSO2AQgzgHl4tR+sLCWleYuJ1GrVugy3zlk4rLBhPyNQRSqIKk+zV5kYA4Rt1904tA6xleX0ZEajmW+1ENPUSuIvX/TV+SqvFUI2Tr+t4fMeFS1htTJJrQcYiop8v8hMzLvfOm9MXPG/41sTXCoD1ez9G9tEu1jBYL1yQfZEBgpRLqjJHAJ4JAyOV22JSjjlqahJ7Jgy3JsJPy5iFgAOsnJRrqNuwC1/QPWFLX+Oiuzol9yVWY0dG4aluFZnhnzHR6Li7agTD4ovBFeo+d/xdWnpunG2x0LkxoC06BUPhhqhG34W79xVzFcB5m3YsUA==
+Received: from SJ0PR20MB4362.namprd20.prod.outlook.com (2603:10b6:a03:429::20)
+ by SA1PR20MB5104.namprd20.prod.outlook.com (2603:10b6:806:253::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6907.33; Wed, 25 Oct
+ 2023 11:04:38 +0000
+Received: from SJ0PR20MB4362.namprd20.prod.outlook.com
+ ([fe80::25ff:1aa9:71d8:7da6]) by SJ0PR20MB4362.namprd20.prod.outlook.com
+ ([fe80::25ff:1aa9:71d8:7da6%4]) with mapi id 15.20.6907.025; Wed, 25 Oct 2023
+ 11:04:38 +0000
+From: Dr ANNA COOPER <Benconsultium06@outlook.com>
+Subject: I made a promise to God Allah
+Thread-Topic: I made a promise to God Allah
+Thread-Index: AQHaBzL5p48ZGcGRc0CZ/1B2bVdMzA==
+Date: Wed, 25 Oct 2023 11:04:37 +0000
+Message-ID:
+ <SJ0PR20MB43627F2621667AC3DE6DD3EDBEDEA@SJ0PR20MB4362.namprd20.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn: [E9r+kpLNW7y6GJFv2hPxcajUwoppNFf3s8DnPdm5B2w=]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR20MB4362:EE_|SA1PR20MB5104:EE_
+x-ms-office365-filtering-correlation-id: 1a901d1d-44fd-4e3e-3754-08dbd54a2de1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ v/N/0pUEP0DB4qICp4OZInSPvTqQ5W6e8gQtkyCAZfp3FZ4IiYjfXL905hhetIFJ9Ak39p5KOvAAoomuNRXzV4+9pPNR4U4UTx3RJsU83MZASGkzad7uSK95guwWKh8Ojmp9NzwAbSVF9Seyak/AykhrOk6zpbLLSz+HFeRoxCwSq4MeKV7+LerCQZTzlfprU4cmPUDjM3vGWDm04aOksE21X9FY2Y57AzG//L+WDeIox0r3MSSH2hb2/YfUmNT5lZ9AO9LcjPcwIxk+a/CkQ3IwhrkmXIW7EKxToprEnj6cXfBDcl5TrNufB8R5t8g/iNvJ0Dkx9F8nf/o6loqP7E9DyVUr/pqHgw3GRaKt+K8B1klm3kK6fX6Nr2nCJDVXWpXbTGym1RgjBv29dgGzMUNM1ZPK6LYh59mf9ut8SiFBdmw5swnh7r2FEOp8dToPD3tGQ1syCdEHqHS4zir+jCi485kJyEqyY3azflABOzFA3R0oKKhTMPJl/KbqgjVyjdEL5PSBXx1qDahTokZvgnd3cbJD35A4ArokJRkmShUtSPVY/uBGDk1TaTVpPuVo
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?iiKCCYYtdIkXQe8bwxsbRGZBJNxlqShKjZoqVC9wMZedXn06s4Q25CMm?=
+ =?Windows-1252?Q?6na96ptDhRVHCZcO8LXK597a+yaK/NMR/JcbFg+neJ0YYgQnJvIoK23F?=
+ =?Windows-1252?Q?rdheBgNQDOXccK+m9RKMGfGxvdWUQ2be1XrkZ3F1/TPqCmv9IcM7CE+A?=
+ =?Windows-1252?Q?iuoVeBrJfaYl60yhAo2y16tR05IhoVRGIBbSXQ+owOj9PW5HwC2tKF5W?=
+ =?Windows-1252?Q?Gf68iy99Xiy2w0bcwb4NbkggAGG/GJmxs4/VWZeldOstm+Gr2OaWpHa4?=
+ =?Windows-1252?Q?/qqdVoY1iO64R+c1S5iM0ygDFWV4UfCjWGuQitm0vrAH5ylfBYWE3odd?=
+ =?Windows-1252?Q?ioUGx+A/r/Q01+a/F0NeNYGHOaebwEh8/L6RoIxD8cjReKccNhhTlbx6?=
+ =?Windows-1252?Q?g1N7OO9NFpE52hviDgq8/cA79+nrvyMFgXYHhSMKn6Vs93DQQKbH1clv?=
+ =?Windows-1252?Q?SCMeX9/SzyDdh9fCteE8x8/IHBz35u7E9Sq8OAtcp3FOSV7Co4h869Lx?=
+ =?Windows-1252?Q?O1EvA3I4fQWXFZAT6jEGXBJoZuENcLnLz6xZp9l1JDMR40ur44CitsZZ?=
+ =?Windows-1252?Q?apWLuglg4ruuZnQC91fcAlP8ZAc2CokwhgHwO51Fte9BVtCaP0qnUVZ9?=
+ =?Windows-1252?Q?wkgwzge32qtaJAJCFioQYCQ0VksAeBA2y4dPwFuj/EoY2vueFwaGu/k4?=
+ =?Windows-1252?Q?BCaBJ95EouzITfcBLxDxvvOcRn7c9wRZxX32N+zFFmXZemLAUZSNNIe1?=
+ =?Windows-1252?Q?EAvpq4uEY8FNp8oPvnWJtUkC6SRRe3MSSQD5YFNTKveasytrX5UVSIXc?=
+ =?Windows-1252?Q?OJX5ECWA/GcxpkAxcMwxDDI1vlcu86bTL0uWXA26b1ZuTSRbjJhwhi8S?=
+ =?Windows-1252?Q?27ztOpekoWw1xluPH8FeRRvFc4CyQn0EEy4CvJmCYFj5Xjvda67Hv/dm?=
+ =?Windows-1252?Q?2dmPD4DIF/ibqyJ2d9BRxZUbwWGZwBSrw4EOXAWqh8WBHCctY86f47PW?=
+ =?Windows-1252?Q?Vd4xYlM0usp/+Wtkym8OkDrbuylo7TB5XGyBevaJpVA+yNUKOxQopA4c?=
+ =?Windows-1252?Q?AdMaZCfToZNZq6Kif/O1i7npd4NJLZPlPkaCq/gIksJ2oJT+Bnfh4K+i?=
+ =?Windows-1252?Q?cxtkWCVO7qyZrrzhbrJlEj8VZliubdL5Zg3UTbX8eaqFnEhD2peseZz1?=
+ =?Windows-1252?Q?JYp8WdfzqrM49ZgyGcoxRM3Ahn14U2BpvJ23xhhwliKUowZ5Yrg91JEH?=
+ =?Windows-1252?Q?e8lp9fUfjhYd5MoG7a2RpORPjyqtrwfjtF9Pvt8omoT7jZIRikbr5fTL?=
+ =?Windows-1252?Q?Azk64kr6nvsLqYGcX35KzKRQLYE=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SJ0PR20MB43627F2621667AC3DE6DD3EDBEDEASJ0PR20MB4362namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SJ0PR20MB4362.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1a901d1d-44fd-4e3e-3754-08dbd54a2de1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 Oct 2023 11:04:37.7071
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR20MB5104
+Content-Length: 16265
+
+--_000_SJ0PR20MB43627F2621667AC3DE6DD3EDBEDEASJ0PR20MB4362namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Dear.
+
+
+
+Following your silence to my previous email, I have chosen to contact you a=
+gain.
+
+
+
+I am Dr. Ana Capper, from Australia, currently residing in London, United K=
+ingdom, a widow to the late Dr. Andrew Capper. I am 77 years old and presen=
+tly suffering from Leukemia. My health has gotten worse and just two weeks =
+ago my doctor informed me that my condition has reached a critical stage, a=
+nd that I have just 3 months left. This confirmation from my doctor was and=
+ still is devastating news; it is hard to know that you have just a little =
+time left to live here.
+
+
+
+My late husband was a contractor in both South Africa and London, he died i=
+n a plane crash and during the period of our marriage we could not bear any=
+ child. My late husband was very wealthy and after his death, I inherited a=
+ll his businesses and wealth both in South Africa and London-United Kingdom=
+. After the doctor=92s medical pronunciation that I have just a few months =
+to live, I decided to divide my wealth to contribute to your country and Af=
+rica where my late husband as a contractor made lots of money. I want to as=
+sist you with the funds to do great charity work in your country, this is m=
+y last wish. I selected you after searching a few websites; I prayed and wa=
+s led to you. I am willing to donate the sum of One Million, Six Hundred th=
+ousand Pounds (=A31,600,000.00) to the less privileged through you.
+
+
+
+Please I want to transfer this money to you as I am traveling to South Afri=
+ca soonest to have my lawyer amend my WILL. If you can handle this fund and=
+ are very sure to do charity work on my behalf, then I will include your na=
+me in my WILL when in South Africa and from there I will travel to Australi=
+a to meet a specialist as I want to be buried alongside my late husband whe=
+n I pass on. Note that this fund is in the financial institution and upon m=
+y instruction; I will file an application through my family attorney for th=
+e transfer of the money into your account for the said purpose.
+
+
+
+Lastly, I honestly pray that this money when transferred will be used for t=
+he said purpose even though I might be late then. I have come to find out t=
+hat wealth is vanity and I made a promise to God Allah that my wealth will =
+be used to support the poor and assist the sick. Do let me know if you will=
+ be able to handle this fund and use it for the said purpose so that I will=
+ inform my attorney and my bank on my decision. Reply to me using ( drannac=
+ooper07@gmail.com<mailto:drannacooper07@gmail.com>)
+
+
+
+God bless you
+
+
+
+Dr. Ana Capper.
+
+
+--_000_SJ0PR20MB43627F2621667AC3DE6DD3EDBEDEASJ0PR20MB4362namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<div dir=3D"ltr">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"font-size:12pt">
+<div dir=3D"ltr">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:224px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<div style=3D"min-height:280px">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">Hello Dear.&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">Following your silence to my previous email, I have chosen to contact yo=
+u again.&nbsp;&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;ma=
+rgin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-=
+top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0=
+px; margin-bottom:0px; margin:0cm; font-size:11pt; font-family:Calibri,sans=
+-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">I am Dr. Ana Capper, from Australia, currently residing in London, Unite=
+d Kingdom, a widow to the late Dr. Andrew Capper. I am 77 years old and pre=
+sently suffering from Leukemia. My health has
+ gotten worse and just two weeks ago my doctor informed me that my conditio=
+n has reached a critical stage, and that I have just 3 months left. This co=
+nfirmation from my doctor was and still is devastating news; it is hard to =
+know that you have just a little
+ time left to live here.&nbsp;</span></p>
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;ma=
+rgin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-=
+top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0=
+px; margin-bottom:0px; margin:0cm; font-size:11pt; font-family:Calibri,sans=
+-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;ma=
+rgin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-=
+top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0=
+px; margin-bottom:0px; margin:0cm; font-size:11pt; font-family:Calibri,sans=
+-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">My late husband was a contractor in both South Africa and London, he die=
+d in a plane crash and during the period of our marriage we could not bear =
+any child. My late husband was very wealthy
+ and after his death, I inherited all his businesses and wealth both in Sou=
+th Africa and London-United Kingdom. After the doctor=92s medical pronuncia=
+tion that I have just a few months to live, I decided to divide my wealth t=
+o contribute to your country and Africa
+ where my late husband as a contractor made lots of money. I want to assist=
+ you with the funds to do great charity work in your country, this is my la=
+st wish. I selected you after searching a few websites; I prayed and was le=
+d to you. I am willing to donate
+ the sum of One Million, Six Hundred thousand Pounds (<span style=3D"backgr=
+ound: yellow;">=A31,600,000.00)</span> to the less privileged through you.&=
+nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;ma=
+rgin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-=
+top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0=
+px; margin-bottom:0px; margin:0cm; font-size:11pt; font-family:Calibri,sans=
+-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">Please I want to transfer this money to you as I am traveling to South A=
+frica soonest to have my lawyer amend my WILL. If you can handle this fund =
+and are very sure to do charity work on my behalf,
+ then I will include your name in my WILL when in South Africa and from the=
+re I will travel to Australia to meet a specialist as I want to be buried a=
+longside my late husband when I pass on. Note that this fund is in the fina=
+ncial institution and upon my instruction;
+ I will file an application through my family attorney for the transfer of =
+the money into your account for the said purpose.&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">Lastly, I honestly pray that this money when transferred will be used fo=
+r the said purpose even though I might be late then. I have come to find ou=
+t that wealth is vanity and I made a promise
+ to God&nbsp;Allah that my wealth will be used to support the poor and assi=
+st the sick. Do let me know if you will be able to handle this fund and use=
+ it for the said purpose so that I will inform my attorney and my bank on m=
+y decision. Reply to me using (&nbsp;<span style=3D"color: rgb(112, 48, 160=
+);"><a href=3D"mailto:drannacooper07@gmail.com" id=3D"OWA99c22cf6-5818-7564=
+-aa46-20d2c3c2c278" class=3D"OWAAutoLink">drannacooper07@gmail.com</a></spa=
+n>)&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">God bless you&nbsp;</span></p>
+<font style=3D"color: rgb(136, 136, 136);">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin:0cm; font-size:11pt; font-family:Calibri,sans-serif">
+<span style=3D"font-size:12pt; font-family:&quot;Times New Roman&quot;,seri=
+f">Dr. Ana Capper.&nbsp;</span></p>
+</font></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_SJ0PR20MB43627F2621667AC3DE6DD3EDBEDEASJ0PR20MB4362namp_--

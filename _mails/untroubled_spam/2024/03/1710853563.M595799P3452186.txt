@@ -1,0 +1,200 @@
+Return-Path: <everleigh@tiaradataglobal.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3453504 invoked from network); 19 Mar 2024 11:58:38 -0000
+Received: from mail-yw1-x1133.google.com (mail-yw1-x1133.google.com [IPv6:2607:f8b0:4864:20::1133])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 19 Mar 2024 11:58:38 -0000
+Received: by mail-yw1-x1133.google.com with SMTP id 00721157ae682-609fb0450d8so57630107b3.0
+        for <bruce@untroubled.org>; Tue, 19 Mar 2024 04:58:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tiaradataglobal-com.20230601.gappssmtp.com; s=20230601; t=1710849517; x=1711454317; darn=untroubled.org;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=vGD3LxAZePBkb4PgBxAj9CS4WLEO/ITz93i2V8RGydU=;
+        b=EwshrWgzwB7Do/+C2bYE9cUVDSW8OsFc2z/ISQ5RZiikgqtWljvKquCvTBB57BwK/D
+         JEa+DPbQhcyFJjRhtCYUy3I+sIJuAD0PIJbillwW8bLQOkXnn3yaMV2SfBtjrvC8PgYp
+         zKQWRtTJiA/zU0fJwRzRl6KkzWKN78TkpjNrLoDrlZJomThjWljvdOwiqL2D7kMgQ7FM
+         TW/1nKXTHlUREFaNiGUhsRSdoMz0T/sh2dlcAnFn77q3qzNVUtdIA7lmX2ygV2ZIKT38
+         WEXwxWrhsq8/uMXyPUHhy6rpDch8PHvqXzZCsvxlmduxEINf0J/f+1JqMZLhz8UI/jCr
+         jFMg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1710849517; x=1711454317;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=vGD3LxAZePBkb4PgBxAj9CS4WLEO/ITz93i2V8RGydU=;
+        b=mkKeZhlfG60EeAtWQkK9iD0cv8Fx2Q+WT7ifR8wF33zg6PWBENOTz4AkC9uxetDgPt
+         LkE+4N6ven1WKbgWhVFHryyHxMYCLBV7Qepa/bthE/eqguwPbtYTU8MxJrPS8qpb+4jW
+         QaQSILDwqK8XlyGiGoubP6mnP480oVDeleXvwCmXrR0JysNJ6PbGshXU116lBzCeFt0D
+         p+eer3ZyPdZqGA9Y7+EBN2fRpMSue5RBf01QIFPt81iGdJ8fSDDm/F2wiqHl9LPpd+Jd
+         XcFmUs1d57fMVVpats/LqTauM3+quIcbVe5nZU5K0xSjQEHZNzELBZEGMTNdtD24Ioc5
+         6DDQ==
+X-Forwarded-Encrypted: i=1; AJvYcCW2FcePL4gL2bj0nsSBhP8HR6njGnMTJ24VDpqA/hFlODuI7mw3ifvp2xEC58EOIVItZB3jIts39Z8pKGykaFzOZctx9Q==
+X-Gm-Message-State: AOJu0YzdlAAjIWKYHADYVybbaBlIxHgV1QkSBhSvmgNuywm27mpvSsYO
+	OkA9Sd7uuDCnkR3SazSf+JwT2yWts3OQxW1KM8UEe+W2N+dAybKOz8fZwP0SB6LJOvaDp7FN2Hr
+	I2VJgnOv1+ECr4Zw5dqdcN1ZdgDLWzNN5brjcFg==
+X-Google-Smtp-Source: AGHT+IFPqa7vtjVFJjOjP9KNS8qVOjFJf8gKgL9//3piI2rmSCSSjcKkwEJGMvSfYY8qfD1Uy13te3VFsmxSXqYsP2w=
+X-Received: by 2002:a0d:c747:0:b0:60a:124a:f794 with SMTP id
+ j68-20020a0dc747000000b0060a124af794mr2522135ywd.28.1710849517384; Tue, 19
+ Mar 2024 04:58:37 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAGKVdWcRMr6f4rooT3Je1MvSZyUan6iV6UYVd41-fU+ysvgy6Q@mail.gmail.com>
+In-Reply-To: <CAGKVdWcRMr6f4rooT3Je1MvSZyUan6iV6UYVd41-fU+ysvgy6Q@mail.gmail.com>
+From: Everleigh Jimenez <everleigh@tiaradataglobal.com>
+Date: Tue, 19 Mar 2024 06:58:24 -0500
+Message-ID: <CAGKVdWfDxTtKu+c-jLNUWbOv-PSK_0dQ_x+ehcPVuyfjSSWmRA@mail.gmail.com>
+Subject: Re: Veterinary Conference Attendees Email List 2024
+To: Everleigh Jimenez <everleigh@tiaradataglobal.com>
+Content-Type: multipart/alternative; boundary="000000000000bf8c930614023129"
+Bcc: bruce@untroubled.org
+
+--000000000000bf8c930614023129
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+
+
+Did you get a chance to review my email?
+
+
+
+Please let me know if you require any further information to take this
+forward/make progress here.
+
+
+
+I look forward to hearing back from you soon.
+
+
+
+Regards,
+
+Everleigh Jimenez
+
+On Fri, Mar 15, 2024 at 11:56=E2=80=AFAM Everleigh Jimenez <
+everleigh@tiaradataglobal.com> wrote:
+
+> Hi,
+>
+>
+>
+> Would you be interested in acquiring Veterinary Conference Attendees Emai=
+l
+> List 2024?
+>
+>
+>
+> *Target Audience                                          Counts
+> Cost*
+>
+> Western Veterinary Annual Conference    12,643        $1,589
+>
+> Midwest Veterinary Conference                8,956          $1,429
+>
+> Veterinary Meeting & Expo                       15,482         $1,642
+>
+> AVMA Convention                                      10,968         $1,54=
+9
+>
+>
+>
+> *You can acquire all shows at discounted price of $4,289*
+>
+>
+>
+> Kind Regards,
+>
+> Everleigh Jimenez
+>
+> Marketing Coordinator
+>
+
+--000000000000bf8c930614023129
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;fo=
+nt-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">Hi,</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt 72pt;font-size:11pt=
+;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font=
+-family:Calibri,&quot;sans-serif&quot;">Did you get a chance to review my e=
+mail?</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt 72pt;font-size:11pt=
+;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font=
+-family:Calibri,&quot;sans-serif&quot;">Please let me know if you require a=
+ny further information to
+take this forward/make progress here.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt 72pt;font-size:11pt=
+;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font=
+-family:Calibri,&quot;sans-serif&quot;">I look forward to hearing back from=
+ you soon.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt 72pt;font-size:11pt=
+;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font=
+-family:Calibri,&quot;sans-serif&quot;">Regards,</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font=
+-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"PL">Everleigh Jimenez=
+</span></p></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"g=
+mail_attr">On Fri, Mar 15, 2024 at 11:56=E2=80=AFAM Everleigh Jimenez &lt;<=
+a href=3D"mailto:everleigh@tiaradataglobal.com">everleigh@tiaradataglobal.c=
+om</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margi=
+n:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex=
+"><div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">Hi,</p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family:=
+Calibri,&quot;sans-serif&quot;">=C2=A0</p><p class=3D"MsoNormal" style=3D"m=
+argin:0cm 0cm 0.0001pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&=
+quot;">Would you be interested in acquiring Veterinary Conference Attendees=
+ Email List 2024?</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001p=
+t;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p><p c=
+lass=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-fam=
+ily:Calibri,&quot;sans-serif&quot;"><b>Target Audience=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+ Counts=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Cost</b></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family=
+:Calibri,&quot;sans-serif&quot;">Western Veterinary Annual Conference=C2=A0=
+=C2=A0=C2=A0 12,643=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 $1,589</p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-fa=
+mily:Calibri,&quot;sans-serif&quot;">Midwest Veterinary Conference=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A08,956=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 $1,429=
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;=
+font-family:Calibri,&quot;sans-serif&quot;">Veterinary Meeting &amp; Expo=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 15,482=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 $1,642</p><p class=3D"MsoNormal" st=
+yle=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family:Calibri,&quot;san=
+s-serif&quot;">AVMA Convention=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0 10,968=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0 $1,549</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt=
+;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-fami=
+ly:Calibri,&quot;sans-serif&quot;"><b>You can acquire all shows at discount=
+ed price of $4,289</b></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.=
+0001pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p=
+><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;fon=
+t-family:Calibri,&quot;sans-serif&quot;">Kind Regards,</p><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family:Calibri,&=
+quot;sans-serif&quot;">Everleigh Jimenez</p><p class=3D"MsoNormal" style=3D=
+"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family:Calibri,&quot;sans-seri=
+f&quot;">Marketing Coordinator</p></div>
+</blockquote></div>
+
+--000000000000bf8c930614023129--

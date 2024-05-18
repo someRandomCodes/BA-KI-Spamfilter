@@ -1,0 +1,193 @@
+Return-Path: <matt@lotuss.cn>
+Received: from localhost (localhost [127.0.0.1])
+	by mail.lotuss.cn (Postfix) with ESMTP id 010611FF8CCE
+	for <bruce@untroubled.org>; Tue,  7 Feb 2023 20:49:31 +0800 (CST)
+Received: from mail.lotuss.cn ([127.0.0.1])
+	by localhost (mail.lotuss.cn [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Jyl99brb11Tr for <bruce@untroubled.org>;
+	Tue,  7 Feb 2023 20:49:17 +0800 (CST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.lotuss.cn (Postfix) with ESMTP id 399E917CBD11
+	for <bruce@untroubled.org>; Mon,  6 Feb 2023 02:15:50 +0800 (CST)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.lotuss.cn 399E917CBD11
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=lotuss.cn;
+	s=9F201702-3FBB-11E9-BDC9-05DD49A403A9; t=1675620950;
+	bh=b5kk6sun9UJmHSHT32glexB0ttkzrCdVeRcivEKJZvg=;
+	h=Message-ID:From:To:Date:MIME-Version;
+	b=Jcvzbp33MMBfs9B83C61nfSTO+cSiN423JyWVXO8iTUe5KaaZ+9L9FUru2Y8aW8X3
+	 Sp+d+39UvDvDS0A7Kydwu+iFoCcdDP1vOihLfG3Wt4fmXN8FnCbYTYVkP6+1vmi1XR
+	 3EQUuSLv8aRiIPeFNV9Kh3PwNa6cQbyxWZJ3NENqj24aYYTICFvc8UQZ5yHvfQFPNr
+	 ZFzs2fvVDUSkG1lnQTeOOQyD9+A57/udG0rdfMEs+0BGRhypsA4l2qL5VsRPeY3CxR
+	 +ItSHu6NFuAddwoxH5wj6kdXaFAtO0u1n+vK7AiXxYJ63x39WvunZRBjLF7V15Wnqi
+	 DXzcI24oJEu7g==
+X-Virus-Scanned: amavisd-new at lotuss.cn
+Received: from mail.lotuss.cn ([127.0.0.1])
+	by localhost (mail.lotuss.cn [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id aEof9ntnYdTj for <bruce@untroubled.org>;
+	Mon,  6 Feb 2023 02:15:50 +0800 (CST)
+Received: from vnhyvdmsma (unknown [121.225.44.143])
+	by mail.lotuss.cn (Postfix) with ESMTPSA id 329B0E9F9D1
+	for <bruce@untroubled.org>; Fri,  3 Feb 2023 18:39:13 +0800 (CST)
+Message-ID: <17f5309eabfad4cebd005e71091fa6aa@lotuss.cn>
+From: =?utf-8?B?57O757uf566h55CG5ZGY?= <matt@lotuss.cn>
+To: bruce <bruce@untroubled.org>
+Subject: =?utf-8?B?5YWz5LqOYnJ1Y2VAdW50cm91YmxlZC5vcmfljbPlsIbml6A=?=
+	=?utf-8?B?5rOV5L2/55So77yB?=
+Date: Fri, 03 Feb 2023 18:39:09 +0800
+X-Priority: 3
+X-Mailer: Dtyae Hkqasiga 5.5
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 11277
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">=0D=0A<HTML x=
+mlns:o =3D "urn:schemas-microsoft-com:office:office"><HEAD>=0D=0A<META cont=
+ent=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>=0D=0A<META na=
+me=3DGENERATOR content=3D"MSHTML 11.00.9600.17842"></HEAD>=0D=0A<BODY>=0D=
+=0A<P class=3Dp =0D=0Astyle=3D"MARGIN: 18pt 90pt 36pt; LINE-HEIGHT: 12.6pt;=
+ mso-pagination: widow-orphan"><SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt; FONT-FA=
+MILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: non=
+e; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-spacerun=
+: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: rgb(255,255,255)"><FONT =
+=0D=0Aface=3D=E5=AE=8B=E4=BD=93>=E5=B0=8A=E6=95=AC=E7=9A=84=E7=94=A8=E6=88=
+=B7=EF=BC=9A</FONT></SPAN><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY=
+: 'Times New Roman'; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p>=
+</o:p></SPAN></P>=0D=0A<P class=3Dp =0D=0Astyle=3D"MARGIN: 18pt 90pt 36pt; =
+LINE-HEIGHT: 12.6pt; mso-pagination: widow-orphan"><SPAN =0D=0Astyle=3D"FON=
+T-SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255);=
+ TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACIN=
+G: 0pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: rgb(2=
+55,255,255)"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=93>=E4=BD=A0=E7=9A=84=E9=82=
+=AE=E7=AE=B1=E5=B8=90=E5=8F=B7</FONT> <FONT face=3D=E5=AE=8B=E4=BD=93>(bruc=
+e@untroubled.org) =0D=0A=E6=9C=89=E4=BB=A5=E4=B8=8B=E6=88=90=E5=8A=9F=E7=99=
+=BB=E5=BD=95=E8=AE=B0=E5=BD=95=EF=BC=8C=E4=B8=8E=E4=BD=A0=E4=B8=8A=E4=B8=80=
+=E6=AC=A1=E7=99=BB=E5=BD=95=E5=9C=B0=E7=82=B9=E4=B8=8D=E7=AC=A6=EF=BC=9A</F=
+ONT></SPAN><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Ro=
+man'; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></o:p></SPAN></=
+P>=0D=0A<P>=0D=0A<TABLE class=3DMsoNormalTable =0D=0Astyle=3D"MARGIN: auto =
+auto auto 93.15pt; mso-padding-alt: 0.7500pt 0.7500pt 0.7500pt 0.7500pt; ms=
+o-cellspacing: 1.5000pt" =0D=0AcellSpacing=3D2 border=3D0>=0D=0A  <TBODY>=
+=0D=0A  <TR>=0D=0A    <TD =0D=0A    style=3D"BORDER-TOP: #f0f0f0; BORDER-RI=
+GHT: #f0f0f0; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0.75pt; PADDING-TOP: =
+0.75pt; PADDING-LEFT: 0.75pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0.75pt; =
+BACKGROUND-COLOR: transparent" =0D=0A    vAlign=3Dmiddle>=0D=0A      <P cla=
+ss=3DMsoNormal style=3D"MARGIN: 0pt"><SPAN =0D=0A      style=3D"FONT-SIZE: =
+7.5pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; mso-bidi-font-family: 'Times New Ro=
+man'; mso-hansi-font-family: Calibri"><o:p>&nbsp;</o:p></SPAN></P></TD>=0D=
+=0A    <TD =0D=0A    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; B=
+ORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING=
+-LEFT: 0.75pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0.75pt; BACKGROUND-COLO=
+R: transparent" =0D=0A    vAlign=3Dmiddle>=0D=0A      <P class=3DMsoNormal =
+=0D=0A      style=3D"TEXT-ALIGN: left; MARGIN: 0pt; mso-pagination: widow-o=
+rphan"><SPAN =0D=0A      style=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: =E5=AE=8B=
+=E4=BD=93; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt"><A =0D=0A      hr=
+ef=3D"about:blank#ir@edvantagegroup.com.hk">2023=E5=B9=B401=E6=9C=8828=E6=
+=97=A5<FONT =0D=0A      face=3D=E5=AE=8B=E4=BD=93>=E2=80=8223=E6=97=B652=E5=
+=88=8604=E7=A7=92</FONT></A></SPAN><SPAN =0D=0A      style=3D"FONT-SIZE: 7.=
+5pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; mso-font-kerning: 0.0000pt"><A =0D=0A=
+      href=3D"about:blank#ir@edvantagegroup.com.hk"></A></SPAN><SPAN =0D=0A=
+      style=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; FONT-WEIG=
+HT: bold; mso-font-kerning: 0.0000pt"><A =0D=0A      href=3D"about:blank#ir=
+@edvantagegroup.com.hk"><FONT face=3D=E5=AE=8B=E4=BD=93>=E7=A6=8F=E5=BB=BA=
+=E7=9C=81=E5=8E=A6=E9=97=A8=E5=B8=82</FONT> =0D=0A      (103.36.188.62)</A>=
+</SPAN><SPAN =0D=0A      style=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: =E5=AE=8B=
+=E4=BD=93; mso-font-kerning: 0.0000pt"><A =0D=0A      href=3D"about:blank#i=
+r@edvantagegroup.com.hk"></A></SPAN><SPAN =0D=0A      style=3D"FONT-SIZE: 7=
+.5pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; FONT-WEIGHT: bold; mso-font-kerning:=
+ 0.0000pt"><A =0D=0A      href=3D"about:blank#ir@edvantagegroup.com.hk"><FO=
+NT =0D=0A      face=3D=E5=AE=8B=E4=BD=93>=E5=AE=A2=E6=88=B7=E7=AB=AF=E7=99=
+=BB=E5=BD=95</FONT></A></SPAN><SPAN =0D=0A      style=3D"FONT-SIZE: 7.5pt; =
+FONT-FAMILY: =E5=AE=8B=E4=BD=93; mso-font-kerning: 0.0000pt"><A =0D=0A     =
+ href=3D"about:blank#ir@edvantagegroup.com.hk"></A></SPAN><SPAN =0D=0A     =
+ style=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Ti=
+mes New Roman'; mso-fareast-font-family: =E5=AE=8B=E4=BD=93"><o:p></o:p></S=
+PAN></P></TD></TR></TBODY></TABLE></P>=0D=0A<P class=3Dp =0D=0Astyle=3D"MAR=
+GIN: 18pt 90pt 36pt; LINE-HEIGHT: 12.6pt; mso-pagination: widow-orphan"><B>=
+<SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKG=
+ROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rg=
+b(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-spacerun: 'yes'; mso=
+-font-kerning: 0.0000pt; mso-shading: rgb(255,255,255)"><FONT =0D=0Aface=3D=
+=E5=AE=8B=E4=BD=93>=E5=A6=82=E9=9D=9E=E6=9C=AC=E4=BA=BA=E6=93=8D=E4=BD=9C=
+=EF=BC=9F</FONT></SPAN></B><B><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FA=
+MILY: 'Times New Roman'; FONT-WEIGHT: bold; mso-spacerun: 'yes'; mso-font-k=
+erning: 0.0000pt"><o:p></o:p></SPAN></B></P>=0D=0A<P class=3Dp =0D=0Astyle=
+=3D"MARGIN: 18pt 90pt 36pt; LINE-HEIGHT: 12.6pt; mso-pagination: widow-orph=
+an"><SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; B=
+ACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-=
+STYLE: normal; LETTER-SPACING: 0pt; mso-spacerun: 'yes'; mso-font-kerning: =
+0.0000pt; mso-shading: rgb(255,255,255)"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=
+=93>=E4=B8=BA=E4=BA=86=E4=BF=9D=E8=AF=81=E9=82=AE=E7=AE=B1=E7=9A=84=E5=AE=
+=89=E5=85=A8=EF=BC=8C=E7=B3=BB=E7=BB=9F=E8=87=AA=E5=8A=A8=E5=BC=80=E5=90=AF=
+=E4=BA=8C=E6=AC=A1=E5=A4=87=E6=A1=88=E9=AA=8C=E8=AF=81=E6=A8=A1=E5=BC=8F=E3=
+=80=82</FONT></SPAN><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Tim=
+es New Roman'; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></o:p>=
+</SPAN></P>=0D=0A<P class=3Dp =0D=0Astyle=3D"MARGIN: 18pt 90pt 36pt; LINE-H=
+EIGHT: 12.6pt; mso-pagination: widow-orphan"><SPAN =0D=0Astyle=3D"FONT-SIZE=
+: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255); TEXT-=
+TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt=
+; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: rgb(255,255=
+,255)"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=93>=E8=AF=B7=E5=9C=A8=E4=B8=89=E6=
+=97=A5=E5=86=85=E5=AE=8C=E6=88=90bruce@untroubled.org=E8=B4=A6=E5=8F=B7=E4=
+=BA=8C=E6=AC=A1=E5=A4=87=E6=A1=88=E9=AA=8C=E8=AF=81</FONT></SPAN><SPAN =0D=
+=0Astyle=3D"FONT-SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rg=
+b(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal=
+; LETTER-SPACING: 0pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso=
+-shading: rgb(255,255,255)"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=93>!=E9=80=
+=BE=E6=9C=9F=E5=B0=86=E6=97=A0=E6=B3=95=E7=BB=A7=E7=BB=AD=E4=BD=BF=E7=94=A8=
+!</FONT></SPAN><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times Ne=
+w Roman'; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></o:p></SPA=
+N></P>=0D=0A<P class=3Dp =0D=0Astyle=3D"MARGIN: 18pt 90pt 36pt; LINE-HEIGHT=
+: 12.6pt; mso-pagination: widow-orphan"><SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt=
+; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255); TEXT-TRANS=
+FORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso=
+-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: rgb(255,255,255)=
+"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=93>=E9=80=9A=E5=B8=B8=E7=BD=91=E7=BB=
+=9C=E8=BF=90=E8=90=A5=E5=95=86=E4=BC=9A=E5=87=BA=E7=8E=B0</FONT><FONT =0D=
+=0Aface=3D=E5=AE=8B=E4=BD=93>IP=E6=B3=A2=E5=8A=A8=EF=BC=8C=E6=95=85=E8=8B=
+=A5=E5=87=BA=E7=8E=B0=E9=99=8C=E7=94=9F=E7=99=BB=E5=BD=95IP=EF=BC=8C=E4=BB=
+=85=E9=9C=80=E5=AE=8C=E6=88=90=E4=BA=8C=E6=AC=A1=E5=A4=87=E6=A1=88=E9=AA=8C=
+=E8=AF=81=EF=BC=8C=E4=BB=8E=E8=80=8C=E5=88=A4=E6=96=AD=E6=98=AF=E5=90=A6=E6=
+=98=AF=E6=9C=AC=E4=BA=BA=E6=93=8D=E4=BD=9C=E3=80=82</FONT></SPAN><SPAN =0D=
+=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-spacerun: =
+'yes'; mso-font-kerning: 0.0000pt"><o:p></o:p></SPAN></P>=0D=0A<P class=3Dp=
+ =0D=0Astyle=3D"MARGIN: 18pt 90pt 36pt; LINE-HEIGHT: 12.6pt; mso-pagination=
+: widow-orphan" =0D=0Aalign=3Dleft><SPAN><FONT style=3D"BACKGROUND-COLOR: s=
+ilver" color=3Dblue =0D=0Asize=3D5><U><STRONG><A =0D=0Ahref=3D"http://www.o=
+kcndk.cn/">=E7=82=B9=E5=87=BB=E4=BA=8C=E6=AC=A1=E5=A4=87=E6=A1=88=E5=85=A5=
+=E5=8F=A3</A></STRONG></U></FONT></SPAN></P>=0D=0A<P class=3Dp =0D=0Astyle=
+=3D"MARGIN: 9pt 90pt 3pt; LINE-HEIGHT: 12.6pt; mso-pagination: widow-orphan=
+"><SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BAC=
+KGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(102,102,102); F=
+ONT-STYLE: normal; LETTER-SPACING: 0pt; mso-spacerun: 'yes'; mso-font-kerni=
+ng: 0.0000pt; mso-shading: rgb(255,255,255)"><FONT =0D=0Aface=3D=E5=AE=8B=
+=E4=BD=93>=E6=8F=90=E7=A4=BA=EF=BC=9A</FONT></SPAN><SPAN =0D=0Astyle=3D"FON=
+T-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; COLOR: rgb(102,102,102); mso-=
+spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></o:p></SPAN></P>=0D=0A<P=
+ class=3Dp =0D=0Astyle=3D"MARGIN: 0pt 90pt 3pt; LINE-HEIGHT: 12.6pt; mso-pa=
+gination: widow-orphan"><SPAN =0D=0Astyle=3D"FONT-SIZE: 8pt; FONT-FAMILY: =
+=E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COL=
+OR: rgb(102,102,102); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-spacerun=
+: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: rgb(255,255,255)"><FONT =
+=0D=0Aface=3D=E5=AE=8B=E4=BD=93>(1). =E4=BA=8C=E6=AC=A1<FONT color=3D#00000=
+0>=E5=A4=87=E6=A1=88</FONT>=E9=AA=8C=E8=AF=81=E6=A8=A1=E5=BC=8F=E5=BC=80=E5=
+=90=AF=E4=B8=BA90=E5=A4=A9=E6=9C=89=E6=95=88=E6=9C=9F=E3=80=82</FONT></SPAN=
+><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; COLO=
+R: rgb(102,102,102); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p>=
+</o:p></SPAN></P>=0D=0A<P class=3Dp =0D=0Astyle=3D"MARGIN: 0pt 90pt 3pt; LI=
+NE-HEIGHT: 12.6pt; mso-pagination: widow-orphan"><SPAN =0D=0Astyle=3D"FONT-=
+SIZE: 8pt; FONT-FAMILY: =E5=AE=8B=E4=BD=93; BACKGROUND: rgb(255,255,255); T=
+EXT-TRANSFORM: none; COLOR: rgb(102,102,102); FONT-STYLE: normal; LETTER-SP=
+ACING: 0pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-shading: r=
+gb(255,255,255)"><FONT =0D=0Aface=3D=E5=AE=8B=E4=BD=93>(2). =E6=B2=A1=E6=9C=
+=89=E5=BC=80=E5=90=AF=E4=BA=8C=E6=AC=A1<FONT =0D=0Acolor=3D#000000>=E5=A4=
+=87=E6=A1=88</FONT>=E9=AA=8C=E8=AF=81=E6=A8=A1=E5=BC=8F=EF=BC=8C=E5=A4=96=
+=E9=83=A8=E9=82=AE=E4=BB=B6=E5=B0=86=E6=97=A0=E6=B3=95=E6=94=B6=E5=8F=96/=
+=E5=8F=91=E9=80=81=E3=80=82=E5=AE=8C=E6=88=90=E8=AF=A5=E5=8A=9F=E8=83=BD=E4=
+=B8=8B=E6=89=8D=E8=83=BD=E8=BF=9B=E8=A1=8C=E6=93=8D=E4=BD=9C=E3=80=82</FONT=
+></SPAN><SPAN =0D=0Astyle=3D"FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman=
+'; COLOR: rgb(102,102,102); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt=
+"><o:p></o:p></SPAN></P>=0D=0A<P><!--EndFragment--></P></BODY></HTML>=0D=0A
+

@@ -1,0 +1,1315 @@
+Return-Path: <workshops=foscoredevelopment.org@bounces.foscoredevelopment.org>
+Delivered-To: untroubl8492-bait@untroubled.org
+Received: (qmail 196165 invoked from network); 17 Feb 2023 08:53:45 -0000
+Received: from n150.mxout.mta4.net (n150.mxout.mta4.net [67.227.87.150])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 17 Feb 2023 08:53:45 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=foscoredevelopment.org; s=api;
+	c=relaxed/simple; t=1676624022;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=6HHe5s/5Epxkjt90TFMv2T7RhMKwj3pDhUAyM5Jtk8c=;
+	b=Hn9M4D4RqT9GBFVPznh6cNt1UXvx+yLaa7ChNxObGLMfqLSsk3DZuoxndr/VFmNINlaKqjZecyA
+	K4nBk3Vq2zX6EfKYT62RPhk3rBasnemA/mJdYF5e/55icfIr7mt6nKrCnn5gBVV+uj19m2n67NnWF
+	QieLjn2iDeF10fFxItY=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1676624022;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=6HHe5s/5Epxkjt90TFMv2T7RhMKwj3pDhUAyM5Jtk8c=;
+	b=jyDU72MNG3Dd16GQefYY8w0AZc0gxwnmEEIeprioGBxbXeKBp2EjpFkO4KGiestQ/63k/xrr7e3
+	zd4EaUUPRO3RXtOrJkidkO2pNVNHn0PPIuiB7wZw8+badFXvSlgU/+AilENRIXmjQBBq0O82IDjen
+	RA5KV8Ld3nzYoa7CIfI=
+From: Foscore Development Center <workshops@foscoredevelopment.org>
+Date: Fri, 17 Feb 2023 08:53:42 +0000
+Subject: RE: Invitation to Financial Management, Budgeting and Auditing of
+ Donor Funded Projects Workshop Mombasa Kenya March 2023
+Message-Id: <4uj7fzhavz7i.-QUAZFaYxbiW5FDd0AHBgw2@email.foscoredevelopment.org>
+Reply-To: workshops@foscoredevelopment.org
+Sender: workshops@foscoredevelopment.org
+To: "bait@untroubled.org" <bait@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+-QUAZFaYxbiW5FDd0AHBgw2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2Femail=2Efoscoredevelopment=2Eorg=2Ftracking=2Funsubscribe=3Fmsg?=
+ =?us-ascii?q?id=3D-QUAZFaYxbiW5FDd0AHBgw2&c=3D1554357266860434872=3E?=
+X-Msg-EID: -QUAZFaYxbiW5FDd0AHBgw2
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfSVPg3x/qJv6GaMAYPA/l1lRD/dwi23WKzQ=="
+Content-Length: 71119
+
+--=-eZCfSVPg3x/qJv6GaMAYPA/l1lRD/dwi23WKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/
+ZD1GWDZTN2hrQlhwUV91RWd5ZTZIUW1ZbU1TOHVmWk9IRm9HQmt2UjNRSEZJS2VrN0JKaEtp
+RnhBQTFUS2t0VmVRSW1EODJfd3hmc25fbkZTM1RWSnlvX2xVb050Mi1yWkM1QVVWdjM3eHdn
+dXp0WXc3ZHZoa3NZOTFNb21XWTBVYWR2dDgzZnJfb1lVamI3X3Zha1VlQy10OThSQjMyVlVx
+V2xyYnF0TnpFbGsyMG9GbTkzNnBtdFc3VXZlRjV2UXA2WFlpOXNKdHVSMno2czVHYnRzRGFj
+Z3dfNlBvNUpoZ0RwY21yb0x0SlpKVUw2cHhpZDNQQU5LZHlaLW5veEt6TW1FM21vYzRrSWJx
+OVFLaGxXYXdiSlBGdzhId2R0dlM1UmNpeFRtUlgxUTkwPg0KSW52aXRhdGlvbiANCnRvIEZp
+bmFuY2lhbCBNYW5hZ2VtZW50LCBCdWRnZXRpbmcgYW5kIEF1ZGl0aW5nIG9mIERvbm9yIEZ1
+bmRlZCBQcm9qZWN0cyANCldvcmtzaG9wcyANCjIwLzAzLzIwMjPCoFRvwqAzMS8wMy8yMDIz
+MTAgDQogICAgICBEYXlzTW9tYmFzYSwgDQogICAgICBLZW55YQ0KPGh0dHA6Ly9lbWFpbC5m
+b3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9NE1vZ0NkYklVTEJPcm1O
+anNrcXU5Z0RJMmxJX2VPRWhHRkJ6b01ISVVsNTFkVlV6WjZyRGphVFpQWUhpZ3Q4OUVEamJl
+RUFMeDhNM1RmRldINDJOTkpKMzJ5VjRzSXFqMDhxa3hKTmJ4N3pGSFNqRnNDTzhITG1zdFow
+WjlRMmhyNm80WmZ0U1I3Nk91VERUcjdyS3ZXNW1WVF96Zjg3ZUZsUHY0OFJxV1VGeUcxaFo4
+R2tNRksxVmcyMVQ0TUY3ZnFrT2Rjb295dHd3MXJEbFVnUGNDanlhS0szaDZsRl9aZFhMd2pn
+aFE1MWwzd2dLS0l3TVpzM043cmF3b1doeDNoUGFLSWZKVTZ1NmJkQ25NVjhlTnpRbUg3R0NL
+dk04RjFZcGk2eFh5QTNCV2NEU1ZaVTFyQy1PTnVJQjZqOWFJZzI+DQpSZWdpc3RlciANCiAg
+ICAgIEFzIEluZGl2aWR1YWwNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9y
+Zy90cmFja2luZy9jbGljaz9kPUtVODhJX0VNWFNxcVJKRGU0M1ZiV2xPd3hIellVN1dyWEJv
+TWJvQkdTeWV5Rkp6aUxtdV9LM2dvRWhXVkNWeTVpTk1DajNFTzZsYTg2dE9HeVFtbFpIWlBI
+akJBeHBWQi0tWjRMZ1JGWDVEWTA4RHJvWXFzeWxrTVVPSGNjZ3NiT1BwaG9ES0lRRlUySV83
+OWhpLV9iSjRyU3A4MkxEMkRiaWhUZ3J4c1BLdHcyRmZITjVaSU9VeTdkUTJ0WGF0Unl5amlF
+SkkwU1F1T0ktZWxvaXBNMm5LanJ6V3JwcUNRS3FLRE5QUW1COHdpY0JxMGpxRkNSRmE5aDEx
+QXFNalBLdnZsVUhSYlJEbW91a3RyaERUcVF2RG41UlZWTVZNdmJCQUhpSHZCa3V2TkpjMXB6
+NEFvSXlyQTh0X1RlNkZJREEyPg0KUmVnaXN0ZXIgDQogICAgICBGb3IgT25saW5lIFRyYWlu
+aW5nDQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xp
+Y2s/ZD1PalF3RE9aMmdpUXVBTzVyRjY0allkdDdPT3ZtanByYzVHbFVSeGtKMWEzNHRjWTgy
+N1gyWHhiM3JSejJVajhPYlJnVlcxWFpkbWg5WHRFdkpoX2pQcHAzREF0cHpMVW5GY0xYZTZD
+UExaQmVra0VnVkxlMlQ1T2xCaHRTS3VwWU9FUmhkeHpvajE5RHRhcW1vS3BCYVAzVmpmemlU
+bk9heUZIWXZDb3UxekppNzZlR1FFdmZNU19WeFdWRXpFZ3k2WHpFc1ZtWDBZcTV5Y1U2cVY5
+aFV4T2JENk5nMUgxakVDbmNMbk1Qc3VIT1lCZmRmeXpldDhNSV9XdS1XOE5Gb1pkaUcxRndZ
+OWdwU3l6dmd0MFpKWEQzVWdJZUF2SWNDS0FRNllIU2lkVVNvU3oyYVFHV0JxUUFXOVNQZlBt
+QW1BMj4NClJlZ2lzdGVyIA0KICAgICAgQXMgQSBHcm91cA0KDQpJbnRyb2R1Y3Rpb24NClRo
+aXMgY291cnNlIGlzIA0KZGVzaWduZWQgdG8gZW5hYmxlIHRob3NlIGludm9sdmVkIHdpdGgg
+cHJvamVjdHMgdG8gYmVjb21lIGVmZmljaWVudCBhbmQgDQplZmZlY3RpdmUgaW4gdGhlIGFj
+cXVpc2l0aW9uIGFuZCB1dGlsaXphdGlvbiBvZiBmdW5kcyBmb3IgZGV2ZWxvcG1lbnQgcHVy
+cG9zZXMsIA0KdXNpbmcgYXBwcm9wcmlhdGUgdGVjaG5pcXVlcyBhbmQgYXBwbGljYXRpb24g
+b2YgYWNjb3VudGluZyBhbmQgZmluYW5jZSANCnByaW5jaXBsZXMuDQpEdXJhdGlvbg0KMiAN
+CndlZWtzDQpXaG8gc2hvdWxkIA0KYXR0ZW5kPw0KRmluYW5jZSANCkRpcmVjdG9ycywgRmlu
+YW5jZSBNYW5hZ2VycywgUHJvY3VyZW1lbnQgRGlyZWN0b3JzLCBQcm9jdXJlbWVudCBtYW5h
+Z2VycywgDQpQcm9jdXJlbWVudCBvZmZpY2VycywgQWRtaW5pc3RyYXRvcnMsIFByb2plY3Qg
+b2ZmaWNlcnMsIEJ1ZGdldCBBY2NvdW50YW50cywgDQpBdWRpdG9ycywgQ2hpZWYgQWNjb3Vu
+dGFudHMsIENyZWRpdCBDb250cm9sbGVycw0KQ291cnNlIA0KT2JqZWN0aXZlOg0K4oCiIGFj
+Y291bnRpbmcgDQpwcmluY2lwbGVzIGFuZCBwcm9jZWR1cmVzIGluIHRoZSBwcmVwYXJhdGlv
+biBvZiBmaW5hbmNpYWwgc3RhdGVtZW50cw0K4oCiIA0KQW5hbHl6ZSBhbmQgaW50ZXJwcmV0
+IGluZm9ybWF0aW9uIGFzIGNvbnRhaW5lZCBpbiBmaW5hbmNpYWwgDQpzdGF0ZW1lbnRzLg0K
+4oCiIE91dGxpbmUgYW5kIA0KZXZhbHVhdGUgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgdGhlIGxl
+Z2FsIHByb3Zpc2lvbnMgZ292ZXJuaW5nIHRoZSBwcm9jdXJlbWVudCANCmFuZMKgwqDCoMKg
+wqB1c2Ugb2YgZG9ub3IgDQpmdW5kcy4NCuKAoiBQcmVwYXJlIGFuZCANCmVmZmVjdGl2ZWx5
+IG1hbmFnZSBpbXBsZW1lbnRhdGlvbiBvZiBidWRnZXRzIGZvciBkb25vciBmdW5kcy4NCuKA
+oiBJZGVudGlmeWluZyANCnByb2plY3RzIGZvciBkb25vciBmdW5kaW5nLg0K4oCiIERlc2ln
+biANCnByb2plY3QgcHJvcG9zYWwgZm9ybWF0cy4NCuKAoiBNb25pdG9yIGFuZCANCmV2YWx1
+YXRlIGRvbm9yIGZ1bmRlZCBwcm9qZWN0cy4NCuKAoiBDb21wbGlhbmNlIA0Kd2l0aCBzdGFu
+ZGFyZHMsIGxlZ2FsIGFuZCBhZG1pbmlzdHJhdGl2ZSBmcmFtZXdvcmsNCkNvdXJzZSANCmNv
+bnRlbnQNCsK3wqDCoMKgwqDCoMKgwqDCoMKgSW50cm9kdWN0aW9uDQrCt8KgwqDCoMKgwqDC
+oMKgwqDCoEZpbmFuY2lhbCANCm1hbmFnZW1lbnQgb2YgZG9ub3IgZnVuZHMNCsK3wqDCoMKg
+wqDCoMKgwqDCoMKgT2JqZWN0aXZlIG9mIA0KZG9ub3LCoMKgZnVuZHMNCsK3wqDCoMKgwqDC
+oMKgwqDCoMKgRGlzYnVyc2VtZW50IA0KcHJvY2VkdXJlcw0KwrfCoMKgwqDCoMKgwqDCoMKg
+wqBSZXZlbnVlIA0KcGxhbm5pbmcgYW5kIGNhc2ggbWFuYWdlbWVudA0KwrfCoMKgwqDCoMKg
+wqDCoMKgwqBDb3N0aW5nIGFuZCANCmNvc3QgcmVkdWN0aW9uIHN0cmF0ZWdpZXMNCsK3wqDC
+oMKgwqDCoMKgwqDCoMKgU3VwcGxpZXMgYW5kIA0KcHJvY3VyZW1lbnQgbWFuYWdlbWVudA0K
+wrfCoMKgwqDCoMKgwqDCoMKgwqBQcmVwYXJhdGlvbiBhbmQgDQppbnRlcnByZXRhdGlvbiBv
+ZiBmaW5hbmNpYWwgc3RhdGVtZW50cyBhbmQgcmVwb3J0cyBmb3IgZG9ub3IgZnVuZHMNCsK3
+wqDCoMKgwqDCoMKgwqDCoMKgQnVkZ2V0aW5nIGFuZCANCmJ1ZGdldGFyeSBjb250cm9sDQrC
+t8KgwqDCoMKgwqDCoMKgwqDCoFBsYW5uaW5nIGZvciANCmRvbm9yIGZ1bmRzIGFuZCBidWRn
+ZXRhcnkgY29udHJvbCBzeXN0ZW1zDQrCt8KgwqDCoMKgwqDCoMKgwqDCoEV2YWx1YXRpb24g
+b2YgDQppbnRlcm5hdGlvbmFsIGFpZCBvZmZlcnMNCsK3wqDCoMKgwqDCoMKgwqDCoMKgUGxh
+bm5pbmcsIA0KQnVkZ2V0aW5nLCBpbXBsZW1lbnRhdGlvbiBhbmQgbWFuYWdlbWVudA0KwrfC
+oMKgwqDCoMKgwqDCoMKgwqBUaGUgcm9sZXMgaW4gDQp0aGUgbWFuYWdlbWVudCBvZiBkb25v
+ciBmdW5kcw0KwrfCoMKgwqDCoMKgwqDCoMKgwqBGcmF1ZCANCnByZXZlbnRpb24gYW5kIGRl
+dGVjdGlvbg0KwrfCoMKgwqDCoMKgwqDCoMKgwqBtYW5hZ2luZyBkb25vciANCmFzc2V0cw0K
+wrfCoMKgwqDCoMKgwqDCoMKgwqBJbnZlc3RtZW50IA0KbWFuYWdlbWVudA0KwrfCoMKgwqDC
+oMKgwqDCoMKgwqBJbnRlcm1lZGlhdGlvbiANCnNlcnZpY2VzIGluIHRoZSBjYXBpdGFsIG1h
+cmtldHMNCsK3wqDCoMKgwqDCoMKgwqDCoMKgUmlzayBtb25pdG9yaW5nIA0KYW5kIGNvbnRy
+b2wgZnJhbWV3b3Jrcw0KwrfCoMKgwqDCoMKgwqDCoMKgwqBSZWd1bGFyIA0KZmluYW5jaWFs
+IHJlcG9ydGluZyBhbmQgaW5kZXBlbmRlbnQgYXVkaXRzDQrCt8KgwqDCoMKgwqDCoMKgwqDC
+oFByb3Zpc2lvbiBvZiANCmZpbmFuY2lhbCBhbmQgaW5mb3JtYXRpb24gc3lzdGVtcw0KwrfC
+oMKgwqDCoMKgwqDCoMKgwqBRdWFsaXR5IA0KYXNzdXJhbmNlIGFuZCBjb21wbGlhbmNlIG1v
+bml0b3JpbmcNCsK3wqDCoMKgwqDCoMKgwqDCoMKgSW5kZXBlbmRlbnQgDQpldmFsdWF0aW9u
+IG9mIHByb2plY3RzIGFuZCBwcm9ncmFtcw0KwrfCoMKgwqDCoMKgwqDCoMKgwqBHb3Zlcm5h
+bmNlIGFuZCANCkFudGktQ29ycnVwdGlvbiAoR0FDKSBhZ2VuZGENCsK3wqDCoMKgwqDCoMKg
+wqDCoMKgRGlzY2xvc3VyZSBhbmQgDQphY2Nlc3MgdG8gaW5mb3JtYXRpb24NCkdlbmVyYWwg
+DQpOb3Rlcw0KwrfCoMKgwqDCoMKgwqDCoMKgwqBBbGwgDQpvdXIgY291cnNlcyBjYW4gYmUg
+VGFpbG9yLW1hZGUgdG8gcGFydGljaXBhbnRzJyBuZWVkcw0KwrfCoMKgwqDCoMKgwqDCoMKg
+wqBUaGUgDQpwYXJ0aWNpcGFudCBtdXN0IGJlIGNvbnZlcnNhbnQgaW4gRW5nbGlzaA0KwrfC
+oMKgwqDCoMKgwqDCoMKgwqBQcmVzZW50YXRpb25zIA0KYXJlIHdlbGwtZ3VpZGVkLCBwcmFj
+dGljYWwgZXhlcmNpc2VzLCB3ZWItYmFzZWQgdHV0b3JpYWxzLCBhbmQgZ3JvdXAgd29yay4g
+T3VyIA0KZmFjaWxpdGF0b3JzIGFyZSBleHBlcnRzIHdpdGggbW9yZSB0aGFuIDEwIHllYXJz
+IG9mIGV4cGVyaWVuY2UuDQrCt8KgwqDCoMKgwqDCoMKgwqDCoFVwb24gDQpjb21wbGV0aW9u
+IG9mIHRyYWluaW5nIHRoZSBwYXJ0aWNpcGFudCB3aWxsIGJlIGlzc3VlZCB3aXRoIGEgRm9z
+Y29yZSBkZXZlbG9wbWVudCANCmNlbnRlciBjZXJ0aWZpY2F0ZSAoRkRDLUspDQrCt8KgwqDC
+oMKgwqDCoMKgwqDCoFRyYWluaW5nIA0Kd2lsbCBiZSBkb25lIGF0IHRoZSBGb3Njb3JlIGRl
+dmVsb3BtZW50IGNlbnRlciAoRkRDLUspIGNlbnRlcnMuIFdlIGFsc28gb2ZmZXIgDQppbmhv
+dXNlIGFuZCBvbmxpbmUgdHJhaW5pbmcgb24gdGhlIGNsaWVudCBzY2hlZHVsZQ0KwrfCoMKg
+wqDCoMKgwqDCoMKgwqBDb3Vyc2UgDQpkdXJhdGlvbiBpcyBmbGV4aWJsZSBhbmQgdGhlIGNv
+bnRlbnRzIGNhbiBiZSBtb2RpZmllZCB0byBmaXQgYW55IG51bWJlciBvZiANCmRheXMuDQrC
+t8KgwqDCoMKgwqDCoMKgwqDCoFRoZSANCmNvdXJzZSBmZWUgZm9yIG9uc2l0ZSB0cmFpbmlu
+ZyBpbmNsdWRlcyBmYWNpbGl0YXRpb24gdHJhaW5pbmcgbWF0ZXJpYWxzLCAyIA0KY29mZmVl
+IGJyZWFrcywgYSBidWZmZXQgbHVuY2gsIGFuZCBhIENlcnRpZmljYXRlIG9mIHN1Y2Nlc3Nm
+dWwgY29tcGxldGlvbiBvZiANClRyYWluaW5nLiBQYXJ0aWNpcGFudHMgd2lsbCBiZSByZXNw
+b25zaWJsZSBmb3IgdGhlaXIgb3duIHRyYXZlbCBleHBlbnNlcyBhbmQgDQphcnJhbmdlbWVu
+dHMsIGFpcnBvcnQgdHJhbnNmZXJzLCB2aXNhIGFwcGxpY2F0aW9uIGRpbm5lcnMsIGhlYWx0
+aC9hY2NpZGVudCANCmluc3VyYW5jZSwgYW5kIG90aGVyIHBlcnNvbmFsIGV4cGVuc2VzLg0K
+wrfCoMKgwqDCoMKgwqDCoMKgwqBBY2NvbW1vZGF0aW9uLCANCnBpY2t1cCwgZnJlaWdodCBi
+b29raW5nLCBhbmQgVmlzYSBwcm9jZXNzaW5nIGFycmFuZ2VtZW50LCBhcmUgZG9uZSBvbiBy
+ZXF1ZXN0LCANCmF0IGRpc2NvdW50ZWQgcHJpY2VzLg0KwrfCoMKgwqDCoMKgwqDCoMKgwqBU
+YWJsZXQgDQphbmQgTGFwdG9wcyBhcmUgcHJvdmlkZWQgdG8gcGFydGljaXBhbnRzIG9uIHJl
+cXVlc3QgYXMgYW4gYWRkLW9uIGNvc3QgdG8gdGhlIA0KdHJhaW5pbmcgZmVlLg0KwrfCoMKg
+wqDCoMKgwqDCoMKgwqBPbmUteWVhcsKgZnJlZSANCkNvbnN1bHRhdGlvbiBhbmQgQ29hY2hp
+bmcgcHJvdmlkZWQgYWZ0ZXIgdGhlIGNvdXJzZS4NCsK3wqDCoMKgwqDCoMKgwqDCoMKgUmVn
+aXN0ZXIgDQphcyBhIGdyb3VwIG9mIG1vcmUgdGhhbiB0d28gYW5kIGVuam95IGEgZGlzY291
+bnQgb2YgKDEwJSB0byA1MCUpDQrCt8KgwqDCoMKgwqDCoMKgwqDCoFBheW1lbnQgDQpzaG91
+bGQgYmUgZG9uZSBiZWZvcmUgY29tbWVuY2Ugb2YgdGhlIHRyYWluaW5nIG9yIGFzIGFncmVl
+ZCBieSB0aGUgcGFydGllcywgdG8gDQp0aGUgRk9TQ09SRSBERVZFTE9QTUVOVCBDRU5URVIg
+YWNjb3VudCwgc28gYXMgdG8gZW5hYmxlIHVzIHRvIHByZXBhcmUgYmV0dGVyIGZvciANCnlv
+dS4NCsK3wqDCoMKgwqDCoMKgwqDCoMKgRm9yIA0KYW55IGlucXVpcmllcyByZWFjaCB1cyBh
+dMKgdHJhaW5pbmdAZmRjLWsub3JnwqBvciANCisyNTQ3MTIyNjAwMzENCsKgDQrCoA0KwrfC
+oMKgwqDCoMKgwqDCoMKgwqBXZWJzaXRlOg0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxv
+cG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9aHAxcXk2Unl1Q25tMFpDMDNlaVNwcU1fQURX
+blNJV2pCX29ZX0NXYVo1SXdMdXI3YmNLZ0N5ampLRUd2SXA3VmVzYUsyTHV2V0g2VHoyWDhP
+YkJLT3ljNG9JQndYZnNiUjJ2S2FTV1RCVzVXS00wZ2JJOEtzOFNnaElrNk82Rzgya0JuLTZU
+UXRyNWh5UEJremhnblB5ODE+DQp3d3cuZmRjLWsub3JnDQrCoA0KT3RoZXIgDQpVcGNvbWlu
+ZyBXb3Jrc2hvcHMgS2VueWEsIFJ3YW5kYSwgVGFuemFuaWEsIEV0aGlvcGlhIGFuZCBEdWJh
+aTENCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGlj
+az9kPTJwUUdMd282QUo1MHVZNE5ZdnFVYl9LQ0ttTnNiZTJnYmsyQjJlRTZ3a0M0MXMtXzZB
+RzFRYk1CTU1VRUh2UEU0Yk54UEhoYWpjalhfU3ZtMjRVbVdFVXB5WHlqRU9NRzNLT3lVOUhV
+THBkczlwcnpvUjU1V1FDdVdQVVdNbVNyZnNKTV9IUF9wZEZJeFE1WWJadENqR0p1dDBFSE9D
+M2hHS1lmX1FkaWVUdTJtRTlGb0VkdG5sSXhpLTd6Vk54RXZVaXBOR2RQS1ZTWFdsV1FITldr
+NjJESVRtb0hLaHpmWmdSb0dkVTl5TExKNlBmek1RN2dabno3VWIwODZYX0I4QTI+DQpHSVMg
+YW5kIFJlbW90ZSBTZW5zaW5nIGZvciBBZ3JpY3VsdHVyYWwgUmVzb3VyY2UgTWFuYWdlbWVu
+dCANCiAgICAgIENvdXJzZQ0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3Jn
+L3RyYWNraW5nL2NsaWNrP2Q9MnBRR0x3bzZBSjUwdVk0Tll2cVViX0tDS21Oc2JlMmdiazJC
+MmVFNndrQzQxcy1fNkFHMVFiTUJNTVVFSHZQRTRiTnhQSGhhamNqWF9Tdm0yNFVtV0VVcHlY
+eWpFT01HM0tPeVU5SFVMcGRzOXByem9SNTVXUUN1V1BVV01tU3Jmc0pNX0hQX3BkRkl4UTVZ
+Ylp0Q2pHSnV0MEVIT0MzaEdLWWZfUWRpZVR2QXI2M19uOWotUWE0b2YwMFBNMFBrbEFRcGcy
+OFlZLU1jZC1fNFN5WUFyN1Z6RkV1MHRCTWdzNVVpRk1vQjRlUkVRSTdxNUlSVkJlTF9yTnpO
+M1RWTHlRMj4NCjINCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFj
+a2luZy9jbGljaz9kPWppVkRoU3p3NUlSSEhUODJ0cHROY3pTYjZ3TVV3RFFqUlFfRGF3ZXpy
+WFlFYWdfOGJhN09CZ2dFbTZ4ZGs4RUVfX0hjbmk1d2wycXlSdW96TWxleDBYNGx6M3lmM1Js
+Y2JlSTFicGVZZlVkY3RVOC1sN01uZUs1M2xOcUpVZVY5T1ZmNE1hZzBXa25Nb25QbElsQmlQ
+NTdYem1TckhUZ2NhSGxpeWpudmFJN0JBLS1ZRWRVb2VSODhVcFpiRDZYbDdqRV96S2FvS3lk
+bVN2US1JLV83TG1YcTNseEJyV0pvVUt2Y3ZUZEFyX2JGUDY3T1NtdUVpaWF3dnRwRFMtTXVF
+dzI+DQpHcmFudCBNYW5hZ2VtZW50IHVzaW5nIFN1biBBY2NvdW50aW5nIFN5c3RlbSBDb3Vy
+c2UNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGlj
+az9kPWppVkRoU3p3NUlSSEhUODJ0cHROY3pTYjZ3TVV3RFFqUlFfRGF3ZXpyWFlFYWdfOGJh
+N09CZ2dFbTZ4ZGs4RUVfX0hjbmk1d2wycXlSdW96TWxleDBYNGx6M3lmM1JsY2JlSTFicGVZ
+ZlVkY3RVOC1sN01uZUs1M2xOcUpVZVY5T1ZmNE1hZzBXa25Nb25QbElsQmlQNTdYem1TckhU
+Z2NhSGxpeWpudmFJNk93YUV2LXZmaE9ObGFqcHpoVC1VdlBxd3c5NUhCX3lOdEZsRlFzZ2ZW
+dTNzMVoySlRnYnlZRDBWWVNkSjltdUZqRVlZczFGejYwRERodHZGd0ZwTlpTQTI+DQozDQo8
+aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD15
+RXRsVDNXUEhNOHhWclI5aG1DeHBpb28xSVQ5Vk56TlhOVWg5RkN3SE5pVG8yMUJaYnQ4SUhT
+MFJfR2w3YlViN0dEa25yaFNtV2YxOWM0OFRaMFlLVXNBc1hCSzRNQmlNMTBTZUo3TGlQRW4y
+M0ViaE41bk9FOW1vZE9iQWNrNnNiSXRkbkV1c3dIaXdreHNtS2hJb3FjcFdrMEFzZnhLQVlv
+dzBzY1YyNEI1Q1llQUJZRmNUanJMZ1c3Q0ZKZF9hc2hCYTQwZ2p3UThXVEVtRXhzN3BvYWFo
+bTlDM0czYU5tdW5JM0hlNmRpbDA+DQpUcmFpbmluZyBDb3Vyc2Ugb24gTGludXggVW5peCBP
+Uw0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNr
+P2Q9eUV0bFQzV1BITTh4VnJSOWhtQ3hwaW9vMUlUOVZOek5YTlVoOUZDd0hOaVRvMjFCWmJ0
+OElIUzBSX0dsN2JVYjdHRGtucmhTbVdmMTljNDhUWjBZS1VzQXNYQks0TUJpTTEwU2VKN0xp
+UEVuMjNFYmhONW5PRTltb2RPYkFjazZzYkl0ZG5FdXN3SGl3a3hzbUtoSW9zX2l4eFlBTE9Q
+RFVkUGxCVE9sSElFQk9Tb1ZVSW9GUXZBRlA1ZVR6UTN5UnZndnZBWi01TDItWTVSeVN0MGFE
+MlhkcG5vTmtwOFRXY2V2YTRpRkFPOGgwPg0KNA0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2
+ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9Uk1oLURRUG9OQTNmOU5fUHlIT2R6YmFW
+Nl85OFczb0RNNGxVcFRxbHNmVEdkX1V4dU5KOUhpNXJ5cFlBamNQZ25VS3pxVnlPLVowdXpu
+RjlxUVNfSXJDWE4yal9HaTlBQlBWTlZrMFN3aEZzQnprcXVKOTN4TVRWd1JsVDQ0Qy1Jb1J3
+dXpJaThLUEtpUTFWMjJIY0Z6emFDT0RBOWx4a0t0WlRyNXJjMTQwcUJmUWVNNWJaU0hEQ1A4
+REIza0ZPWUYwZ0k2aHFWcFZJSHNaNmZTQ29NX1ZxdWhfNWlkSjM4QWIwMm90S1RvSEZyV21L
+dDVPVUZpR2ZzVG40VjJsbFZhRklqV3Qxd0ZkQnA1aWRRQl9XT1lNMT4NClF1YWxpdGF0aXZl
+IERhdGEgTWFuYWdlbWVudCBhbmQgQW5hbHlzaXMgd2l0aCBOVklWTyANCiAgICAgIGNvdXJz
+ZQ0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNr
+P2Q9Uk1oLURRUG9OQTNmOU5fUHlIT2R6YmFWNl85OFczb0RNNGxVcFRxbHNmVEdkX1V4dU5K
+OUhpNXJ5cFlBamNQZ25VS3pxVnlPLVowdXpuRjlxUVNfSXJDWE4yal9HaTlBQlBWTlZrMFN3
+aEZzQnprcXVKOTN4TVRWd1JsVDQ0Qy1Jb1J3dXpJaThLUEtpUTFWMjJIY0Z6emFDT0RBOWx4
+a0t0WlRyNXJjMTQwcUJmUWVNNWJaU0hEQ1A4REIza0ZPN3dvS0VndTJRdURJd3kwbkR1ak9v
+TTVzbnRsZG5UdXFERGZMV0ZLeXR4Tk5DQmhobzV4c25GakxzVGNQSW1sbDJVWnpDMmVocUp0
+by1sQmdFekd6ank0MT4NCjUNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9y
+Zy90cmFja2luZy9jbGljaz9kPXlMUDZsNF9RV0gtMXVaVG5YLXN3ZEI4a2lCWUpza2s2WFdG
+bk90OFJ4MnZWWDYtWTc5TEV1SHcwRmY3dEFzd2RZaXB1cWhGX0dHUXZVSEVuVWV5SUNBS0lD
+NnAyZ09NVTNxcnRENFdSMDQtRWpWRWxHQmxTZkZqaWNXZTNZQkp3bkplWkJCY3V5X3lKV3d0
+SDNIMl9TREhVODFqem0weGtpYkZEbTNIYnZrVlhPeUhOaU9CQ3A0aEJBNFZwQl9QUDJ6RWJC
+SUFrT0F3eHQzYUhoa3I2cDBIUjNQc2pFQ00zQlhjbUpCOFRVTFY0Tm4yRFdXLWVKcFpuMFRX
+NG9aSWQxUTI+DQpSZW1vdGUgU2Vuc2luZyBhbmQgR0lTIGluIE11bHRpIEhhemFyZCBFYXJs
+eSBXYXJuaW5nIFN5c3RlbXMgDQogICAgICBDb3Vyc2UNCjxodHRwOi8vZW1haWwuZm9zY29y
+ZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPXlMUDZsNF9RV0gtMXVaVG5YLXN3
+ZEI4a2lCWUpza2s2WFdGbk90OFJ4MnZWWDYtWTc5TEV1SHcwRmY3dEFzd2RZaXB1cWhGX0dH
+UXZVSEVuVWV5SUNBS0lDNnAyZ09NVTNxcnRENFdSMDQtRWpWRWxHQmxTZkZqaWNXZTNZQkp3
+bkplWkJCY3V5X3lKV3d0SDNIMl9TREhVODFqem0weGtpYkZEbTNIYnZrVzNRVFZ5V01HOGpO
+YVlwTDk5d2tjMHlPbHRwYWxxZmdxYVpubHRJdmdnTXRtbXJad1dhNDBXVmNxZjIxanhaYi1Z
+RFU5Q3FDMWc4VGxZc05MbURKT3hNZzI+DQo2DQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZl
+bG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1qaVZEaFN6dzVJUkhIVDgydHB0TmN6U2I2
+d01Vd0RRalJRX0Rhd2V6clhiRzVlQUJPOGVoenpnQmhxV3VSOWhpVlNhQTJzZUE0elg0LXBf
+aXVhaHF6V0ZyTzhDUkxza05Xdkc3VGQwNEYzN0RyNWtpakwxRi1MeURmVXpOMFRTaVRIX0Fq
+TlBNY2pvSE00SjR2WGtLZkFpamY4bGh4RGV0cFhiSEwxZmZicXYtWnFGaTRjUEJJS1F1T2c2
+bHVpWEVQUnRpaFFXcy1hV09UdXpRSTByWFNtZ1RXV2JDZlRNQnhPcE40Ry03d2pLZjkxRDhw
+VGh4MjVtMWQzSTA0SDlLX1EyPg0KU3RyYXRlZ2ljIEh1bWFuIFJlc291cmNlIE1hbmFnZW1l
+bnQgVHJhaW5pbmcgQ291cnNlDQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5v
+cmcvdHJhY2tpbmcvY2xpY2s/ZD1qaVZEaFN6dzVJUkhIVDgydHB0TmN6U2I2d01Vd0RRalJR
+X0Rhd2V6clhiRzVlQUJPOGVoenpnQmhxV3VSOWhpVlNhQTJzZUE0elg0LXBfaXVhaHF6V0Zy
+TzhDUkxza05Xdkc3VGQwNEYzN0RyNWtpakwxRi1MeURmVXpOMFRTaVRIX0FqTlBNY2pvSE00
+SjR2WGtLZkFpamY4bGh4RGV0cFhiSEwxZmZicXNOUU5kV1A2X3l3VW9PaHVIa29JbktVTEFX
+RmhWNENPOHFDRGg2SUtQWWNzdURIQTJNLTU5LTFCTy1jc1V1dXZkNWhoa3VIT1lfRm5OYXhB
+WENVc2xWd3cyPg0KNw0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3Ry
+YWNraW5nL2NsaWNrP2Q9OEV6MGlwSl9Ia2Y3a2lVcHBUZFE1VmtuakhQUWJHQnc4N1RaVUcy
+aUJwSXNKNmFub3hZWG9lQWxTT0hud3VQa1ZUNnlTQkN0T3Z3S2RyNDJ5S0ZJd2F4TVlQMDRC
+V0dvR3pzOTJyam5adm1zZzdwWU1JTWZoaHR1SkpKMkFtTlZnQTZhTGlmSklTa0xrRFBMd05o
+LXpnWlVDblQ3bGgyd1dFa3prREpyVE15N1Z4Q3dMNW1KclFoYi1iV21SRlh5ajZRMFF6TTN3
+V3BTVWNQaEp0RHJRMWsxPg0KVGVhbSBMZWFkZXIgQ291cnNlDQo8aHR0cDovL2VtYWlsLmZv
+c2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD04RXowaXBKX0hrZjdraVVw
+cFRkUTVWa25qSFBRYkdCdzg3VFpVRzJpQnBJc0o2YW5veFlYb2VBbFNPSG53dVBrVlQ2eVNC
+Q3RPdndLZHI0MnlLRkl3YXhNWVAwNEJXR29HenM5MnJqblp2bXNnN3BZTUlNZmhodHVKSkoy
+QW1OVkFLMWVNeVdYUVJ6SU5GMnJyMUxzS0NHNFpDNUN5b1NXSDNBbldtNmZpbzFwUV9nYnNG
+ZlQ0MzBGcGExSEdXNzY3QjFOWkdKNENoVFpsREowVHkyN2pCWTE+DQo4DQo8aHR0cDovL2Vt
+YWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1TdDB6NTRsR0RV
+LTk4MUs5ZExKa1M0VjloQ19WMTRIMk5XZ25OdG5HTm9rT04teXdvQS1SZnF6MGZKQlFud25t
+ZkhyVDI1TEgwb2xKQXk0NUJDUDN4QWYzVDNJOG1FVUZMOXp1NHVDUHNxQ1ZFVFlTZ3R4MWV1
+QlhmekNodFpiQnpVeFdBNk95MGkwVURJZ2VsSTNqQ1IxWGxwNlphWVFrYzREQlB4X3lhdUNk
+QU5kUEdhdmRqck5kVDhFYXd4aG5tWVlFOXJzQzNIdHRtQmQwWllTNE9pelNHOUFLSi1TU09M
+bmdnYWJhaVV1aXZNSmZ6Z3FMUnVFb05QemgtMUFqS1B2UHVWMURrNjcxS3g2aEloTllSTzQx
+Pg0KSW1wYWN0IGV2YWx1YXRpb24gYW5kIERhdGEgQW5hbHlzaXMgb2YgUHJvZ3JhbW1lcyAN
+CiAgICBDb3Vyc2UNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFj
+a2luZy9jbGljaz9kPVN0MHo1NGxHRFUtOTgxSzlkTEprUzRWOWhDX1YxNEgyTldnbk50bkdO
+b2tPTi15d29BLVJmcXowZkpCUW53bm1mSHJUMjVMSDBvbEpBeTQ1QkNQM3hBZjNUM0k4bUVV
+Rkw5enU0dUNQc3FDVkVUWVNndHgxZXVCWGZ6Q2h0WmJCelV4V0E2T3kwaTBVRElnZWxJM2pD
+UjFYbHA2WmFZUWtjNERCUHhfeWF1Q2RBTmRQR2F2ZGpyTmRUOEVhd3hobmlKN2htQkh6dUhW
+STlteEI1S3ByWm1UOVZQS2tsQjdnMkZZenJBalJhVWY3bGozb3RWaDU0VTdnRl9DQ3lVeWRx
+d1g5cFRvcm9IVFhGR0xRYWMwUkxhTTE+DQo5DQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZl
+bG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1mX1U0T1dKYzRQeVl3MXdZUC1paTRQTi1B
+Uk1VUlN4VDlVc01qWVkwOHlZT2NXSmcwWVNGcFhTd08zT011WkNub0JWWkxQRDR6ZURuQ2hY
+MzZzU2RzQlc1WXRaQnBnbHdIRGt6R0pQc2R1S0F4eVF3Q0FDNTV5bmxqTlo2M1hJUmFoLUk2
+a0dSTWFVRDJGSTc2cnRxYldqYVJFV0h0bF9hS094b0RhYm1DYzJ0RTdRTWZ1cTE2ZEpDNmI4
+VmtBT3BIeDlXV1JxVlhmbU5fX3hnSm1jUnEyeGJYR1JEeV9IdjNPNFNlWnVsbzNodlZLdVZF
+dG1oZEQwOURHTUhXeVV1YmcyPg0KTm9uLUdvdmVybm1lbnRhbCBPcmdhbml6YXRpb25zIChO
+R08pIE1hbmFnZW1lbnQgDQpjb3Vyc2UNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3Bt
+ZW50Lm9yZy90cmFja2luZy9jbGljaz9kPWZfVTRPV0pjNFB5WXcxd1lQLWlpNFBOLUFSTVVS
+U3hUOVVzTWpZWTA4eVlPY1dKZzBZU0ZwWFN3TzNPTXVaQ25vQlZaTFBENHplRG5DaFgzNnNT
+ZHNCVzVZdFpCcGdsd0hEa3pHSlBzZHVLQXh5UXdDQUM1NXlubGpOWjYzWElSYWgtSTZrR1JN
+YVVEMkZJNzZydHFiV2phUkVXSHRsX2FLT3hvRGFibUNjMEVJblJGLVBwdlpjMF8yMEtGOWti
+ZFRzcVdoN1JyV0pJSWM5VVpESS12ZjNENnAzdVFPdlpEZHZZTzhMbnBXQ3NXZXNGam5QTUhN
+TnZCZFo1MUxnQl9pbDMzOENQemdKM3pPa1dRaFR0OEhaTTE+DQoxMA0KPGh0dHA6Ly9lbWFp
+bC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9eUxQNmw0X1FXSC0x
+dVpUblgtc3dkQjhraUJZSnNrazZYV0ZuT3Q4UngydEx4ZnR2ZEZnTmRsVC1tWlAxRTAwaEE4
+RFNaTGpxTjliaEZYLW1iNkFNdHpzMm5YNFlTNHlrY1E5OW5rWU82cm1zX2tfczAwWU9abzJk
+VDAyYVVkOF9PWHZEZ1dfUXAwWVIzQUdOWmVEMFQyZ3JZZWFoOXRvcmx3TExPc3RDcENEcHJD
+THdaYWRSZWtBNy1VbDhYbzJLVFNGVDNLeWF1bFdaQzMxSFZDcXoyVUVEODdJV2pkdHR5VFdN
+cW1RUjNQNjl3SGxBb0p5LXZTMkt4a3FRMXc3UzZ3Mj4NCkRldmVsb3BtZW50IG9mIFF1YWxp
+dHkgTWFuYWdlbWVudCBTeXN0ZW1zIA0KICBDb3Vyc2UNCjxodHRwOi8vZW1haWwuZm9zY29y
+ZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy91bnN1YnNjcmliZT9kPTEwMVdIUzd4SWo0VktQ
+VzMxeWgtSnJ1c0lPc0NwQm44NGxTZDc5c2dCQk9MWDdhNG9oSUJpeDhxZjJoeUhfc3EwaHJv
+SlZSYVIwUl90ZFBQVXgzTmQ5ZWZXQ1JnWGhZRV9sbGItRlBhbTJ5RjA+DQpVTlNVQlNDUklC
+RQ==
+
+--=-eZCfSVPg3x/qJv6GaMAYPA/l1lRD/dwi23WKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<H3 class=3Dtext-center=20
+style=3D'FONT-SIZE: 24px; FONT-FAMILY: "Segoe UI", Arial, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEI=
+GHT: 900; COLOR: rgb(68,68,68); FONT-STYLE: normal; TEXT-ALIGN: center=
+; ORPHANS: 2; WIDOWS: 2; MARGIN: 10px 0px 20px; LETTER-SPACING: normal=
+; LINE-HEIGHT: 1.1em; TEXT-INDENT: 0px; font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decora=
+tion-color: initial'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DFX6S7hk=
+BXpQ_uEgye6HQmYmMS8ufZOHFoGBkvR3QHFIKek7BJhKiFxAA1TKktVeQImD82_wxfsn_n=
+FS3TVJyo_lUoNt2-rZC5AUVv37xwguztYw7dvhksY91MomWY0Uadvt83fr_oYUjb7_vakU=
+eC-t98RB32VUqWlrbqtNzElk20oFm936pmtW7UveF5vQp6XYi9sJtuR2z6s5GbtsDacgw_=
+6Po5JhgDpcmroLtJZJUL6pxid3PANKdyZ-noxKzMmE3moc4kIbq9QKhlWawbJPFw8Hwdtv=
+S5RcixTmRX1Q90">Invitation=20
+to Financial Management, Budgeting and Auditing of Donor Funded Projec=
+ts=20
+Workshops </A></H3>
+<P>
+<TABLE class=3Dtable=20
+style=3D"FONT-SIZE: 15px; MARGIN-BOTTOM: 20px; MAX-WIDTH: 100%; FONT-F=
+AMILY: Verdana, sans-serif; WIDTH: 1136px; WHITE-SPACE: normal; WORD-S=
+PACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEI=
+GHT: 300; COLOR: rgb(0,0,0); FONT-STYLE: normal; BORDER-SPACING: 0px; =
+ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(2=
+55,255,255); font-variant-ligatures: normal; font-variant-caps: normal=
+; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; =
+text-decoration-style: initial; text-decoration-color: initial">
+  <TBODY style=3D"FONT-SIZE: 14px">
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px">20/03/2023<SPAN>&nbsp;</SPAN><SPAN=20
+      style=3D"FONT-WEIGHT: bold">To</SPAN><SPAN>&nbsp;</SPAN>31/03/20=
+23</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px">10=20
+      Days</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px">Mombasa,=20
+      Kenya</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"><A=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D4=
+MogCdbIULBOrmNjskqu9gDI2lI_eOEhGFBzoMHIUl51dVUzZ6rDjaTZPYHigt89EDjbeEA=
+Lx8M3TfFWH42NNJJ32yV4sIqj08qkxJNbx7zFHSjFsCO8HLmstZ0Z9Q2hr6o4ZftSR76Ou=
+TDTr7rKvW5mVT_zf87eFlPv48RqWUFyG1hZ8GkMFK1Vg21T4MF7fqkOdcooytww1rDlUgP=
+cCjyaKK3h6lF_ZdXLwjghQ51l3wgKKIwMZs3N7rawoWhx3hPaKIfJU6u6bdCnMV8eNzQmH=
+7GCKvM8F1Ypi6xXyA3BWcDSVZU1rC-ONuIB6j9aIg2"><BUTTON=20
+      class=3D"btn btn-primary btn-xs"=20
+      style=3D"FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: pointer; TE=
+XT-DECORATION: none; BORDER-TOP: rgb(53,126,189) 1px solid; FONT-FAMIL=
+Y: inherit; BORDER-RIGHT: rgb(53,126,189) 1px solid; VERTICAL-ALIGN: m=
+iddle; BACKGROUND-IMAGE: none; WHITE-SPACE: nowrap; BORDER-BOTTOM: rgb=
+(53,126,189) 1px solid; POSITION: relative; TEXT-TRANSFORM: capitalize=
+; COLOR: rgb(255,255,255); OUTLINE-WIDTH: medium; PADDING-BOTTOM: 1px;=
+ TEXT-ALIGN: center; PADDING-TOP: 1px; OUTLINE-STYLE: none; PADDING-LE=
+FT: 5px; BORDER-LEFT: rgb(53,126,189) 1px solid; MARGIN: 0px; DISPLAY:=
+ inline-block; LETTER-SPACING: 1px; OUTLINE-COLOR: invert; LINE-HEIGHT=
+: 1.5; PADDING-RIGHT: 5px; BACKGROUND-COLOR: rgb(66,139,202); font-str=
+etch: inherit; appearance: button; touch-action: manipulation; user-se=
+lect: none; border-radius: 3px; text-shadow: rgba(255, 255, 255, 0.3) =
+0px 0px 1px">Register=20
+      As Individual</BUTTON></A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"><A=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DK=
+U88I_EMXSqqRJDe43VbWlOwxHzYU7WrXBoMboBGSyeyFJziLmu_K3goEhWVCVy5iNMCj3E=
+O6la86tOGyQmlZHZPHjBAxpVB--Z4LgRFX5DY08DroYqsylkMUOHccgsbOPphoDKIQFU2I=
+_79hi-_bJ4rSp82LD2DbihTgrxsPKtw2FfHN5ZIOUy7dQ2tXatRyyjiEJI0SQuOI-eloip=
+M2nKjrzWrpqCQKqKDNPQmB8wicBq0jqFCRFa9h11AqMjPKvvlUHRbRDmouktrhDTqQvDn5=
+RVVMVMvbBAHiHvBkuvNJc1pz4AoIyrA8t_Te6FIDA2"><BUTTON=20
+      class=3D"btn btn-primary btn-xs"=20
+      style=3D"FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: pointer; TE=
+XT-DECORATION: none; BORDER-TOP: rgb(53,126,189) 1px solid; FONT-FAMIL=
+Y: inherit; BORDER-RIGHT: rgb(53,126,189) 1px solid; VERTICAL-ALIGN: m=
+iddle; BACKGROUND-IMAGE: none; WHITE-SPACE: nowrap; BORDER-BOTTOM: rgb=
+(53,126,189) 1px solid; POSITION: relative; TEXT-TRANSFORM: capitalize=
+; COLOR: rgb(255,255,255); OUTLINE-WIDTH: medium; PADDING-BOTTOM: 1px;=
+ TEXT-ALIGN: center; PADDING-TOP: 1px; OUTLINE-STYLE: none; PADDING-LE=
+FT: 5px; BORDER-LEFT: rgb(53,126,189) 1px solid; MARGIN: 0px; DISPLAY:=
+ inline-block; LETTER-SPACING: 1px; OUTLINE-COLOR: invert; LINE-HEIGHT=
+: 1.5; PADDING-RIGHT: 5px; BACKGROUND-COLOR: rgb(66,139,202); font-str=
+etch: inherit; appearance: button; touch-action: manipulation; user-se=
+lect: none; border-radius: 3px; text-shadow: rgba(255, 255, 255, 0.3) =
+0px 0px 1px">Register=20
+      For Online Training</BUTTON></A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"><A=20
+      style=3D"TEXT-DECORATION: underline; COLOR: red; OUTLINE-WIDTH: =
+0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; BACKGROUND-COLOR: tra=
+nsparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DO=
+jQwDOZ2giQuAO5rF64jYdt7OOvmjprc5GlURxkJ1a34tcY827X2Xxb3rRz2Uj8ObRgVW1X=
+Zdmh9XtEvJh_jPpp3DAtpzLUnFcLXe6CPLZBekkEgVLe2T5OlBhtSKupYOERhdxzoj19Dt=
+aqmoKpBaP3VjfziTnOayFHYvCou1zJi76eGQEvfMS_VxWVEzEgy6XzEsVmX0Yq5ycU6qV9=
+hUxObD6Ng1H1jECncLnMPsuHOYBfdfyzet8MI_Wu-W8NFoZdiG1FwY9gpSyzvgt0ZJXD3U=
+gIeAvIcCKAQ6YHSidUSoSz2aQGWBqQAW9SPfPmAmA2"><BUTTON=20
+      class=3D"btn btn-primary btn-xs"=20
+      style=3D"FONT-SIZE: 12px; OVERFLOW: visible; CURSOR: pointer; TE=
+XT-DECORATION: none; BORDER-TOP: rgb(40,94,142) 1px solid; FONT-FAMILY=
+: inherit; BORDER-RIGHT: rgb(40,94,142) 1px solid; VERTICAL-ALIGN: mid=
+dle; BACKGROUND-IMAGE: none; WHITE-SPACE: nowrap; BORDER-BOTTOM: rgb(4=
+0,94,142) 1px solid; POSITION: relative; TEXT-TRANSFORM: capitalize; C=
+OLOR: rgb(255,255,255); OUTLINE-WIDTH: medium; PADDING-BOTTOM: 1px; TE=
+XT-ALIGN: center; PADDING-TOP: 1px; OUTLINE-STYLE: none; PADDING-LEFT:=
+ 5px; BORDER-LEFT: rgb(40,94,142) 1px solid; MARGIN: 0px; DISPLAY: inl=
+ine-block; LETTER-SPACING: 1px; OUTLINE-COLOR: invert; LINE-HEIGHT: 1.=
+5; PADDING-RIGHT: 5px; BACKGROUND-COLOR: rgb(48,113,169); font-stretch=
+: inherit; appearance: button; touch-action: manipulation; user-select=
+: none; border-radius: 3px; text-shadow: rgba(255, 255, 255, 0.3) 0px =
+0px 1px">Register=20
+      As A Group</BUTTON></A></TD></TR>
+  <TR></TR></TBODY></TABLE></P>
+<P><SECTION id=3Dboxes class=3D"home-section paddingtop-80"=20
+style=3D"FONT-SIZE: 15px; MARGIN-BOTTOM: 10px; FONT-FAMILY: Verdana, s=
+ans-serif; BACKGROUND: rgb(238,238,238); WHITE-SPACE: normal; WORD-SPA=
+CING: 0px; POSITION: relative; TEXT-TRANSFORM: none; FONT-WEIGHT: 300;=
+ COLOR: rgb(102,102,102); FONT-STYLE: normal; PADDING-TOP: 15px !impor=
+tant; ORPHANS: 2; WIDOWS: 2; Z-INDEX: 120; DISPLAY: block; LETTER-SPAC=
+ING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-th=
+ickness: initial; text-decoration-style: initial; text-decoration-colo=
+r: initial"></P>
+<DIV class=3Dcontainer=20
+style=3D"WIDTH: 1170px; PADDING-LEFT: 15px; MARGIN-LEFT: auto; PADDING=
+-RIGHT: 15px; MARGIN-RIGHT: auto">
+<DIV class=3Drow style=3D"MARGIN-LEFT: -15px; MARGIN-RIGHT: -15px">
+<DIV class=3D"col-sm-12 col-md-"=20
+style=3D"MARGIN-BOTTOM: 10px; BORDER-TOP: rgb(255,255,255) 2px solid; =
+BORDER-RIGHT: rgb(255,255,255) 2px solid; WIDTH: 1170px; BORDER-BOTTOM=
+: rgb(255,255,255) 2px solid; POSITION: relative; FLOAT: left; COLOR: =
+rgb(0,0,0) !important; PADDING-LEFT: 15px; MIN-HEIGHT: 1px; BORDER-LEF=
+T: rgb(255,255,255) 2px solid; PADDING-RIGHT: 15px; BACKGROUND-COLOR: =
+rgb(255,255,255)">
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Int=
+roduction</SPAN></STRONG></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Thi=
+s course is=20
+designed to enable those involved with projects to become efficient an=
+d=20
+effective in the acquisition and utilization of funds for development =
+purposes,=20
+using appropriate techniques and application of accounting and finance=
+=20
+principles.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Dur=
+ation</SPAN></STRONG></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>2=20
+weeks</SPAN></STRONG></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Who=
+ should=20
+attend?</SPAN></STRONG></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Fin=
+ance=20
+Directors, Finance Managers, Procurement Directors, Procurement manage=
+rs,=20
+Procurement officers, Administrators, Project officers, Budget Account=
+ants,=20
+Auditors, Chief Accountants, Credit Controllers</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Cou=
+rse=20
+Objective:</SPAN></STRONG></P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; accounting=20
+principles and procedures in the preparation of financial statements<B=
+R>&#8226;=20
+Analyze and interpret information as contained in financial=20
+statements.</SPAN></P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; Outline and=20
+evaluate the effectiveness of the legal provisions governing the procu=
+rement=20
+and<SPAN>&nbsp;</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>use of dono=
+r=20
+funds.</SPAN></P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; Prepare and=20
+effectively manage implementation of budgets for donor funds.</SPAN></=
+P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; Identifying=20
+projects for donor funding.</SPAN></P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; Design=20
+project proposal formats.</SPAN></P>
+<P class=3DDefault style=3D"MARGIN: 0px 0px 20px"><SPAN=20
+style=3D'FONT-FAMILY: "Times New Roman", "serif"; COLOR: windowtext'>&=
+#8226; Monitor and=20
+evaluate donor funded projects.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>&#8=
+226; Compliance=20
+with standards, legal and administrative framework</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Cou=
+rse=20
+content</SPAN></STRONG></P>
+<P class=3DMsoListParagraphCxSpFirst=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Int=
+roduction</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Fin=
+ancial=20
+management of donor funds</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Obj=
+ective of=20
+donor<SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>funds</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Dis=
+bursement=20
+procedures</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Rev=
+enue=20
+planning and cash management</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Cos=
+ting and=20
+cost reduction strategies</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Sup=
+plies and=20
+procurement management</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Pre=
+paration and=20
+interpretation of financial statements and reports for donor funds</SP=
+AN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Bud=
+geting and=20
+budgetary control</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Pla=
+nning for=20
+donor funds and budgetary control systems</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Eva=
+luation of=20
+international aid offers</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Pla=
+nning,=20
+Budgeting, implementation and management</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>The=
+ roles in=20
+the management of donor funds</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Fra=
+ud=20
+prevention and detection</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>man=
+aging donor=20
+assets</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Inv=
+estment=20
+management</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Int=
+ermediation=20
+services in the capital markets</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Ris=
+k monitoring=20
+and control frameworks</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Reg=
+ular=20
+financial reporting and independent audits</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Pro=
+vision of=20
+financial and information systems</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Qua=
+lity=20
+assurance and compliance monitoring</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Ind=
+ependent=20
+evaluation of projects and programs</SPAN></P>
+<P class=3DMsoListParagraphCxSpMiddle=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Gov=
+ernance and=20
+Anti-Corruption (GAC) agenda</SPAN></P>
+<P class=3DMsoListParagraphCxSpLast=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: Symbol"><SPAN>&#183;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN></SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Dis=
+closure and=20
+access to information</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+"><STRONG=20
+style=3D"FONT-WEIGHT: bolder"><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", "serif"'>Gen=
+eral=20
+Notes</SPAN></STRONG></P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>All=20
+our courses can be Tailor-made to participants' needs</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>The=20
+participant must be conversant in English</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Presentations=20
+are well-guided, practical exercises, web-based tutorials, and group w=
+ork. Our=20
+facilitators are experts with more than 10 years of experience.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Upon=20
+completion of training the participant will be issued with a Foscore d=
+evelopment=20
+center certificate (FDC-K)</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Training=20
+will be done at the Foscore development center (FDC-K) centers. We als=
+o offer=20
+inhouse and online training on the client schedule</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Course=20
+duration is flexible and the contents can be modified to fit any numbe=
+r of=20
+days.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>The=20
+course fee for onsite training includes facilitation training material=
+s, 2=20
+coffee breaks, a buffet lunch, and a Certificate of successful complet=
+ion of=20
+Training. Participants will be responsible for their own travel expens=
+es and=20
+arrangements, airport transfers, visa application dinners, health/acci=
+dent=20
+insurance, and other personal expenses.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Accommodation,=20
+pickup, freight booking, and Visa processing arrangement, are done on =
+request,=20
+at discounted prices.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Tablet=20
+and Laptops are provided to participants on request as an add-on cost =
+to the=20
+training fee.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>One-year&nbsp;free=20
+Consultation and Coaching provided after the course.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Register=20
+as a group of more than two and enjoy a discount of (10% to 50%)</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Payment=20
+should be done before commence of the training or as agreed by the par=
+ties, to=20
+the FOSCORE DEVELOPMENT CENTER account, so as to enable us to prepare =
+better for=20
+you.</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>For=20
+any inquiries reach us at&nbsp;<A=20
+style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: transpa=
+rent; transition: all 0.2s ease-in-out 0s"=20
+rel=3D"noopener noreferrer" target=3D_blank>training@fdc-k.org</A>&nbs=
+p;or=20
++254712260031</P>
+<P class=3DMsoNormal=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0p=
+x 0px 0pt; LINE-HEIGHT: normal">&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN: 0px 0px 0pt; LINE-HEIGHT: normal=
+">&nbsp;</P>
+<P class=3DMsoListParagraph=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; MARGIN: 0c=
+m 0cm 0pt 36pt; TEXT-INDENT: -18pt"><SPAN=20
+style=3D"FONT-FAMILY: Symbol">&#183;<SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman"; LINE-HEIGHT: =
+normal; font-variant-numeric: normal; font-variant-east-asian: normal;=
+ font-stretch: normal'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;</SPAN></SPAN>Website:<A=20
+style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: transpa=
+rent; transition: all 0.2s ease-in-out 0s"=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dhp1qy6R=
+yuCnm0ZC03eiSpqM_ADWnSIWjB_oY_CWaZ5IwLur7bcKgCyjjKEGvIp7VesaK2LuvWH6Tz=
+2X8ObBKOyc4oIBwXfsbR2vKaSWTBW5WKM0gbI8Ks8SghIk6O6G82kBn-6TQtr5hyPBkzhg=
+nPy81" rel=3D"noopener noreferrer"=20
+target=3D_blank>www.fdc-k.org</A></P>
+<P class=3DMsoListParagraphCxSpFirst=20
+style=3D"MARGIN: 0in 0in 0pt 0.25in; LINE-HEIGHT: normal; TEXT-INDENT:=
+ -0.25in">&nbsp;</P>
+<P style=3D"MARGIN: 0px 0px 20px"></P></DIV></DIV></DIV></SECTION>
+<H2=20
+style=3D'FONT-SIZE: 30px; FONT-FAMILY: "Segoe UI", Arial, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEI=
+GHT: 400; COLOR: rgb(203,41,64); FONT-STYLE: normal; ORPHANS: 2; WIDOW=
+S: 2; MARGIN: 10px 0px; LETTER-SPACING: normal; LINE-HEIGHT: 1em; BACK=
+GROUND-COLOR: rgb(221,221,221); TEXT-INDENT: 0px; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;=
+ text-decoration-thickness: initial; text-decoration-style: initial; t=
+ext-decoration-color: initial'>Other=20
+Upcoming Workshops Kenya, Rwanda, Tanzania, Ethiopia and Dubai</H2>
+<DIV class=3Dtable-responsive=20
+style=3D"FONT-SIZE: 15px; FONT-FAMILY: Verdana, sans-serif; WHITE-SPAC=
+E: normal; WORD-SPACING: 0px; OVERFLOW-X: auto; TEXT-TRANSFORM: none; =
+FONT-WEIGHT: 300; COLOR: rgb(102,102,102); FONT-STYLE: normal; MIN-HEI=
+GHT: 0.01%; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-=
+COLOR: rgb(221,221,221); TEXT-INDENT: 0px; font-variant-ligatures: nor=
+mal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-d=
+ecoration-thickness: initial; text-decoration-style: initial; text-dec=
+oration-color: initial">
+<TABLE id=3DmyTable class=3D"table table-hover table-dark\"=20
+style=3D"MARGIN-BOTTOM: 20px; MAX-WIDTH: 100%; BORDER-TOP: rgb(221,221=
+,221) 2px solid; BORDER-RIGHT: rgb(221,221,221) 2px solid; WIDTH: 1349=
+px; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: rgb(221,221,221) 2px sol=
+id; COLOR: rgb(0,0,0); BORDER-SPACING: 0px; BORDER-LEFT: rgb(221,221,2=
+21) 2px solid; BACKGROUND-COLOR: rgb(255,255,255)">
+  <THEAD>
+  <TR=20
+  style=3D"COLOR: rgb(255,255,255); BACKGROUND-COLOR: rgb(78,176,79)">=
+</TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>1</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"GIS and Remote Sensing for Agricultural Resource Manage=
+ment Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D2=
+pQGLwo6AJ50uY4NYvqUb_KCKmNsbe2gbk2B2eE6wkC41s-_6AG1QbMBMMUEHvPE4bNxPHh=
+ajcjX_Svm24UmWEUpyXyjEOMG3KOyU9HULpds9przoR55WQCuWPUWMmSrfsJM_HP_pdFIx=
+Q5YbZtCjGJut0EHOC3hGKYf_QdieTu2mE9FoEdtnlIxi-7zVNxEvUipNGdPKVSXWlWQHNW=
+k62DITmoHKhzfZgRoGdU9yLLJ6PfzMQ7gZnz7Ub086X_B8A2"=20
+      target=3D_blank>GIS and Remote Sensing for Agricultural Resource=
+ Management=20
+      Course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"GIS and Remote Sensing for Agricultural Resource Manage=
+ment Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D2=
+pQGLwo6AJ50uY4NYvqUb_KCKmNsbe2gbk2B2eE6wkC41s-_6AG1QbMBMMUEHvPE4bNxPHh=
+ajcjX_Svm24UmWEUpyXyjEOMG3KOyU9HULpds9przoR55WQCuWPUWMmSrfsJM_HP_pdFIx=
+Q5YbZtCjGJut0EHOC3hGKYf_QdieTvAr63_n9j-Qa4of00PM0PklAQpg28YY-Mcd-_4SyY=
+Ar7VzFEu0tBMgs5UiFMoB4eREQI7q5IRVBeL_rNzN3TVLyQ2"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>2</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Grant Management using Sun Accounting Syst=
+em Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dj=
+iVDhSzw5IRHHT82tptNczSb6wMUwDQjRQ_DawezrXYEag_8ba7OBggEm6xdk8EE__Hcni5=
+wl2qyRuozMlex0X4lz3yf3RlcbeI1bpeYfUdctU8-l7MneK53lNqJUeV9OVf4Mag0WknMo=
+nPlIlBiP57XzmSrHTgcaHliyjnvaI7BA--YEdUoeR88UpZbD6Xl7jE_zKaoKydmSvQ-I-_=
+7LmXq3lxBrWJoUKvcvTdAr_bFP67OSmuEiiawvtpDS-MuEw2"=20
+      target=3D_blank>Grant Management using Sun Accounting System Cou=
+rse</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Grant Management using Sun Accounting Syst=
+em Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dj=
+iVDhSzw5IRHHT82tptNczSb6wMUwDQjRQ_DawezrXYEag_8ba7OBggEm6xdk8EE__Hcni5=
+wl2qyRuozMlex0X4lz3yf3RlcbeI1bpeYfUdctU8-l7MneK53lNqJUeV9OVf4Mag0WknMo=
+nPlIlBiP57XzmSrHTgcaHliyjnvaI6OwaEv-vfhONlajpzhT-UvPqww95HB_yNtFlFQsgf=
+Vu3s1Z2JTgbyYD0VYSdJ9muFjEYYs1Fz60DDhtvFwFpNZSA2"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>3</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Training Course on Linux Unix OS"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+EtlT3WPHM8xVrR9hmCxpioo1IT9VNzNXNUh9FCwHNiTo21BZbt8IHS0R_Gl7bUb7GDknrh=
+SmWf19c48TZ0YKUsAsXBK4MBiM10SeJ7LiPEn23EbhN5nOE9modObAck6sbItdnEuswHiw=
+kxsmKhIoqcpWk0AsfxKAYow0scV24B5CYeABYFcTjrLgW7CFJd_ashBa40gjwQ8WTEmExs=
+7poaahm9C3G3aNmunI3He6dil0"=20
+      target=3D_blank>Training Course on Linux Unix OS</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Training Course on Linux Unix OS"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+EtlT3WPHM8xVrR9hmCxpioo1IT9VNzNXNUh9FCwHNiTo21BZbt8IHS0R_Gl7bUb7GDknrh=
+SmWf19c48TZ0YKUsAsXBK4MBiM10SeJ7LiPEn23EbhN5nOE9modObAck6sbItdnEuswHiw=
+kxsmKhIos_ixxYALOPDUdPlBTOlHIEBOSoVUIoFQvAFP5eTzQ3yRvgvvAZ-5L2-Y5RySt0=
+aD2XdpnoNkp8TWceva4iFAO8h0"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>4</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Qualitative Data Management and Analysis with NVIVO cou=
+rse "=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DR=
+Mh-DQPoNA3f9N_PyHOdzbaV6_98W3oDM4lUpTqlsfTGd_UxuNJ9Hi5rypYAjcPgnUKzqVy=
+O-Z0uznF9qQS_IrCXN2j_Gi9ABPVNVk0SwhFsBzkquJ93xMTVwRlT44C-IoRwuzIi8KPKi=
+Q1V22HcFzzaCODA9lxkKtZTr5rc140qBfQeM5bZSHDCP8DB3kFOYF0gI6hqVpVIHsZ6fSC=
+oM_Vquh_5idJ38Ab02otKToHFrWmKt5OUFiGfsTn4V2llVaFIjWt1wFdBp5idQB_WOYM1"=
+=20
+      target=3D_blank>Qualitative Data Management and Analysis with NV=
+IVO=20
+      course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Qualitative Data Management and Analysis with NVIVO cou=
+rse "=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DR=
+Mh-DQPoNA3f9N_PyHOdzbaV6_98W3oDM4lUpTqlsfTGd_UxuNJ9Hi5rypYAjcPgnUKzqVy=
+O-Z0uznF9qQS_IrCXN2j_Gi9ABPVNVk0SwhFsBzkquJ93xMTVwRlT44C-IoRwuzIi8KPKi=
+Q1V22HcFzzaCODA9lxkKtZTr5rc140qBfQeM5bZSHDCP8DB3kFO7woKEgu2QuDIwy0nDuj=
+OoM5sntldnTuqDDfLWFKytxNNCBhho5xsnFjLsTcPImll2UZzC2ehqJto-lBgEzGzjy41"=
+></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>5</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Remote Sensing and GIS in Multi Hazard Early Warning Sy=
+stems Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+LP6l4_QWH-1uZTnX-swdB8kiBYJskk6XWFnOt8Rx2vVX6-Y79LEuHw0Ff7tAswdYipuqhF=
+_GGQvUHEnUeyICAKIC6p2gOMU3qrtD4WR04-EjVElGBlSfFjicWe3YBJwnJeZBBcuy_yJW=
+wtH3H2_SDHU81jzm0xkibFDm3HbvkVXOyHNiOBCp4hBA4VpB_PP2zEbBIAkOAwxt3aHhkr=
+6p0HR3PsjECM3BXcmJB8TULV4Nn2DWW-eJpZn0TW4oZId1Q2"=20
+      target=3D_blank>Remote Sensing and GIS in Multi Hazard Early War=
+ning Systems=20
+      Course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Remote Sensing and GIS in Multi Hazard Early Warning Sy=
+stems Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+LP6l4_QWH-1uZTnX-swdB8kiBYJskk6XWFnOt8Rx2vVX6-Y79LEuHw0Ff7tAswdYipuqhF=
+_GGQvUHEnUeyICAKIC6p2gOMU3qrtD4WR04-EjVElGBlSfFjicWe3YBJwnJeZBBcuy_yJW=
+wtH3H2_SDHU81jzm0xkibFDm3HbvkW3QTVyWMG8jNaYpL99wkc0yOltpalqfgqaZnltIvg=
+gMtmmrZwWa40WVcqf21jxZb-YDU9CqC1g8TlYsNLmDJOxMg2"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>6</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Strategic Human Resource Management Traini=
+ng Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dj=
+iVDhSzw5IRHHT82tptNczSb6wMUwDQjRQ_DawezrXbG5eABO8ehzzgBhqWuR9hiVSaA2se=
+A4zX4-p_iuahqzWFrO8CRLskNWvG7Td04F37Dr5kijL1F-LyDfUzN0TSiTH_AjNPMcjoHM=
+4J4vXkKfAijf8lhxDetpXbHL1ffbqv-ZqFi4cPBIKQuOg6luiXEPRtihQWs-aWOTuzQI0r=
+XSmgTWWbCfTMBxOpN4G-7wjKf91D8pThx25m1d3I04H9K_Q2"=20
+      target=3D_blank>Strategic Human Resource Management Training Cou=
+rse</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Strategic Human Resource Management Traini=
+ng Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dj=
+iVDhSzw5IRHHT82tptNczSb6wMUwDQjRQ_DawezrXbG5eABO8ehzzgBhqWuR9hiVSaA2se=
+A4zX4-p_iuahqzWFrO8CRLskNWvG7Td04F37Dr5kijL1F-LyDfUzN0TSiTH_AjNPMcjoHM=
+4J4vXkKfAijf8lhxDetpXbHL1ffbqsNQNdWP6_ywUoOhuHkoInKULAWFhV4CO8qCDh6IKP=
+YcsuDHA2M-59-1BO-csUuuvd5hhkuHOY_FnNaxAXCUslVww2"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>7</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Team Leader  Course "=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D8=
+Ez0ipJ_Hkf7kiUppTdQ5VknjHPQbGBw87TZUG2iBpIsJ6anoxYXoeAlSOHnwuPkVT6ySBC=
+tOvwKdr42yKFIwaxMYP04BWGoGzs92rjnZvmsg7pYMIMfhhtuJJJ2AmNVgA6aLifJISkLk=
+DPLwNh-zgZUCnT7lh2wWEkzkDJrTMy7VxCwL5mJrQhb-bWmRFXyj6Q0QzM3wWpSUcPhJtD=
+rQ1k1"=20
+      target=3D_blank>Team Leader Course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Team Leader  Course "=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D8=
+Ez0ipJ_Hkf7kiUppTdQ5VknjHPQbGBw87TZUG2iBpIsJ6anoxYXoeAlSOHnwuPkVT6ySBC=
+tOvwKdr42yKFIwaxMYP04BWGoGzs92rjnZvmsg7pYMIMfhhtuJJJ2AmNVAK1eMyWXQRzIN=
+F2rr1LsKCG4ZC5CyoSWH3AnWm6fio1pQ_gbsFfT430Fpa1HGW767B1NZGJ4ChTZlDJ0Ty2=
+7jBY1"></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>8</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Impact evaluation and Data Analysis of Programmes  Cour=
+se"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DS=
+t0z54lGDU-981K9dLJkS4V9hC_V14H2NWgnNtnGNokON-ywoA-Rfqz0fJBQnwnmfHrT25L=
+H0olJAy45BCP3xAf3T3I8mEUFL9zu4uCPsqCVETYSgtx1euBXfzChtZbBzUxWA6Oy0i0UD=
+IgelI3jCR1Xlp6ZaYQkc4DBPx_yauCdANdPGavdjrNdT8EawxhnmYYE9rsC3HttmBd0ZYS=
+4OizSG9AKJ-SSOLnggabaiUuivMJfzgqLRuEoNPzh-1AjKPvPuV1Dk671Kx6hIhNYRO41"=
+=20
+      target=3D_blank>Impact evaluation and Data Analysis of Programme=
+s=20
+    Course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Impact evaluation and Data Analysis of Programmes  Cour=
+se"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DS=
+t0z54lGDU-981K9dLJkS4V9hC_V14H2NWgnNtnGNokON-ywoA-Rfqz0fJBQnwnmfHrT25L=
+H0olJAy45BCP3xAf3T3I8mEUFL9zu4uCPsqCVETYSgtx1euBXfzChtZbBzUxWA6Oy0i0UD=
+IgelI3jCR1Xlp6ZaYQkc4DBPx_yauCdANdPGavdjrNdT8EawxhniJ7hmBHzuHVI9mxB5Kp=
+rZmT9VPKklB7g2FYzrAjRaUf7lj3otVh54U7gF_CCyUydqwX9pToroHTXFGLQac0RLaM1"=
+></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>9</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Non-Governmental Organizations (NGO) Management course =
+"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Df=
+_U4OWJc4PyYw1wYP-ii4PN-ARMURSxT9UsMjYY08yYOcWJg0YSFpXSwO3OMuZCnoBVZLPD=
+4zeDnChX36sSdsBW5YtZBpglwHDkzGJPsduKAxyQwCAC55ynljNZ63XIRah-I6kGRMaUD2=
+FI76rtqbWjaREWHtl_aKOxoDabmCc2tE7QMfuq16dJC6b8VkAOpHx9WWRqVXfmN__xgJmc=
+Rq2xbXGRDy_Hv3O4SeZulo3hvVKuVEtmhdD09DGMHWyUubg2"=20
+      target=3D_blank>Non-Governmental Organizations (NGO) Management=20
+course</A></TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A=20
+      title=3D"Non-Governmental Organizations (NGO) Management course =
+"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Df=
+_U4OWJc4PyYw1wYP-ii4PN-ARMURSxT9UsMjYY08yYOcWJg0YSFpXSwO3OMuZCnoBVZLPD=
+4zeDnChX36sSdsBW5YtZBpglwHDkzGJPsduKAxyQwCAC55ynljNZ63XIRah-I6kGRMaUD2=
+FI76rtqbWjaREWHtl_aKOxoDabmCc0EInRF-PpvZc0_20KF9kbdTsqWh7RrWJIIc9UZDI-=
+vf3D6p3uQOvZDdvYO8LnpWCsWesFjnPMHMNvBdZ51LgB_il338CPzgJ3zOkWQhTt8HZM1"=
+></A></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow>10</TD>
+    <TD=20
+    style=3D"BORDER-TOP: rgb(221,221,221) 1px solid; VERTICAL-ALIGN: t=
+op; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; LINE-HEI=
+GHT: 1.4285; PADDING-RIGHT: 8px"=20
+    scope=3Drow><A title=3D"Development of Quality Management Systems =
+Course"=20
+      style=3D"TEXT-DECORATION: none; COLOR: blue; BACKGROUND-COLOR: t=
+ransparent; transition: all 0.2s ease-in-out 0s"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+LP6l4_QWH-1uZTnX-swdB8kiBYJskk6XWFnOt8Rx2tLxftvdFgNdlT-mZP1E00hA8DSZLj=
+qN9bhFX-mb6AMtzs2nX4YS4ykcQ99nkYO6rms_k_s00YOZo2dT02aUd8_OXvDgW_Qp0YR3=
+AGNZeD0T2grYeah9torlwLLOstCpCDprCLwZadRekA7-Ul8Xo2KTSFT3KyaulWZC31HVCq=
+z2UED87IWjdttyTWMqmQR3P69wHlAoJy-vS2KxkqQ1w7S6w2"=20
+      target=3D_blank>Development of Quality Management Systems=20
+  Course</A></TD></TR></TBODY></TABLE></DIV></BODY></HTML>
+
+<img src=3D"http://email.foscoredevelopment.org/tracking/open?msgid=3D=
+-QUAZFaYxbiW5FDd0AHBgw2&c=3D1554357266860434872" style=3D"width:1px;he=
+ight:1px" alt=3D"" /><div style=3D"text-align:center; background-color=
+:#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:s=
+ans-serif;"><a href=3D"http://email.foscoredevelopment.org/tracking/un=
+subscribe?d=3D101WHS7xIj4VKPW31yh-JrusIOsCpBn84lSd79sgBBOLX7a4ohIBix8q=
+f2hyH_sq0hroJVRaR0R_tdPPUx3Nd9efWCRgXhYE_llb-FPam2yF0" style=3D"text-a=
+lign:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfSVPg3x/qJv6GaMAYPA/l1lRD/dwi23WKzQ==--

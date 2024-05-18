@@ -1,0 +1,92 @@
+Return-Path: <mariacannon@hobbyjr.org>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 282771 invoked from network); 2 Nov 2023 12:41:46 -0000
+Received: from mail-lj1-x229.google.com (mail-lj1-x229.google.com [IPv6:2a00:1450:4864:20::229])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 02 Nov 2023 12:41:46 -0000
+Received: by mail-lj1-x229.google.com with SMTP id 38308e7fff4ca-2c503da4fd6so12273281fa.1
+        for <bruce@untroubled.org>; Thu, 02 Nov 2023 05:41:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hobbyjr-org.20230601.gappssmtp.com; s=20230601; t=1698928904; x=1699533704; darn=untroubled.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=mvA5tIUajf7X9O0MlWrH37mnQUJm4XW9/GWHIRY7fMc=;
+        b=1HTjlTSeJPsYT6lWHV/ZJtb8gRvpNFuust/7LXIJpOXjTLRZ1PMWj5XH9+0K9ohIEl
+         TGoVaNyUl11Dwnz6N56p9rAgSwxXDTLi8oRrni9Av77Haec01iTLZcASnKnosqZp6EIb
+         Z8Nje9uWIgYUCRsLKVZVwu5fX9kLUwXY/cNLko5uctnslPHMPLP3m7hL7WtMtmADy990
+         zt7TZJRJwdeOeojmZ7UPTBKCKtMmCphYgbY1ZAfAZUeLIKlI2oVEtvSCb5TRKjT+RxKP
+         yJgTOiKVx9fwL/OhQb9jmDqCXXr60IRH8gAhdIlxOGrHJWgqh3RUd2ZJ63FD+0Id3Shr
+         kfow==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698928904; x=1699533704;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=mvA5tIUajf7X9O0MlWrH37mnQUJm4XW9/GWHIRY7fMc=;
+        b=KoLMMN19WoeU51gbS/hxT5D/ZR5aYFVVRqR2Jaj3YigNG5Xl5ZU1GurDVQMPguQeDa
+         KosWBJ06HMWpK5QFiVEseswJNJ5MvcGXicwTNdvRR3mrbfr0NNAFQtjMNlJJwz937YOQ
+         rPaWuLI2Qslxc88Qc3hrSVShLpbt2QRjEZeetDi9Tld9f6ict1VR1ZaFMwgensopCHFF
+         8RzQJbQvwscl5EJ95FS2qYqSyOPURLIfSH5FgwMItafUt/t/fzbB0oj0WZgmrByD2Qzk
+         Qvqf68b8Of4ReSEuFxUQV4LwRAbQlx2SgeaXFxLKIrAAw4o8ilgM81M/ylYkzVZZUhaT
+         i7fg==
+X-Gm-Message-State: AOJu0Yylt5mcpKRan73JaxDAvgzBItyHMkVEpEqZSKZ+ALAYd4h5s8uR
+	MVGTyQ+prVla+VLp0p7Wv5YCk6TkI/tLmh0uH1v7OjJtayuntBid
+X-Google-Smtp-Source: AGHT+IFF/yU5WZfDmGF7P6fDMF0Iz3pcrXtYKCZIWelsRj4G3AGVRYL/l7rPIk3t0MIzCYEXhtQJmj0aLfBq0xJEiR8=
+X-Received: by 2002:a2e:7214:0:b0:2c5:16c0:6239 with SMTP id
+ n20-20020a2e7214000000b002c516c06239mr13909540ljc.51.1698928904407; Thu, 02
+ Nov 2023 05:41:44 -0700 (PDT)
+Received: from 91517705456 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 2 Nov 2023 05:41:44 -0700
+MIME-Version: 1.0
+From: Maria Cannon <mariacannon@hobbyjr.org>
+Date: Thu, 2 Nov 2023 05:41:44 -0700
+Message-ID: <CADRAL1KCogaVPMT1QqDRHUHxiUy7ecW7gyiF9dzvYG=StqGx9g@mail.gmail.com>
+Subject: Article pitch -- will you please take a look?
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="000000000000d8a1fc06092ab53c"
+
+--000000000000d8a1fc06092ab53c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi there!
+
+Can we write an article for your website with tips on how to turn a hobby
+into a business? We want to help other hobbyists begin making a living or
+supplementing their other income by doing something they are passionate
+about.
+
+Thank you for your time!
+
+*Derek and Maria Cannon*
+
+Please check out our website: *Hobbyjr.org* <http://Hobbyjr.org>
+
+
+P.S.  If you=E2=80=99re interested but would prefer a different topic, plea=
+se let
+us know and we=E2=80=99ll send you alternate suggestions, or please feel fr=
+ee to
+send a couple of your own. If you are not keen on receiving emails from us,
+we=E2=80=99d understand that, just reply to let us know.
+
+--000000000000d8a1fc06092ab53c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p><span style=3D"color:rgb(0,0,0)">Hi there!</span></p><p></p><p><span sty=
+le=3D"color:rgb(0,0,0)">Can we write an article for your website with tips =
+on how to turn a hobby into a business? We want to help other hobbyists beg=
+in making a living or supplementing their other income by doing something t=
+hey are passionate about.</span></p><p></p><p><span style=3D"color:rgb(0,0,=
+0)">Thank you for your time!</span></p><p><strong><em><span style=3D"color:=
+rgb(0,0,0)">Derek and Maria Cannon</span></em></strong></p><p><span style=
+=3D"color:rgb(0,0,0)">Please check out our website: </span><a target=3D"_bl=
+ank" rel=3D"noopener noreferrer nofollow" href=3D"http://Hobbyjr.org"><span=
+ style=3D"color:rgb(17,85,204)"><u>Hobbyjr.org</u></span></a></p><p><br></p=
+><p><span style=3D"color:rgb(0,0,0)">P.S.=C2=A0 If you=E2=80=99re intereste=
+d but would prefer a different topic, please let us know and we=E2=80=99ll =
+send you alternate suggestions, or please feel free to send a couple of you=
+r own. If you are not keen on receiving emails from us, we=E2=80=99d unders=
+tand that, just reply to let us know.</span></p><p><br></p>
+
+--000000000000d8a1fc06092ab53c--

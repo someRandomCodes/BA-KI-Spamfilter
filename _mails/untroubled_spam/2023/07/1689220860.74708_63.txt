@@ -1,0 +1,426 @@
+Return-Path: <>
+Received: from charter.net ([47.43.20.19])
+          by mtain011.msg.chrl.nc.charter.net
+          (InterMail vM.9.01.00.036 201-2473-137-122-162) with ESMTP
+          id <20230712063020.FTXD4693.mtain011.msg.chrl.nc.charter.net@charter.net>
+          for <bruce@untroubled.org>; Wed, 12 Jul 2023 06:30:20 +0000
+Received: from o1354.shared.klaviyomail.com ([167.89.106.34])
+	by cmsmtp with ESMTP
+	id JTMhqEHrcpiPSJTMhq1CRV; Wed, 12 Jul 2023 06:30:19 +0000
+X-Authority-Analysis: v=2.4 cv=UMMYoATy c=1 sm=1 tr=0 ts=64ae487c b=1
+ cx=a_idp_d a=QDEiC6K4urKH9Hz1g85VsA==:117 a=QDEiC6K4urKH9Hz1g85VsA==:17
+ a=5KLPUuaC_9wA:10 a=_i3gICXAkBcA:10 a=rLfmX8oYAAAA:8 a=700abWC-AAAA:8
+ a=3j4BkbkPAAAA:8 a=t-IPkPogAAAA:8 a=1XWaLZrsAAAA:8 a=BkpHzsgbAAAA:8
+ a=vnREMb7VAAAA:8 a=svKqqNJeAAAA:8 a=t-baU1t6AAAA:8 a=DczsWaAD9FjkF-jJxM0A:9
+ a=QEXdDO2ut3YA:10 a=SSmOFEACAAAA:8 a=6Cbp7lfFAAAA:8 a=-J4cjzx4AAAA:8
+ a=my13bNkbAAAA:8 a=v2E-k0wiFCbplN5eSCIA:9 a=DBpzKvWywFa-ISQ0:21
+ a=gKO2Hq4RSVkA:10 a=frz4AuCg-hUA:10 a=_W_S_7VecoQA:10
+ a=NlsGpl7iIAFu7uVmRIEF:22 a=-JxAOv70dWnc84xLiUek:22 a=vv5eJnfcWnWNk6VCyomF:22
+ a=tDyc9OFqXNEUnfdoH7ky:22 a=XVif6Fz7n-MfDs5-tR9A:22 a=3pPIBQ76aAvWTjhCwuo6:22
+ cc=prm
+X-CM-Score: 0.00
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=drmtlgy.com;
+	h=content-type:from:mime-version:subject:list-unsubscribe:to:cc:
+	content-type:from:subject:to;
+	s=kl; bh=+RO4rPTUp5bJewXiEik8o3xsZzFY7CeC6CZRSMMInVA=;
+	b=ntLqcX/a2Xs6aKQtGpEaiowLa7ovtWcd2Np07oNuH30+3Fy3160dNwIFk4tYhpDPTGxe
+	fnFbzTdKCTOos5Kr4GBNbVwuL02is4C/lS3+eaGGitlJr1JzT8IO9trZ3SRC09Db36x2ET
+	01Yo65whdY2u+j+FNFbsnoToWfrRd2CrQD1ziMb29CuTs7lTwjy4zWol4fPUOxFBV7tW2J
+	UJODiL9NA8Tz4ktV9t4wsDGdGIp41uS0r9PHQ2ZDZgxeTDtpgYN/tbHr/8SSUDP0T8Ajoc
+	XIx9a03tC0A1bz1mEeujEvsBy34sYdLexkJIeJEj/LwKGfDXynVLdxb5kM0TyKuA==
+Received: by filterdrecv-79fc4f74d8-2nvjj with SMTP id filterdrecv-79fc4f74d8-2nvjj-1-64AE487A-A7
+        2023-07-12 06:30:18.822318871 +0000 UTC m=+5381525.148328813
+Received: from ODA3OTYyNA (unknown)
+	by geopod-ismtpd-18 (SG) with HTTP
+	id EFAoweFt3es8H2fV8100pd
+	Wed, 12 Jul 2023 06:30:18.718 +0000 (UTC)
+Content-Type: text/html;
+Date: Wed, 12 Jul 2023 16:42:22 +0200
+From: KOHL'S Rewards <bruce@untroubled.org>
+Mime-Version: 1.0
+Message-ID: <EFAoweFt3es8H2fV8100pd@geopod-ismtpd-18>
+Subject: Your chance to receive a FREE Ninja Foodi Dual Air Fryer
+X-Kmail-Ops: 01GN0FYHF9HS6SS1PACQ5AYV3H
+X-Kmail-Account: PvgrGh
+X-Kmail-Message: 01H539QYRXSA5GKWPD8KKFRDEH
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Chttp=3A=2F=2Fdrmtlgy=2Emyklpages=2Ecom=2Fp=2Funsubscribe=3Fa=3DPvgrGh&c=3D01GN0FY?=
+ =?us-ascii?Q?HF9HS6SS1PACQ5AYV3H&k=3Defdfd6d59907f069e?=
+ =?us-ascii?Q?f8ba5bb31780893&m=3D01H539QYRXSA5GKWPD8KK?=
+ =?us-ascii?Q?FRDEH&r=3DYP6QEnL=3E?=
+X-SG-EID: 
+ =?us-ascii?Q?HJmoCGMgPvfWHxY+pDjImynQ7VuvcPC4w6mL8DtkARtN0qfvwnAgWcpJABLmm3?=
+ =?us-ascii?Q?05pyYol6vpj5zS8JRZ+9n9C6hAdEhiIBhgGLOy8?=
+ =?us-ascii?Q?9iW=2FaH55=2FhGeEqeDxhWhrQAIV7GjeRzwGgv9CRu?=
+ =?us-ascii?Q?P824zQNsesxqTNP9lFT3i2ud77c8KWEyarjiJ+r?=
+ =?us-ascii?Q?HLuriE++6bzNsifWbtbvP71CkduUbGGXYXdHSHC?=
+ =?us-ascii?Q?a2=2Fhk5o+IJn6JE6XSD8Ax65CoM6RaVcAgzqpdf?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb3WdckyvbC2eFaxvdDHn8D1nndBBW0fUClUlZF2fTQ?=
+ =?us-ascii?Q?6Kgk49VON=2FYHNPQglP1JaIjUqUecNsTy8StAPhd?=
+ =?us-ascii?Q?yxmeCbQnBvqVXW9yGB23=2F41qzn5ShbxR729d9AR?=
+ =?us-ascii?Q?rbjF1=2FjoKxRzNv+GeVkZPvme0FacSfqa0Gs6cHV?=
+ =?us-ascii?Q?xT8N=2FIPoiG7YftNZRed4O1upnoQUpDjYO5rtDGk?=
+ =?us-ascii?Q?1Dr5QV78sG3i49p2dyUhs=2F1AtySXkSE2J=2FaCkPu?=
+ =?us-ascii?Q?FhyPOvKyfoSW0fitVZo7w=3D=3D?=
+To: KOHL'S Rewards <bruce@untroubled.org>
+X-Entity-ID: kdtiW+TZSJAAJ/IwcSJeCg==
+X-CMAE-Envelope: MS4xfN748Mr8ws262qz5AB4AuPjwef96LY07sQdCHoAJax0TFTs7hWPZKW3djnhe9rsrzlsTJ2p/rMeqBhTRT7XBanBGbwJUbGVmucf+f6pg2JinorGTPUv2
+ xLHzAzZGZqPFQW1oC+6aA5gT6Vok22IKdLQg+sreQtyAMzHFCuzKHGKM43UK5fL8nmeDNwsY0n/pH1kyZk9n+dMNQfQwDAhod+PHJpM0f1Khbbu2dt+5CuxL
+ 8vwVgd/9Sz9ssr494BCYFdLUPKd1TXzRuyQFfcPOFH8=
+Content-Length: 9374
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Ninja Foodi Dual Air Fryer</title>
+ <style>
+ body,table,thead,tbody,tr,td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ .tagline{
+ background-color: rgba(0,0,0,0.4);
+ }
+ h1,h2,h3,h4,h5,h6,p,a,ul,
+ li {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #555;
+ }
+ .logo {
+ margin-top: 15px;
+ }
+ .top-bar {
+ font-size: 12px;
+ color: #3c3c3c;
+ }
+ .bottom-bar {
+ font-size: 12px;
+ color: #000000;
+ }
+ .intro {
+ padding: 0px;
+ text-align: center;
+ font-size: 26px;
+ color: #033057;
+ font-weight: bold;
+ line-height: 1.4;
+ }
+ .header-text {
+ color: #ffffff;
+ font-size: 32px;
+ margin-top: 12px;
+ padding-left: 30px;
+ padding-right: 30px;
+ max-width: 260px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #fff;
+ line-height: 1;
+ }
+ .tagline_tx:nth-child(1){
+ color: red;
+ }
+ .peace {
+ font-size: 50px;
+ font-weight: bold;
+ }
+ .mind {
+ font-size: 42px;
+ }
+ .cta,
+ .cta-bg {
+ background-color: #000000;
+ color: #000000;
+ padding: 12px;
+ text-decoration: none;
+ font-weight: bold;
+ display: block;
+ width: 160px;
+ margin-top: 10px;
+ margin-left: 30px;
+ text-align: center;
+ }
+ .cta-bg {
+ width: 250px;
+ background-color: #000000;
+ font-size: 18px;
+ margin-bottom: 40px;
+ padding: 16px;
+ margin-top: 30px;
+ }
+ .space {
+ height: 55px;
+ line-height: 55px;
+ }
+ .cta-title {
+ color: #000;
+ margin-top: 40px;
+ line-height: 1;
+ padding: 0px;
+ font-size: 34px;
+ font-weight: bold;
+ }
+ .cta-title-sub {
+ color: #000;
+ font-size: 18px;
+ line-height: 1.4;
+ max-width: 70%;
+ margin-top: 20px;
+ }
+ .product-name{
+ font-size: 18px;
+ color: #000;
+ margin-top: 10px;
+ margin-left: 40px;
+ line-height: 1.9;
+ }
+ #bg_prod{
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .future,.peace,.mind{
+ display: block;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .header-text {
+ max-width: 100%;
+ padding-bottom: 20px;
+ text-align: center;
+ margin-left: 0px;
+ }
+ .peace {
+ display: block;
+ }
+
+ .cta {
+ display: block;
+ max-width: 70%;
+ margin: auto;
+ }
+ .cta-bg{
+ margin-left: 0px;
+ }
+ .space {
+ height: 10px;
+ line-height: 10px;
+ }
+
+ .cta-title{
+ font-size: 28px;
+ }
+ .cta-title-sub {
+ font-size: 17px;
+ max-width: 90%;
+ }
+ .policy-table {
+ margin-bottom: 20px;
+ }
+ .bg-wrap {
+ background-size: cover;
+ background-position: center;
+ }
+ .feature-img {
+ width: 60%;
+ margin-top: 30px;
+ }
+ }
+ </style>
+ </head>
+<div align="center">
+  <div style="color: rgb(0, 0, 0); font-family: &quot;Times New
+    Roman&quot;; font-size: medium; font-style: normal;
+    font-variant-ligatures: normal; font-variant-caps: normal;
+    font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+    0px; text-transform: none; widows: 2; word-spacing: 0px;
+    -webkit-text-stroke-width: 0px; white-space: normal;
+    text-decoration-thickness: initial; text-decoration-style: initial;
+    text-decoration-color: initial;" align="center"><font style="color:
+      rgb(0, 0, 0);" size="2">View in a we</font><font color="#ff8000"><font
+        size="2" color="#000000">b</font><font size="2"><span><span> </span></span><a
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#ZmlZdHNGL3lCaExlemdvdzdBNXlUQ01XY1dnK1U0MEJKRmtLWmRuUTM2MEwxditKT1U1V0dzeTNSbzFUM1NCSWZ0RjZNSWJBSWFoLzBqUXc5NlgrWW5SYzVlN0loOVJNUXg0dmxLRi9lMDMxN3U0Ym42L1RkQmFuM056czRzU1Y_"
+          moz-do-not-send="true"><font color="#ff8000">browser</font></a></font></font></div>
+  <font size="4" color="#623131"><font color="#000000"><font
+        color="#ff8000"><b> </b></font></font></font></div>
+<div align="center"><br>
+</div>
+<div align="center"><font color="#95004a"><font size="6"><a
+        moz-do-not-send="true"
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#ZmlZdHNGL3lCaExlemdvdzdBNXlUQ01XY1dnK1U0MEJKRmtLWmRuUTM2MEwxditKT1U1V0dzeTNSbzFUM1NCSWZ0RjZNSWJBSWFoLzBqUXc5NlgrWW5SYzVlN0loOVJNUXg0dmxLRi9lMDMxN3U0Ym42L1RkQmFuM056czRzU1Y_"><b><font
+            color="#95004a"><font color="#009b00"><font color="#800080"><font
+                  color="#954a00"><font color="#800040"><font
+                      color="#5959ff"><font color="#999999"><font
+                          color="#d7357d"><font color="#8080c0"><font
+                              color="#804040">Your chance to receive a
+                              FREE Ninja Foodi Dual Air Fryer</font></font></font></font></font></font></font></font></font></font></b></a></font></font></div>
+
+
+
+ <body style="background-color: #eaeaea;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#ffffff">
+ <tr>
+ <td height="15" style="line-height: 15px;"></td>
+ </tr>
+ <tr>
+ <td width="550" valign="top" align="center">
+ <p style="padding: 10px;" class="top-bar">Hurry up. The number of prizes to be won is limited! Confirm Now!</p>
+ </td>
+ </tr>
+ </table>
+
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody> 
+ <tr>
+ <td align="center">
+ <table id="bg_prod" bgcolor="#ffffff" background="https://pbs.twimg.com/media/F014pkcXwAE0CTB?format=jpg&name=large"  class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td class="space"></td>
+ </tr>
+ <tr>
+ <td class="column" width="275" valign="top" align="center">
+ <table class="section">
+ <tbody>
+ <tr>
+ <td align="left" class="tagline">
+ <p class="header-text">
+ <span class="future">The</span>
+ <span class="peace">Newest</span>
+ <span class="mind">Model Yet</span>
+ </p>
+ </td>
+ </tr>
+
+ <tr>
+ <td align="left">
+ <a style="color:#fff" href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#ZmlZdHNGL3lCaExlemdvdzdBNXlUQ01XY1dnK1U0MEJKRmtLWmRuUTM2MEwxditKT1U1V0dzeTNSbzFUM1NCSWZ0RjZNSWJBSWFoLzBqUXc5NlgrWW5SYzVlN0loOVJNUXg0dmxLRi9lMDMxN3U0Ym42L1RkQmFuM056czRzU1Y_" class="cta">Get it Now!</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="column" width="275" valign="top">
+ <table class="section">
+ <tbody> </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="40" style="line-height: 40px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" bgcolor="#D5D5D5">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td class="" width="180" valign="top" style="padding: 0 10px">
+ <table class="section" height="54px" width="160">
+ <tbody>
+ <tr>
+ <td align="left" width="160">
+ <img border="0" style="max-width: 160px; max-height: 50px;" src="https://pbs.twimg.com/media/F0142_SWwAIPgjc?format=png&name=large" class="logo" alt="">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="" width="320" valign="top" bgcolor="#000000" data="image_bg" background="https://pbs.twimg.com/media/F015EF2XgAIkDty?format=png&name=large" style="background-repeat:no-repeat;background-size: contain;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="section" width="320">
+ <tbody>
+ <tr>
+ <td align="left" width="320">
+ <p style="color:#fff" class="product-name">Ninja Foodi Dual Air Fryer</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr> 
+
+ <tr>
+ <td align="center" bgcolor="#D5D5D5">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p class="cta-title">Congratulations!</p>
+ <p class="cta-title-sub">You have been chosen to participate in our Loyalty Program for FREE!</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a style="color:#fff" href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#ZmlZdHNGL3lCaExlemdvdzdBNXlUQ01XY1dnK1U0MEJKRmtLWmRuUTM2MEwxditKT1U1V0dzeTNSbzFUM1NCSWZ0RjZNSWJBSWFoLzBqUXc5NlgrWW5SYzVlN0loOVJNUXg0dmxLRi9lMDMxN3U0Ym42L1RkQmFuM056czRzU1Y_" class="cta-bg">CONFIRM NOW!</a>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="padding: 10px;" class="bottom-bar">It will take you only a minute to receive this fantastic prize.. Ninja Foodi Dual Air Fryer</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#SDNyZTNzWHExdU1NQmF6STNMR1k2TjZuS1JNNC8zVmEwcmo3Y29RS0s3SkhDUUJwaTgzRTV3V3JiZGJBTmpqSmRiWHFxMkE4NXBRNjR0S01zU0I5ZHNpSzRRVnN6WkpDSDkzRHAxd1c1ZkQ1SEhQRitxMmRZR1QyTzUybVpxN0M_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

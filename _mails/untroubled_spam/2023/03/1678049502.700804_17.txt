@@ -1,0 +1,65 @@
+Return-Path: <benjamin.andrade@insus.gob.mx>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 689618 invoked from network); 5 Mar 2023 06:04:45 -0000
+Received: from h01p04.sedatu.gob.mx (mail.insus.gob.mx [187.217.48.12])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 05 Mar 2023 06:04:45 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by h01p04.sedatu.gob.mx (Postfix) with ESMTP id AEE1A8A47053
+	for <bruce@untroubled.org>; Sat,  4 Mar 2023 23:39:23 -0600 (CST)
+Received: from h01p04.sedatu.gob.mx ([127.0.0.1])
+	by localhost (h01p04.sedatu.gob.mx [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id gKSymu6fyjAX for <bruce@untroubled.org>;
+	Sat,  4 Mar 2023 23:39:23 -0600 (CST)
+Received: from localhost (localhost [127.0.0.1])
+	by h01p04.sedatu.gob.mx (Postfix) with ESMTP id 3907D8A53195
+	for <bruce@untroubled.org>; Sat,  4 Mar 2023 23:39:23 -0600 (CST)
+DKIM-Filter: OpenDKIM Filter v2.10.3 h01p04.sedatu.gob.mx 3907D8A53195
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insus.gob.mx;
+	s=810AF3A2-B23B-11E9-8858-34A79EAA576F; t=1677994763;
+	bh=1O7wzAZyLcRdzMDtgd+g/oQ4VYX/oAQnapkQlovAxGg=;
+	h=MIME-Version:From:To:Date:Message-Id;
+	b=2Rkj2SuJ8nlfj+C7zB3jkvAUcP497eShiWdbaNJg+AWLGzJ9LAt5/6phnO8E3iIZP
+	 GHXuUI5zoSwxH2E8f0ZdNvH8CwDrsE6JN/qmRdgyEcWQ+tudANlcPBgRDmuXVuRy8J
+	 sxd5zcmWqHKLXTXSWFUXbjqcjkqC7SKE7YGIdh20Soeodnr1bjjLagNFEAuIqdgzl6
+	 XlvA4hc1Caf/0gZOeioI9FH9Fdejo76JtpUEt9lBEeNEkJHvDruGmysO7uTI1Agpa7
+	 5eEKHb7OhJFUU0mtDLQgzDaIAexBV0O2XmBD1WDukYYGYltw/Wrhmjp3uTb/eOOmZD
+	 EmQdeTB0DTwNA==
+X-Virus-Scanned: amavisd-new at 
+Received: from h01p04.sedatu.gob.mx ([127.0.0.1])
+	by localhost (h01p04.sedatu.gob.mx [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id kfjGcVsUfJoL for <bruce@untroubled.org>;
+	Sat,  4 Mar 2023 23:39:23 -0600 (CST)
+Received: from vultr-guest (fwr26.sedatu.gob.mx [10.0.2.26])
+	by h01p04.sedatu.gob.mx (Postfix) with ESMTPA id 14D428A42400
+	for <bruce@untroubled.org>; Sat,  4 Mar 2023 23:39:20 -0600 (CST)
+MIME-Version: 1.0
+From: "Leonard Valentinovich" <benjamin.andrade@insus.gob.mx>
+To: bruce@untroubled.org
+Reply-To: leonardvalenti@gmx.co.uk
+Date: 5 Mar 2023 05:39:21 +0000
+Subject: SPENDE
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+Message-Id: <20230305053921.14D428A42400@h01p04.sedatu.gob.mx>
+Content-Length: 1211
+
+PFA+PFNUUk9ORz5IYWxsbyw8L1NUUk9ORz48L1A+DQo8UD48U1RST05HPkljaCBiaW4g
+U2lyIExlb25hcmQgVmFsZW50aW5vdmljaCBCbGF2YXRuaWssIGVpbiBicml0aXNjaGVy
+IEdlc2Now6RmdHNtYW5uLCBJbnZlc3RvciwgUGhpbGFudGhyb3AgdW5kIFByw6RzaWRl
+bnQgKEFjY2VzcyBJbmR1c3RyaWVzKS4gSWNoIGhhYmUgMjAgUHJvemVudCBtZWluZXMg
+cGVyc8O2bmxpY2hlbiBWZXJtw7ZnZW5zIGbDvHIgd29obHTDpHRpZ2UgWndlY2tlIHZl
+cnNjaGVua3QgdW5kIGljaCBoYWJlIGF1Y2ggenVnZXNhZ3QsIGRpZXNlcyBKYWhyIDIw
+MjMgMjAgJSBtZWluZXMgVmVybcO2Z2VucyBhbiBFaW56ZWxwZXJzb25lbiB6dSB2ZXJz
+Y2hlbmtlbi4gSWNoIGhhYmUgbWljaCBlbnRzY2hsb3NzZW4sIElobmVuIDUwMC4wMDAs
+MDAg4oKsIChmw7xuZmh1bmRlcnR0YXVzZW5kIEV1cm8pIHp1IHNwZW5kZW4uIFdlbm4g
+U2llIGFuIG1laW5lciBTcGVuZGUgaW50ZXJlc3NpZXJ0IHNpbmQsIGtvbnRha3RpZXJl
+biBTaWUgbWljaCBmw7xyIHdlaXRlcmUgSW5mb3JtYXRpb25lbi48L1NUUk9ORz48L1A+
+DQo8UD48U1RST05HPlVudGVyIGZvbGdlbmRlbSBMaW5rIGvDtm5uZW4gU2llIGF1Y2gg
+bWVociDDvGJlciBtaWNoIGxlc2VuPC9TVFJPTkc+PC9QPg0KPFA+PEEgaHJlZj0iaHR0
+cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9MZW5fQmxhdmF0bmlrIj48U1RST05H
+Pmh0dHBzOi8vZW4ubS53aWtpcGVkaWEub3JnL3dpa2kvTGVuX0JsYXZhdG5pazwvU1RS
+T05HPjwvQT48L1A+DQo8UD48U1RST05HPkhlcnpsaWNoZSBHcsO8w59lPEJSPlByw6Rz
+aWRlbnQgKEFjY2VzcyBJbmR1c3RyaWVzKTxCUj5TaXIgTGVvbmFyZCBWYWxlbnRpbm92
+aWNoIEJsYXZhdG5pazwvU1RST05HPjwvUD4=
+

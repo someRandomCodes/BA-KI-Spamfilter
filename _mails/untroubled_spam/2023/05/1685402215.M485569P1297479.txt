@@ -1,0 +1,56 @@
+Return-Path: <0102018866b4b11f-c3981856-501c-4492-b559-5f9c4c0bc0d3-000000@eu-west-1.amazonses.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1249179 invoked from network); 29 May 2023 08:51:40 -0000
+Received: from a7-18.smtp-out.eu-west-1.amazonses.com (a7-18.smtp-out.eu-west-1.amazonses.com [54.240.7.18])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 29 May 2023 08:51:40 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=g4j7czi4uh5plwfvsa7dpiealz7sie35; d=dmediateam.com; t=1685350298;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date;
+	bh=XE7LTOegMDUAn1ePRChhoImF1GEi+G+z469VGSq4hRE=;
+	b=UMegGVXfM4+qyiF9HT3uDbC/W0rXXy5EEqYnig0JFsY+k4vFrBxae3hKxZI7TiZ9
+	Xlgxnr23Ero5K/npR+aAYShQvDV7SkdiKhtCnGHkkrpYn7Wh6f+GB7zyVufnljwyRhj
+	ieY3Z1qE7J1hDb9Dq4R6rMceqIC2opiddA0kEUcfmay57+Bj3ZEC5M8BH5sXFfuNGLZ
+	zURfn/shK9gqsbsbAmbPfRO8+y4mxpgk8gxHDFv/z+P23zRoTYyS9mhDHMyd5sSxEnW
+	WF45PuWKkZJl6hlMfhZtBSqdeqbEuqJhzYAu0DSZN3dp7mv5XdV11y5tIAT6w5sNceD
+	L4kvIPkhoA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1685350298;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=XE7LTOegMDUAn1ePRChhoImF1GEi+G+z469VGSq4hRE=;
+	b=fUiXUdFHZLpQinGuRqdCEJs/Mw7U4/3E4FitEg+ase5W9bgc7Hoz40w4hOfjSuEh
+	Qv4jlrn3jZfKkA7FbxQ3naaDkiS8qmx6UjgV1fA+db/TeFXIF1bwN8xrMT9W9lbmjcf
+	p0+atA+nu4qPajjirZvSHnZd7otBAN/BfmDUv/nI=
+From: sales@dmediateam.com
+Reply-To: sales@dmediateam.com
+To: bruce@untroubled.org
+Subject: Online Advertising Enquiry
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <0102018866b4b11f-c3981856-501c-4492-b559-5f9c4c0bc0d3-000000@eu-west-1.amazonses.com>
+Date: Mon, 29 May 2023 08:51:37 +0000
+Feedback-ID: 1.eu-west-1.a1Llifkfw4TVYXw44CLvInAy0yoETJ9Jspdp8PJBmAs=:AmazonSES
+X-SES-Outgoing: 2023.05.29-54.240.7.18
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email</title>
+</head>
+<body>
+	<p>Dear Sir / Madam,</p>
+	<p>Hope this email finds you well.</p>
+	<p>We are currently looking for online advertising opportunities for our casino website and came across your website as it's linking to other casino affiliate sites. What options does your website untroubled.org, have please? Do you accept any of the following options?</p>
+	<ul>
+		<li>Banners,</li>
+		<li>Link placements,</li>
+		<li>Article posts +link,</li>
+		<li>Others?</li>
+	</ul>
+	<p>Thanks in advance. Looking forward to hearing from you.</p>
+	<p>Kind Regards,</p>
+	<p>Tiana Connor</p>
+         <p>DMediaTeam</p>
+</body>
+</html>

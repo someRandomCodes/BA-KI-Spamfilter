@@ -1,0 +1,126 @@
+Return-Path: <>
+Received: from 10.197.42.204
+ by atlas215.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Wed, 3 May 2030 12:55:40 +0000
+X-Originating-Ip: [209.85.208.182]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.182 as permitted sender)
+Authentication-Results: atlas215.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Wed, 3 May 2030 12:55:40 +0000
+X-YMailAVSC: rGZQTlM3bBuaZS5GBLOBVEnnU_J1A47XT7v1WIGEg4NnqLJ
+ tKGzT3W1ETCYHSct31xo9BZTEb42ErWKXN0pGFACUWbnau7gqIrHhInDC3Zb
+ Q6Je2gXaRPu2to5QYEpGvwyddFf3f15HZ253PHWZRvMxj019IwjCscFP6WXD
+ 8ZDxdobdP53vA47UKm.EB1izxTVnnbHxpBoFcOHttL2HHx4dNKmITRt0MZzo
+ SQvocoPlwUjXUEfvKRVpKDBjrEnwM4dhwgj8mJcV6mW4Uttb2qKtFSjIFYqu
+ su12hiX66pJOnaRA20KYdbSbrQgHtztNAceYIq6nwrrB0tKjzAUawpwtkIWc
+ SCb1Ba.NmuNEBuuZ7Uk1vWqHkH.cxiExP0W2KNoHllYjQh8wNmsnnuIT50Sh
+ CAQMm.tUcveuQo8WQrwjbPW9aDVPWdtYo328c0tNQS4PP_2hqYghNHF3axLt
+ NrFYWsJMzfv4x26I7hU99OuoBIfUM1cgufucYYRV88dsXPl93sEd_pBXAnSa
+ DyEO9o6ahgEcpHlRn4ysmI0lhbzHmwOZfhmGsWrbVpzWUknzrG0q2nWWqVKN
+ lWy3RlrrrTnrM4lxIVguHwVfMA17tutStzR9W8WzxnjYQ3jI1G7oBQ3lfSUC
+ FWDBHFrWG2IIoVJ35RFBKZauIHLUa9DbuQm.wlxumZY1_qT9bmmjuL5QdGhy
+ LGJVOdLqbC6juqCbp0l3EfQzq7Y_c8S7.PFPkp8DQ90m41.D30gCYTL5P0dQ
+ 2qxn0Fh6PsArE6dztzFgFQZyOKOuv.RRZiULxUoXOcHgTWoSReu87VAejlmT
+ Qyd6Q_Jnw.SKuvY2_H8B_npOTo.nUASWi0NQ7JbjUjQiL4PQmzJXhIBwb3F1
+ Ri9YVUgrtARN0D16OASma1QdHU5xFu_4S6BoEW6YKqD787EUv.xKaF9qW55B
+ maQNmz_vucmLUrYVRJhY9qdjUSv.Hlz1toTaqYmpkUMKlbdAxLEcbeEG25bN
+ bqgyusVyyUPr9zg4LgVOQPze0yDl3wd5BKcWRSpjzBVfxpFACLSoKeOv81.V
+ pq8Vc2v58YACfJ92MzGs-
+X-YMailISG: 4MXpUmMWLDsfMwGpPwikOQZfvyVu4AhnUudu0ZRpGCFTZ5n5
+ 7_312rp73R2j3zFSE1c6.QH0BhUKNLFKXxEoazIqh3uafPFed4khr1JDMfgY
+ LvcF8ysw0wUhLJ_565utJPKByoJBYkWm4lH0XUjHc4oL7HyUh8nOIjtTEvVS
+ oAtaUha9zyykvO1sBgbXhiLrVdLfSjoDxXLeJK9xzQ4qbu2eh_B9TiQMANxl
+ fgSmgdjzO6jaQwqyh.Si7noD3lE.FEYrQ44ZVaLueFETqSkl_fj2y5HBP_KD
+ fLPbTZF0RgJr2mfQjsATrdaI1kuztWMyA0D0igjmZPkOeU81oD4IF4VMVtNQ
+ 4TZ5l4G1N268wkQ7n7Th3eKFocWCVVppA52Utpn.LKWryT0p7Bh7nOTU9FTz
+ 97P_O8x_p_gQfnjE5cC7vUL5_7Tw6hYHnRkf4tcRPuQ1r1XEOQlkVXt1D1fr
+ ee1uG2wv6EVii7Hyyb0J1aY4_1HdbR5r2nrBmfS.ahWelaaEiuWF6sMrw7we
+ Lv.O4249wvNdTXh995q3KfGhHdxhZld2Eq8tneyLdQo.CTUgQrv2nmCfCX.D
+ MRDcsk6GN7TIq2qbYQDlMZRNWzylSpyToBy3Zv_zC71Gor8ZP0eDl0HT2mAv
+ QX_ZrqvPaFWp.MUjK2IKte3szJWpJJCqwPXQ.CWBXZIGT6l6fcJk_lorKg88
+ MoXI7pN9m4gexaxcf0Rw.nWUkuFMqMf_ACcjLr6iEGEHilzaRX.zTdMaxUwa
+ SIUtDBgqXhWbIHlhRiWfAkrh6XmUVUFpXCHPO6kXBnvLt1tNzVGwqlyzbIys
+ 86DnwNJiDcFutzbm98bQWEZ2Vh7ckMvKfUrUTvc5cT6asS0UaHH5EtbNu1a8
+ Ak_xWyk5o9axA6.ypvUTAJGkbyoRxZrbf8D3zk6iZBcLW3b1qZDOWnHePv1S
+ 5JGKTPUvQO8T_3nTXFYvzAfOTf82F3sjBdv6Mp_ObJGsoNtoVR89.BktYB9n
+ fhXrKWClgE1PZy4mk5h4X9qYDjZynHH8XvTXLqcLoS_nPJBJq_8moewLGQPP
+ 7r95iEdrgq3pDL7ph95xpLorKfbK7P0-
+Received: from 209.85.208.182 (EHLO mail-lj1-f182.google.com)
+ by 10.197.42.204 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 03 May 2030 12:55:40 +0000
+Received: by mail-lj1-f182.google.com with SMTP id 38308e7fff4ca-2a7b02615f1so53231291fa.0
+        for <bruce@untroubled.org>; Wed, 03 May 2030 05:55:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1683118539; x=1685710539;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=kmo0ERUYnWWXbWjqH7dH2GujybVDLUy3kvaI+Aa4gy4=;
+        b=SA8mehObxUEnb4WR/+DceMv5M0Bp3oRjr6072UWFoNARG48HDBeew8UvHape01G8pL
+         PgGI8ECQQWERS7GiHe6nd8pM+pn2m3LrY1eBgYPbj+EXMbKzzmlDmOGgSUrfax2KESgS
+         7cBSLEaCx+H8jrtF28VEaI3NxhBC87m81Nxn3puLvGLIKVg3dOG6lgBYBxjouBE+KAx+
+         hQSG5cldps1kiuy+AjgyNactm+HBlaiG/RULt4XqUDWGgXWucjlXCV2cXLwobdc3n6ZX
+         L7iUVONlIJ/srHiW+ne0w2Vy17LDbabUV80hjYLbx7hgm6H7YzF44nm1xLy65nEd9sPc
+         fXiw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683118539; x=1685710539;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=kmo0ERUYnWWXbWjqH7dH2GujybVDLUy3kvaI+Aa4gy4=;
+        b=HTwl5iSrqUXZLM28NBQ+l2BfYiqPZIt4ErwaSrsOQ+QIs94q2Id8f6GYhVKQMv4DZ7
+         7KKDNWmgng1DKMvI/UpKc0i5afZxWcj/t2yO9TL7HC2KG3AJEa+kR6BDqmkvF0TOJn0G
+         uxBsBP+anc2fcWf8C7wJYcPkgltxZgfVDvlgzPCu3mIAifm42y6J8TeXMFdNo8liV3Ux
+         iSFnUwQW0/m1QVTJ+Rc7cGEX0eHZrOX0gW/MBYaHlzUadJyDnkx30zfnIffxF9A4voeI
+         iE5x/PV3OWwPV8u0JMn6L55ikpiI3bwpjIIItSg9a64Ptd4gclW/YmBukUGuM7aYIU+j
+         ku3w==
+X-Gm-Message-State: AC+VfDz/StEaepAzeRMDmmHTUvXG3w3ga/1ApljLm4UlfL5hCv2UQmVJ
+	jQbTOgnT8ngaLzx3Aux4Waooyb9Gq5bzxagDxKv+myFE
+X-Google-Smtp-Source: ACHHUZ7CXQeSbLvET1MZmr7VchzKnaCBuhtu2pxOKiZthopvohBNq9X6unKqupOGfnySKkoUGVSQDiEMMjPh2986WL0=
+X-Received: by 2002:ac2:55b8:0:b0:4ed:c1ef:738 with SMTP id
+ y24-20020ac255b8000000b004edc1ef0738mr909149lfg.54.1683118538599; Wed, 03 May
+ 2030 05:55:38 -0700 (PDT)
+MIME-Version: 1.0
+From: Royal Keto <bruce@untroubled.org>
+Date: Wed, 3 May 2030 14:02:24 +0100
+Message-ID: <CAPrzedUw+O9=baQtwu2o4AJJYNy684_Hi7zc6U9FK+slwYAlwc@mail.gmail.com>
+Subject: Summer is almost here, jump start your weight loss now!
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2104
+
+<div align="center"><font size="6"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#NFZScENpYnMxZGtJNkU3eEMwcjZPZWlidllBU1dWVG16R0tuZUcvSHM5eEdlcjFtOG9MYnJnSFphQkEzTHEvZER3ckdrTjJQYlpZcUlHZzhsOWFEdGQ2U2V0WTYra3A4RW1MQWpzVDlxT2NwRjFJQnNKZmw1TXlrVzRicHJKdENQUFBOK0c4cm54dVdyd2h4dUg2UUdBPT0_"><font
+        color="#a31dfc">Transform Your Body with Royal Keto: Our Proven
+        Weight Loss Plan</font></a><br>
+  </font></div>
+<div align="center"><font size="6"> </font>
+  <table cellspacing="0" cellpadding="0" border="0" align="center">
+    <tbody>
+      <tr>
+        <td> <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#NFZScENpYnMxZGtJNkU3eEMwcjZPZWlidllBU1dWVG16R0tuZUcvSHM5eEdlcjFtOG9MYnJnSFphQkEzTHEvZER3ckdrTjJQYlpZcUlHZzhsOWFEdGQ2U2V0WTYra3A4RW1MQWpzVDlxT2NwRjFJQnNKZmw1TXlrVzRicHJKdENQUFBOK0c4cm54dVdyd2h4dUg2UUdBPT0_"><img
+src="https://pbs.twimg.com/media/FvNw5ymXsAgHSGD?format=jpg&amp;name=medium"
+              alt="image" moz-do-not-send="true" width="800"
+              height="1058" border="0"></a> </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <center> <font size="1">To unsubscribe <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#am0xMFFXS2lZRGx0Ty9BOHBRb2FrbTZuM3B5NHh0SmQxYjJ0MlhHeXhmRUhEcUhkdGc0WmlZVFdpMjQ0TXVyWEpETU1hNkxqWUJsc3J4MXdqY21GYnRUWU15YnVRT3FkQ1BZbnpwSFIyRll1dHJsVjRxT1hPS1E2dW40WEdqUm1JV1RWVzZEWFFveG1FQk9KZ0RrVkJnPT0_">click
+        here.</a><br>
+    </font> <br>
+    <br>
+    <span
+style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click
+      <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#TXpRWFFGUTllYmRJaXo2cVJnTmRQQWlKdGtsYmtvRTY1c2ZFNGd4UW5SU1RJZE5iL3AxVklRc253Rll4dTRRZmZVOWxWU3FDbEp1em5lNC96akNqK2p6bmFhVytYbUw5RUR2ZE9saXZ5NjJUWlU1cC9WVTN3UFlhKytOUldlbERyTXRXWFBSYzJlSlJGcXl0bkdSK1hRPT0_">here</a>
+      to remove yourself from our emails list</span><br>
+    <br>
+    <br>
+  </center>
+  <font size="6">
+    <title></title>
+  </font></div>

@@ -1,0 +1,369 @@
+Return-Path: <alaiya@techwebster.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 745337 invoked from network); 25 Jan 2024 04:32:15 -0000
+Received: from mail-pf1-x442.google.com (mail-pf1-x442.google.com [IPv6:2607:f8b0:4864:20::442])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 25 Jan 2024 04:32:15 -0000
+Received: by mail-pf1-x442.google.com with SMTP id d2e1a72fcca58-6dd84fe7aebso1905471b3a.1
+        for <bruce@untroubled.org>; Wed, 24 Jan 2024 20:32:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techwebster-info.20230601.gappssmtp.com; s=20230601; t=1706157134; x=1706761934; darn=untroubled.org;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=JOftVd7hkY+Di7/+3jVnwwc3hYeDWASg2QDa2GpNvIA=;
+        b=iykWt5OSGPhy4S2nmKcocmTbU13nTgYsa/49jZjTWkdYqrczKQbyloVyteaDEhVISy
+         wYsMH3TMAdf3dVfSF2Oae0NjxHCkmBvVvlCphh9dt7PzebYaj4CSw4D1wqZFFw3tAfn7
+         CXWx8B5EmK1ioUs5p4lB7l7LQ0sdL8MEQ/KwY+TZbCnrsY+K032clduqAHsZquvACTeT
+         V4QnjTN+OUKEqrgLhbP7ruBz4eO69CBj/bt0H7aKqpRQYDcDqujBDUJtyVfLfPbPQBNY
+         ZbAmMjLPrAcBTwFvo80MFBSA6p1p6nQw2MojzYrbnLDXAXFYP7oRfkOroTYBLqJ4pgFm
+         4anA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706157134; x=1706761934;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=JOftVd7hkY+Di7/+3jVnwwc3hYeDWASg2QDa2GpNvIA=;
+        b=pDruxXxqmNjfIJ9w8zc5PyMgYtxhPoYL7CRubFeqNRHutaZG00e6vyuKpceSOkWYa0
+         zNSxqWH+lXSivxKwB+qTK76LiBa9BIS2jt6PHwzfwMaNXSDAm/L7OBCwv2smCpbrj3I1
+         VCOYONV2trDPS6a5zNYNRZ8T6VW5oPSiCo9EExMRxzst1mzu1d0JimaL77lcCwoBBS6o
+         Y1JGxgMJhOSdsswW/U95zB1WzdGFbxj7iW4EaJ/4VjYz5uqzIUUZcp0mUultqRAjM9kz
+         2XmtwyY4pfvfYazT2eLRX13VqeBI7Z+ga43i13lehpRzxhO5+qJwKpeEjaFT//J3dWDj
+         wD4g==
+X-Gm-Message-State: AOJu0YztbOHOYsOT5OnvQq3IoC8z3FBQpx6+F+hgy59jDbQ50ZCwiiiR
+	Ev/JUmTyZNJN7c8IjnX0VamOEAMEtnqW4JXwcSBoSUPor0Mb2an3l0qq8yLMdncYv4ncDNS+nQs
+	Vyaw=
+X-Google-Smtp-Source: AGHT+IGNCbYWQYBoaxNjXe6BFh0Z8GaoyEuC+pr40d+rl7K8MN7mMt46bowyn7IAeCuiaRSVd7EouA==
+X-Received: by 2002:a05:6a20:bb08:b0:19a:328a:3a with SMTP id fc8-20020a056a20bb0800b0019a328a003amr363660pzb.60.1706157133999;
+        Wed, 24 Jan 2024 20:32:13 -0800 (PST)
+Return-Path: <alaiya@techwebster.info>
+Received: from AkkiJanya ([2405:201:402b:20b5:e08e:db13:cacf:49d1])
+        by smtp.gmail.com with ESMTPSA id ji15-20020a170903324f00b001d7164acf5csm9954990plb.120.2024.01.24.20.32.12
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 24 Jan 2024 20:32:13 -0800 (PST)
+From: "Alaiya" <alaiya@techwebster.info>
+To: <bruce@untroubled.org>
+Subject: Outrank Your Competition
+Date: Thu, 25 Jan 2024 10:00:56 +0530
+Message-ID: <076301da4f47$75751290$605f37b0$@techwebster.info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_076D_01DA4F75.8F3D2D10"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdpOu6XLhyLMypAkRiC41xvEgbrrKw==
+Content-Language: en-in
+Content-Length: 11180
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_076D_01DA4F75.8F3D2D10
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I hope you are doing well. My name is Alaiya. I have found your website on
+Google and reviewed that your website is updated as per the latest industry
+trends. I would like to help you in creating a responsive website that gets
+you to success.
+
+.         Our services include:
+
+.         Website Designing
+
+.         Web Development
+
+.         PHP Development 
+
+.         e-Commerce solutions 
+
+.         WordPress Development
+
+.         Web flow Development
+
+.         API Integration & Development 
+
+If you need a new website to increases your business growth, we are
+experienced in website development and our services can help you achieve
+your goals and objectives at best industry prices. 
+
+Please revert back to us if you are interested and we can take it from
+there.
+
+Kindest Regards,
+Alaiya
+
+
+------=_NextPart_000_076D_01DA4F75.8F3D2D10
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, =
+div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, =
+div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, =
+div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:811754725;
+	mso-list-type:hybrid;
+	mso-list-template-ids:83033822 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN><div =
+class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Hello,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>I hope you are doing well. My =
+name is </span><span lang=3DEN-US =
+style=3D'color:#202124;letter-spacing:.1pt;background:white'>Alaiya</span=
+><span lang=3DEN-US style=3D'line-height:107%;color:black'>. I have =
+found your website on Google and reviewed that your website is updated =
+as per the latest industry trends. I would like to help you in creating =
+a responsive website that gets you to success.<o:p></o:p></span></p><p =
+class=3DMsoListParagraphCxSpFirst =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Our services =
+include:<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Website =
+Designing<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Web =
+Development<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>PHP Development =
+<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>e-Commerce solutions =
+<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>WordPress =
+Development<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpMiddle =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Web flow =
+Development<o:p></o:p></span></p><p class=3DMsoListParagraphCxSpLast =
+style=3D'text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span lang=3DEN-US =
+style=3D'line-height:107%;font-family:Symbol;color:black'><span =
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>API Integration &amp; Development =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>If you need a new website to =
+increases your business growth, we are experienced in website =
+development and our services can help you achieve your goals and =
+objectives at best industry prices. <o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'line-height:107%;color:black'>Please revert back to us if you =
+are interested and we can take it from there.<br><br></span><span =
+lang=3DEN-US style=3D'color:#262626;background:white'>Kindest =
+Regards,<br></span><span lang=3DEN-US =
+style=3D'color:#202124;letter-spacing:.1pt;background:white'>Alaiya</span=
+><span lang=3DEN-US =
+style=3D'line-height:107%'><o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_076D_01DA4F75.8F3D2D10--
+

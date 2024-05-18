@@ -1,0 +1,171 @@
+Return-Path: <mikeitsolutions4u@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3032089 invoked from network); 11 Mar 2024 05:02:20 -0000
+Received: from APC01-PSA-obe.outbound.protection.outlook.com (mail-psaapc01olkn2025.outbound.protection.outlook.com [40.92.52.25])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 11 Mar 2024 05:02:20 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=l12nRAtAx0BhReWwxIfAiKXG16lT6izGLA0yR9E082lCNyXJ9jgD2eeyOkVXy5liP8KwzSuSi1kM0wBO6Rb5LlgsprXHdjDWz4ygDGDKdeHUkuyc972NaKVNvn+DnFou8DQS0xnAXZ/1GgnlnylcWVFx6Ua+IQKYl43SZWsDUn4zDLsDzj6mFiiT0NNYT79TmqO4KDph9DcmlzMYwV5BborvmYIFIlEUlFximMVKkh6wtG/MPsWzFYs8yUlEMxb1dTmWLh7JSFDU0IF7hAFw4ZaB2tsOLnH/EorhNvlSSApsOPp3zT30bwics3orWPlmpHNSFj4Q30NQcM6+OcsNLg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=AyCvlthCVTgLsNosZCWHkFfzy78vX0Yd+4DCBAcX7AI=;
+ b=LgyY9KOvnFVqaNmOGoec9YTnpYMcsdZQID/y9qnl+UcOCGwKAWWIYONmFWvRWa7qgYCw+9NPeqMpJY+3y6tVnkfkwjMQJucJZzwylcxn4sSw8WHOtRtEe7kytFZ1m9/6KaC/Yzipmmfee+aZ89XVZZVr/oS/VvrKfI6d5MVcnEeEH5An89wpomaT4/4M3QY7PNDwkkBufVAfWvSVf4BVSXUCJTDBMjpUweTjqSLFy0RYybVgPrDxx4W/Z6e1kiEyfk3KdvL2UyJL41ciFz3SydqYulMVIg24rl1IXnYszm/SmtJmV//2zXofr3PQejTtoDvyEriCI6e5lTdESbZl3g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=AyCvlthCVTgLsNosZCWHkFfzy78vX0Yd+4DCBAcX7AI=;
+ b=uCFlRZ5RGtNtv7AXfPvN1M3Qw2ywh5V581/17FuowdqHNUrW7/AslR8SZHqBtcIctY5PIRW0h0NLfyP/N5U1BJN85bqz8Et6Rx8qeLVbrnAPsSjpHmNCFgbYwIDtcz3Iv14tWZTWznrIaT380gdFiCdT88eUr10k+Mb6LflNWxAQTQ5lAtONtwgvTfa6JjDc8qqIb9ICyF2lGarLdi1giBZHkpA5VYRLFNWk7BdzK8UNAOCDxZMdJaNP9WXq/BrCswkrCUwKCCk7SUURpNptncwpu6E/PahWgXb9vE1i5uuVpSZuPJZjIdlGb1UbfqwwjwHnoqAZ5QhuZzyuDDZ4sg==
+Received: from JH0PR04MB7072.apcprd04.prod.outlook.com (2603:1096:990:3b::7)
+ by TYZPR04MB7302.apcprd04.prod.outlook.com (2603:1096:400:453::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7362.34; Mon, 11 Mar
+ 2024 05:01:31 +0000
+Received: from JH0PR04MB7072.apcprd04.prod.outlook.com
+ ([fe80::8976:523c:7374:e5b9]) by JH0PR04MB7072.apcprd04.prod.outlook.com
+ ([fe80::8976:523c:7374:e5b9%4]) with mapi id 15.20.7362.035; Mon, 11 Mar 2024
+ 05:01:30 +0000
+From: Mike Smith <mikeitsolutions4u@outlook.com>
+Subject: Prices
+Thread-Topic: Prices
+Thread-Index: AQHac3EtgVjL9Myr7Uykx56lrpYvxg==
+Date: Mon, 11 Mar 2024 05:01:29 +0000
+Message-ID:
+ <JH0PR04MB70728806B29E97E9BB3D66E2E0242@JH0PR04MB7072.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn:
+ [6l14coVBh8m/KqP3TJ6YrCrQwBc42VjpJycKwnvADZ+53rRW91gfRjMqyRJmSj7zcooZxXk94E8=]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: JH0PR04MB7072:EE_|TYZPR04MB7302:EE_
+x-ms-office365-filtering-correlation-id: 69ab86dc-86a9-4048-9f02-08dc4188506e
+x-ms-exchange-slblob-mailprops:
+ SoURN12IA8tdenzAvjsigSYM/WMzpa5kDKFJJ5FPp07vnSJ2ksuVHVAHPlbh7SrV0bgqbFa/q2XTr7rwVs/BRCQjGlyWnaHNh1IYFmuorXHENqjZEfIYG+eQw2SQUld+jVWTCsMjNyUU49uPFbma26TqxCOxF/Gj04+qna5qpW5OBbgU0Dyw5YsQgoP4n74SDfELdmo9tJ+cdUKCX/1OvfZmas1QrRqlC7n7PF8l6twicdIGHL4fZLtNKNErdec36nVEOJQKjNNn10XC7o4BFaokna3os5ZBR3jOcWmdDJKbfyMV1gk7baqI39QNNZ6USZt/91GSf0i1gVza2PZDu9UK5zlUj5sI2+iqQ1I92VbV17tHHXwi78HGmsHsfJAMXY2BRFTZ352Lv++Lg0qyvb0eEpxe2T9amonhJR9oyF9BezDygQIhV1LyGqJCaq6oI3k8XcuuxApn/kMCG3HRu5k27L7JYjhVNcpYHluYHkTIa4WNfWpqIHiGVMAjzPaxBtell/5EZzhfbMgnRuZrSv62s/x9oyOYXx8V1947sSVf9h0x3MJykG4B5F+ndNZpAJCNT9nww1Ile0TfJiTeqNB7ccPyDERJ5OJPg0C/CmTEsFj5uQo9UG6vROaCURm3cdxzqnMuRC4+9Wiyid3SPjCcDyysImiu
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ bF7Cm7oppvv650iSw5ZuB6LVn5u+7beHok8nCme/9+1nvghEHKyShuOs5AfjSsnmDO86qXtkSquK9nWXGRpgNROyZuDbC7SrX+dcCSsO6m6O4+enwWStimvfxnqFksTv/JSuX3JOvCH7bmclqZf6vEfdgv3dOaYcjgXcbgdDCmkMx9fpr110KumoS/GDy7Y4/o/XdATIzuXTAo0j6aiqarTMl0Blddv6HNvr3xlKhLFcC+4qtlug+oX44O1ReO4J+tXuMXhBjx32hR1AmgUuuRgM/LMs1J2Mc2stZHXpxkwo5I9i+InH/Bj7z2LgvZ7oHpn/Irna/xlX17OB2TS3jUfmpBsrytFJngK6pySFm2IEEWeJqTRZ5GW/Eh+LWDnv0dvb8CuyNEOqZ+TsNd+It9BNN/rWLQOF2+3QARDNm5+zjh47OilZb6Uh0RwV7Fe7bsfvMB1IQc1i6cpHhIQCcAdwK7AsBl9lxBIj84NGkvdOwsCngPFQnr9lthQX8jSVeh0IB5NqbrTOhlAxGzA+Gqfn0kQfvASS71e6pcVYPKsWCjV7v/T/SBZMC3M0KGA0
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?Awt9ppjENNz/WcjpYGJIyp1zwxWzoeMlctCpzEe37bf234HcMtzFiq6wkQ?=
+ =?iso-8859-1?Q?DP8u0z3CX1TFgXLGLnhy29rwW39jLfbh5T8E2D4dFiD7E0ZSqFtELIPxi4?=
+ =?iso-8859-1?Q?Hkt0Ao8JA9YHhFmLRwoNjuWdKWzLa/EP92A+vw4w0I/yaNCCkzHpwhbEp9?=
+ =?iso-8859-1?Q?U8QxaqlF98KYqSKQBCfJgsJOw/YwJG2h+EklmNZi5pSrjEiSFAu8gPmA0q?=
+ =?iso-8859-1?Q?gnwHQ+EA4k8Y2VvUqjLq8tCh9OwMWZuofCrmGINr2IbwMC1Q5ssXabkwuX?=
+ =?iso-8859-1?Q?8cHr5NmA2btxWPphfUkvooX5QS8PkLY6TUep6qYnLfwumu67ir66+/rzix?=
+ =?iso-8859-1?Q?FDk0TCUVYp/yXewTuGzE0aHOqZ8xnKj01taL4ZgdlQ6I5O7HNE7mVhFd2e?=
+ =?iso-8859-1?Q?3AC/nlscieNkxpitrQrx42z+Q6uv0/PUcO4qwylj8QbophkMrgoMMQ4v3A?=
+ =?iso-8859-1?Q?Bk9myPzoOHG3kCvntsh8P9pUIH4zGSeAc2QOJJNmsN27o5CZ/lA4vf+amX?=
+ =?iso-8859-1?Q?Elb6Y/IoizgESrUr+9+T4NIn6bvArwCPZj/+YwfDlF7K2R+2kTA4uJ6LBS?=
+ =?iso-8859-1?Q?y5DHkbihHC+Ka9mMQdCtmGToPKWQjhML6Dgfwo4hELSi0xHUvQIzQgX9l0?=
+ =?iso-8859-1?Q?6s/3V/2d0x0glk+bxbxyKUeuD2/UsEpMZaxNKOBrRroZS4QNyqGGDH99zb?=
+ =?iso-8859-1?Q?yaBsjDaqAGA5pCvbzx9cAc+RjoeYUIqA3NARKmBBXXx5nsKK4wxb+taF/x?=
+ =?iso-8859-1?Q?lpq6u0J3yoRz+o4JZ/el2ffL/wu7QAZqKs6q9Zewxyj2FYePg8W0BBR1X2?=
+ =?iso-8859-1?Q?NFHjeXN5Zl4KddDSjVpoINrCgo/yPwZsi7/TfZa+0HXGptndCTP6638QcT?=
+ =?iso-8859-1?Q?01wjVc6W6g4jm+dVhtxvaC93HnpbGMgpPi/CGJsnME1YGTrlpethsbbddd?=
+ =?iso-8859-1?Q?JxtUQIuCi8ymljTZuVKLNNrWcic8a1l5Zap+a1kRrsYU1JIn2cLPuA0iLn?=
+ =?iso-8859-1?Q?FfkLeO26lPdUGoJ56G6LvB1JdY75oEYsb0lIfCDE8xHjhxKysxkQbWSvQR?=
+ =?iso-8859-1?Q?pHFBgxhfKW5U67sBpFpB5dM5dMO4wETu4zEBDQVsT3RMTbNWlzUpRl52EK?=
+ =?iso-8859-1?Q?WMnsoS/+qkjbVKw72dIW2sDJpLTGQNe2QyeR/PsA8uDzBOK99SWH6IIeBl?=
+ =?iso-8859-1?Q?eraK3ZgnZeazpD+p+WpsNJTsVfQBr09NaAV95YyzSltF3qTdga05Ooce9R?=
+ =?iso-8859-1?Q?vx2nQT4v3ZEuQR9CIz7w11oXY8xPq9YpknvHOXRaJYVgZXSsnZYTKGaeVd?=
+ =?iso-8859-1?Q?QfU6vo8wvCF5B9Y2lC36LWIYtS6WwIL9YorrHmxt3rx8OuweMjqAsKoobd?=
+ =?iso-8859-1?Q?GuhNZX/EoO?=
+Content-Type: multipart/alternative;
+	boundary="_000_JH0PR04MB70728806B29E97E9BB3D66E2E0242JH0PR04MB7072apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: JH0PR04MB7072.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 69ab86dc-86a9-4048-9f02-08dc4188506e
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Mar 2024 05:01:29.9981
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYZPR04MB7302
+Content-Length: 3478
+
+--_000_JH0PR04MB70728806B29E97E9BB3D66E2E0242JH0PR04MB7072apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I am reaching out to see if there is anything that would like to upgrade, r=
+epair or redesign on your site. I am a web designer and developer that can =
+do just about anything you can imagine at very affordable prices.
+
+Let me know what you think.
+
+Kind Regards,
+Mike Smith
+Web designer & developer
+
+PS: - if this is something, you are interested please respond to this email=
+ for Portfolio and Price list. Also, please feel free to share your require=
+ments and queries.
+
+--_000_JH0PR04MB70728806B29E97E9BB3D66E2E0242JH0PR04MB7072apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof"><span style=3D"font-family: Aptos, Aptos_Embe=
+ddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 1=
+2pt; color: rgb(0, 0, 0);">Hi,</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">I am reaching out to see if there is anything that would like to upgrade,=
+ repair or redesign on your site.
+ I am a web designer and developer that can do just about anything you can =
+imagine at very affordable prices.</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Let me know what you think.</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Kind Regards,</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Mike Smith</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">Web designer &amp; developer</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+"><br>
+</span></div>
+<div><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontSer=
+vice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);=
+">PS: - if this is something, you are interested please respond to this ema=
+il for Portfolio and Price list. Also,
+ please feel free to share your requirements and queries.</span></div>
+</body>
+</html>
+
+--_000_JH0PR04MB70728806B29E97E9BB3D66E2E0242JH0PR04MB7072apcp_--

@@ -1,0 +1,202 @@
+Return-Path: <stevehenderson978@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 496080 invoked from network); 18 Jan 2023 12:39:52 -0000
+Received: from mail-pg1-x531.google.com (mail-pg1-x531.google.com
+ [IPv6:2607:f8b0:4864:20::531])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 18 Jan 2023 12:39:52 -0000
+Received: by mail-pg1-x531.google.com with SMTP id s67so24403138pgs.3
+        for <bruce@untroubled.org>; Wed, 18 Jan 2023 04:39:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :from:mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=Ff+buH5VvcaCtoSwX2ddT8qsFwbm53sXajsG2760T78=;
+        b=PjwvHXZ/ClodAxZ+bP6QRg0oj7Mk6x948kjHFItIkkyDBAl1IKueoR/xLq2PG+02pf
+         E/BbPkXxeqOHaynuyjTfPaxYMm9IAlhhe+pmtj24uFyC69bLMuUe+pnqcG7KiuuJP8Nl
+         m4cqRS+G8xWZAX09km/H43v2KUIgjQ6tqzopAssmEAQxezm1AKqgHeh9HlvzzVh1ZyUS
+         Xh+GhcdSAvLWKSLkswFvj17OzeDqSpUdIg+v8QpwuQPzi3seBt6emIG0Xqddr/oqtYYF
+         ryZdBGofmcEafZz2K/WzlV0EbJTjFI3ZbBnSDuZ3Mxhu7d3S67349Ij99N5DWsQLee0z
+         Hlaw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :from:mime-version:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=Ff+buH5VvcaCtoSwX2ddT8qsFwbm53sXajsG2760T78=;
+        b=GgliMt/YWIjQdACtExN2AhYC6A3/DhNTFrD30m+qp+rSP3BhIW47wxJuq+XFwhZB8Q
+         R4tRjNfsReMfQle/XWEz6l/3vqeU6O4DkX5cN5QbX5d0Y+6u4a55sgOclI28op5yT/Eh
+         7Pt66Ygx/5dh1YueJqQohOCW9FbtEGbcv8ngk6WlNV5Nh2bF9QJtCLJrEDmhtrk9YAeA
+         PRgFuUOzCIiN2yINVlTRhU+LekE0dYFBKb2wJlviSvP6o81x5AGBijh9p+Oj4MnnVLZY
+         6/rTTjwtHBsDxCYv3ydnC05xmIVFYBreerywsp9wl7A06uosl/Yv9SriTzasQE1yAB6H
+         6Zrg==
+X-Gm-Message-State: AFqh2kpF+IkQEDkkY0YSDNdsBOgGZJ4DdqxZqxDTSy+8Oft1YJm3DvH8
+	y70EcnSLLd6Y6+VNVQ13hFH5SOwq7RewcglU1RVVc+Ae
+X-Google-Smtp-Source: 
+ AMrXdXu+S4mLX7ZYl7aVyJXbMi36bhnWXRpvFAkT+ZTVB3En+tUU1Y8+RdraY4NTv7vCOTr1AJcfW7aZmIaManbWXv4=
+X-Received: by 2002:a05:6a00:13a3:b0:58d:973f:e2f1 with SMTP id
+ t35-20020a056a0013a300b0058d973fe2f1mr627605pfg.10.1674045591014; Wed, 18 Jan
+ 2023 04:39:51 -0800 (PST)
+Received: from 1008170693301 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 18 Jan 2023 04:39:50 -0800
+MIME-Version: 1.0
+From: steve <stevehenderson978@gmail.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: 
+ <https://stevehenderson978gmailcom-dot-mm-logs.appspot.com/-NM3sx6Qobau7g5zz5qK/-NM3t09xnkKioRUjzk34/unsubscribe?hash=MTZkNTc2ZDAxYTAwMWJhMDRhOTgyZmY4ZjY0ZjJjNmM0YjYwMTNhNDpicnVjZUB1bnRyb3VibGVkLm9yZw==&>
+Date: Wed, 18 Jan 2023 04:39:50 -0800
+Message-ID: 
+ <CAB4nLxv+73JnoXH19DZFZxuJzOZUXPsLavndWBNpyfcQVz5mrw@mail.gmail.com>
+Subject: I would like to write for your site
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="000000000000ca530205f2891c64"
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 8094
+
+--000000000000ca530205f2891c64
+Content-Type: text/plain; charset="UTF-8"
+
+Hi there,
+
+I hope you are doing well on that side!! I work as a Content Writer.
+Writing creative and technical tutorials is my hobby and I have experience
+contributing to many high authority websites.
+
+
+So, I was wondering if I could contribute a blog to your website. In
+return, I just need a reference link from that article.
+
+
+Please let me know if you accept guest blogs so I can share some topics.
+You can also suggest to me any topic of your choice.
+
+
+If you are interested in my proposal, please reply positively.
+
+
+Regards, Steve.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unsubscribe
+<https://stevehenderson978gmailcom-dot-mm-logs.appspot.com/-NM3sx6Qobau7g5zz5qK/-NM3t09xnkKioRUjzk34/unsubscribe?hash=MTZkNTc2ZDAxYTAwMWJhMDRhOTgyZmY4ZjY0ZjJjNmM0YjYwMTNhNDpicnVjZUB1bnRyb3VibGVkLm9yZw==&>
+
+--000000000000ca530205f2891c64
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<span id=3D"docs-internal-guid-e288e59d-7fff-224b-f6ba-6eb88756921e"><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font =
+face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;whit=
+e-space:pre-wrap">Hi there,</span></font></p><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, =
+sans-serif"><span style=3D"font-size:14.6667px;white-space:pre-wrap">I hope=
+ you are doing well on that side!! I work as a Content Writer. Writing crea=
+tive and technical tutorials is my hobby and I have experience contributing=
+ to many high authority websites.</span></font></p><p dir=3D"ltr" style=3D"=
+line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica =
+Neue, sans-serif"><span style=3D"font-size:14.6667px;white-space:pre-wrap">=
+<br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=
+=3D"font-size:14.6667px;white-space:pre-wrap">So, I was wondering if I coul=
+d contribute a blog to your website. In return, I just need a reference lin=
+k from that article.</span></font></p><p dir=3D"ltr" style=3D"line-height:1=
+.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-se=
+rif"><span style=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></=
+font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bot=
+tom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size=
+:14.6667px;white-space:pre-wrap">Please let me know if you accept guest blo=
+gs so I can share some topics. You can also suggest to me any topic of your=
+ choice.</span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span s=
+tyle=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p =
+dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><fo=
+nt face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;w=
+hite-space:pre-wrap">If you are interested in my proposal, please reply pos=
+itively.</span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span s=
+tyle=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p =
+dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><fo=
+nt face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;w=
+hite-space:pre-wrap">Regards, Steve.</span></font></p><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvet=
+ica Neue, sans-serif"><span style=3D"font-size:14.6667px;white-space:pre-wr=
+ap"><br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span s=
+tyle=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p =
+dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><fo=
+nt face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;w=
+hite-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"line-hei=
+ght:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sa=
+ns-serif"><span style=3D"font-size:14.6667px;white-space:pre-wrap"><br></sp=
+an></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margi=
+n-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font=
+-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" =
+style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"H=
+elvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;white-space:p=
+re-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;mar=
+gin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><s=
+pan style=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></=
+p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.666=
+7px;white-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"lin=
+e-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neu=
+e, sans-serif"><span style=3D"font-size:14.6667px;white-space:pre-wrap"><br=
+></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;=
+margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=3D=
+"font-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p dir=3D"=
+ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=
+=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;white-sp=
+ace:pre-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.3=
+8;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-seri=
+f"><span style=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></fo=
+nt></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-botto=
+m:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:1=
+4.6667px;white-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvet=
+ica Neue, sans-serif"><span style=3D"font-size:14.6667px;white-space:pre-wr=
+ap"><br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-t=
+op:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span s=
+tyle=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p =
+dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><fo=
+nt face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;w=
+hite-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"line-hei=
+ght:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sa=
+ns-serif"><span style=3D"font-size:14.6667px;white-space:pre-wrap"><br></sp=
+an></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margi=
+n-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font=
+-size:14.6667px;white-space:pre-wrap"><br></span></font></p><p dir=3D"ltr" =
+style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font face=3D"H=
+elvetica Neue, sans-serif"><span style=3D"font-size:14.6667px;white-space:p=
+re-wrap"><br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;mar=
+gin-top:0pt;margin-bottom:0pt"><font face=3D"Helvetica Neue, sans-serif"><s=
+pan style=3D"font-size:14.6667px;white-space:pre-wrap"><br></span></font></=
+p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><font face=3D"Helvetica Neue, sans-serif"><span style=3D"font-size:14.666=
+7px;white-space:pre-wrap"><a href=3D"https://stevehenderson978gmailcom-dot-=
+mm-logs.appspot.com/-NM3sx6Qobau7g5zz5qK/-NM3t09xnkKioRUjzk34/unsubscribe?h=
+ash=3DMTZkNTc2ZDAxYTAwMWJhMDRhOTgyZmY4ZjY0ZjJjNmM0YjYwMTNhNDpicnVjZUB1bnRyb=
+3VibGVkLm9yZw=3D=3D&amp;">Unsubscribe </a></span></font></p><div><br></div>=
+</span>
+
+
+--000000000000ca530205f2891c64--

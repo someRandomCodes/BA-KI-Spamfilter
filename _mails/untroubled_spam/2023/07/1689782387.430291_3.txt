@@ -1,0 +1,207 @@
+Return-Path: <jeanholmes233@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 417701 invoked from network); 19 Jul 2023 11:37:03 -0000
+Received: from mail-oa1-x44.google.com (mail-oa1-x44.google.com [IPv6:2001:4860:4864:20::44])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 19 Jul 2023 11:37:03 -0000
+Received: by mail-oa1-x44.google.com with SMTP id 586e51a60fabf-1b078b34df5so5279010fac.2
+        for <bruce@untroubled.org>; Wed, 19 Jul 2023 04:37:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1689766620; x=1690371420;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=O8naPoNvoHZIcVChHx1QznoHrf/Ly3eq+CjvG2kS2cY=;
+        b=LADh+3sdU7IQKnqjamZ8lN/Vj0w2+pHOZfM2Q4CVngFR33w+9ktMOhvKeHloexs1p8
+         1iRu1nTQeJAHN/G1DWtkKje4hqpSiKJ7ydLO+W1GB4FiRfTh0cgIGMg2tnb3M0anTrMO
+         5QUutfBIwdy8yWTOkgr6zrtc0KaaBc3gStOK1kJLClRVDJ1ae50k4wn7E+lmN9gbpCoH
+         r1nIYmGpitBdklOOG9ACOCm6CRGA281DK1Rd8q964jYsuEKAeWpbuJD3hRZh28dlkEXX
+         mEdFghG9leGOkikY7rrzPbRow9ffCoHdLP2+YzgjWKGXSp0mRLFYzsbnz/TAwp/5Rz2B
+         qy/g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689766620; x=1690371420;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=O8naPoNvoHZIcVChHx1QznoHrf/Ly3eq+CjvG2kS2cY=;
+        b=VA5WtO9u8snw7LDmP5Z/2uuUIaEWuU3kUuKFdVFaUIMh+oEsHxnbGOMNEsZ53Eyq3l
+         Sn3AICFGC6jfXa2I3T1WPXcLNGL0dv3NG0801Ew6HSwGgCEY7wSE7dJWyhGGQgPu57oI
+         QZJVja5nX0iD9gPEmvqLij36k4weew2UQLVMRnldtw3fjQUIUYLACI5QZebIeD0V85RS
+         dtbPPfs5DTnP+H04hPeItsskGmVczGbfeZFb+TrQqurkAsJKgqyLIN9ANscLcfAWBrwF
+         NVxZkBOyQTttVko/CscORkto9rjxjdjbSMaO7+Ufo7CKqN97vAz7RDfVRk1q8UVkf0To
+         OJhQ==
+X-Gm-Message-State: ABy/qLZIIsZADgyjpfIWwuI+IrmfIfdJo5QeB4wDEgDFFz91hhvrvsG0
+	oMe4pA3lCl2C2kioS+yllsDYCcgGoiHPq3GcC7S5xdGNmNw=
+X-Google-Smtp-Source: APBJJlGoPhbIFKT13NDu+r9ommwKwEDBW4kwNWAc9R6fjxkDYqJXv8J+q8UOASOxEIDROAL/dyJrx3ITpoYgT2qvg18=
+X-Received: by 2002:a05:6870:a90f:b0:1b7:3a31:593c with SMTP id
+ eq15-20020a056870a90f00b001b73a31593cmr19652230oab.44.1689766620352; Wed, 19
+ Jul 2023 04:37:00 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 19 Jul 2023 04:36:59 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 19 Jul 2023 04:36:59 -0700
+MIME-Version: 1.0
+Sender: Jean <jeanholmes233@gmail.com>
+From: Jean <jeanholmes233@gmail.com>
+Date: Wed, 19 Jul 2023 04:36:59 -0700
+X-Google-Sender-Auth: 9pHeqEerbVUgLHRR7HL1pEJBspU
+Message-ID: <CAE=aNKN2gKjsR5C_4Pj1iHVrg24cv45wm=UrJfwjaqFH0yDyeQ@mail.gmail.com>
+Subject: Reasons Why your Website Untroubled.org is Not Doing Good?
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000028d3420600d573f8"
+Content-Length: 9221
+
+--00000000000028d3420600d573f8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello *Untroubled.org* Team,
+
+I would like to have a discussion with you regarding the web promotion
+strategy for your website Untroubled.org. We wish to work out a proposal to
+strengthen the online presence of your website, via a strategically planned
+web promotion campaign. In today=E2=80=99s online era, you should be focusi=
+ng on
+the new revolutionary ways of generating traffic (and subsequently, leads).
+
+We are curious to know if you are aware that a few issues bugging your
+website and sorting out these will help you get the best returns out of
+your website.
+
+1. Your website seems to be attracting traffic, but this traffic is almost
+stagnant and limited, which affects potential sales as you move forward.
+2. Your website doesn=E2=80=99t feature in Google's first search page for s=
+ome of
+the major keywords in your niche, which affects visibility and your
+business.
+3. Your website has been diagnosed with On-Page and On-Site issues, which
+affects the ranking.
+4. Your backlinks profile is not efficient enough to help your search
+engine visibility.
+5. Your website is currently not being properly promoted online according
+to Google=E2=80=99s new guidelines (after the latest Google Panda & Penguin
+update), which is affecting your marketing strategy and goals.
+6. Your presence in the social media platform is minimal. This is depriving
+you of a huge market of prospective referral clients.
+7. Your website may be penalized by Google.
+8. Social media profiles are not updated regularly.
+9. A low number of internal and external quality links present on your
+website.
+10. Not updating fresh contents for your website and blogs as per the
+latest Google guideline (Penguin & Panda).
+And many more...
+
+We are experts in running a promotional online marketing campaign for
+websites. We have a host of ethical services and techniques, which you can
+utilize to improve your website's performance.
+
+Also, let me update you that our service prices are very affordable and
+cost-effective which will come up within your budget.
+
+We are also doing website designing and redesigning with affordable cost
+and fast delivery within 2 weeks. As we are familiar with search
+engine guidelines, the website will be search engine friendly and
+technically sound. Also, we are giving 3 months of free website maintenance
+service.
+
+If there is/are any bad reviews regarding you/your website, our ORM
+campaign will help you to push down the bad reviews from 1st page to 3rd
+page within 45 days of the campaign.
+
+If my proposal sounds interesting for your business goal, feel free to
+email me, or can provide me with your phone number, Whatsapp number or
+Skype Id and the best time to call you.
+
+I would be very glad to hear back from you.
+
+
+Best Regards,
+*Jean *
+Search Engine Consultant
+------------------------------------------------------------
+--------------------
+PS: If you are not interested please write to me back with the subject line
+"Remove", and I'll never contact you.
+Note: To show you the issues we can prepare an Audit report for your
+website Untroubled.org. If you'll need this audit report please write me
+back, our technical team will forward to you as soon as possible.
+
+--00000000000028d3420600d573f8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><font face=3D"georg=
+ia, serif">Hello=C2=A0</font><font face=3D"georgia, serif"><font color=3D"#=
+000000"><b>Untroubled.org</b></font>=C2=A0Team,</font></div><div><font face=
+=3D"georgia, serif"><br></font></div><div><font face=3D"georgia, serif">I w=
+ould like to have a discussion with you regarding the web promotion strateg=
+y for your website Untroubled.org. We wish to work out a proposal to streng=
+then the online presence of your website, via a strategically planned web p=
+romotion campaign. In today=E2=80=99s online era, you should be focusing on=
+ the new revolutionary ways of generating traffic (and subsequently, leads)=
+.<br></font></div><div><font face=3D"georgia, serif"><br></font></div><div>=
+<span style=3D"font-family:georgia,serif">We are curious to know if you are=
+ aware that a few issues bugging your website and sorting out these will he=
+lp you get the best returns out of your website.</span><br></div><div><font=
+ face=3D"georgia, serif"><br></font></div><div><font face=3D"georgia, serif=
+">1. Your website seems to be attracting traffic, but this traffic is almos=
+t stagnant and limited, which affects potential sales as you move forward.<=
+/font></div><div><font face=3D"georgia, serif">2. Your website doesn=E2=80=
+=99t feature in Google&#39;s first search page for some of the major keywor=
+ds in your niche, which affects visibility and your business.</font></div><=
+div><font face=3D"georgia, serif">3. Your website has been diagnosed with O=
+n-Page and On-Site issues, which affects the ranking.</font></div><div><fon=
+t face=3D"georgia, serif">4. Your backlinks profile is not efficient enough=
+ to help your search engine visibility.</font></div><div><font face=3D"geor=
+gia, serif">5. Your website is currently not being properly promoted online=
+ according to Google=E2=80=99s new guidelines (after the latest Google Pand=
+a &amp; Penguin update), which is affecting your marketing strategy and goa=
+ls.</font></div><div><font face=3D"georgia, serif">6. Your presence in the =
+social media platform is minimal. This is depriving you of a huge market of=
+ prospective referral clients.</font></div><div><font face=3D"georgia, seri=
+f">7. Your website may be penalized by Google.</font></div><div><font face=
+=3D"georgia, serif">8. Social media profiles are not updated regularly.</fo=
+nt></div><div><font face=3D"georgia, serif">9. A low number of internal and=
+ external quality links present on your website.</font></div><div><font fac=
+e=3D"georgia, serif">10. Not updating fresh contents for your website and b=
+logs as per the latest Google guideline (Penguin &amp; Panda).</font></div>=
+<div><font face=3D"georgia, serif">And many more...</font></div><div><font =
+face=3D"georgia, serif"><br></font></div><div><font face=3D"georgia, serif"=
+>We are experts in running a promotional online marketing campaign for webs=
+ites. We have a host of ethical services and techniques, which you can util=
+ize to improve your website&#39;s performance.=C2=A0</font></div><div><font=
+ face=3D"georgia, serif"><br></font></div><div><font face=3D"georgia, serif=
+">Also, let me update you that our service prices are very affordable and c=
+ost-effective which will come up within your budget.=C2=A0</font></div><div=
+><font face=3D"georgia, serif"><br></font></div><div>We are also doing webs=
+ite designing and redesigning with affordable cost and fast delivery within=
+ 2 weeks. As we are familiar with search engine=C2=A0guidelines, the websit=
+e will be search engine friendly and technically sound. Also, we are giving=
+ 3 months of free website maintenance service.<br></div><div><br></div><div=
+>If there is/are any bad reviews regarding you/your website, our ORM campai=
+gn will help you to push down the bad reviews from 1st page to 3rd page wit=
+hin 45 days of the campaign.<br></div><div><font face=3D"georgia, serif"><b=
+r></font></div><div><font face=3D"georgia, serif">If my proposal sounds int=
+eresting for your business goal, feel free to email me, or can provide me w=
+ith your phone number, Whatsapp number or Skype Id and the best time to cal=
+l you.</font></div><div><span style=3D"font-family:georgia,serif"><br></spa=
+n></div><div><span style=3D"font-family:georgia,serif">I would be very glad=
+ to hear back from you.</span></div><div><br></div><div><font face=3D"georg=
+ia, serif"><br></font></div><div><div style=3D"color:rgb(0,0,0)"><font face=
+=3D"georgia, serif" color=3D"#0000ff">Best Regards,</font></div><div><font =
+face=3D"georgia, serif"><font color=3D"#0000ff"><span style=3D"white-space:=
+nowrap"><b>Jean=C2=A0</b></span></font><br></font><span style=3D"color:rgb(=
+0,0,255);font-family:georgia,serif">Search Engine Consultant</span></div><d=
+iv style=3D"color:rgb(0,0,0)"><span style=3D"color:rgb(0,0,255);font-family=
+:georgia,serif">------------------------------</span><span style=3D"color:r=
+gb(0,0,255);font-family:georgia,serif">------------------------------</span=
+><span style=3D"color:rgb(0,0,255);font-family:georgia,serif">-------------=
+-------</span><br></div><div style=3D"color:rgb(0,0,0)"><font face=3D"georg=
+ia, serif" color=3D"#0000ff"><b></b></font></div></div><div style=3D"font-f=
+amily:arial,sans-serif"><font color=3D"#0000ff" size=3D"1">PS: If you are n=
+ot interested please write to me back with the subject line &quot;Remove&qu=
+ot;, and I&#39;ll never contact you.</font></div><div style=3D"font-family:=
+arial,sans-serif"><font color=3D"#0000ff" size=3D"1">Note: To show you the =
+issues we can prepare an Audit report for your website Untroubled.org. If y=
+ou&#39;ll need this audit report please write me back, our technical team w=
+ill forward to you as soon as possible.</font></div></div></div></div>
+
+--00000000000028d3420600d573f8--

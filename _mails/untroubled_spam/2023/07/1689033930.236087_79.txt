@@ -1,0 +1,111 @@
+Return-Path: <bhavna.kotecha@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 65905 invoked from network); 5 Jul 2023 08:43:31 -0000
+Received: from mail-yw1-x1142.google.com (mail-yw1-x1142.google.com [IPv6:2607:f8b0:4864:20::1142])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 05 Jul 2023 08:43:31 -0000
+Received: by mail-yw1-x1142.google.com with SMTP id 00721157ae682-57045429f76so73444787b3.0
+        for <bruce@untroubled.org>; Wed, 05 Jul 2023 01:43:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1688546610; x=1691138610;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=U+KkkoIH1hlbipUf8U7p9N99jVpSWb6nBss7Om7rMIg=;
+        b=IGOVzyS+OGLjBWpnDNRnlwDdD92FkbrCcFHYRuZGM8PGcKwZcbdQvOPJu9Be44z7wA
+         oJs87da3n9zcCkhSe3xVyKRB94XKhhWY/RcVJQTBZJeckXwHehoyTjCmELLnYXYFuxCM
+         5fLQexw0aTPrQ7tz32bpYHF+z22S/3w3QDZ0NlVMdPnHTAsaLqfUEU6mCbuvZFMULEtV
+         rPFLD97sIs9un1b27I5j0JBhDi1SM/ceEnFg5oHEhgAMNv2IylkInYTcfPytnIs19lIY
+         VE4ZCu5haiFUP45Gp6wPJHP4Fj3cR1q4EE3lfy7ndS5jU4HGj9AHIdxnyEE3T/4lhSse
+         +CTw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688546610; x=1691138610;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=U+KkkoIH1hlbipUf8U7p9N99jVpSWb6nBss7Om7rMIg=;
+        b=VNkf1ymbKjzUSJCEDbpHr1OYpYKM4MEPy4jMBCgqNjqqHSywFRoD3LDzNxHVnBpCYL
+         KqtXeQW7wuH0jscv0kLugZXP+PIpsHIiJHN4W/IGxSGlw1vFpSpJKHr5akL0e/Es4tn8
+         lmK6F0wvtrevSMDVK+rqlJJSxUNUC174Jhp3/S2jjByxFuHunJucJywz9kmXwALu+xu4
+         KXhr5XVIbisuGS6PSMjG1yVNyO1HOVWLhA+RNfk8/iJMm1/9D2zJryXHnhZqD1MO8MWd
+         wmkkTtm7pfd4NpK79xHrGhIOoxMJ6wsyduH04Va61+877xo6J6mF8YyC739dOvJxhtVI
+         M41g==
+X-Gm-Message-State: ABy/qLYEeve4OMtHUoa7jk2bjqr6itNpil1Eoya00Jx5kLFUdZfs2INR
+	sM8ou76W70n7fyTftxfDOUq/0tWe1dmzrN3ht68vq1yTBM8cmjHe51U=
+X-Google-Smtp-Source: APBJJlFST/m2BqGIOf9OA8HyWzexJTIgALb4qsogANAmvvpBPLbCXWw4sjOyh89KqT9uHHoeoaSZACCFdKehLmgQdjg=
+X-Received: by 2002:a81:6dc3:0:b0:559:ed0a:96c4 with SMTP id
+ i186-20020a816dc3000000b00559ed0a96c4mr13512319ywc.44.1688546610571; Wed, 05
+ Jul 2023 01:43:30 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 5 Jul 2023 08:43:30 +0000
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 5 Jul 2023 08:43:29 +0000
+MIME-Version: 1.0
+Sender: Bhavna Kotecha <bhavna.kotecha@globalgns.com>
+From: Bhavna Kotecha <bhavna.kotecha@globalgns.com>
+Date: Wed, 5 Jul 2023 08:43:30 +0000
+X-Google-Sender-Auth: YIC764JkZdYJcci3gXhNhhBJw7E
+Message-ID: <CA+pv2_p4xewP2y1S8_17qZz6gKa5tEY=tz+eFCmHcw27R-9BKQ@mail.gmail.com>
+Subject: Re:untroubled.org: You Need a Digital Marketing Strategy 2023..
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000e8fc9a05ffb964b9"
+Content-Length: 3272
+
+--000000000000e8fc9a05ffb964b9
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>* Owner
+I'm reaching out to you because I have a digital marketing plan that I
+think your audience would appreciate *untroubled.org
+<http://untroubled.org>*.
+
+Would you be willing to *receive a detailed proposal?* I can provide the
+deliverable for you to review?
+
+I am waiting for your reply.
+
+Regards,
+
+*Bhavna Kotecha*
+Business Development Manager
+-----------------------------------------------------
+Note: If you will be interested my senior will connect you through email or
+by call as per your comfortable time.
+
+Unsubscribe :- https://globalgns.com/unsubscribe.php
+<https://globalgns-dot-yamm-track.appspot.com/2qGhisT3hbPbWIpm9yaJJHOE0_ekrMv1PvGSvVks1frzciTgliQHlD7HxAwHo0T7A2EUDScolfGwidscApohSZLmAFd2kAgtdJYZtcnK4-nJYiVxZ2Pyw5wosqxllw0kIUZBT_21oK-lDQRIj6BSTNIs55N5cICkKTYzuuPnT4Zkg3u6O7O3R1jdP1lEVIg0HhXzQk5k>
+[image: beacon]
+
+--000000000000e8fc9a05ffb964b9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif">Hi <b style=3D""><a hre=
+f=3D"http://untroubled.org">untroubled.org</a></b> Owner<br>I&#39;m reachin=
+g out to you because I have a digital marketing plan that I<br>think your a=
+udience would appreciate <b style=3D""><a href=3D"http://untroubled.org">un=
+troubled.org</a></b>.<br>=C2=A0<br>Would you be willing to <b style=3D"">re=
+ceive a detailed proposal?</b> I can provide the deliverable for you to rev=
+iew?<br><br>I am waiting for your reply.</font><div><font face=3D"verdana, =
+sans-serif"><br>Regards,</font><div><font face=3D"verdana, sans-serif"><br>=
+</font><div style=3D"font-variant-numeric:normal;font-variant-east-asian:no=
+rmal;font-variant-alternates:normal;color:rgb(31,31,31);overflow:hidden;tex=
+t-overflow:ellipsis;font-kerning:auto;font-feature-settings:normal;font-str=
+etch:normal;line-height:20px;max-width:250px;white-space:nowrap"><b><font f=
+ace=3D"verdana, sans-serif">Bhavna Kotecha</font></b></div><font face=3D"ve=
+rdana, sans-serif">Business Development Manager<br>------------------------=
+-----------------------------<br>Note:=C2=A0If you will be interested my se=
+nior will connect you through email or by call as per your comfortable time=
+.<br></font><div><font face=3D"verdana, sans-serif"><br></font></div><div><=
+p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:16.8667px"><=
+font face=3D"verdana, sans-serif">Unsubscribe :-=C2=A0<a href=3D"https://gl=
+obalgns-dot-yamm-track.appspot.com/2qGhisT3hbPbWIpm9yaJJHOE0_ekrMv1PvGSvVks=
+1frzciTgliQHlD7HxAwHo0T7A2EUDScolfGwidscApohSZLmAFd2kAgtdJYZtcnK4-nJYiVxZ2P=
+yw5wosqxllw0kIUZBT_21oK-lDQRIj6BSTNIs55N5cICkKTYzuuPnT4Zkg3u6O7O3R1jdP1lEVI=
+g0HhXzQk5k" rel=3D"nofollow" style=3D"color:blue" target=3D"_blank">https:/=
+/globalgns.com/unsubscribe.php</a></font></p></div></div></div></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2V_Iy_jdpgpshjaPRG=
+H4QlZmPiYpuUDjrm1dq3gxb7WjYiTgliQGYMUA_X9b8Lecp01S2rhUTyf-W31FAcSyaV3_6Fa6J=
+VE2spI4yNDhkou3Hu5gOXjpYgpiEkC2YzDtSqV4oMdgEfpaOeOQffVPCSH5YoyUWKT9EooTLv9O=
+1wg" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display=
+:none!important;">
+
+--000000000000e8fc9a05ffb964b9--

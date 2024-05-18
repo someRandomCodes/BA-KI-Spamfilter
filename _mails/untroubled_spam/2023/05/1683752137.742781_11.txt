@@ -1,0 +1,274 @@
+Return-Path: <thesathbgo@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 727995 invoked from network); 10 May 2023 10:28:39 -0000
+Received: from JPN01-OS0-obe.outbound.protection.outlook.com (mail-os0jpn01olkn2027.outbound.protection.outlook.com [40.92.98.27])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 10 May 2023 10:28:38 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XWfp4z5No3WLcFeE6tpIXECGDElUL3weEmBqyhfwRAuzIaPNIE/JZ4yRoYid+rkVWKfUqVBkfZQ/NFEg5NZEL+Nh3x5LWUn2sTQwYwe9NDD8UxpTTuGhivM+c9b/VJ+eKF03fH9qNNvQp+FGKgLJgDPlY7huA1eRUHBlIdB6IyKM6Tmf8yVS835a5UkN6UcDQj54J9WYyOcrK7XOW+o6DrEhCGufqMDbrz6XDkJBNo42AdC8xbJ859OQdldnmf/JY4Id0MwwlPMVKDx0n+6O/gUq/etfyLUjlCUkpp5BM7O1ljl4dvaPLMRCG0jqygJCThopen1mM+N0jagBuXBi1g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=vtPFSnfj3JO2TW68LQHwAkv23E0n/d8lRz+6v0xbL3Q=;
+ b=aXGQwDCV0UyPzq17sImNBKQqb3J8fGyTK/oI6YuhU2Qgsg26cZ/cbJzFialAUBW09odS5Ojxok/rxBJuKuFB+1KFeV7LP34ZjwDMpjWHu8WK0m3wWLL4Yly6BSqZ8KYntCB6vJfSqLoI+OZtsROZYIroR9cEj3AKoKbslybfY9aQKF+q7HWx1lQTRTpxmjTqMLx/s0/KWd9VTIgUowEovGuMzemaDCJMM7lINJ8onIth2thAu4FEKPaSCUnDWaw+btqQcSU4sfbks55PDo57BxVGK21TyJhFbaVfNWy4wB0LLweKf/B/hPJysOnemAFliA+DI2K3IF1Acgkay7W++Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=vtPFSnfj3JO2TW68LQHwAkv23E0n/d8lRz+6v0xbL3Q=;
+ b=RqVkC9GzTs3w1YcfXEtr0nY9a+u7bUTs3WyzCPMyrxs1uDdHmRxW7A/vWeQ5heb/WOx0lYH94RKMZHbIF7N7LJNWIf0KK0EaE5WLiU0u0f4NrdgDHNQ7UQAPavqbm5h3gk2c6UGHbk+MCKjNdbAzmNb6Dumq7upvOLcr7hgGUfdKPzU/LcWNc2OiMv8K53ibZBkd3j0av7vZEQZN8874p+mpwGXMzOUV8/8E+0L266Zdr4nzi+uyXW7VvvBmSTGUYWiJe3iTqfDfvuyGtYnq0uJcXaiiGVuWq7oNNa5SoRwThFDY3CSC1y6rSzU8p/OBbUwTDhZYaCq1+6YzOFZDBg==
+Received: from TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM (2603:1096:400:de::12)
+ by TYWP286MB3754.JPNP286.PROD.OUTLOOK.COM (2603:1096:400:402::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6363.33; Wed, 10 May
+ 2023 10:27:58 +0000
+Received: from TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM
+ ([fe80::ffe7:6898:7103:2df6]) by TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM
+ ([fe80::ffe7:6898:7103:2df6%6]) with mapi id 15.20.6387.019; Wed, 10 May 2023
+ 10:27:58 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "thesathbgo@hotmail.com" <thesathbgo@hotmail.com>
+Subject: Kind-hearted Adventure Partner Wanted - Ukrainian Women Only
+Reply-To: "thesathbgo@hotmail.com" <thesathbgo@hotmail.com>
+Date: Wed, 10 May 2023 12:27:50 +0200
+Message-ID:
+ <TYYP286MB1453E8024CE9CAC249E850B5D2779@TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_D4F8_96A9E50A.69732486"
+To: Undisclosed recipients:;
+X-TMN: [Vaq5MGJE4MxGXaM8TnbCSdSMhyR3hs5V]
+X-ClientProxiedBy: FR3P281CA0190.DEUP281.PROD.OUTLOOK.COM
+ (2603:10a6:d10:a4::8) To TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM
+ (2603:1096:400:de::12)
+Return-Path: thesathbgo@hotmail.com
+X-Microsoft-Original-Message-ID: <1.6517ca93d87740056443@MainframeLAP>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TYYP286MB1453:EE_|TYWP286MB3754:EE_
+X-MS-Office365-Filtering-Correlation-Id: 5554d5de-5245-4ea1-bb77-08db5141391e
+X-MS-Exchange-SLBlob-MailProps:
+	zb1SmhujNEFCi8YfRRE2QSQjPVbaDvTopaT1lMOLwfyx+l3cXULOQiT1UQFR+vjjAgPxIMfatukusZTHn5BVDC+rZIyZBHqx85pbK7lbQz2ke0vIDBKbBf2h7sqydVFr7PE7yziub7CWyIEXw07jiIpQ2OUs8//7UOSR75rrfddcIfPdfoHYUXie7aLrZYh6t7f6//M/+yKchm6lUE8l6QYgVdaNYOVVf+vZjPxJQyPa4Smy4W/Z/NLBAdZ73JHsKNYE8jgJKZzKIkotc/gD7V5cqOigsPC3232sBk9Nk7+VyNNLpSuAjlcyXgM6BOTJrVVScWERjaPekbfRsFHZPw73HGLj3D/hK0DBlwjl8JMP4PoI1fpb2nihwja2wN8Sc8GSWxFn2UmGZW8Ooo86Tv2ULN8CJrM6oJpLyvDj0lWINiHOSCgLxoZquiR3fxSOUPo+C8c6ZmEqMfNymSeabJpg1nMj5NBhSJrc9E4n6PadD7L/xIE0zSIeh1M/R85rhWaqF/Ned5LF/mEuPx02NM6I3/cxUy+vARu/uX6gtkYLH0guJrJuZIUuecPN7xZFOQLp96a5DiO3o48sQtK97HvszUUDKP8O7BwOp7Gu026Ehkx8wFHx00r77dC4VqvJfOfBgJhBH5rE2G2tN+QFRHCISWuzEx7+v3XGjJMx+jcOF5YaCTYJz7OiC0zpigLmflTPwZQ9Bma7Z/whYWFD1Qwa8mmgJ9oA+2RSuDV4aaaYEwLfJGvQ4lgvblBbqe7QVUjPmmPQ8pOI6XgB8s67b++eusShpwdY5yYCt+CEPh9N12BJs+uNmkAUzcrplu5LEvTd79kJDVoNLf/AIZMjwqy7/CW9ACKtYdYpkHcJo/kWsSmdG8PLAdANZL4HS5f4
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	COCDU1QOTfNgK2nCHGELMp+V4Cnqi3aYdF2A/XK9z7ofQ/aApQd2ffY2Z5O5vYvLTTrbyBP2Rk2thtH0H6HC+lcdpndBczyj2Tx1OjIYat+PjrxLl2u5dHpmzIfwMJxUWr4WxHMXIUrMNtXy0Hg6dSTs3I+tKmaq3HOdMFg0mjM2dICdshbPd49fyPjdjOFDIjuj7mG8gmB3nrvW6x3dqyRQE6GUtr0T4OrS+3xpvbqXi64Jmoqe5VujmdMsflsKH6QbFNA4R0vSebJZxEUHOsQ4lioBdFO9WjUC7vFsQ42DAI7cFQ5FGzpAgw1HbxAkLFas9Tis9ox0JEnfSUzaZA/jCxNQ0wceCpAhiBGLoRQagP/oZYQjEI+gYDoaA3j16oKrP8rDDzhvHEBSZYzj1nH32YiKueBIn2q1BvlhIjZ2lYQCRK+bSZroNDDWe1KyoozvPYKZlbmBJWeSCaL0eo3YOULsDoGL27+SaH8oz80kbaIQkyeAZbMd6sxW2AD3WRHgFS6CsJaH8wsEcryWQnElbI2siRSMFkji5JZq9s76sugnXemC+/E/iQEfw90tQAAHkTXkKHGdCoOgKOafNspjbw9sUJ6yfCyYmagtDgWFfGdeiHJQV5exfSmgM5vo8YxoA2UkI1vJ4IJ7TNh7MnUrWIXILCR6Gb62y1ymIvOKeUIa5W+Aa656X0fIdN87oK1Q3tIy0H87C/Y+QFhMIu7NwZaiNp0G5F369Wwp57U6SnQeAREXAs81p7jOgyBcbur1WdpnSwaDTMREX6uiGkOB5udjWHxh5OtoQpt8mxlETEBBc25bQLyqQ3ZR5Hu2/wL1LJPXubjBL8FJyhWTXdVb5owo3no226HW13YrgNNy7ctW8a/9QM0NZCpqWqy/
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?TjlITEtyVUhzYzI4c3VjQkpRVXRmd3QwMDFMLzRxWHp1bW1SOW1KNG1aSkRp?=
+ =?utf-8?B?RDdyQ3ZpdER1QnB2bHlNV05ObUx4M29wWkIrd3I0ZGl5VmpRY2NCSWxkMTFZ?=
+ =?utf-8?B?SjJXeWl5WVIvejFTZ3lvaFNrN2xZd0Naai9LaWJuRlJiQ2M0ZFVxNHRRLzNj?=
+ =?utf-8?B?b3dISDJOWWRtcFJISnVTK1p3cGV0Z01KT05NeEdTYkMvTHdzam1PdnNia0NB?=
+ =?utf-8?B?OU5BdDcxOElleVlCckpZbEJXSDB2M1NiUFNjbEFTaW1aWFVhZlNzMFZlcmdp?=
+ =?utf-8?B?ZXdKWm04UVhPWWRhS25QVjMxeDhvSU40ZFhCcWdmS3F0YmJsVjlmSVN0NFlZ?=
+ =?utf-8?B?QUpTeDdRN2VBYnZIYTJFQkxlWHNBNVh6S0txSGJKa0xVYU9oSVdsamo0aC9I?=
+ =?utf-8?B?YWt3RGNkcEtadEJaNmZ0eGt2WHg3K04vS1IrNlY3bFB4alVBa2xFNGU4SFRt?=
+ =?utf-8?B?bkhNQ1VmSmJrakY5WkdwMWhMaTdxNlF1UHd3QVlGdCt0ZC9GRGFmSmpaUGxU?=
+ =?utf-8?B?M3daMXlmMUxOUDdHR29mZ0dlMGNaWEJlV3NPZTg3dHZGc1BWdDBWU3hTSXpl?=
+ =?utf-8?B?b2l1WTFBdmRveXBFTXgzU1hLRmRaTjcyak1ncWEvc2N0VG1sQWc5M2w5U3Vt?=
+ =?utf-8?B?eVEzdVVBMDdqYi9OTlZjUTk3alc5YkZZTHNIK0ptbHhuQXllaHRlQ0JjMTlF?=
+ =?utf-8?B?ZWVKbmtZcU1GYVkreG4rcnd3elhHTGlYNnFRZTdPZnkwYlVZenJIcHd6dER5?=
+ =?utf-8?B?RGwzQlU3T0tOY1BMUGpqVEQ2RFJaRnYrMTZEazd1VFQ1N1F1bnhJZEg0U0lD?=
+ =?utf-8?B?ODdwWWpQcllzR0ZvRWVmZzlNVUswazFrWklMMXpRRzhBWlY2eUpHejRDZzc4?=
+ =?utf-8?B?dGgwRU5rTTk0R3UvbzBVSnJUb05OM1ZqTG1LSTRJelJxaEVuSzlFS09hY2tl?=
+ =?utf-8?B?SWlpWDBkOHJhOC9aT2FOcjAzVmdKQVYrTU5rT1VqRFhlYXdQOGJrY1FPOCs5?=
+ =?utf-8?B?Qlk4UnVRaE9UREhnUzVnWEVpVWROMGVuM0IyQTB3ZUVBRDJqeEZHbFNWNk5K?=
+ =?utf-8?B?SElRNnNTZXhrTUhtVlB5R0Z5c1NWalR2Q2VnSm41N0Jsb01JUW5qTlpKN0dT?=
+ =?utf-8?B?M2xTRkNkWFM5ZUx2dTJ5TjRJa2JjN0RaYmJZNzh2MnJWdlV2L29FNkkrc0xp?=
+ =?utf-8?B?alB6ZE0yMXBJWU9ENWY5bWhrei9jdmgwRGt0V2JKeGxDV1dCUzdzcHFsRllJ?=
+ =?utf-8?B?dlpuZGRnc1BGOHMzUjQ0NzY5aTZDUUhIL2xwUHdmU3BxaS9OYnpsNDBDU3Yx?=
+ =?utf-8?B?K1pCZ1FXNW5WVTYzazQybVh3RHhlM0JlalpWTXJIWmdkWUtyaTUxb2EvV3JL?=
+ =?utf-8?B?VDFiQi9VU3VWWDRJalVzUnpodm1RRUU4YzBsVFBwQjE3R2Z0cDlyREY0WGZv?=
+ =?utf-8?B?SDhJR1B5TW1FT0dSajUzY3hWTU5pYlVod3ltckwwMldRMWpIKzVUVVRhVFIr?=
+ =?utf-8?B?K25PS01mcGZBcjNXVjg1cUg2Mk8zUlVhSG1DQ1g5QmVydDZIUnJleDV3M1ZF?=
+ =?utf-8?B?bHJPMnBBSHJCeVNCL1Arb2NCN1Z0Q0llRkl5T3JEb3ZhQncyTGVnb1VrMVhN?=
+ =?utf-8?Q?6JqwLTxdzkmEQJbJl1wjCmvpX+k+a9HjyVGZHs/azgWg=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-05f45.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5554d5de-5245-4ea1-bb77-08db5141391e
+X-MS-Exchange-CrossTenant-AuthSource: TYYP286MB1453.JPNP286.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 May 2023 10:27:58.4397
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYWP286MB3754
+Content-Length: 7486
+
+------=_NextPart_000_D4F8_96A9E50A.69732486
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Are you tired of swiping through profiles that don't quite match your inter=
+ests? Have you been looking for a more authentic and meaningful connection? 
+  
+ 
+As someone from Ukraine, I know how difficult it can be to find someone who=
+ truly understands you. That's why I wanted to introduce you to a dating we=
+bsite that connects Western men with Ukrainian women who are looking for ge=
+nuine relationships. 
+  
+ 
+
+UkraineDatingBeauty 
+  
+ 
+
+
+
+
+
+
+UkraineDatingBeauty
+
+
+Our site is dedicated to helping people find love and happiness, and we pri=
+de ourselves on creating a safe and welcoming environment for all of our me=
+mbers. We have a wide range of Ukrainian women who are looking to meet some=
+one like you, and I think you might be a great match for some of them. 
+  
+ 
+If you're interested in learning more about our website and the amazing wom=
+en who are waiting to meet you, please visit us. I hope to see you there so=
+on! 
+  
+ 
+
+
+
+To unsubscribe, simply click on the unsubscribe link. This will take you to=
+ a page where you can confirm your request to be removed from our list. 
+  
+ 
+
+
+=
+
+------=_NextPart_000_D4F8_96A9E50A.69732486
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5ff6-=
+c0cd-9615ec076c63">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Nunito,sans-serif;color:#374151;=
+background-color:transparent;font-weight:400;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+>Are you tired of swiping through profiles that don't quite match your inte=
+rests? Have you been looking for a more authentic and meaningful connection=
+?</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Nunito,sans-serif;color:#374151;=
+background-color:transparent;font-weight:400;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+>As someone from Ukraine, I know how difficult it can be to find someone wh=
+o truly understands you. That's why I wanted to introduce you to a dating w=
+ebsite that connects Western men with Ukrainian women who are looking for g=
+enuine relationships.</span>=0A=
+</p>=0A=
+<br>=0A=
+</b>=0A=
+<p>=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5f=
+f6-c0cd-9615ec076c63">=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+		<br>=0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+		<a href=3D"http://heartpulse.cfd" style=3D"text-decoration:none;"><span s=
+tyle=3D"font-size:20pt;font-family:Nunito,sans-serif;color:#1155cc;backgrou=
+nd-color:transparent;font-weight:400;font-style:normal;font-variant:normal;=
+text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration=
+-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;">UkraineDating=
+Beauty</span></a>=0A=
+	</p>=0A=
+</b>=0A=
+</p>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5ff=
+6-c0cd-9615ec076c63"><br>=0A=
+<br>=0A=
+<br>=0A=
+</b>=0A=
+<div align=3D"center">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5f=
+f6-c0cd-9615ec076c63"><img src=3D"https://blogger.googleusercontent.com/img=
+/b/R29vZ2xl/AVvXsEiH991buIEZkWanim6hZQouas8GKjMajllAVyFNpwIsJlDkEgr9851o8E_=
+4g3unLP4vp5Da12A_kpYuBMlRHTeBn2voHGcTu0ZYPJR1vywrW8kMCX9iiTW1Tn3Swsp1ZHIgbx=
+JP165gHlsHLf3oIW96H51YjLrd6iiZPqkW7vJ9cdv8RJYxsaBSDHt9yQ/s1280/photo_2023-0=
+5-08_11-55-00.jpg" alt=3D"" width=3D"710" height=3D"838"></b><br>=0A=
+</div>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5ff=
+6-c0cd-9615ec076c63"><br>=0A=
+<br>=0A=
+<br>=0A=
+</b>=0A=
+<div align=3D"center">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5f=
+f6-c0cd-9615ec076c63"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-b5ee1cbc-7fff-5ff6-c0cd-9615ec076c63"><a href=3D"http://heartpulse.cfd=
+" style=3D"text-decoration:none;"><span style=3D"font-size:20pt;font-family=
+:Nunito,sans-serif;color:#1155cc;background-color:transparent;font-weight:4=
+00;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-=
+text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:base=
+line;white-space:pre-wrap;">UkraineDatingBeauty</span></a></b></b><br>=0A=
+</div>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-b5ee1cbc-7fff-5ff=
+6-c0cd-9615ec076c63"><br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Nunito,sans-serif;color:#374151;=
+background-color:transparent;font-weight:400;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+>Our site is dedicated to helping people find love and happiness, and we pr=
+ide ourselves on creating a safe and welcoming environment for all of our m=
+embers. We have a wide range of Ukrainian women who are looking to meet som=
+eone like you, and I think you might be a great match for some of them.</sp=
+an>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Nunito,sans-serif;color:#374151;=
+background-color:transparent;font-weight:400;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+>If you're interested in learning more about our website and the amazing wo=
+men who are waiting to meet you, please visit us. I hope to see you there s=
+oon!</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:right;margin-top:0pt;ma=
+rgin-bottom:0pt;">=0A=
+	<span style=3D"font-size:6.999999999999999pt;font-family:Nunito,sans-serif=
+;color:#374151;background-color:transparent;font-weight:400;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;">To unsubscribe, simply click on the </span><a href=3D"http:=
+//unsub.heartpulse.cfd" style=3D"text-decoration:none;"><span style=3D"font=
+-size:6.999999999999999pt;font-family:Nunito,sans-serif;color:#1155cc;backg=
+round-color:transparent;font-weight:400;font-style:normal;font-variant:norm=
+al;text-decoration:underline;-webkit-text-decoration-skip:none;text-decorat=
+ion-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;">unsubscrib=
+e</span></a><span style=3D"font-size:6.999999999999999pt;font-family:Nunito=
+,sans-serif;color:#374151;background-color:transparent;font-weight:400;font=
+-style:normal;font-variant:normal;text-decoration:none;vertical-align:basel=
+ine;white-space:pre-wrap;"> link. This will take you to a page where you ca=
+n confirm your request to be removed from our list.</span>=0A=
+</p>=0A=
+</b><br class=3D"Apple-interchange-newline">=0A=
+<br>=0A=
+<br>=
+
+------=_NextPart_000_D4F8_96A9E50A.69732486--

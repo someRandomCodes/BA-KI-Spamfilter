@@ -1,0 +1,1642 @@
+Return-Path: <workshops@skillsforafrica.or.ke>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1887385 invoked from network); 19 Feb 2024 14:24:16 -0000
+Received: from g147.mxout.mta4.net (g147.mxout.mta4.net [96.45.68.147])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Feb 2024 14:24:16 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=skillsforafrica.or.ke; s=api;
+	c=relaxed/simple; t=1708352650;
+	h=from:date:subject:reply-to:to:list-unsubscribe:list-unsubscribe-post:
+	mime-version;
+	bh=uoXPzxOBCn+/SQ8Mxh4vseg1AbxmTda3hSQApscBZW4=;
+	b=D1HVW9eKBxEF4XAOKbgYmCWeczHdeez00/BOtR8cwczaARUHK5sjZ42EzZU6LWGcM7edprqNx+i
+	mjviyRAAHNEP+WH3PzDmaMaEB9pncEUeLWSOQm9otO7bFDCtUsBaxNKWLeXg83Arw864y8Fp9SEkK
+	mR7cwpb6CITBkuKQBPE=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1708352650;
+	h=from:date:subject:reply-to:to:list-unsubscribe:list-unsubscribe-post;
+	bh=uoXPzxOBCn+/SQ8Mxh4vseg1AbxmTda3hSQApscBZW4=;
+	b=DE3T8SJTi4BCSuRewB68RLkiuPPRDghhpa8+VT9zwtJKRS8FKoJcFJZR6qx6b88OfXSfA8S8Lyz
+	CcJmf5bpknEhSeWX55M0Bje+GvFQJ8p4DlD/Ve9hyzHPl3q5PZa1uOwjyPKY9b0FPQZ/earfx8flk
+	4MSZiLQkEfOD8KVpbis=
+From: Skills for Africa Training Institute <workshops@skillsforafrica.or.ke>
+Date: Mon, 19 Feb 2024 14:24:10 +0000
+Subject: Environmental And Social Safeguards Training Workshop
+Message-Id: <4umbwusg3q1f.hFUNXVFoAcAtIrirjEjLqg2@tracking.skillsforafrica.or.ke>
+Reply-To: workshops@skillsforafrica.or.ke
+Sender: workshops@skillsforafrica.or.ke
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+hFUNXVFoAcAtIrirjEjLqg2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2Ftracking=2Eskillsforafrica=2Eor=2Eke=2Ftracking=2Funsubscribe=3Fm?=
+ =?us-ascii?q?sgid=3DhFUNXVFoAcAtIrirjEjLqg2&c=3D1468560650031829931=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Msg-EID: hFUNXVFoAcAtIrirjEjLqg2
+Disposition-Notification-To: workshops@skillsforafrica.or.ke
+Return-Receipt-To: <workshops@skillsforafrica.or.ke>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfDETg0B36Aci/aeg7QDvIwA5H39I0y3WKzQ=="
+Content-Length: 85278
+
+--=-eZCfDETg0B36Aci/aeg7QDvIwA5H39I0y3WKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQoNCjxodHRwOi8vdHJhY2tpbmcuc2tpbGxzZm9yYWZyaWNhLm9yLmtlL3RyYWNraW5nL2Ns
+aWNrP2Q9NFJTT0dlUzVISTZLRkppeFFweWtVSDdTQkRTajBBMkVkSGRjcXFFay1LTUFXWXBr
+ektqNzFjRDFscTBzcU1MVEZJaDd1MElTa1F4ZDloMU5jcTBRZUVhUUhTTjJYaWkwWV9YNVps
+ZEpFX3hyQTFxSkhlSHpFQWlXWFZQUzM2cDZUZ0JIWWdxYjg1dGNVbUpYbjFOMksxRTE+DQrC
+oEVudmlyb25tZW50YWwgDQpBbmQgU29jaWFsIFNhZmVndWFyZHMgVHJhaW5pbmcgV29ya3No
+b3AgDQrCoA0KRGF0ZXMNCkZlZQ0KTG9jYXRpb24NCkFwcGx5DQoxMS8wMy8yMDI0wqAtwqAx
+NS8wMy8yMDI0DQokMTUwMA0KTmFpcm9iaQ0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2Zv
+cmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1S
+dDIyNVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1paRVNWQlFoRFpHc1lJcVJo
+a1VYd3YzejdRY203TVZBTjJQUW51aEVYR25aMV9vd3lhQXc3M2lqSGNPOHZMaElZV0RfTGQ0
+bWFuXzkwV05yZEhjekxESVR4YTRKWEVzb2tpblJKXzZnZmdnWW54TDAwPg0KUGh5c2ljYWwg
+Q2xhc3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFj
+a2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJU
+dE5wazBlX05nVVNDVUljQ3N6WUlLYjFuWmJCN3Aya1V0Ml9BRWZQSlVqQksyWW96Y3hkZ093
+RENZb0VaQmxlMnRQLUNZT0pmY0ZReEJUSFhGT2RkWFB0QkxROWI1X0lUTENyLXl5NFFtTVdv
+T1JXNU15NXRZUkE1dEt3dHFORkdSeDQwPg0KT25saW5lIA0KICAgIENsYXNzDQowOC8wNC8y
+MDI0wqAtwqAxMi8wNC8yMDI0DQokMjk1MA0KS2lnYWxpDQoNCjxodHRwOi8vdHJhY2tpbmcu
+c2tpbGxzZm9yYWZyaWNhLm9yLmtlL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBUckZoaDc5
+MlJIZUo5LVJ0MjI1WVlzUG1Xak5Xc3FxclR0TlFwZjRpRlcwbzJjVXdGLXhPWlpFU2xkSmtD
+aFhNY1NBY0xJbmp0NnZYR1Q1cE0yOG5ZbUd6VWZJVkUwRUNidTNaVFJxWkJOejBwY2ZQbG9I
+TUc2NFdTYTlrT0NRc01rNGNadWRIc3NSQ0U3ZVdnSTZUdlFfSmlPS3Y1eThBNFBPVDA+DQpQ
+aHlzaWNhbCBDbGFzcw0KDQoNCjxodHRwOi8vdHJhY2tpbmcuc2tpbGxzZm9yYWZyaWNhLm9y
+LmtlL3RyYWNraW5nL2NsaWNrP2Q9V29hcG95LXBUckZoaDc5MlJIZUo5LVJ0MjI1WVlzUG1X
+ak5Xc3FxclR0TnBrMGVfTmdVU0NVSWNDc3pZSUtiMVZKRWdLVUpaZmcza0V1UG5VWWdQbmIx
+NHo1TlZRUGtWaGgzZV9FZ0JoWGltNXZvRG5YT1RwendfY2pKWVZrdm9fbVhURUc5ZVlLX3ZO
+NmpOcHZWZHZoc3haend6UF9MMWVsSGxJazRjNVlSTDA+DQpPbmxpbmUgDQogICAgQ2xhc3MN
+CjEzLzA1LzIwMjTCoC3CoDE3LzA1LzIwMjQNCiQ0NTAwDQpEdWJhaQ0KDQo8aHR0cDovL3Ry
+YWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1w
+VHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1pa
+RVMxMnl4b2c4X0xFcENRZzQxa0llVzhwT0wtZGV4dGxQV3VrUzV4bWd6MUFYSEpYWmU1angw
+SXBGMmt5MWg3VTZFb1ZOU3dGZFhNbWItWmQ5dExKc2RqaU5YeGZTRUxtVUdYSG8ydF9HS3dK
+MHYwPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFm
+cmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIy
+NVlZc1BtV2pOV3NxcXJUdE5wazBlX05nVVNDVUljQ3N6WUlLYjE4WVduSDUwcUlCNVVYb1hu
+MWtTWktJcHN1SEhmZzJrX0tzbFBnc3U4OHdKNDFIZUx3UzVCd2NoQmYzX1JtOTlQR3FlUmtN
+Rnd3X3R6cjNBREdvSVEzMHk4ZzlueWpZNmZNX3RsVFR4M01leTIwPg0KT25saW5lIA0KICAg
+IENsYXNzDQoxMC8wNi8yMDI0wqAtwqAxNC8wNi8yMDI0DQokMTUwMA0KTmFpcm9iaQ0KDQo8
+aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9k
+PVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8y
+Y1V3Ri14T1paRVM3dUZQVlVhOUN5amZodE1KSkc3aEhaWlZNQVhJeEpLR0xwWEJfR080cWxL
+ckd0aTJheFFEQmNSa3hVTnhyN21IcG84VW1KTVd2U2RNMjg0UHFCYmtzZm9aT1dWajBZb1lZ
+N0xLTzVXY1FmMWQwPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNr
+aWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJS
+SGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5wazBlX05nVVNDVUljQ3N6WUlLYjF3V3ptRWN6
+U1hxcmlHNjVCTFFiWDFRY1NJQy11MHJveFAzdnNZVWk0YTMtUDdESlM3YmZsb1RhYjl4dXJZ
+Z0pKdHNMWG92a2w1U2VySzdZNUpUdmdndjRxRmdmZlU2U2paUVFYdXZ2My1PS2wwPg0KT25s
+aW5lIA0KICAgIENsYXNzDQowOC8wNy8yMDI0wqAtwqAxMi8wNy8yMDI0DQokMTUwMA0KTmFp
+cm9iaQ0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2lu
+Zy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5R
+cGY0aUZXMG8yY1V3Ri14T1paRVNUR0o5ejZmTHFKNUY4NjBhdml6TzJEa3F4OHNGek92endW
+QkVEVWVNMVVMYlVsT0w5eUI0dTlrdXNheVpIZ2h3blBzWGltQzNJVjdQVFVXS09VOVJwM2xa
+X2VKTlhqTEFweGhhdUc2STk5WjkwPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cDovL3Ry
+YWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1w
+VHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5wazBlX05nVVNDVUljQ3N6WUlL
+YjF1cExFOTlpWWsydnF1MUJSelptaUpWVG9sS09zLWVGUURzSFY2UFdFb21veXJZUzlxcWFz
+Ymw3QkFUbFdSeGVxQ2xuZWNVNHJtQjY1WkpmUE9UY2g2dkk3MkNZRmRtSlpXaW9mZFNjaTJt
+RGcwPg0KT25saW5lIA0KICAgIENsYXNzDQoxMi8wOC8yMDI0wqAtwqAxNi8wOC8yMDI0DQok
+MTUwMA0KTmFpcm9iaQ0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5r
+ZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pO
+V3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1paRVNZc1JsMFRibVNPOFJLbzlzWWhGaHN5LXpV
+bHc3U0E2Y3JfXy1kZ2tTQ3poMWJGcTBrckZtdGxKVzRacEExcjI1b1h2anBERDBNY09hdVlJ
+Yjk1d3VMcEd3eHM1bHhrbTBGZzY3MktkTHdOdkswPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8
+aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9k
+PVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5wazBlX05nVVND
+VUljQ3N6WUlLYjFLWHlab1hSZmQ2eUw1TVh6cFAyRWJzRnhHYWxXczQybU1tY08tSENRTk5K
+Zzh5RzdscVdDdmFMM1ZaREF6ZWNqV3dBNWliajhyLS1lN013STR5SVpSUHlCdFRWajgyeUpF
+NHZ3XzB5a0NIeUcwPg0KT25saW5lIA0KICAgIENsYXNzDQowOS8wOS8yMDI0wqAtwqAxMy8w
+OS8yMDI0DQokMTUwMA0KTmFpcm9iaQ0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFm
+cmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIy
+NVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1paRVNxUXB1bUk5YlM5Q2ZqN0NZ
+WWdWRDYzMEktZWJzNDBjSHZreHhrNU9hTTBCbzhNQXJ1Wm5sY3BaVUF0ZHN2NWY4YV9HR0l3
+a2NrSUlVQ0dTNTFvaW1nMmo1UlZ6dnJiWXNMeWJHY19rLVp0RW0wPg0KUGh5c2ljYWwgQ2xh
+c3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2lu
+Zy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5w
+azBlX05nVVNDVUljQ3N6WUlLYjE4VkFPMk1FRnEydWJYXzhkb25KZy16RVQ2WWdkVjBsMjhH
+bUJIaDlTWjBRTWZNemV2TmM5Nl9yeTRWYU1sRkxuWF92MUlCVFhoekNzazRIeUZ1cmgyZG1S
+SUFyUDBmVXlodmZla09JRlBwXzIwPg0KT25saW5lIA0KICAgIENsYXNzDQoxMS8xMS8yMDI0
+wqAtwqAxNS8xMS8yMDI0DQokMTUwMA0KTW9tYmFzYQ0KDQo8aHR0cDovL3RyYWNraW5nLnNr
+aWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJS
+SGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1paRVM1REpISVlM
+dFF4MTBodFNXVXluSG1WYVpkakRRNGd4dTQtdW1JN1p0XzhaTGk2eVVuSlhmMkpjTU9CcmVE
+eHZVajk4QjFoUV93YVBndmdmVkRiZnE3UG50S1ZOa21maUw1bnQ3Y1V3aE1wRlUwPg0KUGh5
+c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5r
+ZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pO
+V3NxcXJUdE5wazBlX05nVVNDVUljQ3N6WUlLYjFVUGFISXV4cVJXZW16VEpIMk9pV29hZkZP
+WlM0VDJtdlZNQTEzMXlIMzdKVFRvSlpIdmVNOVZ1VklZOTdlb3J3X010VnJKNmE4aVZ5RkY4
+dnUtUzNjTHdSbW5qMlBYQ1pRcG1xWHljS2RxZXAwPg0KT25saW5lIA0KICAgIENsYXNzDQow
+OS8xMi8yMDI0wqAtwqAxMy8xMi8yMDI0DQokMTUwMA0KTmFpcm9iaQ0KDQo8aHR0cDovL3Ry
+YWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1w
+VHJGaGg3OTJSSGVKOS1SdDIyNVlZc1BtV2pOV3NxcXJUdE5RcGY0aUZXMG8yY1V3Ri14T1pa
+RVMtc3RuVFVTU045NXRzZmg1Y1JDblM1RzRzWUhhd0hWdlUxY2tJRDRXMk83SGc0d0JFUGMw
+NC1FcXpZVER1RFNiVGZpcmkzMnFMdDJDM1EwMHktckZsSnRhTDljd21XSmJkYzRTYTNhXzR5
+Z24wPg0KUGh5c2ljYWwgQ2xhc3MNCg0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFm
+cmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPVdvYXBveS1wVHJGaGg3OTJSSGVKOS1SdDIy
+NVlZc1BtV2pOV3NxcXJUdE5wazBlX05nVVNDVUljQ3N6WUlLYjEzOUpMMERGbUxCRE1WOEhB
+VkV3Qk94U3EzdDFRNU5Qa2kyZDlCM3V3T05IVzE4NUhXYjJ1NnJ6UUhXcldESlhjdVdWaDBD
+M0ppOWhPY3FMNVY3by1zUU1XRGpuX2d5SVpHNmhPVnFXb1R6bmgwPg0KT25saW5lIA0KICAg
+IENsYXNzDQrCoA0KwqANCg0KPGh0dHA6Ly90cmFja2luZy5za2lsbHNmb3JhZnJpY2Eub3Iu
+a2UvdHJhY2tpbmcvY2xpY2s/ZD00UlNPR2VTNUhJNktGSml4UXB5a1VIN1NCRFNqMEEyRWRI
+ZGNxcUVrLUtNU2E5MFRsR0NLS0o1aElINGlfaXdRMGQ0MUVGXzBOTWJ1NWZucmRxWS1ySzVV
+ZENjcUFqSlNXSHd6ZGp2N1F4dFRaVnM2ajVXV1JjT0YzUE1GN3pFekx1ZlBvUlN5R0JqbUFH
+WlBodUJfTmN3MT4NCkNhbGVuZGFyIGZvciAyMDI0IA0KV29ya3Nob3BzDQrCoA0KDQo8aHR0
+cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPTRS
+U09HZVM1SEk2S0ZKaXhRcHlrVUg3U0JEU2owQTJFZEhkY3FxRWstS05lTXRCVnF3cjBPYjhF
+dFFFOEV0VkVfOHNVZk9pYmtNSUV4alk0bmptUmF3b1VtUlluSWRrTVNLQkhKSC1jOVp2OHlY
+QUJyTkpWb1lINnhrWVJOODRQWWRPeUxCUzNiNnhUS1FSd01TaDZ0T2MxPg0KQ29udGFjdCAN
+CnVzDQrCoA0KDQo8aHR0cDovL3RyYWNraW5nLnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFj
+a2luZy9jbGljaz9kPVRkTzFnQ3VRNzFocFdMNjBCV05udHV3ZjJJV0pma19rSlFfT2V4NV9l
+amdyaWJVZmQwLWUzT2tHSWRBVkZncGZpUHgzZ0tRNnAyeGJQZnlISldjR0lrN3N3cXkzaWdf
+aWpmRF80a1NBMXVGNEVXOFBHblVlM1NiamoyT3hlUmpZSDJodERYakNCLXZwVTNoUXVrTnR1
+cUkxPg0KV2hhdGFwcA0KwqANCk9mZmljZSANClRlbGVwaG9uZTogKzI1NC03MDItMjQ5LTQ0
+OQ0KUmVnaXN0ZXIgYXMgYSBncm91cCBvZiA1IGZvciB0aGUgcHJpY2Ugb2YgNCBvbiB0aGUg
+Y291cnNlIGZlZS4gDQoNClNlbmQgDQp1cyBhbiBlbWFpbDogDQo8aHR0cDovL3RyYWNraW5n
+LnNraWxsc2ZvcmFmcmljYS5vci5rZS90cmFja2luZy9jbGljaz9kPXJhX0tycXV5bV92QUg3
+YTB4ZnlpUlJSSjBtbU1vZ255ZzU2a21QZUpEY09BVGc1aFJrTjRqbUhNd0V6RjB6Z3RPNDhL
+Tk51TEdVZHdsRzFxS2pVbmJVTTJJZVQwSWNPV2JmSmxsVDQySnNYZjZZMTlRaFdDOG9LQ2cw
+d0dWaE1Ndkl0NmdvSWxzYWx3czQ5SGJhMWdVQUNPdnVVZlR3eWdYNXFxaWNJNWx6SWNid3JK
+ODFndldxM2dhalVxckNucWJ1Vmpvb2g3QUtET1VWb1NYR0Z1TnJmaElsLXlmcmgxUWp4eG5M
+Yl8xSFBBMD4NCnRyYWluaW5nQHNraWxsc2ZvcmFmcmljYS5vcmfCoG9yIGNhbGwgKzI1NC03
+MDItMjQ5LTQ0OQ0KwqANCklOVFJPRFVDVElPTg0KU2FmZWd1YXJkcyANClBvbGljaWVzIGFy
+ZSBpbmRpc3BlbnNhYmxlIGluc3RydW1lbnRzIHdoaWxlIGF0dGVtcHRpbmcgdG8gaW50ZXJj
+ZXB0IHVubWVyaXRlZCANCmhhcm0gdG8gdGhlIGNvbW11bml0eSBhbmQgdGhlIHN1cnJvdW5k
+aW5nIGVudmlyb25tZW50IHRocm91Z2hvdXQgdGhlIGRldmVsb3BtZW50IA0KcHJvY2Vzcy4g
+U2FmZWd1YXJkcyBQb2xpY2llcyBzdXBwb3J0IHRoZSBhc3Nlc3NtZW50IG9mIGFudGljaXBh
+dGVkIHJpc2tzIG9uIHRoZSANCmluaXRpYWwgc3RhZ2Ugb2YgcHJvamVjdCBpZGVudGlmaWNh
+dGlvbiBhbmQgZGVzaWduaW5nLiBUaGVzZSBpbnN0cnVtZW50cyBlbmFibGUgDQp1cyB0byBn
+YXVnZSB0aGUgcG9zaXRpdmUgYW5kIG5lZ2F0aXZlIGltcGFjdHMgbGlua2VkIHdpdGggYW55
+IGdpdmVuIGRldmVsb3BtZW50IA0KaW50ZXJ2ZW50aW9uLiBPbiB0aGUgbGF0ZXIgc3RhZ2Ug
+b2YgcHJvamVjdCBpbXBsZW1lbnRhdGlvbiwgc2FmZWd1YXJkcyBlbnN1cmUgDQptb3JlIGVm
+ZmVjdGl2ZSBtYW5hZ2VtZW50IG9mIHJpc2tzIGFuZCBtYWduaWZ5IGNvbnN0cnVjdGl2ZSAN
+CmluZmx1ZW5jZS4NCkFuIA0KaW5jcmVhc2luZyBudW1iZXIgb2YgY291bnRyaWVzIGFyZSBy
+YXRpZnlpbmcgdGhlIGFwcGxpY2F0aW9uIG9mIHNhZmVndWFyZHMgDQp0aHJvdWdoIGEgcmFu
+Z2Ugb2YgaW52ZXN0bWVudCBwbGFubmluZywgcG9saWNpZXMgYW5kIHJlZ3VsYXRpb25zIHRh
+cmdldGluZyB0byANCmF0dGFpbiBtb3JlIHN1c3RhaW5hYmxlIGRldmVsb3BtZW50LiBUaGlz
+IGV4dGVuc2l2ZSB0cmFpbmluZyBwcm9ncmFtIGhhcyBiZWVuIA0KZGVzaWduZWQgc3BlY2lm
+aWNhbGx5IHRvIGFkZHJlc3MgdGhlIHN0YXRlZCByZXF1aXJlbWVudCBhbmQgc3VwcG9ydCBp
+dHMgDQpwYXJ0aWNpcGFudHMgd2l0aCB0aGUgbmVjZXNzYXJ5IHNraWxscyBhbmQga25vd2xl
+ZGdlIGluIG9yZGVyIHRvIG1lZXQgd2l0aCB0aGUgDQpzb2NpYWwgJiBlbnZpcm9ubWVudGFs
+IHNhZmVndWFyZHMgZ3VpZGVsaW5lcyBhbmQgcHJpbmNpcGxlcyBhY3Jvc3MgdGhlIA0Kd29y
+bGQuDQpDT1VSU0UgDQpPQkpFQ1RJVkVTDQpVcG9uIA0KdGhlIHN1Y2Nlc3NmdWwgY29tcGxl
+dGlvbiBvZiB0aGlzIGludGVuc2l2ZSB0cmFpbmluZyBjb3Vyc2UsIHRoZSBwYXJ0aWNpcGFu
+dHMgDQp3aWxsIGdhaW4gYSBxdWFsaXR5IHVuZGVyc3RhbmRpbmcgb2Y6DQpUaGUgDQogIHJv
+bGUgYW5kIHRoZSBpbXBvcnRhbmNlIG9mIGVudmlyb25tZW50YWwgc2FmZWd1YXJkcyBmb3Ig
+dGhlIGludmVzdG1lbnQgDQogIHBlcmZvcm1hbmNlDQpFbnZpcm9ubWVudCANCiAgYW5kIFNv
+Y2lhbCBBc3Nlc3NtZW50IHJlcXVpcmVtZW50cyBhbmQgcHJvY2VkdXJlcyBvZiBtYWpvciBp
+bnRlcm5hdGlvbmFsIA0KICBvcmdhbml6YXRpb25zIGFuZCBkb25vcnMgZm9yIGRldmVsb3Bt
+ZW50IHByb2plY3RzDQpUaGUgDQogIHJvbGVzIG9mIGRpZmZlcmVudCBzdGFrZWhvbGRlcnMg
+aW4gdGhlIGltcGxlbWVudGF0aW9uIG9mIEVudmlyb25tZW50IGFuZCANCiAgU29jaWFsIE1p
+dGlnYXRpb24gTWVhc3VyZXMNClNhZmVndWFyZHMgDQogIEJlc3QgcHJhY3RpY2VzLCBFZmZl
+Y3RpdmVuZXNzIG1vbml0b3JpbmcgYW5kIFJlcG9ydGluZyANCiAgcHJvY2VkdXJlcw0KRFVS
+QVRJT04NCjUgDQpEYXlzDQpXSE8gDQpTSE9VTEQgQVRURU5EPw0KTWVtYmVycyANCiAgb2Yg
+Zm9jYWwgYWdlbmNpZXMgaW52b2x2ZWQgaW4gZGV2ZWxvcG1lbnQgcGxhbm5pbmcgYXQgcHJv
+dmluY2lhbCwgbmF0aW9uYWwgYW5kIA0KICBzdWItcmVnaW9uYWwgbGV2ZWxzDQpFbXBsb3ll
+ZXMgDQogIGF0IGVuZXJneSwgdHJhbnNwb3J0LCBwbGFubmluZywgZmluYW5jZSBhbmQgcHJv
+dmluY2lhbCBnb3Zlcm5tZW50IA0KICBvZmZpY2VzDQpNaWRkbGUtTGV2ZWwgDQogIG9yIFNl
+bmlvciBHb3Zlcm5tZW50IE9mZmljaWFscw0KUmVnaW9uYWwgDQogIEZvcmVzdCBPZmZpY2Vy
+cyAmIENvbnNlcnZhdG9ycw0KRW52aXJvbm1lbnQgDQogIGFuZCBTb2NpYWwgQ29uc3VsdGFu
+dHMgYW5kIFByYWN0aXRpb25lcnMNClNhZmV0eSANCiAgT2ZmaWNlcnMNClByb2plY3QgDQog
+IE1hbmFnZXJzICYgUHJvamVjdCBJbXBsZW1lbnRhdGlvbiBUZWFtIE1lbWJlcnMNCk5HTyAN
+CiAgTWVtYmVycyBpbnRlcmVzdGVkIGluIEVudmlyb25tZW50YWwgJiBTb2NpYWwgU2FmZWd1
+YXJkcyANCiAgUG9saWNpZXMuDQpDT1VSU0UgDQpPVVRMSU5FLg0KRGVmaW5pbmcgDQogIEVu
+dmlyb25tZW50YWwgJiBTb2NpYWwgU2FmZWd1YXJkcw0KVGhlIA0KICBSb2xlICYgdGhlIElt
+cG9ydGFuY2Ugb2YgU2FmZWd1YXJkcyBmb3IgRGV2ZWxvcG1lbnQgDQogIFByb2plY3RzDQpF
+bnZpcm9ubWVudGFsIA0KICBhbmQgc29jaWFsIHNjcmVlbmluZw0KU29jaWFsIA0KICBhbmQg
+ZW52aXJvbm1lbnRhbCBtb25pdG9yaW5nDQpFbnZpcm9ubWVudCANCiAgYW5kIFNvY2lhbCBp
+bXBhY3QgQXNzZXNzbWVudCBQb2xpY3kNCkZ1bmRhbWVudGFscyANCiAgb2YgZW52aXJvbm1l
+bnRhbCBhbmQgc29jaWFsIGltcGFjdCBhc3Nlc3NtZW50IGdvb2QgDQogIHByYWN0aWNlDQpE
+TyANCiAgTk8gSEFSTSENCkNvbnNpZGVyaW5nIA0KICB0aGUgdnVsbmVyYWJsZSBpbiBzb2Np
+ZXR5DQpFbnN1cmluZyANCiAgYmVuZWZpdHMgc2hhcmluZw0KU3Rha2Vob2xkZXIgDQogIEVu
+Z2FnZW1lbnQNClNvY2lhbCANCiAgU2FmZWd1YXJkLCBTdGFuZGFyZHMsIGFuZCBTb2NpYWwg
+aXNzdWVzDQpJbnZvbHVudGFyeSANCiAgUmVzZXR0bGVtZW50IFBvbGljeQ0KUmVzZXR0bGVt
+ZW50IA0KICBhbmQgY29tcGVuc2F0aW9uDQpQYXJ0aWNpcGF0aW9uIA0KICBhbmQgSW5jbHVz
+aW9uIG9mIGluZGlnZW5vdXMgcGVvcGxlDQpGb3Jlc3QtZGVwZW5kZW50IA0KICBwZW9wbGUN
+CkNvbnNpZGVyYXRpb24gDQogIG9mIEdlbmRlciBhbmQgb3RoZXIgY3Jvc3MtY3V0dGluZyBp
+c3N1ZXMNClNoaWZ0aW5nIA0KICBjdWx0aXZhdGlvbiwgZGVmb3Jlc3RhdGlvbiwgYW5kIGdl
+bmRlcg0KUHJvdGVjdGlvbiANCiAgb2YgTmF0dXJhbCBIYWJpdGF0cw0KQmlvZGl2ZXJzaXR5
+IA0KICBTdGFuZGFyZHMsIEluZGljYXRvcnMgYW5kIENvbnNlcnZhdGlvbg0KU3VzdGFpbmFi
+bGUgDQogIE5hdHVyYWwgUmVzb3VyY2UgTWFuYWdlbWVudA0KUGVzdGljaWRlIA0KICBVc2Ug
+YW5kIEdyZWVuaG91c2UgR2FzIEVtaXNzaW9ucw0KUG9sbHV0aW9uIA0KICBQcmV2ZW50aW9u
+IGFuZCBBYmF0ZW1lbnQNCkxlc3NvbnMgDQogIExlYXJuZWQgZnJvbSBDb21tdW5pdHkgRm9y
+ZXN0cnkgYW5kIFRoZWlyIFJlbGV2YW5jZQ0KTGVnYWwgDQogIExpdGVyYXJ5IGFuZCBBZHZv
+Y2FjeQ0KQ29uc2lkZXJpbmcgDQogIEludGVuZGVkIGFuZCBVbmludGVuZGVkIGNvbnNlcXVl
+bmNlcw0KVGhlIA0KICBpbXBvcnRhbmNlIG9mIG9uZ29pbmcsIG1lYW5pbmdmdWwgY29uc3Vs
+dGF0aW9uDQpJbnRlZ3JhdGlvbiANCiAgb2YgZW52aXJvbm1lbnQgYW5kIHNvY2lhbCBzYWZl
+Z3VhcmRzIGludG8gVHJhbnNwb3J0ICYgRW5lcmd5IA0KICBwcm9qZWN0cw0KTGVhcm5pbmcg
+DQogIGZyb20gaW50ZXJuYXRpb25hbCBhbmQgcmVnaW9uYWwgZXhwZXJpZW5jZSBpbiBpZGVu
+dGlmeWluZyBrZXkgYW5kIHJlY3VycmVudCANCiAgaXNzdWVzDQpTdHJlbmd0aGVuaW5nIA0K
+ICBwcm9qZWN0IHNhZmVndWFyZCBwZXJmb3JtYW5jZQ0KQWxpZ25pbmcgDQogIHByb2plY3Rz
+IHRvIG5hdGlvbmFsIHBsYW5zIGFuZCBzaWduZWQgY291bnRyeSANCmFncmVlbWVudHMNCk1l
+dGhvZG9sb2d5DQpUaGUgDQppbnN0cnVjdG9yIGxlZCB0cmFpbmluZ3MgYXJlIGRlbGl2ZXJl
+ZCB1c2luZyBhIGJsZW5kZWQgbGVhcm5pbmcgYXBwcm9hY2ggYW5kIA0KY29tcHJpc2VzIG9m
+IHByZXNlbnRhdGlvbnMsIGd1aWRlZCBzZXNzaW9ucyBvZiBwcmFjdGljYWwgZXhlcmNpc2Us
+IHdlYi1iYXNlZCANCnR1dG9yaWFscyBhbmQgZ3JvdXAgd29yay4gT3VyIGZhY2lsaXRhdG9y
+cyBhcmUgc2Vhc29uZWQgaW5kdXN0cnkgZXhwZXJ0cyB3aXRoIA0KeWVhcnMgb2YgZXhwZXJp
+ZW5jZSwgd29ya2luZyBhcyBwcm9mZXNzaW9uYWwgYW5kIHRyYWluZXJzIGluIHRoZXNlIA0K
+ZmllbGRzLg0KS2V5IA0KTm90ZXMNCmEuIA0KVGhlIHBhcnRpY2lwYW50IG11c3QgYmUgY29u
+dmVyc2FudCB3aXRoIEVuZ2xpc2guDQpiLiANCkNvdXJzZSBkdXJhdGlvbiBpcyBmbGV4aWJs
+ZSBhbmQgdGhlIGNvbnRlbnRzIGNhbiBiZSBtb2RpZmllZCB0byBmaXQgYW55IG51bWJlciAN
+Cm9mIGRheXMuDQpjLiANClRoZSBjb3Vyc2UgZmVlIGluY2x1ZGVzIGZhY2lsaXRhdGlvbiB0
+cmFpbmluZyBtYXRlcmlhbHMgYW5kIGEgDQpjZXJ0aWZpY2F0ZSANCnVwb24gc3VjY2Vzc2Z1
+bCBjb21wbGV0aW9uIG9mIFRyYWluaW5nLg0KZC4gDQpPbmUteWVhciBwb3N0LXRyYWluaW5n
+IHN1cHBvcnQgQ29uc3VsdGF0aW9uIGFuZCBDb2FjaGluZyBwcm92aWRlZCBhZnRlciB0aGUg
+DQpjb3Vyc2UuDQpUSEUgDQpFTkQNCsKgDQrCoA0KPGh0dHA6Ly90cmFja2luZy5za2lsbHNm
+b3JhZnJpY2Eub3Iua2UvdHJhY2tpbmcvdW5zdWJzY3JpYmU/ZD1VUHMwLW12SVBWeUtjVEhK
+Y0dPS1lpUWpBQmQ0YTRLa1ZXUWd6VUFDQzZlVWIwQndvakczUmdDLVBKc3JWM28wWVFTRFIx
+cVQxUjNJN05pZmdGSWZYeW9IdlFGQUhENEZOV09TenhwdThXWXgwPg0KVU5TVUJTQ1JJQkUN
+CjxodHRwOi8vdHJhY2tpbmcuc2tpbGxzZm9yYWZyaWNhLm9yLmtlL3RyYWNraW5nL2JvdGNs
+aWNrP21zZ2lkPWhGVU5YVkZvQWNBdElyaXJqRWpMcWcyJmM9MTQ2ODU2MDY1MDAzMTgyOTkz
+MT4NCg==
+
+--=-eZCfDETg0B36Aci/aeg7QDvIwA5H39I0y3WKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<DIV=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: #15b055 1.5pt solid; PADDING-BOTTOM: 4pt; PADDING-TOP: 0cm; PADD=
+ING-LEFT: 0cm; BORDER-LEFT: medium none; PADDING-RIGHT: 0cm; mso-eleme=
+nt: para-border-div">
+<P class=3DMsoNormal=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BO=
+TTOM: medium none; PADDING-BOTTOM: 0cm; TEXT-ALIGN: justify; PADDING-T=
+OP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: medium none; MARGIN: 0cm 0cm =
+0pt; LINE-HEIGHT: normal; PADDING-RIGHT: 0cm; mso-outline-level: 2; ms=
+o-border-bottom-alt: solid #15B055 1.5pt; mso-padding-alt: 0cm 0cm 4.0=
+pt 0cm"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D4RSOG=
+eS5HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KMAWYpkzKj71cD1lq0sqMLTFIh7u0ISkQx=
+d9h1Ncq0QeEaQHSN2Xii0Y_X5ZldJE_xrA1qJHeHzEAiWXVPS36p6TgBHYgqb85tcUmJXn=
+1N2K1E1"><SPAN=20
+style=3D"FONT-SIZE: 11pt; TEXT-DECORATION: none; FONT-WEIGHT: normal; =
+COLOR: windowtext; text-underline: none"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;</SPAN></SPAN><FONT color=3D#410082>=
+<SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>Environmental=20
+And Social Safeguards Training Workshop </SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; FONT-WEIGHT: n=
+ormal'><?xml:namespace=20
+prefix =3D "o" ns =3D "urn:schemas-microsoft-com:office:office"=20
+/><o:p></o:p></SPAN></FONT></A></SPAN></B></P></DIV>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<TABLE class=3DMsoNormalTable=20
+style=3D"WIDTH: 442.75pt; BACKGROUND: #202c45; BORDER-COLLAPSE: collap=
+se; mso-yfti-tbllook: 1184"=20
+cellSpacing=3D0 cellPadding=3D0 width=3D738 border=3D0>
+  <THEAD>
+  <TR style=3D"HEIGHT: 23.65pt; mso-yfti-irow: 0; mso-yfti-firstrow: y=
+es">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: n=
+ormal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: w=
+hite'>Dates<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt; LINE-HEIGHT: =
+normal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: w=
+hite'>Fee</SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt; LINE-HEIGHT: =
+normal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: w=
+hite'>Location<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 23.65pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom>
+      <P class=3DMsoNormal=20
+      style=3D"TEXT-ALIGN: center; MARGIN: 0cm 0cm 10pt; LINE-HEIGHT: =
+normal"=20
+      align=3Dcenter><B><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: w=
+hite'>Apply<o:p></o:p></SPAN></B></P></TD></TR></THEAD>
+  <TBODY>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 1">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>11/03/2024<B>&nbsp;-</B>&nbsp;15/03/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZESVBQhDZ=
+GsYIqRhkUXwv3z7Qcm7MVAN2PQnuhEXGnZ1_owyaAw73ijHcO8vLhIYWD_Ld4man_90WNr=
+dHczLDITxa4JXEsokinRJ_6gfggYnxL00"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1nZbB7p=
+2kUt2_AEfPJUjBK2YozcxdgOwDCYoEZBle2tP-CYOJfcFQxBTHXFOddXPtBLQ9b5_ITLCr=
+-yy4QmMWoORW5My5tYRA5tKwtqNFGRx40"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 2">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>08/04/2024<B>&nbsp;-</B>&nbsp;12/04/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$2950<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Kigali<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZESldJkCh=
+XMcSAcLInjt6vXGT5pM28nYmGzUfIVE0ECbu3ZTRqZBNz0pcfPloHMG64WSa9kOCQsMk4c=
+ZudHssRCE7eWgI6TvQ_JiOKv5y8A4POT0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1VJEgKU=
+JZfg3kEuPnUYgPnb14z5NVQPkVhh3e_EgBhXim5voDnXOTpzw_cjJYVkvo_mXTEG9eYK_v=
+N6jNpvVdvhsxZzwzP_L1elHlIk4c5YRL0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 3">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>13/05/2024<B>&nbsp;-</B>&nbsp;17/05/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$4500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Dubai<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZES12yxog=
+8_LEpCQg41kIeW8pOL-dextlPWukS5xmgz1AXHJXZe5jx0IpF2ky1h7U6EoVNSwFdXMmb-=
+Zd9tLJsdjiNXxfSELmUGXHo2t_GKwJ0v0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb18YWnH5=
+0qIB5UXoXn1kSZKIpsuHHfg2k_KslPgsu88wJ41HeLwS5BwchBf3_Rm99PGqeRkMFww_tz=
+r3ADGoIQ30y8g9nyjY6fM_tlTTx3Mey20"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 4">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>10/06/2024<B>&nbsp;-</B>&nbsp;14/06/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZES7uFPVU=
+a9CyjfhtMJJG7hHZZVMAXIxJKGLpXB_GO4qlKrGti2axQDBcRkxUNxr7mHpo8UmJMWvSdM=
+284PqBbksfoZOWVj0YoYY7LKO5WcQf1d0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1wWzmEc=
+zSXqriG65BLQbX1QcSIC-u0roxP3vsYUi4a3-P7DJS7bfloTab9xurYgJJtsLXovkl5Ser=
+K7Y5JTvggv4qFgffU6SjZQQXuvv3-OKl0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 5">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>08/07/2024<B>&nbsp;-</B>&nbsp;12/07/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZESTGJ9z6=
+fLqJ5F860avizO2Dkqx8sFzOvzwVBEDUeM1ULbUlOL9yB4u9kusayZHghwnPsXimC3IV7P=
+TUWKOU9Rp3lZ_eJNXjLApxhauG6I99Z90"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1upLE99=
+iYk2vqu1BRzZmiJVTolKOs-eFQDsHV6PWEomoyrYS9qqasbl7BATlWRxeqClnecU4rmB65=
+ZJfPOTch6vI72CYFdmJZWiofdSci2mDg0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 6">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>12/08/2024<B>&nbsp;-</B>&nbsp;16/08/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZESYsRl0T=
+bmSO8RKo9sYhFhsy-zUlw7SA6cr__-dgkSCzh1bFq0krFmtlJW4ZpA1r25oXvjpDD0McOa=
+uYIb95wuLpGwxs5lxkm0Fg672KdLwNvK0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1KXyZoX=
+Rfd6yL5MXzpP2EbsFxGalWs42mMmcO-HCQNNJg8yG7lqWCvaL3VZDAzecjWwA5ibj8r--e=
+7MwI4yIZRPyBtTVj82yJE4vw_0ykCHyG0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 7">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>09/09/2024<B>&nbsp;-</B>&nbsp;13/09/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZESqQpumI=
+9bS9Cfj7CYYgVD630I-ebs40cHvkxxk5OaM0Bo8MAruZnlcpZUAtdsv5f8a_GGIwkckIIU=
+CGS51oimg2j5RVzvrbYsLybGc_k-ZtEm0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb18VAO2M=
+EFq2ubX_8donJg-zET6YgdV0l28GmBHh9SZ0QMfMzevNc96_ry4VaMlFLnX_v1IBTXhzCs=
+k4HyFurh2dmRIArP0fUyhvfekOIFPp_20"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 8">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>11/11/2024<B>&nbsp;-</B>&nbsp;15/11/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Mombasa<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZES5DJHIY=
+LtQx10htSWUynHmVaZdjDQ4gxu4-umI7Zt_8ZLi6yUnJXf2JcMOBreDxvUj98B1hQ_waPg=
+vgfVDbfq7PntKVNkmfiL5nt7cUwhMpFU0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb1UPaHIu=
+xqRWemzTJH2OiWoafFOZS4T2mvVMA131yH37JTToJZHveM9VuVIY97eorw_MtVrJ6a8iVy=
+FF8vu-S3cLwRmnj2PXCZQpmqXycKdqep0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #dc3545; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 50.85pt; mso-yfti-irow: 9; mso-yfti-lastrow: ye=
+s">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: =
+normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>09/12/2024<B>&nbsp;-</B>&nbsp;13/12/2024<o:p></o:p></SPAN></=
+P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>$1500<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'>Nairobi<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; HEIGHT: 50.85pt; BORDER-RIGHT: #f0f0=
+f0; BORDER-BOTTOM: #dddddd 1pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent; mso-border-bottom-alt: solid #DDDDDD .75p=
+t; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; COLOR: a=
+liceblue'><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNQpf4iFW0o2cUwF-xOZZES-stnTU=
+SSN95tsfh5cRCnS5G4sYHawHVvU1ckID4W2O7Hg4wBEPc04-EqzYTDuDSbTfiri32qLt2C=
+3Q00y-rFlJtaL9cwmWJbdc4Sa3a_4ygn0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #ffc107; BORDER-BOTTOM: windowtext 1pt; COLOR: #212529;=
+ PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT=
+: windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext =
+0cm"><FONT=20
+      face=3D"Times New Roman">Physical Class</FONT></SPAN></A><BR><BR=
+><A=20
+      style=3D"OUTLINE-WIDTH: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: no=
+ne; PADDING-LEFT: 0px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; -web=
+kit-font-smoothing: antialiased; border-radius: 0.2rem"=20
+      href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D=
+Woapoy-pTrFhh792RHeJ9-Rt225YYsPmWjNWsqqrTtNpk0e_NgUSCUIcCszYIKb139JL0D=
+FmLBDMV8HAVEwBOxSq3t1Q5NPki2d9B3uwONHW185HWb2u6rzQHWrWDJXcuWVh0C3Ji9hO=
+cqL5V7o-sQMWDjn_gyIZG6hOVqWoTznh0"><SPAN=20
+      style=3D"BORDER-TOP: windowtext 1pt; BORDER-RIGHT: windowtext 1p=
+t; BACKGROUND: #c82333; BORDER-BOTTOM: windowtext 1pt; COLOR: white; P=
+ADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; BORDER-LEFT: =
+windowtext 1pt; PADDING-RIGHT: 0cm; mso-border-alt: none windowtext 0c=
+m"><FONT=20
+      face=3D"Times New Roman">Online=20
+    Class</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR></TBODY></T=
+ABLE>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none"><FONT=20
+face=3DCalibri>&nbsp;</FONT></SPAN></o:p></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D4RSOG=
+eS5HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KMSa90TlGCKKJ5hIH4i_iwQ0d41EF_0NMb=
+u5fnrdqY-rK5UdCcqAjJSWHwzdjv7QxtTZVs6j5WWRcOF3PMF7zEzLufPoRSyGBjmAGZPh=
+uB_Ncw1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Calendar fo=
+r 2024=20
+Workshops<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3D4RSOG=
+eS5HI6KFJixQpykUH7SBDSj0A2EdHdcqqEk-KNeMtBVqwr0Ob8EtQE8EtVE_8sUfOibkMI=
+ExjY4njmRawoUmRYnIdkMSKBHJH-c9Zv8yXABrNJVoYH6xkYRN84PYdOyLBS3b6xTKQRwM=
+Sh6tOc1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Contact=20
+us<o:p></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<U><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><A=20
+href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3DTdO1g=
+CuQ71hpWL60BWNntuwf2IWJfk_kJQ_Oex5_ejgribUfd0-e3OkGIdAVFgpfiPx3gKQ6p2x=
+bPfyHJWcGIk7swqy3ig_ijfD_4kSA1uF4EW8PGnUe3Sbjj2OxeRjYH2htDXjCB-vpU3hQu=
+kNtuqI1" target=3D_blank><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-family: Calibri">Whatapp<o:p=
+></o:p></SPAN></A></SPAN></U></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>&nbsp;<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Office=20
+Telephone: +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT=20
+face=3DCalibri>Register as a group of 5 for the price of 4 on the cour=
+se fee.=20
+<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-family: Calibri"><FONT face=3D=
+Calibri>Send=20
+us an email: </FONT><A=20
+ href=3D"http://tracking.skillsforafrica.or.ke/tracking/click?d=3Dra_K=
+rquym_vAH7a0xfyiRRRJ0mmMognyg56kmPeJDcOATg5hRkN4jmHMwEzF0zgtO48KNNuLGU=
+dwlG1qKjUnbUM2IeT0IcOWbfJllT42JsXf6Y19QhWC8oKCg0wGVhMMvIt6goIlsalws49H=
+ba1gUACOvuUfTwygX5qqicI5lzIcbwrJ81gvWq3gajUqrCnqbuVjooh7AKDOUVoSXGFuNr=
+fhIl-yfrh1QjxxnLb_1HPA0" ><SPAN=20
+style=3D"mso-bidi-font-family: Calibri"><FONT=20
+color=3D#410082>training@skillsforafrica.org&nbsp;</FONT></SPAN></A><F=
+ONT=20
+face=3DCalibri>or call +254-702-249-449<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ; m=
+so-layout-grid-align: none"><B><SPAN=20
+lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ; m=
+so-layout-grid-align: none"><FONT=20
+face=3DCalibri><B><SPAN lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN">INTRODUCTION</SPAN></B><SPAN=20
+lang=3DEN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri; mso-ansi-language: EN"><o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>Safeguards=20
+Policies are indispensable instruments while attempting to intercept u=
+nmerited=20
+harm to the community and the surrounding environment throughout the d=
+evelopment=20
+process. Safeguards Policies support the assessment of anticipated ris=
+ks on the=20
+initial stage of project identification and designing. These instrumen=
+ts enable=20
+us to gauge the positive and negative impacts linked with any given de=
+velopment=20
+intervention. On the later stage of project implementation, safeguards=
+ ensure=20
+more effective management of risks and magnify constructive=20
+influence.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>An=20
+increasing number of countries are ratifying the application of safegu=
+ards=20
+through a range of investment planning, policies and regulations targe=
+ting to=20
+attain more sustainable development. This extensive training program h=
+as been=20
+designed specifically to address the stated requirement and support it=
+s=20
+participants with the necessary skills and knowledge in order to meet =
+with the=20
+social &amp; environmental safeguards guidelines and principles across=
+ the=20
+world.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>COURSE=20
+OBJECTIVES</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>Upon=20
+the successful completion of this intensive training course, the parti=
+cipants=20
+will gain a quality understanding of:<o:p></o:p></SPAN></P>
+<UL style=3D"MARGIN-TOP: 0cm" type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l2 level1 l=
+fo1"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>The=20
+  role and the importance of environmental safeguards for the investme=
+nt=20
+  performance<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l2 level1 l=
+fo1"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Environment=20
+  and Social Assessment requirements and procedures of major internati=
+onal=20
+  organizations and donors for development projects<o:p></o:p></SPAN><=
+/LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l2 level1 l=
+fo1"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>The=20
+  roles of different stakeholders in the implementation of Environment=
+ and=20
+  Social Mitigation Measures<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l2 level1 l=
+fo1"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Safeguards=20
+  Best practices, Effectiveness monitoring and Reporting=20
+  procedures<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>DURATION</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>5=20
+Days<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>WHO=20
+SHOULD ATTEND?</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'><o:p></o:p></SPAN></P>
+<UL style=3D"MARGIN-TOP: 0cm" type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Members=20
+  of focal agencies involved in development planning at provincial, na=
+tional and=20
+  sub-regional levels<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Employees=20
+  at energy, transport, planning, finance and provincial government=20
+  offices<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Middle-Level=20
+  or Senior Government Officials<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Regional=20
+  Forest Officers &amp; Conservators<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Environment=20
+  and Social Consultants and Practitioners<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Safety=20
+  Officers<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Project=20
+  Managers &amp; Project Implementation Team Members<o:p></o:p></SPAN>=
+</LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l1 level1 l=
+fo2"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>NGO=20
+  Members interested in Environmental &amp; Social Safeguards=20
+  Policies.<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12pt;=
+ LINE-HEIGHT: 17.15pt"><B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'>COURSE=20
+OUTLINE.</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACING=
+: 0.7pt'><o:p></o:p></SPAN></P>
+<UL style=3D"MARGIN-TOP: 0cm" type=3Ddisc>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Defining=20
+  Environmental &amp; Social Safeguards<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>The=20
+  Role &amp; the Importance of Safeguards for Development=20
+  Projects<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Environmental=20
+  and social screening<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Social=20
+  and environmental monitoring<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Environment=20
+  and Social impact Assessment Policy<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Fundamentals=20
+  of environmental and social impact assessment good=20
+  practice<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>DO=20
+  NO HARM!<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Considering=20
+  the vulnerable in society<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Ensuring=20
+  benefits sharing<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Stakeholder=20
+  Engagement<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Social=20
+  Safeguard, Standards, and Social issues<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Involuntary=20
+  Resettlement Policy<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Resettlement=20
+  and compensation<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Participation=20
+  and Inclusion of indigenous people<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Forest-dependent=20
+  people<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Consideration=20
+  of Gender and other cross-cutting issues<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Shifting=20
+  cultivation, deforestation, and gender<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Protection=20
+  of Natural Habitats<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Biodiversity=20
+  Standards, Indicators and Conservation<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Sustainable=20
+  Natural Resource Management<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Pesticide=20
+  Use and Greenhouse Gas Emissions<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Pollution=20
+  Prevention and Abatement<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Lessons=20
+  Learned from Community Forestry and Their Relevance<o:p></o:p></SPAN=
+></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Legal=20
+  Literary and Advocacy<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Considering=20
+  Intended and Unintended consequences<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>The=20
+  importance of ongoing, meaningful consultation<o:p></o:p></SPAN></LI=
+>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Integration=20
+  of environment and social safeguards into Transport &amp; Energy=20
+  projects<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Learning=20
+  from international and regional experience in identifying key and re=
+current=20
+  issues<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Strengthening=20
+  project safeguard performance<o:p></o:p></SPAN></LI>
+  <LI class=3DMsoNormal=20
+  style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 12p=
+t; LINE-HEIGHT: 17.15pt; tab-stops: list 36.0pt; mso-list: l0 level1 l=
+fo3"><SPAN=20
+  style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; LETTER-SPACI=
+NG: 0.7pt'>Aligning=20
+  projects to national plans and signed country=20
+agreements<o:p></o:p></SPAN></LI></UL>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: 15pt"><B><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>Methodology</SPAN></B><SPAN=
+=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>The=20
+instructor led trainings are delivered using a blended learning approa=
+ch and=20
+comprises of presentations, guided sessions of practical exercise, web=
+-based=20
+tutorials and group work. Our facilitators are seasoned industry exper=
+ts with=20
+years of experience, working as professional and trainers in these=20
+fields.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><B><U><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>Key=20
+Notes</SPAN></U></B><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>a.=20
+The participant must be conversant with English</SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>b.=20
+Course duration is flexible and the contents can be modified to fit an=
+y number=20
+of days.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>c</SPAN><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>.=20
+The course fee includes facilitation training materials and </SPAN><SP=
+AN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>a=20
+c</SPAN><SPAN lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>ertificate=20
+upon successful completion of Training.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 7.5pt=
+; LINE-HEIGHT: normal"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>d</SPAN><SPAN=20
+lang=3Den-KE=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri; mso-ansi-language: #0C00'>.=20
+One-year post-training support Consultation and Coaching provided afte=
+r the=20
+course.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt =
+36pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-line-=
+height-alt: 11.2pt"><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria",serif; mso-bidi-font-=
+family: Calibri'>THE=20
+END<o:p></o:p></SPAN></B></P>
+<P class=3DMsoListParagraph style=3D"MARGIN: 5pt 0cm 0pt 22.5pt"><SPAN=
+=20
+style=3D'FONT-FAMILY: "Calibri",sans-serif'><o:p>&nbsp;</o:p></SPAN></=
+P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 10pt"><SPAN=20
+style=3D"FONT-SIZE: 12pt; LINE-HEIGHT: 115%; mso-bidi-font-family: Cal=
+ibri"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></SPAN></P></BODY></HTML>
+
+<img src=3D"http://tracking.skillsforafrica.or.ke/tracking/open?msgid=3D=
+hFUNXVFoAcAtIrirjEjLqg2&c=3D1468560650031829931" style=3D"width:1px;he=
+ight:1px" alt=3D"" /><div style=3D"text-align:center; background-color=
+:#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:s=
+ans-serif;"><a href=3D"http://tracking.skillsforafrica.or.ke/tracking/=
+unsubscribe?d=3DUPs0-mvIPVyKcTHJcGOKYiQjABd4a4KkVWQgzUACC6eUb0BwojG3Rg=
+C-PJsrV3o0YQSDR1qT1R3I7NifgFIfXyoHvQFAHD4FNWOSzxpu8WYx0" style=3D"text=
+-align:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div><=
+a style=3D "display : none;" href=3D"http://tracking.skillsforafrica.o=
+r.ke/tracking/botclick?msgid=3DhFUNXVFoAcAtIrirjEjLqg2&c=3D14685606500=
+31829931"></a>
+--=-eZCfDETg0B36Aci/aeg7QDvIwA5H39I0y3WKzQ==--

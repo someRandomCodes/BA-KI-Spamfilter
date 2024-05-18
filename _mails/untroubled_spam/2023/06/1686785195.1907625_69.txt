@@ -1,0 +1,131 @@
+Return-Path: <alla.preobr@aari.ru>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1876598 invoked from network); 13 Jun 2023 23:18:20 -0000
+Received: from zmta-ext-01.aari.ru (zmta-ext-01.aari.ru [193.227.232.9])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 13 Jun 2023 23:18:20 -0000
+Received: from zmta-ext-01.aari.ru (localhost [127.0.0.1])
+	by zmta-ext-01.aari.ru (Postfix) with ESMTPS id 69949235E8;
+	Wed, 14 Jun 2023 01:57:31 +0300 (MSK)
+Received: from localhost (localhost [127.0.0.1])
+	by zmta-ext-01.aari.ru (Postfix) with ESMTP id B900A2328B;
+	Wed, 14 Jun 2023 01:22:52 +0300 (MSK)
+DKIM-Filter: OpenDKIM Filter v2.10.3 zmta-ext-01.aari.ru B900A2328B
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aari.ru;
+	s=5C29BC2A-64EF-11ED-BAA6-84FD234215B1; t=1686694973;
+	bh=sheVCaoNAH2YpPnV218ahzgNvRPs26pfoj0qwke8Los=;
+	h=Date:From:Message-ID:MIME-Version;
+	b=DLVd9NnYDMYjQvugNmMBA/pEFjijd/+3fotTX0C7JstjTcNUY15RMhm+WuyVtMh7F
+	 U9Uj+zRrGiLF7/+qgFf/92pWMdIZfo5hs8YBixVSoQXQs1hpdcjAwnpNenKCPCi/iW
+	 HZChjGWiepSIOb634blXldlmAW5eTOsSDpX8kXpY8dQEg6jd5j9v4x9XkB2bJqmsqj
+	 +T12acqjaPwwyNa5QuozkxVwLKTX55akF58Ws1Tx0KFlUSvbN6QYZFWdzDLAiNQOif
+	 wcfH3bunWPqeAGU5SzzuP+L5QU8Y+yCdFB4OA4QkaeqS32mgNFDQWAMGmqGKGjqs5g
+	 IHRCG369KwNMA==
+Received: from zmta-ext-01.aari.ru ([127.0.0.1])
+	by localhost (zmta-ext-01.aari.ru [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id 1Q92N75qaSg6; Wed, 14 Jun 2023 01:22:52 +0300 (MSK)
+Received: from zmta-local-02.aari.ru (unknown [10.31.46.66])
+	by zmta-ext-01.aari.ru (Postfix) with ESMTPS id D094623283;
+	Wed, 14 Jun 2023 01:22:51 +0300 (MSK)
+Received: from zmta-local-02.aari.ru (localhost [127.0.0.1])
+	by zmta-local-02.aari.ru (Postfix) with ESMTPS id 4F3A82129F;
+	Wed, 14 Jun 2023 01:22:51 +0300 (MSK)
+Received: from localhost (localhost [127.0.0.1])
+	by zmta-local-02.aari.ru (Postfix) with ESMTP id 6B42B2129B;
+	Wed, 14 Jun 2023 01:22:50 +0300 (MSK)
+DKIM-Filter: OpenDKIM Filter v2.10.3 zmta-local-02.aari.ru 6B42B2129B
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aari.ru;
+	s=5C29BC2A-64EF-11ED-BAA6-84FD234215B1; t=1686694970;
+	bh=sheVCaoNAH2YpPnV218ahzgNvRPs26pfoj0qwke8Los=;
+	h=Date:From:Message-ID:MIME-Version;
+	b=VjQfiXvLCFQtMIFOU7pzMDmf1hql8Rw1czVFNlO11iGU8ZFCCFyX2iKk6TAxK7HmX
+	 PMqvnNAdrXl0OUNoSkfi6930JnhlSfUyzxqD2iC0uIeenfNVMwfyeaXrEsMJc/l+Yu
+	 ymGWbuQhRQTBSWGYsEW/YtRB/EuOnc6PHEsEX/Ok6C68yrYLgFApKcdjESn6WaV7mk
+	 iANaz35dXVPOFbU2ZGCxwmHnBnqWnKG67t8R2w3ka14A31zv2TiCIVFCJOsdid2tdh
+	 CtcCzLhPOnQLmZp1b5EqBYs/9JyWAoyk3AqEH47nWzEGsPesoXtOjTC+7BindQgU0j
+	 Z+DwHSy8wawCA==
+Received: from zmta-local-02.aari.ru ([127.0.0.1])
+	by localhost (zmta-local-02.aari.ru [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id hVmwXPuNdOhU; Wed, 14 Jun 2023 01:22:50 +0300 (MSK)
+Received: from zmbox3.aari.ru (unknown [10.31.46.69])
+	by zmta-local-02.aari.ru (Postfix) with ESMTP id A24C2211D7;
+	Wed, 14 Jun 2023 01:22:45 +0300 (MSK)
+Date: Wed, 14 Jun 2023 01:22:45 +0300 (MSK)
+From: Os Illuminati <alla.preobr@aari.ru>
+Reply-To: Os Illuminati <theilluminatirecruitment@hotmail.com>
+Message-ID: <996445801.374063.1686694965572.JavaMail.zimbra@aari.ru>
+Subject: Junte-se aos illuminati.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_cb200974-8b28-4b82-9f88-a7941d676593"
+X-Originating-IP: [10.31.46.61]
+X-Mailer: Zimbra 9.0.0_ZEXTRAS_20221203 (ZimbraWebClient - FF114 (Win)/9.0.0_ZEXTRAS_20221203)
+Thread-Index: Zej8X88bEtCDtaaWVWWPrnKoreL81A==
+Thread-Topic: Junte-se aos illuminati.
+Content-Length: 3562
+
+--=_cb200974-8b28-4b82-9f88-a7941d676593
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+--=20
+Sauda=C3=A7=C3=B5es, do imp=C3=A9rio da elite mundial illuminati. Voc=C3=AA=
+ =C3=A9 um homem/mulher de neg=C3=B3cios, pol=C3=ADtico, m=C3=BAsico, estud=
+ante, jogador de futebol,=20
+assalariado e voc=C3=AA quer ser rico, precisa de prote=C3=A7=C3=A3o, ganha=
+r conhecimento, poderoso e ser famoso na vida.=20
+Voc=C3=AA pode realizar seus sonhos sendo um membro do grande imp=C3=A9rio =
+illuminati para ganhar muitos benef=C3=ADcios,=20
+Com isso, todos os seus sonhos e desejos do cora=C3=A7=C3=A3o podem ser ple=
+namente realizados.=20
+
+Com este breve resumo, se voc=C3=AA est=C3=A1 interessado em se tornar um m=
+embro da grande=20
+illuminati ent=C3=A3o volte para n=C3=B3s para mais informa=C3=A7=C3=B5es e=
+ explica=C3=A7=C3=B5es sobre como se juntar aos illuminati.=20
+Por favor, responda-nos de volta em nosso e-mail de recrutamento direto ape=
+nas em: theilluminatirecruitment@hotmail.com=20
+Por favor, certifique-se de que todas as suas respostas sejam enviadas dire=
+tamente para o e-mail indicado acima apenas em:> theilluminatirecruitment@h=
+otmail.com=20
+Para obter mais instru=C3=A7=C3=B5es sobre nosso processo de ades=C3=A3o.=
+=20
+Observa=C3=A7=C3=A3o: alguns provedores de e-mail colocam incorretamente as=
+ mensagens oficiais dos Illuminati em suas pastas de spam/lixo ou de promo=
+=C3=A7=C3=B5es.=20
+Isso pode desviar e excluir nossas respostas aos seus e-mails.=20
+
+Os Illuminati.=20
+
+--=_cb200974-8b28-4b82-9f88-a7941d676593
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"font-family: arial, helvetica, sans-serif; font-s=
+ize: 12pt; color: #000000"><div><br></div><div><br></div><div data-marker=
+=3D"__SIG_POST__">-- <br></div><div><div><strong>Sauda=C3=A7=C3=B5es, do im=
+p=C3=A9rio da elite mundial illuminati. Voc=C3=AA =C3=A9 um homem/mulher de=
+ neg=C3=B3cios, pol=C3=ADtico, m=C3=BAsico, estudante, jogador de futebol,<=
+/strong><br><strong>assalariado e voc=C3=AA quer ser rico, precisa de prote=
+=C3=A7=C3=A3o, ganhar conhecimento, poderoso e ser famoso na vida.</strong>=
+<br><strong>Voc=C3=AA pode realizar seus sonhos sendo um membro do grande i=
+mp=C3=A9rio illuminati para ganhar muitos benef=C3=ADcios,</strong><br><str=
+ong>Com isso, todos os seus sonhos e desejos do cora=C3=A7=C3=A3o podem ser=
+ plenamente realizados.</strong><br><br><strong>Com este breve resumo, se v=
+oc=C3=AA est=C3=A1 interessado em se tornar um membro da grande</strong><br=
+><strong>illuminati ent=C3=A3o volte para n=C3=B3s para mais informa=C3=A7=
+=C3=B5es e explica=C3=A7=C3=B5es sobre como se juntar aos illuminati.</stro=
+ng><br><strong>Por favor, responda-nos de volta em nosso e-mail de recrutam=
+ento direto apenas em: theilluminatirecruitment@hotmail.com</strong><br><st=
+rong>Por favor, certifique-se de que todas as suas respostas sejam enviadas=
+ diretamente para o e-mail indicado acima apenas em:&gt; theilluminatirecru=
+itment@hotmail.com</strong><br><strong>Para obter mais instru=C3=A7=C3=B5es=
+ sobre nosso processo de ades=C3=A3o.</strong><br><strong>Observa=C3=A7=C3=
+=A3o: alguns provedores de e-mail colocam incorretamente as mensagens ofici=
+ais dos Illuminati em suas pastas de spam/lixo ou de promo=C3=A7=C3=B5es.</=
+strong><br><strong>Isso pode desviar e excluir nossas respostas aos seus e-=
+mails.</strong><br><br><strong>Os Illuminati.</strong></div></div></div></b=
+ody></html>
+--=_cb200974-8b28-4b82-9f88-a7941d676593--

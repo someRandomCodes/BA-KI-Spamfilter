@@ -1,0 +1,170 @@
+Return-Path: <kamilah@questweb.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 324963 invoked from network); 20 Feb 2023 09:40:31 -0000
+Received: from mail-pl1-x641.google.com (mail-pl1-x641.google.com [IPv6:2607:f8b0:4864:20::641])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 20 Feb 2023 09:40:31 -0000
+Received: by mail-pl1-x641.google.com with SMTP id e5so1718845plg.8
+        for <bruce@untroubled.org>; Mon, 20 Feb 2023 01:40:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=questweb-info.20210112.gappssmtp.com; s=20210112;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=BHm4u0LQ0sJyEudK84o1tTHrFgFqpGqwFa+XcsQQyHI=;
+        b=2vtspDCUQ/yAQLudwI2O7EwRzX4cfCJnUKmKlC26wdd3mpukInPFTNH5TYH/Hf6FJ0
+         E4KEGWJh7VYvRK3VSFvnz8u5grl0XDOVfbHpeVwGzhsupSMknaq3hKmZP+Js5Hbw0RRC
+         vUqWX7h9tiXwvtWjMvd/qbeN6mj5yOfpHpwFwOLKAmiqcwSph16Sq8BLPPU5cXuuUv+E
+         70rlXiWBbiLe0qXC9M3WKBM6R+0PfOpI7fTSFWjwDou0wmsf5sXf8DUrOB49XlrLB59Y
+         wSQFFStcUUfGi/nrnv+duycvHAvHaEu4YFUD/u9EbAOrXySq6VbGcoJL+cAtP/Kkw6gZ
+         YAHA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=BHm4u0LQ0sJyEudK84o1tTHrFgFqpGqwFa+XcsQQyHI=;
+        b=3ExrmB50SOeRsaJse86I52//bz87XhwwurBQ7wMJYOo2VVKgULD8Zc92ROzvF+abYz
+         eSC05N4G/QaJW1glBKjby3KwubRsSu5zjj86Qv1//TRgEfw3UxXjzW35dNq5/X1OM1sl
+         646IK14HVHO+eGfGMVA1XKY0MB0wDXF1BfLjAE7m0q9p3M5Qs2z5fFqY9gIJlH3UPH5a
+         CAZEb3ex2i3eGjbTT/tJShBnyDSdK8ezwIaFnFHMsKXpWpU/Cd0S56uzZS9bTs1a/A5T
+         cNl8RzV8g+Es/3H7Wj+U+ldH8N/RNt0lCssRkRhtOSX5asgePRvFeeF6Ew/6WRVGmWHs
+         yd3A==
+X-Gm-Message-State: AO0yUKXldkcOqERPk2UBgQ2MfUpYOmt9cjCiQQxBATolMuP5QENv/Xgq
+	4yaOu8S47VGtyN8jnvTS/STff5lqkaC7CbtFloE=
+X-Google-Smtp-Source: AK7set/U4789M20NTZN5t9/ac5DmaNycWkB2bmxYoLq09lHpXD3eLN4wng8bl1O3/Kf10F0lREn/bQ==
+X-Received: by 2002:a17:902:db07:b0:19a:a8c5:2493 with SMTP id m7-20020a170902db0700b0019aa8c52493mr588187plx.67.1676886030095;
+        Mon, 20 Feb 2023 01:40:30 -0800 (PST)
+Return-Path: <kamilah@questweb.info>
+Received: from DESKTOP9RQVMI3 ([2405:201:402b:20ab:f5f5:746e:5538:89a3])
+        by smtp.gmail.com with ESMTPSA id r6-20020a170902be0600b00198b0fd363bsm7466846pls.45.2023.02.20.01.40.28
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Feb 2023 01:40:29 -0800 (PST)
+From: "Kamilah" <kamilah@questweb.info>
+To: <bruce@untroubled.org>
+Subject: Design & Develop Customized Websites
+Date: Mon, 20 Feb 2023 15:04:17 +0530
+Message-ID: <e4b601d9450f$5e8ee7b0$1bacb710$@questweb.info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_E4B8_01D9453D.789FA3F0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdlE8Ml+v2ehAvs4SrSezVjNemqUQw==
+Content-Language: en-us
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_E4B8_01D9453D.789FA3F0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ 
+
+Dear, 
+
+We are pleased to offer our services for your upcoming website development
+project. We are an experienced web development company with a proven track
+record of creating successful websites that help businesses reach their
+online goals.
+
+We understand the importance of delivering a website that is tailored to
+your needs and goals. Our web development team will work closely with you to
+create a website that meets your exact specifications. Our services include:
+
+. Designing and building a website that meets your unique needs 
+. Optimizing the website for search engine visibility 
+. Integrating the website with existing systems or software 
+. Developing custom features to enhance the user experience
+. Testing and debugging the website prior to deployment 
+. Providing ongoing maintenance and technical support
+
+We also offer a range of additional services, including content creation,
+e-commerce integration, and hosting.
+
+We look forward to discussing the details of your project with you. Please
+do not hesitate to contact us with any questions or to request a free quote.
+
+
+Sincerely, 
+[Kamilah]
+
+
+
+ 
+
+ 
+
+
+------=_NextPart_000_E4B8_01D9453D.789FA3F0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'color:black'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'color:black'>Dear, <br><br>We are =
+pleased to offer our services for your upcoming website development =
+project. We are an experienced web development company with a proven =
+track record of creating successful websites that help businesses reach =
+their online goals.<br><br>We understand the importance of delivering a =
+website that is tailored to your needs and goals. Our web development =
+team will work closely with you to create a website that meets your =
+exact specifications. Our services include:<br><br>&#8226; Designing and =
+building a website that meets your unique needs <br>&#8226; Optimizing =
+the website for search engine visibility <br>&#8226; Integrating the =
+website with existing systems or software <br>&#8226; Developing custom =
+features to enhance the user experience<br>&#8226; Testing and debugging =
+the website prior to deployment <br>&#8226; Providing ongoing =
+maintenance and technical support<br><br>We also offer a range of =
+additional services, including content creation, e-commerce integration, =
+and hosting.<br><br>We look forward to discussing the details of your =
+project with you. Please do not hesitate to contact us with any =
+questions or to request a free quote. <br><br>Sincerely, =
+<br>[Kamilah]<br><br></span><o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_E4B8_01D9453D.789FA3F0--
+

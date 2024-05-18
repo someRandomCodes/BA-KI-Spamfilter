@@ -1,0 +1,48 @@
+Return-Path: <james@marketingwoman.biz>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2367416 invoked from network); 27 Feb 2024 06:15:55 -0000
+Received: from marketingwoman.biz (marketingwoman.biz [IPv6:2a05:541:121:130::1])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 27 Feb 2024 06:15:55 -0000
+Received: from authenticated-user (marketingwoman.biz [83.217.9.241])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by marketingwoman.biz (Postfix) with ESMTPSA id 3A72E4CCE1
+	for <bruce@untroubled.org>; Tue, 27 Feb 2024 09:15:50 +0300 (+03)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=marketingwoman.biz;
+	s=mail; t=1709014551;
+	bh=/C96JWeqJgspl93koYOanylcNkqT9ZkoYOBI/w6Utok=;
+	h=Date:To:From:Reply-To:Subject:List-Unsubscribe:From;
+	b=r+xfDKqALWmqR4Ef/2oY+chhOJ/3L1Eopsv02o7Evl4/7tw9/QgB4Ez2ThkcU6nqj
+	 tdfTkMhDMhfHFFlF/oed7wweLUwRUac1DOdaXCvH+N90IkaxetkEKnED+/z2WOBphf
+	 DfRFH22TcNehxxQ8cF29BVMV4J4/FKdYBLLoUHLhnDKMkheeMdMuoICQNzyUgb8B/v
+	 /Igz0VYcuIN5DGJrCxPsK0w1+g28DtZUiqXQnC5u07xw8CPUxw+5rJqpoAssPbbqaV
+	 A/1pFC2zTzXjRhTKbtuBjcKxHsBLBbMjWIOrnPZgqAC8hk906+PH0az2++bSvIjCOp
+	 ENr/gid67VFTw==
+Date: Tue, 27 Feb 2024 07:15:48 +0100
+To: bruce@untroubled.org
+From: James Cooper <james@marketingwoman.biz>
+Reply-To: Your Website <james@marketingwoman.biz>
+Subject: untroubled.org is only listed in 8/2,500 directories
+Message-ID: <mxafQTEB84fak6pfYhjgt34wUZmJs0SXKfBTJimEENU@localhost>
+List-Unsubscribe: mailto:james@marketingwoman.biz?subject=Unsubscribe
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+Content-Length: 1019
+
+PCFkb2N0eXBlIGh0bWw+DQo8aHRtbD48Ym9keT5IaSB1bnRyb3VibGVkLm9yZywgPGJyLz48YnIv
+Pg0KDQpZb3VyIHdlYnNpdGUgdW50cm91YmxlZC5vcmcgaGFzIG9ubHkgYmVlbiByZWdpc3RlcmVk
+IGluIDggb3V0IG9mIDI1MDAgZGlyZWN0b3JpZXMuIFdlIGFyZSBoZXJlIHRvIGFzc2lzdCB5b3Ug
+Z2FpbiBvbmxpbmUgdmlzaWJpbGl0eSB0aGlzIGNvbWluZyAyMDI0LiA8YnIvPjxici8+DQoNCldl
+IGF0IGNvbXBhbnlyZWdpc3Rhci5vcmcgYXJlIGhlcmUgdG8gaGVscCB5b3UgZ2V0IHlvdXIgc2l0
+ZSBsaXN0ZWQgaW4gb3ZlciAyLDUwMCBkaXJlY3RvcnkgYW5kIGxpc3Rpbmcgc2l0ZXMgd29ybGQg
+d2lkZSEgPGJyLz48YnIvPg0KDQpJbiB1c2luZyBvdXIgc2VydmljZSB5b3UgZ2V0IGxpc3RlZCBp
+biBhbGwgb3VyIHByZW1pdW0gZGlyZWN0b3JpZXMuIEdldHRpZ24gbGlzdGVkIGlzIGltcG9ydGFu
+dCBpbiAyIHdheXMsIGZpcnN0bHkgeW91IGFyZSB2aXNpYmxlIGluIG51bWVyb3VzIG90aGVyIHdl
+YnNpdGVzLCBzZWNvbmRseSB5b3UgZ2V0IGEgaGlnaGVyIHNlYXJjaCBlbmdpbmUgcmF0aW5nIGFz
+IHlvdXIgc2l0ZSBnYWlucyBtb3JlIGF1dGhvcml0eS48YnIvPjxici8+DQoNClBsZWFzZSB2aXNp
+dCB1cyBhdCA8YSBocmVmPSdodHRwczovL3VudHJvdWJsZWQuY29tcGFueXJlZ2lzdGFyLm9yZy8n
+LnVudHJvdWJsZWQuJyc+aGVyZTwvYT4NCg0KPGJyLz4NCg0KRW1haWwgSUQ6IDlmYmQwMDwvYm9k
+eT4NCjwvaHRtbD4=
+

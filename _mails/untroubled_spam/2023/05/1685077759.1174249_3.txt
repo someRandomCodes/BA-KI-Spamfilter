@@ -1,0 +1,517 @@
+Return-Path: <CrabillHollace2000@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1166243 invoked from network); 25 May 2023 20:26:51 -0000
+Received: from EUR05-VI1-obe.outbound.protection.outlook.com (mail-vi1eur05olkn2090.outbound.protection.outlook.com [40.92.90.90])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 25 May 2023 20:26:50 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=dY108rC4tBJhxBUZ101z/yxB4uhOjXh5z4pqxQ1AiK8SMceB96XZx8IhxR+Q1uALH6c10Cx16fqM9jK7Nm6ZABNwYBUR4va+0UzTiQd1+VUhltRpI0nHbRmj6oaWwYjfu9wMewMpxgLUB3g+8gMsQJLyEz7CCGB2bJe7zXEnYkQJ2dmT0IvSZUbPoknju0aW0sCauaw5D8SxCveZLlPDSZK5DA+QlzxI/uSQH/cXrWG3xengCQnbrrSbkMeG3ySM0jJPxyRQyZuk9vdQTsKlWFH5a5nzXLzatPN3d8jZlTiFvPtXt2Oaaxd2YlhVC+i//23jNDS+zKSfAvp3e2DxTA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=hdcZH4pa+3KmmqPC07Ltl6MC2lx04qbnepfCYTj1ubE=;
+ b=NSYF2eyHIB4f22j1an4MPRl0XFKjG5axphjtQvIOuSda4j25fPG44RYSJTEsKGB16NInx5fqkKmkVQsibYdMmYkVxfsmmsi/ZPV1lEBGg26qMLWSE3tbd5Bp/AnWFQDtZfiE8FskDJymSZkUGC7PsPPZ2JBaRInOn8bTuW4cpIfHjsLDNLKYCyCXG+1Z0uc6xzh0qHs6yxRoj3QKz28hsY3iJlHsP2kUCM91pRfGyktGi/XmKDI2HEVeFWOQ8kUUDdWaEFEeT7CyJleZZa5CfR96JMmo7XyOa8bvOEZJr1AvGVD8qbdnMjA7xgqxSgj09eWmSgp0TqYaEAJ4PVYbGg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=hdcZH4pa+3KmmqPC07Ltl6MC2lx04qbnepfCYTj1ubE=;
+ b=T1FGD+u3XV7ZIyvi39PVbc6pIKYriJBZx8k4HqKajg/U83GBpN4Xw9HdWwXyv0dEo/1e0vSK14ZcxdtZLNslFbsmvzDsJK2m9iAyxwGeWNXfo8jReA4BaLP6p3Hoo6MZ2B5hBDWf7j0hJodSdrhWhxguTcN+vIiSOlI7xSTE6FkbcmH8uSrW6VwRyADINWC4Yj2QNKPkiuNr25yV7XoXNUsCOKhSNI4lmofNxC+xmDohUGl9VDcfzJzt976jgv8WKKCsP8AcStf5eyPBsLsGoolO2ubQWb6cvixaFb+NIPKtoxiy22yqs8VL9tfaj4fNIQI8fM9W80+Afo67EphsBA==
+Received: from VI1PR0201MB2382.eurprd02.prod.outlook.com (2603:10a6:800:54::9)
+ by DB9PR02MB7915.eurprd02.prod.outlook.com (2603:10a6:10:33c::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6433.16; Thu, 25 May
+ 2023 20:26:39 +0000
+Received: from VI1PR0201MB2382.eurprd02.prod.outlook.com
+ ([fe80::bf07:97d2:2efc:3a23]) by VI1PR0201MB2382.eurprd02.prod.outlook.com
+ ([fe80::bf07:97d2:2efc:3a23%4]) with mapi id 15.20.6411.021; Thu, 25 May 2023
+ 20:26:39 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "CrabillHollace2000@outlook.com" <CrabillHollace2000@outlook.com>
+Subject: Do you want to date a Ukrainian woman in the United Kingdom?
+Reply-To: "CrabillHollace2000@outlook.com" <CrabillHollace2000@outlook.com>
+Date: Thu, 25 May 2023 22:26:31 +0200
+Message-ID:
+ <VI1PR0201MB238217966019F3714F91EF7CC5469@VI1PR0201MB2382.eurprd02.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_C7BD_026B2A37.D3E73D64"
+To: Undisclosed recipients:;
+X-TMN: [V85/vRxeCGFmb3vSEUGpzV+OcyUX+21M]
+X-ClientProxiedBy: VI1PR0601CA0031.eurprd06.prod.outlook.com
+ (2603:10a6:800:1e::41) To VI1PR0201MB2382.eurprd02.prod.outlook.com
+ (2603:10a6:800:54::9)
+Return-Path: CrabillHollace2000@outlook.com
+X-Microsoft-Original-Message-ID: <1.3228b2d924b22d9c09f2@DESKTOP-KCLSUT3>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: VI1PR0201MB2382:EE_|DB9PR02MB7915:EE_
+X-MS-Office365-Filtering-Correlation-Id: 404ce51c-b59c-4f3f-7a28-08db5d5e54e5
+X-MS-Exchange-SLBlob-MailProps:
+	=?utf-8?B?TG1DUFJCY3R3N2hOM3VnNzNnWWoyRk1wMG9MSkZJTlo4T0NWcTMrLytQRXgy?=
+ =?utf-8?B?blJGUnJIcGJ6NDQyd1NiVXFtVXJMRjRLbGg2RmVZWjNxSEw3ZHNVb1paRWt2?=
+ =?utf-8?B?ZVFMTmtJT0djalFRYkVXR3pQK1YwK0x5SUdUaDVRVkpaOVVsMzRYNUpyaWFR?=
+ =?utf-8?B?YUhoWWJVRjk1TFFydHBoOGJBc1RIV0pVOWtJcWpnQTE1RTlJdUZ5M3dDVWdw?=
+ =?utf-8?B?MkttQmpQRlh5WWEvVzVLcGh3NEI1Z3Z5ZTZFT2tqYUx6UkU1clRBZk9DeTRJ?=
+ =?utf-8?B?eVdST0xQUFU5bUMyLzZvUUsyU2l3ZHlTeDB3allGQytDRi9uS0ZVelMxZ3Nu?=
+ =?utf-8?B?R3N4S3VVc0p5NGVSNFBmdmxrWHNhN2VpdjBHd0NCbUVVSlVVZVpxdmx6WHdl?=
+ =?utf-8?B?bU1aK0tjSHVZL0p3VDVYT0VFcFFuektUM1BjWHExc0JBNkp6aVVPcGpvbE0w?=
+ =?utf-8?B?YjMxWDhpdG9ESS95RXR2Yy9YS2g4UHpWOVRoL2F6R245T2NJb1JhYVUvbjF0?=
+ =?utf-8?B?bWUwd0Y2T0RjWVJubVFzWXNsU1pWTGJERHBnTGg1YVBQanFKUlk1MVFzUDZN?=
+ =?utf-8?B?K0dGQTdLZTZrYTdvVlNEVEJhSEx0alFUVXdLbENIeGFXR1lPYnNmdjZwNWZK?=
+ =?utf-8?B?V2R3YzhRdEVaSUtVL2prY1d1aUkxNVRhdmFoUUI2NDBRVjlBSHhsNk83UkNx?=
+ =?utf-8?B?R1NFMzNpSTBGSGhaWWNreVhSS0I5THdDNllLMGdISjJUdzhNODNFSXBTcjg4?=
+ =?utf-8?B?d3RiVUxxTGhjM244V283a0tEaXlCRlhUK2xVdW9ZUS9hWE5NU3JHOG05YmVY?=
+ =?utf-8?B?bDZhK0RDaG1MOFpkVk9WQys3Vis4TUNSemJwdFBKbkpaNnorOVlrazU1S2ZX?=
+ =?utf-8?B?UkQ2REhQeVdBSStKeC9LMUVxY2VUdlllc3hrN1JJNys0NUkrYkN2WVVtR2VU?=
+ =?utf-8?B?aHBDWnVkOEVOMlNpU3ErSk9zMUozdzNINnE3QXNzanJYU2lCcFlCRGFab3lZ?=
+ =?utf-8?B?aUxaelE1RDA4ZEdzbzdEQkpNejlCdUZnQllDUWQ4dmJPQTZ2bkcwN2ZZTXlt?=
+ =?utf-8?B?NGZzV0xrS1loTEJmUlRDVUR1TGFQNDhsTHlxR3cwV00xWm5zZ0NETTJOSDlM?=
+ =?utf-8?B?RFVRVWdXazN3RmUzUVRHblYreHhHWVdpL1UrVEVMZ041eW54U0hOUmVncGhT?=
+ =?utf-8?B?WitLTEVnZGoxMDNLeVFIeWgvcGFLaTh0Q3dRR2VQY0xIWWY4aGk5UFF0Qmw5?=
+ =?utf-8?B?UGNpNGk5a3psUHFMV1RPUFZPUG5TWG92WEkvMVlYek9OTG5leFNiZlg1VmFn?=
+ =?utf-8?B?Z0lGQVJ0Z2srdmZubE8rN3A2Uy83c2VoZktRTk1hUnhXUDhFdFh6R3A4QTJF?=
+ =?utf-8?B?ZXlxK3dRRlo0ZTNLV3NSTzd5QmxGV2dmTy9OY1dKV1k4NTBBT1BTSjVpcHNB?=
+ =?utf-8?B?dFJnV3QyYW51ZGpOanpHZXlKcDQ3Qll5TzRWNmxRPT0=?=
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?UTY5Z3BJWDVZR0IrL1FZaktKUnBLK09xclgyeGlDTERaaFFNd0l1a0VUalZj?=
+ =?utf-8?B?WWYwUzZRckNsdk56bGl5cU0yS3ZjeGR3QVhVVmxDREMvb3BjMTBEMEhGeDRX?=
+ =?utf-8?B?c1dIZjYzZkQwM21sOTgyQnBUZjFkSTk5cTl5aVNLVlBUaWFWUXMwQmoyY1J0?=
+ =?utf-8?B?YVJXN0pqNFJlNzRhNmFFN3QrZnh1OTQ0MXBzZGh2R0wvUVV2MlBJTkluWmZr?=
+ =?utf-8?B?aFdsTGpPbUI3OVhLSldCR0pRRGw0aXo2aHR2VWVWUWZWQWtrTC9FOC9TazFp?=
+ =?utf-8?B?THJVWTFxZGZGTnVyWG5jNEZCc2M1RnZLYnd0cE0xbUdiNWV6a0NhbXEreTFI?=
+ =?utf-8?B?bVdIOCtnQlVLUElUTGIyVHdIS01LeW4yTWhNVCtsTitETlhLY1dlUXZka2xt?=
+ =?utf-8?B?REovRTRIdjhvUmsrcW5RelA1N1ZrdXEvU1R2cVVXUUQ4dTVYWnBGRDNBNFp1?=
+ =?utf-8?B?VXE3S2taL0ZZT3dKTW1oNVV6LzhaTFF6Mkx4WVdNbUNpZkFCTFFURXl5YzBD?=
+ =?utf-8?B?Z2NxUUxXdUM3QjZmUGFyK2NHNUVpNCtNaEozUDJhSFRtMGEwOGxuaUdicVRX?=
+ =?utf-8?B?K1pBU3VQc0hjWVpQakpJQmNzUTZ5TWhBRlFGUng1dGRnR2s3ZFRDc0NnY0JK?=
+ =?utf-8?B?aHQzZkpoQ1ZNMjhGVjNGUkFTdyt5WW1jWDZsMmhnbzFvS2wya0lKSGN4SHRr?=
+ =?utf-8?B?WXA2VHRPRHF6cUxOOHM4T0FXUFRwZ21raUlJNE5MeWNSRmk3bFllc3VrbWJN?=
+ =?utf-8?B?UkNGWFJLMXpsMTN3OTNXbnRhelZIdUZSRERxTlVvbUZXZGNIa1haZUlaa0ZF?=
+ =?utf-8?B?QnB2K09YbWxaOHR6K0Y1TnJSNk5pQVVrVUNoMzBZeDJlMy9uQmlaaWF6MDZJ?=
+ =?utf-8?B?cnBoV3NGUjZ4dTdwQ1loRUlSQThQdFFObmN4ZUFwVUpZYUpTdWl4a2tnSk5F?=
+ =?utf-8?B?KzlzanhRNXRBMmhRSSswdEM0REx5Q0FrV1pvdDNoakhlVEpOUmNZbHMvancr?=
+ =?utf-8?B?VWJiT2d6eFA2SllDQzhpTWpZaGVsSXNnWVc1L2RTVDVYN1k5RC91alUvL2NB?=
+ =?utf-8?B?UlhtWS81Qnhxcm5QSCtIQm9UNmhNMGd4T2xybCtiVUV4dkdMN1c0NGFrellH?=
+ =?utf-8?B?R2dsN25BMGFOWGpLL3VONDNCWTRhTFd2eW51OHJxcTRUMmsxNmxSQ3IvYXE0?=
+ =?utf-8?B?SEsxZU8waDcrYWFCTVdMdFc3N2VvOUxtaWtBWHBJamU0Y2t5UE4rTXQwZDRu?=
+ =?utf-8?B?LzE3UUUyOHR1MjF1ZkszS2k2aERES3BsMnpTWnNqUVNEZFAzTllyOWFVSCtr?=
+ =?utf-8?B?ZUhUeXBybDl6YWcvcmkyZkFuczJ2VUlEUWJFS2F2SnJ0bllzSVlwbHFoclJv?=
+ =?utf-8?B?NTNNdXFBZ0dZcFA1V0Uxakh5ZHdRZ0J0Q2I5b1RDNWh5S2tETkV5bGt3OElZ?=
+ =?utf-8?B?UlhyQ0ZrZWVKQVdYZ3RYekV0WDJ5Q0VaUmZNT09WR0RxeTV0SUxoYUwxY2lM?=
+ =?utf-8?Q?WQHyywAmDCPnmPba81ZCQbws4Em?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?QjMrb1ljUjVKYmt0VXNNWTZGazF0SlBPbDZwTDBWeEVON2lEaVRIdXNUbGxJ?=
+ =?utf-8?B?TjJnVUQrSFhtVUtvaXBlRnZHbjdBZ2F6Q3lraGNUM0FxN3BoRktYV1VuUjdH?=
+ =?utf-8?B?L2g2OUwvQnZ6b0hxeDVudGdxVnEwME84dHR2a1c0RUxlSi9IVWpxazdnSGds?=
+ =?utf-8?B?Z3lucnFBZVhQUWZCbnZIVHliMUp0S0lrclBGdXBHTk9YL2JPOUpnSjFLWHJ3?=
+ =?utf-8?B?L3VxdWFwcTk3NWI5VmI4RW9lekNTZlVaWFNHQkRoYmZkS1N1YU5NNFZUaDFi?=
+ =?utf-8?B?VC9hbERVRHdxUzdEZXNndTdPN3NuY1hhRzFVZEFlUitZbU1IVXI0Y2dBcEtF?=
+ =?utf-8?B?bGxVdENrMWNETk9UM1RkZ0V2U2NuZlVGNW1HZFhrMWtnb1JFUWkvZnlmNk5a?=
+ =?utf-8?B?TDNVN0Y5VC9vTUZMQjBnVXBtcFN2eGdBMm9BLzNsTmJnT3dRZkZlZGRJUGhy?=
+ =?utf-8?B?UDNsRmQrSFFHN2Zybk05cDVNLzBHT3pYd2YybFdOV2xneWpzRENodFdCSS81?=
+ =?utf-8?B?T21IT3h3K2pkTWpiYU03UlVwZkVTQmxLQ2Zqb29WemF6TkxubE8xbzNoT2pP?=
+ =?utf-8?B?V3hWWW9qVUZiSUtpM0RmNkMrUTlOTzFxQ0VZYUROc2pMcHp2VjBYVXdGS2J0?=
+ =?utf-8?B?SlF3a2F3YUxnZUpUREtydGgxUjVwbHJacUU4cDdwWWhMKzYwU0tFR2hJOUJ0?=
+ =?utf-8?B?d0JDemRrU1VuRGY2VGM1cGRTZUJlM0RpeGJ4ekwyQXNXUWRKRlh1R2FQK1Fs?=
+ =?utf-8?B?VWN3aWdteW9OdHN0MjFrTVZ5SUJqc0NjdHRUN256OHhlQWMwT0ZTZ2I3bWFN?=
+ =?utf-8?B?V2xPTTkzVG1zV20yaEpYMS9Vb2ZBZkNqbExwcFk4ODhuZTdmZFc3d3FOVGRR?=
+ =?utf-8?B?bGVNUk5uOTQxSjh2TUVUYkpiYzBrK3hZclNoNDNuL2dFMGowc01rdnFzWHI4?=
+ =?utf-8?B?RHRySWE1OU9idk5QVzFxL3UxM01UUkw5ay9TUmc4K1NURkR0b2YyWDBrd1ov?=
+ =?utf-8?B?Qk5CNjZPdnJRZUIvU2g3TC9mZEVHSGE1ODFIVXR1U1RsMXRVSEJHRzVwMHBl?=
+ =?utf-8?B?OXBSWDBNMVlwS0phcG91MDMvWHJvRWVmdjQyQ2dpTDNhMVcxL3VVZ0VsN0xR?=
+ =?utf-8?B?bVFEQm8vbGI5OHBFZGJnYmhVWGF5TDJ0Mk1UTXVwRzdQSGcyOEhWOS9lSzYy?=
+ =?utf-8?B?cis3cS9RMGY1NkVaQXFOdWZ2MWtsMHZ1bUZrakR5YUZoYmU3UTNUaTB1MG5i?=
+ =?utf-8?B?TXdlV05lYS9Da1k1QUJMSFF0OGZTSXJTOFlCMCtNRGNvS2xocXQxa3BPTkJX?=
+ =?utf-8?B?bER4SnNjTG5KdXhjN0p1ZVdqMzRYOStYdDI2eGpwOHNYb3N0M1ZsaENEaHA1?=
+ =?utf-8?B?ZXU5YU1TQXpFMGRTd2VCdWcydkN0U1JIUVI5N3A5bXRjVXBJVkNpay9ERWxq?=
+ =?utf-8?B?dS96OUZxSzI4TGdlQW9yOTVxRlZJQmF0VlBBNUNPdVJpWjFyRjM3U3BRRnhH?=
+ =?utf-8?B?YUZBckRmREhDc1R5aDNXTUpwK2MvQWl3MUQxVExNM0Q4aW1jWm1ueUYrSTd3?=
+ =?utf-8?B?U3ppczZHdkl6Y1pjVjl5TjJOdzJWUit1Yzl3UFdmT3YzbzMxVGtmL1dmWWNU?=
+ =?utf-8?B?OG9wWlE3bnQ4bmN0d1FkelpOcWZma21URnBlR3gxek5hVFlkY1lqV3k4S0d3?=
+ =?utf-8?Q?58/gSD9eUYrq4lNMn7n6?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 404ce51c-b59c-4f3f-7a28-08db5d5e54e5
+X-MS-Exchange-CrossTenant-AuthSource: VI1PR0201MB2382.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 May 2023 20:26:39.0702
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB9PR02MB7915
+Content-Length: 20221
+
+------=_NextPart_000_C7BD_026B2A37.D3E73D64
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Do you live and work in the United Kingdom and are you interested in dating=
+ Ukrainian women who currently live and work in the United Kingdom?
+If the answer is yes, you can join today at  
+  
+ UkrainianBeautyDate for free!
+There are over 350,000 Ukrainian women now living in the United Kingdom and=
+ they are interested in dating English men, that's why we created this site=
+ and if you join today you can find your perfect Ukrainian match for someth=
+ing serious or fun !
+
+If you sign up, you get access to
+ 45,000 Ukrainian woman on  
+  
+ UkrainianBeautyDate  
+  
+ 
+
+
+
+UkrainianBeautyDate 
+  
+ 
+"Registration on is available at no cost."  
+  
+ 
+
+
+
+
+If you want to stop receiving messages, delete me her 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+------=_NextPart_000_C7BD_026B2A37.D3E73D64
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-5973-=
+ce29-85f46e7fab36">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-5973-ce29-85f4=
+6e7fab36"> </b></span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;">Do you live and work in the <b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-6ecd747b-7fff-5973-ce29-85f46e7fab36"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;">United Kingdom</span></b> =
+and are you interested in dating Ukrainian women who currently live and wor=
+k in the <b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b=
+-7fff-5973-ce29-85f46e7fab36"><span style=3D"font-size:11pt;font-family:Ari=
+al;color:#000000;background-color:transparent;font-weight:700;font-style:no=
+rmal;font-variant:normal;text-decoration:none;vertical-align:baseline;white=
+-space:pre-wrap;">United Kingdom</span></b>?<br>=0A=
+If the answer is yes, you can join today at</span> </b>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"> <b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c31546=
+23-7fff-adfa-f57a-d1c6f0eb3a10"><a href=3D"http://www.girlukrainian.online"=
+ style=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-family:=
+Arial;color:#1155cc;background-color:transparent;font-weight:700;font-style=
+:normal;font-variant:normal;text-decoration:underline;-webkit-text-decorati=
+on-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-sp=
+ace:pre-wrap;"></span></a><b style=3D"font-weight:normal;" id=3D"docs-inter=
+nal-guid-c1307cc0-7fff-9bd0-6bc6-7a408aaa4475"><a href=3D"http://www.girluk=
+rainian.website" style=3D"text-decoration:none;"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#1155cc;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:underline;-webk=
+it-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:b=
+aseline;white-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" =
+id=3D"docs-internal-guid-69854225-7fff-7c2b-4734-32e1b6d5ed83"><a href=3D"h=
+ttp://www.singleuawoman.online" style=3D"text-decoration:none;"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#1155cc;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;v=
+ertical-align:baseline;white-space:pre-wrap;">UkrainianBeautyDate</span></a=
+></b></b></b></span><b style=3D"font-weight:normal;" id=3D"docs-internal-gu=
+id-21a411c4-7fff-8f7a-c9f5-b8ee27826ff0"><a href=3D"http://findsingleukrain=
+ian.website" style=3D"text-decoration:none;"><span style=3D"font-size:11pt;=
+font-family:Arial;color:#1155cc;background-color:transparent;font-weight:70=
+0;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-t=
+ext-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:basel=
+ine;white-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-f38162aa-7fff-8889-2f5b-757c11466966"><a href=3D"htt=
+p://finduagirl.online" style=3D"text-decoration:none;"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#1155cc;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:underline=
+;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"></span></a><b style=3D"font-weight:nor=
+mal;" id=3D"docs-internal-guid-c174031d-7fff-6e25-3bd4-d7a33006dea8"><a hre=
+f=3D"http://www.finduagirl.website" style=3D"text-decoration:none;"><span s=
+tyle=3D"font-size:11pt;font-family:Arial;color:#1155cc;background-color:tra=
+nsparent;font-weight:700;font-style:normal;font-variant:normal;text-decorat=
+ion:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:no=
+ne;vertical-align:baseline;white-space:pre-wrap;"></span></a></b></b></b> <=
+span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-col=
+or:transparent;font-weight:700;font-style:normal;font-variant:normal;text-d=
+ecoration:none;vertical-align:baseline;white-space:pre-wrap;">for free!<br>=
+=0A=
+There are over 350,000 Ukrainian women now living in the <b style=3D"font-w=
+eight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-5973-ce29-85f46e7fab3=
+6"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background=
+-color:transparent;font-weight:700;font-style:normal;font-variant:normal;te=
+xt-decoration:none;vertical-align:baseline;white-space:pre-wrap;">United Ki=
+ngdom</span></b> and they are interested in dating English  men, that's why=
+ we created this site and if you join today you can find your perfect Ukrai=
+nian match for something serious or fun !<br>=0A=
+<br>=0A=
+If you sign up, you get access to<br>=0A=
+&nbsp;45,000 Ukrainian woman on</span> </b>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"></span><a href=3D"http://www.findsingleukrainian.site" style=3D"t=
+ext-decoration:none;"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#1155cc;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:non=
+e;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wra=
+p;"></span></a><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-21=
+a411c4-7fff-8f7a-c9f5-b8ee27826ff0"><a href=3D"http://findsingleukrainian.w=
+ebsite" style=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#1155cc;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-d=
+ecoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" id=3D"doc=
+s-internal-guid-f38162aa-7fff-8889-2f5b-757c11466966"><a href=3D"http://fin=
+duagirl.online" style=3D"text-decoration:none;"><span style=3D"font-size:11=
+pt;font-family:Arial;color:#1155cc;background-color:transparent;font-weight=
+:700;font-style:normal;font-variant:normal;text-decoration:underline;-webki=
+t-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:ba=
+seline;white-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" i=
+d=3D"docs-internal-guid-c174031d-7fff-6e25-3bd4-d7a33006dea8"><a href=3D"ht=
+tp://www.finduagirl.website" style=3D"text-decoration:none;"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#1155cc;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:und=
+erline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vert=
+ical-align:baseline;white-space:pre-wrap;"></span></a><b style=3D"font-weig=
+ht:normal;" id=3D"docs-internal-guid-c3154623-7fff-adfa-f57a-d1c6f0eb3a10">=
+<a href=3D"http://www.girlukrainian.online" style=3D"text-decoration:none;"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#1155cc;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-ski=
+p-ink:none;vertical-align:baseline;white-space:pre-wrap;"></span></a><b sty=
+le=3D"font-weight:normal;" id=3D"docs-internal-guid-c1307cc0-7fff-9bd0-6bc6=
+-7a408aaa4475"><a href=3D"http://www.girlukrainian.website" style=3D"text-d=
+ecoration:none;"><span style=3D"font-size:11pt;font-family:Arial;color:#115=
+5cc;background-color:transparent;font-weight:700;font-style:normal;font-var=
+iant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;tex=
+t-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;"><=
+/span></a><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6985422=
+5-7fff-7c2b-4734-32e1b6d5ed83"><a href=3D"http://www.singleuawoman.online" =
+style=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-family:A=
+rial;color:#1155cc;background-color:transparent;font-weight:700;font-style:=
+normal;font-variant:normal;text-decoration:underline;-webkit-text-decoratio=
+n-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-spa=
+ce:pre-wrap;">UkrainianBeautyDate</span></a></b></b></b></b></b></b> </b> =
+=0A=
+</p>=0A=
+<p>=0A=
+	<br>=0A=
+</p>=0A=
+</b>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"></span><a href=3D"http://www.findsingleukrainian.site" style=3D"t=
+ext-decoration:none;"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#1155cc;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:non=
+e;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wra=
+p;"></span></a><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-21=
+a411c4-7fff-8f7a-c9f5-b8ee27826ff0"><a href=3D"http://findsingleukrainian.w=
+ebsite" style=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#1155cc;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-d=
+ecoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" id=3D"doc=
+s-internal-guid-f38162aa-7fff-8889-2f5b-757c11466966"><a href=3D"http://fin=
+duagirl.online" style=3D"text-decoration:none;"><span style=3D"font-size:11=
+pt;font-family:Arial;color:#1155cc;background-color:transparent;font-weight=
+:700;font-style:normal;font-variant:normal;text-decoration:underline;-webki=
+t-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:ba=
+seline;white-space:pre-wrap;"></span></a><b style=3D"font-weight:normal;" i=
+d=3D"docs-internal-guid-c174031d-7fff-6e25-3bd4-d7a33006dea8"><a href=3D"ht=
+tp://www.finduagirl.website" style=3D"text-decoration:none;"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#1155cc;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:und=
+erline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c3154623-7fff-adfa-f57a-d1c6f0eb3a10"></b></span>=
+</a><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c3154623-7fff=
+-adfa-f57a-d1c6f0eb3a10"><a href=3D"http://www.girlukrainian.online" style=
+=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-family:Arial;=
+color:#1155cc;background-color:transparent;font-weight:700;font-style:norma=
+l;font-variant:normal;text-decoration:underline;-webkit-text-decoration-ski=
+p:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pr=
+e-wrap;"></span></a></b></b></b></b> </b>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><br>=0A=
+</b>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><img src=3D"https://blogger.googleusercontent.com/img=
+/b/R29vZ2xl/AVvXsEjMJlbEuneRyxsSPYwdPd1GYf62uM2tXA5HQBHGQLtMvSBWOJ8qERVPu5X=
+mXjYzpts_OHc_1_Y7wuF9gC6gKLqEHF0y_68d9PO4i6NxlaPyqy58140ZWAMtTk53zJ0UHdGl81=
+g0gNGFz4TJYqyD3aSTWI-eNi73gRfBSwaEbK2NdwRJeT8LfpQ3WwR5/s3195/imgonline-com-=
+ua-twotoone-ncvH5boHEj.jpg" alt=3D"" width=3D"940" height=3D"362"></b><br>=
+=0A=
+</div>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-597=
+3-ce29-85f46e7fab36"><br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<a href=3D"http://www.findsingleukrainian.site" style=3D"text-decoration:n=
+one;"><span style=3D"font-size:21pt;font-family:Arial;color:#1155cc;backgro=
+und-color:transparent;font-weight:700;font-style:normal;font-variant:normal=
+;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoratio=
+n-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;"></span></a><=
+b style=3D"font-weight:normal;" id=3D"docs-internal-guid-d131e49a-7fff-83e9=
+-b2e3-1daf8d4a68cc"><a href=3D"http://findsingleukrainian.website" style=3D=
+"text-decoration:none;"><span style=3D"font-size:21pt;font-family:Arial;col=
+or:#1155cc;background-color:transparent;font-weight:700;font-style:normal;f=
+ont-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:n=
+one;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-w=
+rap;"></span></a><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-=
+5131aa5a-7fff-788d-3763-e159bbf57aac"><a href=3D"http://finduagirl.online" =
+style=3D"text-decoration:none;"><span style=3D"font-size:21pt;font-family:A=
+rial;color:#1155cc;background-color:transparent;font-weight:700;font-style:=
+normal;font-variant:normal;text-decoration:underline;-webkit-text-decoratio=
+n-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-spa=
+ce:pre-wrap;"></span></a><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-d7e1d940-7fff-6329-3a57-f050c43044d6"><a href=3D"http://www.finduag=
+irl.website" style=3D"text-decoration:none;"><span style=3D"font-size:21pt;=
+font-family:Arial;color:#1155cc;background-color:transparent;font-weight:70=
+0;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-t=
+ext-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:basel=
+ine;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-inte=
+rnal-guid-961206b0-7fff-a2d4-a896-009360ef6f83"></b></span></a><b style=3D"=
+font-weight:normal;" id=3D"docs-internal-guid-961206b0-7fff-a2d4-a896-00936=
+0ef6f83"><a href=3D"http://www.girlukrainian.online" style=3D"text-decorati=
+on:none;"><span style=3D"font-size:21pt;font-family:Arial;color:#1155cc;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decor=
+ation-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;">Ukrainia=
+nBeautyDate</span></a></b></b></b></b>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:13pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-5973-ce29-85f4=
+6e7fab36"> </b></span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-59=
+73-ce29-85f46e7fab36"><span style=3D"font-size:13pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;">&quot;Registration on  is available at no cost.&quot;</span> </b>=
+=0A=
+</p>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-6ecd747b-7fff-597=
+3-ce29-85f46e7fab36"><br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:10pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">If you want=
+ to stop receiving messages, delete me <b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-22977737-7fff-69ca-5c07-b64c1e02ee46"><a href=3D"htt=
+p://unsub.findsingleukrainian.site" style=3D"text-decoration:none;"><span s=
+tyle=3D"font-size:10pt;font-family:Arial;color:#1155cc;background-color:tra=
+nsparent;font-weight:700;font-style:normal;font-variant:normal;text-decorat=
+ion:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:no=
+ne;vertical-align:baseline;white-space:pre-wrap;">her</span></a></b></span>=
+ =0A=
+</p>=0A=
+</b>=0A=
+<p>=0A=
+	<br>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:10pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-22977737-7fff-69ca-5c07-b64c=
+1e02ee46"><a href=3D"http://unsub.findsingleukrainian.site" style=3D"text-d=
+ecoration:none;"><span style=3D"font-size:10pt;font-family:Arial;color:#115=
+5cc;background-color:transparent;font-weight:700;font-style:normal;font-var=
+iant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;tex=
+t-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;"><=
+/span></a></b></span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</b><br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=
+
+------=_NextPart_000_C7BD_026B2A37.D3E73D64--

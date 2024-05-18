@@ -1,0 +1,107 @@
+Return-Path: <bounce-bruce=untroubled.org@brilwebi.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 646696 invoked from network); 3 Mar 2023 08:03:40 -0000
+Received: from env.brilwebi.info (env.brilwebi.info [167.99.159.31])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 03 Mar 2023 08:03:40 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mailer; d=brilwebi.info;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=newsletter@brilwebi.info;
+ bh=J4/ZMQKqfoLiOoq50QhV8Xv7O2TaXTF38Gq7089HXpc=;
+ b=CcHzbmSCWsNBDGg1b5EEXzU7GgUwJZ8V+YiFYpTOGrDrnM/RVtFD8/24UQE3El7gb+euD7MURl8w
+   Nos/FSQC+9JJ9aFEOud9gbAcwOMlGUy2famNCiKxBnHh9MJ3bFA4p8cR98LGj55Vtieyw2HpQPcp
+   RT3v9WSgvGskztPc5RjEI/UU3kuPiNH+TKjgFzvuFcxTgAjOxOC7fULShKS/B+MWNFKwScSQP9+P
+   tfx1u36bpkwbwizA6uILYO3PEhFBOSrDUVFdKX+hrsWnBxXfIw/9XUMh6ZC5heVKLKzbMwtEnge4
+   gHHQg4IQz5waGUVbiVrgQz9aFP6NDoF6oCW1Lw==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mailer; d=brilwebi.info;
+ b=KFKyLGHkEirk+gGYThkrKdARd9KBX14sCztWe8gQGd0LInbBLwd6+IhC9gBDufJHpQJ3JFKJUiYI
+   0UzI36zWu4xpcVHHr86OEvjMns57RyUqhjgnG24AG1iDstx5TactsuAjFbomwNZyYQEOyJ3XX6jI
+   xVxI7aon3nzewsJgut6qIqdt1k1JfBLqnhptTlJNEVp2bUDthC8SuqhOsaS/bSwcWE3M9ghapL6F
+   jQsTzqG7kfQNBK3VXIbQUYXySBZ6CVlDTeuqqKpCNMXZsf93Da6rgRXjS0vGkjdGtyClz0tnAtok
+   QgbxWw1ZaT2fgqYuz76KSEqNWjA/ZqrIN+GSkg==;
+Received: from boxhostingcoms.com (137.184.197.180) by env.brilwebi.info id h06kto0001gn for <bruce@untroubled.org>; Fri, 3 Mar 2023 08:03:14 +0000 (envelope-from <bounce-bruce=untroubled.org@brilwebi.info>)
+Return-Path: <bounce@brilwebi.info>
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=J4/ZMQKqfoLiOoq50QhV8Xv7O2TaXTF38Gq7089HXpc=; d=brilwebi.info;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe-Post: List-Unsubscribe: List-Id: Feedback-ID;
+ i=@brilwebi.info; s=mailer; c=relaxed/relaxed; t=1677830593;
+ b=GFDXqXvelEy74ADz4T/XNdFlTGQ8YWvkKcIFuTcXPfaHIggKta/mcNVt17sSsUq0HAI1WEbVM
+ EgI1LVdT7xc9yG3so0sY9p3gLtNaloHGaf1QLxUAJDHXE5Lb/ehao3lMpfJGx9xpdGYjcPFIt
+ Y2uuMQ7i3xPA3NKhe/zhIV7tXh+hTCDn3Mxrlcp/6FqrZnFq300esmGUDZ6JH4WXOTFXD53ay
+ vUVvaKsEv7VXvnEhnS9nPEWOMkRIxRQubUqlD7Hy17/dWLfgHSoYpO2z3ve2UXGxNXAzvnWao
+ 6oR/0n9l+7MKOMPkQbzVc1JCJaDmbIwD2mx1TG8RHNSxOXL+kA==
+Message-ID: <6f85250c6d8c0d74ec9e668192dce0a348e9be42@brilwebi.info>
+Date: Fri, 03 Mar 2023 08:03:13 +0000
+Subject: Win a FREE Amazon.com Gift Card!
+From: Gift Card Giveaway <newsletter@brilwebi.info>
+Reply-To: Gift Card Giveaway <newsletter@brilwebi.info>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1677830593_4b36a58a7bb1ab4167b6dec278475639_=_"
+X-SentFromServer: 143.198.160.148
+X-Report-Abuse: http://mails.brilwebi.info/index.php/campaigns/ot854bbry0980/report-abuse/bb302hr07m871/qe80286mqpb08
+X-EBS: http://mails.brilwebi.info/index.php/lists/block-address
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <http://mails.brilwebi.info/index.php/lists/bb302hr07m871/unsubscribe/qe80286mqpb08/ot854bbry0980?source=email-client-unsubscribe-button>,
+ <mailto:newsletter@brilwebi.info?subject=Campaign-Uid%3Aot854bbry0980%20%2F%20Subscriber-Uid%3Aqe80286mqpb08%20-%20Unsubscribe%20request&body=Please%20unsubscribe%20me%21>
+List-Id: bb302hr07m871 <USA>
+Feedback-ID: ot854bbry0980:qe80286mqpb08:bb302hr07m871:rv933bya7me39
+Content-Length: 1662
+
+
+--_=_swift_1677830593_4b36a58a7bb1ab4167b6dec278475639_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Congrats! bruce@untroubled.org
+
+You=E2=80=99re a $500 Amazon.com Gift C=
+ard finalist!
+
+Amazon.com is giving away a $500 Gift Card TONIGHT.=
+=C2=A0
+
+ your entry before the deadline.
+
+Unsubscribe me
+[http://=
+mails.brilwebi.info/index.php/campaigns/ot854bbry0980/track-url/qe80286mqpb=
+08/8a7210b4df769f6b1e756c2994fd3dec36ef9ef4]
+
+=C2=A0
+
+--_=_swift_1677830593_4b36a58a7bb1ab4167b6dec278475639_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta charset=3D"utf-8"/>
+=09<title>Win a FREE Amazon.com Gift Card!</title>
+</head>
+<body><span style=3D"font-size:18px;">Congrats</span>! bruce@untroubled.org=
+<br />
+<br />
+<span style=3D"font-size:18px;">You=E2=80=99re a $500 Amazon.com Gift Card =
+finalist!<br />
+<br />
+Amazon.com is giving away a $500 Gift Card TONIGHT.=C2=A0<br />
+<br />
+<<a href=3D"http://mails.brilwebi.info/index.php/campaigns/ot854bbry0980/tr=
+ack-url/qe80286mqpb08/1c0f62b6cd2b7d9cea2c64b972ac11c23f84fe48">Click to co=
+nfirm</a>> your entry before the deadline.<br />
+<br />
+<br />
+<a data-unsubtag=3D"_UNSUBSCRIBE_URL_" href=3D"http://mails.brilwebi.info/i=
+ndex.php/campaigns/ot854bbry0980/track-url/qe80286mqpb08/8a7210b4df769f6b1e=
+756c2994fd3dec36ef9ef4">Unsubscribe me</a></span><br />
+<br />
+=C2=A0<img width=3D"1" height=3D"1" src=3D"http://mails.brilwebi.info/index=
+.php/campaigns/ot854bbry0980/track-opening/qe80286mqpb08" alt=3D"" />
+</b=
+ody>
+</html>
+
+--_=_swift_1677830593_4b36a58a7bb1ab4167b6dec278475639_=_--
+

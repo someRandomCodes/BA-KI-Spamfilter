@@ -1,0 +1,106 @@
+Return-Path: <brady.baker@backfromburnout.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3366418 invoked from network); 16 Mar 2024 18:58:29 -0000
+Received: from mail-io1-xd31.google.com (mail-io1-xd31.google.com [IPv6:2607:f8b0:4864:20::d31])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 16 Mar 2024 18:58:29 -0000
+Received: by mail-io1-xd31.google.com with SMTP id ca18e2360f4ac-7c7f3f66d17so62945739f.0
+        for <bruce@untroubled.org>; Sat, 16 Mar 2024 11:58:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=backfromburnout.net; s=google; t=1710615509; x=1711220309; darn=untroubled.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Xrb8teNx0U1l5qKFDvrIrKCPFOecgCrFHm2q/2pWYu0=;
+        b=gd75RLgZQNOVvTEUFiidTCyHe8C5ze6Z62JjxsJDNNCO/7b8DoBRxrvkqb1Xu4hIgG
+         PtZOloKXdEwGNxtsdqQV3jApxwuRrcpFu3r5vM9bqR/ShK4Y8nB4CukYcBcXLVOmvBML
+         9AVdfrCJCGGOtdDRnQXdErRpcuHxMaG+BRDb82dgWktf1LpiM5UI3Z0QdAktqkUbix4r
+         japzr5pDdk6KoMC8UL7rHWzZgV4hWa9jlYeyibh6OVbWCqzN4CelEACoVI9F1KT7eYw8
+         6GAezjt40Tu0sk3fxnSIJHHjg3RytZ2z060Q5ShX0yQgAJKx8oessOyOE8qi82Abd3QI
+         oyAQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1710615509; x=1711220309;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Xrb8teNx0U1l5qKFDvrIrKCPFOecgCrFHm2q/2pWYu0=;
+        b=BW7nB9xyQdEoRVcbAIsUcpDZ6SZGzmL6tCM/TM4R6ebfDJuZsNZsMGjXKw0LOFBJMh
+         UtN57zVLgNUeQwuS9r6N0pzQjvwdSeGJq5u0vLbF1xjS2CjEI4bEinQYRl+BkQvcDThu
+         yn13MlZZUvmjdlbYUypRue8jYyH603biM259XwgA7OQsfAb9D35WH6OqIJ6oY24m5ij4
+         xBVy2BMtMBFs4EYpMiS1IHakf75pcxB/9vAtFB7kuj2ndldaARjo+2Su81zJ9dx5OQ06
+         00dikQRKoGUsSBGIc9XXh5PZFlKcbsmlx4POAYSvJDuj15f2q7M+YnsDg/ohLwRq3CyF
+         JOrg==
+X-Gm-Message-State: AOJu0YzTSW+CM/hM7Zsdig2gkEt0i53tq0ohmx/XmKrP6ZPm6oceo00O
+	ps+IvE+T0vS10vMis1wMRCnnIwQGIvVxazcsx4FJP9nTQZU7lpV/TGx0p4EqQZdCqBA7TeOYFXX
+	z/kGHU0CEkpzW2bZL3ckNhH/HEnXPlCvyKttNXH5/87vMlm9i
+X-Google-Smtp-Source: AGHT+IEzV8KVZ404XksGpMePUexJerg1z4zxYEDW9Uroxyaor38mfhom8IE7dHd7uRmt6BXNJTtOgs+14e0v4Q20oSk=
+X-Received: by 2002:a6b:720b:0:b0:7cc:6e4:1a59 with SMTP id
+ n11-20020a6b720b000000b007cc06e41a59mr2457266ioc.20.1710615508881; Sat, 16
+ Mar 2024 11:58:28 -0700 (PDT)
+Received: from 389576433898 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 16 Mar 2024 11:58:28 -0700
+MIME-Version: 1.0
+From: Brady Baker <brady.baker@backfromburnout.net>
+Date: Sat, 16 Mar 2024 11:58:28 -0700
+Message-ID: <CAAr9WhMb_=_YK_ES_+4p7UWcJviq3DDJjUfHf_ABrWukHJpG8w@mail.gmail.com>
+Subject: Seeking your awesome insights!
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="000000000000c137380613cbb551"
+
+--000000000000c137380613cbb551
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello there,
+
+Making the leap from high school to the workforce is a significant
+challenge for many young adults. Although secondary education equips
+students with valuable skills and knowledge, the transition to the
+professional realm can be overwhelming. The absence of experience and the
+uncertainty about the future often leave students feeling adrift and unsure
+of their next steps.
+
+In light of this, may I propose writing a guest article for your website,
+providing tips and strategies to assist high school-aged students in
+successfully navigating the shift from secondary education to the
+workforce? Covering aspects from career planning to effective job
+searching, I aim to address the key factors students should consider,
+helping them navigate this exciting yet challenging phase in their lives.
+
+Best regards,
+
+Brady Baker of *backfromburnout.net* <https://backfromburnout.net/>
+
+*Helping you get back from burnout to feeling better than ever!*
+
+
+P.S. If you=E2=80=99d like to suggest a different topic, please do so. I=E2=
+=80=99m happy to
+write on a topic that is the best fit for your website.
+
+--000000000000c137380613cbb551
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p><span style=3D"color:rgb(0,0,0)">Hello there,</span><br></p><p><span sty=
+le=3D"color:rgb(0,0,0)">Making the leap from high school to the workforce i=
+s a significant challenge for many young adults. Although secondary educati=
+on equips students with valuable skills and knowledge, the transition to th=
+e professional realm can be overwhelming. The absence of experience and the=
+ uncertainty about the future often leave students feeling adrift and unsur=
+e of their next steps.</span><br></p><p><span style=3D"color:rgb(0,0,0)">In=
+ light of this, may I propose writing a guest article for your website, pro=
+viding tips and strategies to assist high school-aged students in successfu=
+lly navigating the shift from secondary education to the workforce? Coverin=
+g aspects from career planning to effective job searching, I aim to address=
+ the key factors students should consider, helping them navigate this excit=
+ing yet challenging phase in their lives.</span><br></p><p><span style=3D"c=
+olor:rgb(0,0,0)">Best regards,</span></p><p><span style=3D"color:rgb(34,34,=
+34)">Brady Baker of </span><a target=3D"_blank" rel=3D"noopener noreferrer =
+nofollow" href=3D"https://backfromburnout.net/"><span style=3D"color:rgb(17=
+,85,204)"><u>backfromburnout.net</u></span></a></p><p><em><span style=3D"co=
+lor:rgb(34,34,34)">Helping you get back from burnout to feeling better than=
+ ever!</span></em></p><p><br></p><p><span style=3D"color:rgb(0,0,0)">P.S. I=
+f you=E2=80=99d like to suggest a different topic, please do so. I=E2=80=99=
+m happy to write on a topic that is the best fit for your website.</span></=
+p>
+
+--000000000000c137380613cbb551--

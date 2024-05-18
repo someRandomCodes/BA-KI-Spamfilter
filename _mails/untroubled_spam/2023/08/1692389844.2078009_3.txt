@@ -1,0 +1,93 @@
+Return-Path: <tina@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2065742 invoked from network); 18 Aug 2023 14:24:34 -0000
+Received: from mail-pf1-x444.google.com (mail-pf1-x444.google.com [IPv6:2607:f8b0:4864:20::444])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 18 Aug 2023 14:24:34 -0000
+Received: by mail-pf1-x444.google.com with SMTP id d2e1a72fcca58-689fb672dc8so659344b3a.0
+        for <bruce@untroubled.org>; Fri, 18 Aug 2023 07:24:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20221208.gappssmtp.com; s=20221208; t=1692368672; x=1692973472;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Q/LECmSpqCYpQEMZJE6eOUamzXhF0yU9zazcewGbOBY=;
+        b=BLJHKrmlpxb1FkGF7cl/SnZchLeU58OX2UrT24fnixnVTa2wKnlyGil3qdGh2YUUvK
+         BokcFF/pSRB39s2zo7jdUvEUg5yIH9EJ/QDeGRisq2niR2CjOyjt6t8vmkRFDhs9A/Sr
+         OPqJPP0MfzmspOjN4MlgKDZIktcLbsWx1bG+1Wt3qEUD7xAdYOmSQQwv5eAEO9Fga8Im
+         U1rhn1dw55ODDvJAuakoikiOJ8yzuOv4sUeiPVbaFg8Tc2IMr2kSuRLA8EMSasIjihm6
+         1DDILPNuN+u/QO3ELeK7foniO7iKn16Ge+uOYG+NHWBpHH8G/4F9c3RT89PmFP9xtq74
+         gpkQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1692368672; x=1692973472;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Q/LECmSpqCYpQEMZJE6eOUamzXhF0yU9zazcewGbOBY=;
+        b=UEac0VbwaUlSXaRJY7HSJaZZfwuG7hMP8mAze+pK5iVVbuNk4PhNx/5zGTbmkeyWu6
+         LLHZB6ekd60hdo/aikpndNyj6j7fm3nnWoIr16UI97Ic0sSpgzEPhjrmsOO98cfCQMJp
+         Ls6M/caqYu6nWgXi5b+LhfqG67bB/ZQrbXIT8/QFtJL6MnpDx3Ms+8NQy5vEFMCJng1Y
+         mIMGBqQfAktlMH3f9sIgzIr8loEwlMw7szsNmdH3hui6sFWQSMzQAmlFFG+bv4xKjVB4
+         H9bwuXiYA5jzsPt1SY3T5RTMONCU/9URZAOWEmwg97rPQtm5w9yk+I4i2XdoDFN/Jj8s
+         wgVQ==
+X-Gm-Message-State: AOJu0YxFWjEzfqHieBdK/ybOFlK/DaJ13dsIvbDe0pFqGKzVqKN8ip8W
+	qjQHKO7cuA+eVmekI2vmcH6uEd1QeL+ZCmd+ClIVZd4XYU7er8J5vLc=
+X-Google-Smtp-Source: AGHT+IHtFGvI6fytgHqnVgOGuNQ/qIWzZCVj8LySQ5YbjSpFXHtKlf3jecQr4VugKteiEiHJePpFfhBw12orAWPt+hA=
+X-Received: by 2002:a05:6a20:3d89:b0:140:3554:3f44 with SMTP id
+ s9-20020a056a203d8900b0014035543f44mr3765123pzi.22.1692368671955; Fri, 18 Aug
+ 2023 07:24:31 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 18 Aug 2023 07:24:30 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 18 Aug 2023 07:24:28 -0700
+MIME-Version: 1.0
+Sender: Tina <tina@webtechresearch.com>
+From: Tina <tina@webtechresearch.com>
+Date: Fri, 18 Aug 2023 07:24:30 -0700
+X-Google-Sender-Auth: ej-KCWAsvUpH_iR4QnEDQmL8-wc
+Message-ID: <CALvH+JxZh8tqJfNrBjHJw0wLYXZagfDSbm-LLZXqBu6R9mOs7g@mail.gmail.com>
+Subject: Re: untroubled.org Errors
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000856edb0603334964"
+Content-Length: 1785
+
+--000000000000856edb0603334964
+Content-Type: text/plain; charset="UTF-8"
+
+Hi untroubled.org,
+Hope you are doing great!
+
+This is Tina, Business Analyst with Digifirm Web Solution (An age old
+Digital Marketing Agency operating over 10 years in the global market
+having its main office at AZ, USA. We exist for such a long only because we
+follow ethical business practices)
+
+My team discovered a few issues on your website which are affecting your
+online presence, user experience and ranking.
+
+Do you want me to send a detailed analysis report with screenshots?
+
+Awaiting your earliest response.
+
+Regards,
+Tina
+[image: beacon]
+
+--000000000000856edb0603334964
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi <a href=3D"http://untroubled.org">untroubled.org</a>,<b=
+r>Hope you are doing great!<br><br><div>This is Tina, Business Analyst with=
+ Digifirm=C2=A0Web=C2=A0Solution (An age old Digital Marketing Agency opera=
+ting over 10 years in the global market having its main office at AZ, USA. =
+We exist for such a long only because we follow ethical business practices)=
+<br><br>My team discovered a few issues on your website which are affecting=
+ your online presence, user experience and ranking.<br><br>Do you want me t=
+o send a detailed analysis report with screenshots?<br><br>Awaiting your ea=
+rliest response.<br><br>Regards,<br>Tina=C2=A0=C2=A0<br></div></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2wMNJY75Hvqr=
+ietNOc4OL6LJQooKllKjxVlsJVZgOsvKuhggJigHk3GO7PrbO3jgDt1FuZuWmb92vfj_2MWv-ly=
+YkYJUYGRtOHsEoi8rn1_NTs6LqWoALyBXrXkHu_OKk_nCj_scPFFhh8K_Eij4jmhnE0adJxHYR"=
+ width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:non=
+e!important;">
+
+--000000000000856edb0603334964--

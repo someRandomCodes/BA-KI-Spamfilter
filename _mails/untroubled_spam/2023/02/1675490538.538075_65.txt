@@ -1,0 +1,86 @@
+Return-Path: <marklee19@dmatexas.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 326343 invoked from network); 3 Feb 2023 15:44:58 -0000
+Received: from mail-pg1-x543.google.com (mail-pg1-x543.google.com
+ [IPv6:2607:f8b0:4864:20::543])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 03 Feb 2023 15:44:57 -0000
+Received: by mail-pg1-x543.google.com with SMTP id v3so3889683pgh.4
+        for <bruce@untroubled.org>; Fri, 03 Feb 2023 07:44:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dmatexas-com.20210112.gappssmtp.com; s=20210112;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=TZhH3dwXL6aV8H2ojvjkevH3EzOKePpJomLT9kRsGlw=;
+        b=Da64aJr0Lt4oXFIl6mR1f4f0ixnMJIDBR3wXj7mS81aFzN6BSrKMgyCp7LrKuye5Gy
+         WtgTAJABpy0y6WS3puCJLobfr119uRDkVQU/1d/FyfXT/YXdVqBbtyE6XP1/cV3lNtHR
+         bPbSN+ogd95s+rEjHTmktDDl2eoo7EWRz7wOiKaly/Pr863NThlUkSmCyIUGn7M8qrE9
+         Fw28R3yld4cgVwEAate+oz4Os/9F3Nb4hZWayqllP7avdmaFZXaeCzWlkoHbm3ZYQzBl
+         cJpvN2JrhLj39Q2/a8irGvY705KCWAXcqix1HRgIy1hqU1FOFpZ4Cd13lH+lt4zbGBy2
+         OXew==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=TZhH3dwXL6aV8H2ojvjkevH3EzOKePpJomLT9kRsGlw=;
+        b=hy/unH9AEWkM3E9MOeOqEzGpNr3IjLTHgNHGvSEprCb7eTTO/fc8rQxETcELVR/vsW
+         EkqJOtadeKmUXIDrKZWrmLzD0kullZaeEnG42ej8Ndn3Rq/wgCThBfZ7e5fpRW5fDjVj
+         4WBezNNABHLuRL3C1ZRUuPpFGd6u5GRTRdNEHRYDnAYetBStkcQbBS6pK5t66JE3m6Tc
+         ajXd2fFEBbkfBwHGpJJSznQeM/Z2rXoIlOlX6eHm30Hn3bGH/y86+Bdk+Oa9QQY6FxfL
+         f0NN3WCGB9E+TbJnAvdR3vTp8jd7u3plDHHOVa8pE/hS0Uw+KZ440PVVmdP+Eu4LBUqm
+         A9uw==
+X-Gm-Message-State: AO0yUKWVsREwyOBMpdXS/xq92gzRN6dPCeuaq0q0OkkpWbhtA1IgmAaZ
+	ygl3nrWPJHNgGCvsr2ar4bBUjbwftLXtYsFT
+X-Google-Smtp-Source: 
+ AK7set+J03lC3LXhTa6wm67z3csRlVD+jOAnB8IC9EbUaNBxvkzDqDQVJ/DWySudZK5SNwwo4+rZvg==
+X-Received: by 2002:aa7:8485:0:b0:58b:9473:7ae0 with SMTP id
+ u5-20020aa78485000000b0058b94737ae0mr8766254pfn.32.1675439096532;
+        Fri, 03 Feb 2023 07:44:56 -0800 (PST)
+Received: from DESKTOP6QH7NHO ([203.81.240.191])
+        by smtp.gmail.com with ESMTPSA id
+ u12-20020a056a00098c00b00580a0bb411fsm1952062pfg.174.2023.02.03.07.44.55
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Fri, 03 Feb 2023 07:44:56 -0800 (PST)
+From: Mark Lee <marklee19@dmatexas.com>
+X-Google-Original-From: "Mark Lee" <marklee@pulpsys.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Reply-To: marklee@pulpsys.com
+Date: Fri, 03 Feb 2023 21:14:45 +0530
+Subject: RE: untroubled.org domain errors
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DESKTOP6QH7NHO324f6e29b326494088a4ae5bf968d0c7@DESKTOP6QH7NHO>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 1971
+
+Dear Team at untroubled=2Eorg,=0D=0AHope you are doing great today=21=0D=0A=
+=0D=0ANot sure if you knew that your website untroubled=2Eorg has some pr=
+oblems that you might need to consider looking into=2E I spent 2-3 minute=
+s on your website and found those errors which I have listed below:=0D=0A=
+=0D=0A- It doesn=27t work properly on Mobile Phones, at all (30=25 of vis=
+itors browse the web from mobile these days)=2E=0D=0A- It doesn=27t adjus=
+t properly when you resize the screen (Google and most of the other Searc=
+h Engines  recommends RESPONSIVE Websites rather than ADAPTIVE)=0D=0A- It=
+=27s hard to read on larger displays (Your viewer might getting issues to=
+ read the contents)=0D=0A- The design looks really, really dated compared=
+ to some of your competitors=2E=0D=0A=0D=0AI actually do web design as a =
+living so I figured to reach out and let you know that, there is serious =
+room for dead easy(and affordable) improvement=2E =0D=0A=0D=0AI can devel=
+op the website on a more advanced platform at an affordable price=2E That=
+ price also includes making it complete mobile responsive which will supp=
+ort all modern devices with a wide verity of different screen sizes=2E=0D=
+=0A=0D=0AIs that something you=27d be interested in? Reply =22YES=22 to g=
+et the detailed plan/proposal to fix the above mentioned issues=2E=0D=0A=0D=
+=0AThanks =26 Regards,=0D=0A=0D=0ASincere regards,=0D=0AMark Lee =7C Busi=
+ness Development Manager=0D=0AContact No=2E: +1 (806) 275-9759=0D=0A=0D=0A=
+Visit our website using the URL: shorturl=2Eat/bJOV0=0D=0A=0D=0A---------=
+---------------------------------------------------=0D=0AP=2ES-1: If you =
+want to receive detailed plan of action, please feel free to reply =22YES=
+=22, We will get back to you with Details=2E=0D=0A=A0=0D=0AP=2ES-2: If yo=
+u find this email unsolicited, please reply with =22REMOVE=22 in the subj=
+ect line and we will take care that you don=27t receive any further promo=
+tional mail=2E
+

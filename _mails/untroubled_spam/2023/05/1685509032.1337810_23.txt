@@ -1,0 +1,164 @@
+Return-Path: <emir.dukic@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1305832 invoked from network); 30 May 2023 07:03:19 -0000
+Received: from mail-lj1-x243.google.com (mail-lj1-x243.google.com [IPv6:2a00:1450:4864:20::243])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 30 May 2023 07:03:19 -0000
+Received: by mail-lj1-x243.google.com with SMTP id 38308e7fff4ca-2af2d092d7aso42768391fa.2
+        for <bruce@untroubled.org>; Tue, 30 May 2023 00:03:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1685430198; x=1688022198;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=famb9D8JzSLDtjA+2J2xkihxUhu/emWl81f4TPsB5cc=;
+        b=nY8t5iG2eUcp8EXxGVojp4XKCxYxdUpoLLSkhkei0MOOJ0xi4QyKGaGOMln8TjeMnI
+         XlG3sGYLJUvBkcnRwKQ0w6oFLAEn3C1l4jDfFSQzkYO2gaXw4+ckg0ZXeoSOt3KrZ4Yh
+         6rI8e6tvlMhtavqdM4g7Dwzm+9gusyWvvVq7+YV1xDrAfUGQY66/V6tSOCtQG2rXxsvA
+         UxVcxCgMzZtXSEkVfm5pZRCdhPy2bHnc8UqE+Cy1N4kL1oyvx6+M5qAAFmJ57MPMwdht
+         lKUaFhwSiMq0mZUNSK0pG/5K0BdiZXT3pyYCC4S7a4c0wiys2l8KmBMD8BjDH45sJook
+         CcZA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685430198; x=1688022198;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=famb9D8JzSLDtjA+2J2xkihxUhu/emWl81f4TPsB5cc=;
+        b=LPgr1U6lTUN9U9wsACfMtbvvuiXrr+9pSh4QuTE+zqqzhZW2RpfEI3mGgszbXqK4NK
+         Lr+6RkOITSmv/AEs0zbfPlV7/3XKf6A6y6GdXzwfKsP5mBoVOInzsIfgcSU0sJJ+GLPZ
+         bAJDEXzEAcWQvrBF+ce1t7GwQMuWMIT3E8eXvkGh3finNTDu10WSLSgIfNTQyjkhjnKy
+         lvaiv676oPJZVgsQRhPMqwkhAcDZVG5rXOXpUXLNszQepEBhNLyaSw8pzVaD9tJSQqCy
+         x9e8IvesZgm+6NOkO7wIZ0Kp8Hb1DKVwjcDdsr0xdSVKTvt4OTJ36HzScosvZgMW7c5D
+         EGIA==
+X-Gm-Message-State: AC+VfDzVqsMeo/qkyfe7OeJ+IuLnxSwDszpPHbiQejukRNtUzbPImm2N
+	7PPs3bsurYwRrWLZGolky/trpDsEy4gxh7iOBHTW60W+oz9XwhYrgKA=
+X-Google-Smtp-Source: ACHHUZ4Vd5z5SXS6Oqtr2HVdD8xyy+zcTTGWYEATwq8+07SfH4PAAIT3cq2sFTbyc3LDi0lYU9WWYPkGwaNhBwikuBs=
+X-Received: by 2002:a2e:3201:0:b0:29b:80b4:7bf7 with SMTP id
+ y1-20020a2e3201000000b0029b80b47bf7mr307559ljy.41.1685430197774; Tue, 30 May
+ 2023 00:03:17 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 30 May 2023 00:03:17 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 30 May 2023 00:03:16 -0700
+MIME-Version: 1.0
+Sender: Emir Dukic <emir.dukic@globalgns.com>
+From: Emir Dukic <emir.dukic@globalgns.com>
+Date: Tue, 30 May 2023 00:03:17 -0700
+X-Google-Sender-Auth: BPzGPE7wpCCm8GodAMyceUdKEBw
+Message-ID: <CAAvB5u8CJuTcrz3t6r9ZaqgP5F6yrmKgamJzA64sKKG0C+eu+w@mail.gmail.com>
+Subject: Re : untroubled.org : Website design/re-design
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="0000000000003b749b05fce3ccc9"
+Content-Length: 5902
+
+--0000000000003b749b05fce3ccc9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear *untroubled.org <http://untroubled.org>* Owner,
+
+Hope you are doing well !
+
+I=E2=80=99m a web developer who builds amazing looking websites for small
+businesses.
+
+*I=E2=80=99d like to have the chance to show you how I can improve for your
+website.*
+
+I=E2=80=99m an expert in the Word Press website, App, Digital Marketing pla=
+tform
+and many other platforms and shopping carts.
+
+*We can help you in making: -*
+=E2=80=A2          Creative web design
+=E2=80=A2          Re-designing and Re-developing
+=E2=80=A2          Websites: (Static -Dynamic-Shopping portals)
+*=E2=80=A2          Logo Designing*
+=E2=80=A2          E-commerce Solutions
+Etc=E2=80=A6=E2=80=A6..
+
+*Let me know if you're interested redesigning/redevelopment of your website
+or new development of website & looking forward to any of these above
+services, so I can provide you more information & full proposal with best
+cost as per your requirement.*
+
+*I'd be happy to send some of our created Website samples & price list if
+you'd like to assess our work.*
+
+I=E2=80=99m waiting for your positive reply.
+
+Best Regards,
+
+*Emir Dukic,* Web developer,
+----------------------------------------------------------------
+Note: If you are not interested, please
+
+Click here to *unsubscribe*
+<https://globalgns-dot-yamm-track.appspot.com/2Y6BJLLj8sR3Z-yBjdSmY7wIc_Gr_=
+hu9xNlm2hjwMXrgQ2HdriAHsTeBwP3KZOX9k5tDcDe9EKG3KvbITQ2CZkql2wnG18dlwV91kaPv=
+i6pjg071Td7ehVWbO3EnGasr1bqLXk-KThInZ-rYZ1ZlRgUMTkA71ZnB7Tkr2dRYW44CMtqE27S=
+CRBthxKL8phBGRKfVVQA>
+
+
+
+[image: beacon]
+
+--0000000000003b749b05fce3ccc9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-he=
+ight:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><spa=
+n style=3D"font-size:12pt;font-family:Arial,&quot;sans-serif&quot;">Dear=C2=
+=A0<b><a href=3D"http://untroubled.org">untroubled.org</a></b>=C2=A0Owner,<=
+br><br>Hope you are doing well !<br><br>I=E2=80=99m a web developer who bui=
+lds amazing looking websites for small businesses.<br><br><b>I=E2=80=99d li=
+ke to have the chance to show you how I can improve for your website.</b><b=
+r><br>I=E2=80=99m an expert in the Word Press website, App, Digital Marketi=
+ng platform and many other platforms and shopping carts.<br><br><b>We can h=
+elp you in making: -</b><br>=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 Creative web design<br>=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Re-designing and Re-developing<br>=E2=80=A2=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Websites: (Static -D=
+ynamic-Shopping portals)<br><b>=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0 Logo Designing</b><br>=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 E-commerce Solutions<br>Etc=E2=80=A6=E2=
+=80=A6..<br><br><b>Let me know if you&#39;re interested redesigning/redevel=
+opment of your website or new development of website &amp; looking forward =
+to any of these above services, so I can provide you more information &amp;=
+ full proposal with best cost as per your requirement.</b><br><br><b>I&#39;=
+d be happy to send some of our created Website samples &amp; price list if =
+you&#39;d like to assess our work.</b><br><br>I=E2=80=99m waiting for your =
+positive reply.<br><br>Best Regards,</span><span style=3D"font-size:12pt;fo=
+nt-family:&quot;Times New Roman&quot;,&quot;serif&quot;"></span></p><p styl=
+e=3D"margin:0in 0in 0.0001pt;line-height:12.65pt;background-image:initial;b=
+ackground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial;font-size:12pt;font-fam=
+ily:&quot;Times New Roman&quot;,&quot;serif&quot;"><b style=3D"font-size:sm=
+all;font-family:verdana,sans-serif">Emir Dukic,</b><span style=3D"font-fami=
+ly:Arial,&quot;sans-serif&quot;">=C2=A0Web developer,<br>------------------=
+----------------------------------------------<br></span><span style=3D"fon=
+t-family:Verdana,&quot;sans-serif&quot;">Note: If you are not interested, p=
+lease</span><span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span=
+></p><p style=3D"margin:0in 0in 0.0001pt;line-height:12.65pt;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial;font-size:1=
+2pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><span style=
+=3D"font-family:Verdana,&quot;sans-serif&quot;">Click here to=C2=A0</span><=
+a href=3D"https://globalgns-dot-yamm-track.appspot.com/2Y6BJLLj8sR3Z-yBjdSm=
+Y7wIc_Gr_hu9xNlm2hjwMXrgQ2HdriAHsTeBwP3KZOX9k5tDcDe9EKG3KvbITQ2CZkql2wnG18d=
+lwV91kaPvi6pjg071Td7ehVWbO3EnGasr1bqLXk-KThInZ-rYZ1ZlRgUMTkA71ZnB7Tkr2dRYW4=
+4CMtqE27SCRBthxKL8phBGRKfVVQA" rel=3D"nofollow" target=3D"_blank" style=3D"=
+color:blue"><b><span style=3D"font-size:13.5pt;font-family:Verdana,&quot;sa=
+ns-serif&quot;;color:rgb(17,85,204)">unsubscribe</span></b></a><b><span sty=
+le=3D"font-size:13.5pt;font-family:Verdana,&quot;sans-serif&quot;">=C2=A0</=
+span></b><span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span></=
+p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:normal;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font=
+-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">=C2=
+=A0</span></p></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/22Y2M-GKBEG5hsSOEX=
+KZR88cCUDwKjEeyey2J5M1Vh8cJ2HdriAE04t8q4k8rGGEtBtxH5pHVV8He5tnn8AYmQhbKcObP=
+nvBFGv9AL80UUgGEpL_M4E-FC-gu9pTQ8Q9SBpq_DmNPpaGsDIzLJgWbIcThN-kHMDPnGXwQQEv=
+z" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--0000000000003b749b05fce3ccc9--

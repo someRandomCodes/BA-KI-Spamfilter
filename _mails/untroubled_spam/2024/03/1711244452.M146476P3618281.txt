@@ -1,0 +1,153 @@
+Return-Path: <468285498731@ad.ciudaddelnino.cl>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3619858 invoked from network); 24 Mar 2024 01:04:35 -0000
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (mail-mw2nam10on2125.outbound.protection.outlook.com [40.107.94.125])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 24 Mar 2024 01:04:35 -0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=G+18KQmnlFO8aMg1ea+JAa1+E8uTcHdkBssb/JSHZO4gFs3jDDe2OwjZ9P1SSVctpyhgVACr32Zn3PdlwVvgykNhets6LcP/6Syjl64DWY7/sZfTb95fOnS1upbtyRu/z6fpLV4COrta67MktUUofukWyT6VeJRChG1ZD2QkWkczVj/raELFEiN98B5J6b7pC5416Or2wT4hQ22o+FzkyrNKCQOA8LeoAHg3bB/oQx62O89aNfcVZ+jDzHdoHjRibiObUqgJH9aUyQD6/yucT9hUAwGs4WOSiEhweoi62TKhtk73/sKeywZ+/q88284NCuNPr0cQT0ukZ2GmHftpHA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=5dbPUZ6IEtKn4e0aIoxiYGrAm6sp+c5VfPoEOROAm/I=;
+ b=gEu6qVwT+wwL1b+JjTvCxJ3Q5Kte+/tjutYCMNGpgkbrCjnX/rzHyGazvVOziai8UqN4yX2K6diT4zgrKdbwsMk4YvsADvQ1nGoM+fZq/1K0CAtV9AEsyMMX/D7MYI1wnYgVoUCwWGloQcr30ndynqxkRgKRT2ftCKvnCJOj1jKbT7XFLz0GFcs9FLEBYEmemFwgQ3CJmFZBOWBe6qtri9VXUHMJgVBEXGGkGy0NC3K4oCvLlk/D1JDa9vodV1c9z6PUGj831qOOhnosaNf7nvMKCW0MdvEvaZvvyf0kJaR79F9ls6EA4Tm3QxKKIIlJsQUxVjayexBD/VMvR9+3IQ==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
+ 194.145.208.179) smtp.rcpttodomain=untroubled.org
+ smtp.mailfrom=ad.ciudaddelnino.cl; dmarc=fail (p=none sp=none pct=100)
+ action=none header.from=ad.ciudaddelnino.cl; dkim=fail (signature did not
+ verify) header.d=silencershop.com; dkim=fail (signature did not verify)
+ header.d=amazonses.com; arc=fail (47)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=ciudaddelnino.onmicrosoft.com; s=selector2-ciudaddelnino-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=5dbPUZ6IEtKn4e0aIoxiYGrAm6sp+c5VfPoEOROAm/I=;
+ b=kQa0baliNTgVhU8YVa8yd/FTbV6694C6l7oGwV8hRS7kXNWMTq8K7y3ieTJCTmr1PmtPmBYI9V1CLOhd9R0v35mCdpgLQf6O+paXKyvqV27u1wsi32JrQGVFMy3mpMow+v/JVBNCTOdRYzOICxksRJEzISyAD/suumxo0wvRxwg=
+Received: from DS7PR03CA0232.namprd03.prod.outlook.com (2603:10b6:5:3ba::27)
+ by RO2P152MB6623.LAMP152.PROD.OUTLOOK.COM (2603:10d6:10:132::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7409.30; Sun, 24 Mar
+ 2024 01:04:32 +0000
+Received: from DS1PEPF0001708E.namprd03.prod.outlook.com
+ (2603:10b6:5:3ba:cafe::4b) by DS7PR03CA0232.outlook.office365.com
+ (2603:10b6:5:3ba::27) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7409.13 via Frontend
+ Transport; Sun, 24 Mar 2024 01:04:31 +0000
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 194.145.208.179)
+ smtp.mailfrom=ad.ciudaddelnino.cl; dkim=fail (signature did not verify)
+ header.d=silencershop.com;dmarc=fail action=none
+ header.from=ad.ciudaddelnino.cl;
+Received-SPF: Fail (protection.outlook.com: domain of ad.ciudaddelnino.cl does
+ not designate 194.145.208.179 as permitted sender)
+ receiver=protection.outlook.com; client-ip=194.145.208.179;
+ helo=ad.ciudaddelnino.cl;
+Received: from ad.ciudaddelnino.cl (194.145.208.179) by
+ DS1PEPF0001708E.mail.protection.outlook.com (10.167.17.134) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7409.10 via Frontend Transport; Sun, 24 Mar 2024 01:04:30 +0000
+Delivered-To: eryssa14@gmail.com
+Received: by 2002:ac9:6146:0:b0:51d:ec44:9334 with SMTP id c6csp4220345ock;
+        Sat, 23 Mar 2024 17:08:39 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEAOdz8lYqlZbEzEJeTtgDF+4LAErB7oAK43FqNLMnYWLF5sIcSG7RosZAMhjlrRK7Qg5mM
+X-Received: by 2002:a05:6870:40c1:b0:221:98ef:6c05 with SMTP id l1-20020a05687040c100b0022198ef6c05mr4024795oal.55.1711238919245;
+        Sat, 23 Mar 2024 17:08:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1711238919; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IfchJFhGYzdSeayorANJS+xs7VXYOTUeIQVD4ygKhY+onmjHIvfaPrRm8RzxvJkhEU
+         jTMLc65PG+PWPq3d2rQZ9+ncv5G5KbX3vYt1vTaAjraAjTcPNd/2qJgKdv/INVWe7PnQ
+         z2sz5UrP5j9siCGHbXgyjZyoR14X41BRJKIisqLzxYH4fXx87lDQVTIoNlI9KFzg8L1N
+         XwTbQFFH9eCyVyOn2sZ1xIlAjoHJ5q1x7ygknS0EY04ckl9o06he158nxe1Wf+WtPZ1t
+         RPv4WUkiKFZbDv/E9HGJ8FD5yYsRjcVapZPrUSHw2bEaYehuNUXtri+ZRypeywnZ7afm
+         42dg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:auto-submitted:mime-version:subject:references
+         :in-reply-to:message-id:to:reply-to:from:date:dkim-signature
+         :dkim-signature;
+        bh=JtVDD/O5G9xdMlsqYxC5mJ/Me+AJSuw79iH9XWm9drY=;
+        fh=hFMmfGDDiR9EKpCrViAIyO0T7/OZlFcbZAPdyg9NDkg=;
+        b=d7EENG3LHFbbM9vzw+eRO0TcScDGFA3z2m/K9IixOiTZgtbxx0taHmBahSru3DtKVF
+         gEhMdqN6Yzb3J4GVD2n+jSjT5o+IU1bl/DQ9EvW5J0Jz15H7MQOZh/caWlEq2W/FlxBP
+         0NNC/oLSBH/3mnslwHLWLNx7S39NZ6fkZfV25nQQcKjUn991VTvQamuzDv/dib2IaLf+
+         fW21qBlIkTGA/9xqIE9g7J4qJdefxbKpL4yibGWqCuAfMOn5M8DQ7w5qNxmDDZHVW/Tl
+         W0KG+YqOrRn1Hcj7qPqGiXLTRFCHrlPBu1Ww36aHr/EXigSecXJX5Wkdk9IaWHtqRhBU
+         T70w==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@silencershop.com header.s=yfmyctsfimzree6j4bx2mp3doqra7uwz header.b="VjkOu/+M";
+       dkim=pass header.i=@amazonses.com header.s=7v7vs6w47njt4pimodk5mmttbegzsi6n header.b="q5q/hTLg";
+       spf=pass (google.com: domain of 0101018e6dc9b294-a4d65cc5-7f8a-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com designates 54.240.27.187 as permitted sender) smtp.mailfrom=0101018e6dc9b294-a4d65cc5-7f8a-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=silencershop.com
+Return-Path: 468285498731@ad.ciudaddelnino.cl
+Received: from a27-187.smtp-out.us-west-2.amazonses.com (a27-187.smtp-out.us-west-2.amazonses.com. [54.240.27.187])
+        by mx.google.com with ESMTPS id b14-20020aa78ece000000b006ea79b5b63fsi2400510pfr.337.2024.03.23.17.08.39
+        for <eryssa14@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 23 Mar 2024 17:08:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0101018e6dc9b294-a4d65cc5-7f8a-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com designates 54.240.27.187 as permitted sender) client-ip=54.240.27.187;
+Authentication-Results-Original: mx.google.com;       dkim=pass
+ header.i=@silencershop.com header.s=yfmyctsfimzree6j4bx2mp3doqra7uwz
+ header.b="VjkOu/+M";       dkim=pass header.i=@amazonses.com
+ header.s=7v7vs6w47njt4pimodk5mmttbegzsi6n header.b="q5q/hTLg";       spf=pass
+ (google.com: domain of
+ 0101018e6dc9b294-a4d65cc5-7f8a-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com
+ designates 54.240.27.187 as permitted sender)
+ smtp.mailfrom=0101018e6dc9b294-a4d65cc5-7f8a-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=silencershop.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=yfmyctsfimzree6j4bx2mp3doqra7uwz; d=silencershop.com; t=1711238918; h=Date:From:Reply-To:To:Message-ID:In-Reply-To:References:Subject:MIME-Version:Content-Type; bh=virsKGBLhBpcs8V6GrzSwpr9tdrTS5SD2XmAH/GBYbE=; b=VjkOu/+MRrhrr2zm4aa/XcjULFe4VqlsAoHXc89qxhAdqII0MrEt3pZyEgF8FzRG D+tRXmE05y7neBJOic3B9c9iuVSLc8HCcFrsjQ5FxG68oCT52KStVI6cYPD2f/TS97O Wyn5MQtwURm6fFyCOyo9IHTk1AR+2Cpeo35E4Dvk9dYNZ7AaVRS4jRiJHENQpKEI+Gi 0Z9GKRZrnzBlSj2QHR59RGmPF4Xa82/8F1KXtip7+tG7GCkow1nhf3WhOGknsJCMWts 3YNYpSZ27xKFPjPu+Mlnl9eIkdIHkwjB0g8iJg5r9ARtWV0kTnqpZRwfcQltVorxjZt /x9VqB9YCA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1711238918; h=Date:From:Reply-To:To:Message-ID:In-Reply-To:References:Subject:MIME-Version:Content-Type:Feedback-ID; bh=virsKGBLhBpcs8V6GrzSwpr9tdrTS5SD2XmAH/GBYbE=; b=q5q/hTLg0oH1ELdla/k2k1/4zay8OBLAGXbAGDh4FIkjQB7o22uMEggE5APtFzVK VDEjhTkxbpS/Juqaxe0nFnwxcI6wGOuPH+qVy1MjKxr3ZXgcL80zcIj4DX+IMuy9oZK 2HfAAScsgOyrPy3d9bWtgskP0OfAD9zg1lwxkkJ0=
+Date: Sun, 24 Mar 2024 00:08:38 +0000
+From: Silencer Shop Dealer Sales <dealer@ad.ciudaddelnino.cl>
+Reply-To: yabinleila@gmail.com
+To: bruce@untroubled.org
+Message-ID: <0101018e6dc9b294-a4d65cc5-392832079568-4a0a-b895-2c53d7577823-000000@us-west-2.amazonses.com>
+In-Reply-To: <81.03.43950.96719483160531189111Dq6@gy.mta3vrest.cc.prd.sparkpost>
+References: <81.03.4397248149684658231189111Dq6@gy.mta3vrest.cc.prd.sparkpost>
+Subject: Spring has sprung!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_5494_821485070.1711238918775"
+Auto-Submitted: auto-replied
+Feedback-ID: 1.us-west-2.zMfBlgHcIbDM3bG99ThO1hQwMROYizn+jdVRPINE89g=:AmazonSES
+X-SES-Outgoing: 2024.03.24-54.240.27.187
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DS1PEPF0001708E:EE_|RO2P152MB6623:EE_
+X-MS-Office365-Filtering-Correlation-Id: 14fb27ec-59c2-473f-01b8-08dc4b9e5cc0
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	nsc1XvAqEmN8YpsdrU0vHBKKla/70C2QUgOsi9Pkap3X45soVr8IvsH5EYCyjg0GJD8xMJfRhx7wwMKkcZLDGPimWsm3t9zl1kbvDN9kxE40JDMz4xqWHZL9rV8Hgp8uX+BEcXigso4ME7Z2S1RocJpv7TUxLUoCGgydSUvv4VM3+xUGIeIGwbg4NmwDFq1fxQxAS41Rdflh5mUfeL6uXxtb2diZlmcG0/AYGrG0k8x0WZUpb78PDQOT+UaOM1XbNZIsh3zh7tkw8atD/2lMNG26GlNgADB9oP72e0zoQ46sMcaKbXTdsP8LTAHItMaItbyKaGi0HX+WykFUpB3Hy9PM7TI63vLssts6cebOp7BGDx6l1FTrjpyCQKWzJC68lU4CFJ0b+JlOdnSQqqh62EqAZr8LIy7i6taISwZ4AgAGjg8FJBRIPeILkBj0clKG
+X-Forefront-Antispam-Report: 
+	CIP:194.145.208.179;CTRY:NL;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:ad.ciudaddelnino.cl;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230031)(61400799018)(82310400014)(36860700004)(376005);DIR:OUT;SFP:1102;
+X-OriginatorOrg: ad.ciudaddelnino.cl
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Mar 2024 01:04:30.9333
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 14fb27ec-59c2-473f-01b8-08dc4b9e5cc0
+X-MS-Exchange-CrossTenant-Id: abaad3b2-c10c-4622-80c4-14acc919be0e
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=abaad3b2-c10c-4622-80c4-14acc919be0e;Ip=[194.145.208.179];Helo=[ad.ciudaddelnino.cl]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	DS1PEPF0001708E.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: RO2P152MB6623
+
+------=_Part_5494_821485070.1711238918775
+Content-Type: multipart/alternative; boundary="----=_Part_5493_252764597.1711238918775"
+
+------=_Part_5493_252764597.1711238918775
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+------=_Part_5493_252764597.1711238918775
+Content-Type: message/external-body; access-type=x-deleted; length=7551
+
+
+Content-Type: application/octet-stream; charset="UTF-8"; name="Invoice.htm"
+Content-Disposition: attachment; filename="invoice.htm"
+Content-Transfer-Encoding: 7bit
+Content-ID: <f_lu2816xu0>
+X-Attachment-Id: f_lu2816xu0
+
+------=_Part_5493_252764597.1711238918775--
+
+------=_Part_5494_821485070.1711238918775--

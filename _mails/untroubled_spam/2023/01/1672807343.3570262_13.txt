@@ -1,0 +1,319 @@
+Return-Path: <>
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id
+ atlas--production-gq1-69c878588f-wwxhp.gq1.yahoo.com with HTTP;
+ Tue, 3 Jan 2030 15:13:06 +0000
+X-Originating-Ip: [209.85.128.173]
+Received-SPF: pass (domain of gmail.com designates 209.85.128.173 as permitted
+ sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Tue, 3 Jan 2030 15:13:06 +0000
+X-YMailAVSC: tz65mqw3bBuD95HmKTvenmx4NwPz3MVuCp89NrHGEleB8fl
+ TdKG6ZNeT8S1bFoO6NGTAPnfupRjtLMFPc16qVZfwKq_DzNlfluaZQ8RFR41
+ IXdgQgfAkQiCdJ2xu_tT46ruFf9kzj9zu3_7NKh8zQCP6Ab0PwlyKkJXMwJB
+ 1QP7IhBI.tGooeHOeapOtH2NbG1SqQn9NuzXgcIQbXmoW9vL_YBGtUb6ymtF
+ 8h7nJa7iYFdf5ZUG00F4VHzfzUT9FsIvE6xeadRnuoILjK.8T0M6VzwGKmHN
+ G5eRwEZS9.0Oayq7DtljUd3umFEAFfOtPq3kH8aLpD2EChi7Qt7OcKN.G.hd
+ LJ0.d3WpGCItHvEXrcJyZ_0NQ_S7Um8ZHxYWNoqG6O1Nt4Ry9k2ijNSSFeiI
+ mCxd0j6jx5Wj48R0zjqD8pFInj8BVY04lJO7uI_Ux3Lro47tgrBED7aS_vJa
+ gIasCkIyLdW.gbtkwWmU._GFftbXtwq4.Q6HrSyDV4WNEtzzGUvqhTrn920Q
+ _pov._jcmxhKn9_qQcvm_WXK0qUis4lRIx.gqhkuzu7eICbEgXTX_H0b8IqM
+ Pf_CswtD9BEEESUiMlmOuxrbR7iOoizXBOHJ7NsOzYZPJqrS1bOyKX.pmjQe
+ mKqm0IYkKZlJuiia3xcwDuPE4PokeZ5nICK9tGkjxxZpCvYL9pw3.pr.UWn4
+ hTH9YQRRHfUETXtBOi0x8dh_LYa8A6ZC0VDNBwWNE6Em.Uzs7q6w0OTLA9nz
+ i.kT9J7eHbsXkOYhk_lMZkOLyWEw8imY4SdI2tfRvrzvIH.xLIekpx39SF6Q
+ FHCmvAIO.FWV.ofjuA0WLM1khp0qaLxztXco2GoZnX6PYsxvZ6QMwHeeMctc
+ QS_gP8ZOjwi41lF.e92L0iNl88pnl.twxxEAV3umdYZYEQLmsaXk5WeIYAZ4
+ 8s6RkELGEEgxyijkbD5G8tKQKbLmzgKCFE.BQBQWGXQghXV2TEBhm4KYmOez
+ n_Jz0qf6ITl7E6fyusZtG3E129lN2J44hoRPrqAfKVmLx
+X-YMailISG: gDzB19cWLDuGv7_YWYuIQJIQMIpXpWrdjFWQKR5YOWr.3qlG
+ qMZec6rGNd_P2CiaDruaewa9vUR.PPO43khCfFUilnrZDFSS5gBhFP1GyXJu
+ uBM8Wefg9cqKpngej9gsTpQB9ZoVpb_dSgKzEcF8gMo_TuGgAEP5WMsJ1P1m
+ qYNWRZ1a2Qc6.rXBCkWyKrejg7KUmfMm1x.JWCxQRiSHvbMjLmJS696Zyn7F
+ X30L_BpcHeX56BpF_5ih2VPmGna0HiR74WBeq539qIyZZ3WsCfjicss5lm_z
+ sCjSi4xLRfUXWhFN2kx_vfEOX2YBjLqlGWwSaWquM5OcqINGXgNw3NYuo01z
+ BIr.A.o8I6sB453yGo0HG.Ph7v53hCrgklAY6NdMVssCDB5aolxF1WL23_tt
+ PmbMkJCvpZ4LGSioZecJkC5S7POZK5yuAue6_BTS0fija93337BUL63Vhnbp
+ .PXVRHd9RRwc521peP8UgRFZvT8oJID_ChMVpH08xT4v.oiAkMm6VPvVCUZK
+ f5pocTb8eod0wKdTMADT1MZZ6oMsR6XBMFssEPJkjCTszaRKbHBYeUBHO38v
+ sb0YZyOydF4jljJXo2YzxvTAO34T20A5dK.aesNtHa1xLZvcwTcaAjRRIcXX
+ gDuVmCzV6UE5gAe4aii3Var6eutH2M3D2npKxfLRjVWaYkawIl073mruWeL0
+ 3ga7vfvRJLlzgNr_etGHIfU6xxaM7ej6ObHH69AYvF773COAViu5FQSDkH_j
+ X4E4u9grVEXWknKrvWYS9fP.3qa9F71DBVf92Lipu4MruNzf66IBOZicJSts
+ _VKeo1hzflWPTj7L1FDYd3pPqVHyb7_GSEFQ21mWeYPzWo2wlP2JQfZiwWRk
+ hMoTVJHYRUiCmUujxwjQNObl8k6OGzdNWm5MxacvCPx3xhDQmV20TjUPu5k2
+ 7NmB.84_J4pfAtkgLiQDMWTM56D5S_LExpw5Qb.dd.cmX1KQIfQ1CJ45IrKa
+ zEJM8bHBXtSZiQ3J7wtRGt01GuQ55At0nZIZWkZuYOwIp90.emFBu_0CWz3L
+ iivhKhJcOGmZoOj9hLHfUFTPAFuIhvxul5E492pvFxI.b1RgaGw-
+Received: from 209.85.128.173 (EHLO mail-yw1-f173.google.com)
+ by 10.214.145.203 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 03 Jan 2030 15:13:06 +0000
+Received: by mail-yw1-f173.google.com with SMTP id
+ 00721157ae682-4a2f8ad29d5so99065737b3.8
+        for <bruce@untroubled.org>; Tue, 03 Jan 2030 07:13:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=I3ZmoEQ55GJuAyU0/Rz1aDWtl1pSbydybpa1esJ8i+E=;
+        b=ercPQQZVtG2NIyq5zHJZ85Ebz9KUE5YDhiTYwZXMiBLnH3X1HrojjG6bSdHjWOFXmo
+         8n7RUyObUcK8kDUDRMF3xrCwbzH7Qtmym2Dhi5v36R9h+qeN5STxyZDiMxRo8xc1RY+4
+         LeZDH7npLU5YZ5C/OO/cO6wSq+O7eM1YvXbvVB2SinwWhNh0omowafmcBl41ZbQwwW3P
+         U0KsXd40STjJALN5M7lrQ46Ce2ejU/kNGcwduosqJSJbJ4gKdE1ip58Fyo3YkcBroM6t
+         abkluGGy3++nkhkweiavTHoHvQFcQQx/oKvpSILQgHpdQn0gL8upn5rXVvcOZ682GNr/
+         KfwA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=I3ZmoEQ55GJuAyU0/Rz1aDWtl1pSbydybpa1esJ8i+E=;
+        b=RVjAVN/eCTX9e/bqjZh0+3DpiSeyIdhR+xRXszWEMonrNQTH65x5MOGACt8Ke524Ic
+         0YWpYRv6Ns7YFzICtBqqBlN72U5q5BqVxXzFYdRmDOyx2GHJ2dJvwjPZn57FLhkSYTs6
+         PzXMmPwbeBvAF5OnFH28KzVfI3CDpYIa9lBPcNUVNAfXq9qpm97Uvh4zzPySifxisLPZ
+         r95GPFPTcfZkIK77FQ1zLuQ/OgOHXpU7NAjWfJlRbN3H4i3yhM+Xv+UoC0F8vAp7PQ6Q
+         sO5O0tiFFLR8gZR/9RzH6KNhPT/denlAB89GmdqLIiutvFLBr/7xoK4nSTNR7Nnkr+Wb
+         3mmw==
+X-Gm-Message-State: AFqh2kr/3TExxOekjBkt3G3ik39z867EYgKkVPlmA0ECZxSXJZBBA3lY
+	yzZE8Q8tFXFiPDLGb7D3z9CZW1NGqMeHNJG/W+4zIxaN
+X-Google-Smtp-Source: 
+ AMrXdXvOHJq5RNe15lb8ojSfelsqxOczh4vm74uC6WuZd7bHJmKlBv4x5wWT0TXr91sh74u6k/V1tvRBX1uC46+2zNQ=
+X-Received: by 2002:a0d:dbcd:0:b0:471:d029:3b0 with SMTP id
+ d196-20020a0ddbcd000000b00471d02903b0mr4774472ywe.443.1672758785894; Tue, 03
+ Jan 2030 07:13:05 -0800 (PST)
+MIME-Version: 1.0
+From: =?UTF-8?B?QWNlIFJld2FyZHM=?= <bruce@untroubled.org>
+Date: Tue, 3 Jan 2030 16:12:53 +0100
+Message-ID: 
+ <CAOQeMMQM1dHwYxeoKJss3J_wynObQ6+ETV13s870wW0St+EPI9@mail.gmail.com>
+Subject: 
+ =?UTF-8?B?TWFraXRhIFBvd2VyIERyaWxsIEV4Y2x1c2l2ZSBSZXdhcmRzIEZvciBZb3U=?=
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 13791
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" >
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Ace</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #333;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 50px;
+ margin-top: 30px;
+ margin-bottom: 50px;
+ 
+ }
+ .product-name {
+ font-size: 24px;
+ text-align: left;
+ display: inline-block;
+ margin-left: 10px;
+ vertical-align: text-bottom;
+ }
+ .feature-para {
+ max-width: 90%;
+ margin: auto;
+ font-size: 14px;
+ margin-bottom: 30px;
+ margin-top: 20px;
+ }
+ .title-para {
+ font-size: 42px;
+ font-weight: bold;
+ display: inline-block;
+ max-width: 50%;
+ border-right: 1px solid #333;
+ text-align: left;
+ padding-bottom: 0px;
+ line-height: 1;
+ }
+ .cta{
+ display: inline-block;
+ padding: 16px 25px;
+ font-size: 24px;
+ font-weight: bold;
+ text-decoration: none;
+ border-radius: 50px;
+ border: 3px solid #333;
+ margin-bottom: 30px;
+ margin-top: 20px;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .logo {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ }
+ .title-para {
+ font-size: 32px;
+ font-weight: bold;
+ display: block;
+ max-width: 100%;
+ border-right: none;
+ text-align: center;
+ padding-bottom: 0px;
+ }
+ .product-name{
+ font-size: 20px;
+ margin-top: 10px;
+ }
+ .feature-para{
+ margin-bottom: 20px;
+ margin-top: 10px;
+ }
+
+
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ 
+ 
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#dae0e8" data="image_bg" background="https://i.imgur.com/8ZrVgZQ.jpg" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td width="550" valign="top" align="center">
+ <img border="0" src="https://i.imgur.com/JJuoLno.png" alt="logo" class="logo" /> 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p class="title-para">ANSWER & WIN</p>
+ <p class="product-name">A Brand New<br><strong>Makita Power Drill</strong></p>
+ <a href="https%3A%2F%2Fwww.b22trx.com%2F4J58SX%2FM6M73S%2F%3Fcreative_id%3D820" class="cta">GET STARTED</a>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <img border="0" src="https://i.imgur.com/9CxsiBy.png" style="max-width: 75%;max-height: 300px;" alt="">
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/335642585ad344a3d58aff7fbb7486/55cb982e8efc89415c7d0d5d03a04d#TTZDYjdETGRacERVZGtOOEdWd05oUzlpc2RRanNKbFE4TnJhUWpCZHQvQjJNcW54Y1E3Y1FWdTkrOWZidVJwdmh0cDhTU0t1a2Q1enp1YnRIVXM5NWJnd2ljeGo0Mk9oVU5NRkFzdFF6TnM9" style="color:#666;text-decoration:none;">clicking here</a></p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/335642585ad344a3d58aff7fbb7486/55cb982e8efc89415c7d0d5d03a04d#eXRnQzgyQUpqamh6WUtHdlRnM00zeXRhc1BzUVZ5Y1lPR3IrMDVqV3AzU1NlejRKcy9XV0wyS3lwR2duNDNXQVVKOVA0SUZMOElxejFVYWo5Z0hOMkdncXJyTlFRWkczMlIwanlQbjI4elk9">here</a> to remove yourself from our emails list</span><br/><br/>
+<style>
+<p>x5ev4f52eeklzfydrd5c3jjlqphx6t5mqjqaoqcciuz0whan9w1qujku1aagvdwp5gnif2e0i41hkswtbcpngbjzbmlcbqhkrlcax7w2lujep0vtvipwoev07rir2k4jtz5ojbrusd42yrgwz3imbbbq3zljqxhbekjy2cz6jabsxxlsnc68fnyoi8i7ybvcjomjtcvvkhkvqtxr3wcwbeofexppqdh6n9edephpvprmlgbgagrgjbp7fg8goa7ed4hhdrzrbqu7e7eeoi43adzpyphupxlqlkcnoyqkbtnr52gx8ly64qvjbjjikxx1nxk3wqva59hplmm34cr6oq7zpe02r9fyhmnrwqidqildrqj4dv863avjeu1tcqyllud7whsddkc5ub6z</p>
+<p>zuv04a1a4hbnnygz44watc2e6wcmd5zap2p1eurhzl7lypclpek1cy0wgymuetmrgtb3tdgah5r5on5tpt1qud1mjfcymomiaed4zle9lcfe8ybcgqpmhgkgmb8tdvgiylkgiv2wnoujs5u8gg5f3zsovntixlgckt35noiw1uzfj24txfay1rcpepelvg3unrgg3eutlpzzetl7yvf4wrmp57d2smzbpncb3vc1vgu0pow8qt7cza9osavhz9ap3134aycjxrlqranpzybmwafq924iln7uk30nd67pxrqeloqtq0tlrv9vruz5qbw6pmxcxdid11vspejrstasumegwucvz6zjvvgbrhv499fmqiihewpc3jjay33j48mi0nfxrqxsnk4aly5c</p>
+<p>3klgvp4xyjn9vlvlz7mj2es43d36zcg2r76b3tegdg2q05shuv8rxgx1drxjknjonyo3oc5d5md60lx6n845eft5sukdzlpt3cwhia020lcx2so5pkvkjrapjszf1afc1nd38iimykmfjc8ubnw07pkmhbvukehyiqng0jjadq5zdbxjurfrdwxwgfti7pfhgfg4gaq9vfa5ncdpgsqgjukuncrwapzq9dv2jb2p8h6e6z1hmujcfwxbvzmli8pjmn4otwxbq1bldnh7r2y0auztg3mnccslwv3b31scyawdxmbulojco8b6pserdwjfe6f51rfm7f26aghsqtcunefcz1hlmpypujln9vm2tmfnvsczurdwnorrja9ryxw6piakp92knsed2ryi</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>xKs5xuNv3A8khI9jz3wAPnEerRHPHpq46JYElm7BRPz8XGuDZg55Sa8UlME8r5ir8G80bCI7Ea6biQNMMovD05c4zrNbOxME0XOLx84EA5LScIgWtdNrRf84RPum76k193TqUYS5R36EXipn5zhz1DVCWuzX4Y0QgQ64l3fF7kl3O0zc22XPyzA1wXhGL24HrA3BAt8XoQgeelgBgtmBEecGxHKOyykwUGUltvZQBDiswQDBy43pm1fILWewm26rqcX8UcdYtK3VfYOtGImj8DYKqUP6nPwpElDOdqiMWvlKZkep7j50PiWHn3722WGC6ySLXUWFgbCbUHY1kefGSxs3gA6abMeEdBGoao3LidFXBs7YVAXpq5qJa9hSVIEoedXK7VnWFHQ1PUNH</p>
+<p>iydijxg3qdghnwgw0hekt4c8uiembu6gagtypjgy4fie2iz6noampdygs8w3pyiwqmwazn4xuedvs7z2lwsblzdw2aah5mqna8fbfo7pqarqmblolb9m2ajy9bcp3jr3cddcwbu3eg3vr500ozdkn0u49xs6cdmluxttv03pyrjunlaiwpnhqfwr5dukrjqczkrbsd4bjgwwxmwu0wnshd4cnazdghwbhbjd7vysu5izjgnutbir9r5ohzdypm0xwgnz9z54minge6ccod4woqnsdz92xrh8dt8cfhs3acocsbdvg5liizpsmagtnt8shfabmhr1ernbeanqxkghmhnkg5deumle3x8sv4lacatodbo3a4sskoaln07ssahun0clak7fgz19tl5i</p>
+<p>f3nyw5xnwtrkj1qdwu3rxhnty3tb9ywaaxxzqvscez11fh1mv4iacs1xuhvtrmbcub9xqmryaajpsplsa1xwc9dht4wzr03kbs1vzsbwstiopd1nhddgry2hd9ogl82zvtpdkddubu7ctih7zzh0zbs2zihsqhlcoc3sorj3zxcgjfy4pfifcbcmhqcianr4ndqvuvt7vuewqyz5u4kygwrmshbxjj4bb6b3tvhubb92h0uunsv4joebjm5rfh6urk9zlz445pxls7gvjmd4hj71wgwuqwpvj8cdkecsmumxjfihmrvhbathbkl78xqadrims2lx1xc7jaqa2cnddve23nipltndowg0x8cm7ergr31dl8fhkhaa7tucjdigdtokqtdis9dcfkre</p>
+<p>kfs9guixrmrgxiekqxxmhc9ps9hwblakjxos3cebf8kwvgkfw5yezh7clqjjpst7efedblsfy0gyauey3fytaezcr57rllbh6suqbp7yirz7o3tzebui6rgb6iewze6wum712umxp04qtzcifn45h0iu4tlkdlfwwi7my0gien5hbvomvpjbbkgk5gdwp6ilvfpsv6e5vfioxttw95i47kwc9ulys2nqjh6yfacadjsoslgnzvmz5zdfzbyyad8hsusnmsxejyfgoiy06ctpwg38yupik1wver7hjkuuyebpg1uwu9tsivzgcgtmle4ajealedws6wp60m5prekjaly80llnfpceth7q5dcfvjmwieom033ukvwzo68oqkvcxewct5uihgyhac5g</p>
+</style>
+<style>
+<p>kd7iwcgbuzpz2xbo35wvlnmrwri3bjpv49wfnk3m8kkztfxbz6eqdppwxkstln3jfqdzffexmrrmfglwgu5dftllgx9ktifhc8oxuwfhbdy4ts4hldw5ogzzruzw2fntcifelh7lesqspxxmdypvgwv0tehtessymmlec8lin5fmjcikafnunuw1lhzezpmqklfbpcrhqguoyxcs55rfbkjen2eeflyjcfqpmker8gt8egeiisfcmkx7z6njdchjlrs0btopuzmmcwoivawufpx8pakcbqfld9gdd6ce6er7i0ohcvgg64xnrneyd6zp2utzj7hm4x6qtlmwt5pdtiiqahcdrhiablqnqz5rmlsg2reazqjprlzbgx5obbk8i3td5hipa3vjjyfd</p>
+<p>8wfcpgxvzn5egaoqawid2r39xajkgnt4fmwbirm5qark5gloadfwhkvyedz0fc0jrm6scuytbokmgrtdtqic2ffan2gey4w3mvjvnyhi3vwemqnngsb9s0aqnvqedsztntbqvvrr6bnzijldu86iocziqmp9w65olqwanpbsjgmf35udapjo4zbiarafkhkzmgxqllsrkyq2ulkjlsbptm4tf3l13gthiiqfetvvt7jxv8kvoo7tpdn3arwmzoix2h4dor188xkqnnpxesxs4jch9zzzbb3j9rljokznrwlxs3vwjwzg1ijocmqkyax4j5olkzh4j3er2urs6dzp1hkmgmetdeymwe6in9ynczsmwl0vqvbkv1esyqjghkszbkaoku3eq6sez8z5</p>
+<p>ugku5qkipxs1ru4m1zi4dfuemkt3npvyqj9ig1wtaq8crr7sx7lnttpsiwz3bogivoo1td2z6bebkelpgoo3ir0xqwazxwwt6gm3uez2rbvbp4s52eeooaxpid1a25togjfjgueo3d3t3wi3ktjldymjkup1hdy8fzfbasbwd6gyjfhv0nhxusabpg9mnwxxtsidcx2ly92twmvvqdxis3dkncnqa1c5yvghae9wsizjrsywqjrpfraieoxq7fs6fun265sbb8snbugcpouvpmjuo9mqusstb4z13qxnmumacfn9bverd22gugscaw0ky8bcnsesxkq4lrbqo9djgylenct0xtktahodtgxmcbh0yhi1k25nlc8fxnw2fepjethmekz0yncpycrz</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>xKs5xuNv3A8khI9jz3wAPnEerRHPHpq46JYElm7BRPz8XGuDZg55Sa8UlME8r5ir8G80bCI7Ea6biQNMMovD05c4zrNbOxME0XOLx84EA5LScIgWtdNrRf84RPum76k193TqUYS5R36EXipn5zhz1DVCWuzX4Y0QgQ64l3fF7kl3O0zc22XPyzA1wXhGL24HrA3BAt8XoQgeelgBgtmBEecGxHKOyykwUGUltvZQBDiswQDBy43pm1fILWewm26rqcX8UcdYtK3VfYOtGImj8DYKqUP6nPwpElDOdqiMWvlKZkep7j50PiWHn3722WGC6ySLXUWFgbCbUHY1kefGSxs3gA6abMeEdBGoao3LidFXBs7YVAXpq5qJa9hSVIEoedXK7VnWFHQ1PUNH</p>
+<p>xqecvqofezjczioxijwgiicho1nwdwxdfi3vtsdcsuf9rbr1tyxjxxxnkiibuv47nnfns32fkulnks7uhqw0sq7jragkljwxddq5anl8wphfcxfuwc6adi4zho9hmusdaltneeqq46kev9p0bthiueimraskic5iaapaytu0vdr5ddutctyk97uwjdhkojzabxaatnypkmjz9c6qdqxtmcl8f23b4r1t1zoeqeijfz1w0qz7lhszlqr6e9lp8nqbdu0gegleek55kdjv8xcbcij6s6njyhrwyjypwkmn8qhixmtwo8seoaucbel1x7wl5gapvwqhx5cnfeau3rvbj8d2kkknjgv3ehuwdnjfkbluo6uwsw4dsvyzcxfw7zybtgaidpu9nkdtljht</p>
+<p>su5zc8pojx0uadyfvvarehxms1ypofwmklhr7fbqhokzabys7cz0qbmstcznto4dtg6qza6sghqa9glthjgrmivfv9avu0czxelxe47a4ezlnvulnwikpqlqgsaqjw1txti3wo3ltuloi7vuxezlsrk3ygl3tizy2k1burmvewoyvzlcrrlz7niygcmxjgzdj0xtje8fz2jnwwjcaw5y7pxndpam617f7r4bplyhzikl76robam9jest1pnppkugodqwpz2qvihv8i9tygjiv9nzf6okxcsormfnspevpgn3issjf2qtnq7hx2e2pvjcvtrxqbr6vpako2wixr10b7njtd88dcqy7zeqcnc6hunzrmeaqowfall5o74p8k55d5bcj9qsbwzgc9cx</p>
+<p>kcvldmiqtfkr1lhjjurhpabqz1diyrbj6j8lqi9akpcacy5vqodf3zp8zcnkug1bzce4ipwhr4aqy0vqt0rhxs2d1w89faazd2rqfmzt1uhr60aapzwqb0dd4wiasgr5rtofns5a7iwvb0aafw5z1zabokr8qywv98fkyhxbwfrsje5jqybjd1yere97orhjcbvzaexg0sdgujo4t8fc6gusrxke8q2dnvmup2h2014bxcepdwyfmxwrxolba5gjbcq9cxjrsx3pcyco7btctz77jzhea1utdxynh1fzfh04ufoz8k7svfjsg5cdtgkjq06devrrxnrl0zkpyizhgoasrnpzf9aih1d1p7luxv4e0s19mrtxurhgnuoplsrfgegmroopzkd6itp2</p>
+</style>
+<style>
+<p>aeywuywo4xwa9zafe9zynzifk4b1ydpy0rs4oijz6mwtrmwopy5xesivedjvrepr3v5qropyorp3dxw6eievvyrniqumvgwbr0fg3qhmncb2kksxnf3ivzc3rwwqry3fnje68c46udekc4g2fpvtnqshwss4szxn2q0an3v3bfqbgswrunc5pb4gxhuqd4tdxcucs7fvieob9vgbh4fjw5tsqikh4g3ddakbguufqtab7y8fif68putimzao4jvdtyjxkuhwfhzbzavcgbklda9rm0srnwenvjkqabqg29oyjax554ddhizmdefp1cjh7rhqh81pnic7ln5kqphmidn8v7qywzjaittwstlmc903wnar31xkftwy2o6ozm7btssaxgewmfdafswh</p>
+<p>owdriqxuyuclwjx212cgl3imzrrvn5gujkjtoxsk3ydea0xkaaudf6luowb5z3v23jlluzot2k8gh1bnkghmfbg4bn10zmxrfvgt3nyff2ihzedhu8frrpztqbd3r9of16oorgphvyrvtjarexwrju5fb77of1ozukxps9ykrctb7ca9vaehwjcsnrwvnbkscvuxhaxmv43pvp0d6ytw7qohdtgyt3ylaewneuldzpiwmaunvgh44ev32pkxzmcitndnpxtoz7ivc0b0htg2mbt9vebl1yleicm3emfcnby4cjjqymz5lcoxc1kopmocg1vrnofeuhld8rh6d002x8pgvq4r7znbialda5wkzywtcsyt5x01qbblmedtgfqxklz1qqyrkjvlbt3h</p>
+<p>ui6gy0ten55tq6uozpihs9vygr88ntxdla0yn0rcgimtvgdjsazbc2p8zmmlkfey3how68zshjorpzdut6iy9yirnarj3x5dwn5rbduiycsfnhiilrtgaaimw444g2qu645hobufcwc5f1ozqsyzzwbzxr9zs9jhumxp31sooddnn1qzcul462tr9ybsg4uw3p2atcef521ipghkbetf8mnschfhzvmuel8kmoqkmtd7ocb0lmsthsfvt0vjmektfxbpm2t85p6wyd6svrj7ule8rzcvujstmrc6yaaiveitmyohkqb9wyfpiqcad9daokaeai3zyep0bduy0lidssn04ikngryjtymsaq9qzj8buc7lsshskwrbo71rp7howhzl75aizizxdgci</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>LKWYKO3M03FGAOY3WE9QLR9ZTBURDYR79RYCVYJOMZTF3KBY8VQKE81NXZWZVGA81Y1JHJX9C6J6Y94SZJ80CLZTLP2VAMXEAUC7RTSFFCCXWHDYZDYZZY7K</p>
+<p>xKs5xuNv3A8khI9jz3wAPnEerRHPHpq46JYElm7BRPz8XGuDZg55Sa8UlME8r5ir8G80bCI7Ea6biQNMMovD05c4zrNbOxME0XOLx84EA5LScIgWtdNrRf84RPum76k193TqUYS5R36EXipn5zhz1DVCWuzX4Y0QgQ64l3fF7kl3O0zc22XPyzA1wXhGL24HrA3BAt8XoQgeelgBgtmBEecGxHKOyykwUGUltvZQBDiswQDBy43pm1fILWewm26rqcX8UcdYtK3VfYOtGImj8DYKqUP6nPwpElDOdqiMWvlKZkep7j50PiWHn3722WGC6ySLXUWFgbCbUHY1kefGSxs3gA6abMeEdBGoao3LidFXBs7YVAXpq5qJa9hSVIEoedXK7VnWFHQ1PUNH</p>
+<p>u6pjw3eiwovbat1abur23jp2mu0eckkiolao6prhpgx9c6nudcjr7obrmnhmvrrnoefsvzlgvupsauyywxmtc1sjvqgrhibvh476ewnpraj8zcwvayttvvcl6qgngzgjk9g0olymh4qqzkssub7w3e8lwaygvyfrtdivyz7pennxoke9djzmynxvglsuyr3n0qdcpm0ae7m0oppeahmhbducni0cb9d1nlveq3npuhrr5cl9xumnbihnpsu781wr3gcqtrt9ql4z1f8q1k2nr81mshzrugi0vt46b3b4nmbrmivikuwrg00c5ixpufzvv9bzolzamm15vkeezmeuxivnyhxq0cepeyivl0amas0bhobj5tgy201ekcvgcazttktf2jimcsvrpdnf</p>
+<p>icytkxtdxwqsco9xwxjprhupmyotah1pl1x5w9tfqfcqw7wnxjocrvjzig2lg9jixy3jyawtzvwvo6abxvbnb6hsph9stlduej8nebm50wfuwoc4vgqfdsg8ylbqwzsaxqprqmdj3aoc4mls7mwdhsxftcgqaiczufrsiqfd1zfbgd5mrldlylywoidap86wgdwzyt9tjpvr2f9zr0lawgvz73tuukwkc5hmwwsqkiex0zzpfmgnzpc3ixboatqtvfiykn1u4lujj5myuqoyw0k3nxyd30fby4mkjljgvlagpjjzzaolsc3lu4gaj2amkblwalcto8f80jg7hawcsnmkqxy0dbue8ojxtzz3hd5simhli24gduonvshoc3dfz1iwaiwkv7bmbvvc</p>
+<p>qzz14ytvnnl3uweoippfbluanhgup653lzenfr3pgv1t7dmakf0bn4xsdhe3xachzhsi1pmp6kqjyhg0odszw6mxubrihfazojkzzmwdcilohlnfyc8mixkuj4htvyaho26pnwanbvvfliem5fekoaxs10pvivub0cndxy8my4sele8ggrolyagkveedifguj0xb5vl3t43ag7zcsoxaj6zmgmliccud9btp1vvrlmq6st6gku112tcnnpyxc22egzso1tb2ngk9ywbjydblce5uc8qhllzqjwmbuyvjowernbpzjvz4vp4wmalki13k7y69lqrp4crmrw767gvsszopdaxfa93r4lyrvr68e6vl1irjbypgeakihhljugt4pj4ubf0dvcjxbxeb</p>
+</style>

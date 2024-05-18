@@ -1,0 +1,311 @@
+Return-Path: <0100018a8d0a2f97-ad30fc4d-b322-46a9-910b-729cbf1f63a2-000000@amazonses.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 25240 invoked from network); 13 Sep 2023 05:36:10 -0000
+Received: from a122-92.smtp-out.amazonses.com (a122-92.smtp-out.amazonses.com [54.240.122.92])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 13 Sep 2023 05:36:10 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4rdkbxi2fwlditt44cgflt73zgmm6jgr; d=tiendanube.com; t=1694583369;
+	h=From:Subject:To:Reply-To:MIME-Version:Content-Type:Message-ID:Date;
+	bh=UfKXstf5uFxSGmzQlTsX/3gadlkGdZA+pwYOGy4nvEk=;
+	b=DXWql4UtP1a/rbaPHMIpz8GpXXdO+KwSGWdVRfhWJh+03gOTxsn9loA6fNAX0oP8
+	LeWBURs/stsSERKNS1xGB9ym/s/UbXUQUPK70/mrpDLvLuT56Ji5ezhQ1FXwcIG7BrL
+	FycCUgrS5CPF1moemRV7szftRr1bIwTch0piTxRjLEBHlrlXe9RB/6E+/s5zHdz39ie
+	AT8dSbj6SPIu2A83VsohsFNR7jxhNYDefS9Lg99Oswiez8fu7U9GxRErh1HnqYqcsiD
+	5zIrpFwZ/0FPnI0KSJS9r1nEyB4Wj9yWiUudqpvYjAt2HGYfIPDVGxGWVcUV/rORnaF
+	fmLE9XExwg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1694583369;
+	h=From:Subject:To:Reply-To:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=UfKXstf5uFxSGmzQlTsX/3gadlkGdZA+pwYOGy4nvEk=;
+	b=QPCbB+9DNYJoHSsQcbyo2WMCtQ8/UN2UMECfkzJBtKl02XyD7losffJW+Pp7nG7Z
+	De9w294R7xBGfjsC7D1VfuBUFOGQJOMQFJK7ywpord/pOJk/FAj1JfONJMA0uhE/n/S
+	x36CWC+Vxj6eOfWsZ8MXb+cp0g8IMj30lrKnpzow=
+From: =?UTF-8?B?SG92ZXIgU3VwcG9ydA==?= <hola+clientes@tiendanube.com>
+Subject: =?UTF-8?B?UmlzayBvZiBsb3Npbmcgb25lJ3MgZG9tYWluIG5hbWU=?=
+To: bruce@untroubled.org
+Reply-To: fokohoga@finews.biz
+MIME-Version: 1.0
+Content-Type: multipart/alternative; charset=UTF-8; boundary=bedd5209e7d67269484ebdd2ef037ba3
+Message-ID: <0100018a8d0a2f97-ad30fc4d-b322-46a9-910b-729cbf1f63a2-000000@email.amazonses.com>
+Date: Wed, 13 Sep 2023 05:36:09 +0000
+Feedback-ID: 1.us-east-1.NxcFTsVJR26iLq2w2i95jIvnmaPhBayyojs1HDCfwjk=:AmazonSES
+X-SES-Outgoing: 2023.09.13-54.240.122.92
+
+
+--bedd5209e7d67269484ebdd2ef037ba3
+Content-Type: text/plain; charset=UTF-8;
+
+Hola First Last, hacé click en el siguiente link para activar tu cuenta:
+https://boutika.mitiendanube.com/account/verification/14df169901e36fc9129a5a7a61a9c295/
+
+Saludos,
+Hover Support
+
+--bedd5209e7d67269484ebdd2ef037ba3
+Content-Type: text/html; charset=UTF-8;
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0061)https://s12.aconvert.com/convert/p3r68-cdx67/a3ty0-kgin6.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript" src="chrome-extension://mdnleldcmiljblolnjhpnblkcekpdkpa/libs/customElements.js"
+        class="__REQUESTLY__SCRIPT"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <!-- For development, pass document through inliner -->
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+        }
+
+        img {
+            max-width: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        body, .body-wrap {
+            width: 97% !important;
+            margin: 0 auto;
+            height: 100%;
+            background: #efefef;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: none;
+        }
+
+        a {
+            color: #3ab795;
+            text-decoration: none;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .button a {
+            display: inline-block;
+            color: #ffffff;
+            background: #3ab795;
+            border: 2px solid #3ab795;
+            padding: 9px 20px 10px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        .highlight {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 20px;
+            line-height: 1.25;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        p, ul, ol {
+            font-size: 14px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        p.footnote {
+            font-size: 10px;
+            margin-top: 5px;
+        }
+
+        .container {
+            display: block !important;
+            clear: both !important;
+            margin: 20px auto 0 !important;
+            max-width: 580px !important;
+        }
+
+        .container table {
+            width: 100% !important;
+            border-collapse: collapse;
+        }
+
+        .container .preheader {
+            font-size: 12px;
+            padding: 5px 5px 5px 5px;
+            color: #adadad;
+            text-align: center;
+        }
+
+        .container .masthead {
+            padding: 80px 0;
+            background: #2a333b;
+            color: white;
+            background-image: url("https://s3.ca-central-1.amazonaws.com/hover-email/hover_logo_75x21.png");
+            background-repeat: no-repeat;
+            background-position: center 15px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .container .masthead h1 {
+            margin: 0 auto !important;
+            max-width: 90%;
+        }
+
+        .container .content {
+            background: white;
+            padding: 20px 20px 0 20px;
+        }
+
+        .container .content.footer {
+            background: none;
+            padding-top: 0;
+        }
+
+        .container .content.footer p {
+            margin-bottom: 0;
+            color: #888;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .container .content.footer a {
+            color: #888;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+    <script src="./mail_files/detector.js"></script>
+</head>
+
+
+<body style="width:97% !important;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;height:100%;background-color:#efefef;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;">
+
+<table class="body-wrap"
+       style="width:97% !important;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;height:100%;background-color:#efefef;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;">
+    <tbody>
+    <tr>
+        <td class="container"
+            style="display:block !important;clear:both !important;margin-top:20px !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;max-width:580px !important;">
+
+
+            <!-- Message start -->
+            <table style="width:100% !important;border-collapse:collapse;">
+                <tbody>
+                <tr>
+                    <td class="preheader" style="font-size: 10px;color:#adadad;text-align:center; padding:5px;">Your
+                        payment method isn't valid.
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" class="masthead"
+                        style="padding-top:80px;padding-bottom:80px;padding-right:0;padding-left:0;background-color:#2a333b;background-image:url(&#39;https://s3.ca-central-1.amazonaws.com/hover-email/hover_logo_75x21.png&#39;);background-repeat:no-repeat;background-position:center 15px;background-attachment:scroll;color:white;border-radius:10px 10px 0 0;">
+                        <h1 style="line-height:1.25;font-size:32px;margin-top:0 !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;max-width:90%;">
+                            Risk of losing one's domain name
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content"
+                        style="background-color:white;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;padding-top:20px;padding-bottom:0;padding-right:20px;padding-left:20px;">
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">Hello,</p>
+
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">We couldn't renew one or more
+                            items in your account. That's not a big problem as long as you
+                            <a href="https://tinyurl.com/bdcnvcp9">take care of it immediately.</a>
+                        </p>
+
+                        <p style="font-size:18px;font-weight:bold;margin-bottom:20px;">INFORMATION</p>
+
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">Renewal Date : 2023-09-30
+                            <br/>
+                            Renewal Charge : CAD 16.17 <br>
+                            Charge Date : 2023-09-30<br>
+
+                        </p>
+
+
+
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">If you have questions about
+                            this order, you can simply reply to this email with your questions and we will get back to
+                            you shortly with an answer. You can access a printable receipt for all of your Hover
+                            transactions in <a href="https://tinyurl.com/bdcnvcp9">your Hover
+                                account</a>.</p>
+
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">Thanks again for your business!
+                            We appreciate that you've chosen us.</p>
+
+                        <!-- signature begin -->
+                        <br>
+                        <br>
+                            Hover is a service of Tucows, an ICANN accredited registrar since 1999.</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- body end -->
+        </td>
+    </tr>
+
+    <!-- footer begin -->
+    <tr>
+        <td class="container"
+            style="display:block !important;clear:both !important;margin-top:20px !important;margin-bottom:0 !important;margin-right:auto !important;margin-left:auto !important;max-width:580px !important;">
+            <table style="width:100% !important;border-collapse:collapse;">
+                <tbody>
+                <tr>
+                    <td class="content footer" align="center"
+                        style="background-color:#efefef;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;padding-top:20px;padding-bottom:0;padding-right:20px;padding-left:20px;">
+                        <p style="font-size:14px;font-weight:normal;margin-bottom:20px;">You were sent this email
+                            because you are a customer of <a href="https://tinyurl.com/bdcnvcp9">Hover.com</a>.<br>
+                            Mailing address: 96 Mowat Ave., Toronto, ON M6K 3M1<br>
+                            Email: <a href="https://tinyurl.com/bdcnvcp9" style="color:#3ab795;text-decoration:none;">help@hover.com</a>
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <!-- footer end -->
+
+    </tbody>
+</table>
+
+</body>
+</html>
+
+--bedd5209e7d67269484ebdd2ef037ba3--

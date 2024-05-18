@@ -1,0 +1,171 @@
+Return-Path: <jonah@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 711492 invoked from network); 13 Nov 2023 13:27:25 -0000
+Received: from mail-lj1-x242.google.com (mail-lj1-x242.google.com [IPv6:2a00:1450:4864:20::242])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 13 Nov 2023 13:27:24 -0000
+Received: by mail-lj1-x242.google.com with SMTP id 38308e7fff4ca-2c50305c5c4so63949491fa.1
+        for <bruce@untroubled.org>; Mon, 13 Nov 2023 05:27:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1699882043; x=1700486843; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=e7a3WRUV/dBi2uREz+LTT0VrjJfC5ADD1L/M0mTmUco=;
+        b=VYjHaV+WfKAo/YAo7BXrhwyhf02T4z9YoWZLfolbEEF/QqBbaWA7+ZUHwkD9rSIrz4
+         vABO0L/DS/qCXQkCozcexVI5OUJoBJNRqEPoWIvUMq7OaRVL7EU+K9LJlGZ7hMhdsM49
+         ROi1r7k3eo21aK6O+S/qt7V1jyBmaaei36qUICqLal8nS3Hssb9crzd0cm/xmuzPOv3S
+         ndG0m40/oV8jImehQArI3J3dGvFrfPd/vDFLp5MK3sILEJHG605PqHU+aSWEHDLwXmZs
+         8A/10Z4No6zjJh26/75o0lfmA0lX9zt/H0guwWJX15Wbld6dqc91LG/F9o7OlDxh/pMm
+         wrSg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1699882043; x=1700486843;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=e7a3WRUV/dBi2uREz+LTT0VrjJfC5ADD1L/M0mTmUco=;
+        b=FPj9xnqFyr+662YM29pGZ0M5LngNPOLR7txtAmLMM7QemZXBkehlcNWJ/jBd7Jbev7
+         yXqyIYdiHxrGfE8Drc4TpKB5g0eB9lyEGQ79xa38jtTqak/fPYa/R57a4R4/8pIITT0u
+         12XtDya+5g0BGPFlZa1qQr40eEJ3xmWWBk6MIyy/XBlz7t86MlpMD6KO8ABnr+wRLelx
+         O3SV7As4zjmApuc8oJhbyFkSeGx4hQcO1ldDPSCM4Ap4jbJLYSCrQTPJFeDVaTlzZF9Y
+         w9eoFOZTxlcetID08MYw0x0ScJQ2yHLb1EHPci8RVx/JGF3lDtb9d58S1gD1yURkK1a1
+         K+Qg==
+X-Gm-Message-State: AOJu0YxSUuVglUUogTUqR/V/fBi13UTB4IICHOpSlGn4cZX+0of4LljU
+	Sx7NQL2SmjwNz5sonKzYumcAvnJ/zfrLzAa3jGOfX6nIejtDHjZS6lrggQ==
+X-Google-Smtp-Source: AGHT+IF6I2qByz3GvjDl19MNaczVnxaiu80SE16oKqUlMOxcOb+KXjCsQjiIrMqnNl/avSKE3Fj0QXzXniYl5pHVdkA=
+X-Received: by 2002:a05:651c:93:b0:2c6:ed19:58a6 with SMTP id
+ 19-20020a05651c009300b002c6ed1958a6mr4597432ljq.33.1699882042794; Mon, 13 Nov
+ 2023 05:27:22 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 13 Nov 2023 05:27:22 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 13 Nov 2023 05:27:21 -0800
+MIME-Version: 1.0
+Sender: Jonah Berger <jonah@webtechresearch.com>
+From: Jonah Berger <jonah@webtechresearch.com>
+Date: Mon, 13 Nov 2023 05:27:22 -0800
+X-Google-Sender-Auth: SMc2QU2YqqlsaMUh0VMbATR0_6k
+Message-ID: <CAHX3iYT7qp64xqZZa4c7vQ2XGOBsr5Yc45JCWN0LXRrBn3_xaQ@mail.gmail.com>
+Subject: Completely Transform Design for untroubled.org
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000523163060a08a131"
+
+--000000000000523163060a08a131
+Content-Type: text/plain; charset="UTF-8"
+
+Hey untroubled.org Team,
+Your website serves as your digital voice, and it's essential to make it
+resonate with global visitors. We're here to help you achieve that. I
+can *completely
+transform* your website, infusing it with a fresh and *user-friendly
+design* that
+will leave a lasting impression.
+
+*Would you be interested in letting us revamp your website?*
+
+I'd love to share our* credentials* and discuss how we can enhance your
+online presence.
+
+I will send a *home page* demo to our next mail. If you are happy with
+the design, we can discuss how to complete the website at an *Affordable
+price*.
+
+Look forward to your positive response.
+
+
+
+Kind Regards,
+
+*Jonah Berger*
+
+*Create Amazing Sites*
+-----------------------------------------------------------------------------
+
+Note:  If you are interested, then reply us "*Send your Proposal and Price
+lis*t"*.*
+[image: beacon]
+
+--000000000000523163060a08a131
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+<div id=3D"m_456944229562935590m_215784496069449011m_7135394633930296646gma=
+il-:vy" style=3D"display:block"><div id=3D"m_456944229562935590m_2157844960=
+69449011m_7135394633930296646gmail-:w2" aria-label=3D"Message Body" role=3D=
+"textbox" aria-multiline=3D"true" style=3D"direction:ltr;min-height:240px" =
+aria-controls=3D":1mo"><div>
+
+<div><div class=3D"gmail_default"><div class=3D"gmail_default">
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;color:rgb(34,34,34);fon=
+t-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-=
+variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-sp=
+acing:normal;text-align:start;text-indent:0px;text-transform:none;word-spac=
+ing:0px;white-space:normal;background-color:rgb(255,255,255);text-decoratio=
+n-style:initial;text-decoration-color:initial;line-height:14.95px"><span st=
+yle=3D"font-family:verdana,sans-serif">Hey=C2=A0<a href=3D"http://untrouble=
+d.org">untroubled.org</a>=C2=A0Team,</span></p><div style=3D"color:rgb(34,3=
+4,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:nor=
+mal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;=
+letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;=
+word-spacing:0px;white-space:normal;background-color:rgb(255,255,255);text-=
+decoration-style:initial;text-decoration-color:initial"><font face=3D"verda=
+na, sans-serif">Your website serves as your digital voice, and it&#39;s ess=
+ential to make it resonate with global visitors. We&#39;re here to help you=
+ achieve that. I can=C2=A0<font color=3D"#0000ff"><b>completely transform</=
+b></font>=C2=A0your website, infusing it with a fresh and=C2=A0<font color=
+=3D"#0000ff"><b>user-friendly design</b></font>=C2=A0that will leave a last=
+ing impression.=C2=A0</font></div><div style=3D"color:rgb(34,34,34);font-fa=
+mily:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-vari=
+ant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacin=
+g:normal;text-align:start;text-indent:0px;text-transform:none;word-spacing:=
+0px;white-space:normal;background-color:rgb(255,255,255);text-decoration-st=
+yle:initial;text-decoration-color:initial"><font face=3D"verdana, sans-seri=
+f"><br></font></div><div style=3D"color:rgb(34,34,34);font-family:Arial,Hel=
+vetica,sans-serif;font-size:small;font-style:normal;font-variant-ligatures:=
+normal;font-variant-caps:normal;letter-spacing:normal;text-align:start;text=
+-indent:0px;text-transform:none;word-spacing:0px;white-space:normal;backgro=
+und-color:rgb(255,255,255);text-decoration-style:initial;text-decoration-co=
+lor:initial"><font face=3D"verdana, sans-serif" style=3D"font-weight:400"><=
+b>Would you be interested in letting us revamp your website?</b></font><div=
+ style=3D"font-weight:400"><font face=3D"verdana, sans-serif"><br>I&#39;d l=
+ove to share our<b>=C2=A0<span style=3D"background-color:rgb(255,255,0)">cr=
+edentials</span></b>=C2=A0and discuss how we can enhance your online presen=
+ce.=C2=A0</font></div><div style=3D"font-weight:400"><span style=3D"color:r=
+gb(0,0,0);font-family:verdana,sans-serif"><br></span></div><div style=3D"">=
+<span style=3D"color:rgb(0,0,0);font-family:verdana,sans-serif">I will send=
+ a <b>home page</b> demo to our next mail.</span><font face=3D"verdana, san=
+s-serif" style=3D"font-weight:400">=C2=A0If=C2=A0you=C2=A0are happy with th=
+e=C2=A0design, we can discuss how to complete the website at an=C2=A0<font =
+color=3D"#0000ff"><b>Affordable price</b></font>.</font><br></div><div styl=
+e=3D"font-weight:400"><font face=3D"verdana, sans-serif"><br></font></div><=
+div style=3D"font-weight:400"><span style=3D"font-family:verdana,sans-serif=
+">Look forward to your positive response.</span></div></div>
+
+</div></div></div>
+
+</div><p style=3D"margin:0cm 0cm 0.0001pt"><font face=3D"verdana, sans-seri=
+f">=C2=A0</font></p><p style=3D"margin:0cm 0cm 0.0001pt"><font face=3D"verd=
+ana, sans-serif">Kind Regards,</font></p><p style=3D"margin:0cm 0cm 0.0001p=
+t"><b><i><font face=3D"verdana, sans-serif">Jonah Berger</font></i></b><br>=
+</p><p style=3D"margin:0cm 0cm 0.0001pt">
+
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:nor=
+mal"><font face=3D"verdana, sans-serif"><b>Create Amazing Sites</b><b><br><=
+/b>------------------------------------------------------------------------=
+-----</font></p><p style=3D"color:rgb(38,40,42);margin:0cm;line-height:norm=
+al"><font face=3D"verdana, sans-serif"><span style=3D"color:rgb(34,34,34)">=
+Note:=C2=A0 If you are interested, then reply us &quot;</span><b style=3D"c=
+olor:rgb(34,34,34)">Send your Proposal and Price lis</b><span style=3D"colo=
+r:rgb(34,34,34)">t&quot;</span><b><span lang=3D"EN-US" style=3D"color:black=
+">.</span></b></font></p>
+
+</div></div>
+
+</div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2_8wnRwPFt9q=
+d1qtT_N_jle317NjJTp1PPt76YzHGofPTgN3IiwHcldzO1zOqxqQU1cuK57gdbNN1_0QEOeUFDc=
+sNORqlpueLrHkw2eunU35IXYEf6I-3I_h-yL3iFcuRZHCb4Tz_RXAgIH81CmAofpHKpBG2YaXTC=
+A" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--000000000000523163060a08a131--

@@ -1,0 +1,369 @@
+Return-Path: <sophia@codestar.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1026607 invoked from network); 28 Jul 2023 14:32:30 -0000
+Received: from mail-pl1-x644.google.com (mail-pl1-x644.google.com [IPv6:2607:f8b0:4864:20::644])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 28 Jul 2023 14:32:30 -0000
+Received: by mail-pl1-x644.google.com with SMTP id d9443c01a7336-1b89b0c73d7so3514565ad.1
+        for <bruce@untroubled.org>; Fri, 28 Jul 2023 07:32:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codestar-info.20221208.gappssmtp.com; s=20221208; t=1690554748; x=1691159548;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=xUlhjPBU2oCNJvLoLc/thFtZmHaG3mNsFE751PsNlPA=;
+        b=B/sDV23TiiPjfXEQg1Luju6TC1/dK0UB1VN6eLVyXXe5/B2wx/VsCCPawextEoF7fr
+         Ijqr4cQYsElP7xcg4TS6B68OyJsdMhkNzONJ4wEp8ritm9M6/VgMIbS+bi894NQHiTMM
+         8+dCjaDBD4GRn9Zdvbo9Ni+Cych4I0rgnZnBXk547ZE6HvV0UFFHnbNcPgRApC9C5Da+
+         X0ghq15srkS8sT5/vOSmGLOyLfOfgFyGbv0ifqzGRy/qOO2gcp7y/2zMfdzh7e1pm7n8
+         qeVmWgh7EC0fJ7lOuYXkHAmwK9yIM2lcpeTsJdi3pu/gLiD+v4CaFYz4APiozAx6S2eE
+         AbIA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1690554748; x=1691159548;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=xUlhjPBU2oCNJvLoLc/thFtZmHaG3mNsFE751PsNlPA=;
+        b=JB6DhQUVy+B/31Yo26XpzoqCf8qYqQmO1+kj50QGTc11N4J/UqS2O+p3IxPuVhSWCG
+         xVdHwgLifW/1av/8BugJ+Dv00vS7n4wEQ5NFgl8uW/9jBUFpjxTbWR0WNsugRsTTS5bw
+         bufpUafadcPwBC0ryoXesLuE33sbNOjwz7rUO2BmhKhFAxrSqGYKl2dVk7IV7S8lPG7F
+         wzDF4qBTpIDff4r+s2+sFvsZVC5Y9AZPjsGmg+BHbo5+q6thWms/O4eVgi+nK+M5+j1c
+         Q2pTv3LqZ2/9BwK0IJGoPGMwoqmQgOQ9V+pREPE0iN5SVFQY1SWJp9WeksYI4xa3JHE7
+         vkxg==
+X-Gm-Message-State: ABy/qLbNcAmCTT1Ocu0iGHG33XwlbuG4D9AUMUs1FBoG0LHs70ThuXCQ
+	u01+dZGnj4uNs3BuBYVQDaDibCWELSitPZBQdW2rvw==
+X-Google-Smtp-Source: APBJJlGYBfUkHaETPsIei9wN+w75FooQWy5eLGQb/Li4awKyp6ZtzAJkjUMsidJv9d/ZEF7u4vEgrQ==
+X-Received: by 2002:a17:902:da81:b0:1b8:aded:524c with SMTP id j1-20020a170902da8100b001b8aded524cmr3103776plx.1.1690554748469;
+        Fri, 28 Jul 2023 07:32:28 -0700 (PDT)
+Return-Path: <sophia@codestar.info>
+Received: from DESKTOP9RQVMI3 ([2405:201:402b:20e2:e831:4db4:7da0:e753])
+        by smtp.gmail.com with ESMTPSA id f13-20020a170902ab8d00b001b9e9f191f2sm3658937plr.15.2023.07.28.07.32.27
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 28 Jul 2023 07:32:27 -0700 (PDT)
+From: "Sophia" <sophia@codestar.info>
+To: <bruce@untroubled.org>
+Subject: Maximize Your Online Potential
+Date: Fri, 28 Jul 2023 19:54:35 +0530
+Message-ID: <caad01d9c160$551e98b0$ff5bca10$@codestar.info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_CAAE_01D9C18E.6ED770F0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdnBOgBUcteZIH7NQgWAYzkdwniuBw==
+Content-Language: en-us
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_CAAE_01D9C18E.6ED770F0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear,
+
+Thank you for the opportunity to provide you with a comprehensive SEO
+service proposal. Our team of SEO professionals is dedicated to helping
+businesses increase their visibility on search engines and drive more
+organic traffic to their websites.
+
+We are confident that our services can help you achieve your goals. Our SEO
+services include:
+
+. On-page optimization - We will optimize your website's content, meta tags,
+titles, and more to ensure that it is optimized for search engine crawlers.
+
+. Keyword research - We will conduct keyword research to identify the most
+effective keywords to target.
+
+. Link building - We will build high-quality, relevant backlinks to your
+website from authoritative sources.
+
+. Content creation - We will create content that is optimized for search
+engine crawlers, as well as engaging and informative for your visitors.
+
+. Technical SEO - We will audit your website for technical issues and ensure
+that your website is up to date with the latest SEO standards.
+
+. Reporting and analysis - We will provide you with monthly reports and
+analysis of your website's performance so that you can track your progress.
+
+If you have any questions about our services or our proposal, please don't
+hesitate to contact us. We look forward to working with you.
+
+Sincerely,
+[Sophia]
+
+
+------=_NextPart_000_CAAE_01D9C18E.6ED770F0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, =
+div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, =
+div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, =
+div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:921110373;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1668524598 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1978994402;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1731204606 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal>Dear,<o:p></o:p></p><p =
+class=3DMsoNormal>Thank you for the opportunity to provide you with a =
+comprehensive SEO service proposal. Our team of SEO professionals is =
+dedicated to helping businesses increase their visibility on search =
+engines and drive more organic traffic to their =
+websites.<o:p></o:p></p><p class=3DMsoNormal>We are confident that our =
+services can help you achieve your goals. Our SEO services =
+include:<o:p></o:p></p><p class=3DMsoNormal>&#8226; On-page optimization =
+&#8211; We will optimize your website&#8217;s content, meta tags, =
+titles, and more to ensure that it is optimized for search engine =
+crawlers.<o:p></o:p></p><p class=3DMsoNormal>&#8226; Keyword research =
+&#8211; We will conduct keyword research to identify the most effective =
+keywords to target.<o:p></o:p></p><p class=3DMsoNormal>&#8226; Link =
+building &#8211; We will build high-quality, relevant backlinks to your =
+website from authoritative sources.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226; Content creation &#8211; We will create =
+content that is optimized for search engine crawlers, as well as =
+engaging and informative for your visitors.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226; Technical SEO &#8211; We will audit your =
+website for technical issues and ensure that your website is up to date =
+with the latest SEO standards.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226; Reporting and analysis &#8211; We will provide =
+you with monthly reports and analysis of your website&#8217;s =
+performance so that you can track your progress.<o:p></o:p></p><p =
+class=3DMsoNormal>If you have any questions about our services or our =
+proposal, please don&#8217;t hesitate to contact us. We look forward to =
+working with you.<o:p></o:p></p><p =
+class=3DMsoNormal>Sincerely,<br>[Sophia]<o:p></o:p></p></div></body></htm=
+l>
+------=_NextPart_000_CAAE_01D9C18E.6ED770F0--
+

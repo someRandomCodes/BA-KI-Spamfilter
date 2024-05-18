@@ -1,0 +1,141 @@
+Return-Path: <>
+Received: by 2002:a05:6400:1d2:b0:235:6088:6c5f with SMTP id hx18csp472271ecb;
+        Sat, 30 Sep 2023 11:51:24 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFlA0myRPWxriYmfTnoBplfPSJovBl3Qi6gKI0NXJCzunyKpUVMM4cU37PEMNlA7+deZdOB
+X-Received: by 2002:a25:b321:0:b0:d12:ab1:d88a with SMTP id l33-20020a25b321000000b00d120ab1d88amr7463174ybj.40.1696099884380;
+        Sat, 30 Sep 2023 11:51:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1696099884; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Fe9tfl5PDyjtAVq0BPRNNpnKCBOMW/SCIgJ6pYkfgOrqgKq5Y2JWPbEbmcl9hhcANW
+         sFjiJUG415wF6ax52OrcSN69D6ZUU331P8SbipG1lryidrvRKp6BMv0AWC9dR3zUrgJk
+         adJx5dnAubtcUQpB4QhlqULp3yknx9FU4W7+oR0Pf9ZyVX7fEx2WbDYvPH0GH3XvRN3K
+         cuFnFLUDZZWbVk4CVcihXi5HoZlYGPvincSOIluH5i3QJ1Hh7kg1Nt4q+lEa9SOs60di
+         sMN3qjyDuxtwHDIgalQz3fLIPNg9g7yoy9PF0tlhHkVmrmrS8nGknjbPZCC+inepN68y
+         7HYQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:feedback-id:message-id:to:reply-to:subject:date:from
+         :dkim-signature:dkim-signature;
+        bh=CAqGZ3KLoaalCH/WvVQz3XhN1IqXxv/iE5yzkyKuxpA=;
+        fh=Gj5IJLy5CWZctMMSvRqtGZRPtgIWG84I/OSd2+WZshQ=;
+        b=BdKbeGMUcEWpKZb650Fsb370NV8TN2s/8s1Q9KHyKaVcZ0Rtvt202nK/VGK8Z2uQV2
+         NFepyxGh7Uu2pw/mmNQURPda1EoXJ4sspT6suGINiK0T5bbRzw/ZybPGT8TG1iKuxeV1
+         PEf2P8PCb+0GySHh4Ejy3Cp85J3IxpL8e6X5tuqp/+nwYr7GiGpUMuvKrNIR1RQ3sxvZ
+         rcQ8Z2jQrJxVTdKdLg1zeEXPL6WlyJsVqoqCqVqR/2leXXa1Htqb6sjEhPPNyErULpu9
+         4CONIlzr4+hOYIg8tq6TXX6HmhqCE2iB44GgzQTClHK6gJXUwXjtZT4JNQLpMnB5n69t
+         8Ajw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@pm.mtasv.net header.s=pm20230619 header.b=id9LCfrx;
+       dkim=pass header.i=@billing.easyredir.com header.s=20201116175046pm header.b=sZhNDDwk;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.billing.easyredir.com designates 50.31.156.126 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.billing.easyredir.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=billing.easyredir.com
+Received: from sc-ord-mta126.mtasv.net (sc-ord-mta126.mtasv.net. [50.31.156.126])
+        by mx.google.com with ESMTPS id w24-20020a25ac18000000b00d8170cee78csi11792953ybi.227.2023.09.30.11.51.23
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 30 Sep 2023 11:51:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pm_bounces@pm-bounces.billing.easyredir.com designates 50.31.156.126 as permitted sender) client-ip=50.31.156.126;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@pm.mtasv.net header.s=pm20230619 header.b=id9LCfrx;
+       dkim=pass header.i=@billing.easyredir.com header.s=20201116175046pm header.b=sZhNDDwk;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.billing.easyredir.com designates 50.31.156.126 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.billing.easyredir.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=billing.easyredir.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=pm20230619; d=pm.mtasv.net; h=From:Date:Subject:Reply-To:To:Message-Id:Feedback-ID:MIME-Version: Content-Type:Date:From:Message-ID:Reply-To:Sender:Subject:To:CC; bh=mp6/wIQfiw/xsF/24aWyv2h+iJY=; b=id9LCfrx/rUn7Qa5ZHws16K+R0f0XMhGMfsguyP3Pliqo6CRoDL7TSxAFAC93DWtaDpKvSL1NWDN
+   VY6O/y78DhUOsGNGN4TFJDg9vDAibs8ZwjKZj46FBIsjr/4CNYyFV2kFAZ+/el3B6JkiYUTeFMgL
+   IsUxSEnGvP8/GxJyO4A=
+Received: by sc-ord-mta126.mtasv.net id h31n2m34o8gn for <bruce@untroubled.org>; Sat, 30 Sep 2023 14:51:22 -0400 (envelope-from <pm_bounces@pm-bounces.billing.easyredir.com>)
+X-PM-IP: 50.31.156.126
+X-IADB-IP: 50.31.156.126
+X-IADB-IP-REVERSE: 126.156.31.50
+DKIM-Signature: v=1; a=rsa-sha256; d=billing.easyredir.com; s=20201116175046pm; c=relaxed/relaxed; i=bruce@untroubled.org; t=1696099882; h=date:date:from:from:message-id:reply-to:reply-to:sender:subject:subject:to: to:cc:feedback-id:mime-version:content-type; bh=CAqGZ3KLoaalCH/WvVQz3XhN1IqXxv/iE5yzkyKuxpA=; b=sZhNDDwkkIpljbiIUeqFgPOnNsYkHFyTPboRi929mlaGAUecoq2zpK6gYE70hZGxNrG5OLynkuM wjG+yUQ4rPwGQtccR6iDQIqM9n8DowpigFYs9Le8yypq1jPJuoCCuxCjPvsEEw03rhRQ9ZiwTHomH b+ccmVfGG1KMmI2Q5QQ=
+From: List Name- Ask AM<bruce@untroubled.org>
+Date: Tue, 03 Oct 2023 14:31:34 -0500
+Subject: Stop taking melatonin and do THIS before bed instead 
+To: List Name- Ask AM <bruce@untroubled.org>
+Message-Id: <8f116f11a5d3696d6c6e01676847066308727310b3da04wrnoff6emwpxqn4jfi7sxtzbt7yruiaad12bff@easyredir.com>
+Feedback-ID: s4622358-_:s4622358:a166446:postmark
+X-Complaints-To: addaa@postmarkapp.com
+X-Sonic-My: MFRISEE0eDROdWV5aHJmUmo0ZllSa3l0Nzc1cTNVcEJtNEdtWXVwTSt4K0d5dVNJaHZ4T056eUY2MGYwd25wbEhOd1Z0RXVJQS9UU09VekRFT1QxemxQN2lzbEhXWlF0ejhuUjdBMXFvWDJNcDd6d29xNy9nbUhLYTNyZHBPVzdBdHN4VlZjZW9UZ3hseEFRd1NBazlBPT0_
+X-PM-Message-Id: 60858750-3c5b-4e08-be5b-3a155ebc4ff6
+X-PM-RCPT: |bTB8MTY2NDQ2fDQ2MjIzNTh8ZXpnZWY5NjNAZ21haWwuY29t|
+X-PM-Message-Options: v1;1.KYzGvDneuZxOozzAi_BsIA.tSEVvQLWhTl4Z35P2qXFT9hoMYnNLhvcT3PyYRrODQNY-U3Ntf-S4duep0ueudf_qI-GohRlOjwU4E8rbb2ESK6yUtIinOZYX_50DaihZCHX80TE5CIccp_Vos0o17805pxDaQseaCEmYgB5hrXJEQ4L9MJmlB9E16132daVu5LPMXhED0YMHl3GW09ysWRu
+MIME-Version: 1.0
+X-PM-MTA-Pool: transactional-1
+Content-Type: text/html;
+Content-Length: 3494
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+ <head>
+ <title></title>
+ </head>
+ <body>
+ Are you getting enough sleep?
+ <p>
+ <b>Here are 6 questions that will help you know for certain:</b>
+ </p>
+ <p>
+ 1) Do you feel tired throughout the day and feel the need to take a nap?
+ </p>
+ <p>
+ 2) Do you have difficulty concentrating and focusing?
+ </p>
+ <p>
+ 3) Are you frequently yawning throughout the day and need more than one cup of coffee to function?
+ </p>
+ <p>
+ 4) Do you find yourself forgetting simple things?
+ </p>
+ <p>
+ 5) Do you have daily headaches?
+ </p>
+ <p>
+ 6) Do you have mood swings where you go from feeling like your happy self to feeling sad or angry?
+ </p>
+ <p>
+ <b>If you answered yes to at least 2 of the above questions, odds are you’re sleep deprived.</b>
+ </p>
+ <p>
+ And it’s impacting your ability to function at your best…
+ </p>
+ <p>
+ Simply put, <i>you’re not yourself.</i>
+ </p>
+ <p>
+ But what if you could achieve deep and restful sleep every single night…
+ </p>
+ <p>
+ (without sleeping pills, melatonin, or CBD)?
+ </p>
+ <p>
+ <a href="https://mub.me/OjXD#MFRISEE0eDROdWV5aHJmUmo0ZllSa3l0Nzc1cTNVcEJtNEdtWXVwTSt4K0d5dVNJaHZ4T056eUY2MGYwd25wbEhOd1Z0RXVJQS9UU09VekRFT1QxemxQN2lzbEhXWlF0ejhuUjdBMXFvWDJNcDd6d29xNy9nbUhLYTNyZHBPVzdBdHN4VlZjZW9UZ3hseEFRd1NBazlBPT0_">Thanks to a Nobel-Prize winning discovery – YOU CAN.</a>
+ </p>
+ <p>
+ Scientists discovered that the missing link to quality sleep has to do with a mineral deficiency…
+ </p>
+ <p>
+ And once you restore this missing mineral, you can sleep like a baby every single night.
+ </p>
+ <p>
+ Are you ready to sleep through the night and feel like yourself again?
+ </p>
+ <p>
+ <b><a href="https://mub.me/OjXD#MFRISEE0eDROdWV5aHJmUmo0ZllSa3l0Nzc1cTNVcEJtNEdtWXVwTSt4K0d5dVNJaHZ4T056eUY2MGYwd25wbEhOd1Z0RXVJQS9UU09VekRFT1QxemxQN2lzbEhXWlF0ejhuUjdBMXFvWDJNcDd6d29xNy9nbUhLYTNyZHBPVzdBdHN4VlZjZW9UZ3hseEFRd1NBazlBPT0_">Learn more about this Nobel-Prize winning discovery for deep, restful sleep.</a></b>
+ </p>
+ <p>
+	Michael 
+ </p>
+ <p>
+ P.S. Research reveals insomnia is caused by a specific mineral deficiency that hinders over 300 biochemical functions that your body's enzymes depend on. And if you've been struggling with devastating sleep issues for over 3 weeks, chances are you have a massive mineral deficiency… That’s why no amount of melatonin, sleep meds, bedtime adjustments, new beds, or even cutting out caffeine have worked for you. <a href="https://mub.me/OjXD#MFRISEE0eDROdWV5aHJmUmo0ZllSa3l0Nzc1cTNVcEJtNEdtWXVwTSt4K0d5dVNJaHZ4T056eUY2MGYwd25wbEhOd1Z0RXVJQS9UU09VekRFT1QxemxQN2lzbEhXWlF0ejhuUjdBMXFvWDJNcDd6d29xNy9nbUhLYTNyZHBPVzdBdHN4VlZjZW9UZ3hseEFRd1NBazlBPT0_">To learn more, go here.</a>
+ </p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p>
+ <font size="2"><br>
+ <a href="https://mub.me/OjXD#dGZRSmJsa3ZweDJwSlliSzZGTkZpSjFOUlhWKzZucGhIbitZd3JBT2tkV2lzUzF2aVhBYW0yVnU5WHYrUlZRbDNtRmFOaHppWXFMVHVtN3RtQVQ1OWVEOFFxUXZmRFpoV1kvTDZGS0gybm5kNG55NC9DZTlFYXVnMmVHMC9JbmRWWUltL2F6SlhsakVaVmJnc1N2d1VRPT0_">Unsubscribe</a></font>
+ </p>
+ </body>
+</html>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://mub.me/OjXD#RWl0My9rekFkV0VkcHU3L3dJTGxXUGhoZ0h1NnRWbDkyL09VL09IQWF6dmI5R1VSMG9KY2hkWnVOMlBLTFZPNEdCZldXSEhxVGw3a0lCYkhoOFc5VVptRTN3bmlLbVA0eUZUbWNvS05PVkRRQUtPcTN0T1NDMXc1SG4zNkpFb08xWUVGVUx3WEV3QnBxZU9oanVMeHd3PT0_">here</a> to remove yourself from our emails list</span><br/><br/>

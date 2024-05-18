@@ -1,0 +1,350 @@
+Return-Path: <>
+Received: from BN7NAM10FT056.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:405:75:cafe::43) by BN6PR17CA0054.outlook.office365.com
+ (2603:10b6:405:75::43) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6588.20 via Frontend
+ Transport; Wed, 12 Jul 2023 12:01:02 +0000
+Authentication-Results: spf=pass (sender IP is 23.251.229.155)
+ smtp.mailfrom=mail.e.theinventory.com; dkim=pass (signature was verified)
+ header.d=e.theinventory.com;dmarc=pass action=none
+ header.from=e.theinventory.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.e.theinventory.com
+ designates 23.251.229.155 as permitted sender)
+ receiver=protection.outlook.com; client-ip=23.251.229.155;
+ helo=e229-155.smtp-out.amazonses.com; pr=C
+Received: from e229-155.smtp-out.amazonses.com (23.251.229.155) by
+ BN7NAM10FT056.mail.protection.outlook.com (10.13.156.149) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6588.22 via Frontend Transport; Wed, 12 Jul 2023 12:01:02 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:64C184CA0EB12F84A600BCE587A2BE2D9D5203681B4512D0CDEE62EC49858129;UpperCasedChecksum:366A4260077652BFF499A60F69DFAA300CC4FB136AAC29254F6AB2DF3D1749B7;SizeAsReceived:1857;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=a5zfmv2hzc6vdy5ajvyrbf6gj6ip5lki; d=e.theinventory.com;
+	t=1689163262;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date;
+	bh=KK0GEYdgUHLUemkQI9T6rEsvnIMrpnaz1h+z0mHqbPw=;
+	b=JDpwB4a29LKFxfRabZBx/qZ80MlYFx1qnfZ0jbeEqUXnj5Hnq/3l6PVDB96ECWXo
+	HURMxk+UQvjihDQCcJqHuw2ER0ZQ5kI3uL7LJrV9RqF1cSRP/4EqfWz+q/WX+qg7r+h
+	+DehQqLaJefMN/FSy2O0lhfOt0K59xPG0t3gaoHU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1689163262;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date:Feedback-ID;
+	bh=KK0GEYdgUHLUemkQI9T6rEsvnIMrpnaz1h+z0mHqbPw=;
+	b=LXc33Wb8F0i6qsoT1Jg7iI2xQklxb+k5K/XkVd/OazCsbIWWCYP8S5ihvvZAXLXb
+	ZSZGgx7Ez9R63dvoyXgoODRog2CGYwtZjecvuGNfTi2zW644mApXBi6RISRE4964e5P
+	+yUopEa5jqVRTBJ9q7texANgaDfvu8FomvGtB+78=
+From: Last Minute Giveaway <bruce@untroubled.org>
+To: Last Minute Giveaway <bruce@untroubled.org>
+Message-ID: <0100018949f9e98e-6def3706-164d-4890-a7da-08eclmBTyA5R-000000@email.amazonses.com>
+Subject: Your chance to receive a FREE Portable Power Station
+Content-Type: text/html; 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailtdo:udnsubscribe+7f0f4035618daa941553e6d395e76fbffa037866-114508@e.theinventory.com>, <https://theinventory.com/newsletter/unsubscribe?subscriptionToken=7f0f4035618daa941553e6d395e76fbffa037866-114508&utm_source=theinventory_newsletter&utm_medium=email&utm_campaign=2023-07-12>
+Date: Wed, 12 Jul 2023 16:10:05 +0200
+Feedback-ID: 1.us-east-1.CTT0BE9giLbwLsJiM5FiKSFAj/YD8cbE+FhiW2M2Llo=:AmazonSES
+X-SES-Outgoing: 2023.07.12-23.251.229.155
+X-IncomingHeaderCount: 13
+X-MS-Exchange-Organization-ExpirationStartTime: 12 Jul 2023 12:01:02.8953
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b8f1245f-56e0-464f-f1d8-08db82cfaa3b
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BN7NAM10FT056:EE_|AM8P250MB0073:EE_|DB9P250MB0451:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT056.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/12/2023 11:59:48 AM
+X-MS-Office365-Filtering-Correlation-Id: b8f1245f-56e0-464f-f1d8-08db82cfaa3b
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 23.251.229.155
+X-SID-PRA: bruce@untroubled.org
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 2
+X-Microsoft-Antispam: BCL:4;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Jul 2023 12:01:02.8484
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b8f1245f-56e0-464f-f1d8-08db82cfaa3b
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT056.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM8P250MB0073
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.7927955
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6565.027
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(9050020)(9100338)(944500132)(4810010)(4910033)(8820095)(9910022)(9545005)(10170022)(9320005);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?b2xRRHF1ZC9BUFJYL2lXMTd2YWxpbUJyNEFsMlZNRUZSVERaUW00ZUFYMGVC?=
+ =?utf-8?B?SHE2YzFZVmk1cDkyaHNJaWJ3Slh1b09NUmRpWVZQRnBwbHZ4bGIwdUJzT21K?=
+ =?utf-8?B?VFNTM1l0MWYrYUZ0Y1pTK1NwQnNKTlJRWWVrOGxRK2EydU5zL21Jelk3ZHVq?=
+ =?utf-8?B?ejh4c2VsWXdiQS9TLzZUZVAvbFNYYlZPb2MweE9lRmFOR2lxK3pteE5PMXNx?=
+ =?utf-8?B?YWNNRmpYL2R4U2JhaUxZNzgvbFRXbEc5QU9MUDF0a0xkOFJEK1YwM0tHLzc3?=
+ =?utf-8?B?aEVCNS9rZjhjakZldktJL3FyUHBjVnZMOTR4Mm0rV2dudXB6Z0VhR1NNMzB3?=
+ =?utf-8?B?L01sYTAxSEVxc1p0dVozK2J2QSs5SjZuM2xUbnVZWkJDR3NialhTbWFJOG53?=
+ =?utf-8?B?aWtkT0ZTRmg4am95Y2doTkRRejZkRTYzRnJUNHJLRWZmTFNPY3dCS21idnYr?=
+ =?utf-8?B?eEZ3L1ZxVGgrMEpwbitsSkl5TGpmUTk1d05YWjNRVEdlUUZ5SEpSN2tHaXNR?=
+ =?utf-8?B?eFQ4UVRUNWxpRHVGNEE2VU9xbHp0LyszSU1KVUs5M3FWaDg2TnVjQ1c3UmZp?=
+ =?utf-8?B?bGdsNG03eXNwN3pocnFQNjB1VloxVmtlak5lZVJhRjVrOWJOUXdzL2gxUk1L?=
+ =?utf-8?B?aWNLMnI1N0tYMjZhR282UGpGd2l0TnpPZ29NUU9TdXcyZXVsUjBzczZoZTlk?=
+ =?utf-8?B?bWtsOURUQWZ0VWc1NTlnZjNGTmJZMk1HR2w3OERSYS9XL0RGVmxRUm1ZeXB1?=
+ =?utf-8?B?OFFOR21qNFE0Q01odVlnWnkrV0JsU2l4dzRzR3hMU014RmxMOGFwRjJnZit6?=
+ =?utf-8?B?bENORDdTVjYwQWxGTXlubkN4N1lpOTBnVlhuMDFYRFcxZ0JNTUVTdlhrYlN5?=
+ =?utf-8?B?V2Rrak9Od0Z1QlpWVWo2WmRWeVh0bUZrZHVIcnFJNTlRMVVtUFNMVHUzMnB3?=
+ =?utf-8?B?QUNtK290WGc2eU5xMFBwVnJBVDI4RUJZNllhSVBnZW1MTFZSaEV3ZjJmQnhO?=
+ =?utf-8?B?UC9Yem1WVXU4ZzZ1Zm83M1VDcDR3aXNGVmgrRTVZK0xpTVJyTUkybVZ2WEZo?=
+ =?utf-8?B?bUlxNzhGMVN5U3NsTXFya2pJT1h2OUZvVzBiSFVBbjZ2cEk0UExJZHFjaE1P?=
+ =?utf-8?B?aVpVNzcybEpUbmpRbkxqNlp1SDNVOEZVRTZLaHI4ZEhDODdVVkgrN3daSExj?=
+ =?utf-8?B?NlRxdnJ6VldleS9rUDZQdG95WWNpVVR3cnNta2MrTFpQaFo4elNDZHV1SVhu?=
+ =?utf-8?B?TktTNG55WnpMUmhPOEtjZ1BpNjdmdWkvQ1B1QzhzMWRLSnBoUVRXWEhHb1pm?=
+ =?utf-8?B?cDZjdzhqa2RObzlvZFZhZHRCQis0NHBYZzl5YU5kNVEwOHBhb2hXWktqcDk3?=
+ =?utf-8?B?V2hpeW04dGlmL0JPbFdPWGp1akNvUlBMK0llcWFsdUVlZXBuUVg1NXJGU2pF?=
+ =?utf-8?B?bkp1QlhwZWVFUUlERGhCZXlRUzVxWHhxdnhwQnVuaVpQRDAxRHFQUk5ORExa?=
+ =?utf-8?B?UnpqdjgyS1pVcWRVZGZicXFiU3E4OWljSCtxWEpuTCtPRVZKR2lqNVVjU2Vp?=
+ =?utf-8?B?aWhyeFJRdmlvUWV4ZlBSVG40NGtPMmMxVTBycnBnV3k3WW5ERDdidnVIcW5V?=
+ =?utf-8?B?cVppeURvempRQzFvV2ZjTVNXNUJXeFZ4bVN5QWNMYTVYZnFYek9lV2VBNTRF?=
+ =?utf-8?B?TEorYU9WVnFOdjIvS3FUQURNSGJteHlFeHRoditFMm9qdUk3YndSSy9mTlJT?=
+ =?utf-8?B?LzRHWWZFbmNvUk9SaWJwbmRIK1BFVFArTHVPMkV3OEIvYzZ3ZkpNcmEyZmpw?=
+ =?utf-8?B?Vlh4NVlzMWk3V1pKUE8yMVZ4b3VwV3dhaDdUc1JTYVZCekFUa2FYR2k1SVFQ?=
+ =?utf-8?B?YVRkM0FQeUR2Y0FnSG8yTUw1UkduVDh6aDR0VDl1Rk1wSHJLWTUydjZRM2tW?=
+ =?utf-8?B?VTA4V3gySGwweDFqTkFVZGNxQzdnTW04QWF4VlNVdFZZN1MzMUgrelArcHlF?=
+ =?utf-8?B?NWEwUnZPdUxhQmx4dDRQWk1rYlNGSHhVL2dRSkFac1pTWnNsd2ZyM1hCYVBC?=
+ =?utf-8?B?dFdHZzg0R2k4bWFvaEVsNlZ2Q2g5NEpLeFRiWW1semxndnl6b3lmR01IQVpE?=
+ =?utf-8?B?QjJsUUFseDN1VVpzUU0rL1BINWQ0eGFEVmhQd1VFRWNyZDRvZzVrM21SbEk0?=
+ =?utf-8?B?ZUhSYXlIMXdwbU0zdTZROXFFSlNaT0lOa2RPM3pTRFVTU2JQS3hVbUxCdHpp?=
+ =?utf-8?B?MlQ2dk9NL0JLZUpCZGl4VHBxc2NUeGY3WExTUVNTekpVMEdHWVViOFJYS3lh?=
+ =?utf-8?B?MGRvb0ljcUNTMkJwZUxtcXF5dXpWNk42NU0xR3gzaURWQk8vSUhTN0JDMmcw?=
+ =?utf-8?B?NStzbDRaUGNhYXZKMHlJZjJmUHhSN2VxT2RxMXBYZkdFa2FGaDM0R0l5K0cy?=
+ =?utf-8?B?K1VBa2psNjRieGQ4VG11cW5lRzBQTXJnK1A0OGo2WUs0SFNYUkVlNHg1WGNN?=
+ =?utf-8?B?MTY2dEwxT290VW1SM21VM3ZhNHNqd1dtSlROdVk5ZHpka3hCcVVzWFFUeDk5?=
+ =?utf-8?Q?n/WFceDhw=3D?=
+MIME-Version: 1.0
+Content-Length: 6534
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Ace</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #fff;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 50px;
+ margin-top: 25px;
+ }
+ .title-wrap{
+ padding: 25px;
+ }
+ .ans {
+ text-transform: uppercase;
+ padding-bottom: 6px;
+ border-bottom: 1px solid #fff;
+ font-size: 18px;
+ margin-top: 70px;
+ }
+ .title-para {
+ font-size: 42px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ }
+ .feature-para {
+ max-width: 90%;
+ padding-top: 0px;
+ font-size: 14px;
+ }
+ .cta {
+ padding: 20px;
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ border: 1px solid #fff;
+ border-radius: 50px;
+ display: inline-block;
+ min-width: 200px;
+ margin-bottom: 40px;
+ margin-top: 180px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ .logo {
+ margin-top: 10px;
+ }
+ .title-wrap {
+ padding: 5px;
+ }
+ 
+ .cta {
+ margin-top: 120px;
+ }
+ .title-para {
+ font-size: 30px;
+ }
+ .feature-para {
+ max-width: 100%;
+ font-size: 12px;
+ }
+ }
+ </style>
+ </head>
+<div align="center">
+  <div style="color: rgb(0, 0, 0); font-family: &quot;Times New
+    Roman&quot;; font-size: medium; font-style: normal;
+    font-variant-ligatures: normal; font-variant-caps: normal;
+    font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+    0px; text-transform: none; widows: 2; word-spacing: 0px;
+    -webkit-text-stroke-width: 0px; white-space: normal;
+    text-decoration-thickness: initial; text-decoration-style: initial;
+    text-decoration-color: initial;" align="center"><font style="color:
+      rgb(0, 0, 0);" size="2">View in a we</font><font color="#ff8000"><font
+        size="2" color="#000000">b</font><font size="2"><span><span> </span></span><a
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#YnBseVRKWUhHK2lVL2tGcXBkaE02Qkl5L1VZTUpiK3JnR1JMbDVSUi9OQTZKTDZ6K1c3MzRlLzB2TlBTRDN5YU9NQ1FtS3pLdjVnK1RZeDJmdGJMakZSMFdFdWovbHhQTVE4ZE9XbXkwSTNXMEp6VVI2djVMekZoRVBXRk1NS0I_"
+          moz-do-not-send="true"><font color="#ff8000">browser</font></a></font></font></div>
+  <font size="4" color="#623131"><font color="#000000"><font
+        color="#ff8000"><b> </b></font></font></font></div>
+<div align="center"><br>
+</div>
+<div align="center"><font color="#95004a"><font size="6"><a
+        moz-do-not-send="true"
+href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#YnBseVRKWUhHK2lVL2tGcXBkaE02Qkl5L1VZTUpiK3JnR1JMbDVSUi9OQTZKTDZ6K1c3MzRlLzB2TlBTRDN5YU9NQ1FtS3pLdjVnK1RZeDJmdGJMakZSMFdFdWovbHhQTVE4ZE9XbXkwSTNXMEp6VVI2djVMekZoRVBXRk1NS0I_"><b><font
+            color="#95004a"><font color="#009b00"><font color="#800080"><font
+                  color="#954a00"><font color="#800040"><font
+                      color="#5959ff"><font color="#999999"><font
+                          color="#d7357d"><font color="#8080c0"><font
+                              color="#804040">You have won an Portable
+                              Power Station</font></font></font></font></font></font></font></font></font></font></b></a></font></font></div>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" background="https://pbs.twimg.com/media/F011srcXsA4SRQ9?format=png&name=large" style="background-repeat:no-repeat;background-size: cover;-webkit-text-size-adjust: 50%;background-position:center;"><table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" data="image_bg" background="https://pbs.twimg.com/media/F0112giXoAI-qLg?format=png&name=large" style="background-repeat:no-repeat;background-size: cover;-webkit-text-size-adjust: 100%;background-position:center;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/F012LLqWAAYvyTd?format=png&name=large" alt="logo" class="logo">
+ </td>
+ </tr>
+ <tr>
+ <td align="left" class="title-wrap">
+ <p class="ans">ANSWER & WIN</p>
+ <p class="title-para">A Brand New<Br>
+ <strong>Makita Power Drill</strong>
+ </p>
+ 
+ <p> <img border="0" alt="image" src="https://pbs.twimg.com/media/F012RF-WcAEkVwj?format=png&name=large" width="90"> 1197 Reviews</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#YnBseVRKWUhHK2lVL2tGcXBkaE02Qkl5L1VZTUpiK3JnR1JMbDVSUi9OQTZKTDZ6K1c3MzRlLzB2TlBTRDN5YU9NQ1FtS3pLdjVnK1RZeDJmdGJMakZSMFdFdWovbHhQTVE4ZE9XbXkwSTNXMEp6VVI2djVMekZoRVBXRk1NS0I_" class="cta">GET STARTED</a>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr> 
+ <tr>
+ <td height="30" style="line-height: 30px;"></td>
+ </tr>
+
+ 
+ </tbody>
+ 
+ </table>
+ </td>
+ 
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td> 
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/a09be54c8175f5701506/050161ca1fd14515caa1#Q0RMMHhpTnJmSi9OMEdwTWF4RHg1QXhJL3UwdkVkMkJ6T3ZsQWhQNG91N2ZDWjRrK1JWUHJhMW5ESHZxNENYSXo4TFFKT29GNFJiMzZOOWdpbFhnbEV0WE9LV083cGJRM0I5OWpFL2JlekdwODRRbHpwUXJ3bitZQndXbjRyVlg_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

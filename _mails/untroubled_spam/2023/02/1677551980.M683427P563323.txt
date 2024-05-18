@@ -1,0 +1,143 @@
+Return-Path: <marissa@businesspop.net>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 558125 invoked from network); 27 Feb 2023 20:40:25 -0000
+Received: from mail-oi1-x241.google.com (mail-oi1-x241.google.com [IPv6:2607:f8b0:4864:20::241])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 27 Feb 2023 20:40:25 -0000
+Received: by mail-oi1-x241.google.com with SMTP id q15so6251071oiw.11
+        for <bruce@untroubled.org>; Mon, 27 Feb 2023 12:40:25 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=businesspop-net.20210112.gappssmtp.com; s=20210112;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=p/RYx+Fg1huXKe08xZpOv/ua7eBeafpUbhiYSo9BkBI=;
+        b=QEZ++RnZsInucFA8cNkd4UYGZmPx4yUnFsw00+p5srMqdLxMETbHFOtBMHmb3Y2aT9
+         Mk2IMa87KMQeEcjPQDrSX9soQcDK27eRNbOZayR4DGUZn5P1/vHSn8OziQSWeL6oPO5G
+         NAaM4NhnqXtOLxnOqLEckcxH2VJGTDQXqqwu3DW3uyBuOVjB9hl49sStjhyNnprlFduQ
+         5EouL4IrC8sErS3HOEdS3RdKMMBQxjX/kAKQRVSF+R2G8GOwRv5lIlydTxMzrz9T3Ihq
+         O6PxwRbSYhxfqUrlV7Y5buZB5V1GMI71lZwhPBrMvIKbqzEKp3VprR3g2VJ218202ouo
+         Mukg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=p/RYx+Fg1huXKe08xZpOv/ua7eBeafpUbhiYSo9BkBI=;
+        b=W1XwLj8+lARYY9s89pFcsPAvN5WRcyZfb0gjfH8SR/OrBtz+0+or9jWSMHdCTxHqfh
+         9SQUtu6jDm9EqgFU9L7h00JYRUGWZuXPTq42Dq1eigUmBe9Bgx09vwy2rOzXCjRkQAd6
+         qEoAadKj8Tx7ke1CrUuHlWpxpPe+jn3aVhAdObaDIibpwyILMiaJs9LWqT/biqnK1Cf5
+         3Df0VbHliERws2c3qXBDpc4Y2UANvd/Ntvm7Is9ByJQQrUqmMx8IaWK5DXtG4ItUDm3b
+         pjlBaYfse3A4Ni68q78y1vc0w5gNIAhD59jZ7gvNLT0SR66OUyeZIpFWdNMOkR68/vpn
+         +Iuw==
+X-Gm-Message-State: AO0yUKVqXi2VYGtj4jFNBqFq6hW1qasoypO8L95fBP1xVPUSKiHm6Slw
+	w5rNpYI9uUeQbaoXKH7t4M66jd5XI1xWirww4vBFGvusHRkVuyDrSN0=
+X-Google-Smtp-Source: AK7set/JIPBhFHlxZHx7SDk3RaVT2Yj7s1GCfdTaNeP41pYs4vQhRBmFLhqlBTZAsLS1hLXkJBTYYtVrQ+8U0zR41g4=
+X-Received: by 2002:a05:6808:1809:b0:37a:2bed:5756 with SMTP id
+ bh9-20020a056808180900b0037a2bed5756mr5086922oib.0.1677530424604; Mon, 27 Feb
+ 2023 12:40:24 -0800 (PST)
+Received: from 997881456262 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 27 Feb 2023 14:40:24 -0600
+MIME-Version: 1.0
+Sender: marissa@businesspop.net
+From: marissa@businesspop.net
+Date: Mon, 27 Feb 2023 14:40:24 -0600
+X-Google-Sender-Auth: KNLiyk8hO4JGae2lH-yPnypx4ZI
+Message-ID: <CADQjzcv_ctxC4uKJhncQG2Y862FvhDfeMgJ7YXoo6sop=9qB0g@mail.gmail.com>
+Subject: Can you look at the article pitch I have for you?
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="0000000000000f07c205f5b47de9"
+
+--0000000000000f07c205f5b47de9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings,
+
+Small business owners are particularly heavily struck in the face of
+inflation.
+
+Would it be alright if I publish an article on your website outlining how
+small businesses can handle their finances given the rising cost of goods
+and services?
+
+My objective is to provide knowledge that will enable small businesses who
+have already been impacted by the pandemic to weather these trying times.
+
+I appreciate your thoughts and I=E2=80=99m very much open to ideas and sugg=
+estions.
+
+Marissa Perez
+
+The Business POP <http://businesspop.net/> Team
+
+
+P.S. By the way, if you=E2=80=99d like for me to write on a topic of your c=
+hoice,
+please send your idea my way! Or, if you don=E2=80=99t want to hear from me=
+ again,
+just let me know.
+
+--0000000000000f07c205f5b47de9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><span><div><span id=3D"gmail-docs=
+-internal-guid-1cc756c4-7fff-332b-3bc7-84b5a532d4ff"><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:11pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;f=
+ont-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:ba=
+seline;white-space:pre-wrap">Greetings,</span></p><br><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:11pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;f=
+ont-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:ba=
+seline;white-space:pre-wrap">Small business owners are particularly heavily=
+ struck in the face of inflation.</span></p><br><p dir=3D"ltr" style=3D"lin=
+e-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11=
+pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;=
+white-space:pre-wrap">Would it be alright if I publish an article on your w=
+ebsite outlining how small businesses can handle their finances given the r=
+ising cost of goods and services?</span></p><br><p dir=3D"ltr" style=3D"lin=
+e-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11=
+pt;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;=
+white-space:pre-wrap">My objective is to provide knowledge that will enable=
+ small businesses who have already been impacted by the pandemic to weather=
+ these trying times.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38=
+;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-famil=
+y:Arial;color:rgb(0,0,0);background-color:transparent;font-variant-numeric:=
+normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:p=
+re-wrap">I appreciate your thoughts and I=E2=80=99m very much open to ideas=
+ and suggestions.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.38;ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:A=
+rial;color:rgb(0,0,0);background-color:transparent;font-weight:700;font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;=
+white-space:pre-wrap">Marissa Perez</span></p><p dir=3D"ltr" style=3D"line-=
+height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt=
+;font-family:Arial;color:rgb(0,0,0);background-color:transparent;font-varia=
+nt-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;wh=
+ite-space:pre-wrap">The </span><a href=3D"http://businesspop.net/" style=3D=
+"text-decoration-line:none"><span style=3D"font-size:11pt;font-family:Arial=
+;background-color:transparent;font-variant-numeric:normal;font-variant-east=
+-asian:normal;text-decoration-line:underline;vertical-align:baseline;white-=
+space:pre-wrap">Business POP</span></a><span style=3D"font-size:11pt;font-f=
+amily:Arial;color:rgb(0,0,0);background-color:transparent;font-variant-nume=
+ric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-spa=
+ce:pre-wrap"> Team</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margi=
+n-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Aria=
+l;color:rgb(0,0,0);background-color:transparent;font-variant-numeric:normal=
+;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wra=
+p"><span style=3D"border:none;display:inline-block;overflow:hidden;width:10=
+2px;height:31px"><img src=3D"https://lh5.googleusercontent.com/BTMaDwoSmGf8=
+MMmwfrdQU27-8aSPwrMM0Wx_Pv3Ptlr56AzS5EdXpxz5UpeMmoZXwPIO-Dm_SPpbbLbn6hV61PJ=
+_OKfOLCbZoetrBUOgkXxn64kiUKV9T-J63JmeccUl3a0Ta7A4aH78waMtF8kDDzE" width=3D"=
+102" height=3D"31" style=3D"margin-left: 0px; margin-top: 0px;"></span></sp=
+an></p><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-b=
+ottom:0pt"><span style=3D"font-size:10pt;font-family:Arial;color:rgb(0,0,0)=
+;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:=
+baseline;white-space:pre-wrap">P.S. By the way, if you=E2=80=99d like for m=
+e to write on a topic of your choice, please send your idea my way! Or, if =
+you don=E2=80=99t want to hear from me again, just let me know.</span></p><=
+br></span></div></span></div></div></div></div>
+
+--0000000000000f07c205f5b47de9--

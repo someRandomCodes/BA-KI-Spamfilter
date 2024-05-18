@@ -1,0 +1,152 @@
+Return-Path: <theshepmcewlv@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 249667 invoked from network); 24 Apr 2023 13:24:48 -0000
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (mail-tyzapc01olkn2031.outbound.protection.outlook.com [40.92.107.31])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 24 Apr 2023 13:24:48 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ZOzK3Nq3hr0s0dKVTc08TfvTyhC/Nwb3Azo4XGrFjGGWiFAMrQ1W6aEleVOqovWjCEhKSKS8qr20RZM4W5YTKOK98saKElOic9BZucx3sja78ABohvA7SU8V1GaKFnzbVesP8iQ8LihqeJGOTxF+u3B6xtNmVbXboxy8c+tJN2eoiBShikSE/SxJ+JLm1NeHZ3arP1gE3MFPBx90xVh0pv117wnXc4cTyYjEZQ5FUMxMj/UxzrS+PZLbkd2buEMyC6DrydaUKcZl1P+DQzF5lq2bNhwp3M1qPfiggcgvwtm2as+PEzN4EdbzZkkau5r+uy4+U/6rDECKqwzR8xCdbw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=sQ3KDpkjMDDU2w5yhmwHdRDE7uo0iABg8VOemUHodrY=;
+ b=Tw3uyuVnVgz4hqXC5ZVsCFuieN4smnfW3yCLxbeiXe4erb+lwolQwA57f6ySKjxI69JXYhzWqHuKsImvxpBf4vaucQLYdXT5Xdf2AudN4pg11FpkNO/CDEmJwnltf18VJG+a+laOW8fdT+zEWWavtdKQZvEQKX30EG6BSlU5EhTOu7WmUgr4+fDrkH1XKD4Jfy4ch308Cfg3Y4LGuGrums2Mab+2swdKoppsk+Ix/e62NWFEpK6GMxyiyPHt/mRwr6b6Fpv0OtHICtQ+xHx0h9EoLZCZCTgX+3mqJ6gE08It8ntdnDV0Efc/6x/hhyMQ2JYK8lQSY7l+/7qqqU880w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=sQ3KDpkjMDDU2w5yhmwHdRDE7uo0iABg8VOemUHodrY=;
+ b=rH8peSkrp/VW7lhjb7IhF7vabRfDqgpCPeBeEprvDh7j4jBmbuZPvR5LmYodI6DNgF77TR89V2iVXUtOQxe1FSPkj7VjE8EYXs7MHD/ns7XP34dohddqCgObwlj6M5FW+nqWvqTf/qj4LUrwoK94VArQcJgMoVreqdJuYP2H2hCfnee2yrK9aWaqiRwekN1f+D23wYy2lPmw6PYx9bw8WnQ9WDwS9C0HdyDJIaT3PIzKr8mT7hrwTumjONA2cyayXrEiNgAhIt238Tuvx/WYoIOLXb5s1X1HdQ2tiruvFSHrLGd2X3yCOikDAPrZE9zW5pF8z+31B//X5zGa8WGv9A==
+Received: from TY0PR06MB4958.apcprd06.prod.outlook.com (2603:1096:400:14e::10)
+ by TYZPR06MB4635.apcprd06.prod.outlook.com (2603:1096:400:126::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6319.33; Mon, 24 Apr
+ 2023 13:24:09 +0000
+Received: from TY0PR06MB4958.apcprd06.prod.outlook.com
+ ([fe80::bdc4:1c33:5832:a062]) by TY0PR06MB4958.apcprd06.prod.outlook.com
+ ([fe80::bdc4:1c33:5832:a062%4]) with mapi id 15.20.6319.032; Mon, 24 Apr 2023
+ 13:24:09 +0000
+Content-Type: multipart/alternative; boundary="===============6693905912163430135=="
+Subject: The role of education and career in dating a beautiful Ukrainian woman
+From: <theshepmcewlv@hotmail.com>
+CC: <theshepmcewlv@hotmail.com>
+Date: Mon, 24 Apr 2023 13:23:04 +0000
+X-TMN: [3mUDUSdyRxTicMBlZKk8lB6e7+GEgFTK]
+X-ClientProxiedBy: VI1PR09CA0147.eurprd09.prod.outlook.com
+ (2603:10a6:803:12c::31) To TY0PR06MB4958.apcprd06.prod.outlook.com
+ (2603:1096:400:14e::10)
+Return-Path: theshepmcewlv@hotmail.com
+Message-ID:
+ <TY0PR06MB49585E511C927F26BB884EB3BE679@TY0PR06MB4958.apcprd06.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TY0PR06MB4958:EE_|TYZPR06MB4635:EE_
+X-MS-Office365-Filtering-Correlation-Id: fe24fdae-7045-4679-2c4c-08db44c72f69
+X-MS-Exchange-SLBlob-MailProps:
+	Pt5mR8uiepuUakA5AwlAronEjDWXlsi7tTCMu9x58200428/q7rjU4Lm/RcHBnrkRnRV/YjwzO9OjZBxdbybbBAGZDhNZoa3tarmRpzJyfGA83PqceqGKjwmKNyKMqcr55k/gbkjQ0JnUoXGxSMJEB38wguB3CGbdnczRUh0plutb++LRukiqmr+TdMaA/XlzDyvjoCVg1wuZ0oLPPfU3yX/WGvRa/DjYzs8PLJBwXac3eQ6u6UGpTkSrxXaKfYJ2Nqpcp+l/Pty5iZrDEtEbs+66x3RnXEpRJxUWfMDFClvXSEd7xF02/TaSmxlE9l/P8xRvwcJ9I9G9shZ2+zVhhk2TmMO870OysfoE4ntidNGrHjLsYr9036kFmQWH3mQlSXnOa43RjOGFoPU2g+INf0hnNsutqSM06r75mf1GM7jiNm3sfD3u4VpXiMQGXGgEyFnsjnm0oTXdLTL2cTTsXy1vmCJHaA+JMcgdioOBtZ5WCm6xIDEeY1d9VYYZFNlhklz3XiVmYHC1cMzHDC3sAw+99efap9xocJlsfdw8d2t9bwFbp5sjv+weHsjRkcM19Qy13KcZgtpwTEToz9CR3Rri8RweT6dNAb9DWalPqfOOoFMcvMdNo6Em4dBzpN8WrvloZcQCxJSFvOr9MsFIo2kT4MEgnsihOzgfleiRbTzHKpf09es4FtPbEFsrakEhfzjQ9P5lbqzQGJ1cHv9ksrEMBrRE/Zb6J71/oHmsEjB58IuQJz2os2lb+EihM7s5a4KGusDcpOyh1b76c6ZFzDnvK+T5OkFJ/DXso8GouPMBUkFlMgWNh5m1ZgfCgpE78wKUcP6I9AuwgQOcCwd7VQ7rN0X6zYGRnLII+gbl8wlqsh1DqfSue3RoSc13P9T0KtQSIydIHcEcQs4YaHjtA==
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	ccVLJDP2gd56JpgdV0bKJUG3clbSlfmA7SrX2aM/aEjnbIPvj9WqlRczALsP8dFZD/B2e1jKYvZSr4gw2TEQr57osDgenhAERp5XPdvYNQWTrodjfyfWm4oQYyZY25sURi/O63s74zqamgE1d8Tl4At6NV5SyPr0fEbXb1WlxtNiv9pRLjDGgAxuN3WHBVfZuTCKaWHPUmzfi9r3VrfVhszTfyzUEKdEkueHtBHQhR6hiYaSO5afT+fb1Erb9AkFE1xEOz5EN1ZJULtNOB8gZfL9K7Fv+DaVEli5PdAJUu1fm9gDrM9P7mSVJwYtfe0Ad3LyG5D1kXnLp+8WG08sulNwxatEysK0szrLG0f6CDSs3MYpoRpacKsULqEueflzeFqMzFaBAGwGR5eu++cBf597eBM6DCfN7M8fffj30wRl5LZDTYCg+YPg0Wh5Ya8LJIRDclCBXMBtv27E4swSWkPp4q4sBrt4G7JvrWqw4KbF0QlRcDY635zK7NX/opWvU6uI2TYVP0pBEt7z+MTYGFBgz4dK7EjNRAJyF/rvWHzZCSBYWdN9gx3Ytq4Kl3Ks6F0MSczaXwV7MoMRsfzGOQ0ikCNmFy2Vo8+Oc7WeMSCzrGvhE8X737LlD/aUIX24Fv+D+aIV/nU1FfL47W34hEeB/mZ6ZVCYHOKc1ViOvkbTh2/KJwAPUg4XD1TvtoWbrAsDWG5TGD3YRWN0GF3/2pbMYPARlsltMb7SpQNZIhM=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?EZ0g2v8nxNEPZK5ehY3iPiU7pJTqo8HibuBfIFEnkssI/wQDTbSC6XAH4b4m?=
+ =?us-ascii?Q?Vpk1h8BeEBzak45G7aox4eVQ7qx9fl9kuGM0SfXdacI1a3HbLz7rc65nYJcw?=
+ =?us-ascii?Q?x7lje20/q1XKGh+BJrI3+nhbDhMxKULnWpcSf2na0rLzza7silsnP4WXcBtU?=
+ =?us-ascii?Q?4n16aOdRAr6xLMU1mCynoKBn0Sy7KyBxJRIWYiETNROgeYipYgMUow7aBmyn?=
+ =?us-ascii?Q?HhGWdU9Woi0LtepG8YzaFQ13+ag/o6nGX5edsRNZg0l/S77H/gZavTR76m+d?=
+ =?us-ascii?Q?vrs4+4KjtVmbEeUOG7aGPZ5uRAqdYscQ5fWpHT3zPckX6BBO8hwLESYM7//K?=
+ =?us-ascii?Q?J2/MjvubqgkwtqG+lvd9m7W9vIC/BxU+hugicmK6FP/qxHTPBYWZq0sFgunq?=
+ =?us-ascii?Q?YQpTHNhy11W2yAvWxCKMZLAxXOY1bZqBVTHpdcrVvB/OuUY4tgZY/pKFee8u?=
+ =?us-ascii?Q?g/nNPbt9NlxWlteo/mImwdiwkCs24EEJ4EkQB0vMyODrpXaFySJv4knR0vLd?=
+ =?us-ascii?Q?X65gYfxpbKmVYzwfPhyNiPmgqX6kchAh+LLp291IO1O0ai4Rf4lgQ+sc6LOw?=
+ =?us-ascii?Q?o7lOOvShwA266Sk8c06hlQ3Ai54CSI8NOO1S2Bko2U/ohmbZ5xGySRYY5jm+?=
+ =?us-ascii?Q?FMJGZURgUGEv+i8A53uvBGK+ju8kdEmoR8XQe5MUogd/dKX6euy4ryZZRJ4+?=
+ =?us-ascii?Q?L8AVXWoDf73wW880wnOYiUvfFOEpYVx58dPFCIyh/K7teaOsbSj90eJAaLc5?=
+ =?us-ascii?Q?DKML2yfVLeaFN1kt0miMQwvY9sdEh6ukbW6Xd4O9JfvDOaE3NiGQ9++2FC0H?=
+ =?us-ascii?Q?m2PY/a7dPXJurmO7fBfeDIJUYhLL+HX47UEM/3dgr2JNsDViCDIVw+E0GPNE?=
+ =?us-ascii?Q?Z6pMaiEm7DL5WM5d2aOJ9LQxlXkMn9JeMM27hb42z617S9xBn5YEuVydBkZ1?=
+ =?us-ascii?Q?yKwCB+1wd6ndC1JCc0lS2jBtVB2CWwCj4fyB9qDlKqPSJc4olLJYlGoKm6RI?=
+ =?us-ascii?Q?JODxR1VBb5IJMxkfVtMgPCfv7haotlgDJbKtRHjSmLw1RNEgzXEoHqSVSPxk?=
+ =?us-ascii?Q?4EWB4S2tFaokqYB6yfPSbDLRdbfndofJGF10B8zxxBJJfXXBqpok3GIbOHUC?=
+ =?us-ascii?Q?HMvZRKDARdjoW8W09+xjoDkn005TFiUS2GPRa2A2UMPoV2GhZV9NT7/+ecUV?=
+ =?us-ascii?Q?f7MJ5eiQg2NtmB3K8aseZqxkSSx6EG8kDP1KYIk89ZJSqOs3hxqD5WadMKE?=
+ =?us-ascii?Q?=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-3208f.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: fe24fdae-7045-4679-2c4c-08db44c72f69
+X-MS-Exchange-CrossTenant-AuthSource: TY0PR06MB4958.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Apr 2023 13:24:09.8460
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYZPR06MB4635
+Content-Length: 4143
+
+--===============6693905912163430135==
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#b6d7a8"><strong>* NEW OFFER FOR CA, US, UK, AU, NZ*</strong></span></span></span></span></p>
+
+<p style="text-align:center"><a href="http://www.ukrainianwoman.online" style="text-decoration:none"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#1155cc"><span style="background-color:#ffffff"><strong><u>FindUkrainianGirl</u></strong></span></span></span></span></a></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#c9daf8"><strong>* Join for free from this link *</strong></span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>During the situation in Ukraine, more than 10,000,000 Ukrainians moved from their homes</strong></span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>A large number of Ukrainians also immigrated to the UK and the number is likely to be much higher by the end of 2022.</strong></span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>Based on this information, we have created a website where you can meet, date, come and chat with Ukrainians</strong></span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>And introduce them to these areas!</strong></span></span></span></span></p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Merriweather,serif"><span style="color:#000000"><span style="background-color:#ffffff"><strong>&nbsp;Our site already has more than 200,000 members from UK and more than 30,000 Ukrainian female members!</strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><a href="http://www.ukrainianwoman.online" style="text-decoration:none"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><span style="color:#1155cc"><span style="background-color:#b6d7a8"><strong><u>FindUkrainianGirl</u></strong></span></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230420220219-18.png" style="height:506px; width:1488px"></p>
+
+<p><br>
+&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000"><span style="background-color:#b6d7a8"><strong>Don't miss out on this limited special offer, we've made registration 100% free, register now and secure your appointment today!</strong></span></span></span></span></p>
+
+<p><br>
+<br>
+&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000"><span style="background-color:#b6d7a8"><strong>If you want to unsubscribe, do it</strong></span></span></span></span><a href="http://unsub.ukrainiangirlfind.website" style="text-decoration:none"><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#1155cc"><span style="background-color:#b6d7a8"><strong><u> here</u></strong></span></span></span></span></a></p>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+&nbsp;</p>
+
+--===============6693905912163430135==--

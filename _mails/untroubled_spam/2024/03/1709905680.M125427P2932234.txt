@@ -1,0 +1,324 @@
+Return-Path: <isabella.baker@advancedschoolconnect.tech>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2930679 invoked from network); 8 Mar 2024 10:02:01 -0000
+Received: from IND01-MAX-obe.outbound.protection.outlook.com (mail-maxind01on2116.outbound.protection.outlook.com [40.107.222.116])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 08 Mar 2024 10:02:00 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=FfcNhQt0jPQg7PHm3Ts7XyUmxiciQ5YTNtKkHxZeh8o8D2NdgP0OhwexHATEUSB4Fyu6mankx/HsDaXdB6hee57neCOiSA2kWvn9BcEOsChBaqw/QWyAH52WBPqtKFr1aivhOz2lRelOwvby86gbUwRc9B4tyi6LLS1uXMn0gosI5Z+MVcLg4qUDmaUtn6x0q10YDFzrBupc1VKoya66NplLCe2BeEl0++8CqA/oinSG6qxSe9zXKtXHQXBS2sjHC2BJ35kupyqdhEz9Kx3sLetFuWhJFlBFjiW43yTR6MVaLHD4CAc4Mn/15s9ufQIzweofVRjEhJqilNBRLusW0A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=3R1NXNeY3qi2t+Jcd1o3ybHmeePEqEYLyFifqNRGdm0=;
+ b=innoUlvlHrJZ+w75BLbtgf8VTnvd3rs+6LzgzV+DQc3jJirAINZhqleCIdX3wl9t0J7Xj5y9e7WGkt36tuAgLBBIXa9ecYJQ0TlJKnnWgDh9+i1A59d9S8iXRHsMUJOz7NHvY+quALB52NYStIuPdWHqfKyK0/fRwyXMXqv2lfjHd4MIdZPJ6s9PhXH7Wv+BSBN5VbLXLq0DAECX9HGrjjw5VodXxpiip8bGOTGMIf51/ofzrsgWbQSIfFZhdDySIsVfgFx01rs/6UGc5yGDiCQ9c+WjzUeVrk7VbnU4ovbYj+/8V1IQ2qOJ0qz/usoubYWTc/JBjA4N36UZ05Snpw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=advancedschoolconnect.tech; dmarc=pass action=none
+ header.from=advancedschoolconnect.tech; dkim=pass
+ header.d=advancedschoolconnect.tech; arc=none
+Received: from MA0P287MB2533.INDP287.PROD.OUTLOOK.COM (2603:1096:a01:138::8)
+ by PN2P287MB1647.INDP287.PROD.OUTLOOK.COM (2603:1096:c01:1a9::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7362.27; Fri, 8 Mar
+ 2024 10:01:55 +0000
+Received: from MA0P287MB2533.INDP287.PROD.OUTLOOK.COM
+ ([fe80::bf7e:51af:fdec:911a]) by MA0P287MB2533.INDP287.PROD.OUTLOOK.COM
+ ([fe80::bf7e:51af:fdec:911a%7]) with mapi id 15.20.7362.024; Fri, 8 Mar 2024
+ 10:01:54 +0000
+From: Isabella Baker <isabella.baker@advancedschoolconnect.tech>
+Subject: Re: School Districts Contacts 2024
+Thread-Topic: Re: School Districts Contacts 2024
+Thread-Index: AdpxP4phEn1adwluS+ShwbYOpq7kcA==
+Disposition-Notification-To: Isabella Baker
+	<isabella.baker@advancedschoolconnect.tech>
+Date: Fri, 8 Mar 2024 10:01:54 +0000
+Message-ID:
+ <MA0P287MB2533D2C568ADB161C6744F58F6272@MA0P287MB2533.INDP287.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=advancedschoolconnect.tech;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MA0P287MB2533:EE_|PN2P287MB1647:EE_
+x-ms-office365-filtering-correlation-id: 21f74034-0502-4aeb-3a50-08dc3f56c8cb
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 9/yJKOfB6K4siJi06vJ3Xf1USHLguv7HH4i2KmPWoOdtyRTgxXvRkSkwwc+W9nN7AwWa2mZJf5EHLeFIstePvXfJNrG5qquUegHccP1PBA58wemlhVYOVZS8HmT916mzPlFxohLeg8B1NVCjPHsqmIqXGWLWkwe15psDsvKonHw+sAe3wywq5xg47RpblJn5Hgq8aWTjr0r8XE/0tB6V55b9KQ1cZm6zUjflYvFIwB1UXJYrCaXmZyAlyNqHNYtSboVLyYvPPnRxAfv7mHGDkvqlvu507TF1hIFuaYqQS4Fbip6XDKELcGe0dzu224h0/tMsmNYoX+g53KuD7KfSLpxGAJjo2CG/oDjEmHK9P8faC+ptTKpTOjAF7ingCsdyfSrdwFNjDdT9eo9N6v29HDew7SYJg0AQ1LF9LeRkVzBu+4bH1J8cJ8yQpiVqdXO77XqNX+CfBaWt04U1UHPgkYr8Q48cWMIWWT0M0Ngw5ETi6+kNCp8SLU0aOqZLi91uLITmMv74hVUoJ/ZdXSlqMvT+/DorKHrMfeAEKfrvpUbGqls5XY3adL0LajX5FlFI0pTwpxRzfPJO2uGomrsqaBVwPlInJO1g0w3enSGfnb1IgwjSuZHhjRtn+Lc80e4+zfGPR6Ic6iGI3hQvdTl7cebzwOcQsY+uRbBE9PuPaC2jU5rvsDbX7kIyGu0yo7pAhnvfWd/c0tcAXjIPv5xlVMqlysMUXWzioYsl1Gt9u8g=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MA0P287MB2533.INDP287.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230031)(376005)(1800799015)(7416005)(38070700009);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?UDUyxkPogklDhcVQ5+Tx6SfCsLEEfpjER/B0RVNRaCYlOGrblZ0B8QYynBMz?=
+ =?us-ascii?Q?LbwS7q5a6ew51HmyViAnwDuEfrhbIUFLqXHssbI0NBTQy7Hqxd3HloNd2bmb?=
+ =?us-ascii?Q?VnaQv97Fttn+wkB9BychwXo8UHAtqPfpRLC7iCgiHjbxhAcknHN33UfgHn2e?=
+ =?us-ascii?Q?D+Aub9N9w6NM1+o1q8GLKXxzGNiDEfc7SdGu8KJPaOsSB219brqGotDoRqzL?=
+ =?us-ascii?Q?+tLyosBka3i0H7z9/kyNZov/45yEtSJIojtOtj1zTq09NmuwhbkSbz7nFQuE?=
+ =?us-ascii?Q?te+uU3ESkdCpyXjPTunV4kr5yntMQrfhffxs3WpfQ80KGFwJM8yk0bVxzOUY?=
+ =?us-ascii?Q?B6MWap3GoxHl2gylugMX5mwOUQgo/UXOVS1BjlbSY+Nan/uO24LudSGQTBMQ?=
+ =?us-ascii?Q?trfC567EgfGkHDuAQVH/kaPKnAd5LjeunU/JPaxrxEdDBokOdUTEg63hseUu?=
+ =?us-ascii?Q?dRIQcx0XbqYdhDevcUkJW023AYbUyXf4Pw4gjZYVnntCQ4oQv+X63fUnRoqa?=
+ =?us-ascii?Q?Q/haLEyQD/ezSSTZAOQdz3cHC5jEVC9kSAHQvMV+qE1yDJQe2e3UgBfBZKSG?=
+ =?us-ascii?Q?sI3zcP/NuWT15gvf7Xizw5XaQv3ZEFSf5Z9Z5oUZzrbL0TA2FFVVNWHmovKg?=
+ =?us-ascii?Q?+tN1EK2vZT2ypApEeTXybYdc+3uCbLIjAGCwB9WRLMxVyH3LA7dzySuTjIvM?=
+ =?us-ascii?Q?T3YPHyZWWY8G+Jb6+B+8JPNVrfyEOIOapE7d92kE12cfnwmvAkIZh/7cKGop?=
+ =?us-ascii?Q?ILPS4CHqXNTlr69rljlq6ziWg1irnIDmPImo8ja+gBowa5+FDGRgXUn9gXMH?=
+ =?us-ascii?Q?4mRqbj/Gh72aZcN6+SROu5MCJfM6R2qXkuKn8j/XgJHLr8obQlTtKPSANSxd?=
+ =?us-ascii?Q?YRWEuYVcqxY+BEWy7LjH3qCCGM+LfycMw3BRK7zhkPvA+MViP8KpGZqciaBU?=
+ =?us-ascii?Q?SeALoam6sbOON+7/GSF3aknnZ3pbFE+P7b/ATF6al0s/g1nufUc+kUaBzmuR?=
+ =?us-ascii?Q?Nhh5eH5SlF0P0zU+/lxFZkbpuLjtZ7NBudAwV4aCI1z+1AuwEEH3NtG0Yshx?=
+ =?us-ascii?Q?qCNcPtddnf1Ia+5an6tbxkVDnn+ilQ1RCQTFeyNNbRIwyMNQaSJYv4txDSKZ?=
+ =?us-ascii?Q?dSMof5uwWcXRcDIISHC+6ooxvXRaEXCnAYMwNkVwJMphKufs514RLHqHagxA?=
+ =?us-ascii?Q?yZLH9dRij+8oaOWM3PokkDSpRgJDcsiWW2yRIKd0HPqF5+xbcqvWtGsGJ1yb?=
+ =?us-ascii?Q?j2nN51o8g62b+SwjBVRyYHPE1oqnLQ4BnmCTT39nknKhN45t2CiprY1r6Gg2?=
+ =?us-ascii?Q?KahxVMNQ8Q9MP6BzXV9FU5PXeTFo7VsEY45zAZb39Ofns9o/50VMOdkkCL91?=
+ =?us-ascii?Q?1Bc+Xi+LBX9iRZUtn1/wEMhKP3W8nG9pzerKh4lUm4KYaiP8QaLattj1TZz8?=
+ =?us-ascii?Q?CMrptiXjKbqZ79eYSFP9DR0LuMfqiOMYtLe1KB0REj5pzA3bWBljRSevlGWM?=
+ =?us-ascii?Q?09stcnpTfUlZq5WLHjuETfj+oB0Xi3ynCTTfUMnVKb6+ifrj9aHKuieSDKg2?=
+ =?us-ascii?Q?y3h8mZflGL7Z2n4dY+HLi5B4Xyi6G2LFHkpLKr8BMSfxNKUF2Mk0eYa2Hmva?=
+ =?us-ascii?Q?oh38VAfBXZuJLMk7xV0pSI2YAPAxCFCgZ1t4WcSS3j/ZfZe9EJ/pa9ZLfQkL?=
+ =?us-ascii?Q?SmAc6uBhX3Vxi4ORsMiKn7EVyLA=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_MA0P287MB2533D2C568ADB161C6744F58F6272MA0P287MB2533INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: advancedschoolconnect.tech
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MA0P287MB2533.INDP287.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 21f74034-0502-4aeb-3a50-08dc3f56c8cb
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Mar 2024 10:01:54.7892
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: bf4dd4ea-a760-4a98-89ea-e3b54102e01c
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: UnTqjCA583Gc4+H2gtTjU94kZ2PmUa55gQik5DCBJVB+gmp4siaitGEUlzYgBsXGB0e8b9CJyvw104w5c8l1TEcY43aWrqLnNRZuNCkIkP6Y0aVsxr+xXz2BxbX5l39o7yTs6RYeeDVvv9JfJnBFdQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN2P287MB1647
+
+--_000_MA0P287MB2533D2C568ADB161C6744F58F6272MA0P287MB2533INDP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi there,
+We are excited to offer you a comprehensive email list of school districts =
+that includes key contact information such as phone numbers, email addresse=
+s, mailing addresses, company revenue, size, and web addresses. Our databas=
+es also cover related industries such as:
+
+  *   K-12 schools
+  *   Universities
+  *   Vocational schools and training programs
+  *   Performing arts schools
+  *   Fitness centers and gyms
+  *   Child care services and providers
+  *   Educational publishers and suppliers
+If you're interested, we would be happy to provide you with relevant counts=
+ and a test file based on your specific requirements.
+Thank you for your time and consideration, and please let us know if you ha=
+ve any questions or concerns.
+Thanks,
+Isabella Baker
+
+To remove from this mailing reply with the subject line " LEAVE US".
+
+
+--_000_MA0P287MB2533D2C568ADB161C6744F58F6272MA0P287MB2533INDP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1386758218;
+	mso-list-template-ids:484989110;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;mso-fareast-language:EN-IN">Hi there,<span style=3D"mso-ligatur=
+es:none"><o:p></o:p></span></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;mso-fareast-language:EN-IN">We are excited to offer you a compr=
+ehensive email list of school districts that includes
+ key contact information such as phone numbers, email addresses, mailing ad=
+dresses, company revenue, size, and web addresses. Our databases also cover=
+ related industries such as:<o:p></o:p></span></p>
+<ul type=3D"disc">
+<li class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-=
+alt:auto;mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">K-12 schools<o:p></o:p></span></li><li class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;=
+mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Universities<o:p></o:p></span></li><li class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;=
+mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Vocational schools and training programs<o:p=
+></o:p></span></li><li class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto=
+;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Performing arts schools<o:p></o:p></span></l=
+i><li class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-botto=
+m-alt:auto;mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Fitness centers and gyms<o:p></o:p></span></=
+li><li class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bott=
+om-alt:auto;mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Child care services and providers<o:p></o:p>=
+</span></li><li class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-ma=
+rgin-bottom-alt:auto;mso-list:l0 level1 lfo1">
+<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;mso-fareast-language:EN-IN">Educational publishers and suppliers<o:p></o=
+:p></span></li></ul>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;mso-fareast-language:EN-IN">If you're interested, we would be h=
+appy to provide you with relevant counts and a test
+ file based on your specific requirements.</span><span style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-language:EN=
+-IN"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&=
+quot;,serif;mso-fareast-language:EN-IN">Thank you for your time and conside=
+ration, and please let us know if you have any questions
+ or concerns.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif;mso-fareast-language:EN-IN">Thanks,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-ligatures:none">Isabe=
+lla Baker<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-IN"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-IN">To remove=
+ from this mailing reply with the subject line &quot; LEAVE US&#8221;.<o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MA0P287MB2533D2C568ADB161C6744F58F6272MA0P287MB2533INDP_--

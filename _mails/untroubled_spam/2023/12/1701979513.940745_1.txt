@@ -1,0 +1,100 @@
+Return-Path: <vuhongngoc40022+5@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 940010 invoked from network); 7 Dec 2023 19:36:38 -0000
+Received: from mail-yb1-xb34.google.com (mail-yb1-xb34.google.com [IPv6:2607:f8b0:4864:20::b34])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 07 Dec 2023 19:36:38 -0000
+Received: by mail-yb1-xb34.google.com with SMTP id 3f1490d57ef6-db8892a5f96so1405621276.2
+        for <bruce@untroubled.org>; Thu, 07 Dec 2023 11:36:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1701977797; x=1702582597; darn=untroubled.org;
+        h=auto-submitted:precedence:content-disposition
+         :content-transfer-encoding:mime-version:subject:references
+         :in-reply-to:message-id:date:from:to:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=CUCJ11m8V4uxV/2jdMoFDFkzBGpvyXkVNZlVzPaY/x8=;
+        b=UsrAvL7Jo4Y58Lqz7HYpHxnH7ODOre7zJzrx1DgPm7pxgu5xgQY4+5pTXnkG5KZbUc
+         /oNXcVKASXqQcbCsPerKzr536h4B5wBlTLdgY5U4QfWM2Rr/WB4dD67pLUynfoXDsupC
+         h0F6xsFlfbeELFe8FMba4GvQaQyYNBIMs8IAXNtMmzyE/mtOC9gClC58itf7OgUpTLEP
+         09WIu+Bc9pYIieiaT28YWoTKqaw+06Ys1UwGxn7o06zG3CawUlUM3ThZ+0Rmi27774Wp
+         E+8SsazczSAC+95BeQlC8Jo0m4S7UdJe7sgtc375coQ4z/Cdg3DHsw8ge0bFrOxU75ac
+         8ffA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1701977797; x=1702582597;
+        h=auto-submitted:precedence:content-disposition
+         :content-transfer-encoding:mime-version:subject:references
+         :in-reply-to:message-id:date:from:to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=CUCJ11m8V4uxV/2jdMoFDFkzBGpvyXkVNZlVzPaY/x8=;
+        b=rUKTd9HdAwtUBELC5CFm9bilQNL2TxSkkRfl5y/TzvMgWWCSSn49X/vDCuRz66P6sR
+         XX1GQOaYq3GcsQcIrkq9/25Pu9xt9FFVdHFRGKUQy8ZIjimb5tj20sE+MNTsJ/MddJiP
+         YMU2IIVcwMOdtCgNKHkSgAPFXvvLlKT2jNhNG2hIMd/8T/RSOXi6p1TRGl66bJim4YQF
+         rnjgdajyywz8d9p9LX+b4wNr3qA1bFl3S6lig6mQ3Ke7ALj/1lmPUdzwO4b9KjPlj9or
+         pHgFoXAfKdMhb6tDRl63CTIkC6GDzhFzizhclFjHSpWCnsuHpacRE3CXvSb/7UQyAPHf
+         eOrw==
+X-Gm-Message-State: AOJu0Yz2O4z8i4fa6DRfo9J6p1F2khItFks9//5hTnVsIsLcS7DZ+xL1
+	S6FYGakYjC7/t0tX04xGaQCT5WIh7PTzH9PPoUvIusRGkneLTTZS1XA87WAWZw==
+X-Google-Smtp-Source: AGHT+IGPwp5o4xtbz38Sjhkrgy31fKR9+iMtqwP7MR8zj9KKkwn3ukkXzMYrGdOKOPHUC+rGJt5OQggJSnK2u6lG3koln425rT40NPeTC2+o
+X-Received: by 2002:a25:8102:0:b0:db5:3f84:25f4 with SMTP id o2-20020a258102000000b00db53f8425f4mr3025810ybk.65.1701977797245;
+        Thu, 07 Dec 2023 11:36:37 -0800 (PST)
+To: bruce@untroubled.org
+From: "CVS Pharmacy" <vuhongngoc40022+5@gmail.com>
+Date: Thu, 7 Dec 2023 11:36:37 -0800
+Message-ID: <CA+w2AVg6zmajEh0zPK_xm5-tZUQyh550hGGKcvv4k_m4bVLEyw@mail.gmail.com>
+In-Reply-To: <160593990.-8804026071.6299695962373@Insidefacebook.facebook.com>
+References: <079019928.-8228599205.5041091615356@Insidesamsung..com>
+	<246246520.-1546833737.1586002298045@Insideapple.apple.com>
+	<160593990.-8804026071.6299695962373@Insidefacebook.facebook.com>
+Subject: Re: Congrats! You've received a CVS reward You have been accepted!
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Precedence: bulk
+X-Autoreply: yes
+Auto-Submitted: auto-replied
+Content-Length: 3259
+
+PGRpdiBkaXI9Imx0ciI+PGNlbnRlcj4NCjxicj4NCjxhIGhyZWY9Imh0dHBzOi8vZW5kb2Z0aGVh
+Z2Uub3JnLzM4NTYxN0hGMG5OMjAyNTNtUDU1ODI4YkswTng4MDA5cnIiIGFsdD0iQ2xpY2sgaGVy
+ZSIgdGFyZ2V0PSJfYmxhbmsiPg0KPGltZyBzcmM9Imh0dHBzOi8vY2RuLmRpc2NvcmRhcHAuY29t
+L2F0dGFjaG1lbnRzLzkyNzUxMjE5ODkxNjQ5NzQxMC85MzM2NzA1NDY0NzcwNTYwMzAvU2NyZWVu
+c2hvdF8yMDIyLTAxLTIwX2F0XzExLTMyLTQ2X1N1cnZleS5wbmciPg0KPC9hPiANCjwvY2VudGVy
+Pg0KPGJyPg0KDQo8Y2VudGVyPg0KCSAgICA8YSBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOm5vbmU7
+Y29sb3I6IzRhNGE0YTtib3JkZXItY29sbGFwc2U6Y29sbGFwc2UiPjwvYT5JZiB5b3UgZG9uJiMz
+OTt0IHdhbnQgdG8gcmVjZWl2ZSB0aG9zZSBlbWFpbHMgYW55bW9yZSwgdGhhdCYjMzk7cyBjb29s
+IC0geW91IGNhbsKgPGEgaHJlZj0iaHR0cHM6Ly9lbmRvZnRoZWFnZS5vcmcvMzg1NjE3SFAwbk4y
+MDI1M21QNTU4MjhiSzBOeDgwMDl1dSIgc3R5bGU9ImNvbG9yOiM0YTRhNGE7dGV4dC1kZWNvcmF0
+aW9uOnVuZGVybGluZTtib3JkZXItY29sbGFwc2U6Y29sbGFwc2UiIHRhcmdldD0iX2JsYW5rIj5V
+bnN1YnNjcmliZTwvYT4gYnV0IHdlIHdpbGwgbWlzcyB5b3UhDQoJICA8L2NlbnRlcj4NCg0KPHA+
+PC9wPjxwPjxmb250IGNvbG9yPSIjZmZmZmZmIj4NCiotLS8tLSoqeXNndDBpbjIqLS0vLS0qKnpo
+ajQqLS0vLS0qKmtoanQqLS0vLS0qKjA2OWYqLS0vLS0qKjI1MDkycjkyZnoyOCotLS8tLSoqDQog
+Mmt2Mm4xMTAqLS0vLS0qKmZnNTUqLS0vLS0qKjRjcTUqLS0vLS0qKjM5bTYqLS0vLS0qKnM5MTN2
+NjIxN2g1dw0KKi0tLy0tKio3dG1pMTY3aCotLS8tLSoqNjN4cyotLS8tLSoqMHVrNCotLS8tLSoq
+MTE2MiotLS8tLSoqNmxleWE0a295MjNmKi0tLy0tKioNCiAyMnc0NTM5MSotLS8tLSoqa2o4ciot
+LS8tLSoqdjE3biotLS8tLSoqZmEydyotLS8tLSoqbDR6bDRsZXFrdTJ3DQoqLS0vLS0qKjRtYXd2
+dzc1Ki0tLy0tKipkZW1xKi0tLy0tKiozMnFrKi0tLy0tKioydjJ1Ki0tLy0tKioyM2E3N2VyYW9l
+d2YqLS0vLS0qKg0KIDB4ODlqZXN0Ki0tLy0tKip0NWdvKi0tLy0tKio4bjA2Ki0tLy0tKioxM2Yw
+Ki0tLy0tKioyMzNxNWkwbnB1MnUNCiotLS8tLSoqMmMxbWJmMjMqLS0vLS0qKjgyZGYqLS0vLS0q
+KjIyd3EqLS0vLS0qKmU4eDQqLS0vLS0qKjFhaDNpejM2aWUycSotLS8tLSoqDQogYjA0djNyZW8q
+LS0vLS0qKjVnMDMqLS0vLS0qKjI2ZzQqLS0vLS0qKnowcGIqLS0vLS0qKjBuZmwwZTBvdHBscg0K
+Ki0tLy0tKipxdjFiMTM3NyotLS8tLSoqN3RjeCotLS8tLSoqMHMwdiotLS8tLSoqMTljbyotLS8t
+LSoqOXFlMDIyOGsxMng3Ki0tLy0tKioNCiBzMWkyMTQ1OSotLS8tLSoqbTI1NSotLS8tLSoqZ2oz
+MSotLS8tLSoqMXN3cyotLS8tLSoqYzFjOTBqMm90MmpoDQoqLS0vLS0qKngyM3YzcDdvKi0tLy0t
+KioxOGIxKi0tLy0tKiphZmYxKi0tLy0tKiphOGZjKi0tLy0tKio2cWlrZTl6dW9rYzQqLS0vLS0q
+Kg0KIGowMnlxdzMxKi0tLy0tKio0MmJ5Ki0tLy0tKioxZDYxKi0tLy0tKip4dzIyKi0tLy0tKip1
+dXdvNTA0bmcxdHUNCiotLS8tLSoqMmlzdjJhd2kqLS0vLS0qKmZtMmgqLS0vLS0qKjZtNnIqLS0v
+LS0qKmg1dTAqLS0vLS0qKjExNGYyOWYyNms4OSotLS8tLSoqDQogYTU3MnUzcTkqLS0vLS0qKjh2
+cTUqLS0vLS0qKjcyODgqLS0vLS0qKjgweWoqLS0vLS0qKjJxeXp5bGdkczhpcw0KKi0tLy0tKio0
+MGd4NGFqMiotLS8tLSoqMmVnNiotLS8tLSoqeTgwYiotLS8tLSoqcHU1MSotLS8tLSoqajBmYzQy
+cDExNmYxKi0tLy0tKioNCiBrcnZpM2c1ZSotLS8tLSoqandtYyotLS8tLSoqdDl4MyotLS8tLSoq
+emQwNyotLS8tLSoqOGc0YmtuenRqZ3U4DQoqLS0vLS0qKjd0ajA4YzJxKi0tLy0tKio3NzdjKi0t
+Ly0tKipmMzA0Ki0tLy0tKipqMTdhKi0tLy0tKip6dmI4MTAyMzQ0djcqLS0vLS0qKg0KIHBnNHIx
+MzM0Ki0tLy0tKiowMDFxKi0tLy0tKiphMjA2Ki0tLy0tKipubzZ6Ki0tLy0tKio2and0NjhsaWJq
+aG8NCiotLS8tLSoqNTlzazJhMXcqLS0vLS0qKjBiNWMqLS0vLS0qKjF1MzEqLS0vLS0qKjQ1ZmMq
+LS0vLS0qKjE4emcybTAxczE5NiotLS8tLSoqDQogNjA5NTA3ejcqLS0vLS0qKjZpNDgqLS0vLS0q
+KmYzdTMqLS0vLS0qKjltMGkqLS0vLS0qKnJlY3VjbG9vNTcwMg0KKi0tLy0tKio0MGxzbDl0MCot
+LS8tLSoqZW05NSotLS8tLSoqMnptOCotLS8tLSoqeHdqYiotLS8tLSoqMWY1OWkzcmZpdHpjKi0t
+Ly0tKioNCiBoOW84NDI5ayotLS8tLSoqNzRvdSotLS8tLSoqdXJoZSotLS8tLSoqMjYxMCotLS8t
+LSoqOWlqMjA5NTNiazBnDQo8L2ZvbnQ+PC9wPjxwPjxmb250IGNvbG9yPSIjZmZmZmZmIj4NCjwv
+Zm9udD48L3A+PC9kaXY+DQo=

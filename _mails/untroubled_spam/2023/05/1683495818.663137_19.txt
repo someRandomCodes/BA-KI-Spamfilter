@@ -1,0 +1,148 @@
+Return-Path: <>
+Received: from 10.197.36.137
+ by atlas102.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sat, 6 May 2030 12:06:06 +0000
+X-Originating-Ip: [209.85.208.171]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.171 as permitted sender)
+Authentication-Results: atlas102.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sat, 6 May 2030 12:06:07 +0000
+X-YMailAVSC: 1iTk3rw3bBsCjL3blISxGWN5clgXxoZeSl.GEWtitjOiBl9
+ 5UKDIjsLX33ZkaG6BaFnBeyz98oyrXsVcPwWKbaB50_6RLXJflPaAKn1K8MX
+ Dx7Z_wEh_SZl56sIDeCkTLDz2VWz2IFHybdTqn19le_0XbJ2zryep6Gczfm3
+ S0xshcjXOdhsyd0F7zU_VgUSwdrNNWlcEgGFueQdxNseZUGrInyIYL2uZzcD
+ rz7bx9ZNFfjd1pspugQyB44oocl18.irysOLRlctdvoyF6xpl0BMpZg0EHCR
+ yvb6lSryq14J8I2tpLhySs2z1kUJ_hn9xRZuRKIZSTSNQ53IkL5r5sfsiFZ7
+ ewXO6ObcwOVuDrtkXV6Mudk4moKzGbRzpaJJqGlNn90M7DIaiKWoFIgFpakJ
+ 5Tsk2q9vbcxJUtGGs_Vkwlb8vS6jBFciDl4JaG5jvQuYZRPZiREsW.iPPOLV
+ lEMR1X.z_DyzEVLhZ89sjOivx7CuFLyWo2lPRfWq1.bTePo5Bd21ITpVFCIT
+ GL8aUVEsAT2foRaeWaQ5D9g7IxcDMnzYRSTU0EPHYyamZWrhbeKoMQpv9lKN
+ lLT8df0OecDoW2sBEFs6FdDr4h0cYR4B5C9SNjenI4EAfQQaAuPMJul0lwh1
+ 5lHqwxRGszstFAuCeKrPKvU_dhdFnS4qoRQLEDiuIj41YJXAh4gmmppJXezV
+ ZlWfUJo6PmtlpdalyRGMEUfGgpQMsXDEYgkrHKZ3rdb.jjpMfnR8z__eWtOl
+ gohxGHtw7.R205C6TMcpl29axQTKubEacvfq8UX0ezSmg7Xi6fV5tnlRLvpV
+ idtsUVqpcfUbHlFdpsAmVV06374iRbOqy78zZujyrgksM85DopzpTusBm5ut
+ pkUrUyBB4WSqYB7X.2gw7OKcv0aqrZg5Ft83fE5gevlDDPNIp8Newu9VncqP
+ DGItvajQtKa.ppVOjxYQvaGuMNt6OkVMoIu_XqtV7u6PTLef5K7g3xA9uanU
+ QRXtOHHn6xSrW30Z6wLVJijvLIYP6uDZXxbZHOKhZLrcIhBJ.lZtc4bVojc_
+ ET3W5x.z.3tFlT7lLgZw-
+X-YMailISG: Npz0KkcWLDuSBh5IWqEn7ixrOPYzzpfmRVa.a7Q8bQJvofM4
+ iigcOCli.JFKGOxA0HP_jxX4thOc9.FvhSK.pDpYz_iymYMv15hMW6YiPvhW
+ 7xtRv7U_ArM8c62uoRxBUJOLZXN0uEWsB886oWsVjAGjYkVr7FgEtY6dWteE
+ bmYHOzzUdLEa9U2zUI9U_cJK1bjwx.JWsM2dl1k9Wq1EhC8hOz5cnWykGZDz
+ R390gudZNpmCag1etZ_gm8JQs6flGXf86VERhWOVPrWFoAjaWd3Rkj38EuKh
+ IdkC0hKgRyZtPs0MqtG6w.qTuRjEZgSmSfTr4qTdFJ9VnleUNaxNO_8Cz5qm
+ J77QBkpo7IVontNA_4qbmMqzg95R3bb5PBaRNTQJr423DWNAtnQN287u39z8
+ sg4IENf7x3fXx3.aLYf8FIsPub5ROkT1Q94dBcrHOSLv6.EPmHCDoLAkPCjZ
+ NOOSa6m6_Fnj7u5Z6PyEJhmfSR1bj.r4iPLHaKkLZzvELM.WISTzSv0PrhR5
+ AwH2Qg1ErjGOcrPa151_S2skbwwzWqMjE6GjSz6qXnT1ItISmhAFqtuvbGpw
+ 2rwmjwXhi6vskZvVEKIbX1xaHdpzXmW.F8n.CE7SouSIE9Lr9eDSA1W7aU37
+ LeewbqQ_bevHmjkhI8BKiBdSf6OV8aNQUrO.7OfdCIMCxWPg43WRnQ7RnDU2
+ xbCMDkz_7W0gpI_qnIK7xGqR3JhgldQkNLQPHAytNG.UkNJKYdx5Ow3fQ11n
+ dwtUDYaTswiFpUoateKKRrERJqDH0iAlpzAgkLdGrYRr6b0D8zMPo.DQbiqi
+ AcHF4jt8W6lS.Pf8ctwJDbVjxXFvzoTPSvGcNDrcRW9.tFoGLHBIMljvF2dH
+ Y2io9o9jKdHhltH.xYnz8eZr9esh5YdDVNGHZaoF_WoKHaTsBvM0x08YxEDn
+ Olv4UUSbYU1myf6UxaaAQHg_fsx7zQBAWFOOrE750I8MiFVFtI9nRtsL3VSO
+ 4sPyxr7q6QtwCoVRSdmXXo44R9f2nVK9Fo9_dQku4DIWnaACSKxrN6LbbAtN
+ vqKhrjdNvS2MwvI2LSXj3ToRQr6J7lDTfFrHKlNozj2D
+Received: from 209.85.208.171 (EHLO mail-lj1-f171.google.com)
+ by 10.197.36.137 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 06 May 2030 12:06:06 +0000
+Received: by mail-lj1-f171.google.com with SMTP id 38308e7fff4ca-2ac90178fdaso8945111fa.3
+        for <bruce@untroubled.org>; Sat, 06 May 2030 05:06:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1683374765; x=1685966765;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=c4dUyqwZhz1DvqL/ZkwqOTouVwRDpOzTm1Yn6fHrBA4=;
+        b=EGe6Hh+khbb+Cko2GlORparYR0MyTZh2pH2zTtRNTdAFTlEDr+c8O8tGwPstmH28Y0
+         clbfEeOdjHe2ejufiFZi54stF7GmcrjG6dSGSBNuFCNFN2pOu8J1osHWo67LLTa7TXEw
+         NYe8PAermiJOd9m1+X3SwT/YX8fHWMR7tTZ/WlS1cKfd+BJTicn80B6JHw/UWrFYIZzu
+         u/IWi89G4Q6kAnmrlFwVH8yvudHzMKw5byLCdfRrwk2j/HaOzSEIARjmY4CIHrvA7ElX
+         m+A+/ZtyFOqQyjucXisGXhcTtE1ZZYpOWjJFtr8PJOA8fnxNbAsof2MvZ29rTCS0pDpi
+         eUyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683374765; x=1685966765;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=c4dUyqwZhz1DvqL/ZkwqOTouVwRDpOzTm1Yn6fHrBA4=;
+        b=OVZnLIScZ1k2wCTh7U/zf3xjDfXYdj1z/j97K0gMttmzBt3hvo3r2TrqbIpXlp+0lB
+         C9KfL1yaDFUfEheeD6c10oAXCSsBdIAFSOyu3cyp+jW9xipOCZgpS47zJ5kXINfIzWip
+         gSMCtKN0SoRKgIdMob/Sk1krzoxFxsCpf0XIyAzoVw0Lk5lAAbT9FS2Q2UOvRQ2nIx5k
+         g3BIkzKzSgikLKzvTGxTAPMZpsKoiz517AkmfMgAPVsEDfe2alEP4oYCDjlgJ3JlMxZL
+         o2bx6x+SKxNkDSL3ufe96k0xOAybQxxO/TqcykeqVFQ0qB21KtcaF5NJkyTeaH8WvQie
+         Lu4w==
+X-Gm-Message-State: AC+VfDxOXUfJZ7A58Rgoeig9DV+Be3CqDCFbIA9mEK3x5HbfNl4IAUg/
+	TKVSHVeJjZvJoDxqFi8XFUfbkkLwydZa56suN1VZmdHP
+X-Google-Smtp-Source: ACHHUZ4rz8vG0Gbs7lmo4qA3ruuxO0Cvpq4J9sYMljCZQVXyP3JxPYW0pxwh/97TU9EQGyp0vOVmE9fbdbgD+CdisoA=
+X-Received: by 2002:a05:6512:3889:b0:4f1:45aa:d419 with SMTP id
+ n9-20020a056512388900b004f145aad419mr1202266lft.58.1683374765190; Sat, 06 May
+ 2030 05:06:05 -0700 (PDT)
+MIME-Version: 1.0
+From: All Family Pharmacy<bruce@untroubled.org>
+Date: Sat, 6 May 2030 13:05:54 +0100
+Message-ID: <CAPrzedUjMhcJ4-PMHcYw+kHGIpSvNiQyg0y7p61i1L1=tuT0yZ@mail.gmail.com>
+Subject: Medicare Covering 8 At-Home Covid Tests
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2965
+
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eUc2VlUvSGZWRDNGYWhXVWlrSzRPalVpaUR4NE90cTdrL3JnUEs4bk9PRi92SWNaYm9pcFlDOEQ5OS9rUTBIbW9IY3VrMzJEcXJ3eEVQOGloVzRDSTFqUVJjL3BYSUNqYm8xWFZHWmI4cTQ9"><font
+      size="6" face="Verdana" color="#ff0000">Insurance Covers 8 at home
+      Covid-19 Tests</font></a><br>
+</p>
+<p>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;
+    maximum-scale=1.0;">
+  <title> Email</title>
+  <table width="100%" border="0" align="center">
+    <tbody>
+      <tr>
+        <td valign="top" align="center">
+          <table class="main" style="max-width:500px; border: 0;
+            font-size: 12px;" width="90%" cellspacing="0"
+            cellpadding="0" border="0" align="center">
+            <tbody>
+              <tr>
+                <td align="center"> <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eUc2VlUvSGZWRDNGYWhXVWlrSzRPalVpaUR4NE90cTdrL3JnUEs4bk9PRi92SWNaYm9pcFlDOEQ5OS9rUTBIbW9IY3VrMzJEcXJ3eEVQOGloVzRDSTFqUVJjL3BYSUNqYm8xWFZHWmI4cTQ9"><img
+src="https://pbs.twimg.com/media/FvcbbmCWYAUugHs?format=jpg&amp;name=large"
+                      alt="If you can't see the image, click here to view the browser version." moz-do-not-send="true"
+                      width="729" height="1024" border="0"></a> </td>
+              </tr>
+              <tr>
+                <td style="font-size:85px;line-height: 25px;"
+                  valign="top" height="25" align="left"> </td>
+              </tr>
+              <tr>
+                <td style="font-family: Verdana, Arial,
+                  sans-serif;font-size:12px;line-height: 18px;color:
+                  #666;" valign="top" height="56" align="center"> If you
+                  no longer wish to receive these emails, you may
+                  unsubscribe by <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#WERMa0NXMUhXUktsa2RiakJwWHpiTVE0YXQ4MjhZc0Qvb3A2SXFGZFNwYzY2Z0VnOEFjSkJFMHJLdVkwdUNmZ3lhSm5GUmNZYlU5U21BYWE5L3pjSDJBdnJ0b00vR1ZOWFlxNjl1ejV5Wms9"
+                    style="color:#666;">clicking here</a> or by writing
+                  to 3556 S 5600 W #1-659, Salt Lake City UT 84120 </td>
+              </tr>
+              <tr>
+                <td style="font-size:65px; line-height:65px;"
+                  valign="top" height="65" align="left">   </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <span
+style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click
+    <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#MWQ4empFZFZrSGRtOWZPZzBaTGFnOWZFWTlJcmJqMUtCSFpkeE0zbG5COEV3cDA5ZXgyWFJjVnpxOGpzaFIzQjRNdlN1SEVJNm1pL01kMklxVjNCMHA3ODBiNVUxYTZEaEF1Rmh0b1FEL1E9">here</a>
+    to remove yourself from our emails list</span><br>
+  <br>
+</p>

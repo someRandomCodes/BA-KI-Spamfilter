@@ -1,0 +1,155 @@
+Return-Path: <marisol@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 490910 invoked from network); 23 Nov 2023 08:49:12 -0000
+Received: from mail-qv1-xf43.google.com (mail-qv1-xf43.google.com [IPv6:2607:f8b0:4864:20::f43])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 23 Nov 2023 08:49:12 -0000
+Received: by mail-qv1-xf43.google.com with SMTP id 6a1803df08f44-679ff70ff94so4109916d6.3
+        for <bruce@untroubled.org>; Thu, 23 Nov 2023 00:49:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1700729351; x=1701334151; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=jIM9dwDwR683gRVSr6PBjrZGKPh1smVHSgtddL/rLk8=;
+        b=dAI9WTtu9hoFeGj4M4olOa2q4LaHARt4bv8N8X9omS2KFdRtzVLWCfW/vhCt8XSetS
+         JJbmVqnxkGudlw7lDIIM1HtNOeO62BQ5UA5NlLqUq8W38D+m+vuDrvIkclyOxBulbCNi
+         4vaRNZP3jJ6vpFt1F85qDfx7hZAT1FbsCHTgprjwzQ62+yQct+z5Nio6kmFwtpzNCVu4
+         BGFMql8SA20pP6qhuoIvHNj36TgSTrfu5Vq01UPcrsQyIWANMEs8kJkqCSCCRtO7EGX1
+         1uJkDx7xofNoQ3BHSrlvxXDeWQ9c31oikGKJslP2n4zFG7/JPhGomBD9Om4IgolSroPT
+         XYlg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1700729351; x=1701334151;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=jIM9dwDwR683gRVSr6PBjrZGKPh1smVHSgtddL/rLk8=;
+        b=W1PcAKp0ciy+XhlOx9PVng+hCq05WXbBuj4uUooHbeOeWRfMoc8dq4FN3Aym+PphZj
+         inQuH63JzmA8h0nJDSWgaFcnL0dI/HqE2NGuDyoqfanmHpe6/g6KXliu7HK61YoDvLgI
+         fd/70MeaFo7zfEifWv7kki1VhbRXleqa9HjBTW/1Hw3ycOoFDktskwD8oI7STw0g9/Ti
+         J2AX4/EQqLnWNCyrfDJixPDg5YfE7J3FByjBniHYCHZLdAj7/1p7xCL2fKfHKo2+2Z8S
+         7fvky4Chs7xHl2JGbbKgE2ua2ZpYVu/f67W6ojttfCBRZfjhk2pTUPtujbHzvgxknb7H
+         dC7Q==
+X-Gm-Message-State: AOJu0YwOjr0gXaycRsvEaNPRQKV9kYKloHmJ1TNkQovfJM2z6SScRcTT
+	XCIaQROeMNgvcREnBNMIJfn8B8/D0n7Izgd3lm88D1eqGks2Yjp1dKg=
+X-Google-Smtp-Source: AGHT+IFdQN0cyeWN0PBcByo3MFCIwqnOBaMoybkSVSI+2dawB400+HdIGOUG7oaRUKdZeWeZ68q4HWjkr5EAD6BCHlw=
+X-Received: by 2002:a05:6214:3008:b0:658:8f94:5e61 with SMTP id
+ ke8-20020a056214300800b006588f945e61mr5583558qvb.43.1700729350767; Thu, 23
+ Nov 2023 00:49:10 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 23 Nov 2023 00:49:10 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 23 Nov 2023 00:49:10 -0800
+MIME-Version: 1.0
+Sender: "Marisol Raymond," <marisol@smartstreamingott.com>
+From: "Marisol Raymond," <marisol@smartstreamingott.com>
+Date: Thu, 23 Nov 2023 00:49:10 -0800
+X-Google-Sender-Auth: KxopeGMqJES0Gc24zK1_AWhzJ1M
+Message-ID: <CAEHQ-LyW+0s3nOaZ3pnpH6rEBXu-iO3tDjKvXvtCf9LRu2zmmA@mail.gmail.com>
+Subject: untroubled.org : Plugins to Integrate Salesforce with WordPress Website!
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000cfe123060acde80a"
+
+--000000000000cfe123060acde80a
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>* Owner,
+
+I am here to* design trendy SaaS, CRM* and admin dashboard UI UX dashboard
+in Figma. During my career, I have created dozens of different Web App
+Designs, Dashboards, and Software UI/UX Design.
+
+I have worked on many UX/UI projects and focused on increasing user
+usability, visual appearance, to improve a great User Experience.
+
+Services:
+
+
+   - Admin Dashboard UI/UX
+   - Multi-Panel Dashboard UI
+   - SaaS and CRM Dashboard
+   - Website Dashboard UI
+   - Dashboard Wireframes, Mockups, Prototypes
+
+Expertise:
+
+
+   - User Research
+   - Information Architecture
+   - Wireframing and Prototyping
+   - Interaction and Visual UI
+   - Mobile and Responsive UI
+   - UI/UX Trends
+   - UI Pattern Libraries and Design Systems
+   - Effective Communication
+   - Feedback and Iteration
+
+*If interested?* Let's discuss further. I'm available via Phone/Skype for a
+direct conversation.
+
+Thanks & Regards
+
+Marisol Raymond,
+
+Web Developer
+
+-----------------------------------------------
+
+Note: - If this is something you are interested in, please respond to this
+email. If this is not of your interest, please reply with No
+[image: beacon]
+
+--000000000000cfe123060acde80a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:14.95px"><font face=3D"verdana, sans-serif">Hi=C2=A0<b><a href=3D"htt=
+p://untroubled.org">untroubled.org</a></b>=C2=A0Owner,</font></p><p class=
+=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=
+=3D"verdana, sans-serif">I am here to<b>=C2=A0design trendy SaaS, CRM</b>=
+=C2=A0and admin dashboard UI UX dashboard in Figma. During my career, I hav=
+e created dozens of different Web App Designs, Dashboards, and Software UI/=
+UX Design.</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;li=
+ne-height:14.95px"><font face=3D"verdana, sans-serif">I have worked on many=
+ UX/UI projects and focused on increasing user usability, visual appearance=
+, to improve a great User Experience.</font></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=3D"verdana, sans-s=
+erif">Services:</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10=
+pt;line-height:14.95px"></p><ul><li><font face=3D"verdana, sans-serif">Admi=
+n Dashboard UI/UX</font></li><li><font face=3D"verdana, sans-serif">Multi-P=
+anel Dashboard UI</font></li><li><font face=3D"verdana, sans-serif">SaaS an=
+d CRM Dashboard</font></li><li><font face=3D"verdana, sans-serif">Website D=
+ashboard UI</font></li><li><font face=3D"verdana, sans-serif">Dashboard Wir=
+eframes, Mockups, Prototypes</font></li></ul><p></p><p class=3D"MsoNormal" =
+style=3D"margin:0in 0in 10pt;line-height:14.95px"><font face=3D"verdana, sa=
+ns-serif">Expertise:</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0=
+in 10pt;line-height:14.95px"></p><ul><li><font face=3D"verdana, sans-serif"=
+>User Research</font></li><li><font face=3D"verdana, sans-serif">Informatio=
+n Architecture</font></li><li><font face=3D"verdana, sans-serif">Wireframin=
+g and Prototyping</font></li><li><font face=3D"verdana, sans-serif">Interac=
+tion and Visual UI</font></li><li><font face=3D"verdana, sans-serif">Mobile=
+ and Responsive UI</font></li><li><font face=3D"verdana, sans-serif">UI/UX =
+Trends</font></li><li><font face=3D"verdana, sans-serif">UI Pattern Librari=
+es and Design Systems</font></li><li><font face=3D"verdana, sans-serif">Eff=
+ective Communication</font></li><li><font face=3D"verdana, sans-serif">Feed=
+back and Iteration</font></li></ul><p></p><p class=3D"MsoNormal" style=3D"m=
+argin:0in 0in 0.0001pt;line-height:12.65pt"><font color=3D"#000000" face=3D=
+"verdana, sans-serif"><b>If interested?</b>=C2=A0Let&#39;s discuss further.=
+ I&#39;m available via Phone/Skype for a direct conversation.<br><br>Thanks=
+ &amp; Regards</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10p=
+t;line-height:12.65pt"><span style=3D"color:rgb(0,0,0);font-family:verdana,=
+sans-serif">Marisol Raymond,</span><br></p><p class=3D"MsoNormal" style=3D"=
+margin:0in 0in 10pt;line-height:12.65pt"><font color=3D"#000000" face=3D"ve=
+rdana, sans-serif">Web Developer=C2=A0</font></p><p class=3D"MsoNormal" sty=
+le=3D"margin:0in 0in 10pt;line-height:12.65pt"><font color=3D"#000000" face=
+=3D"verdana, sans-serif">-----------------------------------------------</f=
+ont></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:12.=
+65pt"><font color=3D"#000000" face=3D"verdana, sans-serif">Note: - If this =
+is something you are interested in, please respond to this email. If this i=
+s not of your interest, please reply with No</font></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2UkQckf2ss=
+y7BQ2WNycNzNAtnBZmmzqTi5n9U1BfbODl9Z177iwH-yvjKpnuD-DAmYKc1szTHUvG82H7ix26q=
+YLL04_jPoH8m-ZwEFHkMUIg-evon4zBKXfXJuLRnOL96xQivkovxsJ8w_gwSyByjJQYZZbMnHaZ=
+W0SF4HsE" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; di=
+splay:none!important;">
+
+--000000000000cfe123060acde80a--

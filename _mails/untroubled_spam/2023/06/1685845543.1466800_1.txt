@@ -1,0 +1,355 @@
+Return-Path: <KonaLuis@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1457961 invoked from network); 3 Jun 2023 15:46:16 -0000
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (mail-tyzapc01olkn2018.outbound.protection.outlook.com [40.92.107.18])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 03 Jun 2023 15:46:15 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=nRyWcqVEhqn8RldL/uE3x/SMQHt+3kusL7eo/YMpLPkjMXiDvNOpJdf5yiTYB9p8qcKkqpWiTScpwWBR2J8Ey5KBMiswLSI4DyunUD76zngFhk/mCGX1G3LKPPQ/tT1Wa+kitiCbfww8e8lrJbew9H0EW+ynRy9riOjOE1anWEU+nqjtLSppa0MFa9ZfFfTsg8XdXC9ixPlXMg8LiMDQf4gQPo4dOgTzxH82fN9nqiWLnbt9ncGADCAucEaQ8b6enzpcKHeatuy3aApoVxR3ufHBTIquwGUl8X4nU1vDEGPY4Ael/YcXSZxR+xqHHm0iJ1UfU+6j0qpWb0203qyLkw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=koWoI1+S2CHzfLjt0UCVT4L9f9m/ndE6v9Glg+ohqRk=;
+ b=Oz8doeU9lcnJYgturLGgHD4CSkmxBE0PNjtVYv5q92ZA9HnJE2s+RpefRETkxCP5jzzvwchESYVtgbgsj31Xx1OnQMr3MydSaVI37Q475MZZsdsNjIBMPGU1W5H+zZ1AE4e1fp0WgaaKweTDdqruTSZMWI9bMaDH4LGuyFrV93q2SKDT0G8I+s7jj53/VBtgiKqtAWoBKhr++9wMo95hzXPb0gXS01k9PL39MTB4VOmaS61D44ailbFRFfG52SULxayWmtnMUBNsyuJPBFRrm3VL22pYxkUvvi7AIaJJJSvaLim9yKojuFEsjdgs+boWyre1wcGco45HBMxE/NiQIw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=koWoI1+S2CHzfLjt0UCVT4L9f9m/ndE6v9Glg+ohqRk=;
+ b=NZqFKpfZEn4ydT4fDjVmftZIKA7SGYAcGX3oLk4cGcZNNksZZfiC1tmExZIyyJ8MsZ1/ou+bmNBSiByZy0Lmyr8t44vdj03T04iphKdiazeWIJzYVf/samlWChTi5EyYJe0Wl7AcOJTinMj2ndsVdu/bwGtUhsGo99t1f4YomctH0hH5IpXYLnI06RhZKE1U9acxuCVdBJzZgeAzQbEiGlKNxuNMgtXD1aziePoV74YFdjyGzRky9sq6QBnbr0lyr3aO2twcJrfIVJRKLJiG+ezwDuMsm0ai523G/Y3YJgDMsTeELYEe6q15wmpaocNNkRzBz/JGmEQBD9WlGxK35Q==
+Received: from TYZPR04MB6883.apcprd04.prod.outlook.com (2603:1096:400:33e::12)
+ by PUZPR04MB6183.apcprd04.prod.outlook.com (2603:1096:301:ef::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.28; Sat, 3 Jun
+ 2023 15:45:27 +0000
+Received: from TYZPR04MB6883.apcprd04.prod.outlook.com
+ ([fe80::e5ac:1c75:4ba0:d7a1]) by TYZPR04MB6883.apcprd04.prod.outlook.com
+ ([fe80::e5ac:1c75:4ba0:d7a1%6]) with mapi id 15.20.6455.020; Sat, 3 Jun 2023
+ 15:45:27 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "KonaLuis@outlook.com" <KonaLuis@outlook.com>
+Subject: "Unlock Your Heart's Desire: Date Ukrainian Singles and Find True Love!"
+Reply-To: "KonaLuis@outlook.com" <KonaLuis@outlook.com>
+Date: Sat, 03 Jun 2023 17:45:17 +0200
+Message-ID:
+ <TYZPR04MB6883A5192E4178362EC40E8FD44FA@TYZPR04MB6883.apcprd04.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0C77_746FED25.672BFD6D"
+To: Undisclosed recipients:;
+X-TMN: [ynpDuNl9mzSHBFyBeVDptVx6hMn5K05U]
+X-ClientProxiedBy: VI1PR07CA0195.eurprd07.prod.outlook.com
+ (2603:10a6:802:3f::19) To TYZPR04MB6883.apcprd04.prod.outlook.com
+ (2603:1096:400:33e::12)
+Return-Path: KonaLuis@outlook.com
+X-Microsoft-Original-Message-ID: <1.6cdc205f1b87d7a57119@DESKTOP-KCLSUT3>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TYZPR04MB6883:EE_|PUZPR04MB6183:EE_
+X-MS-Office365-Filtering-Correlation-Id: 4f84900d-b4f3-4ef4-c01e-08db64498cbe
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VzMxbkxuU3I1bjM1S1V4SDY1Wk5Mc2ZxRWo5cStQTDFpb0UxSGt5MTJoL0Rk?=
+ =?utf-8?B?QWxCZU44NVZ3MHhxdVpMbDh5L2pERkh0dTlGVjNEQ3NHN3ozMWZuMHpOSGRQ?=
+ =?utf-8?B?blFpbmxsVWFUenRoYlIrUElqbzAyN1dHMC84Tlg5RWRlUHZUNnYvUEVjd2pt?=
+ =?utf-8?B?OGhFREZ5TUZsZy9oM2l0MjBSWXB3N0hoSWJwNkZsU0FjZGtXNUZ4UkVwcFlH?=
+ =?utf-8?B?WDd6OWNYT3MwaEhJMlBHRGxJM25FMWl6MHlUYWZlNHAxc25zYVFkQWNJSVlJ?=
+ =?utf-8?B?QldKbG9COHNNQzg4ZkdNd0o4UTgwY3hlTHkvdXRsMnNVUkc0d1pyYk5pU0Fi?=
+ =?utf-8?B?Z0QwODNDUlpOMUxscVJTNlQzL1NXZXQzRjM3by9RYVJuQURvTTczTkNwZHkr?=
+ =?utf-8?B?YzB6R2U0VnFSNWJXMFdIRjZrUHphRnVVWHNJL0FNenluSUxYOXF5VXA2ZFk5?=
+ =?utf-8?B?R2E2MEExOFFBclhsN2twbGpLL2hudDNFZHlZRDhNaGxSeHkrRUdHeHpUaVpP?=
+ =?utf-8?B?OFd5QVhOVVZOQm1vTnRIMHNOTEt3VWw2eE5nWVZ4SVJZcEJWMnpwbHZjQ245?=
+ =?utf-8?B?V1lMUHNZL3l5bkc0dnBvZ25VZ1A3T0dRVnZ2d1JCQ2JpdGZLMWRCdGllOGFj?=
+ =?utf-8?B?dWJFZnlOT1pGaWlYVXdsb2I3dVAxcUJCcVJqTWF1WGRtK0lHVXZici9wbW81?=
+ =?utf-8?B?WXhvYllHNXlYSUNoSUYwVEJyV2trcUxSUUozWFh4WjRXREpsME93TmRpTDI5?=
+ =?utf-8?B?T2tySFo0YjNBY2V6MjhQYWVzNVFHRmM1K1Z4dlNKbDRrbU9UUmYvb0l5Wmhv?=
+ =?utf-8?B?WW9OYWtCbGM5eXhLQVkweWJCckM0d2ZuL0hPcld4Qk5zMERMTDRYdTNUTzdz?=
+ =?utf-8?B?QU0zYXJIaGE1RnlDVGppM2JFb280T2dYc1RxVzFRTkFFWmYxeWdQR1JQckNv?=
+ =?utf-8?B?OU9FWk91N2w2VGJqUythd1pwcllsVjVoSzQxUkdUcmdvZzBzMEV1TGh0bzUv?=
+ =?utf-8?B?ZEFGN2poYzdST09tWUJ6ZWxzQVpWdEdKaTUxWEd0ZUd6U3Q0NW9ralM4MUVo?=
+ =?utf-8?B?MUtGMjNMZ0U1bVdrTVZiMDdlTkRsVS9XeWFjT0pNbVh2VFFrN21xRk0zYUxH?=
+ =?utf-8?B?QlJFYldqbVYyclEwNHgzY3dQNmFCQkRiQkNlYXdCNmpUaFdkcVptS1NKSnB3?=
+ =?utf-8?B?ZXB2aDZiTjdJcnhLZmY3cTlkVWZnNG4zclNSaHZ6OXRLbVVzS05MVTA3elV4?=
+ =?utf-8?B?a2kraEdZZHg0WHgraW95OWo4TjRhREZ1ZVhWNGdLTmVJbGhtZTNYUmpKMmlY?=
+ =?utf-8?B?WWErSlA3YnhCWmV5bkc4ZlVBK3owQzFHMEdsTU1SbktRVmVpSFNFUkZwb2Mw?=
+ =?utf-8?B?Mzl1NU1OL1JwSWpmVmpIRUJ4YitwUUkwSFV6RUxlRlk1ZXd2alYzR1I3Ty84?=
+ =?utf-8?B?NXk2c1ZqMCt1ZzFNdDlnMlhabnQwOS9CUTlGZitEdHd2WWUyd0pRemtiMnY5?=
+ =?utf-8?Q?khSQOsPvqqhnCebzs9lugEFYK7G?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?eFY5Rlh0T0pxMUFzQnZiVkltUHgyYnpqNzZQUDExVEdXMUI2Nno1Wm9sNHpB?=
+ =?utf-8?B?RkoxMHJESG1DbUEvbFZTN0poK2lIM0o0QVVGUEMrd0ErbVpGUVNmRzhkd3pj?=
+ =?utf-8?B?a2dCcFhsRGtoL2dLbnhVM2VONzBqL0M5Qm5ENjJNRko4L0FuWGh4bGtya2Rh?=
+ =?utf-8?B?SkNNdFMvUUJBN0RJSXpnTEV2TmJnczU1aGIxanJzRFl2QVgzMDJhejFyUTFM?=
+ =?utf-8?B?ZURTSVBMZS9QUm5VR29NWU9qZFpuajhPWXhRU2pWTHdJU25xV0RQYjJMYnQy?=
+ =?utf-8?B?aDJNNFg0QWwrWEZJYWMzbzY4NW02UnMzUkZlYVNCM3c5Q0FyWHp1ZGZSMWk2?=
+ =?utf-8?B?TjJ3ZmVLOXFxUWZkeDhWN2cyWXdkRnZGY0w0WUlHWWRsclhRRUczTTloM1g3?=
+ =?utf-8?B?QW94WkFQNFhkMWZKdFNwcXdOaVIrR0g2SjBXcDExOFQzN2xaNG9WV092QzFy?=
+ =?utf-8?B?S0RkVERTcU43bkpQd1NwYTdySlM5bEJmUFZtS2FRZlVxL2NqN1B5eXhKaHh1?=
+ =?utf-8?B?c1IzRThIWVhkZ1E0M09paDNHQytEZHNHQnVQSi9IMnIxRWd2Mmo3enhQTDJZ?=
+ =?utf-8?B?dzk2am9FRXUwelJqbkpUSWdFdy8zbzVnRG1YMzJJOXBReDFwaW1hT0NxODBF?=
+ =?utf-8?B?cEVPY3NIRnEyLzB3WWJPdG95OEp3SFJuKzF0cUlWcTRnMVl2RENVYVVueEdH?=
+ =?utf-8?B?UmNlUlBLVUV4WmN5QTVickM1NHo5Ny9UQ1lpM2RNNXRNTEtaektBM0l2TWpT?=
+ =?utf-8?B?bXorbkZWa0pmZzF3ZFhXQkEwMGYycE5TYkJOdmcvNmdBd0dLSGRDT1g4WGFE?=
+ =?utf-8?B?MWw5WTRkRStVQm1oOWVGdU9YdlZkdFgrdGZiVld0YVE2c3lSL2dWM0FPS1Q0?=
+ =?utf-8?B?dktBRWF5dVo2cEUxUmw5Z3Z2UGRqUjh2dEc5cU05UUhMNzBWNEN5c1N4R2o0?=
+ =?utf-8?B?TzI1R3RTdEYzNjJ6UVJKYjJBakxTV21SemNaUW5nTVcxUHpabndHQmZoOHpQ?=
+ =?utf-8?B?OVozQk5WZFZqSnlLRXorYTFJK0tVL0lyckxCQmxtRVZjQm1qdjBPeXZHbmVY?=
+ =?utf-8?B?U01yYjZQVWljODhBTCtvTUZ6U2UwSWVmekRvei9sdWh2L3RGaFlNNjlBNVF1?=
+ =?utf-8?B?RW5tMkJ0cER0N3VyemlNSmxGWFlUSTJPcnY5OVl5RDAzdGNKV3h2cnB6ZGlz?=
+ =?utf-8?B?djRSVEZsQko5dXJmZDdrZFdHdERMUFVmb2MrcVRqZjlJOXV3ZjRZRzl1YzFv?=
+ =?utf-8?B?dzd0OU9kTTdVR0JXdzVxbW05MDBIbHo1eEl1QTJnR3orMjBRRzdZN05vS2xF?=
+ =?utf-8?B?ZEhYdGR2VUQ1Y3lxbWFqU3lmNVdEc0hpS2hobW1xTi9hMEpZTWRocFByR3RV?=
+ =?utf-8?B?Q0xRaXdhdWNrazY3Qkc5OUJOT0VRSkNZb1lMd2dpN1lwc0Y0dXNoMFBNUk5Z?=
+ =?utf-8?B?alpMWlBvMksramQ4V1U1MXk1MU9ncXVWeld0TkFIWnY3K1UvVnIrL2pIeHlj?=
+ =?utf-8?B?Um5UNWIrRXdOMUhYdnI0dmliMk1PTXVYTDlOWXJIK01jMHV3QkFJTnpsZVVL?=
+ =?utf-8?B?KzhkOFhsNlJUM3c0REFweHFKWlp1VFQrWU9XQTZPQkVSVlVvSjhaM1NnWEFt?=
+ =?utf-8?B?Q0JZNXIyYU9OV1d3eVFKQzdmc0k4aUE9PQ==?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4f84900d-b4f3-4ef4-c01e-08db64498cbe
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR04MB6883.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Jun 2023 15:45:26.9495
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PUZPR04MB6183
+Content-Length: 11804
+
+------=_NextPart_000_0C77_746FED25.672BFD6D
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+SingleUkrainianBeauty 
+  
+ 
+Are you searching for love, companionship, or a meaningful connection with =
+someone from Ukraine? Look no further! I am thrilled to introduce you to ou=
+r exceptional Ukrainian dating page that caters to individuals like you who=
+ are eager to explore romantic possibilities with Ukrainian singles. 
+  
+ Our dating platform is designed to bring together like-minded individuals =
+who appreciate the beauty, warmth, and cultural richness of Ukraine. Whethe=
+r you are captivated by the stunning landscapes, intrigued by the fascinati=
+ng history, or drawn to the genuine warmth of Ukrainian people, our platfor=
+m offers a gateway to meet and connect with amazing individuals who share y=
+our interests. 
+  
+ What sets us apart is our commitment to providing a secure and authentic d=
+ating experience. We carefully vet each member, ensuring that they are genu=
+ine, sincere, and ready to embark on a journey of love and companionship. O=
+ur advanced matchmaking algorithms help you discover compatible matches, in=
+creasing the chances of finding that special someone who will capture your =
+heart. 
+  
+ From engaging chat features to existing virtual events and personalized ma=
+tch suggestions, our Ukrainian dating page offers a seamless and immersive =
+experience. Our user-friendly interface makes it easy to navigate and conne=
+ct with potential partners, creating an environment where meaningful connec=
+tions can flourish. 
+  
+ We invite you to join our vibrant community of Ukrainian singles and embar=
+k on an exciting journey towards love and happiness. Simply sign up, create=
+ your profile, and start exploring the profiles of genuine Ukrainian indivi=
+duals who are eager to meet someone like you. 
+  
+ Don't miss out on this incredible opportunity to find love and companionsh=
+ip with someone who shares your passion for Ukraine. Join our Ukrainian dat=
+ing page today and let us help you discover a world of possibilities! 
+  
+ Warm regards, SingleUkrainianBeauty 
+  
+ 
+
+
+
+
+
+Don't let finances be a barrier to finding love. Join our free dating site =
+today and unlock a world of possibilities. Love awaits, and it's just a few=
+ clicks away! 
+  
+ Sign up now and start your journey towards love, companionship, and meanin=
+gful connections. 
+  
+ Unsubscribe from Email Communications 
+  
+ 
+
+
+=
+
+------=_NextPart_000_0C77_746FED25.672BFD6D
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv align=3D"center">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-5a22c195-7fff-19=
+99-62b4-3cc676744730"> =0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+		<a href=3D"http://www.ukrainiansdate.site" style=3D"text-decoration:none;=
+"><span style=3D"font-size:18pt;font-family:Roboto,sans-serif;color:#1155cc=
+;background-color:transparent;font-weight:700;font-style:normal;font-varian=
+t:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-d=
+ecoration-skip-ink:none;vertical-align:baseline;white-space:pre-wrap;"><b s=
+tyle=3D"font-weight:normal;" id=3D"docs-internal-guid-d3ce0384-7fff-ff61-a5=
+f3-db617f1b1caf"></b></span></a><b style=3D"font-weight:normal;" id=3D"docs=
+-internal-guid-d3ce0384-7fff-ff61-a5f3-db617f1b1caf"><a href=3D"http://www.=
+ukrainiansdate.online" style=3D"text-decoration:none;"><span style=3D"font-=
+size:18pt;font-family:Roboto,sans-serif;color:#1155cc;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:non=
+e;vertical-align:baseline;white-space:pre-wrap;">SingleUkrainianBeauty</spa=
+n></a></b> =0A=
+	</p>=0A=
+</b><br>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-5a22c195-7fff-199=
+9-62b4-3cc676744730"> =0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:15pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Are you searching for love, companionship, or a meaningful connection wit=
+h someone from Ukraine? Look no further! I am thrilled to introduce you to =
+our exceptional Ukrainian dating page that caters to individuals like you w=
+ho are eager to explore romantic possibilities with Ukrainian singles.</spa=
+n> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Our dating platform is designed to bring together like-minded individuals=
+ who appreciate the beauty, warmth, and cultural richness of Ukraine. Wheth=
+er you are captivated by the stunning landscapes, intrigued by the fascinat=
+ing history, or drawn to the genuine warmth of Ukrainian people, our platfo=
+rm offers a gateway to meet and connect with amazing individuals who share =
+your interests.</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">What sets us apart is our commitment to providing a secure and authentic =
+dating experience. We carefully vet each member, ensuring that they are gen=
+uine, sincere, and ready to embark on a journey of love and companionship. =
+Our advanced matchmaking algorithms help you discover compatible matches, i=
+ncreasing the chances of finding that special someone who will capture your=
+ heart.</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">From engaging chat features to existing virtual events and personalized m=
+atch suggestions, our Ukrainian dating page offers a seamless and immersive=
+ experience. Our user-friendly interface makes it easy to navigate and conn=
+ect with potential partners, creating an environment where meaningful conne=
+ctions can flourish.</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">We invite you to join our vibrant community of Ukrainian singles and emba=
+rk on an exciting journey towards love and happiness. Simply sign up, creat=
+e your profile, and start exploring the profiles of genuine Ukrainian indiv=
+iduals who are eager to meet someone like you.</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Don't miss out on this incredible opportunity to find love and companions=
+hip with someone who shares your passion for Ukraine. Join our Ukrainian da=
+ting page today and let us help you discover a world of possibilities!</spa=
+n> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:15pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Warm regards, SingleUkrainianBeauty</span> =0A=
+	</p>=0A=
+</b> =0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+	<p>=0A=
+		<img src=3D"https://i.imgur.com/2pCFkrj.png" alt=3D"" width=3D"766" heigh=
+t=3D"294"> =0A=
+	</p>=0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+	<p>=0A=
+		<br>=0A=
+	</p>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-5a22c195-7fff-199=
+9-62b4-3cc676744730"> =0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:15pt;margin-bottom:0pt;padding:0pt 0pt 15pt 0pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Don't let finances be a barrier to finding love. Join our free dating sit=
+e today and unlock a world of possibilities. Love awaits, and it's just a f=
+ew clicks away!</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;background-colo=
+r:#f7f7f8;margin-top:0pt;margin-bottom:15pt;">=0A=
+		<span style=3D"font-size:12pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:400;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Sign up now and start your journey towards love, companionship, and meani=
+ngful connections.</span> =0A=
+	</p>=0A=
+	<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;=
+margin-bottom:0pt;">=0A=
+		<span style=3D"font-size:10pt;font-family:Roboto,sans-serif;color:#374151=
+;background-color:transparent;font-weight:700;font-style:normal;font-varian=
+t:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;=
+">Unsubscribe from Email </span><a href=3D"http://www.ukrainiansdate.site" =
+style=3D"text-decoration:none;"><span style=3D"font-size:10pt;font-family:R=
+oboto,sans-serif;color:#1155cc;background-color:transparent;font-weight:700=
+;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-te=
+xt-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseli=
+ne;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-inter=
+nal-guid-34fdd909-7fff-0c90-b9a1-ec65e529aecd"></b></span></a><b style=3D"f=
+ont-weight:normal;" id=3D"docs-internal-guid-34fdd909-7fff-0c90-b9a1-ec65e5=
+29aecd"><a href=3D"http://www.ukrainiansdate.online" style=3D"text-decorati=
+on:none;"><span style=3D"font-size:10pt;font-family:Roboto,sans-serif;color=
+:#1155cc;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:non=
+e;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre-wra=
+p;">Communications</span></a></b> =0A=
+	</p>=0A=
+</b><br class=3D"Apple-interchange-newline">=0A=
+<br>=0A=
+</div>=0A=
+<br>=
+
+------=_NextPart_000_0C77_746FED25.672BFD6D--

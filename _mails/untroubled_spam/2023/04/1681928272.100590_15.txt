@@ -1,0 +1,103 @@
+Return-Path: <suporte@tecsoftware.com.br>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 96425 invoked from network); 19 Apr 2023 16:14:53 -0000
+Received: from omta34.uswest2.a.cloudfilter.net (omta34.uswest2.a.cloudfilter.net [35.89.44.33])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Apr 2023 16:14:53 -0000
+Received: from eig-obgw-5014a.ext.cloudfilter.net ([10.0.29.198])
+	by cmsmtp with ESMTP
+	id ozBspvR5YEOZ6pASKpS8bS; Wed, 19 Apr 2023 16:14:52 +0000
+Received: from br174.hostgator.com.br ([192.185.176.177])
+	by cmsmtp with ESMTP
+	id pASJpC5WVnD9UpASJp3mzB; Wed, 19 Apr 2023 16:14:51 +0000
+X-Authority-Analysis: v=2.4 cv=bIQFndyZ c=1 sm=1 tr=0 ts=6440137b
+ a=Z650OU3WkV+Xz4wAGfRpUA==:117 a=Z650OU3WkV+Xz4wAGfRpUA==:17
+ a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=HpEJnUlJZJkA:10 a=IkcTkHD0fZMA:10
+ a=dKHAf1wccvYA:10 a=xOUXmpjs4CcA:10 a=_zOvcwpLAAAA:20 a=2RwVI3D8AAAA:8
+ a=zP9cMK5CJVlFgyp1Hw8A:9 a=CPbzw0rCjSzI_PX8:21 a=_W_S_7VecoQA:10
+ a=QEXdDO2ut3YA:10 a=648vMqXh5T0A:10 a=ItD0tV8dRbIZDJMoOE50:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=tecsoftware.com.br; s=default; h=Content-Transfer-Encoding:Content-Type:
+	Subject:Date:To:From:MIME-Version:Sender:Reply-To:Message-ID:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=b+zBe7CmOa9whfjOVIY1ooZSxKt708Kf9GTz52oFElU=; b=R7MWiwoyPKGhPjuSSwe2gncjCv
+	OVyioCdCb5XQSs0/kO7Ou2B4P/6OIRx99viBam5V2ChPLuxszSOItxyskUtcv8chAKV7NyXjJdYKZ
+	nCgv/YC9+1M8Q/JMxeCwUl1l4wCpUZ24KYt2vJsnQa9d8Syg7cp61Gs8CdEEqqNCiQ3FwMupQSuje
+	s/dO1F+h1ghc2tipYRne0jY7ZIDdq4kz11t+8bLtokBbED7y3AGX33o81YHYsQLcRefblPlX8zvLR
+	rzTHIDdf6VEOVxFOsHpvxUFG4duP9lIeIdA3D6QsxwWdlYrriv5nzGfFGJGHAc68likTIe6LJN/GE
+	rJ42IXgw==;
+Received: from [104.234.30.215] (port=56733 helo=TightTurtle)
+	by br174.hostgator.com.br with esmtpa (Exim 4.95)
+	(envelope-from <suporte@tecsoftware.com.br>)
+	id 1ppASG-003j0N-EL;
+	Wed, 19 Apr 2023 13:14:49 -0300
+MIME-Version: 1.0
+From: suporte@tecsoftware.com.br
+To: bruce.rider@fmr.com.mx
+Date: 19 Apr 2023 09:14:50 -0700
+Subject: Su documento emitido ID 826785618
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - br174.hostgator.com.br
+X-AntiAbuse: Original Domain - untroubled.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tecsoftware.com.br
+X-BWhitelist: no
+X-Source-IP: 104.234.30.215
+X-Source-L: No
+X-Exim-ID: 1ppASG-003j0N-EL
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (TightTurtle) [104.234.30.215]:56733
+X-Source-Auth: suporte@tecsoftware.com.br
+X-Email-Count: 43
+X-Org: HG=hgshared_br;ORG=latam;
+X-Source-Cap: dGVjc29mNzQ7dGVjc29mNzQ7YnIxNzQuaG9zdGdhdG9yLmNvbS5icg==
+X-Local-Domain: yes
+X-CMAE-Envelope: MS4xfBIk/bpVOM45eya8ckJeNw+DfpMt3TYPKpEYg9fXmldUsU+dNc7FgbUiG14028788z81rU4zJdxPZUAumFbPVoKJajV3fMGoS5QkYZcvRa/jYdWmaHp2
+ 9+Vaf210Z7MdecKCkZPryNhxCrK7c6Ysf1BElmnGNs6UzNznyLiYm1FL7pCrM4aN3eN+BZ+fxhzx4MkoLZFASluSRf41CFhlcms=
+Content-Length: 2623
+
+PGh0bWw+DQo8dGFibGUgc3R5bGU9ImhlaWdodDogNDM3cHg7IiBib3JkZXI9IjAiIHdp
+ZHRoPSI3MDQiIGNlbGxzcGFjaW5nPSIyIiBjZWxscGFkZGluZz0iMSI+DQo8dGJvZHk+
+DQo8dHIgc3R5bGU9ImhlaWdodDogNDhweDsiPg0KPHRkIHN0eWxlPSJoZWlnaHQ6IDQ4
+cHg7IHdpZHRoOiA2OTRweDsiIGFsaWduPSJsZWZ0IiBiZ2NvbG9yPSIjMDAwMDgwIiBo
+ZWlnaHQ9IjQ4Ij48c3BhbiBzdHlsZT0iY29sb3I6ICMwMDAwMDA7IGZvbnQtZmFtaWx5
+OiBWZXJkYW5hOyBmb250LXNpemU6IHNtYWxsOyI+PHNwYW4gc3R5bGU9ImNvbG9yOiAj
+ZmZmZmZmOyBmb250LWZhbWlseTogRHViYWk7IGZvbnQtc2l6ZTogbWVkaXVtOyI+PHN0
+cm9uZz4mbmJzcDsmbmJzcDsg4pqW77iPIEF1ZGllbmNpYSBWaXJ0dWFsPC9zdHJvbmc+
+PC9zcGFuPjwvc3Bhbj48L3RkPg0KPC90cj4NCjx0ciBzdHlsZT0iaGVpZ2h0OiA5M3B4
+OyI+DQo8dGQgc3R5bGU9ImhlaWdodDogOTNweDsgd2lkdGg6IDY5NHB4OyIgYWxpZ249
+ImxlZnQiIGhlaWdodD0iOTMiPg0KPHA+UHJvY2VzbyBOby4gNTcwMDE5SDEtNDU2OTg8
+YnIgLz5TZW50ZW5jaWE6IDQ2NzMtSDEtMjAyMzwvcD4NCjwvdGQ+DQo8L3RyPg0KPHRy
+IHN0eWxlPSJoZWlnaHQ6IDI3MnB4OyI+DQo8dGQgc3R5bGU9ImhlaWdodDogMjcycHg7
+IHdpZHRoOiA2OTRweDsiIGFsaWduPSJsZWZ0IiBoZWlnaHQ9IjE0OCI+PHNwYW4gc3R5
+bGU9ImNvbG9yOiAjMDAwMDAwOyBmb250LWZhbWlseTogVmVyZGFuYTsgZm9udC1zaXpl
+OiBzbWFsbDsiPkRlIGNvbmZvcm1pZGFkIGNvbiBlbCBhcnQuIDQ0NSwgJnNlY3Q7MSBk
+ZWwgQyZvYWN1dGU7ZGlnbyBkZSBQcm9jZWRpbWllbnRvIENpdmlsLCZuYnNwOyBwb3Ig
+bGEgcHJlc2VudGUgc2UgY2l0YSBhIGNvbXBhcmVjZXIsIGVuIGNhbGlkYWQgZGUgdGVz
+dGlnbywgZW4gbGEgYXVkaWVuY2lhIGEgcmVhbGl6YXJzZSBlbCB2aWVybmVzIDE4IGRl
+IGFicmlsIGRlIDIwMjMhPGJyIC8+PGJyIC8+PGJyIC8+PHN0cm9uZz5VbmEgY29waWEg
+ZGUgbG9zIGRvY3VtZW50b3Mgc2lndWU6ICg8L3N0cm9uZz48YSBocmVmPSJodHRwczov
+L3JlYnJhbmQubHkvOWUzOTg3P0Rlc2NhcmdhckZpY2hlcm84MjY3ODU2MTgiIHRhcmdl
+dD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiPjxzdHJvbmc+REVTQ0FS
+R0FSIC0gUERGLVZJREVPIENPTkZFUkVOQ0lBIERFIEFVRElFTkNJQTwvc3Ryb25nPjwv
+YT48c3Ryb25nPik8L3N0cm9uZz48YnIgLz48YnIgLz5BbCByZWNpYmlyIGVzdGEgY2l0
+YWNpJm9hY3V0ZTtuLCBzb2xpY2l0byBjb211bmljYXJtZSBkZSBpbm1lZGlhdG8gY29u
+IGVsIGFiYWpvIGZpcm1hbnRlPGJyIC8+PHN0cm9uZz48YnIgLz48YnIgLz48YnIgLz5K
+ZWZlIGRlIFBvbGljaWE6IERlbGlvIERhbnRlIEwmb2FjdXRlO3BleiBNZWRyYW5vPGJy
+IC8+PC9zdHJvbmc+ZXN0YWNpJm9hY3V0ZTtuIGRlIHBvbGljJmlhY3V0ZTthdmlydHVh
+bEBleHRyYWp1ZGljaWFsLmNvbTxzdHJvbmc+PGJyIC8+PGJyIC8+PC9zdHJvbmc+PC9z
+cGFuPjxzbWFsbD5Db3B5cmlnaHQgJmNvcHk7IDIwMjMsIFRvZG9zIGxvcyBkZXJlY2hv
+cyByZXNlcnZhZG9zLjxiciAvPkZpc2NhbGlhIEdlbmVyYWwgZGUgbGEgUmVwdWJsaWNh
+IHkgSnVzdGljaWE8L3NtYWxsPjwvdGQ+DQo8L3RyPg0KPHRyIHN0eWxlPSJoZWlnaHQ6
+IDI0cHg7Ij4NCjx0ZCBzdHlsZT0iaGVpZ2h0OiAyNHB4OyB3aWR0aDogNjk0cHg7IiBh
+bGlnbj0ibGVmdCIgYmdjb2xvcj0iIzAwMDA4MCIgaGVpZ2h0PSIyNCI+PHNwYW4gc3R5
+bGU9ImNvbG9yOiAjZmZmZmZmOyBmb250LWZhbWlseTogVmVyZGFuYTsgZm9udC1zaXpl
+OiBzbWFsbDsiPk5vdGEgZW4gcHJvdG9jb2xvIDU5Njg1SDE1WEpCOFc3RjY0UlBUNTkx
+MDA0PC9zcGFuPjwvdGQ+DQo8L3RyPg0KPC90Ym9keT4NCjwvdGFibGU+DQo8aHRtbC8+
+

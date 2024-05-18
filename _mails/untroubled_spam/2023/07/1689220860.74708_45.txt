@@ -1,0 +1,307 @@
+Return-Path: <>
+Received: by 2002:a05:6022:a302:b0:43:1745:cd46 with SMTP id OZmmfXDnMOUQqLUK;
+        Mon, 10 Jul 2023 06:39:09 -0700 (PDT)
+X-Google-Smtp-Source: APBJJlEye8KVObUVtiuAx2KagNbaHaK9JFqDgZ3Qv5SQCrRYXlB1z4HtjU06gcNGUUxVZ+y99xpI
+X-Received: by 2002:a25:e7d2:0:b0:c42:2b05:17a6 with SMTP id e201-20020a25e7d2000000b00c422b0517a6mr11958733ybh.5.1688996349522;
+        Mon, 10 Jul 2023 06:39:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1688996349; cv=none;
+        d=google.com; s=arc-20160816;
+        b=WlbBWvx8O22W77orUkjU/8VoofrQnf7ZGzMlvvpiF+9I9tnEaGN7gIvTuRJ32Nn6Y5
+         YxBu0tMzOvn806QiCD/NaCFz2kuNQ3EZ0smRvXUVA7/FflKlwgDut/GzxA+kT6wpvU7l
+         7aH12cm/R18U4WBE4k3i3Mo/+7hYVkAGRC3RHkJ5fUvy7nEjM2kAcCoo8CWumMrgB1Su
+         tdVEgobUw51QuEequfpw6uHHoH+gz8LwdHY8m/8K/Pwa92IVJfHICwNnQIDwJ8Zbf48U
+         3P1LaWmqow7plbeP7tIwR+PXTizLpSXUaP1S4bQuPY+ExKuJrT0mMuzQDrMcHti4jYEt
+         OINQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:references:in-reply-to:message-id:to:from:date
+         :dkim-signature;
+        bh=NCduES152NNqpLO+2Ep08tJj7ZL5joOWGbyBkrbHryE=;
+        fh=L8Cjpnf7WAnb36w845cXirL8nff2NdMyffZDlRztYgA=;
+        b=Mg9kHmr0gVVqhnR7rjIQhJAOxCPVMwIZ5eRaVp6U5hVn367g29agQ+28mOqpqdW5Je
+         gkNEYIy5kC9IXawdEAJvgfs4lCdPReG03QhkVqJ4qp2ssG8Dy2hgwaepsQPkhTPlTRzr
+         PZyeYhmu4c+VazqbO88oAtpE4RsMi/kkFVzEPpFBPhwFGVazBRIDUKJQGc1/N1hNVnXt
+         TYeukBF72TLQXfH2eJNIQoPLnKTfJnSzwwjxJ53g73usgzz/jJYnTXzGWgzk19+RWbgk
+         8vvggcJKybYT64GCR9wDnfanqsqvRkSscO0sNmT4Ie9Ks48Zu/qdiBvFKKAlBWSaWMBP
+         gBvQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=uxRqPwq8;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Return-Path: <bruce@untroubled.org>
+Received: from sonic312-23.consmr.mail.ne1.yahoo.com (sonic312-23.consmr.mail.ne1.yahoo.com. [66.163.191.204])
+        by mx.google.com with ESMTPS id 64-20020a250143000000b00bee20e606cfsi4134311ybb.661.2023.07.10.06.39.09
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 10 Jul 2023 06:39:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) client-ip=66.163.191.204;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=uxRqPwq8;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.191.204 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1688996348; bh=NCduES152NNqpLO+2Ep08tJj7ZL5joOWGbyBkrbHryE=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=uxRqPwq8KNT/ia+XIYS41ExVtNlBUXL2r7isT/3Y3qif2zai2RA47mt01l6u0Qrrxg7s4d7MlYa6dZT/tHQnZNRR4z2Grvy6ccPEaYuO2KbqDOXuEnO80dh6qrqDxNJyv5aloV7xSCWbaF13vLNqZ6eBk7QAJqFI2hMK1IaXlMNc+Mpmo42y3tHNewF3ApL+pp7T/2RH8j1fDhrogLpUs8DYhZ4eQGIPQ6ah6EzjqzQTrY/V6J/vagyoHj8+VJoRQ66t1d64DCbj+/JnsUKBg0DKNNg3noq9d9jQmzkgGhs2PmyFjDe4xdRIOIK71owOcXMK0c+GszRxoa53NnHVEw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1688996348; bh=m+QSg6SrGDbGKac43z8cZlcEclCHdSm9hQ+wVDSV31T=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=BG9UWrBZNr7CTSG5H5IllsJBpQMaljlE61dgqjuyHKnaOVwwp2qYKLPwcmR3u5GgYd4abkF4Y0ERgWmZpRrCXZRa69p4ajrhlaY5KeBaFbcsTUFMEbv+c9ptPca7HJBds9euXaPJPX5JP5PDMY6q5u/2nNASImCxY+hIzbOzcXXuOwVROsqECFkPjWMZq+ZuWJAPPeJ98tQAW1DbjVwMoYbCzksJWDFTwzakwh5PTZ6pNChxFJmw1vznA5g2NkCyMBBd3vrfreoQT5diIEbnoxBQFaQEDyIdDgeSnFOBeyBeUB5nfQqeoYyctRUEQBJLx1k7zccavlMWPZhESZassg==
+X-YMail-OSG: NWdEEq8VM1l77d0mBgwGq4VD0CnCVKOoX6E9Q.4BbY9jaFcieXv0rwjH9S7zY5l Qzricl1Y2Fwkv_gaj61SN5FKWdbKHGlayfg1NZLv2W2sKu2GHkowb6Ztv4X8PNiztTJKvcdT3U.4 fczHUiIpyFqlBR2j.km4LzNAptBmR9PV3dmqyRiHL54k30kqeRtMteTZCNM2nIXSHN2RiwpUOGYy SUhlzSQL40nXsLDm2hqRnvrwBuP.dzLQ.i10gbaBRMiuNqihgR_vgW29FOF_otCqZ6QIFFmDtMIi Rr2Ony84XzyZWM4Rxxu98kF.YtwPRcq.YyT8EYP5kC5O6VIpzoOPx8g2AA01AXntrFbkdpM7XGcN tD0K19mN1fojO9VD9HyosX4JUGQt5yKDftxxIUVZAaub15NXHNJeaQ6Xy7He9FMRl.BloUHCDQ8f AU.IDeAtqJTfs9PmH3bN8mMv8CP9x6oJ.xHYcR4LI6mWuOpEhkCSWlF7.IDnsoQ8rnFv.wZl13Dw azPrrp3iyf2AOJ2kBcq34nqhs5jyoRg1ZORJYqvJkfq9ksanbZ5Dyjg9TisZwA_UZFgx082Jx3id AsigGdp9TMAHt8LFEiP2uISG1AL0YZG_f4VRixrHZGbxRQ2vrkxSbAWNbL38ezjJpxsqYPOxool5 lCixDQL7488b867mBiF6bfthTnKLsblw1tstunu92hcS99qjv8cSVOj8qS0C.oo3Bfpr5ty6Hf94 da1gBBpbak.vfY0gEgw2K71O_X3xviBtWT3y0.tk1vu6paKUdh2bRltxBhxkfQxcfXb9M0yyhm6G VXuMbdhGzUtzWRTzst.SQV5sfWPeUID6tUe8rkykzhz1iVP7jGj7tP1Io1UEvwkwfMmxwcozsflP eiXq9mN88g3uVhKdJ0UyKynj4P.SUKiWPvjSQ4Su_CvBXzNTrw1RWNTc8bQpTa_J.iAbbu4jduLI GNXHzo2zyUIieGO9Sq4buEZFkZTuM3MqnCsFPIDwuOx3eC4WQ3VclyLyDDrkwj00awzluFyxFnlE JodLRwWt4nnUvPFpX7BiLktDsH97URLCXeZjh4MyNv20vzQpnGjWfQRkopxC8e9y4mt9sokDaF6i W5JdaXFLZila6GG7DoiCzjgxTSDa5swORQTzUUynJKbVQcJMXTuhwrwnjRiO.FR99JB1S6NeKiDL X4ZTgFmqZIGs3IfTM2.eA56qwXCu.WK.CbliMMbII6FoNF41Zdd97TurJFnTX.gHa51NrOxQ35qp fUmCuGQK2sOJadS70_mStCS.Gpqp1M6P9Vi1u.5CstFtUmfq1J8oo0LpXIVJ_6KzS_l7YLBczLfd LKg5RGiVFptyHRFkrJowWmyIwZDI3suodT9oKrzrXcv8RNtEGhl7FgBPYGY16dCPDtqRXOwiiA63 9tqVKcN_jGS6g_OfENNjsK3GUmf.tXgPypQ3kE3KHds1eMQvb2cDGFki10t1g5xR0Iyr_fFYv4vj _xt000MX_r6w1R3N1UgbJc4pjtXFw8WGwVjSXPYG6OA83Lx0nI.xZ7TMWRkx3QMIplUqFCQnOfV7 CKG5nuVXR0zhQHLmkqtkA.7YlQ9TWj9_6RPZ07yJrGjCqU_k3MIyiJ1vzYCgHFQkgpWOxKBzdQR6 EaNMB0rSQXoV8YTqJF.yBRXp1aeCAZWWpR0Ac01YwJcPm6V7sbAvu4r04Q_X7jpx3rh6pc81lDrl du3q1fm0fOGA11I5PQUMPkq7Btp6m_5ARJtEN237Vy_ZAmTmIqLSSkljnOu4kwjs.mHiUKX9QMhm ABEu.OAQwEkJlAQ.rA.zLmRh6V3DhwOY00PYB84e4WxfhKgTtSAv_MRbmCHzrx7h35NZD9BI9Db8 qDb_O8EaPs14OBpwQuydkcZH_fIp636Ay5OW4c8HuOrVeKrDZCki6FEoM6Exd6tqEel_W5iA5ELB DCDt2FH8aabqbWLx1p1M32vfVJpggYEnOcLuaY39EiHuzz0HubnyA04hk_XDCx49pO9e10Wkj4JY BcTTzm2aamgHXU9d.isy5Vdcd0qQPTErzSezB2yqfA.dCWpEtuSLFc391LKcitkXXBzWsM.bndki ar3Nzp5kAx5v4hhSUXAuCSjUM4RYHt_58Sde7fUYjUYYg77IHY6Bd8TgrYrKcSK.4Rhf6sNuvcwG FMNmu3Dc_k6JNBRgPfj800MiZaefhEdHgTtUf5BGpZL4OBEyMkI0-
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-ID: 29b3b379-7ff0-45c6-b982-889c1a5f2f8a
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.ne1.yahoo.com with HTTP; Mon, 10 Jul 2023 13:39:08 +0000
+Date: Wed, 12 Jul 2023 19:40:57 +0200
+From: Rewɑɾds🤳 <bruce@untroubled.org>
+To: Rewɑɾds🤳 <bruce@untroubled.org>
+Message-ID: <1083281999.8533116.7373653013114@geopod-ismtpd-13>
+In-Reply-To: <wnBjSzP9BbFgLMbZ9tRs5tePicPMj-VIw4=hTsW2i278XVsgPxq@mail.gmail.com>
+References: <332304714.8533116.7373653013114.ref@mail.yahoo.com> <332304714.8533116.7373653013114@mail.yahoo.com> <wnBjSzP9BbFgLMbZ9tRs5tePicPMj-VIw4=hTsW2i278XVsgPxq@mail.gmail.com>
+Subject: Receive Exclusive Items Fnɑme!✌🌹
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21638 AolMailNorrin
+Content-Length: 6142
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Survey</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Georgia, Verdana, "Arial", sans-serif;
+ color: #00004D;
+ }
+ .logo-wrap {
+ height: 60px;
+ margin-top: 45px;
+ margin-bottom: 30px;
+ }
+ .logo {
+ max-width: 200px;
+ max-height: 60px;
+ }
+ .take{
+ font-family: Verdana, Arial;
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 12px;
+ letter-spacing: 1px;
+ background-color: #B50000;
+ display: inline-block;
+ padding: 8px;
+ min-width: 170px;
+ }
+ .july {
+ color: #fff;
+ margin-top: 20px;
+ font-size: 32px;
+ text-transform: uppercase;
+ padding: 0px;
+ }
+ .marketing{
+ font-size: 36px;
+ color: #fff;
+ font-weight: bold;
+ text-transform: uppercase;
+ padding: 0px;
+ }
+ .survey {
+ font-size: 56px;
+ text-transform: uppercase;
+ font-weight: bold;
+ color: #fff;
+ line-height: 1;
+ }
+ .recieve {
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 70px;
+ padding: 0px;
+ }
+ .reward{
+ font-size: 54px;
+ line-height: .7;
+ }
+ .star-icon {
+ width: 50px;
+ vertical-align: middle;
+ }
+ .big {
+ font-size: 100px;
+ font-weight: bold;
+ }
+ .promo{
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 3px;
+ margin-top: 10px;
+ }
+ .cta {
+ display: inline-block;
+ min-width: 380px;
+ max-width: 90%;
+ background: #d7131d;
+ padding: 16px;
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #fff;
+ margin-top: 15px;
+ }
+ .cta-icon {
+ width: 34px;
+ }
+ .feature-img {
+ width: 80%;
+ margin: 40px 0px;
+ }
+ .feature-para {
+ max-width: 70%;
+ font-size: 13px;
+ margin-bottom: 35px;
+ font-family: Verdana, "Arial", sans-serif;
+ }
+ .bg-wrap{background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;}
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .logo-wrap {
+ margin-top: 20px;
+ margin-bottom: 10px;
+ }
+ .logo {
+ max-width: 180px;
+ max-height: 50px;
+ }
+ .take {
+ font-size: 11px;
+ padding: 8px;
+ min-width: 150px;
+ }
+ .july {
+ margin-top: 15px;
+ font-size: 19px;
+ }
+ .marketing {
+ font-size: 24px;
+ }
+ .survey {
+ font-size: 38px;
+ } 
+ .recieve {
+ font-size: 16px;
+ margin-top: 40px;
+ }
+ .reward {
+ font-size: 44px;
+ }
+ .star-icon {
+ width: 40px;
+ vertical-align: middle;
+ }
+ .big {
+ font-size: 76px;
+ }
+ .promo {
+ font-size: 18px;
+ }
+ .cta {
+ min-width: 280px;
+ font-size: 22px;
+ margin-top: 10px;
+ } 
+ .cta-icon {
+ width: 27px;
+ } 
+ .feature-img {
+ width: 90%;
+ margin: 20px 0px;
+ }
+ .feature-para {
+ max-width: 90%;
+ font-size: 11px;
+ margin-bottom: 20px;
+ }
+ .bg-wrap{background-repeat:no-repeat;background-size: 110%;-webkit-text-size-adjust: 110%;background-position: top center;}
+ }
+ </style>
+ </head>
+ <body style="background-color: #f5f5f5;padding-top:30px;">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table width="550" class="section header" align="center">
+ <tbody>
+
+ <tr>
+ <td align="center" bgcolor="#d2d2d2" data="image_bg" background="https://pbs.twimg.com/media/F0rkXdwWIAEFjkj?format=jpg&name=large" class="bg-wrap">
+ <div class="logo-wrap">
+ <img border="0" src="https://pbs.twimg.com/media/F0sicM8WYAAA_HD?format=png&name=small" alt="logo" class="logo"/>
+ </div>
+ <p class="take">TAKE PART IN OUR</p>
+ <p class="july">4th <strong>of July</strong></p>
+ <p class="marketing">Marketing</p>
+ <p class="survey">Survey</p>
+ <p class="recieve">And receive an incredible</p>
+ <p class="reward"><img border="0" border="0" alt="image" src="https://pbs.twimg.com/media/F0rk-f5XoAEjVrv?format=png&name=240x240" class="star-icon"> $<span class="big">90</span> <img border="0" border="0" alt="image" src="https://pbs.twimg.com/media/F0rk-f5XoAEjVrv?format=png&name=240x240" class="star-icon"></p>
+ <p class="promo">PROMO REWARD</p>
+ 
+ <a href="	https://storage.googleapis.com/9e3edabc513515d03671/38af2b66a642c4033f51#dDhnWkZGTGIyUTVqTHlyNEpQdVdYN3Urc3BDWjJtZjZYVmtHUXpTR2JEMkxoQWRYK2Mwek8rZ1hOd1lvdnN4RHhqUEhQaVFKLzVrdlEwTzhDTjc0WSsyQ3AzdC9yeXlYWWQwcEhIL2Z6eHlScVdWN3lEQWY5L3M3aWVXV0g1L0E_" class="cta">GET STARTED, It's FREE<img border="0" alt="image" src="https://pbs.twimg.com/media/F0rlUNlWwAAKYBM?format=png&name=900x900" class="cta-icon"></a>
+ <img border="0" alt="image" src="https://pbs.twimg.com/media/F0rlUNlWwAAKYBM?format=png&name=900x900" class="feature-img">
+ <p class="feature-para">Tell us about your experience and we Will offer you an exclusive offer worth <strong>$90 or more.</strong></p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+    If you no longer wish to receive these emails, you may unsubscribe by&nbsp;<a href="	https://storage.googleapis.com/9e3edabc513515d03671/38af2b66a642c4033f51#Skx2NkQ5ODVRWktJUDlFLzB4K0ZGUTd1cEVPYVVIaUJzYWpueFVPb0Z6VzVSU09MTjd6UnpKUFp1MDFyaDFlSVhEUFk3QUdHcjFxZ3kxWXJQV0o3Z2QxenNkREZINlJFUVo2WVZTSFMxTEhUQ2ZtV2tpK2NFWW5vMGx0akpBQVc_">
+   </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="	https://storage.googleapis.com/9e3edabc513515d03671/38af2b66a642c4033f51#TVRGN2dPai92SE9OdkdpVHdqdFBNRDBkcXRPb3JvUzN4eS9tSHNRanlCV0F1S0tOTU5DS0RHNEphUm9QMDRsNDdtcjRMcVJTNWZwNHVVMVNNRTZKMGVzaVBDcURzRHlmbEhIWGhpVkFuU2hDekRSa1lGdFc4Qk1Rclk5aGtZYjI_">here</a> to remove yourself from our emails list</span><br/><br/>

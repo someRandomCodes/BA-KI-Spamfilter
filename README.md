@@ -1,24 +1,73 @@
+
 # Bachelorarbeit: Thomas Guede Stork
 
-## Struktur des Projekts
+Dieses Repository enthält den Code und die Dokumentation für die Bachelorarbeit von Thomas Guede Stork. Im Folgenden wird die Struktur des Projekts erläutert und Anweisungen zur Verwendung der enthaltenen Skripte gegeben.
 
-Dieser Code wurde für die Bachelorarbeit von Thomas Guede Stork entwickelt. Im Repository finden sich verschiedene Skripte und Verzeichnisse, die für die Sortierung und Verarbeitung von E-Mail-Daten verwendet werden.
+## Projektstruktur
 
 ### Wichtige Dateien und Verzeichnisse
 
 - `__mails`: Enthält alle E-Mail-Daten.
 - `email_processing_and_saving.py`: Skript zur Sortierung der E-Mails in entsprechende Ordner.
-- `__mails_cleaned_new`, `__mails_cleaned_new_testdata`, `__mails_new`, `__mails_new_testdata`, `__mails_new_db`: Verzeichnisse mit sortierten E-Mails. "cleaned" beinhaltet nur Subjekt und Body der E-Mails. "testdata" enthält Validierungsdaten mit je 4.906 E-Mails klassifiziert als Spam oder Ham.
+- `__mails_cleaned_new`, `__mails_cleaned_new_testdata`, `__mails_new`, `__mails_new_testdata`, `__mails_new_db`: Verzeichnisse mit sortierten E-Mails.
+  - "cleaned" beinhaltet nur Subjekt und Body der E-Mails.
+  - "testdata" enthält Validierungsdaten mit je 4.906 E-Mails klassifiziert als Spam oder Ham.
 
 ### Modell-Training
 
-- `NaiveBayes_twoModelsPlot.py`: Trainiert das Naive Bayes Modell. Wichtig: Pfade in den Zeilen 238 und 288 anpassen.
+- `NaiveBayes_twoModelsPlot.py`: Trainiert das Naive Bayes Modell.
+  - Wichtig: Pfade in den Zeilen 238 und 288 anpassen.
 - `NaiveBayes_twoModelPlot_v2.py`: Naive Bayes Modell mit angepassten Hyperparametern.
-- `tensorflow_way_load-batched_optuna.py`: Neuronales Netzwerk-Modell mit Tensorflow.
+- `tensorflow_way_load-batched_optuna.py`: Neuronales Netzwerk-Modell mit TensorFlow.
 
 ### Tools
 
 - **Optuna Dashboard**: Start mit `optuna-dashboard sqlite:///Model_NN_bateched_full_Ergebnisse/_optuna_studies/BatchedEmails.db`
-- **TensorBoard**: Befehl muss noch ergänzt werden.
+- **TensorBoard**: Befehl zur Ausführung muss noch ergänzt werden.
 
-> **Hinweis**: Tools müssen installiert sein, bevor sie genutzt werden können.
+> **Hinweis**: Diese Tools müssen installiert sein, bevor sie genutzt werden können.
+
+# Rspamd Docker Setup
+
+## Einleitung
+
+Dieser Abschnitt beschreibt die Einrichtung und Nutzung von Rspamd innerhalb eines Docker Containers.
+
+## Voraussetzungen
+
+- Docker muss installiert sein.
+- Docker Compose ist erforderlich.
+
+## Starten von Rspamd
+
+1. Öffne das Terminal und navigiere zum Ordner `./rspamd`.
+2. Führe den folgenden Befehl aus, um Rspamd in einem Docker Container zu starten:
+   ```sh
+   docker-compose up -d
+   ```
+3. Die Weboberfläche ist nun unter `localhost:11334` erreichbar.
+
+## Passwort einrichten
+
+Nach dem Starten des Containers kann das Passwort mit folgenden Befehlen gesetzt werden:
+```sh
+docker exec -ti -u root rspamd bash -c 'echo password="rspamadm pw -q -p YOUR_PASSWORD" > /etc/rspamd/local.d/worker-controller.inc'
+docker exec -ti -u root rspamd bash -c "kill -HUP 1"
+```
+Ersetze `YOUR_PASSWORD` durch das gewünschte Passwort.
+
+## Bayes Filter und Redis
+
+1. Stelle sicher, dass Redis installiert und verbunden ist.
+2. Führe den Config-Wizard aus:
+   ```sh
+   docker exec -ti -u root rspamd bash
+   rspamadm configwizard
+   ```
+   Folge den Anweisungen, um Redis einzurichten.
+
+## Training und Testen
+
+- Führe `email_processing_and_saving.py` aus, um die benötigten Ordner zu erstellen (falls dies nicht schon geschehen ist).
+- Zum Trainieren des Modells: `rspamd_train_emails.py`.
+- Zum Testen der Leistung von Rspamd: `rspamd_check_emails.py`.

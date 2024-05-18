@@ -1,0 +1,174 @@
+Return-Path: <rcsloanfinance020@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 377044 invoked from network); 13 Jan 2023 07:29:33 -0000
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com
+ (mail-db3eur04olkn2075.outbound.protection.outlook.com [40.92.74.75])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 13 Jan 2023 07:29:33 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=YK16sml5DGjOG8p+CCTW5iXWNAc8oIwvWKm6mY7ERMc=;
+ b=o+nZl3cu5XZXFOeCe/8uibNGGBxVJJdjAwiTvAbw2RzCM1AtWfLSCKxLbtVkLfOD7U+9Q+tYMgXmJuKs6gjk8+pZQLIArN/5pN0LBhGW3pqHpWfcB7BKCMHcB9atCwo44dPz/MOSVS7jkzvrXtefIlQyOOK108HbOMFyy0o846Lh6mNXo7NBF6wCXWpQl0vUpYf7bqMlYz3/FUWKkWDFzO/s53g2SXIsz3pKmVeJz3wfj9omSI4+auCsMnEAUmPEvG6sgvnuyLs/G3W7IDaJZXRsw008332CLO2axAjncOXsL2A7Nk8n+1Syx6AM8dbfTsLVWgsJuQ0OEnxqZcwEuw==
+Received: from AS8P193MB1941.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:3f4::24)
+ by AM0P193MB0721.EURP193.PROD.OUTLOOK.COM (2603:10a6:20b:163::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6002.12; Fri, 13 Jan
+ 2023 07:29:28 +0000
+Received: from AS8P193MB1941.EURP193.PROD.OUTLOOK.COM
+ ([fe80::7ddd:c98d:dad7:1577]) by AS8P193MB1941.EURP193.PROD.OUTLOOK.COM
+ ([fe80::7ddd:c98d:dad7:1577%4]) with mapi id 15.20.6002.012; Fri, 13 Jan 2023
+ 07:29:28 +0000
+From: Rcsloan Finance <rcsloanfinance020@outlook.com>
+Subject: SPECIAL LOAN OFFER 
+Thread-Topic: SPECIAL LOAN OFFER 
+Thread-Index: AQHZDqV8UoEI3RmMRUuUuweohpkwGw==
+Date: Fri, 13 Jan 2023 07:29:27 +0000
+Message-ID: <f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c90570ef175b3ce5a4385c2f5a4ea5a8bb893d938013ff0eee7a675caf4d56a02bb51004c90817a2c484e1a1c44059a8853f40f662d0e91475817be51246de97b723c58ddf6812f4d3c65392a74d429a6fd08a3a9d8b240e7f1ad3144b4f658d816f065d9e1b05AS8P193MB1941220EEED17E8418219CC8E8E39@AS8P193MB1941.EURP193.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-ms-publictraffictype: Email
+msip_labels: 
+arc-seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bGYeZRYvH7Nf39r+P+/YmslGRV8Njb5lzJmSWboLRs+QSeiI2gVw+Vc/heZR5XBWMP6Pbs7QQD0VnOQpPcsi1uoR/FMa9ACT7c2vLfHTHdGc1DnXjF8w74IftGhQZgRjvA5W70SHd9UMav2hBpCu4dIXx/+WfJ9z3IB349h7Xuz/ffcrf3mmPndgZzHeaJtix+le7X+wT0vFF7qhpahqCUUuxamWHLUa7RBIOh0t+fPpwj7dxwGEFdj0xw/vOEIHyYr3kpoensSTmTyeTNHcfBx71FvAHFTbOt6A3PNMkREjGPJ7GR4iQx6KU8MjuJoWJE2EELsRA/jNEutbCUvpKQ==
+arc-message-signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=qEUC+WYiSkhfrwaLKyv1hAmfwKGubOTzs9AAcb031zM=;
+ b=IBZMQvVIeKIgO90+vxMac+dYrtwIUBQI5o5Pb9y2xV50X0sVNCFzQBYLsEqyjYQH9xtBsdzQfRCdu+ggaJ0IaFiyNcXahYJ2ZLXTmd7pV12B/Y3WXxctK8GokYwYRSdnQv7Ks/2sxnU/DclBxCOXV0jM3QbCwOR+Thnngn0Oidwk+tixwYkljkZ6GwiTNCh3uXhWPY8PsGIIsom7Vb22sovqObtoja7yZQtVNMYygJS7zYQcOLSiHUYw7bWrstFQCywkp3QWAtLteaKwpAcNH0SzRetZ4vFqbtpDdH7JjjqUfk/8JKyrJkIetap2RNIyJKb1i+sv4pctr6LlV+GJew==
+arc-authentication-results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=qEUC+WYiSkhfrwaLKyv1hAmfwKGubOTzs9AAcb031zM=;
+ b=MP4twEsxWE/a3i9ZZtN8XMzUsYY1hFmWB6aKoKeZsyQQjHiahDCdvb/0fkwVXg4enWNYzY+T3dBkZ5kLzBww4J38CAaBCurTIcKR1qVZc1EDJqmKkB8ynWmozq9as89U1IRWT9t8hehUX/pIcZwP4t9nEB95qYwf80zH3ychwtWBwGBiRphi72XXUsTzL8eDK+L2TnnkLwabG1gr2n07Fzzttdnm5NoA3kf9jeF2syyvw5nAA0E2TTYU8tLwvVBwrKKyEd/Nx/o11eYZwJDotz0E9+AQHPiLX7f5Is0UIDr/OksvRZ9giY11ieNc3apajN8AhF1VCJBsHnL6wAQylw==
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [IFVuK8BTQRmPOiJD35RIJKeZUXuCt0Vy]
+x-ms-office365-filtering-correlation-id: 4ec40e2c-4bb3-4c45-44b2-08daf537e74d
+x-ms-exchange-slblob-mailprops: RQ2ERrVhQzgzHWSmAOcyM2wgoBuItPBkrgEHcG3UsiyOaR08znJAbJFsoMx1uDwGBA7x9v+YWtmYiM+Hg5ZlyqArDEF82A+OqYKqHpX6ayoqSOdl6sCjzmyKm0oOTMLAJEAO6abJlanPLvjCw42Z22iErWsqRHTYkb2bTRsFi16pGh30GDjDe+3Vg3K9L72pp9CbY/8oOzCs82j2zHG4MzpQIOqAzMZ0nqAaJpq3c9IELpY5tBEdus/uT+7yxeiLjasjwWRHl8ZCIaxhqCA2ymZLQpli1rLWbIiBNp0BVbK2E3V9zEYdGrTVpsYmUsVAG5fS9kyqd/S8tVF5daXtkcXbTCzM3C/xQQtb8Dtc/aKSKhm8lgv+XL6lwjKj17NWuFdArDdg26B9y5eZ1XwcDK+cJ99T6F7Wv58tpaHm9n6SmzMbq9ACwS5fjUaK9Lp+pgasBrll3LHGwFJUjRM1ecf5cecvnTB6qE3/t54zrCTUjki/ngwVO9R9sXp6rMrAZYLZaKX1gGHkf16GKA4X0jtxIb0as4EHWMutb+9PfCeK7OMFUf+RlMMMlAjEDMmHEIk1shZZXHnStEckR7BuQ+2ppr72H3aSSEML9BT6UVz5vDYFcWvPYg==
+x-ms-traffictypediagnostic: AS8P193MB1941:EE_|AM0P193MB0707:EE_|AM8P193MB0948:EE_|DU2P193MB2241:EE_|VI1P193MB0718:EE_|DBAP193MB0795:EE_|PR3P193MB0878:EE_|AM9P193MB1015:EE_|AS8P193MB1941:EE_|AM8P193MB0931:EE_|AS8P193MB1941:EE_|AM8P193MB0993:EE_|AS8P193MB1941:EE_|DU2P193MB2163:EE_|AS8P193MB1941:EE_|AM8P193MB1009:EE_|AS8P193MB1941:EE_|DBAP193MB0857:EE_|AS8P193MB1941:EE_|DBAP193MB0796:EE_|AS8P193MB1941:EE_|AS8P193MB2063:EE_|AS8P193MB1941:EE_|AM0P193MB0721:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: YeJpSyv1Panrx58UNrc4yx+w8i+fKvzpV+bnXJB1MnITQkNEDih54aRa77ZniPQgUWr+FYCsk+rDMmMF1wlUo1FdU//9KgzG8oYrE8m8jjTmDNXM/EnDBhRZ8Ej59V82ZYZk3R1v67yFT28/wlW5ErMvgm/BTppgJ+VF6JJSHQv5jnxmsI0ITgrc9eDrjCtrrOiVcMhTYJcCcoXoU/N6K9nMYLOsuMjlW8gaU6ewX80WRkiYUtfVLPUC8pOLxMNJXbdsaSDSIOfzyLfyBwPedBmjGGbt2ZZlBbKVfxmAHfDbUnGYrVbbofJZzJbuNgRJyvxIzfgIK7LJowBFoSR2hEVeaqAQKSyl1goR6NWt9rEYUdsxwbixDUFQKmakVfMw33bahf0328RuARIKIIIsbwurMXatXaRHlg+hqfyn84BkYIK2SHLM6c8wul0Ni1qhWSNjeQge51mIeO14SWFTvQkQ/dU0qFfcPjK+p3is87x/2ieOTi1bzb8rqz9KImf2bxtCsfxrXGHHIvfrRMF3w8UOm1BAoXZM1+sLrPHUoPM=
+x-ms-exchange-crosstenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+x-ms-exchange-crosstenant-network-message-id: a93c8f5a-0324-4e57-7faa-08daf3ad1d23
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Jan 2023 08:23:26.9948 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+x-ms-exchange-transport-crosstenantheadersstamped: AS8P193MB2063
+x-ms-office365-filtering-correlation-id-prvs: a93c8f5a-0324-4e57-7faa-08daf3ad1d23
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-crosstenant-authsource: AS8P193MB1941.EURP193.PROD.OUTLOOK.COM
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?iso-8859-1?Q?hPN4RKVo5xy03lU8jw06a60JcxOX0o9wseyHQonc81mzDGCordjhA7QBJB?=
+ =?iso-8859-1?Q?aYOqPlnEEX5NYSUC1Va/UBRiIdCqJ2+iuIyOU6KVf35ETUukeHg3s7xUt5?=
+ =?iso-8859-1?Q?D/yQtKBXJjmMxudVd9SN9cacmfzjo7YYcA3xxMNh8g67UU0rkVuuOnFkTh?=
+ =?iso-8859-1?Q?gzNmTP6xMorpmzhyO7qvudft7QUkqSrrfSyCNh9WMY1MXPY4BSqM/oKXaX?=
+ =?iso-8859-1?Q?T9Au9xBJoci7zYLx9L/kvkSB9rsmXlD+IP+OVFZgVVeW+LOHSaw8GdlRPH?=
+ =?iso-8859-1?Q?E3IIY/q/EwmssrhKxefmB6V/aaUESCfRUQ3nEVVmDu2KVqQXtKOUrPeWvZ?=
+ =?iso-8859-1?Q?nyiPKtHj1iRPYkh0fADauedi/Zc7X8SLCUzVekxMJC7Zus3FGUrN+DQHdY?=
+ =?iso-8859-1?Q?n0WdlFkGgLi+pe5wQ1NCg/t5z14c9qpFfuBKrb0wHU5oW5xhAI4rvjuRcF?=
+ =?iso-8859-1?Q?RZpzgQKZW9nnFOBs+yz6sa/+9de22s9Ipc1DRWZYfutBI0EgGgI83QoXw8?=
+ =?iso-8859-1?Q?TqqNqyi1TrSI3akY2fVjKOrai6u6KIQQKtXtb1WHkAONjqKW59FMXdeV0A?=
+ =?iso-8859-1?Q?3gcPv7IMreBEWHZ2Wm8T0OHSTM0vKROK8Ua1YqvcZsfptlSx2Xd/No1IBT?=
+ =?iso-8859-1?Q?DXjbTud/Dqy59tludiRcGvGTyu7r9wrYcAPDwQePvBxLSQWZO7HfTEHX8D?=
+ =?iso-8859-1?Q?V8IfZVtNiFznmumJwFcwgaDATaK+hoNKhkyY/UTD8SEUiv7taN/AkJVaPa?=
+ =?iso-8859-1?Q?izrgnAntQNVfl67wbFJnIGH+dcRGG3b2zFzHqGrVgexUXj4RQyMROJlbzy?=
+ =?iso-8859-1?Q?9qW4dYzVIPwDr4wxsEyxmoCxCM3/noyyo+8DbrRe/1Zj0SjvYGUpcJfXdC?=
+ =?iso-8859-1?Q?YxY+qS9+SHYkghF8t6TGhW0HgLLgiwY4Rd2kvHxJ/APBPxzjsdyyT28Qwu?=
+ =?iso-8859-1?Q?o7X0sPjsBuxONRCrmz1id2/mpivP7yNbhqDMekepcpZKNFS73GqNPq/BMr?=
+ =?iso-8859-1?Q?1mK9NG/ZxvhyZpD3+K5hyIRMwaGRS76d9436xi4bp4aDtx1b5X7lDJUXPk?=
+ =?iso-8859-1?Q?OYonPyOvVKGHevG2qkQShg4EG+bF759aFuNiT9DFDAi+wFUi1Qjf6Ycyl1?=
+ =?iso-8859-1?Q?6mmBzBKahYvoMuUZY7rOjeDqhtNxG3neKgHRgcGmPqF58rGrkLE9xNwrzR?=
+ =?iso-8859-1?Q?d9Ea1PGMBMwEkNekAxj/XDqwktV3WNUSRO3zdDnaV0EXoZVGsE3IQHgP5r?=
+ =?iso-8859-1?Q?gecYcKDlVB0dNgPZGGuv8XB1lToi9jfGABejLdvsCkhGP5fxM2FqKLokDC?=
+ =?iso-8859-1?Q?a+/aLslLceCQjcY146chdQWVjw=3D=3D?=
+Content-Type: multipart/mixed;
+	boundary="_004_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AS8P193MB1941.EURP193.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4ec40e2c-4bb3-4c45-44b2-08daf537e74d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Jan 2023 07:29:27.8642
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM0P193MB0721
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 2731
+
+--_004_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_
+Content-Type: multipart/alternative;
+	boundary="_000_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_"
+
+--_000_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+RCS Financial Services is currently offering flexible loans at 5% interest =
+rate
+on home loan, business loan, property loan, Personal loan, investment loan,=
+ debt consolidation loan.
+Kindly find attached flyer for more details on the special loan offer .
+
+Regards
+
+Management Team
+
+
+--_000_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <C7CC449F58E7084A844462A46291F025@EURP193.PROD.OUTLOOK.COM>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof"><span class=3D"elementToProof ContentPasted0"=
+ style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12pt; c=
+olor:rgb(0,0,0); background-color:rgb(255,255,255)">RCS Financial Services =
+is currently offering flexible loans at
+ 5% interest rate </span></div>
+<div class=3D"elementToProof"><span class=3D"elementToProof ContentPasted0"=
+ style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12pt; c=
+olor:rgb(0,0,0); background-color:rgb(255,255,255)">
+<div class=3D"ContentPasted0">on home loan, business loan, property loan, P=
+ersonal loan, investment loan, debt consolidation loan.</div>
+<div class=3D"ContentPasted0">Kindly find attached flyer for more details o=
+n the special loan offer .</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Regards</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Management Team</div>
+<br>
+</span></div>
+</body>
+</html>
+
+--_000_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_--
+
+--_004_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_
+Content-Type: message/external-body; access-type=x-deleted; length=373341
+
+
+Content-Type: application/pdf; name="RCS REPAYMENT SCHEDULE FLYER.pdf"
+Content-Description: RCS REPAYMENT SCHEDULE FLYER.pdf
+Content-Disposition: attachment; filename="RCS REPAYMENT SCHEDULE FLYER.pdf";
+	size=276367; creation-date="Tue, 13 Dec 2022 03:46:57 GMT";
+	modification-date="Fri, 13 Jan 2023 07:29:10 GMT"
+Content-ID: <AF3BF70BF13A3348B3C4E3A60D736111@EURP193.PROD.OUTLOOK.COM>
+Content-Transfer-Encoding: base64
+
+--_004_f65e6628128a44a3bbd363c69d923189a611f36965fd4d7fb2c9057_--

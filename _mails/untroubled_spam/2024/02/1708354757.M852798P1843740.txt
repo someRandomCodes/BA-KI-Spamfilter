@@ -1,0 +1,202 @@
+Return-Path: <ulric.ortega@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1883808 invoked from network); 19 Feb 2024 12:57:36 -0000
+Received: from mail-lj1-x244.google.com (mail-lj1-x244.google.com [IPv6:2a00:1450:4864:20::244])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 19 Feb 2024 12:57:36 -0000
+Received: by mail-lj1-x244.google.com with SMTP id 38308e7fff4ca-2d23a5a7c18so9240211fa.2
+        for <bruce@untroubled.org>; Mon, 19 Feb 2024 04:57:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1708347454; x=1708952254; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=i8Vzu3zoZCdyxppINSCPoPDhnergjkX2GbFLUyraZAE=;
+        b=zl9xHlPaOuMACWLGY9pL9dxqA1szqQwa3I/KsGoGrXbpajkFpXtmrlYwt7uYfBcqL6
+         oEs/cAxwpWejHQKauMaA8wlKgmGLt6PcoIY8swCLwwWR5AG5Ec4yKldttDovOh44qnAU
+         rZvolEVbPMlCDShxiuLEmDCSlmbCauoqBqALByFnMyki6aAFUXbmZ7WafM3vFYNGXnJV
+         UwB1ATa5qpbKsC5dogxlx2BE4XAMOeWwZMvdH6Awa2batvi++Esc7A7d/OSvRLIHfZ/M
+         2SZahUt2lqQJkge4MAcDBD02LXaRQCPjS20CKjhJlU5xgFx0pXu8hwkpgB32+s86rjM8
+         s6ZQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708347454; x=1708952254;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=i8Vzu3zoZCdyxppINSCPoPDhnergjkX2GbFLUyraZAE=;
+        b=nwB0IR1CdQkVbvUbLCUdC9wcf74ZmzATsUytdGqXSrvsHNmbZgOTimT4Vn5S9YeTyL
+         CniXaGLUAeCh5rn9pdCMVQl1RMQt+iwZ4Kb87U7oKAhvUbgN2IJn1571DotHK4hVYYKn
+         VZTXKA07FIiH9H6hrp6h5s3cdn2Yp/sEovkZV6CWqHzSEB551dhENL7Q6H0jU09okG3U
+         a4ugJ2al1gupRvZMoWQ66ni5NUNOnIfea03OxfIyD2A35mJ5Yh3PJs3bXcViKZMGadYY
+         UqtOaU5rQQ/ToiVuziJd2UyVtygMxtKa2aHcJ5q4ozAYdkkWDuQ99Ph9j0j4+shQJKIA
+         VexA==
+X-Gm-Message-State: AOJu0YzZpYugDu3+e470vAaAvKUkxagOwBwsTUG+shE+zGqFnCFqB2lB
+	UGZCgM6RNp6NwfNCyXqCcoUuB7J5H5j9h6DraKNj5bD6wxMqgFSeayXWbTUFhmhiMMZA3nBowD1
+	ybXRkFVZaMklu2KYZM/CHzcKUJ1wRdao2mR7CL10/vJJa4lJXKLc=
+X-Google-Smtp-Source: AGHT+IF1YqQLxsWk2tpGPAF8qpeMLDwfssvzVStclypanvQMP44fMtd3ZFk+Jg50g9S4y8YV4RVEAhzQhkWDQNwoWRk=
+X-Received: by 2002:a05:651c:1033:b0:2d1:15d0:4711 with SMTP id
+ w19-20020a05651c103300b002d115d04711mr8417090ljm.5.1708347453652; Mon, 19 Feb
+ 2024 04:57:33 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 19 Feb 2024 04:57:33 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 19 Feb 2024 04:57:32 -0800
+MIME-Version: 1.0
+Sender: ulric.ortega@smartstreamingott.com
+From: ulric.ortega@smartstreamingott.com
+Date: Mon, 19 Feb 2024 04:57:33 -0800
+X-Google-Sender-Auth: HYvlu-uMD96zVPZwcXvnhL0Td3w
+Message-ID: <CAHXFQYh0FFh8jPUL9a9RjTiraZyJWgjE-Pqv2uT1gNF8r2s4NQ@mail.gmail.com>
+Subject: Let's talk about UX and SEO
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000020cd360611bba3ee"
+
+--00000000000020cd360611bba3ee
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>* Owner,
+
+
+
+I will do Any WordPress, PHP, HTML, CSS, Responsive Related work for
+you *untroubled.org
+<http://untroubled.org>.*
+
+
+
+*I can work for you:*
+
+   - Fix blank WordPress issue
+   - Fix any PHP, HTML, CSS, Responsive
+   - Theme installation/customization in WordPress
+   - CSS Designing Bug
+   - WordPress Plugin setup/configuration
+   - Remove unnecessary meta-data
+   - Change the Permalink Structure
+   - Enable/Disable HTML in WP comments
+   - Favicon & Logo customization
+   - Improve the Security of your WordPress/PHP website
+   - Shopping cart integration
+   - Fix Errors on the WP Login screen
+   - Fix any type of common WordPress Errors
+   - Product Uploading Work
+
+
+               If you are *interested* any services? I can send you more
+   details on the *action/portfolio/past work details/price list. *
+
+
+
+Regards,
+
+*Urlic Ortega,*
+
+
+
+*Web Development Manager, *
+
+-----------------------------------------------------
+
+       Note: If you are not interested, please
+
+      Click here to *unsubscribe*
+[image: beacon]
+
+--00000000000020cd360611bba3ee
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:1.5pt 0in;line-heig=
+ht:normal"><span style=3D"color:black"><font face=3D"verdana, sans-serif">H=
+i=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a></b>=C2=A0Own=
+er,=C2=A0</font></span></p><p class=3D"MsoNormal" style=3D"margin:1.5pt 0in=
+;line-height:normal"><span style=3D"letter-spacing:0.1pt"><font face=3D"ver=
+dana, sans-serif">=C2=A0</font></span></p><p class=3D"MsoNormal" style=3D"m=
+argin:1.5pt 0in;line-height:normal"><font face=3D"verdana, sans-serif"><spa=
+n style=3D"color:black;letter-spacing:0.1pt">I will do Any WordPress, PHP, =
+HTML, CSS, Responsive Related work for you=C2=A0</span><b><span style=3D"co=
+lor:black"><a href=3D"http://untroubled.org">untroubled.org</a>.</span></b>=
+</font></p><p class=3D"MsoNormal" style=3D"margin:1.5pt 0in;line-height:nor=
+mal"><span style=3D"letter-spacing:0.1pt"><font face=3D"verdana, sans-serif=
+">=C2=A0</font></span></p><p class=3D"MsoNormal" style=3D"margin:1.5pt 0in;=
+line-height:normal"><b><span style=3D"color:black;letter-spacing:0.1pt"><fo=
+nt face=3D"verdana, sans-serif">I can work for you:</font></span></b></p><u=
+l type=3D"disc" style=3D"margin-top:0in;margin-bottom:0in"><li class=3D"Mso=
+Normal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><span style=3D=
+"color:black;letter-spacing:0.1pt"><font face=3D"verdana, sans-serif">Fix b=
+lank WordPress=C2=A0issue</font></span></li><li class=3D"MsoNormal" style=
+=3D"margin:0in 0in 0.0001pt;line-height:normal"><span style=3D"color:black;=
+letter-spacing:0.1pt"><font face=3D"verdana, sans-serif">Fix any PHP, HTML,=
+ CSS, Responsive</font></span></li><li class=3D"MsoNormal" style=3D"margin:=
+0in 0in 0.0001pt;line-height:normal"><span style=3D"color:black;letter-spac=
+ing:0.1pt"><font face=3D"verdana, sans-serif">Theme installation/customizat=
+ion in WordPress</font></span></li><li class=3D"MsoNormal" style=3D"margin:=
+0in 0in 0.0001pt;line-height:normal"><span style=3D"color:black;letter-spac=
+ing:0.1pt"><font face=3D"verdana, sans-serif">CSS Designing Bug</font></spa=
+n></li><li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height=
+:normal"><span style=3D"color:black;letter-spacing:0.1pt"><font face=3D"ver=
+dana, sans-serif">WordPress Plugin setup/configuration</font></span></li><l=
+i class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal">=
+<span style=3D"color:black;letter-spacing:0.1pt"><font face=3D"verdana, san=
+s-serif">Remove unnecessary meta-data</font></span></li><li class=3D"MsoNor=
+mal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><span style=3D"co=
+lor:black;letter-spacing:0.1pt"><font face=3D"verdana, sans-serif">Change t=
+he Permalink Structure</font></span></li><li class=3D"MsoNormal" style=3D"m=
+argin:0in 0in 0.0001pt;line-height:normal"><span style=3D"color:black;lette=
+r-spacing:0.1pt"><font face=3D"verdana, sans-serif">Enable/Disable HTML in =
+WP comments</font></span></li><li class=3D"MsoNormal" style=3D"margin:0in 0=
+in 0.0001pt;line-height:normal"><span style=3D"color:black;letter-spacing:0=
+.1pt"><font face=3D"verdana, sans-serif">Favicon &amp; Logo customization</=
+font></span></li><li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;l=
+ine-height:normal"><span style=3D"color:black;letter-spacing:0.1pt"><font f=
+ace=3D"verdana, sans-serif">Improve the Security of your WordPress/PHP webs=
+ite</font></span></li><li class=3D"MsoNormal" style=3D"margin:0in 0in 0.000=
+1pt;line-height:normal"><span style=3D"color:black;letter-spacing:0.1pt"><f=
+ont face=3D"verdana, sans-serif">Shopping cart integration</font></span></l=
+i><li class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:norm=
+al"><span style=3D"color:black;letter-spacing:0.1pt"><font face=3D"verdana,=
+ sans-serif">Fix Errors on the WP Login screen</font></span></li><li class=
+=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><span s=
+tyle=3D"color:black;letter-spacing:0.1pt"><font face=3D"verdana, sans-serif=
+">Fix any type of common WordPress Errors</font></span></li><li class=3D"Ms=
+oNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"><font face=3D=
+"verdana, sans-serif"><span style=3D"color:black;letter-spacing:0.1pt">Prod=
+uct Uploading Work=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span>If you are=C2=A0<b><span style=3D"colo=
+r:black">interested</span></b><span style=3D"color:black">=C2=A0any service=
+s? I can send you more details on the=C2=A0<b>action/portfolio/past work de=
+tails/price list.=C2=A0</b></span></font></li></ul><p class=3D"MsoNormal" s=
+tyle=3D"margin:0in 0in 0.0001pt 0.5in;line-height:normal"><font face=3D"ver=
+dana, sans-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0=
+in 0in 0.0001pt 0.5in;line-height:normal"><span style=3D"color:black"><font=
+ face=3D"verdana, sans-serif">Regards,</font></span></p><p class=3D"MsoNorm=
+al" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:normal"><b><span sty=
+le=3D"color:black"><font face=3D"verdana, sans-serif">Urlic Ortega,</font><=
+/span></b></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in=
+;line-height:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><p=
+ class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:nor=
+mal"><b><span style=3D"color:black"><font face=3D"verdana, sans-serif">Web =
+Development=C2=A0Manager,=C2=A0</font></span></b></p><p class=3D"MsoNormal"=
+ style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:normal"><span style=3D"=
+color:black"><font face=3D"verdana, sans-serif">---------------------------=
+--------------------------</font></span></p><p class=3D"MsoNormal" style=3D=
+"margin:0in 0in 0.0001pt;line-height:12.65pt"><font face=3D"verdana, sans-s=
+erif">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Note: If you are not interested,=
+ please</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;l=
+ine-height:12.65pt"><font face=3D"verdana, sans-serif">=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0 Click here to=C2=A0<b>unsubscribe</b><b>=C2=A0</b></font></p><=
+/div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2zXpZVd_V2=
+XjSaKK7_3CSvobAH-Mr5cZpm3v4JOLqcG8da3HBjQEER5Dwr510Q7QPka1IEKzph5Pb-jYzqR8M=
+jbmaLdoDb8xtGer1c_PgrTNSxTjytb293RyYRja_3OarXsJ5H8TkXd7bHKvC14rhCnyRPHYpfqB=
+udrF_Ju9Fs99MHQ" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:n=
+one; display:none!important;">
+
+--00000000000020cd360611bba3ee--

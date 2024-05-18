@@ -1,0 +1,67 @@
+Return-Path: <elenas@elenastewart.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 168999 invoked from network); 14 Jul 2023 17:05:17 -0000
+Received: from mail-ot1-x342.google.com (mail-ot1-x342.google.com [IPv6:2607:f8b0:4864:20::342])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 14 Jul 2023 17:05:17 -0000
+Received: by mail-ot1-x342.google.com with SMTP id 46e09a7af769-6b9aadde448so1770798a34.0
+        for <bruce@untroubled.org>; Fri, 14 Jul 2023 10:05:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=elenastewart-com.20221208.gappssmtp.com; s=20221208; t=1689354316; x=1691946316;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=YdnU9m/sfvFrlVsI512Iy0kch1Kd1+vI6zKzQ5UIA2k=;
+        b=x5b2f6XdU/5aDgYOXes9FpbVIY3U2G5EiQR6yeKRumGQVjUrb/b31smxN6/6p3YI37
+         cvpfPEfCHBY7hTDH8ZgMsx1xGtPqsAZNg4+47+W+bV0fK7+/+q2wSUUJYkFfIe8hUjZx
+         OzpWPYLkSMfq9GEQOG3ks931/sLebynxcsv6BUjv7R88E57XWRPbzy0YnTFcD2YuEgLb
+         uIJ9B7U6JaFwKMvsxxu1uBBERZ+0I4M/ZA/mqOtr70eX3swpackErYcFFlZNWkOjsExW
+         nMrSrhkFDmX5AyhIPIHuvpYB1gojmcuE38FiQvehRH4n/j5lTmiyvcMTQmu3cJtaNfJo
+         xKFA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689354316; x=1691946316;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=YdnU9m/sfvFrlVsI512Iy0kch1Kd1+vI6zKzQ5UIA2k=;
+        b=Lc6A2g8NHKukpAYttP/qtV2fk55lgT48FNLDGl3a88Ixb3uZZk1DTAFP7ySmqJG0hD
+         wYfEHIBmCiwObzqj/H4nuXGjSH1aA+W3eVnoHSslEVH5m8TIrUrO/3kzFUd8UrMONabm
+         sdpKPwT6fuDhFrbNzaxvEsxqrWQu4HKx1E150d+sWJfbXLa8e0H1EI0jZ6in+8srRFsM
+         8eauPko8UJcSXCtvZ1xJzyGEpfvudL0znnMSaxXH0rYdI1UwbZNHijoJ+V+bxlVT+x7Q
+         GFbgcMEG5mRMySmX1tF631d5ZpdG+8QzNoo/fh4w93rHWp70xZs2Eyfof3paRoJdVc0u
+         Rkzg==
+X-Gm-Message-State: ABy/qLZa0uqq+6fpedzZcwF65HHNwuJ2eh1vHqn2BHxyAubQltqkEo/v
+	rNcE8xrlkUYnvoUOj1V/LjVx4fuPfnIsD46syfTir9VGyAAMm7wwmxc=
+X-Google-Smtp-Source: APBJJlGzAMGGniWo2WoOFlorcUyYmkbn6NCYnwGCH17U2lFOD/LmLB0rAqr/z8uSAk2i5/DS3P/sMrTLfxD9PvgyOIE=
+X-Received: by 2002:a05:6358:913:b0:131:b4c:b868 with SMTP id
+ r19-20020a056358091300b001310b4cb868mr5988335rwi.3.1689354316262; Fri, 14 Jul
+ 2023 10:05:16 -0700 (PDT)
+Received: from 1011854918627 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 14 Jul 2023 10:05:15 -0700
+MIME-Version: 1.0
+From: Elena Stewart <elenas@elenastewart.com>
+Date: Fri, 14 Jul 2023 10:05:15 -0700
+Message-ID: <CAGH-sc8DhPJTZ4-32XYSC0+p9J70n5vobhpfruuY5ONWoRkyJw@mail.gmail.com>
+Subject: Can you look into this for me please?
+To: bruce@untroubled.org
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+I have an exciting guest blog post that I believe your website
+visitors will find useful. The post is all about practical tips for
+revitalizing and rejuvenating your business's brand to help it stand
+out in today's competitive market. Refreshing your brand not only
+showcases its continued relevance but also enables you to engage with
+your audience and distinguish yourself from competitors.
+
+I would love to share my guest post with you. If you decide to accept
+it, would you please consider publishing it on your website? Thank you
+very much for your time.
+
+All the best,
+Elena Stewart
+
+Please check out my blog: https://www.elenastewart.com/category/blog/
+
+P.S. If you don't like my suggested topic, send over a few
+alternatives that would be more appropriate for your website. Please
+let me know if you'd prefer not to hear from me again.

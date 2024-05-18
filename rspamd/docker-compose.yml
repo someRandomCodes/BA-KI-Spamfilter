@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  rspamd:
+    image: rspamd/rspamd
+    container_name: rspamd
+    ports:
+      - "11332:11332" # Rspamd Controller
+      - "11333:11333" # Normal Worker für rspamc
+      - "11334:11334" # Rspamd Web-Interface und Controller Worker
+    environment:
+      REDIS_SERVER: redis
+    depends_on:
+      - redis
+    volumes:
+      - ./rspamd-config:/etc/rspamd
+      - ./../__mails_cleaned_new_testdata:/__mails_cleaned_new_testdata
+      - ./../__mails_new_testdata:/__mails_new_testdata
+      - ./../__mails_new/mails/ham:/__mails_new/mails/ham
+      - ./../__mails_new/mails/spam:/__mails_new/mails/spam
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"

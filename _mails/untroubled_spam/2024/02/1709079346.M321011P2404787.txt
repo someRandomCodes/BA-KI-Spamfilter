@@ -1,0 +1,107 @@
+Return-Path: <maria@inforeachleads.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2394985 invoked from network); 27 Feb 2024 20:07:11 -0000
+Received: from mail-lf1-x132.google.com (mail-lf1-x132.google.com [IPv6:2a00:1450:4864:20::132])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 27 Feb 2024 20:07:11 -0000
+Received: by mail-lf1-x132.google.com with SMTP id 2adb3069b0e04-5129e5b8cecso5780645e87.3
+        for <bruce@untroubled.org>; Tue, 27 Feb 2024 12:07:11 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=inforeachleads-com.20230601.gappssmtp.com; s=20230601; t=1709064429; x=1709669229; darn=untroubled.org;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=iI2sff5u46KhbVJ7bKAa1QXrAOdSNef5SGMnAvnBQbY=;
+        b=pKuH7DxQhmKtT2PLzySM1Xnx0VY50GVblQE4bsdsFf6i+ZlmgscHIEEkpzz3pPjYav
+         frs6opUYKZR1yeyskQ2A1L61NkMLm5juzc2fy/GCnJL8BDUKallJXAVRut77B7N+XH+d
+         qPfqH556lKdWbH1NrEYVM6fGO9wIDPmo+6iOIpRT0R/4LwlZBn6DxUT3z8ebFHpDuWLe
+         kYE3L+FbdZRE7oE6zaf47mqvPDmQrIXK7WZnV18b1almG+d2deOjeX1ytHi8t/nQp/m1
+         Bm7rZGJ63Zzrk1MijTKp7eJSbB27YHle9mkmqZYvlQCeHtKWYTVYPGdpH4+uCGWOicZk
+         BSOA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1709064429; x=1709669229;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=iI2sff5u46KhbVJ7bKAa1QXrAOdSNef5SGMnAvnBQbY=;
+        b=NFIjxNltW7Ui3oTEsbhMpFYkItJsu/mujQrx1c2Hst9pMsqo7Xbq3efFHOm/YYHa2M
+         dSsPYoryQqsvkNhbCal33+YuzdtFf/lyGdVk8TI/7c0icfZT1Bm4VBRgMjurG1YfpTjT
+         CgW83M2J0Os4voXOOJvIMSbWCmw6WrU0TlnoZYT6UFd2+XsJSOMeYa5YJ0SNNZIAz49R
+         7qCDpaVmnvLwnVezVXgI4/XACtxrRwgiKl6zEEZsVywY9jq2Fqi25DFOaOPGldqkiY/H
+         A3vC/tGNPBTTM02B5SF496kc5Kev+z5gcrScFdhdeip6anlQUMBdYCszDlPYdC8EjdwC
+         wClA==
+X-Forwarded-Encrypted: i=1; AJvYcCW3xOHnYpjsucDPWL/JAf8JehOLSKdykhr009QRUaVV2QGnxTQuLp8EIYba+ap2acdXW2UCeSqHvyF66gYaLUH6prmCug==
+X-Gm-Message-State: AOJu0Yw6SKRtirDmTA8WpZHkYuB5QILdJe7QTMyi0vPEAgVTl6iJqRKh
+	KtApnfRho1AgAy++nKFK2UjqY3CRwGEzPbmGpbYCXznfnP87ifhUApWSp9p9zLdnrNO+NXIlLS2
+	kBacSuHFPDdA1xSJ4qg3T9iQGxTwaTwvxRtOzIw==
+X-Google-Smtp-Source: AGHT+IGmAtoRek0y++hIiMabpNApYCuJh2+0MDOl6zy96eFwTexLOjlMw9NxkIKY9Mg7LKsSxUIdQjMXjkWNWGDRdcE=
+X-Received: by 2002:ac2:4e09:0:b0:512:a9b7:c637 with SMTP id
+ e9-20020ac24e09000000b00512a9b7c637mr9036446lfr.29.1709064429231; Tue, 27 Feb
+ 2024 12:07:09 -0800 (PST)
+MIME-Version: 1.0
+References: <CABvbNpcVpqkNuYEQv6jJMCLq-mzKWQt-cF5DPbjx18wqjnnz3A@mail.gmail.com>
+In-Reply-To: <CABvbNpcVpqkNuYEQv6jJMCLq-mzKWQt-cF5DPbjx18wqjnnz3A@mail.gmail.com>
+From: Maria Garcia <maria@inforeachleads.com>
+Date: Tue, 27 Feb 2024 14:06:52 -0600
+Message-ID: <CABvbNpfjZuezkJVauMwwaaXP84g6U0RFESBAt=GN0+OLAjPVWw@mail.gmail.com>
+Subject: Re: Veterinary Professionals Data-List 2024
+To: Maria Garcia <maria@inforeachleads.com>
+Content-Type: multipart/alternative; boundary="00000000000033f33e0612629273"
+Bcc: bruce@untroubled.org
+
+--00000000000033f33e0612629273
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Did you get a chance to review my email?
+
+Please let me know if you require any further information to take this
+forward/make progress here.
+
+I look forward to hearing back from you soon.
+
+Regards
+Maria Garcia
+
+On Fri, Feb 23, 2024 at 3:58=E2=80=AFPM Maria Garcia <maria@inforeachleads.=
+com>
+wrote:
+
+> Hi,
+>
+>
+> *Would you be interested in acquiring Veterinary Professionals Data-List
+> 2024?*
+> Number of Contacts: - 30,178
+> Cost: - $ 2,276
+>
+>
+> *Interested? Email me back; I would love to provide more information on
+> the list.*
+> Kind Regards,
+> Maria Garcia
+> Marketing Coordinator
+>
+
+--00000000000033f33e0612629273
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi,<br><br>Did you get a chance to review my email?<br><br=
+>Please let me know if you require any further information to take this for=
+ward/make progress here.<br><br>I look forward to hearing back from you soo=
+n.<br><br>Regards<br>Maria Garcia<br></div><br><div class=3D"gmail_quote"><=
+div dir=3D"ltr" class=3D"gmail_attr">On Fri, Feb 23, 2024 at 3:58=E2=80=AFP=
+M Maria Garcia &lt;<a href=3D"mailto:maria@inforeachleads.com">maria@infore=
+achleads.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" styl=
+e=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);paddin=
+g-left:1ex"><div dir=3D"ltr">Hi,<br><br><span style=3D"background-color:rgb=
+(255,255,0)"><b>Would you be interested in acquiring Veterinary Professiona=
+ls Data-List 2024?<br></b></span><br><font color=3D"#351c75">Number of Cont=
+acts: - 30,178<br>Cost: - $ 2,276</font><br><br><b><font color=3D"#4c1130">=
+Interested? Email me back; I would love to provide more information on the =
+list.<br></font></b><br>Kind Regards,<br>Maria Garcia<br>Marketing Coordina=
+tor<br></div>
+</blockquote></div>
+
+--00000000000033f33e0612629273--

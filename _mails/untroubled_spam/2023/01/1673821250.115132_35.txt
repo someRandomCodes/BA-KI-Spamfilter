@@ -1,0 +1,133 @@
+Return-Path: <customer-bruce=untroubled.org@hubpost.info>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=hubpost.info;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id;
+ i=customer@hubpost.info;
+ bh=uWrRN8f/TJmMYUNxkqC9arihs/H6MnGFI16/AHqQl5U=;
+ b=w4nCp7o5Fp7gHGfpQimF9KS78fpzEjV4rSLa79pi/dXh8bzhswnPczp7FrZLifEhNzxi2wZ8Eqzp
+   XIY8MLnwGqTf+/x/UF7X5qA5S2LXYdaZDDrEEv2Bd2noMmBssi7IKnUlwujgqbVMUTCFbIn64plg
+   uoStLB2G9+8VeW+ZPN+4jiHHLyA67Bd/okDtdHGtTZ07sD+moP2dWz6fQyUvKczsmRXT3Li+jZo/
+   2Wmd9BoOJz20/m7ZvLqHKZiFheXG6uAVOmfmvnoj1OtmJQ8YY6sLTRl7V6uPUPPp5KvLRJrIxeIK
+   nCFvE8oFaEUEXQIs2h2F8Q89JwRgtYuO/1bOdQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=hubpost.info;
+ b=HomDUSr3no92DkIaXRIP/79tsrIP/ES//1BQ7WlWkpsFwb4VMAu5XPy/i0rU25x9igmogDKQG4yz
+   MCYAdLUB8xQq3SlwO5gkkX0BVwMMMP0uyPTLUw+4S+DL0VQBMywwi+QmUPxxc5Qk/NENKVIEDkFC
+   lQNcEoaYUkWG/rAdNnu2dyb6j8YcQQpehVZysbrZYHUQ5wJWVqA1cCHhG4vjYWUer8mfKY8OfRFw
+   4UT24rg8xjOKQJpsl3zJk/XLSfm3qe2JkzLVE3feOR7vNofwO3ZhdbwhwnmOhg9FKa0EmaAHUaqb
+   CO2R9vTRqcrBjL4vz9Tf7sg1YgCuTiUDaysAcw==;
+Received: from socialmail.info (104.248.118.246) by mailenv-02.hubpost.info id
+ hoh6ru0001ga for <bruce@untroubled.org>;
+ Sun,
+ 15 Jan 2023 19:02:17 +0000 (envelope-from <customer-bruce=untroubled.org@hubpost.info>)
+DKIM-Signature: v=1; a=rsa-sha256;
+ bh=uWrRN8f/TJmMYUNxkqC9arihs/H6MnGFI16/AHqQl5U=; d=hubpost.info;
+ h=Message-ID: Date: Subject: From: Reply-To: To: MIME-Version: Content-Type:
+ List-Unsubscribe-Post: List-Unsubscribe: List-Id: Feedback-ID;
+ i=@hubpost.info; s=mailer; c=relaxed/relaxed; t=1673809337;
+ b=xOy5FkIGspZ5rFCHNJ7AHOx7Qbx/7zoCMONGalGK61430wSgdJBfCsrgtq5ecjhIOIm04afFA
+ CVUrSsBD08UHZ145t56HraxX/wKWpLV5wsp4zd+niXKh117+Spd4Y8u/u9EpvpOau0x5ywaLc
+ aVNkE4X6KgIazDZ4W+iHbpurzVGjf04KVi1JuVudrhPLIp6RIpKFpY6Rlf84Tf/ciFACk3P6T
+ gEOiE25YlvpgzGY6AMqQG0FXky32EAb1n998OfaWZ+S0X5vsioQ0URdssaq/1RGECumGsHKr+
+ lzKeUDNktpnLWtCivJIpyLRcIatnxH3oa4GW5GKpBiCZi9SAUw==
+Message-ID: <de16c36e39139cbc4e0d0f48eeb8b8e02f22b907@hubpost.info>
+Date: Sun, 15 Jan 2023 19:02:17 +0000
+Subject: Hello ,Your Opinion is Important
+From: SouthWest Consumer Survey <customer@hubpost.info>
+Reply-To: SouthWest Consumer Survey <customer@hubpost.info>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1673809337_f70fa724d67bc49ca6b4aeabb4aa7cf2_=_"
+X-SentFromServer: 139.59.1.122
+X-Report-Abuse: 
+ http://app.hubpost.info/app/index.php/campaigns/ww084kxrwz054/report-abuse/qe248vax2p2e0/vo000k6588f1e
+x-job: bruce@untroubled.org
+X-EBS: http://app.hubpost.info/app/index.php/lists/block-address
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: 
+ <http://app.hubpost.info/app/index.php/lists/qe248vax2p2e0/unsubscribe/vo000k6588f1e/ww084kxrwz054?source=email-client-unsubscribe-button>,
+ <mailto:customer@hubpost.info?subject=Campaign-Uid%3Aww084kxrwz054%20%2F%20Subscriber-Uid%3Avo000k6588f1e%20-%20Unsubscribe%20request&body=Please%20unsubscribe%20me%21>
+List-Id: qe248vax2p2e0 <na>
+Feedback-ID: ww084kxrwz054:vo000k6588f1e:qe248vax2p2e0:kq97459oj442e
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 2602
+
+
+--_=_swift_1673809337_f70fa724d67bc49ca6b4aeabb4aa7cf2_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+We value your feedback!
+Hi ,
+
+We value your feedback!
+
+You have b=
+een selected to take part in our Survey!
+
+This survey allows us to bett=
+er understand you and make our products
+better. It will not take longer t=
+han 1 minute of your time.=C2=A0
+
+Upon completion you can select one of=
+ our exclusive rewards .=C2=A0
+
+This Survey is only available for a lim=
+ited time, so please complete
+the questionnaire by following the link bel=
+ow!
+
+=C2=A0 TAKE THE SURVEY NOW
+[http://app.hubpost.info/app/index.ph=
+p/campaigns/ww084kxrwz054/track-url/vo000k6588f1e/05edb741f6b8da18b4efe1c23=
+67316ef9f4310cd]=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0Unsubscribe Here
+[http:/=
+/app.hubpost.info/app/index.php/campaigns/ww084kxrwz054/track-url/vo000k658=
+8f1e/ebfc9332ad0125f13ba3c2163254c826b9197cbf]
+
+--_=_swift_1673809337_f70fa724d67bc49ca6b4aeabb4aa7cf2_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta charset=3D"utf-8"/>
+=09<title>Hello ,Your Opinion is Important</title>
+<style type=3D"text/css">span.preheader{display:none!important;mso-hide:all=
+;}</style></head>
+<body><span class=3D"preheader" style=3D"display:none!important;mso-hide:al=
+l;">We value your feedback!</span><br />
+Hi ,<br />
+<br />
+We value your feedback!<br />
+<br />
+You have been selected to take part in our Survey!<br />
+<br />
+This survey allows us to better understand you and make our products better=
+. It will not take longer than 1 minute of your time.=C2=A0<br />
+<br />
+Upon completion you can select one of our exclusive rewards .=C2=A0<br />
+<br />
+This Survey is only available for a limited time, so please complete the qu=
+estionnaire by following the link below!<br />
+<br />
+=C2=A0<a href=3D"http://app.hubpost.info/app/index.php/campaigns/ww084kxrwz=
+054/track-url/vo000k6588f1e/05edb741f6b8da18b4efe1c2367316ef9f4310cd"><span=
+ style=3D"font-size:16px;"><strong> Take the Survey Now</strong></span></a>=
+=C2=A0<br />
+=C2=A0<br />
+=C2=A0<br />
+=C2=A0<span style=3D"font-size:14px;"><a data-unsubtag=3D"_UNSUBSCRIBE_URL_=
+" href=3D"http://app.hubpost.info/app/index.php/campaigns/ww084kxrwz054/tra=
+ck-url/vo000k6588f1e/ebfc9332ad0125f13ba3c2163254c826b9197cbf">Unsubscribe =
+Here</a></span><img width=3D"1" height=3D"1" src=3D"http://app.hubpost.info=
+/app/index.php/campaigns/ww084kxrwz054/track-opening/vo000k6588f1e" alt=3D"=
+" />
+</body>
+</html>
+
+--_=_swift_1673809337_f70fa724d67bc49ca6b4aeabb4aa7cf2_=_--
+

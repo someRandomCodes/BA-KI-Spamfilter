@@ -1,0 +1,1408 @@
+Return-Path: <GouldmanJoyann2000@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 274580 invoked from network); 9 Jan 2023 18:54:13 -0000
+Received: from APC01-PSA-obe.outbound.protection.outlook.com
+ (mail-psaapc01olkn2030.outbound.protection.outlook.com [40.92.52.30])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 09 Jan 2023 18:54:12 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=MauRNCS0W7fmNQGKP9yXdNBVoU+S7dg3E4eqINlF7Jdr7pDTi+JvLMEDlbill4REPHXIAxxSzAgDc0rOtvzoO/TloChjBXfF/D3fYNZLaHn+BOUlbEDRfh6uTa86YLi8UN2HKxlhsepl0U9DNIwCVEslHYFK96TQsZltXWUQU4IBP3/CjdDmVKxt7t3vjXSgwnqQimnFbZEHiik5LYblsv/JGY7TnvuoBdUgaQI3CpC64toRhISUlfJYkgilmTfGMBjXZm1uEEZxAyI6G7iwrc7COIxUPJx2Klo9ekJB6n2TUdmNQWykKyiOO68JLzNIOiPDhelpYGPOGTyZiD1b0A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=20cNC+fRmWhD4NGUZoiAOFxskBSG+rmnOTm5EyXZ7FM=;
+ b=FSHOfEuYmgYJal6Ti0/mtDgFRbGfCqhjwjO+/LGWinbkgty9vcBSNJid7b7KIygpwMh2snuXDn3uMqYiHJnlw8O9/EjFVelG9uD59h89NKnWcxmIPxZhBuPsUsu2LNFlDwwC9ctRMADMg5a1WryJDA5XpImJLlw8lM9Ya7Bi7AUG35fsqJqoevWnhzDWB8DXnvky95lDtXd67OqilMtHwgmbMvg74Ek7NBdypfRHOnohpcMnWoaWuoVmILwOSK2045yHeiZtgAJozLXGmWlkjMPqBg3g4LaUX1OJyIDJOeXo4b/itB/VVLiHSFO9clighD3UyJFcDaEQUEbaJAmY6w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=20cNC+fRmWhD4NGUZoiAOFxskBSG+rmnOTm5EyXZ7FM=;
+ b=eCCcwK/3ViwfhoAizNEJTCLftN/ZaXFYJLOIf50j2Fgyvk3XFkXsdbq2z2q2HmK/ysvFJBlT2Z04Zh31Sg5RJA4C6OwaETu3M1FRS4yZfDGLIjKyr8TFJtxPL4riipnyZIy1wRCKR6U0YVD91cXoYltYOZWc9OqFXoP58zewjqvMRn3fBDGJpj+q9/A+bfX4IScU92gSgVHm1X8vBLqglGPRSKoIio4XLKMwX8Rc5AFUhDXqYJbILBM+uOQFAVeaXv1GKmFnS0dta+hc3roCZB0I64nyzmg3lzxJ1TfliBOq8Y0+Hsp/GnATl2k1/rxZw/S6M3gVxe+cWRnEw8nA3w==
+Received: from TY2PR0101MB3183.apcprd01.prod.exchangelabs.com
+ (2603:1096:404:f4::14) by TY0PR0101MB4668.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:31f::9) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5986.18; Mon, 9 Jan
+ 2023 18:53:34 +0000
+Received: from TY2PR0101MB3183.apcprd01.prod.exchangelabs.com
+ ([fe80::c5c3:f378:2376:3881]) by
+ TY2PR0101MB3183.apcprd01.prod.exchangelabs.com
+ ([fe80::c5c3:f378:2376:3881%4]) with mapi id 15.20.5986.018; Mon, 9 Jan 2023
+ 18:53:34 +0000
+X-Mailer: MailBee.NET 11.2.0.590
+From: "GouldmanJoyann2000@outlook.com" <GouldmanJoyann2000@outlook.com>
+Subject: Ukrainian woman looking for date in the United Kingdom !
+Reply-To: "GouldmanJoyann2000@outlook.com" <GouldmanJoyann2000@outlook.com>
+Date: Mon, 09 Jan 2023 19:53:24 +0100
+Message-ID: 
+ <TY2PR0101MB31833315E40E05EA0739AA24D4FE9@TY2PR0101MB3183.apcprd01.prod.exchangelabs.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_E494_F57DD7EE.92EB5C0A"
+To: Undisclosed recipients:;
+X-TMN: [ww/CTHC0MR5tcPXPgRIZK5YAqwbeTLEE]
+X-ClientProxiedBy: VI1P189CA0023.EURP189.PROD.OUTLOOK.COM
+ (2603:10a6:802:2a::36) To TY2PR0101MB3183.apcprd01.prod.exchangelabs.com
+ (2603:1096:404:f4::14)
+X-Microsoft-Original-Message-ID: <1.b5a0d3514e93ee1e26e8@DESKTOP-JGF09DC>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TY2PR0101MB3183:EE_|TY0PR0101MB4668:EE_
+X-MS-Office365-Filtering-Correlation-Id: 61527e28-8c81-449b-4f45-08daf272cda7
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	=?utf-8?B?OHN6NURkSWg2WXVDNXFKbk9kbFBDQnZBREMzNVpGSlY1RThIVFhDM2EzYVFS?=
+ =?utf-8?B?dlJ2UWFWU1R4RW0vWU1VeG9IREtEVnpkZzlVNHkreG04NTNHbysvQzlEdFM4?=
+ =?utf-8?B?dU1uMEhFaDIveVYyYWNUekxNOW12Tm8rNE9KZmdtUWNmLzJHV29md0tKaW9S?=
+ =?utf-8?B?cW9iazVWT0NtdWpqZnIvTm5hOVhlbFlyTkZRTHJBbUd1ZkZhTk5FdjUrOG1P?=
+ =?utf-8?B?ZEhTVGd1ZmtLK3lmOWJYc1NDaE1JdWt3YVA2M0gxWm1Xb1Q3b1k5OWtVRGhL?=
+ =?utf-8?B?TWlvNmM3VnlqUForaVVVQm1mdXJTSW5uVU9DYmZMV29kdVM1QmdmTkFQSHdW?=
+ =?utf-8?B?OXN6dXhXeUVrZFVTcEZTVXg0dnRWZmdRYXJhampRc1ZIbUZZaXN6Ti9KRHBH?=
+ =?utf-8?B?TlZYSFpaTGFOcCs4U0wvaUluNWhvWFVzTFQwTXd6Qlg3Vm9OU01XdTBSajBP?=
+ =?utf-8?B?OWd4dStSYnA1djlVTUJ3WEU0aktGTk5iV3RyS1ljZE02OXNMVlZkQUVlUVJn?=
+ =?utf-8?B?d092RldWSmMxalM1UzF2Nk1FSlBiTnl4WnUzQmV4TGVXbkV3UGdzc1pwaGNO?=
+ =?utf-8?B?QmFiWnNmcis4VGM4RVVibmcrK1Q2TFNxN0dEdVJNN3RrbytmemM3cDl5Z2Iw?=
+ =?utf-8?B?aW5HdjVJYXNMdlJzQzVjQncvOFFjY2VncHFsS3NLMkZ0Nk11MW5UYW1HV3Zl?=
+ =?utf-8?B?WEppRkFXOTZiYjBYR0JmMWdnelRwZTc3a1NRRFJLNC9UU3pERmJTT0ZWVXJL?=
+ =?utf-8?B?VlFUYUdKNysvMDVkSDh0ZytxMUZvSUpyQ0F5YVNCMU5yb01ZSGs5N0dDNnJS?=
+ =?utf-8?B?SUVkamlvOWlHbGd6blVWQ29JVzNXdTFSaDU5MElHQlBBZ1d3dXNrV0JwL01q?=
+ =?utf-8?B?R2o3QVlLMExvRGdFdkRXVlNtUTNjZzBCWTZ4LzRQaGF2Z1BnN3pDZUFidnFy?=
+ =?utf-8?B?UnZkczltVUVRT1lhMi9kRU5rWVdDOFMwSlhPYnRrMTBMeVdpcTQxb3liN0Nn?=
+ =?utf-8?B?SW5NaVV6SDVxVUJtT0dMTjBJWkRnSHVxODhTbzZLWWNZcll5eS9XRVdtTm9Y?=
+ =?utf-8?B?aXlQVzh4LzlOeU4wOTBBcnNwMFg3SGxxWGNVOTRGT1pjWWdpMm5kUUJob0Rs?=
+ =?utf-8?B?R0JZaDAxU3BkYUxmRmV5Y29WNVNZcVQ5VDB1Mnc2T1JqUlk4TTBGMVU1dTdB?=
+ =?utf-8?B?QUxrcHd5clR0QjZLQ0F3OU1abklxNnJRV3BWM1pEZExRL0xnL0s4VStDNGJZ?=
+ =?utf-8?B?TEx6YmFjT3lZRnZhTUhwN1p6ejJ6anltZG1PaGJONjVUUU9wT0g5NzVyV04v?=
+ =?utf-8?Q?2EhkMEjmN30lw=3D?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0: 
+	=?utf-8?B?aThHV09jNUt2cllJWWJQNzZlSks3SVdKWFFkQWtvcEptMEhwQlorK3Z5MmxN?=
+ =?utf-8?B?MEE1aEZPakVIVHI0NHc1M0ZiQk5VQU0wOVJ2aWJ5dEpsTmVHZWRVeVpvU0pD?=
+ =?utf-8?B?eHpWbHpVNThyekMrZC9BSFVzZEY2OFY4dGhYRmNpR2hLWkk1bmJudlAxaG51?=
+ =?utf-8?B?cHpIYWJ0a1FEcC9GaEp5SU5MUUNIQ0VseHhNcTJRVjh1dU5oVENTcDZwSXo3?=
+ =?utf-8?B?S3JiaG5wbWFNRnh5bWNnUmNuSWpKUkFqVFhmems4QjVyazNRVjdwNW8wWFJI?=
+ =?utf-8?B?bnJSdzdvZEpmQy9FVmtMTmgwOTlXMEE1SzVRbnJ4dXE5ZEdsV2ZnVWRHNFgr?=
+ =?utf-8?B?RXNlZHZwVzArSUZNZnlmb0ttQ2t4MmZoTUtOZG9VVGdUTlphUkRFWEJsUk50?=
+ =?utf-8?B?Snd1WVFwa0NjSUtmQVdPeTJhdWZFQVF3Z2JldktNTGV5TnNPVFhiMXp5K2g5?=
+ =?utf-8?B?UXQwQlYvMWtBbnkrT0RhRHM0dEtZWGttOFVscG45SldWNGZ1VWorMjA0bEha?=
+ =?utf-8?B?Q1pFRXUvanFFOFc2Q0RxOWRqOVJ2VytWN0luUWxrNU9ueW9lR1AvMEJRMGZh?=
+ =?utf-8?B?b1RScFlFdSs5OWhNWGFXY1l5WUlGdC9FRDVqczViR2ROMmRsQVpYbkZHV3lh?=
+ =?utf-8?B?dTduMEtWT0U2eFFsTXJCajY2V0VUdU5VOXc0NHFXR0hOOHdiODJRWXlreVZB?=
+ =?utf-8?B?T1IwL1UvVDdhRmI3UnNmcDY3SFdHdjFBZG5PQUljUGgrK1ZTMFBnNmpIb2xH?=
+ =?utf-8?B?RjAxS2k1dUQrYnkzanp4cmpGSGRybnIyaFRYaXFGMEF1V3YvL1U2T25pVG5V?=
+ =?utf-8?B?bWNWMXF5MU9KTFMram9tVERoM3l4aEpnS1RRODJUQ09SVG1aTEwzRmwyN3Mx?=
+ =?utf-8?B?RndsQjU2TmNJS0FvS1MwVDZEODZNQkc4SnE2YmdVSEFXVFBqM0VFMzlZVEpv?=
+ =?utf-8?B?TlVINkgxM0xoUitqT1gwMGRuZnVUSGM4ODFNMkxJeVlNZmJab2MrMk4wbHZQ?=
+ =?utf-8?B?ZExYOHdlWm5GMXJZdzk0SGF6bmNLNWgyaFh2ckM3RVEvU3VYNXgybndxeUV0?=
+ =?utf-8?B?R3lrKzJ0WHNOenk3WDhrUWxtbXJxbzJYQy9yOGF6Z2o0dFFmWXQ2YVI3TVk4?=
+ =?utf-8?B?Ry9weGwvdFd2dWVsZzRubUd6QnhHd3JGWnoxVlcwRWUyR09DQUgzMHJIZlFU?=
+ =?utf-8?B?MUh6K1VxK1UyR09HeVFKZWpiZnRreWZJV1U5MWttSkJrTXREL0tvaTh3WUpE?=
+ =?utf-8?B?bzM1QmhKZmNMclpyZVFMekg3M3FhMUdwcTJzWldlWFh3bTZtb1lXV1FYWEw5?=
+ =?utf-8?B?eVNVS0ZaUEROMG93TEFTdUFNZEVPWnIzL0NaTWwxYkc4TEo3NU1pUFdPQXBZ?=
+ =?utf-8?B?WmtnbmVFWkpKcS83eXVSNG9wb1U2TE50QXozQkFvMlFvbXNVcGJ6dlp6T0V5?=
+ =?utf-8?B?eHNtZENxckh4RTcyc0dKRUZKNzRpM2dmMHhkV1JUQ2RuSXA3VlhOeTAvUU9k?=
+ =?utf-8?B?MVo3cVZJM0V1V1hDMlYvTC9MdlVCMWs4ZDRndnNLTUZ4ZEkyaU4rRVVrQlNF?=
+ =?utf-8?B?Wmd1SXpiVHRwaGs4eWtkUnNNMTlUUm1QRWtwSzYrYmk3SzRxajVuZTR6dWtK?=
+ =?utf-8?B?bkxTZHY4MlhJNnpCc2xSelFHRDVmSzFrU05GaGlDd2Z2anpvd2R0ajVuUlVL?=
+ =?utf-8?B?WjBTWUZxeCtGRkNVMDFqOXg3cWxRcHJ6RDg3OU9vSHlqTlVKVzV6S3ZYZFR3?=
+ =?utf-8?Q?JL8HARquvojt4WUxJw=3D?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 61527e28-8c81-449b-4f45-08daf272cda7
+X-MS-Exchange-CrossTenant-AuthSource: 
+ TY2PR0101MB3183.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Jan 2023 18:53:33.9645
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TY0PR0101MB4668
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 89713
+
+------=_NextPart_000_E494_F57DD7EE.92EB5C0A
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Are you living in the United Kingdom and want to date and meet the most bea=
+utiful women in the world! 
+  
+ Since the war in Ukraine has started over 8.000.000 people left Ukraine an=
+d move all around the world 
+  
+ Over 400.000 did move to the United Kingdom , and because of that we creat=
+ed a site where you can meet single Ukrainian women and show them the Unite=
+d Kingdom around! 
+  
+ 
+
+ 
+ On our site we have over 45.000 single Ukrainian women who are interested =
+to chat and date today with people from the United Kingdom !  
+  
+ Join today and find yourself the most beautiful woman in the world! Ukrain=
+ian women! 
+  
+ 
+ 
+ SingleUkrainians 
+  
+ 
+
+ 
+ Registration is free! 
+  
+ All women are verified and real! 
+  
+ 25.000 Ukrainian women on the site! 
+  
+ 
+
+ 
+ HAPPY NEW YEAR 2023! 
+  
+ 
+
+
+
+
+ 
+ If you want to delete yourself from the base, do it here  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+------=_NextPart_000_E494_F57DD7EE.92EB5C0A
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+ dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;" a=
+lign=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">Are you living in <b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7=
+fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac7=
+3-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d=
+9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;">the United Kingdom</span></b></span></b><=
+/span></b></span></b></span></b></span></b></span></b> </span></b></span></=
+b></span></b></span></b></span></b></span></b></span></b></span></b></span>=
+</b></span></b></span></b></span></b></span></b></span></b></span></b></spa=
+n></b></span></b></span></b></span></b></span></b></span></b></span></b></s=
+pan></b></span></b></span></b></span></b></span></b></span></b></span></b><=
+/span></b></span></b></span></b></span></b></span></b></span></b></span></b=
+></span></b></span></b></span></b></span></b></span></b></span></b></span><=
+/b></span></b></span></b></span></b></span></b></span></b></span></b></span=
+></b></span></b></span></b></span></b></span></b></span></b></span></b>and =
+want to date and meet the most beautiful women in the world!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+ align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">Since the war in Ukraine ha=
+s started over 8.000.000 people left Ukraine and move all around the world<=
+/span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+ align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">Over 400.000 did move to <b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce09=
+56d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f3=
+42c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b2=
+6f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459c=
+e0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;">the United Kingdom</span></b></span=
+></b></span></b></span></b></span></b></span></b></span></b> </span></b></s=
+pan></b></span></b></span></b></span></b></span></b></span></b></span></b><=
+/span></b></span></b></span></b></span></b></span></b></span></b></span></b=
+></span></b></span></b></span></b></span></b></span></b></span></b></span><=
+/b></span></b></span></b></span></b></span></b></span></b></span></b></span=
+></b></span></b></span></b></span></b></span></b></span></b></span></b></sp=
+an></b></span></b></span></b></span></b></span></b></span></b></span></b></=
+span></b></span></b></span></b></span></b></span></b></span></b></span></b>=
+</span></b></span></b></span></b></span></b></span></b></span></b></span></=
+b>, and because of that we created a site where you can meet single Ukraini=
+an women and show them <b style=3D"font-weight:normal;" id=3D"docs-internal=
+-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;f=
+ont-family:Arial;color:#000000;background-color:transparent;font-weight:700=
+;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:=
+baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs=
+-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-si=
+ze:11pt;font-family:Arial;color:#000000;background-color:transparent;font-w=
+eight:700;font-style:normal;font-variant:normal;text-decoration:none;vertic=
+al-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" i=
+d=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff=
+-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-4=
+59ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7=
+fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac7=
+3-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;">the United Kingdo=
+m</span></b></span></b></span></b></span></b></span></b></span></b></span><=
+/b> </span></b></span></b></span></b></span></b></span></b></span></b></spa=
+n></b></span></b></span></b></span></b></span></b></span></b></span></b></s=
+pan></b></span></b></span></b></span></b></span></b></span></b></span></b><=
+/span></b></span></b></span></b></span></b></span></b></span></b></span></b=
+></span></b></span></b></span></b></span></b></span></b></span></b></span><=
+/b></span></b></span></b></span></b></span></b></span></b></span></b></span=
+></b></span></b></span></b></span></b></span></b></span></b></span></b></sp=
+an></b></span></b></span></b></span></b></span></b></span></b></span></b></=
+span></b>around!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;"=
+ align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;"><span style=3D"border:none;=
+display:inline-block;overflow:hidden;width:624px;height:237px;"><img src=3D=
+"https://lh3.googleusercontent.com/NsM_3c57v2mQyMr1eBNnsqFXlctxiOc97lAepTRa=
+DR71KNy3AlbT2f4Ls8flg0t3PZ2mDUBNNzOaeCFQ-lbiRG8d0fZSH_K3bWbm8nGB3Hk_Hk-OveX=
+Q4FJaOcCEz0_rcQWxUHrmdVzLUq9GB_hYXkQaTfzFjVAe30Ro8GWDOCY8ie-DKsLbRK48dqxTPA=
+" style=3D"margin-left:0px;margin-top:0px;" width=3D"624" height=3D"237"></=
+span></span>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+<br>=0A=
+</div>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">On our site we have over 45=
+.000 single Ukrainian women who are interested to chat and date today with =
+people from <b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79=
+c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:=
+Arial;color:#000000;background-color:transparent;font-weight:700;font-style=
+:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;wh=
+ite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-g=
+uid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fon=
+t-family:Arial;color:#000000;background-color:transparent;font-weight:700;f=
+ont-style:normal;font-variant:normal;text-decoration:none;vertical-align:ba=
+seline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-i=
+nternal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size=
+:11pt;font-family:Arial;color:#000000;background-color:transparent;font-wei=
+ght:700;font-style:normal;font-variant:normal;text-decoration:none;vertical=
+-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b2=
+6f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459c=
+e0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c=
+1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff=
+-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-e=
+f51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-04f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-wei=
+ght:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"=
+><span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D=
+"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51=
+c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:700;font-style:normal;font-variant:no=
+rmal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-=
+d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0=
+00000;background-color:transparent;font-weight:700;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7=
+fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial=
+;color:#000000;background-color:transparent;font-weight:700;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-0=
+4f342c0-7fff-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-fam=
+ily:Arial;color:#000000;background-color:transparent;font-weight:700;font-s=
+tyle:normal;font-variant:normal;text-decoration:none;vertical-align:baselin=
+e;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-intern=
+al-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"do=
+cs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-=
+size:11pt;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;"=
+ id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=
+=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:transpa=
+rent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight=
+:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><s=
+pan style=3D"font-size:11pt;font-family:Arial;color:#000000;background-colo=
+r:transparent;font-weight:700;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"fo=
+nt-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e=
+1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgr=
+ound-color:transparent;font-weight:700;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b st=
+yle=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8f=
+e-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color:#0000=
+00;background-color:transparent;font-weight:700;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wra=
+p;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff=
+-b26f-ac73-459ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;co=
+lor:#000000;background-color:transparent;font-weight:700;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;white-spac=
+e:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d7=
+9c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family=
+:Arial;color:#000000;background-color:transparent;font-weight:700;font-styl=
+e:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-=
+guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:700;=
+font-style:normal;font-variant:normal;text-decoration:none;vertical-align:b=
+aseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-=
+internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-siz=
+e:11pt;font-family:Arial;color:#000000;background-color:transparent;font-we=
+ight:700;font-style:normal;font-variant:normal;text-decoration:none;vertica=
+l-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=
+=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D=
+"font-size:11pt;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:700;font-style:normal;font-variant:normal;text-decoration:non=
+e;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:no=
+rmal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span=
+ style=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:700;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-=
+weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c9=
+8c"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;backgroun=
+d-color:transparent;font-weight:700;font-style:normal;font-variant:normal;t=
+ext-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><b style=
+=3D"font-weight:normal;" id=3D"docs-internal-guid-04f342c0-7fff-b26f-ac73-4=
+59ce0956d9b"><span style=3D"font-size:11pt;font-family:Arial;color:#000000;=
+background-color:transparent;font-weight:700;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c30-7fff-2a=
+f6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Arial;color=
+:#000000;background-color:transparent;font-weight:700;font-style:normal;fon=
+t-variant:normal;text-decoration:none;vertical-align:baseline;white-space:p=
+re-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-guid-c1d79c3=
+0-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-family:Ar=
+ial;color:#000000;background-color:transparent;font-weight:700;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;whit=
+e-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-internal-gui=
+d-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:11pt;font-=
+family:Arial;color:#000000;background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant:normal;text-decoration:none;vertical-align:base=
+line;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D"docs-int=
+ernal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"font-size:1=
+1pt;font-family:Arial;color:#000000;background-color:transparent;font-weigh=
+t:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-a=
+lign:baseline;white-space:pre-wrap;"><b style=3D"font-weight:normal;" id=3D=
+"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span style=3D"fo=
+nt-size:11pt;font-family:Arial;color:#000000;background-color:transparent;f=
+ont-weight:700;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;white-space:pre-wrap;"><b style=3D"font-weight:norma=
+l;" id=3D"docs-internal-guid-c1d79c30-7fff-2af6-d8fe-ef51c6e1c98c"><span st=
+yle=3D"font-size:11pt;font-family:Arial;color:#000000;background-color:tran=
+sparent;font-weight:700;font-style:normal;font-variant:normal;text-decorati=
+on:none;vertical-align:baseline;white-space:pre-wrap;">the United Kingdom</=
+span></b></span></b></span></b></span></b></span></b></span></b></span></b>=
+ </span></b></span></b></span></b></span></b></span></b></span></b></span><=
+/b></span></b></span></b></span></b></span></b></span></b></span></b></span=
+></b></span></b></span></b></span></b></span></b></span></b></span></b></sp=
+an></b></span></b></span></b></span></b></span></b></span></b></span></b></=
+span></b></span></b></span></b></span></b></span></b></span></b></span></b>=
+</span></b></span></b></span></b></span></b></span></b></span></b></span></=
+b></span></b></span></b></span></b></span></b></span></b></span></b></span>=
+</b></span></b></span></b></span></b></span></b></span></b></span></b></spa=
+n></b></span></b>!&nbsp;</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">Join today and find yoursel=
+f the most beautiful woman in the world! Ukrainian women!</span>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+</div>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<a href=3D"http://www.singleuabeauty.xyz" style=3D"text-decoration:none;">=
+<span style=3D"font-size:21pt;font-family:Arial;color:#1155CC;background-co=
+lor:transparent;font-style:normal;font-variant:normal;text-decoration:under=
+line;vertical-align:baseline;white-space:pre-wrap;">SingleUkrainians</span>=
+</a>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+<br>=0A=
+</div>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">Registration is free!</span=
+>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">All women are verified and =
+real!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">25.000 Ukrainian women on t=
+he site!</span>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+<br>=0A=
+</div>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:16pt;font-family:Arial;color:#000000;background-c=
+olor:#C9DAF8;font-style:normal;font-variant:normal;text-decoration:none;ver=
+tical-align:baseline;white-space:pre-wrap;">HAPPY NEW YEAR 2023!</span>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</div>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.656;margin-top:0pt;margin-bottom:0pt;=
+" align=3D"center">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-style:normal;font-variant:normal;text-decoration:none=
+;vertical-align:baseline;white-space:pre-wrap;">If you want to delete yours=
+elf from the base, do it</span><a href=3D"http://unsub.dateukrainianwomen.x=
+yz" style=3D"text-decoration:none;"><span style=3D"font-size:11pt;font-fami=
+ly:Arial;color:#1155CC;background-color:transparent;font-style:normal;font-=
+variant:normal;text-decoration:underline;vertical-align:baseline;white-spac=
+e:pre-wrap;"> here&nbsp;</span></a>=0A=
+</p>=0A=
+<div align=3D"center">=0A=
+	<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</div>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=
+
+------=_NextPart_000_E494_F57DD7EE.92EB5C0A--

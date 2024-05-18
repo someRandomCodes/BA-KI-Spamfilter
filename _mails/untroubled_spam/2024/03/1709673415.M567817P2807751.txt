@@ -1,0 +1,95 @@
+Return-Path: <jordan@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2790546 invoked from network); 5 Mar 2024 17:02:59 -0000
+Received: from mail-lf1-x142.google.com (mail-lf1-x142.google.com [IPv6:2a00:1450:4864:20::142])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 05 Mar 2024 17:02:59 -0000
+Received: by mail-lf1-x142.google.com with SMTP id 2adb3069b0e04-5134f830488so1668425e87.0
+        for <bruce@untroubled.org>; Tue, 05 Mar 2024 09:02:59 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20230601.gappssmtp.com; s=20230601; t=1709658177; x=1710262977; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=+G0T6nABcmoe60CUSSV8K5WOyF7tdBgoZD00lS1hDXE=;
+        b=aRlRbmNaphd8NWbKFpA0rXPIwZ6HYrprBeROMQlf+kgyx0AEm6aJhb2zTtAXRQajZL
+         QR9qT/65am0xLpZY+b/++eM2jZ/s5HrWhDdW8CNiR6WfQDejoRq7eBpPp2Payph1Vh1e
+         xn98WNtQvqzd595InjZOTjEs8fbV/L1vCmGaDvomm9G9QRXuRHNX1SBU33vpsjzQ/iZl
+         jg/hgR9T7l1AYXBXzxHFbYUURHHrVfw8LcOhmlSn+PUApvpqx+UN5mMuNUhtQXxT14wz
+         i9cKdMEQFCvEUeOoZeHmb29COoR/kl8eYWqOnoDRwFNC5GlgNox44ypthCXptX6JSa0f
+         KVGw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1709658177; x=1710262977;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+G0T6nABcmoe60CUSSV8K5WOyF7tdBgoZD00lS1hDXE=;
+        b=kZN9y11TYaIC/X/QbcEnMJIjYBH7h18EcbRjZ4aUA6BGluVq5sQT8AHM4PLo6n/lyc
+         lDsxtKLFZ5f9JkgRgehjx3ReORpitFjK644ns9JkN6vX8pj/QEB5/81sFuTALQhVxso2
+         lh79nH/btXdF3QLMwSu9wSpoHP5NBiV5aTErN6gY2v+D/Sjji4mAIFopIadUihmPFVqZ
+         1ubUPn/y+I7GfOlzXE4gDOH8o3ccMuKRswpGXm5LQqRlp29shZ8fGvPjffzXO3diM+Np
+         AXt9IFKi1IZ4DlmO7BIA9NJACa9Yn8PefGYTM8HV+6ApcXE9njwfobdrbqwzijhAFCl7
+         fT4w==
+X-Gm-Message-State: AOJu0YxzJrW5Gwxn3Q6rhGqca1LdxwbyP4cScqUDJrKV2hdyStITo8/4
+	My7HdYwg+M2GX+v3XSBKz9W1LYF7s5aJNj4sU0soUJuZ2JSaet0zRwMjwsC1yDd0BNZ4O9dot8N
+	tL4BCKcgPX+wSewaGK+R1daGTN8AENoA2bHs79+pxobVJmyWBFoM=
+X-Google-Smtp-Source: AGHT+IEnzM9GLMu/7vjzCMGJnD9vDyBRlEYm2gdQM/wp75tAyGUnF4e4sJ0OuyS5acBqWZ16ia76BLPi4dGgFJcyzZg=
+X-Received: by 2002:a05:6512:3a95:b0:512:ec79:3be5 with SMTP id
+ q21-20020a0565123a9500b00512ec793be5mr1900158lfu.43.1709658176805; Tue, 05
+ Mar 2024 09:02:56 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 5 Mar 2024 09:02:56 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 5 Mar 2024 09:02:55 -0800
+MIME-Version: 1.0
+Sender: Jordan <jordan@webtechresearch.com>
+From: Jordan <jordan@webtechresearch.com>
+Date: Tue, 5 Mar 2024 09:02:56 -0800
+X-Google-Sender-Auth: 2SeecyTLPdu2KchYa11aPcikBD0
+Message-ID: <CAKuTQ1e8zxiLr0b52Z2_8dkDfG18Bs5pkisUTBX-5BQdcpnsPw@mail.gmail.com>
+Subject: untroubled.org Errors
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="00000000000050f72a0612ecd043"
+
+--00000000000050f72a0612ecd043
+Content-Type: text/plain; charset="UTF-8"
+
+Hi untroubled.org,
+Hope you are doing great!
+
+This is Jordan, Business Analyst with WebTech Research(An age-old Digital
+Marketing Agency operating over 10 years in the global market having its
+main office in AZ, USA. We exist for such a long-only because we follow
+ethical business practices)
+
+My team discovered a few issues on your website which are affecting your
+online presence, user experience, and ranking.
+
+Do you want me to send a detailed analysis report with screenshots?
+
+Awaiting your earliest response.
+
+Regards,
+Jordan
+[image: beacon]
+
+--00000000000050f72a0612ecd043
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"tahoma, sans-serif">Hi=C2=A0<a href=3D"http:=
+//untroubled.org">untroubled.org</a>,</font><div><font face=3D"tahoma, sans=
+-serif">Hope you are doing great!<br><br>This is=C2=A0</font>Jordan<font fa=
+ce=3D"tahoma, sans-serif">, Business Analyst with=C2=A0</font>WebTech Resea=
+rch<font face=3D"tahoma, sans-serif">(An age-old Digital Marketing Agency o=
+perating over 10 years in the global market having its main office in AZ, U=
+SA. We exist for such a long-only because we follow ethical business practi=
+ces)<br><br>My team discovered a few issues on your website which are affec=
+ting your online presence, user experience, and ranking.<br><br>Do you want=
+ me to send a detailed analysis report with screenshots?<br><br>Awaiting yo=
+ur earliest response.<br><br>Regards,<br></font>Jordan</div></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2rms33PM7_aE=
+ZAu0bNipa-KN2EnTpyCbqeGXYi3E_R43xdZEPjgHWwoKboNoKUiHrlXjL823EyaVCpKZsZfciIX=
+3MZyK3wsRgLmXX6kClOXRa-eBPnfz4R03tocBHnKdpJpBctzGr8Nf8vynAQI-5UoDyI8kbs5q-U=
+g" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--00000000000050f72a0612ecd043--

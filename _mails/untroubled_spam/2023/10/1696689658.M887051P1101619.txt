@@ -1,0 +1,75 @@
+Return-Path: <josie.holfman@4dayworkweek.biz>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1119510 invoked from network); 7 Oct 2023 12:58:39 -0000
+Received: from mail-ed1-x543.google.com (mail-ed1-x543.google.com [IPv6:2a00:1450:4864:20::543])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 07 Oct 2023 12:58:39 -0000
+Received: by mail-ed1-x543.google.com with SMTP id 4fb4d7f45d1cf-5334d78c5f6so5328038a12.2
+        for <bruce@untroubled.org>; Sat, 07 Oct 2023 05:58:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=4dayworkweek-biz.20230601.gappssmtp.com; s=20230601; t=1696683517; x=1697288317; darn=untroubled.org;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=0S/YrrpFdbrk/Urwgst2aCRLqEL4nF/UcSjfmR1L6fo=;
+        b=oRUpGc4l/gQl76cZ+sX1L3ZRS9eoyftvwqCIkTut1Kw5+qKIpkPe70DVPn66htYowp
+         uPY1Kot+D+bvCnDQ9VhwXhBDj6EE0EyA7oUrzJaNwyYmvh/GFd8qUEh1nCDElarZe0Ar
+         DklXZ6n82KFd5HaFYZFUUhN4SLuH+jA3LUFLW0dLfWDL6B0xOyHXdCa/crxnupBp2q43
+         JLwlKveY8klHHDUTlJtgAlIoN3i92968JPs0U9n4gsJc3RCiLjVBCd3upxfz/cNBkFq6
+         ww9J3n3xmtD+W1kQs12TMBduPs75puGMFu56ZuQfuo3GAeBmPSxf0edPmLeZgzWnFmF/
+         h8Tw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1696683517; x=1697288317;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=0S/YrrpFdbrk/Urwgst2aCRLqEL4nF/UcSjfmR1L6fo=;
+        b=jFmSBQg49mHrHEySO/ncnTBNS3SQtl9fI9hgWoC+FvCKea4fZK/+C3aYdwOGejelT7
+         VLX0SDU4YuoQx0ersLCIbwOKi4EXovhPG8wo0OZQjbYPMniFw+l+5FJWS3kFufo9zbGI
+         LSc0d2tzj5DWCUmpxHoNdLtQWAg9k/rBlc453IcyDtWZqQP359JyuEOPL3rd86FKqn6v
+         1EuGWdUUEVtARzFiXnItpvR22YitMqHdXnkR345Ah2Bpa61o502d4nhn41DUpWEyRa1I
+         qpOEfrUl5k1S18gocH3s+7Ys06bV3KYPSXsaNMmiXy0y7UZfBYN5EQFOCN+vATPwBYNZ
+         UA5Q==
+X-Gm-Message-State: AOJu0Yw4Oxpjy7F1iSYGNySnqeD3pLhYmI0MqBZfXzIXQqF4ylx2GVjO
+	O89NNY2i6vSvpxtPqG/aYXYyjkl1N1owCa22EIEtEGjvPuYY7qsxg7bHZw==
+X-Google-Smtp-Source: AGHT+IH3sqZNTEBJE+9tTVlPK9q/0CzlJR04W1wdr7T/8Lg1b6kxTZGNSD2gZzxdFVdFcYv+7d++Z7L4TwgJxfHdkNA=
+X-Received: by 2002:aa7:d6d8:0:b0:530:46c:8e36 with SMTP id
+ x24-20020aa7d6d8000000b00530046c8e36mr8676025edr.17.1696683517113; Sat, 07
+ Oct 2023 05:58:37 -0700 (PDT)
+Received: from 989915118652 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 7 Oct 2023 08:58:36 -0400
+MIME-Version: 1.0
+From: Josie Holfman <josie.holfman@4dayworkweek.biz>
+Date: Sat, 7 Oct 2023 08:58:36 -0400
+Message-ID: <CAP=CA12KgQr9r-NPVj7a_7kExb3hsFXwFJcRvUxFdAQW_9RDWA@mail.gmail.com>
+Subject: Please review my article pitch
+To: bruce@untroubled.org
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Good day!
+
+I'm reaching out to explore the possibility of guest posting on your
+website. I=E2=80=99d like to write an article discussing the creation of a
+successful and efficient team of freelancers from different parts of
+the world.
+
+Navigating the world of remote work can be quite an adventure, and
+when geographical distances enter the equation, it presents an even
+greater challenge. I'm convinced that sharing insights into the most
+effective approaches in this area would be of great benefit to your
+readers.
+
+If this topic resonates with you and you=E2=80=99re interested in my guest
+content offer for your site, please reply and let me know so I can
+send you the article.
+
+Thanks for your time today,
+Josie Holfman
+4DAYWORKWEEK.biz
+
+
+P.S. If my proposed topic doesn't resonate with you, please feel free
+to share topic options that would work better for your website. Your
+input is valuable to me. If, however, you prefer not to receive any
+further communication from me, please let me know, and I=E2=80=99ll respect
+your decision.

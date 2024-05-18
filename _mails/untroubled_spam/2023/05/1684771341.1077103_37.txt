@@ -1,0 +1,115 @@
+Return-Path: <>
+Received: from 10.217.145.203
+ by atlas107.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Sun, 21 May 2030 12:55:32 +0000
+X-Originating-Ip: [209.85.208.182]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.182 as permitted sender)
+Authentication-Results: atlas107.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sun, 21 May 2030 12:55:32 +0000
+X-YMailAVSC: PS1HpbM3bBtZ9ZuksaIXWQyc3ChZLRDUDU6j00WhNd9lIjb
+ QKdxVrJ5bvGJPhi.wTHV1xrkpPD65d5N4PI3109Ojpj7H3WgyuP85xdhfvfN
+ ZGRhkVQqfdvZ2FHwSbFnFS1bWlp2LNhL.ZeZhfrDNa_hAss2DpHckVcnZQYU
+ Efwwxa_6awuye90Q37ABj6rQ98azvIhY5icUSgdzomWLeMJ2rEwjMRvdKXRZ
+ 6SAu1wJDTK8e03dUkgHSNeOsIbUs88eghJk9qKDR9z1FV9pJC3BTe60JiHhn
+ LDwlNMLIU1azgFiZu3LpYZ5V0Lcdp9Hu.A3cWcaUvDkpwpdmb_xOPeS8dUat
+ EdDUHZDWkjoMS1h0dMA1_TRYxjgjQAhVoGRf4tEzZjDPeq95GENOdiIFd4yB
+ RKVZFOFp2hZIlI.MSXRTmqnG9wzVTm9ifmd1XQm.ZVlUwzMn2dxMMVD5bsXq
+ dTonhXzEUuGQsO5IjGqnSZ5QYU_krcoEOl4sRYY1o6uNrOgspi.64uCmgOZf
+ cZS_AqEqtUyjVkf.YuH1W9wbtyR8AFLkfDaVCVUiRmEeYJtotnwOBGcmkMZR
+ _jMMEtpeWO8NLlKXekrCLT8WTLGU2Kv4ySpL_dVp8VYuAa2JjGGK49Ux0_tX
+ BtEo6TBhvstvh6yrPD5LqJdKqLRo1JAegZ4PRdnopE3D8VOVMURn02yD87M8
+ rNLVKDrpjFDsqU0UV7hZ_g_fm57c2Vnp.0flyxBGpUhhXewv5273AjNzLQYe
+ mei5zJw_Vg.HZHksvJJh.g.PupHzB4l2pECdHv.DdYn7O83igBQKQ3RA.6_c
+ OuMnbWxJbQtLfAD5Mv.vssMbUuaZ891393bPCcgyjg7rqMRGXaVvbLiD_74t
+ d5zHrdk6g_koq7eIYYvKBp2JW066ViA33eI.eQpYhi.6.xuD4xcs2pgYX2tx
+ W0s0D3fy6vYIdda4Cp0P9qlPE0P18aw9eygn.QCrgqs6UaLA.rDA9pY4SHWW
+ A5CAXJKAisRj8FiAEnMfN.hXDlj0bA0clKupbH4ZRN8.FUMc66oHhcp.YIzt
+ Mq8losEkfmAgoX5LhWuU-
+X-YMailISG: AHohhswWLDvWvyJecgqlEyr4I5esJH9vG1JDpmCRWA0LTRjs
+ r57Vjkv7YlgY6b2a2OUNxil.5nnXttG227AaAlOLTb4IjTpd_qtcWMEqc5H4
+ UlQiKqhB.tDHY.DCVkv9nA.L74b9P2oXuBeUdPx1ddJLvEtDGGnSCUxuxrHu
+ I_hvqf0VQvwMTyJp72jVC_7dVnf7ZbNzjaA4bhrIZrWL8U0HuuY7cRjtlL8W
+ XCIYIGJctbgbPqNwb.PxvJE3VQj_aJRnPJYDBrWu9i71dxwcetu6Tt61I7Hw
+ VNpoLt08R1sPV3Gxn4Csbd8YAhsMQf2m9_huNpYYA6H7suwX8CuqRGozZFW.
+ qHng23NW0K_5RwUitE2XSfpZOpQL3Ls.3WL78wvuFJYMPGv5f8yNY6wXmdoZ
+ 7.L9sRPcJSEDDxCzh0vCqTyqg5GOKWOgtxgXb2uLxc6psimk5B4xx2RbmTac
+ VI_v19.3vxV2DNpXPQ9adumfW7eH9oUj1NbFaiWd0iqEaXyFeqUtGTCi3KkY
+ jIWdi0N5hjtHnCw7dG2EyJ_mNYb5EBagjW7Pl23TkUS7pVezasxf_EJreE93
+ _j2TSENIQYKpvgo9JBGwc7M5ap6h.CcL8pll5ni62FNzBJ80sEYIRAHcO6T_
+ rIjB3ofllsCudoDyo2VwbsCyhsClAxId2qCSQEwsf0RBYaFnb_xqwkmbWBsU
+ 2fhINBRIlzNgmGNw3wgC6IpaGFlMWeJvzKwFSOWnBRd.vlTrR2auQ0bfuGET
+ aOOUUkEqfqBPy7Ww_4kzkho_fvsO3l.Eyom5UQnDUaCEboENa.kv_dKqsd1i
+ RGIYHBQ1XBLF28y1Omlax1F4dA9oAc25.CfJMib8kO7O.liH9I2U8ZQDHECp
+ YKCz6v8UibkjBm75Ep2y9b4QXK8ILosDvkKNAcFbo0HdEOH91XQJ7Rz_yf7H
+ t5Dgpr8ILVVYIT5QoBfk1us5Lq.tWztfZqyKK0sztORmHre22c.UUaMp35Nb
+ ZiNCNok.2U2sRqvM5I_.JyfWtn615X5q9tZvnEtyjH6cJXWXJpw6vFPIsHfj
+ qS48YZhCHtGvP4PlAhMNzUWt_po4ZS2mY5HIhvghxnjV4wEPG552q9zbhwc7
+ e0Fd0yYpQa1rS9Db
+Received: from 209.85.208.182 (EHLO mail-lj1-f182.google.com)
+ by 10.217.145.203 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 21 May 2030 12:55:32 +0000
+Received: by mail-lj1-f182.google.com with SMTP id 38308e7fff4ca-2afb2874e83so3902921fa.0
+        for <bruce@untroubled.org>; Sun, 21 May 2030 05:55:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684673730; x=1687265730;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=7BUWl4fKLVdvRRfhIf0Ed01h4ScUHG5XjfPIQ+2BJck=;
+        b=QJU6gjgpniv7NuUNWgJr4JCadvP0zVry7FvERl7DUGRbKGFO4ubRPohBOle8DPTATT
+         3QYUi1fmlcw/Sh+m44Z9+qmtvlZBBb+DLfOXHRwC+CPnO+UzLWEGqf7bnRaQQHCAji+s
+         ddY3OEaiSEFecS6yjp5OM1qR/gGBfuGw9Fr42laS/iCp+7Nfh5xqNt6Y6FQWDr00En66
+         vDEvDOkJEdieh7910ERz1Gtd665oEbhMxaML0x0daFYPuHvxPqweBoLuhn4UewjUDqJ6
+         D8F8fuUOVqebJ9vZF0LecQHcnNy3kwxKLYdal3ITDe9xK1b3MkP5gFLIbX4sSX52O+uA
+         TAfA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684673730; x=1687265730;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=7BUWl4fKLVdvRRfhIf0Ed01h4ScUHG5XjfPIQ+2BJck=;
+        b=kaskWeGtsscd6Y2kXBjEfomFznNaaS2ZZEJPgTW6log5a6tIMrEiWe73am26gadi4d
+         Q87QL0HC8qJWN6omCvScvJwMCY8UwY+K4pFS5++njsPJRV5agibfiVnot4ngOj8UJtCk
+         hEhyd8VCNf5/MvUvK21pQzSmv3h0Obc2P33MZRTvGjXZ7fNRIaSQaltsuO7La1kavL1P
+         pRNlcW9OKwDSjKLJjzbTWfE5a5GYd+4wS8eezKwiueLlSxT82tdHcIj7pTB8MK3mA2S4
+         40RsWBZNaA80bjunImqPAiot/UmfWJns4WXw/5qg0NOsbdFx0hQPYznXw47LEf10ZJ78
+         Me3g==
+X-Gm-Message-State: AC+VfDz5C7gEI//z5LZ5nFM0r7hVOnIJ9rDcQ7ACykJHesYwfTGerv9U
+	pJ1Ahsb+JrHK/cSkzRwqDwp585mJm3fPfg/iHmdViboE
+X-Google-Smtp-Source: ACHHUZ6/tXWuIDMkbonCY5Hk/GqTBBka0ljKWkxdJhg4Xk6NoG3C3DWUEMz/Hzeoyn2eMP7QQ5/UdwhXb7PgjHph0tE=
+X-Received: by 2002:a2e:854f:0:b0:2ad:bdb7:b4c3 with SMTP id
+ u15-20020a2e854f000000b002adbdb7b4c3mr2667741ljj.22.1684673730503; Sun, 21
+ May 2030 05:55:30 -0700 (PDT)
+MIME-Version: 1.0
+From: Your Canvas <bruce@untroubled.org>
+Date: Sun, 21 May 2030 14:04:19 +0100
+Message-ID: <CAPrzedW08aMrd0X0dQgEWNEgqdVQJhfyBQjd_kby5FdBWgnXz@mail.gmail.com>
+Subject: Surround Yourself with the Best Moments! | Up to 93% Off Custom Canvas Prints.
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 1963
+
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UGN0OWxhTDkyUU1XMk5hTStCSHJkU1liMk5pSk5oRFRNS2xtODJOa3A0WlMwSE45bFJaYmNNdjJLQ3lXcFBidzVJOHQrbWg5RlQyZS9NOC9NL2NIaE80cmJITnUva1N2UFZvRk0xSFpSdVg0cnNIY3JxQzJOU3o2a3J0SnltZ3lHNnZicTM0Uk5ZRGhCT2NPRjB4bDd3PT0_"><font
+      size="6" face="Verdana" color="#0abbe0">Turn Your Most LOVED
+      Memories Into Art!</font></a></p>
+<p style="text-align: center;"><a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#UGN0OWxhTDkyUU1XMk5hTStCSHJkU1liMk5pSk5oRFRNS2xtODJOa3A0WlMwSE45bFJaYmNNdjJLQ3lXcFBidzVJOHQrbWg5RlQyZS9NOC9NL2NIaE80cmJITnUva1N2UFZvRk0xSFpSdVg0cnNIY3JxQzJOU3o2a3J0SnltZ3lHNnZicTM0Uk5ZRGhCT2NPRjB4bDd3PT0_"><img
+src="https://pbs.twimg.com/media/FwqR9dXWcAIYL1e?format=png&name=900x900"
+      alt="Having trouble viewing this email? Click here for a web version." moz-do-not-send="true" width="600" height="750" border="0"></a><br>
+  This is an advertisement.<br>
+  This email was sent on behalf of Easy Canvas Prints.<br>
+  To unsubscribe, <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#QkZQc3gxWVNjTktBMVZOVStpdlY0TEpjSUw5dUdDTjl5ZzF2Y3VIWXh5Ymp1SnNiMnBoOXkwT2grMGRZdXVmdzFMRTREcm1WYXNITHZtL0hFSFo3V0JCdWdzcktiS2R1UExaUjhjRTZwejVNbE1OamoyL0ZQMGpmZkVCbWNqdkNET0Zlc2ZEcXpiMGNtL1V3Z1pLTFRBPT0_">click
+    here</a> or write to:<br>
+  11525A Stonehollow Dr. Suite 100 Austin, TX 78758</p>
+<br>
+<br>
+<span
+style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click
+  <a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#T2ZubFlmNktkOXlqdkpRWXhrYW42REhOSFlQWC96VWlOK01EMDJ3QlA1cFdsZlBrTnlTUHZMQ0M5Z1I2amJEK05IWlVBTzBGRHpzeGNrNmZQaXNzWTlBSFdpK0lYSThtR21LcFFzRHJjRGlMU1V2ZXRKams4dTFnaUthbHFsdmc0QWN0THJnYS85NGpwdFM2Z09qejd3PT0_">here</a>
+  to remove yourself from our emails list</span><br>
+<br>
+<p></p>

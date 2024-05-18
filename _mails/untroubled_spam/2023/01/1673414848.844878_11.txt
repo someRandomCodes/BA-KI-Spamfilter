@@ -1,0 +1,353 @@
+Return-Path: <mcdonalds_app-bruce=untroubled.org@brgrs-crisp.info>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim;
+ d=brgrs-crisp.info;
+ h=Date:From:To:Subject:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ i=mcdonalds_app@brgrs-crisp.info;
+ bh=H0Uv/JFrG2Sx/hIVIqFaORXg5IA=;
+ b=LwFOaUQt5WREmNZwS0di5pZ3ZDZF6KgLi6dyEZ0YCsw7YZRYqcY1+ssze7sXTAW0hy8pZFJwt9w2
+   moJO7HZDYw6iCqPfp36TgYTwS1AmiVSTaljY1b/1zyTOosO23N4Vmd/5SOqlA4HvaO7EejaXYj2V
+   viWdCnNAqT6yNHHUVx8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=brgrs-crisp.info;
+ b=UOA1O4WW6K8owlmEUDTNG3PcGhzL48RrfTXmskqmjIR2PWuHKm4XrKc6s82mLibG6W+E1rWBGv76
+   j2NbGzisdtGMTPaf+FZsM14tLOVsHQUmm7blenNROgm8CDaFMCXqthZpEfLK+Ne8LBGNhtbwopEr
+   OJehwhzfIv3L+Sj6ZBI=;
+Received: by mail.brgrs-crisp.info id hno2ve0001gs for <bruce@untroubled.org>;
+ Tue,
+ 10 Jan 2023 19:30:07 -0500 (envelope-from <mcdonalds_app-bruce=untroubled.org@brgrs-crisp.info>)
+Date: Tue, 10 Jan 2023 19:30:07 -0500
+From: "McDonalds App" <mcdonalds_app@brgrs-crisp.info>
+To: <bruce@untroubled.org>
+Subject: Today is national meal day, here's a token of appreciation
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_193_318417129.1673396978981"
+List-Unsubscribe: 
+ <http://www.brgrs-crisp.info/redirections-codified/26a6RW239N5pv89D12D1u1nYO10bch21rFv4GIf4rxvs4FhIHEsvZ7MQZdRdQ6P1RTR05GyMwD>
+Message-ID: <0.0.0.15.1D92553DB63DDF8.107D05@mail.brgrs-crisp.info>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 8256
+
+------=_Part_193_318417129.1673396978981
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" /> 
+  <title>w3newbie HTML Email</title> 
+  <style type="text/css">body {
+			Margin: 0;
+			padding: 0;
+			background-color: #f6f9fc;
+		}
+
+		table {
+			border-spacing: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+		}
+
+		
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background: #f6f9fc;
+			padding-bottom: 40px;
+		}
+
+		.webkit {
+			max-width: 600px;
+			background-color: #ffffff;
+			Margin: auto;
+		}
+
+		.outer {
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+
+		.outer tr td table {
+			width: 100%;
+		}
+
+		
+		.logo-row td {
+			Margin: auto;
+			background-color: #F6DDFA;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 180px;
+		}
+
+		
+		.banner {
+			width: 600px;
+			max-width: 100%;
+		}
+
+		
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			line-height: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+
+		.three-columns .column {
+			width: 100%;
+			
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.padding {
+			padding: 15px;
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
+		}
+
+		a {
+			text-decoration: none;
+			color: #388cda;
+			font-size: 16px;
+		}
+
+		/* content data */
+		.content-data {
+			padding: 10px;
+		}
+
+		.content-img {
+			width: 150px;
+			max-width: 150px;
+		}
+
+		.content-title {
+			font-size: 17px;
+			font-weight: bold;
+		}
+
+		
+		.social-row table td {
+			background-color: #FFFFFF;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.social-row p {
+			font-size: 18px;
+			color: #ffffff;
+			margin-bottom: 13px;
+		}
+
+		.social-icons {
+			width: 30px;
+		}
+
+		
+		.footer-row td {
+			background-color: #efefef;
+		}
+
+		.footer-row table td {
+			padding: 20px;
+			text-align: center;
+			padding-bottom: 10px;
+		}
+
+		.footer-logo {
+			width: 160px;
+		}
+
+		.footer-row p {
+			font-size: 16px;
+			Margin-bottom: 10px;
+		}
+
+		
+		.sub-row td {
+			padding-bottom: 25px;
+			text-align: center;
+			Margin: auto;
+		}
+
+		.sub-row a {
+			font-style: 13px;
+		}
+
+		.bottom-line {
+			height: 20px;
+			background-color: #F6DDFA;
+		}
+
+		@media screen and (max-width: 600px) {
+			img.third-img-last {
+				width: 200px !important;
+				max-width: 200px !important;
+			}
+
+			.padding {
+				padding-right: 0 !important;
+				padding-left: 0 !important;
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			img.third-img {
+				width: 200px !important;
+				max-width: 200px !important;
+			}
+		}
+	</style> 
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <div class="webkit"> 
+    <table class="outer"> 
+     <tbody> 
+      <tr class="logo-row"> 
+       <td> 
+        <table> 
+         <tbody> 
+          <tr> 
+           <td>&nbsp;</td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+      <tr class="banner-row"> 
+       <td>&nbsp;</td> 
+      </tr> 
+      <tr> 
+       <td> 
+        <table> 
+         <tbody> 
+          <tr> 
+           <td class="three-columns"> 
+            <table class="column"> 
+             <tbody> 
+              <tr> 
+               <td class="padding"> 
+                <table class="content"> 
+                 <tbody> 
+                  <tr> 
+                   <td> 
+                    <div style="font-size: 45px">
+                     <strong>Mc Donalds</strong>
+                    </div> <br /> <span style="font-size: 23px; line-height: normal;  ">We value your feedback and appreciate your loyalty to Mc Donads. That's why we want to invite you to participate in a brief survey about your shopping experience with us.</span><br /> <br /> <a href="http://www.brgrs-crisp.info/springiest-Ophiuchus/5764z2395F8zH612A45fbJi10bcg21vFv4GIf4rxvs4FhIHEsvZ7sQZdRdQ6yq1FK05p@lwD"><img alt="" src="http://www.brgrs-crisp.info/4c15Q2I395o7jOa12g4u5fdQ10bcS21XFv4GIf4rxvs4FhIHEsvZ7KQZdRdQ7GrG1n0F5cU@wD/Cleveland-apothegm" style="width: 100%" /></a></td> 
+                  </tr> 
+                  <tr> 
+                   <td class="content-data"> <p style="font-size: 23px; line-height: normal; text-align: center">Your input is important to us and will help us improve our stores and the products and services we offer. As a thank you for your time, we are offering a chance to win a $100 <strong>Mc Donalds</strong> gift card to one lucky survey participant.</p> <p>&nbsp;</p> &nbsp; 
+                    <div>
+                     <a href="http://www.brgrs-crisp.info/springiest-Ophiuchus/5764z2395F8zH612A45fbJi10bcg21vFv4GIf4rxvs4FhIHEsvZ7sQZdRdQ6yq1FK05p@lwD"><img alt="" src="http://www.brgrs-crisp.info/a434X2395DhY7a13N45Ufuez10bcP21gFv4GIf4rxvs4FhIHEsvZ7aQZdRdQ6n1Ds0G5OqywD/foodstuffs-disfigures" style="width: 100%" /></a>
+                    </div> <br /> <br /> &nbsp; 
+                    <div style="padding-left: 8%; padding-right: 8%">
+                     <a href="http://www.brgrs-crisp.info/springiest-Ophiuchus/5764z2395F8zH612A45fbJi10bcg21vFv4GIf4rxvs4FhIHEsvZ7sQZdRdQ6yq1FK05p@lwD" style="text-decoration: none;color: #FFFFFF"><span style=" border-radius: 8px ;background: #FF1418; padding: 25px; display: block;text-align: center;font-size: 35px"><strong>Go And Start Now</strong></span></a>
+                    </div> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+             </tbody> 
+            </table> 
+            <table class="column"> 
+             <tbody> 
+              <tr> 
+               <td class="padding"> 
+                <table class="content"> 
+                 <tbody> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                  <tr> 
+                   <td class="content-data"> <p class="content-title">&nbsp;</p> <p>&nbsp;</p> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+             </tbody> 
+            </table> 
+            <table class="column"> 
+             <tbody> 
+              <tr> 
+               <td class="padding"> 
+                <table class="content"> 
+                 <tbody> 
+                  <tr> 
+                   <td>&nbsp;</td> 
+                  </tr> 
+                  <tr> 
+                   <td class="content-data"> <p class="content-title">&nbsp;</p> <p>&nbsp;</p> </td> 
+                  </tr> 
+                 </tbody> 
+                </table> </td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+      <tr class="social-row"> 
+       <td> 
+        <table> 
+         <tbody> 
+          <tr> 
+           <td> <p>&nbsp;</p> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+      <tr class="footer-row"> 
+       <td> 
+        <table> 
+         <tbody> 
+          <tr> 
+           <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+          </tr> 
+          <tr class="sub-row"> 
+           <td> <p style="margin: 0; font-size: 12px; text-align: left; letter-spacing: normal;">&nbsp;</p> 
+            <center>
+             No longer want to receive e-mail from us?,
+             <a href="http://www.brgrs-crisp.info/8814J2395A8F6L12K4Z5fcq10bcK21SFv4GIf4rxvs4FhIHEsvZ7iQZdRdQ6d10ORt5kp1wD/wandered-guiding" style="text-decoration-line: none;"> <span>Visit-This-Way </span> </a>
+             <br /> 126 E 23rd St New York, NY, US 10010
+             <br /> 
+             <br /> 
+             <br /> <small></small><style></style><style lang="disjoint"></style><small><font dir="Orkney"></font></small><font></font> 
+             <p>&nbsp;</p> 
+            </center> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+      <tr class="bottom-line"> 
+       <td>&nbsp;</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+  </div>   
+ <img src="http://www.brgrs-crisp.info/2874N2395Y8Go512m45fnfQ10bcJ21kFv4GIf4rxvs4FhIHEsvZ7rQZdRdQ5PuV106MlMUwD/speech-securing" alt=""/></body>
+</html>
+
+------=_Part_193_318417129.1673396978981--
+

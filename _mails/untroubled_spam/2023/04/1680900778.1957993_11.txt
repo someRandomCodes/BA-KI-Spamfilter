@@ -1,0 +1,82 @@
+Return-Path: <marklee29@dmatexas.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1950092 invoked from network); 7 Apr 2023 14:06:30 -0000
+Received: from mail-pj1-x1043.google.com (mail-pj1-x1043.google.com [IPv6:2607:f8b0:4864:20::1043])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 07 Apr 2023 14:06:29 -0000
+Received: by mail-pj1-x1043.google.com with SMTP id nh20-20020a17090b365400b0024496d637e1so4331258pjb.5
+        for <bruce@untroubled.org>; Fri, 07 Apr 2023 07:06:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dmatexas-com.20210112.gappssmtp.com; s=20210112; t=1680876388;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=aIxz3MiYjd0+JWj7mAdLT8WvcUvvwKXrV0LS2waJD7A=;
+        b=box8yrPNVaD4DbhcSjxycvBdMGtIzGM6+JuV7qjoU0rS8k5eBqsREqkILx0JONrvss
+         bE4KVX/arc7+5LA5u0USMiKJuPp3sFl55ogSavbV+D+QzXRE7W3TjYkVkrx9pDbdphUB
+         3k8Ln4O9chznfeRB0PVo0ruxL2DZHqocbfYeOwc4RNVb0Na0BvspKW5gcmLbmxRioHfP
+         /20c6oTnUrY8LhnHDAKI0F7MB/0cOslFCFMPAhpSOfLlrHXRIsMMiXE01cPdtytCBvLB
+         EHRWwTTQNjv2MqFQKg9gRII7yod+5KVzk9itQ4BDf11jUoicd1J6P8kCkkTFv2mgmxMG
+         2t7A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1680876388;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=aIxz3MiYjd0+JWj7mAdLT8WvcUvvwKXrV0LS2waJD7A=;
+        b=ZfNlEOSTGCWtGvghZT4HWRW8K+WVCV3nFhdLsXQIw+f5oXhZVnxU/8ztPl+jamRr4F
+         qiD9WLkZ2ARQoeCysDYSB0N1LOHE07k9bSUi7Tsj5jFLOYu0GrDzRGARY5iyiFotYrim
+         If6VCZvffPPB+3kZgv70FK40EfUIrKOfunUMAkMPMWZXWtP9Ll14etj6k+J08eQ4v3v/
+         27gvB1Tp6+vjqOcfK+jRDBK/C+3gnBShmgx6yJCGicSlsOqVn25RTj0yWrUjWBfFurHR
+         JTWujNjzV+7rCClFwYSyZ+s6oZN4s/jqUx2H3Cj/R99O3z+IWM9YVmQgYxIb3DBu6ry4
+         nNqA==
+X-Gm-Message-State: AAQBX9dgo9WAjGSlO0O+5cxHm+QrjM9CqZyJLTKp5Vh06ZbbXJRnEc+H
+	RyMM+7OpuMTY+/iT0dKzlnKM1vKL5K2NcPEhKlpVcw==
+X-Google-Smtp-Source: AKy350bsE7YoeeTfsn+KzgV0PEOirjqxYOR8gslSAxeCurrXJQsatE5IHrj6JNmqXkAtkzG4sKHM8Q==
+X-Received: by 2002:a05:6a20:b547:b0:de:d3ce:9d14 with SMTP id ev7-20020a056a20b54700b000ded3ce9d14mr2867528pzb.60.1680876388148;
+        Fri, 07 Apr 2023 07:06:28 -0700 (PDT)
+Return-Path: <marklee29@dmatexas.com>
+Received: from DESKTOP6QH7NHO ([203.81.242.116])
+        by smtp.gmail.com with ESMTPSA id 11-20020aa7924b000000b0062dee0221b2sm3107083pfp.21.2023.04.07.07.06.26
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Fri, 07 Apr 2023 07:06:27 -0700 (PDT)
+From: Mark Lee <marklee29@dmatexas.com>
+X-Google-Original-From: "Mark Lee" <mark@pulpsysmail.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Reply-To: marklee@pulpsys.com
+Date: Fri, 07 Apr 2023 19:36:10 +0530
+Subject: Re: untroubled.org domain errors
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DESKTOP6QH7NHO5a08295a6ea340628c8943ef796a57a7@DESKTOP6QH7NHO>
+Content-Length: 2003
+
+Dear Team at untroubled=2Eorg,=0D=0AI hope you are doing great today=21=0D=
+=0A=0D=0AI=27m not sure if you knew that your website untroubled=2Eorg ha=
+s some problems that you might need to consider looking into=2E I spent 2=
+-3 minutes on your website and found those errors, which I have listed be=
+low:=0D=0A=0D=0A- It doesn=27t work properly on mobile phones (60 percent=
+ of visitors browse the web from mobile these days)=2E=0D=0A- Rendering i=
+ssues found on different devices (desktop and mobile)=2E It doesn=27t adj=
+ust properly when you resize the screen (Google rrecommend responsive web=
+sites)=2E Some of your site contents look disoriented and unformatted on =
+mobile devices=2E=A0=0D=0A- It=27s hard to read on larger displays=2E  (Y=
+our viewer might have issues reading the contents)=0D=0A- The design can =
+be improved to put the site ahead of your competitors=2E=0D=0A=0D=0AAn in=
+credible site can be a great source of business development=2E A poor sit=
+e can cause harm to your brand=27s reputation=2E=0D=0A=0D=0AI actually do=
+ web design for  living, so I figured to reach out and let you know that =
+there is serious room for dead easy and affordable improvement=2E=0D=0A=0D=
+=0AI can develop the website on a more advanced platform at an affordable=
+ price=2E That price also includes making it fully mobile responsive, whi=
+ch will support all modern devices with a wide variety of different scree=
+n sizes=2E=0D=0A=0D=0AIs that something you=27d be interested in? Reply =22=
+YES=22 to get the detailed plan/proposal to fix the above mentioned issue=
+s=2E=0D=0A=0D=0A=0D=0AThanks =26 Regards,=0D=0A=0D=0ASincere regards,=0D=0A=
+Mark Lee =7C Business Development Manager=0D=0ACall=2E: +1 (806) 275-9759=
+=0D=0ASkype: business=40pulpsys=2Ecom=0D=0APulpsys LLC =7C =A0www=2Epulps=
+ys=2Ecom=0D=0A=0D=0A=0D=0A=0D=0AP=2ES=2E If you prefer no further emails =
+from us, reply with =22REMOVE=22 in the subject line, or you can unsubscr=
+ibe at: https://pulpsys=2Ecom/unsubscribe/=2E
+

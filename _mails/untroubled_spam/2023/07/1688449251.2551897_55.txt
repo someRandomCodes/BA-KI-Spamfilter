@@ -1,0 +1,158 @@
+Return-Path: <christine@webtechresearch.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 2493326 invoked from network); 1 Jul 2023 07:44:52 -0000
+Received: from mail-wr1-x443.google.com (mail-wr1-x443.google.com [IPv6:2a00:1450:4864:20::443])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 01 Jul 2023 07:44:52 -0000
+Received: by mail-wr1-x443.google.com with SMTP id ffacd0b85a97d-313f1085ac2so3028757f8f.1
+        for <bruce@untroubled.org>; Sat, 01 Jul 2023 00:44:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtechresearch-com.20221208.gappssmtp.com; s=20221208; t=1688197490; x=1690789490;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=viWGgfRh1SxAwIX1CVifw+xqiAyJw450aHSS/1AC1uA=;
+        b=vlBSp7EpVSNgt9x+gUTwpV/355OgqO5kdMf11eJmZBAPONFEMRq/2tu+l4w+h9gTKi
+         VU+T7kPCJZNMpYkiTqqIFVNuL2uhbJFSDE8vqtRaArjjRYlzhTRgt/FE0MLNdlbYudUR
+         Epou2mnob1RtLc5XPb5PvbsymLuAOViDxWad2hQOEuw/S1s55q3zJHo8LSj1lTHw8quy
+         Z7omwEFQ1LIT0U8IohMSfdZSe7uhWtlIVfsvA8RL2vUvZq5NDziQIl5tbI6GorjvtFrm
+         ADG25YeDodTaEgeDPuGT3bQZnfFIQESBjAylUSbbLUrZMwO7Iuv3fgdvenoBTtTHiQSX
+         m+wg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688197490; x=1690789490;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=viWGgfRh1SxAwIX1CVifw+xqiAyJw450aHSS/1AC1uA=;
+        b=QQVjZ5u6kA7O1IQX2kEZdh2TIC24WqL7ENV0gqBAGunj4Ht1XB41blasE4vQsbK9o6
+         a/ncapai7/nq9Pk+NPowjBjAauh+RO5gI5wPI+4xIB4letdnb6ytkccUBk6BANILZ4kv
+         gc5vJQJ1eCoviNi+yd3JWILhpoeiH4juPn9WAC3Qzvc+YgQWf+BsRws0i+LlE/ngukv1
+         fRBuUKN9yUioLaWOI2+o9FieLAjkD9XzTUedWXVaQ5O4XIjc07EJRaWJwplUEHIRW/gO
+         o3U/RKhOc3M7ZtJAaF9mvokwILP7z4D1ylxDi+pdreEIZ3FIhU2YQ5H5ogyD0+kq3wsX
+         PvFA==
+X-Gm-Message-State: ABy/qLbOm9cLlfKvyrl7Oju4JfjQplKVPbm7yyCFZRkwdbDUv2gp0zp7
+	TE44pw8ffwofAzpDRCZft9yXM0POevcX1YP1Rgy8NvLDaZjEZLew/6Y=
+X-Google-Smtp-Source: APBJJlHgJJjSis0xzzHgh8nu7K/kZPxBgIel2t+EILGv1Q8OoAwg0dWly1XF502vtw8pOxPVlhOUYTrw6xOMtU+kvS0=
+X-Received: by 2002:adf:e40b:0:b0:313:e9dc:44d5 with SMTP id
+ g11-20020adfe40b000000b00313e9dc44d5mr3619307wrm.61.1688197489531; Sat, 01
+ Jul 2023 00:44:49 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sat, 1 Jul 2023 02:44:48 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sat, 1 Jul 2023 02:44:46 -0500
+MIME-Version: 1.0
+Sender: Christine <christine@webtechresearch.com>
+From: Christine <christine@webtechresearch.com>
+Date: Sat, 1 Jul 2023 02:44:48 -0500
+X-Google-Sender-Auth: 5MY9Ns-T-OPSTe9wmQvB6pbSfMY
+Message-ID: <CAK7mfZrF25EYnXk1p11guoPrYwqC-PHHj0Fx105W+4SjXpY9Mg@mail.gmail.com>
+Subject: untroubled.org : We can increase the number of visitors!!
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000acb87d05ff681b8f"
+Content-Length: 6343
+
+--000000000000acb87d05ff681b8f
+Content-Type: text/plain; charset="UTF-8"
+
+Hello untroubled.org*, *
+
+Hope you are doing well.
+
+I was looking for Keywords and found your website is Not listed on top
+Google. If you were on page #1, you'd get so many prospects/new clients
+every day. Most of your targeted keywords are on pages #3-5. You're so
+close! Do you mind if I sent an *SEO Package* and *Price list* of your site
+to see why you're not on page #1?
+
+I can send the *past work details* And *Website Audit Report* in a couple
+of hours. If you have any questions, feel free to ask me. I have more than
+10 years of experience in digital marketing.
+
+Can I send it over?
+
+Look forward to your reply.
+
+Kind Regards
+
+* Christine*| Business Development Manager
+
+----------------------------------------------------------------------------
+
+P.S: Reply back with us "*Interested"* and get the best SEO Proposal and
+quote for your website.
+P.S: This is our marketing strategy. We use Gmail id/Marketing mail ID,
+after a reply, our sales team will follow the corporate company email.
+[image: beacon]
+
+--000000000000acb87d05ff681b8f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"margin:0cm 0cm 10pt;line-height:13.8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:13.5pt;fon=
+t-family:Arial,sans-serif;color:rgb(33,16,74)">Hello <a href=3D"http://untr=
+oubled.org">untroubled.org</a></span><b style=3D"font-size:11pt"><span styl=
+e=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,serif;color=
+:rgb(33,16,74)">,=C2=A0</span></b></p><p style=3D"margin:0cm 0cm 10pt;line-=
+height:13.8pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D=
+"font-size:12pt;font-family:Arial,sans-serif"></span></p><p style=3D"margin=
+:0cm 0cm 10pt;line-height:13.8pt;font-size:11pt;font-family:Calibri,sans-se=
+rif"><span style=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&qu=
+ot;,serif;color:rgb(33,16,74)">Hope you are doing well.=C2=A0</span><span s=
+tyle=3D"font-size:12pt;font-family:Arial,sans-serif"></span></p><p style=3D=
+"margin:0cm 0cm 10pt;font-size:11pt;font-family:Calibri,sans-serif"><span s=
+tyle=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,serif;co=
+lor:rgb(33,16,74)">I was looking for=C2=A0Keywords=C2=A0and=C2=A0</span><sp=
+an lang=3D"EN-AU" style=3D"font-size:13.5pt;font-family:&quot;inherit&quot;=
+,serif;color:rgb(33,16,74);border:1pt none windowtext;padding:0cm">found yo=
+ur website is Not listed on=C2=A0top Google</span><span style=3D"font-size:=
+13.5pt;font-family:&quot;Bookman Old Style&quot;,serif;color:rgb(33,16,74)"=
+>. If you were on page #1, you&#39;d get so many prospects/new clients ever=
+y day. Most of your targeted keywords are on pages #3-5. You&#39;re so clos=
+e! Do you mind if I sent an=C2=A0<b>SEO Package</b>=C2=A0and=C2=A0<b>Price =
+list</b>=C2=A0of your site to see why you&#39;re not on page #1?</span><spa=
+n style=3D"font-size:12pt;font-family:Arial,sans-serif"></span></p><p style=
+=3D"margin:0cm 0cm 10pt;font-size:11pt;font-family:Calibri,sans-serif"><spa=
+n style=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,serif=
+;color:rgb(33,16,74)">I can send the=C2=A0<b>past work details</b>=C2=A0And=
+=C2=A0<b>Website Audit Report</b>=C2=A0in a couple of hours. If you have an=
+y questions, feel free to ask me. I have more than 10 years of experience i=
+n digital=C2=A0marketing.</span><span style=3D"font-size:12pt;font-family:A=
+rial,sans-serif"></span></p><p style=3D"margin:0cm 0cm 10pt;font-size:11pt;=
+font-family:Calibri,sans-serif"><span style=3D"font-size:13.5pt;font-family=
+:&quot;Bookman Old Style&quot;,serif;color:rgb(33,16,74)">Can I send it ove=
+r?</span><span style=3D"font-size:12pt;font-family:Arial,sans-serif"></span=
+></p><p style=3D"margin:0cm 0cm 10pt;font-size:11pt;font-family:Calibri,san=
+s-serif"><span style=3D"font-size:13.5pt;font-family:&quot;Bookman Old Styl=
+e&quot;,serif;color:rgb(33,16,74)">Look forward to your reply.</span><span =
+style=3D"font-size:12pt;font-family:Arial,sans-serif"></span></p><p style=
+=3D"margin:0cm;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"font-size:13.5pt;font-family:&quot;Bookman Old Style&quot;,serif;color:=
+rgb(33,16,74)">Kind Regards</span><span style=3D"font-size:12pt;font-family=
+:Arial,sans-serif"></span></p><p style=3D"margin:0cm 0cm 10pt;font-size:11p=
+t;font-family:Calibri,sans-serif"><b><span style=3D"font-size:12pt;font-fam=
+ily:Arial,sans-serif">=C2=A0</span><font face=3D"Arial, sans-serif" style=
+=3D"font-size:small"><span style=3D"font-size:16px">Christine</span></font>=
+</b><span style=3D"font-family:Cambria,serif;font-size:13.5pt;color:rgb(33,=
+16,74)">|=C2=A0</span><span style=3D"font-family:&quot;Bookman Old Style&qu=
+ot;,serif;font-size:13.5pt;color:rgb(33,16,74)">Business Development Manage=
+r</span></p><p style=3D"margin:0cm;font-size:11pt;font-family:Calibri,sans-=
+serif"><span style=3D"font-size:13.5pt;font-family:Cambria,serif">---------=
+-------------------------------------------------------------------</span><=
+span style=3D"font-size:12pt;font-family:Arial,sans-serif"></span></p><p st=
+yle=3D"margin-bottom:10pt;text-align:justify;line-height:12.65pt;margin-rig=
+ht:0cm;margin-left:0cm;font-size:11pt;font-family:Calibri,sans-serif"><span=
+ style=3D"font-size:12pt;font-family:&quot;Bookman Old Style&quot;,serif;co=
+lor:rgb(53,28,117)">P.S: Reply back with us &quot;<b>Interested&quot;</b>=
+=C2=A0and get the best SEO Proposal and quote for your website.</span><span=
+ style=3D"font-size:12pt;font-family:Arial,sans-serif"></span></p><div><spa=
+n style=3D"font-family:Verdana,sans-serif"><font color=3D"#20124d">P.S: Thi=
+s is our marketing strategy. We use Gmail id/Marketing mail ID, after a rep=
+ly, our sales team will follow the corporate</font></span><span style=3D"fo=
+nt-family:Verdana,sans-serif;font-size:12pt">=C2=A0company email.</span></d=
+iv></div>
+<img src=3D"https://webtechresearch-dot-yamm-track.appspot.com/2Wum_pjnbPBS=
+AI62AqH99oaq77fNaGImUEXSSHRFUOdgrV2kQiQHcPRjiF4_WqPEkqXgjmGWMnMOnqpw11hmR6c=
+3e0wWncnntlmBtrBQWUIUbQ-nZIMibKuLH87IYGqjkqTgQ_H98fRLrPgtCC4Ts2-fuDMLz900BZ=
+T8-" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display=
+:none!important;">
+
+--000000000000acb87d05ff681b8f--

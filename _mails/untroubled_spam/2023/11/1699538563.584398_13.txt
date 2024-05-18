@@ -1,0 +1,184 @@
+Return-Path: <Naomitaverasseoservices_web@outlook.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 572115 invoked from network); 9 Nov 2023 05:19:02 -0000
+Received: from APC01-SG2-obe.outbound.protection.outlook.com (mail-sgaapc01olkn2029.outbound.protection.outlook.com [40.92.53.29])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 09 Nov 2023 05:19:02 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=YUFuuJ4eMq3j3l2R04G9cL5B++c+gfQBvuATDFhLrVDmT5NkpoFXV4S21RoI1AE2mAOxMYxko3iy2lOj903GM+ko0RGtbRjcj1pAlrkGB2SfUW13FUegVM0LdgjMoKvfDhHmuGQczPcAygfvx/MDaFRLfzAWCnVryiFBvdgNZM3m8BMey12wTETwrSjqGi8xAIZs66gPPuAcWUDkOMpzALHMtWvHvAYtIuCieP9WUmv2UYNs68GhyI3MVq8ppe8yu132xtH7TFqg/fWzlbJsmrHGkir4opX1I/GUNAaiWrM2cIUHjSJtdk1OxMaA9SFCFXa1TTsDxCXzC44XSHakMA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=+WpJLNT9t9TC0ldHJvs9Ou4Iqn97N507OChoquv5oJg=;
+ b=EqjMwlPpFRuz+gGMoK1lc3uC5Ft0mGJJrCyuqrhyHJh2GZ085dLDe+tgZClMd50MdJECzf+qTaOCGALi7iZJH0q012ClPW+9qWdQdXR6LHb5w0ohjxbQWJ1Do7IwzhiHL8rnePfFlDTrzknuhHIrrL5k7puok1rU0SBECIVrvg3sy4pVtk8Qaxj24j7n5RT/w0EWRj3Nnx1H6mXs4vRzSFNNKqxlsGDMHFIJNEg+r6LnWTBOBHEWXcT+PXh1eCKIikCdpNhV2wYi7zckVwNXqsQPwFLoFOS+Ka34pUtb+3bxIKpA+UnURSOFNoUvTz2NJGSt+FP9Bdb52Cv02fIJ0Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=+WpJLNT9t9TC0ldHJvs9Ou4Iqn97N507OChoquv5oJg=;
+ b=cnhlV7r6Kwwnjd/9IQVbPEssGsBig9yJquSgUTbHztpR1p1rnxnRW1292IStvaeqXvpXXDbeB9WAuEcO+6a0ihKxMeyR+ayBRj+Fk0fYuGKkNMmrjwfgUOo1jLElt326QK2gw+0xt0CirJGXNL+irh0hFdI8tCCpfWLxP+4S/f4EQeLW+YLD8I4RugqLop5GWwL5/yY94xJ5RV+HAds1nv/9TEPNFdLMf8C765W3uE2BS2UyxkW4J0FiHuYtcf9KwonEXXPWRhDhKRs2wc6OV4DOuIQKU6FgRpUvL0Pdsqju5k1vVFlEtIz6BRCZU73X0CjBV1bFs7ikjyfpr3uAHQ==
+Received: from SEYPR03MB7293.apcprd03.prod.outlook.com (2603:1096:101:13b::13)
+ by SEYPR03MB7094.apcprd03.prod.outlook.com (2603:1096:101:db::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6954.29; Thu, 9 Nov
+ 2023 05:18:06 +0000
+Received: from SEYPR03MB7293.apcprd03.prod.outlook.com
+ ([fe80::4271:b92:42c5:1c91]) by SEYPR03MB7293.apcprd03.prod.outlook.com
+ ([fe80::4271:b92:42c5:1c91%4]) with mapi id 15.20.6954.028; Thu, 9 Nov 2023
+ 05:18:06 +0000
+From: David Smith <Naomitaverasseoservices_web@outlook.com>
+Subject: Web Designing Proposal
+Thread-Topic: Web Designing Proposal
+Thread-Index: AQHaEsuhal8Vw0+B20+pJ/kOqc2opA==
+Date: Thu, 9 Nov 2023 05:18:06 +0000
+Message-ID:
+ <SEYPR03MB7293F0F952E628890DA861CE86AFA@SEYPR03MB7293.apcprd03.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn:
+ [dH+KkPNiTG5Zpd8o1QrqDi4Xzgr7e7drk4jLFNGNx/hTROywIsreQe0Oeohk1IJ/o7JY3+dZr6c=]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEYPR03MB7293:EE_|SEYPR03MB7094:EE_
+x-ms-office365-filtering-correlation-id: fda70679-01d3-41e8-c7d1-08dbe0e34152
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ lgbBiQ+Tc8i5fvHsh0fiQN+wlCDMrPIkfJ+YoMyNBaNU7U197DaBYF1THzMtK2pWYhxoVI1xcLngv3ojPnrmeEEoDLCbbBv60DO65lCzfI1zpRfUj+VsixyT5XT5KvkVb7LhJluvcDmWkVNoqfhY0gQh6rKn/l5KDkYiXiLqhPt/hMxn5dn4Q4QAikaPlyKF9tj8TbQCYZ0W29UFuKDau3InTKxnZWWbshsL3hMBmfUdYvPNg/YQ9CSVzBI9L7nmlLzBk99OPvKl0kXVh11rq4nc2A155m/fkFYepWvHixy8zU0MfCIh9Q2xNRx1IxtR5ZaW3vHdJLA2njbZ3SPWm1L2u7NIpaBVlPpfcWB0BC2tmltNonCFYrebt9dyUaRYAc4fvG7Q7W25PAC5wseb5vhYZcFFrY7khQFRF1Ekm2DiMEO8emAcxOA4zwnkZ38LSdeZY2AjjrJnlooaD6PFR+9zP/hB+EwRa0LDsU7Z659M1sxgfBAQ0VenXtCQEb5HZrh/CwTGjLAIofD1Eq+fFIFS1BsrGxapQXAxhbhFut7oPJJWAmEtbULWP85vmu3x
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?B+sLH01STNpEUhvTUzvK+ESACGteE2UzV9w6zULka1INigTPgI/I95NWjC?=
+ =?iso-8859-1?Q?/FxY3Ik7Yq1wrb3EBOwXb7G2GV5+ghbtXA/26f48pHogorcK0QMjstRT3k?=
+ =?iso-8859-1?Q?9CGuuy+TMymDrpa9gxSzGS8iK6PI5Usc84tq708S0S7nFyFiGYsxdyWoSE?=
+ =?iso-8859-1?Q?dcZjh3jAeBUgTlwtooONJT8FGXoM3kKkD8kQUeCnH+M8nycE73VtSPpo/T?=
+ =?iso-8859-1?Q?qIbIgtu0TCBfuz+Eb+IjwuHrSkk3l8av3iWW1LlEhFf2dJX3Aw5wPBG7+9?=
+ =?iso-8859-1?Q?j0gopVxmvI3xQXX5eG8638UzoJZfC4cC8ArKRcyX+AwxRCJKIJnUwpQz2F?=
+ =?iso-8859-1?Q?NncCRvUwsPpFMe1otgy77r/9OkVFXOsMIwV2a7V9aiyZ0kfqp3t5dPb1Sc?=
+ =?iso-8859-1?Q?RVA66cayuJI9MCreOzdvJvlWFh3L2RFudcMw6Z2+D2U/LtEH/rKXR/ysPq?=
+ =?iso-8859-1?Q?HSp/nclZQmkYsD6C142IkKggIbKOnjFeXSewf/tAyPDZ4ThnJj4V6K2U1A?=
+ =?iso-8859-1?Q?rP1R4IhHwbZl483TqJasyZwghNXWl2s+Jn0lYZNf7TyRkx0h58K7BFQ2J0?=
+ =?iso-8859-1?Q?27al52ohl83jR/vbVORiYl97eiTZzKcvBPjeYC6sK/hBafZZIliVUDAsV0?=
+ =?iso-8859-1?Q?+99GayUjNvlwNNa5X53HPX5kRG1SgzUB7IyLnj+8Yp8vLRLyr9/Jp8oEfG?=
+ =?iso-8859-1?Q?eKDZJeNTahH0CS5J0SkfqV6Pb7R39wERW2E+S8mxXNIQjXmzwFB0aIjX7X?=
+ =?iso-8859-1?Q?Lb3eF6TTSj89Sgw8VY5FDycm6UAOPgzRTGK90ztFvXs+p46PiiunvPVpCk?=
+ =?iso-8859-1?Q?3vqwwR6Fkg0V8tNSY49p+fNyfXxRXDC0jSQdx9bYYp0tDRrqP4eNh3oFib?=
+ =?iso-8859-1?Q?ssmmH5S9pDiXVTaZxBbKIqF9KTyKaLW89NS/fIecEiwcyM2w6SzJ/+CQHR?=
+ =?iso-8859-1?Q?EPG0/ut+YzLB99feMGZ0QgDJGWQS/wJvov21wBlR6v5qJGYoiVchaxsmPT?=
+ =?iso-8859-1?Q?BGNgMgALia9a8LJb2FctsrVKXIwIVBETZwVfxdipUa7jsBze0FcrcFZLFa?=
+ =?iso-8859-1?Q?XzfSFToHEpJfnRuM3XYjnFgnqO0wOve8RW23wFN2Xeo9w+6cFOBaFDtDKD?=
+ =?iso-8859-1?Q?7A14v+fpoE9tmvM3wtB9YeNDlSJ3NySiq4i/CGv+owVygDzWo5fjyc+v+i?=
+ =?iso-8859-1?Q?HXn1+um4iN3BxlsI3RZE23JghkRGwaRM6s/ls79GQuhE3FVfu0Ms4YBBpC?=
+ =?iso-8859-1?Q?pILl2d9oPAQh7k5oUM0huNRrmt8YGZBmIO3XTQzKQZTIe3wgySmyG57E4d?=
+ =?iso-8859-1?Q?LM1FChbJAX4Afnr8DNiOEAFE2X53aL4HtiGWImV7FMB7lSdB3VkMOoMqVb?=
+ =?iso-8859-1?Q?GnXywbNgI1u8FXmHuaxRSyOZL/XgpNoQ=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEYPR03MB7293F0F952E628890DA861CE86AFASEYPR03MB7293apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEYPR03MB7293.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: fda70679-01d3-41e8-c7d1-08dbe0e34152
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Nov 2023 05:18:06.0815
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR03MB7094
+Content-Length: 2393
+
+--_000_SEYPR03MB7293F0F952E628890DA861CE86AFASEYPR03MB7293apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I am reaching out to see if there is anything that would like to upgrade, r=
+epair or redesign on your site. I am a web designer/developer that can do j=
+ust about anything you can imagine at very affordable prices.
+
+Our Services: -
+
+1.  Shopify Websites
+2.  WordPress Websites
+3.  E-commerce Websites
+4.  Magento Websites
+5.  Drupal Websites
+6.  Joomla Websites
+7.  CMS Websites
+8.  PHP Websites
+
+I'd be happy to send some of our Designing and Development samples & price =
+list, if you'd like to assess our work.
+
+Let me know what you think.
+
+Kind Regards,
+David Smith
+Web Designer/Developer
+************************************
+
+
+
+
+
+--_000_SEYPR03MB7293F0F952E628890DA861CE86AFASEYPR03MB7293apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hi,
+<div><br>
+</div>
+<div>I am reaching out to see if there is anything that would like to upgra=
+de, repair or redesign on your site. I am a web designer/developer that can=
+ do just about anything you can imagine at very affordable prices.</div>
+<div><br>
+</div>
+<div>Our Services: -</div>
+<div><br>
+</div>
+<div>1. &nbsp;Shopify Websites</div>
+<div>2. &nbsp;WordPress Websites</div>
+<div>3. &nbsp;E-commerce Websites</div>
+<div>4. &nbsp;Magento Websites</div>
+<div>5. &nbsp;Drupal Websites</div>
+<div>6. &nbsp;Joomla Websites</div>
+<div>7. &nbsp;CMS Websites</div>
+<div>8. &nbsp;PHP Websites</div>
+<div><br>
+</div>
+<div>I'd be happy to send some of our Designing and Development samples &am=
+p; price list, if you'd like to assess our work.</div>
+<div><br>
+</div>
+<div>Let me know what you think.</div>
+<div><br>
+</div>
+<div>Kind Regards,</div>
+<div>David Smith</div>
+<div>Web Designer/Developer</div>
+<div>************************************</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_SEYPR03MB7293F0F952E628890DA861CE86AFASEYPR03MB7293apcp_--

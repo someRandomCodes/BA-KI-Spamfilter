@@ -1,0 +1,244 @@
+Return-Path: <a5kuku@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 565595 invoked from network); 22 Jan 2023 20:48:45 -0000
+Received: from EUR05-DB8-obe.outbound.protection.outlook.com
+ (mail-db8eur05olkn2098.outbound.protection.outlook.com [40.92.89.98])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 22 Jan 2023 20:48:17 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=UUpxIeYHpp6ZWRfWo3T6tpZUWjTlGRRIcmbh4llnNVAqPqsWektkdEuUEjVXD8kCw9T1Uynq7J7tXKZ+UoY3+m/2qBHUK8p/lFgm1DPqsZpqBIQsnImq5ehkbDD3/dcoBBgGQ0DGuU9vvy3FG0kH93hRdsHbihcQdS1Ukp6Pb5hcSHjTtPn+wzyOc/uSJTM1cxZm8cSP5aelNaVnT0YWpvkqqqtrvOcsqjUh6Z14wZPhJw6F9bL6Jl/jMk7fRU3+YnqE0UMo+/R7bbo2HgX9c614npx1+K6dzvARjCn/MwwMHaYBjYphRTqtcG0eDAuCrF+WnysIDXcS/+2Fl4uRrQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=NHQrDnnNn6yTAeDqeWM4QmY2tIp7MxM+wNx+ytq8mI0=;
+ b=gkBI1UvrJokm+OqVJwpWTwwse67PUmQYmIGspTaGjqH3dA1T/9e5eFdHwvCcyaWE2v5mDVsuh68dcXmXaLeS0iHI3Y8BZtQmpJM9SbKEl9Y8UmDUu8gnpcjNrbCF06IT8rBs7oBSv2b+qndw6IhTiiEyP9wEExXl0bGvZvaaukPTJuRDMxVe+MydzTOVrzmAQS9+pOiAFKwZmcAkIM7HMG/5ZbelQq9/8ZJPyGCCCm8osJrbifltHJJ89iXB6AbE8Pl90XE0xFUjghnhBMsNw4QCLRR2dsMEv+bECYJs6nuFGED4LRoFcRO2Xwt5baBvqiiw9aDgEQ3OSUv0hS9+ww==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=NHQrDnnNn6yTAeDqeWM4QmY2tIp7MxM+wNx+ytq8mI0=;
+ b=aBcGnZAADcCrgqr4CM5hQnckIOLffdOKlwoMa0aS4bosq/G5IovHyh75LVBLjKM8tQ7XZHmMOi6pLwTG/RS1lq0ey0gYJWzoI+GCmp04P46R9TxtyjJUxrCPREUdcZIqI/3Nfgr1CDoIHN54VgAp3LLer3bvJl9q7LmvRgLOZmsz8lSC3nrDT7xEGz2dHt56ixJb7HMAZQw8ytVyrH9jufU5MVhenQlRbdCDKZXOe8O+pGssbBZSD4YKZISEH1SR0sMkIViV9146wMn3E8AK+VJWRZb2jGnVVLqLoPemeooCpw05stf5oUkLGiTofQkIIYT/SZdoBs/YMJ3govqlSQ==
+Received: from VI1PR0602MB3597.eurprd06.prod.outlook.com (2603:10a6:803:f::31)
+ by VI1PR06MB5535.eurprd06.prod.outlook.com (2603:10a6:803:ce::25) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6002.33; Sun, 22 Jan
+ 2023 20:48:00 +0000
+Received: from VI1PR0602MB3597.eurprd06.prod.outlook.com
+ ([fe80::5017:a726:d551:6ba7]) by VI1PR0602MB3597.eurprd06.prod.outlook.com
+ ([fe80::5017:a726:d551:6ba7%5]) with mapi id 15.20.6002.033; Sun, 22 Jan 2023
+ 20:48:00 +0000
+From: Anthony kuku <a5kuku@hotmail.com>
+Subject: FROM: MR. ANTHONY KUKU
+Thread-Topic: FROM: MR. ANTHONY KUKU
+Thread-Index: AQHZLqLQMLlfxGqfWEuci7P01TKntw==
+Date: Sun, 22 Jan 2023 20:47:59 +0000
+Message-ID: 
+ <VI1PR0602MB359762AE8303CE3D4EBFF7439BCB9@VI1PR0602MB3597.eurprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+msip_labels: 
+x-tmn: [RFZg6Jx9ZVHWM25H5ykUwwriaTc7cpf8]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: VI1PR0602MB3597:EE_|VI1PR06MB5535:EE_
+x-ms-office365-filtering-correlation-id: 1c41eb3e-f69b-4c28-e54d-08dafcb9f311
+x-ms-exchange-slblob-mailprops: 
+ ZRuQdVKRmYsU3mQoG4gwB5vD4/YmnLnHrVYb609FThbdCgJGXW3x86YvLS2daSU0WGdWEII2Xb8cYOO8tbQ7IUzlYTIxbElBUsMQn+leu2ve1TvkKCMda0vd0twYHO9/MgcO0mP6xzYh3ViVVIr4fGz5O9jMF5Ce1ZUk+8i/A3bUXJ/toWhJkpSi9JIDEVCaz2UsZkXHJoPXhqgBq6PN34A7o99tRcx+6PeHTVkbLLPaXP6+i0M1QQV2LPxjdkmBjlONfBeC7eIdV2oCTuuxyfg+zN1U08+qr49diNvZrwEHTgFOsyxgZOciQccRvZ480dKHj7Jgr+f1UqodzjWdNNNvXs8G++Vw205u+WoDQ5ReSSzvZGFbLvi+SWHPBVJjB3JVbZbRSz4u1tDocDJTbJJ21oa5c4Q0XZu+YOzGIOyZ6VBZAwx2w3wHCACQSw83/7nUBXZgyFNTmq7bHUvit99I2Z3m74MAab1njSSTTo/feAq5zIHK5TANTOdB1dpOXjMu1xplJvYEmtj9G/HIYLPRglu5n77UwOyjZZmSuYl8U77iJb92xyrKK9HlNvAICmA4Cx2puhnNOrcuunfdzg1qmAc0gxgQpaYrEvyit5AVlghWtgBUY7eclahgBe3Hw5z8pQ83DMK86dCt7mgp9ZHzCYygLNWeLDwMzXPqMlNcxTXEvrxVDN/EkTDIV4s+dMXosCeyTAHVmH9/AoVJrBX6oCMiy3v7
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 
+ dqzYhAdp4th6/9uQi+PF3FoJCd8BcHyRrGHrTCQIstH798c3W/wG/DQZhVHdayPu5ayjhfSh/Rz1nab+BoFVOWkOaamKnnQQmKLmi+8GMtD1hjxr12ScAoLdZOmfg3K2OizQh+Ml7hbvzAOjGGdzHJRlv00WhlGEaFJTBzUdOCu4GReZrc5LgIznCKQbMoEmFPfjm4bfbiToIagQrb/S0Qv/todPEXLkCG/C46AOZ/15nRdxUiWjUj6+aO81fW8xTtJaPcaSA266G/FOr+xR1QtTKXyBzaXdEhquftBnwliGjUcmAGiUBGkd8q3ySdeBLOcm5MHlgcRU+WJ76Dpgg4YtrkIXNfeYSRdJ4E/GXpB3zmks6zSQrGC4wzA7ILSuVJsNPXZ5ATMCNGLYTBoshBQRzhVnmBOz8k4jvbq4AGfzOqya+9ebKWCnJzrbSS6jhVxgkSSMqut1iyjemlrvmt4zMwRg11vU6J694ffaGNVY+Q+T5mDPD0QWY2MKTiiMg7yB62Uipq95OAjtgmqhybEPQKMKTu06pu9RyfIckEo4xxj6tzezWwRi42EO3ekuRIRdk452UQapRaB56RazlnqmvrLrgo8c4u/rI7gdaGI=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: 
+ =?iso-8859-1?Q?wZNzRtacA3EDkJBL1Aav6/Vq2Alir//icVS6BwbuE3cvvJCdK2sHME5Glh?=
+ =?iso-8859-1?Q?uCT3IFt63IyMf4RxBkvW5KLXmdSfugMkV/Vpj97r9F3y437VWvcXsY6Xr3?=
+ =?iso-8859-1?Q?qmYuancWjKqd3SQL/3/4OLWWJsdIgQw0En2tN0j8iIDbg/pBA97alrnUGb?=
+ =?iso-8859-1?Q?mEJayW6v7zFDMuh6aW1261OMm4JSYl9mH19DY7sbbX1w4ndDXu55AohtlL?=
+ =?iso-8859-1?Q?s5j86l9hgIBjfyLDdm/6Jf46tCTUBN+s1bmRYW0s9UzQ9j0jG3yTADLRbe?=
+ =?iso-8859-1?Q?+ZCcbeW1e6DR3RAJYLmOL40mWCmlsWk1gvLYvg++wGLMSzQ+guR7Zxu3h8?=
+ =?iso-8859-1?Q?7gIdCSjP254Nw+YETgz9+q0UsE8/6Ahu4yDq9R0jJVbh+5GO/qKpkJCr3k?=
+ =?iso-8859-1?Q?IouXV18yeVis5kViJr+228TbUpt+gYaHTYG6j4w3B57LPJ9wGNGKOKQTu4?=
+ =?iso-8859-1?Q?jCYO1eD59VWcVnCBrHl6d5xX4x9UmnFp6dpBIuDtMbzp15YFfOyjxWEpnS?=
+ =?iso-8859-1?Q?8vOuabPg5k/cQcJsr48SK/kkYOBKDdYWjHGvstwVgQmx6qL/AFVVHTIFRH?=
+ =?iso-8859-1?Q?2QIn1I8igPg52iyG2+O6/nIGvE9pZ26Km4KJ3H8QQtCYUN/+bocmqMEMky?=
+ =?iso-8859-1?Q?8GEV28PlWUC79XfG27KxISEyl29pdTBNXByZNYFxynN+twrN2WNanhoUAl?=
+ =?iso-8859-1?Q?+1mqgeB/ZtJOqPddaC4B6OnHNRg6hRW20ZuEzoFA/PXc+tmuxKKd4JnoQA?=
+ =?iso-8859-1?Q?GQByCdvComRuuVYLbOCJmL7RTB3DGikAFTXZyB+Srel2eGZ+T2Z0rUkZvI?=
+ =?iso-8859-1?Q?+bKRsGtJxqQi0jv4lO8C7NGexYT9Y34wva8OXOIt+EYN6OWt28qQjwtALY?=
+ =?iso-8859-1?Q?PcO7cozsCWfezrWT5GOpHDLyTDfYRJPBRaXNCK5UHkQzZwHYpiOvq41pF9?=
+ =?iso-8859-1?Q?lmVEuRfrhAYU3zRGUn8sLDCJ/4on+zvUmlKDi+irCDR4wzQkFuSb9SyAGE?=
+ =?iso-8859-1?Q?q/vJMJPnhjpqrl7S66pfFdPY8H3xrxxKwXPeGYOZ1rQpVqOPcTnDKAK85Y?=
+ =?iso-8859-1?Q?YqZZ3wNCydieGkBZQ1x3BK48Wn+FRtNvrYo52WA0gSt/sTfHtsM7gThPwn?=
+ =?iso-8859-1?Q?dPYaNQ1GC+h7h4JEzeKlukMEzo78kLgjCi0IlOCwj6IH//G/afn384QMIs?=
+ =?iso-8859-1?Q?2ZadC+0QvzL915hFyZWu0fUbs35bZE7dgBDqO/mq9HtT5NQAVQPe8jqw1T?=
+ =?iso-8859-1?Q?olFAn34HcusI/HY8YfavUfwYD4jNkhEEPhk/3BpkhIcbIlDNco16XEX76t?=
+ =?iso-8859-1?Q?PuAR?=
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR0602MB359762AE8303CE3D4EBFF7439BCB9VI1PR0602MB3597_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-6e454.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: 
+ VI1PR0602MB3597.eurprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 1c41eb3e-f69b-4c28-e54d-08dafcb9f311
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Jan 2023 20:48:00.2907
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR06MB5535
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 6776
+
+--_000_VI1PR0602MB359762AE8303CE3D4EBFF7439BCB9VI1PR0602MB3597_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+FROM: MR. ANTHONY KUKU
+Tel:27-78-7806649
+Private Email: a25kuku@hotmail.com
+
+YOUR KINDEST ATTENTION
+                                   BUSINESS RELATIONSHIP
+
+
+I only got your contact details from the South Africa Exchange Information =
+On-line Service on my personal programmed search on the internet for a repu=
+table company or individual to assist me sincerely & confidential which you=
+r information & profiles were very satisfactory, so I decided to contact yo=
+u immediately.
+
+It is my great pleasure to write you this letter. Within the Department of =
+Minerals & Energy where I work as a Director of Audit and Project Implement=
+ation, I have in my possession an overdue payment in US funds. The said fun=
+ds represent certain percentage of the total contract value executed on beh=
+alf of my Department by a foreign contracting firm, which, I the official o=
+ver-invoiced to the amount of US$10.500, 000.00 (Ten Million Five Hundred T=
+housand US Dollars). Though the actual contract cost has been paid to the o=
+riginal contractor, leaving the excess balance unclaimed.
+
+Since the present elected Government is determined to pay foreign contracto=
+rs all debts owed, so as to maintain good relationship with foreign governm=
+ents and non-government agencies, we included our bills for approvals with =
+the Department of Finance and the South Africa Reserve Bank (SARB). I am se=
+eking your assistance to front as beneficiary of the unclaimed funds, since=
+ I am not allowed to operate foreign accounts.
+
+Details and change of beneficiary information upon application for claim to=
+ reflect payment and approvals will be secured on behalf of you/your Compan=
+y. I have to propose that should you be willing to assist me in this transa=
+ction your share as compensation will be (35%), and the balance of (65%) wi=
+ll be for me.
+
+The business is completely safe and secure, provided you treat it with Utmo=
+st confidentiality. It does not matter whether you/your Company does contra=
+ct projects, as a transfer of powers will be secured in favor of you/your C=
+ompany. Also, your area of specialization is not a hindrance to the success=
+ful execution of this transaction. I have reposed my confidence in you and =
+hope that you will not disappoint me.
+
+Your urgent response please. Thanks for your co-operation. Contact me on th=
+is number Tel: +27-78-7806649, Or Email Address: a25kuku@hotmail.com,      =
+for more information's.
+
+
+Regards,
+Mr. Anthony kuku
+
+--_000_VI1PR0602MB359762AE8303CE3D4EBFF7439BCB9VI1PR0602MB3597_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+FROM: MR. ANTHONY KUKU
+<div class=3D"ContentPasted0 elementToProof">Tel:27-78-7806649</div>
+<div class=3D"ContentPasted0">Private Email: a25kuku@hotmail.com &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">YOUR KINDEST ATTENTION</div>
+<div class=3D"ContentPasted0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp;BUSINESS RELATIONSHIP</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">I only got your contact details from the Sout=
+h Africa Exchange Information On-line Service on my personal programmed sea=
+rch on the internet for a reputable company or individual to assist me sinc=
+erely &amp; confidential which your information
+ &amp; profiles were very satisfactory, so I decided to contact you immedia=
+tely.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">It is my great pleasure to write you this let=
+ter. Within the Department of Minerals &amp; Energy where I work as a Direc=
+tor of Audit and Project Implementation, I have in my possession an overdue=
+ payment in US funds. The said funds represent
+ certain percentage of the total contract value executed on behalf of my De=
+partment by a foreign contracting firm, which, I the official over-invoiced=
+ to the amount of US$10.500, 000.00 (Ten Million Five Hundred Thousand US D=
+ollars). Though the actual contract
+ cost has been paid to the original contractor, leaving the excess balance =
+unclaimed.
+</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Since the present elected Government is deter=
+mined to pay foreign contractors all debts owed, so as to maintain good rel=
+ationship with foreign governments and non-government agencies, we included=
+ our bills for approvals with the
+ Department of Finance and the South Africa Reserve Bank (SARB). I am seeki=
+ng your assistance to front as beneficiary of the unclaimed funds, since I =
+am not allowed to operate foreign accounts.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Details and change of beneficiary information=
+ upon application for claim to reflect payment and approvals will be secure=
+d on behalf of you/your Company. I have to propose that should you be willi=
+ng to assist me in this transaction
+ your share as compensation will be (35%), and the balance of (65%) will be=
+ for me.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">The business is completely safe and secure, p=
+rovided you treat it with Utmost confidentiality. It does not matter whethe=
+r you/your Company does contract projects, as a transfer of powers will be =
+secured in favor of you/your Company.
+ Also, your area of specialization is not a hindrance to the successful exe=
+cution of this transaction. I have reposed my confidence in you and hope th=
+at you will not disappoint me.</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Your urgent response please. Thanks for your =
+co-operation. Contact me on this number Tel: +27-78-7806649, Or Email Addre=
+ss: a25kuku@hotmail.com, &nbsp; &nbsp; &nbsp;for more information's.
+</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div><br class=3D"ContentPasted0">
+</div>
+<div class=3D"ContentPasted0">Regards,</div>
+Mr. Anthony kuku <br>
+</div>
+</body>
+</html>
+
+--_000_VI1PR0602MB359762AE8303CE3D4EBFF7439BCB9VI1PR0602MB3597_--

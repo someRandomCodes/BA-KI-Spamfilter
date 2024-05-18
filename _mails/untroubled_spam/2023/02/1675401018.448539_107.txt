@@ -1,0 +1,192 @@
+Return-Path: <kelly.adams@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 295221 invoked from network); 2 Feb 2023 09:33:47 -0000
+Received: from mail-wm1-x343.google.com (mail-wm1-x343.google.com
+ [IPv6:2a00:1450:4864:20::343])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 02 Feb 2023 09:33:47 -0000
+Received: by mail-wm1-x343.google.com with SMTP id k16so888587wms.2
+        for <bruce@untroubled.org>; Thu, 02 Feb 2023 01:33:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=tR66YoXVJiOmDUPAjhbDMluolw+oVOUb1DlCRrU9VK4=;
+        b=jGUuQwm6dpxRYAx3sAPYp7/NsuEanVIuS8QTglqEMZmQ7m/rzVk0OHfGGKlglWVFc3
+         OwgIrXJr9ELPV2uSybwKMuVIRItW3cOBtDAFktsLsFRg0xHWGImq1vxCLXwQG2nc/G//
+         VTmWE7vJJKM+gQf1ilZMeN2Ii5yCV+wfSdjw7RDl8VW2lA8j9DKAKHf/iLY0PTmryieu
+         N6oYogPS3ls5XjPMT6VxauigjUSpsEIT0h5AV1SHd85ad/CO0k1pYdoqjHw5Y6Kr2Mb6
+         Mzgc8nvJkuEDg3WrnD+7mkEjSNH/IJIwkS3/7ck94RFWlriTSdz8bE0DwT6uIYO1LqAE
+         BEkw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=tR66YoXVJiOmDUPAjhbDMluolw+oVOUb1DlCRrU9VK4=;
+        b=LmmELwDmfSMntJTA/a+KDnJf3RmNv6FMospXrv6ixkpS7ziGKL7xzA1VWs5utMDffh
+         xoSySM7o9KEyAuwOj+7khm1aVt9844mBH6t1PKVxPQcBy/auOhrH3Bf0CYq75Y+ilbZc
+         yMiTbsSVrP8EQXdJwyGXBwBoOzJpLGgJJ+xSnsv887xGuSjJpUyM0aTHTUQOlFJdovbd
+         EktaI17LRvGCCA5ksR7JqnuEzmSpUlrlggiErMPnOqXqVIlmcRcvBEkfS/KL2ur41S2P
+         czqxxxX1Wsz4Mg3HZGG6tnDwljnjgziYaI4d1g7O9nCJlZWTLiFr1wnUmLL7zRGUP/vp
+         skcg==
+X-Gm-Message-State: AO0yUKWF/J9cw6BGmL9mvb8ehJwxK33jGhCjxw8VIWLYxmgWh+lJT5Gc
+	+1D0XnCBXn5rDXHJU/zGY5XQdHPJoywHhQXvMcyQe9KCnevoEg==
+X-Google-Smtp-Source: 
+ AK7set/A8XsW9TtRx9te+vuxyI+ao0ii5CGvkC1cmM9sSSuieN1gHAXr9Z47OqdJxAm2U0ZeP84orjvZqk67okx/xiw=
+X-Received: by 2002:a05:600c:4687:b0:3dd:4d51:775e with SMTP id
+ p7-20020a05600c468700b003dd4d51775emr155458wmo.61.1675330425623; Thu, 02 Feb
+ 2023 01:33:45 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 2 Feb 2023 01:33:45 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 2 Feb 2023 01:33:44 -0800
+MIME-Version: 1.0
+Sender: Kelly Adams <kelly.adams@globalgns.com>
+From: Kelly Adams <kelly.adams@globalgns.com>
+Date: Thu, 2 Feb 2023 01:33:45 -0800
+X-Google-Sender-Auth: Hj_wLNv8Q92ptrCA4BNvXboW7M8
+Message-ID: 
+ <CANVhppWSzbqrhiAuonTaF=sjB5P5DiZq0+78pdvbKLY3zeOq_Q@mail.gmail.com>
+Subject: Re : Website Re-design and SEO Request for Proposal : untroubled.org
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000e6961705f3b44226"
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 5880
+
+--000000000000e6961705f3b44226
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear *untroubled.org <http://untroubled.org>* Owner,
+
+Hope you are doing well !
+
+I=E2=80=99m a web developer who builds amazing looking websites for small
+businesses.
+
+*I=E2=80=99d like to have the chance to show you how I can improve for your
+website.*
+
+I=E2=80=99m an expert in the Word Press website, App, Digital Marketing pla=
+tform
+and many other platforms and shopping carts.
+
+*We can help you in making: -*
+=E2=80=A2          Creative web design
+=E2=80=A2          Re-designing and Re-developing
+=E2=80=A2          Websites: (Static -Dynamic-Shopping portals)
+*=E2=80=A2          Logo Designing*
+=E2=80=A2          E-commerce Solutions
+Etc=E2=80=A6=E2=80=A6..
+
+*Let me know if you're interested redesigning/redevelopment of your website
+or new development of website & looking forward to any of these above
+services, so I can provide you more information & full proposal with best
+cost as per your requirement.*
+
+*I'd be happy to send some of our created Website samples & price list if
+you'd like to assess our work.*
+
+I=E2=80=99m waiting for your positive reply.
+
+Best Regards,
+
+Kelly Adams, Web developer,
+
+*Polosoft Technologies Pvt. Ltd.*
+<https://globalgns-dot-yamm-track.appspot.com/2aKA_Nc1KvLEkpy0dJ_eW8230IcET=
+qTcifYFeGEzln01xj3kRhgHtDnhX3gTuVBqjW5VOdbkGQlf5vSKlPbK4gtxNR379rFq0j-g98tQ=
+2ely4EPTyQ4NnZg2hBvjDNVfYbNWbQpEsvEEqRdTk6GTPbNrfi1ozeBA2Gx1Uj5NgkEGFVigQZt=
+ACha0>
+808 Platinum avenue, Essex Baltimore,
+Maryland 21221
+----------------------------------------------------------------
+Note: If you are not interested, please email with the subject line "No"
+and I will be happy to update my database.
+[image: beacon]
+
+--000000000000e6961705f3b44226
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div id=3D"gmail-:5b" class=3D"gmail-Ar gmail-Au gmail-Ao"=
+><div id=3D"gmail-:6c" class=3D"gmail-Am gmail-Al editable gmail-LW-avf gma=
+il-tS-tW gmail-tS-tY" aria-label=3D"Message Body" role=3D"textbox" aria-mul=
+tiline=3D"true" tabindex=3D"1" aria-controls=3D":pv" style=3D"direction:ltr=
+;min-height:305px"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line=
+-height:115%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">Dea=
+r=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a></b>=C2=A0Own=
+er,<br>
+<br>
+Hope you are doing well !<br>
+<br>
+I=E2=80=99m a web developer who builds amazing looking websites for small b=
+usinesses.<br>
+<br>
+<b>I=E2=80=99d like to have the chance to show you how I can improve for yo=
+ur website.</b><br>
+<br>
+I=E2=80=99m an expert in the Word Press website, App, Digital Marketing pla=
+tform and
+many other platforms and shopping carts.<br>
+<br>
+<b><span style=3D"color:black;background:lime">We can help you in making: -=
+</span></b><br>
+=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Creative we=
+b design<br>
+<span style=3D"color:red">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0
+Re-designing and Re-developing</span><br>
+=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Websites: (=
+Static
+-Dynamic-Shopping portals)<br>
+<b><span style=3D"color:red">=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0
+Logo Designing</span></b><br>
+=E2=80=A2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 E-commerce =
+Solutions<br>
+Etc=E2=80=A6=E2=80=A6..<br>
+<br>
+<b>Let me know if you&#39;re interested redesigning/redevelopment of your w=
+ebsite
+or new development of website &amp; looking forward to any of these above
+services, so I can provide you more information &amp; full proposal with be=
+st
+cost as per your requirement.</b><br>
+<br>
+<b><span style=3D"color:red;background:yellow">I&#39;d be happy to send som=
+e of our
+created Website samples &amp; price list if you&#39;d like to assess our wo=
+rk.</span></b><br>
+<br>
+I=E2=80=99m waiting for your positive reply.<br>
+<br>
+<span style=3D"font-size:10pt;line-height:115%">Best Regards,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-si=
+ze:10pt;line-height:115%"><span style=3D"color:rgb(0,0,0);font-family:verda=
+na,sans-serif;font-size:small">Kelly Adams,</span>=C2=A0Web
+developer,</span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;li=
+ne-height:115%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><=
+span style=3D"font-size:10pt;line-height:115%"><a href=3D"https://globalgns=
+-dot-yamm-track.appspot.com/2aKA_Nc1KvLEkpy0dJ_eW8230IcETqTcifYFeGEzln01xj3=
+kRhgHtDnhX3gTuVBqjW5VOdbkGQlf5vSKlPbK4gtxNR379rFq0j-g98tQ2ely4EPTyQ4NnZg2hB=
+vjDNVfYbNWbQpEsvEEqRdTk6GTPbNrfi1ozeBA2Gx1Uj5NgkEGFVigQZtACha0" rel=3D"nofo=
+llow" style=3D"font-size:small;font-family:verdana,sans-serif" target=3D"_b=
+lank"><b>Polosoft Technologies Pvt. Ltd.</b></a><br style=3D"font-size:smal=
+l;font-family:verdana,sans-serif"><span style=3D"font-size:small;font-famil=
+y:verdana,sans-serif">808 Platinum avenue, Essex Baltimore,</span><br style=
+=3D"font-size:small;font-family:verdana,sans-serif"><span style=3D"font-siz=
+e:small;font-family:verdana,sans-serif">Maryland 21221</span><br>
+----------------------------------------------------------------<br>
+Note: If you are not interested, please email with the subject line
+&quot;No&quot; and I will be happy to update my database.</span>=C2=A0 =C2=
+=A0</p></div></div></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2Xg05d-qCNRwewSIFX=
+tYMr7NIFV1QKYdQ4TV_dTaf-IRsj3kRhgEYuOKISrYXa_0cbCGOMCOm_FK8yVTXgkRdSom_3rT0=
+k6qO4ywQzcKvSM6IsNqdJT_Juk8GOWykdfJ5ROiB3Tixic44IThradB9KP2098-4xunCnpyc08w=
+kvg" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display=
+:none!important;">
+
+--000000000000e6961705f3b44226--

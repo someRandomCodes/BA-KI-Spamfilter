@@ -1,0 +1,161 @@
+Return-Path: <shruti@redesign.asia>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 495767 invoked from network); 18 Jan 2023 12:14:23 -0000
+Received: from mail-pl1-x641.google.com (mail-pl1-x641.google.com
+ [IPv6:2607:f8b0:4864:20::641])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 18 Jan 2023 12:14:23 -0000
+Received: by mail-pl1-x641.google.com with SMTP id k13so4115580plg.0
+        for <bruce@untroubled.org>; Wed, 18 Jan 2023 04:14:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=redesign-asia.20210112.gappssmtp.com; s=20210112;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=8Mj0RhwhFQn8AUOfyYXQ+EYD8k7eUUTi9wOwOLObopI=;
+        b=BnoL9IpvyKoGWlMEAIjEo4q2dhsZoPY3zOQhsrN7x8bwCPbDbPivPCRw6N1XS53fHY
+         BiWgvMyUR6kKmcDb/tnVDSch8Mh3SMFvuxZFcUyJaf08qjoeiIKExdidm3BHbC5IiaHB
+         XwIkFcY4HfD0Fy2f2mXA6+aAGhlcQK8SKIRk6jSM3HwxKoLfhcWrbBjM1SJmE48je85Q
+         us9WX89xMRIRbQeGP8iLt6obgF4oxIdDsmVgm0EhmobrlPuQO1g2hyQvRxIa6tUag+36
+         NG+4GNFM3h3LUAOSVChJJnYzjY64uwNwWDLaYIr5FPFiGVpRyoIFqxeJevtNxR25jQWu
+         w13Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=8Mj0RhwhFQn8AUOfyYXQ+EYD8k7eUUTi9wOwOLObopI=;
+        b=ori5IdeDEpz+02uWxIRKXDyC3akR05tAOt4nMlkqubk1N6IEadw8ZduZ4j/xYE8qCh
+         8k+QB8LJBQhYRA9iPhFvCzPJ8QPeBd8AFx0xEbe6kpbOf/G0gp8ph/w2JXEf0KOqQxQE
+         rLdpNJh9ScqDRwvX/B4hzOz65LELBSNHgHGC/Ld9hxJ96WWgmu2jnz9M1BBdosDFOUxH
+         6HXowWfi8vODXTkYgPThwseQCOujx5BMQ7AJj0sFHfsHisfnhotqkMexJv1lIrLaDttg
+         VVCeRpyo0ucsxVcIOk689b37jLTSmPIw9FFCiXdGKiM5OHj8roxMVP3/+DuQr6eFPZr6
+         zlOQ==
+X-Gm-Message-State: AFqh2krQ6qWMZKbp4hSbg3hqqJX4Kp0hIAfVkAbHBhytUdpPaMMm5ZR2
+	TI/Y1uXaveMavAVcCtctR/ygnsjWqPJFHU9i
+X-Google-Smtp-Source: 
+ AMrXdXsYBrvq3d6vz86BUuS3fKunKIudW/huNAa/uwWPb5LR8q0lkiTKNFtICpWMgUdFitKm8ZbvBA==
+X-Received: by 2002:a17:903:30c9:b0:193:37a7:cc1c with SMTP id
+ s9-20020a17090330c900b0019337a7cc1cmr6725866plc.56.1674044061877;
+        Wed, 18 Jan 2023 04:14:21 -0800 (PST)
+Received: from twt ([122.161.66.137])
+        by smtp.gmail.com with ESMTPSA id
+ u7-20020a17090341c700b00186c3afb49esm22904133ple.209.2023.01.18.04.14.20
+        for <bruce@untroubled.org>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Jan 2023 04:14:21 -0800 (PST)
+From: "Shruti" <shruti@redesign.asia>
+To: <bruce@untroubled.org>
+Subject: App Proposal
+Date: Wed, 18 Jan 2023 17:40:42 +0530
+Message-ID: <39f801d92b36$66ac8170$34058450$@asia>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_39F9_01D92B64.8064BD70"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdkrMzKyxg6hJz3OQeOl24epGUHJ4A==
+Content-Language: en-us
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 3001
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_39F9_01D92B64.8064BD70
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi "bruce@untroubled.org",
+
+ 
+
+I hope you are good..!
+
+ 
+
+I am a professional Web Design & Mobile App, Developer, with 7 years of
+experience.
+
+ 
+
+Please share your requirement. It would be great if you can share your
+contact number WhatsApp/Skype.
+
+ 
+
+Let me know what you think.
+
+ 
+
+Kind Regards, (India)
+
+Shruti    
+
+
+------=_NextPart_000_39F9_01D92B64.8064BD70
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hi =
+&#8220;bruce@untroubled.org&#8221;,</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>I hope =
+you are good..!</p><p class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNoSpacing>I am a professional Web Design &amp; Mobile App, =
+Developer, with 7 years of experience.</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>Please =
+share your requirement. It would be great if you can share your contact =
+number WhatsApp/Skype.</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>Let me =
+know what you think.</p><p class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNoSpacing>Kind Regards, (India)</p><p =
+class=3DMsoNoSpacing><b>Shruti&nbsp;&nbsp;&nbsp; =
+</b><b><o:p></o:p></b></p></div></body></html>
+------=_NextPart_000_39F9_01D92B64.8064BD70--
+

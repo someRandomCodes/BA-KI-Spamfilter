@@ -1,0 +1,160 @@
+Return-Path: <blake@smartstreamingott.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1418648 invoked from network); 9 Feb 2024 09:29:18 -0000
+Received: from mail-pj1-x102c.google.com (mail-pj1-x102c.google.com [IPv6:2607:f8b0:4864:20::102c])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 09 Feb 2024 09:29:17 -0000
+Received: by mail-pj1-x102c.google.com with SMTP id 98e67ed59e1d1-296e22229b6so538336a91.1
+        for <bruce@untroubled.org>; Fri, 09 Feb 2024 01:29:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1707470956; x=1708075756; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=U3b1+jKixa9OP2viIek1TKLEg2BpOAkVPhXG3BQzRqc=;
+        b=oWPHH0dsbrfiFSQImPs6fVX8uqEk8R7rxsAZUGA8l9/IpObt52OPZ+h5MArrPdv0sK
+         7Yj7tvUDi2D0VNYe5wr9SOz1915V9xENNptxDXaTKrUk+43FjmyRNbCGOI5evSRT3kKP
+         27YhJDZc/+hutdvDDTRGrjLMyXla7aLXu6Ma4xBJqUY6nuBMSNmsYogag+qrsh7r+gd1
+         zYoFO5pm/DbGgAM8+ObjWeVRjNBdKfODN/y816ZE3TzEffq3EwTdhAAO39wXd4GMhGAe
+         DD5GxMDMinMLsCMWXqzwkJ3LT8QJ67UHOlntRcRmVjk8YGiYHBYGepweerIcsgnLfU97
+         6gOA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1707470956; x=1708075756;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=U3b1+jKixa9OP2viIek1TKLEg2BpOAkVPhXG3BQzRqc=;
+        b=Q07Xn+rkcvLKzpzLDOiKrUVr5O3PdEHvHvegHStpJNeosdqWazsYwyklRsG43IdNA1
+         CNUkGTggcNLXgxGgfZGGqyikWh0+juOlxS4O8MbDoN/I4QxH6tnZmPxCrU8Hehy2y1tK
+         xuFGDUTAUYybaB5/ZaGf13Gi/7bVEUjTvAKuJioxVPAYXB8Ur+CW1DNqs6orMITPupTE
+         N3Rn0HlKigugXq+BEILJWAqa0IsqLEnpyBkmZgyOjSNJVzM3ZRa6Dp5c3S7gmiLD+yMX
+         iNG7ihel8a2sUqvnbVyDcLcKAwgNNP2NOfCCxDYn18QAOXd/1Wp0mVHL5rH3gxnn8Fhd
+         z4Ow==
+X-Gm-Message-State: AOJu0YwKpLku00Qnaw9fHkAV95gTS2JnxzQwo1yjXs8J4ab2fBeQs2wL
+	c9XDr5fBNzOWZMU2BkRx8AxvQP+0v+NKQWNTUIonlLTWmBzIOjpJ14rzP5lkZ/DaHKnf51TkGjt
+	MrMzGsnHd5FwX/aymeVXWg9DAcLluLRygpLB7MzdIcChmvtQX
+X-Google-Smtp-Source: AGHT+IFatLCXDsPaA5Ah/VwRtIBweK5oqCAuubcGhHwDVsWtdtWak+/KWHKTAUZkOUvVNbto6GURJyL1LsIa2NuTbBY=
+X-Received: by 2002:a17:90b:46d4:b0:296:7d7f:7de7 with SMTP id
+ jx20-20020a17090b46d400b002967d7f7de7mr864743pjb.42.1707470956214; Fri, 09
+ Feb 2024 01:29:16 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 9 Feb 2024 01:29:15 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 9 Feb 2024 01:29:14 -0800
+MIME-Version: 1.0
+Sender: Blake <blake@smartstreamingott.com>
+From: Blake <blake@smartstreamingott.com>
+Date: Fri, 9 Feb 2024 01:29:15 -0800
+X-Google-Sender-Auth: sgZU_jAbjC-t3icxkrupj3vNcGY
+Message-ID: <CAOg9BchVO19BGO3UWiqRiQTWuW+su-C21xTObFTiScXG6Wxq-g@mail.gmail.com>
+Subject: Website Re-design and SEO Request for Proposal untroubled.org
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000cf4ae30610ef8f30"
+
+--000000000000cf4ae30610ef8f30
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>*
+
+I hope you are doing well there.
+
+I was just browsing your *untroubled.org <http://untroubled.org>*  and I
+came up with a great plan to re-develop your *untroubled.org
+<http://untroubled.org>* using the latest technology to generate
+additional revenue and beat your opponents.
+
+Please let us know if you are *interested *so that I would be happy
+to share our Work Portfolio, Client testimonials, and Service Packages.
+
+*You can share your Phone/WhatsApp number to reach out directly for more
+discussion.*
+
+Looking forward to hearing from you.
+
+
+
+Regards,
+*Blake Daniels*
+
+Web Developer
+
+-----------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe
+<https://smartstreamingott-dot-yamm-track.appspot.com/2ZUFP_2C1RoUgpEoGaIb5IgtrXzqU4OpQ5X95wi4FgmLyHzONjQGIkIqTjG-shaoAy3N142ARP-cGqBWXufMYIWd_fjsVn6_AufMwfG5qy5jmAzLhbBewrk1yG1Rsnbz4qVqO75vDcLvyf1HZnLAp4PyF-5rXT4NJnhcnTbvgO-uuv9oXGa_srY2vxMujuEgOjElW>
+*
+[image: beacon]
+
+--000000000000cf4ae30610ef8f30
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-he=
+ight:12.65pt;background-image:initial;background-position:initial;backgroun=
+d-size:initial;background-repeat:initial;background-origin:initial;backgrou=
+nd-clip:initial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-family:Verdana,&quot;sans-serif&quot;;color:black">Hi=
+=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a></b></span><sp=
+an style=3D"font-family:Arial,&quot;sans-serif&quot;"></span></p><p class=
+=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:12.65pt;background-i=
+mage:initial;background-position:initial;background-size:initial;background=
+-repeat:initial;background-origin:initial;background-clip:initial;font-size=
+:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-famil=
+y:Verdana,&quot;sans-serif&quot;;color:black">I hope you are doing well the=
+re.<br><br>I was just browsing your=C2=A0<b><a href=3D"http://untroubled.or=
+g">untroubled.org</a></b>=C2=A0=C2=A0and I came up with a great plan to re-=
+develop your=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a></=
+b>=C2=A0using the latest technology=C2=A0to generate additional=C2=A0revenu=
+e and beat your opponents.<br><br>Please let us know if you are=C2=A0<b>int=
+erested=C2=A0</b>so that=C2=A0I would be happy to=C2=A0share our Work Portf=
+olio, Client testimonials, and Service Packages.<br><br><b>You can share yo=
+ur Phone/WhatsApp number to reach out directly for more discussion.</b></sp=
+an><span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span></p><p c=
+lass=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:12.65pt;backgrou=
+nd-image:initial;background-position:initial;background-size:initial;backgr=
+ound-repeat:initial;background-origin:initial;background-clip:initial;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-f=
+amily:Verdana,&quot;sans-serif&quot;;color:black">Looking forward to hearin=
+g from you.=C2=A0</span><span style=3D"font-family:Arial,&quot;sans-serif&q=
+uot;"></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-he=
+ight:12.65pt;background-image:initial;background-position:initial;backgroun=
+d-size:initial;background-repeat:initial;background-origin:initial;backgrou=
+nd-clip:initial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-family:Verdana,&quot;sans-serif&quot;;color:black">=C2=
+=A0</span><span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span><=
+/p><p class=3D"MsoNormal" style=3D"margin:0in 0in 9.9pt;line-height:11.2pt;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=
+=3D"font-family:Verdana,&quot;sans-serif&quot;;color:black">Regards,</span>=
+<span style=3D"font-family:Arial,&quot;sans-serif&quot;"></span></p><b styl=
+e=3D"font-size:14.6667px"><font face=3D"verdana, sans-serif">Blake Daniels<=
+/font></b><br><p class=3D"MsoNormal" style=3D"margin:0in 0in 9.9pt;line-hei=
+ght:11.2pt;background-image:initial;background-position:initial;background-=
+size:initial;background-repeat:initial;background-origin:initial;background=
+-clip:initial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan style=3D"font-family:Verdana,&quot;sans-serif&quot;;color:black">Web De=
+veloper=C2=A0</span><span style=3D"font-family:Arial,&quot;sans-serif&quot;=
+"></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 9.9pt;line-heig=
+ht:11.2pt;background-image:initial;background-position:initial;background-s=
+ize:initial;background-repeat:initial;background-origin:initial;background-=
+clip:initial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><sp=
+an style=3D"font-family:Verdana,&quot;sans-serif&quot;;color:black">-------=
+----------------------------------------</span><span style=3D"font-family:A=
+rial,&quot;sans-serif&quot;"></span></p><p style=3D"margin:0cm 0cm 0.0001pt=
+;line-height:16.8667px"><font face=3D"verdana, sans-serif">Note: If you are=
+ not interested, please</font></p><p style=3D"margin:0cm 0cm 0.0001pt;line-=
+height:16.8667px"><span style=3D"font-family:verdana,sans-serif">Click here=
+ to<font size=3D"4">=C2=A0</font></span><b style=3D"font-family:verdana,san=
+s-serif"><a href=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2Z=
+UFP_2C1RoUgpEoGaIb5IgtrXzqU4OpQ5X95wi4FgmLyHzONjQGIkIqTjG-shaoAy3N142ARP-cG=
+qBWXufMYIWd_fjsVn6_AufMwfG5qy5jmAzLhbBewrk1yG1Rsnbz4qVqO75vDcLvyf1HZnLAp4Py=
+F-5rXT4NJnhcnTbvgO-uuv9oXGa_srY2vxMujuEgOjElW" rel=3D"nofollow" target=3D"_=
+blank"><font size=3D"4">unsubscribe</font></a>=C2=A0</b></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2zu8pGq0wd=
+WfSWPdo0r2vHAdYTKkpxYbr02FifVnFXIjuHzONjQGAY7yAeDrseAJ0s-PQ1pD-wYCqq0aDivtz=
+BfbASpYWlowp-34EtXwBHrS74cwi6xuDzOB9Q0HvlXDIwc3BIYsFQlik0_t7CBFhhO5EcgIk5NX=
+aI60-_5M" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; di=
+splay:none!important;">
+
+--000000000000cf4ae30610ef8f30--

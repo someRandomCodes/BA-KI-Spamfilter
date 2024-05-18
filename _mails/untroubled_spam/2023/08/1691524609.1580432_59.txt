@@ -1,0 +1,123 @@
+Return-Path: <mehdi.shafieijoud@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1554048 invoked from network); 8 Aug 2023 09:39:48 -0000
+Received: from mail-oi1-x243.google.com (mail-oi1-x243.google.com [IPv6:2607:f8b0:4864:20::243])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 08 Aug 2023 09:39:48 -0000
+Received: by mail-oi1-x243.google.com with SMTP id 5614622812f47-3a734b8a27fso3031902b6e.1
+        for <bruce@untroubled.org>; Tue, 08 Aug 2023 02:39:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1691487588; x=1692092388;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=0h2J8FQOSH4ovxXkZ9i74XvqbudRQU/JVXFSkAxCNkE=;
+        b=i3fdO1eCGcutxLemUns8ZOiktpKLAx0fn2H++Nz+gzu3PBPn8lISpVE1d6Qm5ULfbx
+         5OJoW5wB5bc7aS3aunWGpGWVmYw0/9uym0j2NWOk0CyT3H+x9GeZp/B5wPUepqBfJNqo
+         0fjDcr4Ld7oFJKLeS2V76Vna308KblGQL06nSHbGoNzkpldVaSJCSn41Fpm+sHOlR3Yu
+         avtBiczNuu3TdqmQjTUi9twyl2Bk5LehqSWs1oZjjXrBnZj441icNwM3EW/bqR8lgWZf
+         a0X7zbF4skJ7UYxj4vYJt8Whx5/L+q8qsPSVF/0nC8y4oQV8MbyHbwga1UeSjjgSqfzm
+         ZqxA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1691487588; x=1692092388;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=0h2J8FQOSH4ovxXkZ9i74XvqbudRQU/JVXFSkAxCNkE=;
+        b=eqQdoMnsOaklQ144QHbEjIUGo+kf88ugeVaSgmjx828g2PaR8YV/SD1d5NiE7TSTBe
+         j//v0u+I68nWupcWr9qlKgHYcosfTAUGI7AORjzsxiKsaih5grK2iR+d6Gz8fGQui7p3
+         t+N8++9xvDdYKiPw704iuN/fCEFDcFpzX3lD89Ac3kKcKJJVYMKE6qQxElwvk9dIZF7f
+         EkX6bCZDXedWzHRbEgjMFBR1apu4J+v6ZJpbaqZTTbI4xMHCoaHMOzvXEhJnYL8lOqCd
+         +n9Jnso8wZyTp4k299FTU08kcRa98kDx0FJmEK582EB0ABmIKQ0ys78xl/Qg/7ZzBLg5
+         ZAXQ==
+X-Gm-Message-State: AOJu0YyYAYwfotW3DgSXYPuc5tTtLRPeKb7+dyl9hDlHauAteuNr/N5J
+	iKY9iA0AIORF+ZIWEX+46QN6OxthdfMtjdcnracToMdOxs4Y902Kbyk=
+X-Google-Smtp-Source: AGHT+IH76WlU8BlFB06JFSSaJWsPtgr3WnhK8kvKZ0w/C3cEOe48BE14gh1qyrWhTKkGI+XILis7B08aGq1Hdbi62+c=
+X-Received: by 2002:aca:1b15:0:b0:3a1:df63:60cc with SMTP id
+ b21-20020aca1b15000000b003a1df6360ccmr9267923oib.59.1691487587868; Tue, 08
+ Aug 2023 02:39:47 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 8 Aug 2023 02:39:47 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 8 Aug 2023 02:39:47 -0700
+MIME-Version: 1.0
+Sender: Mehdi ShafieiJoud <mehdi.shafieijoud@globalgns.com>
+From: Mehdi ShafieiJoud <mehdi.shafieijoud@globalgns.com>
+Date: Tue, 8 Aug 2023 02:39:47 -0700
+X-Google-Sender-Auth: N8jgAw5aRu-Hm4dx3QfwVuuuf94
+Message-ID: <CANZ0dw=C5aZgasCkOR70kXE4KUJP3VMOOsmzb5JqCVMWd=RwNg@mail.gmail.com>
+Subject: untroubled.org : Ways to Have SEO Success with Google in 2023.
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000d1330d06026624d7"
+Content-Length: 3894
+
+--000000000000d1330d06026624d7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello *Sir/Madam,*
+
+I=E2=80=99ll get to the point!
+
+Want to increase the *number of visitors and leads to your website? *
+
+Our accomplished SEO services can be useful. We'll strive to improve your
+website for search engines and drive more targeted traffic to it using our
+personalized approach to SEO. We offer a variety of services, including*
+link building, on-page and off-page optimization, and keyword research. *
+To find out how we can assist you in achieving your online objectives,
+contact us right away.
+
+Thanks & Regards,
+
+*Mehdi ShafieiJoud*
+Business Development Consultant
+-------------------------------------------------------------
+Disclaimer: We are not spamming. We have been manually researching links
+and contacting those who are interested in Link exchange. If we have
+offended you by sending this to you by mistake, we apologize. Please Click
+*Unsubscribe*
+<https://globalgns-dot-yamm-track.appspot.com/2lgKRTFZGBzgDpoDwQ937PMHbq8ds=
+wSjayZlwyBSwi3S9SoTUiQFAbxUzAAgLk8UFucknx4I2eNdIiRZj9-F7-yTM5AE0r-N2wSq1Re1=
+6KixMiModpxoyAtQSRW_Z1B1m6DRfroQHLQ7QOT6vOa4LYETg9tKPDz29kkwGIRkp2PpJxyDqli=
+6FgXs-YESjy51Ncr-shlbXCGM>"
+to this email if not interested, so that we shall add you to our "Do Not
+Contact Again" list. We strictly adhere to United States Federal Laws of
+Anti-spamming - CAN-SPAM Act of 2003.
+[image: beacon]
+
+--000000000000d1330d06026624d7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif">Hello <b>Sir/Madam,</b>=
+<br><br>I=E2=80=99ll get to the point!<br><br>Want to increase the <b>numbe=
+r of visitors and leads to your website? </b><br><br>Our accomplished SEO s=
+ervices can be useful. We&#39;ll strive to improve your website for search =
+engines and drive more targeted traffic to it using our personalized approa=
+ch to SEO. We offer a variety of services, including<b> link building, on-p=
+age and off-page optimization, and keyword research. </b><br>To find out ho=
+w we can assist you in achieving your online objectives, contact us right a=
+way.<br><br>Thanks &amp; Regards,<br><br><b>Mehdi ShafieiJoud</b><br>Busine=
+ss Development Consultant</font><br><div>----------------------------------=
+---------------------------<br><span style=3D"font-family:verdana,sans-seri=
+f;font-size:x-small;line-height:10.7px;color:rgb(0,32,96)">Disclaimer: We a=
+re not spamming. We have been manually researching links and contacting tho=
+se who are interested in Link exchange. If we have offended you by sending =
+this to you by mistake, we apologize. Please Click<b>=C2=A0</b></span><a hr=
+ef=3D"https://globalgns-dot-yamm-track.appspot.com/2lgKRTFZGBzgDpoDwQ937PMH=
+bq8dswSjayZlwyBSwi3S9SoTUiQFAbxUzAAgLk8UFucknx4I2eNdIiRZj9-F7-yTM5AE0r-N2wS=
+q1Re16KixMiModpxoyAtQSRW_Z1B1m6DRfroQHLQ7QOT6vOa4LYETg9tKPDz29kkwGIRkp2PpJx=
+yDqli6FgXs-YESjy51Ncr-shlbXCGM" rel=3D"nofollow" target=3D"_blank" style=3D=
+"color:rgb(5,99,193);font-family:verdana,sans-serif;font-size:x-small"><b><=
+span style=3D"line-height:10.7px;color:rgb(0,32,96)">Unsubscribe</span></b>=
+</a><span style=3D"font-family:verdana,sans-serif;font-size:x-small;line-he=
+ight:10.7px;color:rgb(0,32,96)">&quot; to this email if not interested, so =
+that we shall add you to our &quot;Do Not Contact Again&quot; list. We stri=
+ctly adhere to United States Federal Laws of Anti-spamming - CAN-SPAM Act o=
+f 2003.</span><br></div></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2DfiJvw7QlB4UZSW2y=
+SzI8STYJT9WNpUFKwYecP9p4Vi3SoTUiQFReV-fiu0UoTIZ2kovg8qCqMNJFpyqo2LgT846pBLX=
+OElOGjkyIJaFUHubnCmnRJn5PibIraaDswr2lBTuwLDRqL2KtO3r9L9d6wF10O7yBj-YcluGV_R=
+SgQZnTQ" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; dis=
+play:none!important;">
+
+--000000000000d1330d06026624d7--

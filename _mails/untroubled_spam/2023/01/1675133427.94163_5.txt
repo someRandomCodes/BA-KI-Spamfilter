@@ -1,0 +1,207 @@
+Return-Path: <lissa.huynh@digitalprospectz.tech>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 205306 invoked from network); 30 Jan 2023 20:30:05 -0000
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com
+ (mail-sn1nam02on2103.outbound.protection.outlook.com [40.107.96.103])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 30 Jan 2023 20:30:04 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ea3hKQh9Ffc/4Dgl3DRUMQ3F/eBI8MWiKrwkqd/TBhNYS3znMWa0od0rbsj8MKUfAMZmjAfnS2I/EQbliXkcu0vNv2/WyioabaVUTd9wArUd9G6DljfTGiGOn7ui0WQjK/eKlci4UByY8awPJufQV6wrxZ76QfbymaURTXvO5ea/LAcmwQ6Qyx8kyr9f7CFAS4hp7aKa2Ax83SArMzH/OEfMMdewftln16lq3qULwabNIO/gL0F7/IyNCWcOoJGchTUa5YudYdGF5gA17qYAdJwZvnHuY0gY8sFkVlPv+apO7565jiXwz4WgRG+pyjpzDpVtKN3xcWELKbOLtNDoNw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Rwvk9MiPHQkB+fx1lFaCSF2xfsdOs4pzfuGXUgl/MWQ=;
+ b=NzfA7sA3xjQ8ROqIb2v1MTdJ//MqdqLrLykCQxm7yC0nmiAtV/eIfb6FeQsztKVCqmuoJfeiysbOThcK0oXjbMw/EcH0d+Gbcqd6bby5YaFA0RpbH+A89vDfTo/Jj3keEv8E6rAcQIjzVDkDzNJZCEeJbJ/cn2Qh+QgQ1QbWpGiUBFUdVvFF/VOj4aNS9N+p0lVd30Qrhd6tt7TFZZp2f5TE+5VgI7+5VAKE+KwWiCpdZSid28TpeZNNnxkN2KGgfI0LsjDhTiJgv9gDC8jEkUa2D783KzoONa+t7EpKqc6lO11KrjHZbB6wJpp8Dq9aWpqBK8QJt/wjo9McEgQStA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=digitalprospectz.tech; dmarc=pass action=none
+ header.from=digitalprospectz.tech; dkim=pass header.d=digitalprospectz.tech;
+ arc=none
+Received: from PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c01:d8::12)
+ by MAZPR01MB6720.INDPRD01.PROD.OUTLOOK.COM (2603:1096:a01:4e::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6064.22; Mon, 30 Jan
+ 2023 20:30:02 +0000
+Received: from PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::d917:3d6:12fa:94c4]) by PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::d917:3d6:12fa:94c4%5]) with mapi id 15.20.6064.020; Mon, 30 Jan 2023
+ 20:30:02 +0000
+From: Lissa Huynh <lissa.huynh@digitalprospectz.tech>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Subject: Linux Customer List
+Thread-Topic: Linux Customer List
+Thread-Index: Adk06S/kqatma32oS8KTRu8Y0gOKAQ==
+Disposition-Notification-To: Lissa Huynh <lissa.huynh@digitalprospectz.tech>
+Return-Receipt-To: <lissa.huynh@digitalprospectz.tech>
+Date: Mon, 30 Jan 2023 20:27:14 +0000
+Message-ID: 
+ <PN3PR01MB8673580A52666D8701511A42FAD39@PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=digitalprospectz.tech;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PN3PR01MB8673:EE_|MAZPR01MB6720:EE_
+x-ms-office365-filtering-correlation-id: 469d766b-d33e-48b3-d1b5-08db0300c3c7
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 
+ F4ytthUiD9ty6H4et7AX2tAkZFdK5TMlAd/sPsyrYSwBSaIv902a+r1WOxA59RE10UQ83ESzgorxPT0D9DV/bR3Xoj/NPUvvn8CejVt+vjHj52MK4xxRRhlZPi+a3R+3sw2xOB19gnV8dgrOxH2Skv/K9xX2by66XG6o4PqPPSCOeeq573dITNwb8vrzh99Dm2CJTf1SMRetnPWGUz95nzzg8Gm0ch5DBe1+0YhaET5+GcFZGgGsxspZtBd4rJADMryj7PF8qiknVO4oSEfpADqLdOGHDjpYw78Zp58NQxfaqf9dlMj9bajo17jqMHG9C3k9qtt2TKSybL80m7n1UA8TX4h73rR5AwZm71YsVHnHTpYpDrOGyDV7gUxeEX5h7eZwxayqbWCkz+dGRbXUACOl5eUy/R0iVkvfjfu5J2SpBJnK6qJeHCMd1S0vnka+8o3bdCUMSh3x18P5rvdlJua4hJYGBuWRC2tQ/5irWXc5ixqv8xs7Yskj1vxrZWwuFD/0gEbf0D7uIZ9Gd7/ykti7EZjYcnnIsSDawtz6yls2hxIjoyp7Zl8M0Zy1yhNUcg3XtIBVffUv7goQzjja7/WzG5k0ahA3UryadQk0WRuPiuhWLsvJg06tJ28sV1E8lDKSlf6HSw9Vs8CN4NEwgnEBARj2bUZsCNQH7w3QBHU5CpCw4f8auJZsmzAh0bT1
+x-forefront-antispam-report: 
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230025)(39850400004)(136003)(396003)(376002)(346002)(366004)(451199018)(66556008)(41300700001)(66946007)(76116006)(6666004)(33656002)(55016003)(64756008)(8936002)(52536014)(66476007)(66446008)(7116003)(9326002)(6916009)(8676002)(316002)(5660300002)(44832011)(4744005)(71200400001)(2906002)(7696005)(186003)(9686003)(478600001)(6506007)(86362001)(38070700005)(3480700007)(122000001)(38100700002);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: 
+ =?us-ascii?Q?97MrViwcl8vVpJxEqkqeGhQM2ZE796o1Mz+fXiFrwtxvlCrZu3ilLwJqOLYC?=
+ =?us-ascii?Q?MnsZQ6S1C22MsVzbal0fDHQjR2NleBu+sS8+wxzpImtlotzNGyg28a4e2Ylj?=
+ =?us-ascii?Q?5upGh2Nr+a4+KmLLECI5WJCJCEnkXDLR0ef86uBnPppCbgB8snBQ93VHrziN?=
+ =?us-ascii?Q?L2Mp2DjV10mzL7RG8s3rQi39/Eq1x06m8ylApTqNdaVzQEGSsFZjCLuHDynI?=
+ =?us-ascii?Q?cAwHlsNAFXdKpMqomf9Qpe/QiJCGfJfKGmhiBYaFACeUDu2fcluP6aAKmlP/?=
+ =?us-ascii?Q?Oiclu+6+vd6QGjOSYmFqaKB0h5Z9j6QfquJTFH1mwEeQp14qSfNm0qIER0Ol?=
+ =?us-ascii?Q?y1bo7YPtCzOMYfpCYLE1uqA/EHWwEdliWyw7MzG/5juFCIV+lIFuDorPyKG1?=
+ =?us-ascii?Q?EO0ae/Oc60JGqck4Tu4YIpEejMvSr/43Pw4OemFwbsExAE0Kgwh8Py5kNQfc?=
+ =?us-ascii?Q?3wIQVrmLaYB//KMfL3l5WdUP5gpteP7GXjLQLbhZFQ3EW2aGKhmoW74sVVZr?=
+ =?us-ascii?Q?VMExp8rAqJAkC3MZFDJfjH1hobdWE4w07dp11D723WuuYaV5MW/ikQz5tgWd?=
+ =?us-ascii?Q?VfqonY3eyljUWLV4/mcY4TD3L4ONYxn7mRGf7npmuhZUom39fqTZ00SG8ipf?=
+ =?us-ascii?Q?BWC7k+lmNP8W5LppACqYh/leUSCOWa6hE9xheRwFL4G/Tz1a/o0+dySSVAaz?=
+ =?us-ascii?Q?ebhJzAo9C5fJtBouF5gWOiL8aAO+xEa9sI9isxLS7KE8Bz/LA5miOwwc9B7W?=
+ =?us-ascii?Q?8E9dCYRlsH0IwS4ldT+XlwO3qNvlRr6PltxgxGPWioIMXRdcjxbQkLT/GFWt?=
+ =?us-ascii?Q?HKNhAdtulba+AMWbI4e1a/VePVlL38l4trhgq2gOcBZqXjnD/0beo5XH6UBr?=
+ =?us-ascii?Q?brWGFRK/96t0lFReSDHw+KZlOFeJbRkN0U9ryxAIjm3NyQHzMbeX7GkXrWCL?=
+ =?us-ascii?Q?zLrdtge5FkJNvrB7Ecjh/yuVQxfMTp87S1tCx/lG6C8A+xVn686AUgFWiB98?=
+ =?us-ascii?Q?0uPcb8HlO6yW5GKKHJhZNHC1VqNixJBbDSIDmPv4ZEichcwC3JOii5odjGtI?=
+ =?us-ascii?Q?r8sHlkBmBxrJCxB+nzKQdS8/mwYKtC/xQxGkDo8k+qwWIWnmijdzPJE0SvYm?=
+ =?us-ascii?Q?dgrS5i6dgrC66yANYScqxehyeIgMrRpIghOc3PugnYOmD49IOBK6yfMnUQ4i?=
+ =?us-ascii?Q?ynkXMaqhGi1VS8SPGC0UvXRL5g8+Nj99kd6AElHfhMnpjy19upqi2eE5ks9a?=
+ =?us-ascii?Q?FUCvEbxWWtKhg3fzsLVhFuN+ps3UUUfdZgIz1nCTRV9ho5ob0vp72KgLT52a?=
+ =?us-ascii?Q?HjupFFnOMceqjElHarOi7I3l292h8uiiSM3B0ja4WKaGsmxH4Y2X7VmPLQqs?=
+ =?us-ascii?Q?EA6w9+Q68r6P9PS1wv0DmFyQQPAJ+Dmy8iUh/7pRwdY+4R0pPM3RUijQYNeB?=
+ =?us-ascii?Q?J9l09GTHc5AnGEBBRgaJ0Z2JmpQ+DouexNYHm1slda5+JnieOacatnf5B7tC?=
+ =?us-ascii?Q?U/Nsj2W/mwdRt0O66C/uny4KlUZnVc0BEL3EvBlwL2IveH3JV1uWUTL+l5YS?=
+ =?us-ascii?Q?ZiOXFS0gtnt8oP71HcxR4aA1Np8z5VysRtdzziLcaLOrSR9tekCZ+SFn3Vpf?=
+ =?us-ascii?Q?VVxEFU5SrPPa7+B1JBjdxRjMSs4d8NFWWWjvWDj2RatIc0sDqsNvJqTMnXG7?=
+ =?us-ascii?Q?URYb5A=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PN3PR01MB8673580A52666D8701511A42FAD39PN3PR01MB8673INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: digitalprospectz.tech
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PN3PR01MB8673.INDPRD01.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 469d766b-d33e-48b3-d1b5-08db0300c3c7
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Jan 2023 20:27:14.3979
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 4b33d838-cfa8-42cc-8e57-02b4bd749574
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 
+ pGjv05Qe/t362zEhPdxcmGLFDB12sDnB93W0Rl6CSiycyM7y62aCEy4OfKp/eugaGoDvZJVgplTFLAwbDbgx97kKWZj4xgk7lV9tPbQOmaTYXnyB+iM1hxD7o0osXqxZ
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MAZPR01MB6720
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 3861
+
+--_000_PN3PR01MB8673580A52666D8701511A42FAD39PN3PR01MB8673INDP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I would like to know if you are interested in acquiring Linux Customer List=
+.
+
+Information fields: Names, Title, Email, Phone, Company Name, Company URL, =
+Company physical address, SIC Code, Industry and Specialty (Revenue and Emp=
+loyee).
+
+Please let me know your target geography so that I will get back to you wit=
+h the counts, Pricing and more information.
+
+Regards,
+
+Lissa Huynh
+Marketing Executive
+
+
+--_000_PN3PR01MB8673580A52666D8701511A42FAD39PN3PR01MB8673INDP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-IN" style=3D"word-wrap:break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">Hello,<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">&nbsp;<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">I would l=
+ike to know if you are interested in acquiring
+<b><u>Linux Customer List</u>.</b><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">Informati=
+on fields: Names, Title, Email, Phone, Company Name, Company URL, Company p=
+hysical address, SIC Code, Industry and Specialty (Revenue and Employee).<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">&nbsp;<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">Please le=
+t me know your target geography so that I will get back to you with the cou=
+nts, Pricing and more information.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">&nbsp;<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">Regards,<=
+o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"color:black">&nbsp;<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"color:black">Lissa =
+Huynh</span></b><span lang=3D"EN-US" style=3D"color:black"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"color:black">Market=
+ing Executive</span></b><span lang=3D"EN-US"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_PN3PR01MB8673580A52666D8701511A42FAD39PN3PR01MB8673INDP_--

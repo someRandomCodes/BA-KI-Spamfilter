@@ -1,0 +1,316 @@
+Return-Path: <brian@alphaefficiency.us>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 124152 invoked from network); 10 Feb 2023 16:27:22 -0000
+Received: from mail-ej1-x630.google.com (mail-ej1-x630.google.com
+ [IPv6:2a00:1450:4864:20::630])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 10 Feb 2023 16:27:22 -0000
+Received: by mail-ej1-x630.google.com with SMTP id ud5so17323635ejc.4
+        for <bruce@untroubled.org>; Fri, 10 Feb 2023 08:27:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=alphaefficiency-us.20210112.gappssmtp.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=w6zi21zbHAWlJBWMPBJkWhbDCAsgnJUWzRRLZUw2+ss=;
+        b=Q74QJwXj4PU476U5gC+sydZPg8rlT5VTaprdQwDgGaMXXGy/yyTZx5j2Njvej8SZqA
+         WxD+au7uusxdT4LlxMEL/d6u3BxWdrlZvBxHWL7YTKoHCjty2RI7mP0x2VnTE7BFLzO2
+         uX3UEqFIWTNdILFSYQY+2yZJMvBuGkabKjjfxyec7aY44ORxvBRBqoM1HvGGpS5CV2Cr
+         mEfFDdj84qBgPBAPkt5BmbNoTHSkjP00cBQmSOlIO/fscnahlsM4Qst0PBN58G2Bga0k
+         UlH3YftlsFeNfHfSNDjND/8L7Bbq4/9Uq31bNSg3CGh6LqWAiT6/d0UrnrXAJlKMVAw1
+         GeVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=w6zi21zbHAWlJBWMPBJkWhbDCAsgnJUWzRRLZUw2+ss=;
+        b=wK5HUpyKrvDw9Ry7dY+dyhjA2JvShWDgvgn7/Zy0OMhaMU8zGD1ZSiaAiC3ZZLDn7D
+         bFD8DB6effA5N+IpIU87zwbfdVma/+GHh6Ju7r/emNKYGqo1ocY7cE3a71QkLqZEqoSz
+         V0VMfXbZAAUzfXIaiQIu7oGUFZQANdbtoq/C5xn68uGbNFt0Y8P5wrScrD/f0WfY7wST
+         HImrzR+2YXUc29+fEFKU1LX5v9mj8ZuQ6bwIfmKCp2f+GN9srs+2X/EHt3UJcPimgOx9
+         8ONg0Zew14gJNLkJ+FYtWS/bATaQDCZ+/MIJfbeMHXmDEodUxxjR7aSsOaBon8UJPHue
+         xGsg==
+X-Gm-Message-State: AO0yUKWhYdTFxjZLkY4u68lzJrImXKmoAYYcsEn8d/YFj6gbNumH3Qm6
+	6VZU0xFli7QT8KHrt4kvuVyhelXhUpNtzz9ksQRvyXbTLTV2Sq4cfR+HXg==
+X-Google-Smtp-Source: AK7set8FnYdpjK4JSlbB5YJwEXxJHaYRSxijSjf0LnUbPRhAU67pMOC3KiupPJvKfqG+c27utVlrhCDC3QVLhp/2imc=
+X-Received: by 2002:a17:906:dff7:b0:878:69e5:b797 with SMTP id
+ lc23-20020a170906dff700b0087869e5b797mr2809743ejc.228.1676046439981; Fri, 10
+ Feb 2023 08:27:19 -0800 (PST)
+Received: from 576368256655 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 10 Feb 2023 08:27:19 -0800
+MIME-Version: 1.0
+From: Brian Dordevic <brian@alphaefficiency.us>
+Date: Fri, 10 Feb 2023 08:27:19 -0800
+Message-ID: <CANB02HMdxCJiJZ1w+3h4v2n_YiY0sGEJLnX9d4KQAzpL6MQ-Cg@mail.gmail.com>
+Subject: Hi, new backlink report on your website mentions critical issues
+To: bruce@untroubled.org
+Content-Type: multipart/mixed; boundary="000000000000aecf8305f45af862"
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 10536
+
+--000000000000aecf8305f45af862
+Content-Type: multipart/alternative; boundary="000000000000aecf8005f45af860"
+
+--000000000000aecf8005f45af860
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi there,
+
+I=E2=80=99ve recently conducted an SEO Audit of your website and found toxi=
+c
+backlinks pointing to you. I am still considering you as a link partner,
+but in order for us to move forward, I would love to point you in the right
+direction on how we need to remove these links from your site.
+
+Are you open to talking about this issue?
+
+Kind regards,
+
+
+
+
+
+--
+Brian Dordevic
+
+Director of Strategic Planning
+
+Alpha Efficiency
+
+
+
+7089458718
+brian@alphaefficiency.us
+https://alphaefficiency.us <https://alphaefficiency.com/>
+1130 N Dearborn, Chicago, IL
+
+
+[image: linkedin] <http://www.linkedin.com/in/bojandordevic>
+
+[image: instagram] <https://www.instagram.com/bojandordevic/>
+
+--000000000000aecf8005f45af860
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html>
+<head>
+<meta charset=3D"UTF-8">
+<title></title>
+</head>
+<body>
+<p>Hi there,</p>
+<p>I=E2=80=99ve recently conducted an SEO Audit of your website and found t=
+oxic backlinks pointing to you. I am still considering you as a link partne=
+r, but in order for us to move forward, I would love to point you in the ri=
+ght direction on how we need to remove these links from your site.</p>
+<p>Are you open to talking about this issue?</p>
+<p>Kind regards,</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<div class=3D"signature">
+<p></p>
+<p style=3D"color:#212121;font-family:Arial,sans-serif;font-size:13px;font-=
+style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-we=
+ight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transf=
+orm:none;white-space:normal;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial"><span style=3D"color:#222222;font-family:Ari=
+al,Helvetica,sans-serif;font-size:small;background-color:#ffffff">--</span>=
+</p>
+<div class=3D"gmail_signature" style=3D"color:#222222;font-family:Arial,Hel=
+vetica,sans-serif;font-size:small" dir=3D"ltr" data-smartmail=3D"gmail_sign=
+ature">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-size:medium;fon=
+t-family:Arial" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr=
+ style=3D"color:#ffffff">
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:top">
+<h3 style=3D"margin:0px;font-size:18px;color:#000000">Brian=C2=A0Dordevic</=
+h3>
+<p style=3D"margin:0px;color:#000000;font-size:14px;line-height:22px">Direc=
+tor of Strategic Planning</p>
+<p style=3D"margin:0px;color:#000000;font-size:14px;line-height:22px">Alpha=
+ Efficiency</p>
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial;wi=
+dth:182.094px" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" height=3D"30">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;width:182.094px;border-bottom:1px solid #e19fae;border-left:none;dis=
+play:block" height=3D"1">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" height=3D"30">=C2=A0</td>
+</tr>
+</tbody></table>
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody>
+<tr style=3D"vertical-align:middle">
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:middle" width=3D"30">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:bottom"><span style=3D"display:block;background-color=
+:#e19fae"><img style=3D"display: block;" src=3D"https://cdn2.hubspot.net/hu=
+bfs/53/tools/email-signature-generator/icons/phone-icon-2x.png" alt=3D"" wi=
+dth=3D"13"></span></td>
+</tr></tbody></table>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;padding:0px;color:#000000"><a style=3D"color:#000000;font-size:12px"=
+ rel=3D"noopener" href=3D"tel:7089458718" target=3D"_blank">7089458718</a><=
+/td>
+</tr>
+<tr style=3D"vertical-align:middle">
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:middle" width=3D"30">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:bottom"><span style=3D"display:block;background-color=
+:#e19fae"><img style=3D"display: block;" src=3D"https://cdn2.hubspot.net/hu=
+bfs/53/tools/email-signature-generator/icons/email-icon-2x.png" alt=3D"" wi=
+dth=3D"13"></span></td>
+</tr></tbody></table>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;padding:0px"><a style=3D"color:#000000;font-size:12px" rel=3D"noopen=
+er" href=3D"mailto:brian@alphaefficiency.us" target=3D"_blank">brian@alphae=
+fficiency.us</a></td>
+</tr>
+<tr style=3D"vertical-align:middle">
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:middle" width=3D"30">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:bottom"><span style=3D"display:block;background-color=
+:#e19fae"><img style=3D"display: block;" src=3D"https://cdn2.hubspot.net/hu=
+bfs/53/tools/email-signature-generator/icons/link-icon-2x.png" alt=3D"" wid=
+th=3D"13"></span></td>
+</tr></tbody></table>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;padding:0px"><a style=3D"color:#000000;font-size:12px" rel=3D"noopen=
+er" href=3D"https://alphaefficiency.com/" target=3D"_blank">https://alphaef=
+ficiency.us</a></td>
+</tr>
+<tr style=3D"vertical-align:middle">
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:middle" width=3D"30">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:bottom"><span style=3D"display:block;background-color=
+:#e19fae"><img style=3D"display: block;" src=3D"https://cdn2.hubspot.net/hu=
+bfs/53/tools/email-signature-generator/icons/address-icon-2x.png" alt=3D"" =
+width=3D"13"></span></td>
+</tr></tbody></table>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;padding:0px"><span style=3D"font-size:12px;color:#000000">1130 N Dea=
+rborn, Chicago, IL</span></td>
+</tr>
+</tbody></table>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" width=3D"45">
+<div>=C2=A0</div>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;vertical-align:top">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px"><img src=3D"cid:e5dcc57fcccb558904f9a7f707cefa4e@swift.generated" a=
+lt=3D""></td>
+</tr>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" height=3D"30">=C2=A0</td>
+</tr>
+<tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px;text-align:center">
+<table style=3D"vertical-align:-webkit-baseline-middle;font-family:Arial;di=
+splay:inline-block" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody=
+><tr>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px"><a style=3D"color:#1155cc;display:inline-block;padding:0px;backgrou=
+nd-color:#dedeeb" rel=3D"noopener" href=3D"http://www.linkedin.com/in/bojan=
+dordevic" target=3D"_blank"><img style=3D"max-width: 135px; display: block;=
+" src=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/=
+icons/linkedin-icon-2x.png" alt=3D"linkedin" height=3D"24"></a></td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" width=3D"5">
+<div>=C2=A0</div>
+</td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px"><a style=3D"color:#1155cc;display:inline-block;padding:0px;backgrou=
+nd-color:#dedeeb" rel=3D"noopener" href=3D"https://www.instagram.com/bojand=
+ordevic/" target=3D"_blank"><img style=3D"max-width: 135px; display: block;=
+" src=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/=
+icons/instagram-icon-2x.png" alt=3D"instagram" height=3D"24"></a></td>
+<td style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;marg=
+in:0px" width=3D"5">
+<div>=C2=A0</div>
+</td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody></table>
+</td>
+</tr></tbody></table>
+</div>
+</div>
+</div>
+<p> </p>
+<div class=3D"gmail_signature" style=3D"color:#222222;font-family:Arial,Hel=
+vetica,sans-serif;font-size:small" dir=3D"ltr" data-smartmail=3D"gmail_sign=
+ature">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+
+</div>
+</div>
+</div>
+<p></p>
+</div>
+<div class=3D"tracking"><img src=3D"http://s.alphaefficiency.us/track/open/=
+v2-135877397" border=3D"0" width=3D"0" height=3D"0" style=3D"border:0;width=
+:0px;height:0px;" alt=3D""></div>
+
+</body>
+</html>
+
+
+--000000000000aecf8005f45af860--
+
+--000000000000aecf8305f45af862
+Content-Type: message/external-body; access-type=x-deleted; length=81364
+
+
+Content-Type: image/png;
+	name="487d1527914231198cc3996b1161a0c10518448001663683606.png"
+Content-Disposition: attachment;
+	filename="487d1527914231198cc3996b1161a0c10518448001663683606.png"
+Content-Transfer-Encoding: base64
+Content-ID: <e5dcc57fcccb558904f9a7f707cefa4e@swift.generated>
+X-Attachment-Id: e5dcc57fcccb558904f9a7f707cefa4e@swift.generated
+
+--000000000000aecf8305f45af862--

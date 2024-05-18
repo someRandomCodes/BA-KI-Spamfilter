@@ -1,0 +1,40 @@
+Return-Path: <lisa@directoryregistar.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1852399 invoked from network); 19 Oct 2023 22:26:17 -0000
+Received: from directoryregistar.info (directoryregistar.info [89.185.84.209])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 19 Oct 2023 22:26:17 -0000
+Received: from authenticated-user (directoryregistar.info [89.185.84.209])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by directoryregistar.info (Postfix) with ESMTPSA id 9BCC641D71
+	for <bruce@untroubled.org>; Thu, 19 Oct 2023 23:26:13 +0100 (BST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=directoryregistar.info; s=mail; t=1697754374;
+	bh=klOcMCrSfmPeIQ2ptrooe5V4uzaIpzMfeuAVtr+Zeys=;
+	h=Date:To:From:Reply-To:Subject:List-Unsubscribe:From;
+	b=f1W+A7KCbEEw4xKqogZGADlwXmwYHzpqglQh5aRze/g6GUr8msZtuwCRdF9uqTdxB
+	 NAayh1tm/gJ734yso3PvuVVyOUpKHyRXqIiOn9Le3TrkpHJk+2ifgcnDDu6fSh8/bo
+	 FCdPnM4BBv75aGKrD84YRjFGqk4yNdNhDa7D00I577MMcaLvwVKCkwIKXyAoOvPvrd
+	 Phe/eo9LSL5YV3D8wh5dEemrGAUEnQ4imAqJ65CMKTdhgSRsCENF/L2H8NTJLsXXzb
+	 D/4ss0mQcyeKYHDMDfzwxJ8wJqLDhf+uTkXSoeHRMh4XzprT/9qy4XuwOtdwS3P1pu
+	 RYD2jHeTnX1cg==
+Date: Fri, 20 Oct 2023 00:26:13 +0200
+To: bruce@untroubled.org
+From: Lisa Viviers <lisa@directoryregistar.info>
+Reply-To: "DirectoryBump.com" <tiwimed520@ailicke.com>
+Subject: untroubled.org is listed in 8/2500+ Directories
+Message-ID: <d4SDWLRiGu7KZ9zIBNlxh67loqz394bRBcX8INUoig@localhost>
+List-Unsubscribe: mailto:kewowi2458@itaolo.com?subject=Unsubscribe
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PCFkb2N0eXBlIGh0bWw+DQo8aHRtbD48Ym9keT5IZWxsbywgPGJyLz4gPGJyLz4NCg0KdW50cm91
+YmxlZC5vcmcgaXMgb25seSBsaXN0ZWQgaW4gOCBvdXQgb2YgMjUwMCsgRGlyZWN0b3JpZXMuIDxi
+ci8+IDxici8+DQoNCllvdSBhcmUgbG9zaW5nIGEgbG90IG9mIHRyYWZmaWMgYnkgbm90IGhhdmlu
+ZyB0aGUgcHJvcGVyIGJhY2tsaW5rcyBhbmQgbGlzdGluZ3MgaW4gcGxhY2U8YnIvPiA8YnIvPiAN
+Cg0KV2UgaGF2ZSBhIHNlcnZpY2UgdGhhdCBsaXN0cyB5b3UgaW4gYWxsIDI1MDAgZGlyZWN0b3Jp
+ZXMuIDxici8+PGJyLz4NCg0KVmlzaXQgdXMgb24gRGlyZWN0b3J5QnVtcC5jb208YnIvPjxici8+
+DQoNCg0KRW1haWwgSUQ6IDQzYjI5NjwvYm9keT4NCjwvaHRtbD4=
+

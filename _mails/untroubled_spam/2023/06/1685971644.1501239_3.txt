@@ -1,0 +1,296 @@
+Return-Path: <returnBQVI-WHWY+QRFJ-IHMC@uny.edu.ve>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1487368 invoked from network); 5 Jun 2023 01:21:36 -0000
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (mail-co1nam11hn2230.outbound.protection.outlook.com [52.100.173.230])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 05 Jun 2023 01:21:36 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=gbnm859AJb9vLe9RzFkW1u7b/Lb5pAjMblwr2NPIaboIHDeIliQvYN8w5sncscXmOSMUR1RmfsorNBluH2ZS4sZ1EAdtKZT5RAouGofqs8O8sXweoOaPFyzfeDw1xUHFuSjVVzTZR/R3iju64tHMbw9PM2LOEMACfywWNM0GOCa4d064/fYQdzyg4Q2GbLFQCu44+UNDFeX1U9MyHyQlqDMQ60DvbC3ywQOKIFuCYXsRuriYLTjWqXcDpAwCn73ndLYxHvDtfLpOWWuk/mg0tNxViD+shoo5KwkqK3Z63apTYDnB/T3ySo9LnjuCfvPX0qXUZnvXMXDB0/VyW46iIg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Gqx3AXSbFrXX+ZTNXUocBYrdpHoS/a64FD2+Dk+Qlhs=;
+ b=VEn/IddvgV6WUYs2cnobH7f17XGRNULmvAHrCvT7viKDrNXLkjrYCTAeZzSS5+Y7iyL9u4nuh2IZX/cLvQfG7xBMv8d2RdDShCV/zu1Fc/KIlqkDkjUr2jHVd0sHbwF6Buw9zikI7+sAWYA4GxpECcYfxidkInRlyQ+2ln9gBRL4Mv+S+L7JXjrDgQp3p6eK1iF1//VUwQWqKHGEZqujHpX/as6fwYUUImRpY+xbZ77f+PNqREc7iInznUlJKmnHCclV91AV71pAAm3pcjCPrkrptzCOkK2qYWxAJq1tFy7CurmmPgrHw7KUKPYcFqCZ/u/v/d5VbuLHXF/nd1cmuQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 185.192.125.15) smtp.rcpttodomain=untroubled.org smtp.mailfrom=uny.edu.ve;
+ dmarc=none action=none header.from=booksastral.com; dkim=fail (signature did
+ not verify) header.d=booksastral-com.20221208.gappssmtp.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=UniversidadYacambu140.onmicrosoft.com;
+ s=selector2-UniversidadYacambu140-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Gqx3AXSbFrXX+ZTNXUocBYrdpHoS/a64FD2+Dk+Qlhs=;
+ b=twtuSk8idkD8vXs1fwdcGu868FPS/LydY5K+AxQLQd3BJnuJZkYlnNmGnKUdAYngYU9hiJj6Gvz0NzGPoqTETRtDPTBifeZX1t5BF5ajddc5VuMfzePYPuSr61wW2HbjwyrvWihXeowW0dM+Nrqi5h75OD0bodtjdEy4E1zZDcI=
+Received: from DM6PR13CA0067.namprd13.prod.outlook.com (2603:10b6:5:134::44)
+ by BY5PR02MB6502.namprd02.prod.outlook.com (2603:10b6:a03:1da::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.32; Mon, 5 Jun
+ 2023 01:21:33 +0000
+Received: from DM6NAM10FT017.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:5:134:cafe::8e) by DM6PR13CA0067.outlook.office365.com
+ (2603:10b6:5:134::44) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6477.18 via Frontend
+ Transport; Mon, 5 Jun 2023 01:21:32 +0000
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 185.192.125.15)
+ smtp.mailfrom=uny.edu.ve; dkim=fail (signature did not verify)
+ header.d=booksastral-com.20221208.gappssmtp.com;dmarc=none action=none
+ header.from=booksastral.com;
+Received-SPF: Fail (protection.outlook.com: domain of uny.edu.ve does not
+ designate 185.192.125.15 as permitted sender)
+ receiver=protection.outlook.com; client-ip=185.192.125.15; helo=uny.edu.ve;
+Received: from uny.edu.ve (185.192.125.15) by
+ DM6NAM10FT017.mail.protection.outlook.com (10.13.152.165) with Microsoft SMTP
+ Server id 15.20.6477.19 via Frontend Transport; Mon, 5 Jun 2023 01:21:32
+ +0000
+Received: from DU2PR07MB9554.eurprd07.prod.outlook.com (2603:10a6:10:46c::22)
+ by AM6PR07MB4118.eurprd07.prod.outlook.com with HTTPS; Sun, 4 Jun 2023
+ 04:13:20 +0000
+Received: from DU2PR04CA0317.eurprd04.prod.outlook.com (2603:10a6:10:2b5::22)
+ by DU2PR07MB9554.eurprd07.prod.outlook.com (2603:10a6:10:46c::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.31; Sun, 4 Jun
+ 2023 04:13:16 +0000
+Received: from DBAEUR03FT032.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:10:2b5:cafe::b9) by DU2PR04CA0317.outlook.office365.com
+ (2603:10a6:10:2b5::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.31 via Frontend
+ Transport; Sun, 4 Jun 2023 04:13:16 +0000
+Authentication-Results-Original: spf=pass (sender IP is 209.85.217.46)
+ smtp.mailfrom=booksastral.com; dkim=pass (signature was verified)
+ header.d=booksastral-com.20221208.gappssmtp.com;dmarc=bestguesspass
+ action=none header.from=booksastral.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of booksastral.com
+ designates 209.85.217.46 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.217.46;
+ helo=mail-vs1-f46.google.com; pr=C
+Received: from mail-vs1-f46.google.com (209.85.217.46) by
+ DBAEUR03FT032.mail.protection.outlook.com (100.127.142.185) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6477.13 via Frontend Transport; Sun, 4 Jun 2023 04:13:16 +0000
+Received: by mail-vs1-f46.google.com with SMTP id ada2fe7eead31-43b28754c88so1529574137.1
+        for <info@elru.co.za>; Sat, 03 Jun 2023 21:13:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=booksastral-com.20221208.gappssmtp.com; s=20221208; t=1685851995; x=1688443995;
+        h=to:subject:message-id:date:reply-to:from:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ri99PQl88B5QYIv98cV0kV9mmInLrK4bvVOxxjFuWt0=;
+        b=gaNdnjj0E5GZv6slYBK4O/nykIP8d5lArtYUyQHu5xLy2LAht9XZhkbl8YKopPF2w5
+         0ACS3cZDLeCVC9SamroZeja9qFbDwaUR8yGQVDruy/7U3Z2GThgkDXruly2fafyi2r8q
+         yHe5/y7N6DAXXkdCmhiHAJLfxwjhPIEJd9i1eiYdB2pdhmr1ow9z6HGU5kb17JVLLwtm
+         XW8DNs2CIrhiMGryZk/mtnopkR1TwSgzU9+LmrW/wqgKOJgcvWzw7LJyOAiwXyx29m2d
+         6b7/rZLGxqAgQKrkdU38kP6azD7jHUPba7OYTpvAD7YH6wi7iYmxhYKxwk9YBvwWAyM6
+         z8bw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685851995; x=1688443995;
+        h=to:subject:message-id:date:reply-to:from:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ri99PQl88B5QYIv98cV0kV9mmInLrK4bvVOxxjFuWt0=;
+        b=Zkq8FMrds7gB+7orTtI1trvwc6CUPTlLMKgu/ca5H2tPJehk/gDr2oSFI4ce+ifL13
+         rVmoGl8WF5Ss5BdT2EkvyHuYzgv8Bj6t6I7OTSrzR0XoqCsvpJW1y3F16mG2+MZA9FGp
+         SQFmIyzR9idX0kA5hdCjRN/uTZNW1hDrbZ4dA+Vnw3mrjNOkrhA3gW8vvnLUyj61gPrp
+         4a5dB7MTR4ICHRFzhG0kZQHpPGwQXi58R5tlUXR0vopA9JiExFefFuKiK0VYu5wQ5dVP
+         UIRUc18TyHxHwjkKoVwkuipLd5pj3CENK/G/izhj3DDjwYlRxL9AZnF160z4EDDTQOVP
+         C1PQ==
+X-Gm-Message-State: AC+VfDy5UrFcvIEek2DKIgC1WOjStQsQofBlhUXVwpyRzvPF7j+EQNiz
+	DNRHxGjA/IyhTZLrBe73aag3hB0OVGNR07EjroC5Ep893nPO8/cyr8s=
+X-Google-Smtp-Source: ACHHUZ6z8q6l9829PUYjfxJO1Dy+6RxNXmv6K1yxJ0Hjx9W7IGZ13ApXk2S8fkZ+xjnKqFqQUDdM0IdHZZaiaY4AfPs=
+X-Received: by 2002:a05:6102:c01:b0:439:55ed:226c with SMTP id
+ x1-20020a0561020c0100b0043955ed226cmr4485188vss.14.1685851994402; Sat, 03 Jun
+ 2023 21:13:14 -0700 (PDT)
+Received: from 776393159873 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 3 Jun 2023 21:13:12 -0700
+From: Astral International <books@booksastral.com>
+Reply-To: echila@funproinco.org
+Date: Sun, 04 Jun 2023 18:21:31 -0700
+Message-ID: <CAGgokHM+s-K33OWOxzOcjWkLfA5oa3tqCsJBQCVsiaaR2=-g@mail.gmail.com>
+Subject: Stock List Ref: Astral International Stock/2122/
+To: bruce@untroubled.org
+Content-Type: multipart/mixed; boundary="00000000000045747705fd46010a"
+Return-Path: returnBQVI-WHWY+QRFJ-IHMC@uny.edu.ve
+X-EOPAttributedMessage: 1
+X-MS-TrafficTypeDiagnostic: 
+	DBAEUR03FT032:EE_|DU2PR07MB9554:EE_|AM6PR07MB4118:EE_|DM6NAM10FT017:EE_|BY5PR02MB6502:EE_
+X-MS-Office365-Filtering-Correlation-Id: 52214321-3896-4f67-2e9c-08db65633289
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Forefront-Antispam-Report-Untrusted: 
+ CIP:209.85.217.46;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-vs1-f46.google.com;PTR:mail-vs1-f46.google.com;CAT:NONE;SFS:(13230028)(682800001)(451199021)(1690799014)(83380400001)(356005)(7596003)(7636003)(336012)(966005)(6916009)(33964004)(58800400005)(8676002)(166002)(21490400003)(1096003)(5660300002)(55446002)(86362001)(66899021)(9686003)(26005)(43950500002)(44020500001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU2PR07MB9554
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.5280070
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6455.026
+X-Microsoft-Antispam-Mailbox-Delivery: 
+ ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info-Original: 
+ =?us-ascii?Q?ZJwRSH3wYF59xTzIL61ZgS4W5sgq3+NwSEXJ1VJqlC6beriJnTAyKgpWWH55?=
+ =?us-ascii?Q?ozYC7AmklhlCGeVhXUkgjS8hWw72ZL7xytuRqyAS5WqdJERrVZxAoQKcGeUv?=
+ =?us-ascii?Q?iw8/HuyhA3+n66doWZTU26MeYsGWrjedxHC1AeKDAj/XDEmjbL0+LRXfCCTJ?=
+ =?us-ascii?Q?Q/NFE1xEnXESWKu9rPtszkVnyYIBQXFhiiiexCh42v5HmvhDUwF8zWTPK5xE?=
+ =?us-ascii?Q?XhDoBnZ4r5NikLik370vaM7StHRM/XJ3Al/dWqKd+/pMjeJ+V7c4HyDm8XoY?=
+ =?us-ascii?Q?NAoAwe9eH9FBJ7A+wIAN0J7L2hR7xkHSRsK89QIR6V51iRzOwYS4g6063XlS?=
+ =?us-ascii?Q?BXOaWlcbQ40xzPwUoxePSOW7Rl3qdB4RpOKqXR7CdCHL0Z4fjOYmtpknULI4?=
+ =?us-ascii?Q?5JQyLEXlN9FurwdY1IlwrYxH34mW/iMeB7TD0VvSh0jYwlpIyb4z50VvHKB7?=
+ =?us-ascii?Q?dp3miM8N3BsAB1CUQXNtYdj4ZfmIfo/otVXkljgAqBgL0zQolluaBbKuWOLX?=
+ =?us-ascii?Q?RIXs9n52ttk3fXl16ebn4Wey+JZUh8h3l98tQKXbddgdztglkdPCZDvvqnmk?=
+ =?us-ascii?Q?N/m9S47S7YzOlddVtpD9rSfkXXQvl4yu1cuN6KarO1vk8Z4w/Rh8ElHTgE/Z?=
+ =?us-ascii?Q?kYDHvbXoPhnt1Imv7Oc3eVEqv+DXcDSXtNzD01969TNsPH0Sg2++bnkGRJsg?=
+ =?us-ascii?Q?tJUG2bp/2swuSME1jANkWDzhqAYPx5nNZDNUl2Q0D8Pk+/VS4d5IYzHDT/RF?=
+ =?us-ascii?Q?WrQkvvzfNn3w2YBTXGXxAd/jFCXpBMYIW04pmcfe6gkbjYexPI8uLYjqKf16?=
+ =?us-ascii?Q?Dm6vWB9GnV05x4IU1rx1nkrYetAeexNNVL1MtOTrrCxy3BZSzDiprdVFqj6y?=
+ =?us-ascii?Q?0Bvt4JD8R2F80xpW3Kb3Su6yXLvtxhaWfho3lF96nun3gYdFwWjTZTEj35Hk?=
+ =?us-ascii?Q?zFH+4hgtbLpTyTCol8olG1FnCWN5NzmNXqybXvACChtEId+dnhWaS4LA3yPD?=
+ =?us-ascii?Q?jCuDvqfw1JwUoEYqfMUjuVy9R7pK8g0NvA9LeYrMzr14BpRjFFjZuDsrYahX?=
+ =?us-ascii?Q?JeUfs//o+r00mhRI7FjsrOaC45i4/478mREtEjEoktqIp12U1Y81evasHKzy?=
+ =?us-ascii?Q?UONKTw9cRgD62q2grKsryg0FcYLuT5A5LadMX2OeN3rEdeHguekN2u1YsV0T?=
+ =?us-ascii?Q?RD1dqfsTIYt+u6z/LInEMI/M8dywmSPqzsyDDGmr8T9vNoenBYHvGu72Tp+z?=
+ =?us-ascii?Q?Om3h1VqGUv8hQ+g0ej/97u3Q/+gb986yXM8YeEdBzepsR0wjtaJeR7J9CFgr?=
+ =?us-ascii?Q?xzz+eVshbYIhPYHMBxB5q1gTT2+17/LzpZwWc0YJ+0EzWr9kk3W8KJM5tEHB?=
+ =?us-ascii?Q?vfvEUIRo+gHTA8jwFOa66OUu4cWdjXjoBoJ9545j0/7g+QYkpODlLcG84Q/h?=
+ =?us-ascii?Q?iRWlN4yXseNdAoxAK4KSqKQQy46t58MQjTd9W99cCpok8LOExqUGMT3+RKFW?=
+ =?us-ascii?Q?10HfJ9c0XDoyLpSdi2N4YE99GftufoFwGoieRZ3wwjhXCEnpuylLsKkt822a?=
+ =?us-ascii?Q?5jH/ZMxHB8nu3O7nARKktyfibl9cdrTi91KIwU6vz4hFonDN/DPhQpNaJWbY?=
+ =?us-ascii?Q?kM7LUYKbXsZGA7N4Ql2ehwI+nHMjNla8cYY5/FOXTNKE?=
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: 
+ DM6NAM10FT017.eop-nam10.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 
+	c0b8234c-bd6a-46d2-572d-08db64b20586
+X-MS-Exchange-SenderADCheck: 2
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	=?utf-8?B?U2RGRE8wcXBuT095Yjd4eDA2ck9ubjFwMDduQlo4alNEcjdjUkNTWXdRRXlF?=
+ =?utf-8?B?dHVNNTFINkNlNHprQU0yYUQ0Rk5SVm85RnROV0tJdjJMOWR5Mm1MNm93MEwr?=
+ =?utf-8?B?eDZ1a204T3FONEVNMVQvQWNLajdJWG5tb0JYTG1yNm5UcmxFRk80K0FlNmhr?=
+ =?utf-8?B?cVJhVVRzWGE1YVlkWHlXQlBhNEF0THZub0s5c1l6aEZESVhYMmtIaXpNTXhZ?=
+ =?utf-8?B?Qy8rKzAzVTd5WWhNS2ozQ1MwekM1NS9qZHh6cWx6NlZnK292RnJuenNla2cy?=
+ =?utf-8?B?OFFXcGVWeVZBY0NiQ2NLWExheGtyL2ZqRFN2TkJuVEFLMUcwT3B2Q0tNSWxB?=
+ =?utf-8?B?THNmVFp2SVpQYy9sOHVpeUtCU2FuWE9veGlyQkdvb1V0ZHFHSWtnYzhQNkZC?=
+ =?utf-8?B?OU00ZXBudHlLYm1WdzlhbDVZeEV3djBNdFp6bmt1MmRhTlZBaWxOdU40Qi9O?=
+ =?utf-8?B?TlhwTEQxL1kwdmkwYzVSdGY4aTcyc1RwaFg1T3lLYjN1dStBVitVTTlXaXcv?=
+ =?utf-8?B?OUJrVVNtSDJnakRRUjhSU2RmY0ZNaXAzdzRYWXV5OHhEUjZiTGRRUS80ZXNZ?=
+ =?utf-8?B?SFQ0YVlvRk5BYnc4TXNPQnJ0bFRscHdXcnhHOVBTeHJ4b0dNQWtwemIzdHhv?=
+ =?utf-8?B?Y1Z4VXQ4UWtuVlk4L2JEMEhETHMxRXBacHREZ0ljZjM0enVtNW9hdjhxNkpZ?=
+ =?utf-8?B?dEJJOW1Zdm1udW1MNVdCQnFhcWhBelB2N3RKcEFCczBJemg0VTV2NXd6U1VH?=
+ =?utf-8?B?MER4c3dlY3BSQXE1THV1cmxKRGpQdjM5VllaK0piajJlMlZHakl4TGJBU0Jp?=
+ =?utf-8?B?Y1hZZ0xGbVZXQ1V4TUFiZGZiQkVRWEl2UXMvV2Z3TmJlTWlYcWVFRTZNRVdS?=
+ =?utf-8?B?dDJNUHpoUlBsbU9xeTVjRnB2eHhEZVQrbE5zaC9LZlR0WnkzU3hZMWhyR1lm?=
+ =?utf-8?B?NFo5aUprV0N3Rmx2dUxFakhIUE9ZUDJVdThaQXNkai9uS2J3Z0gwUWpva3JO?=
+ =?utf-8?B?WmVZQzlZczIzdEVnbzBCbFI4TVVSWENabkVUM1AxUnArd25rcklKNnZHYkpM?=
+ =?utf-8?B?dXZQek8rUjBYRzRCQVFqWnA2bk85NzhlSmprcnMxZkZzOExIZUp6LzBFM3Jo?=
+ =?utf-8?B?N1RTSU8zK3p1R0F6TDRiNE1TT1dpMHVJNXhQYXc0WE5sbDYweSsvQWtVUkRu?=
+ =?utf-8?B?K3AvbnN3RndtRVFWQ1VoTHFGaHVIbytsUmpXaG4yOHl0aEJ3UlI5N2ozcUpW?=
+ =?utf-8?B?SnlOUTJWU2ZkK2J1RlNyK3FsOHhVbUNUbWgzL3dqcjFrOC8zZ3QzVnFGS1pB?=
+ =?utf-8?B?SUZ0Z3hsZGtOcGk2a0ZWcTZlQ1h2ZFV3QktvT2pQSzNuZE1LcWlqSGZWNWEx?=
+ =?utf-8?B?TiszRWl5TXpxcGR5Y0RNUm9XSXUrYmFyL0FCS3JjcGhza2dhb3pKa2F0amI0?=
+ =?utf-8?B?eldWUVlUK2JodjJuTldpcFZtMVR1RE5mN0x0WDdUTnJvYW5sNkJVQnBwOFNN?=
+ =?utf-8?B?cFFydkNqN0JHZmxaaUVDa3hoZUEyRXFEaGxob3E1eGRrZDQ2NVhUQ1VvTmFv?=
+ =?utf-8?B?T3NoTTdKbXdUZzRtQzBXTnpWVkZCSmROTDhDaHNIMTQzMllQK2F6WVJQdFlN?=
+ =?utf-8?B?aGpKNXU1NXhTd2JrSjJrSlNYOTdEeGhSR1NNdHo3QTFiMDVOOHdXQUZoZXlI?=
+ =?utf-8?B?cmV5QmN5ajluNkpSNkorbVFPdm40ZGRqUkhaZXRXbm9TN2thQlo2dnczc09W?=
+ =?utf-8?B?Z01BU1ZvbUFiR2ZWejJwK1YzVldRdzhUb3FtMEFaa2hZTk1RM0l0V0Z0MXo3?=
+ =?utf-8?B?OFdmK25TSnV2b2ZOd1hTdz09?=
+X-Forefront-Antispam-Report: 
+	CIP:185.192.125.15;CTRY:HR;LANG:en;SCL:9;SRV:;IPV:NLI;SFV:SPM;H:uny.edu.ve;PTR:i7h3y8f.maharajaschool.com;CAT:OSPM;SFS:(13230028)(376002)(396003)(346002)(39830400003)(136003)(1690799014)(451199021)(36840700001)(46966006)(26005)(9686003)(66899021)(83380400001)(81166007)(36860700001)(186003)(2906002)(21490400003)(166002)(316002)(40480700001)(235185007)(5660300002)(55446002)(41300700001)(8936002)(8676002)(786003)(966005)(41320700001)(336012)(6916009)(6666004)(70586007)(70206006)(83170400001)(42882007)(47076005)(478600001)(82310400005)(33964004)(43950500002)(44020500001)(552614006);DIR:OUT;SFP:1501;
+X-OriginatorOrg: uny.edu.ve
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Jun 2023 01:21:32.4419
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 52214321-3896-4f67-2e9c-08db65633289
+X-MS-Exchange-CrossTenant-Id: 26473e22-aa2f-4b3e-b628-7cc27cb855b3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=26473e22-aa2f-4b3e-b628-7cc27cb855b3;Ip=[185.192.125.15];Helo=[uny.edu.ve]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	DM6NAM10FT017.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR02MB6502
+Content-Length: 3359
+
+--00000000000045747705fd46010a
+Content-Type: multipart/alternative; boundary="00000000000045747505fd460108"
+
+--00000000000045747505fd460108
+Content-Type: text/plain; charset="UTF-8"
+
+*Ref: Astral International Stock/2122*
+
+Dear Sir/Madam
+
+We are attaching a list of our publications. Please update your database.
+
+We are offering a maximum discount on these books and please send us your
+valuable orders.
+
+With regards,
+*DINESH ARORA*
+
+
+
+
+* ASTRAL INTERNATIONAL (P) LIMITED 4736/23, Ansari Road, Darya Ganj, NEW
+DELHI - 110002 Ph: +91-011-43549197, 23278134 e-mail: **sales@astralint.com*
+<sales@astralint.com>
+*website: **http://www.astralint.com* <http://www.astralint.com>
+
+--00000000000045747505fd460108
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr"><p align=3D"right" style=3D"text-align:right;margin-right:0c=
+m;margin-left:0cm;font-size:11pt;font-family:Calibri,sans-serif"><em><span =
+style=3D"font-family:Georgia,serif">Ref: Astral International Stock/2122</s=
+pan></em></p>
+
+<p style=3D"margin-right:0cm;margin-left:0cm;font-size:11pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"font-family:Georgia,serif">Dear Sir/Madam <=
+/span></p>
+
+<p style=3D"margin-right:0cm;margin-left:0cm;font-size:11pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"font-family:Georgia,serif">We are attaching=
+ a list of our
+publications. Please update your database.</span></p>
+
+<p style=3D"margin-right:0cm;margin-left:0cm;font-size:11pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"font-family:Georgia,serif">We are offering =
+a maximum discount
+on these books and please send us your valuable orders.</span></p>
+
+<p style=3D"margin-right:0cm;margin-left:0cm;font-size:0pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"font-size:0pt;font-family:Georgia,serif">W=
+ith regards,<br>
+<strong>DINESH
+ARORA</strong><b><br>
+<strong>ASTRAL
+INTERNATIONAL (P) LIMITED</strong><br>
+<strong>4736/23,
+Ansari Road,</strong><br>
+<strong>Darya
+Ganj, NEW DELHI - 110002</strong><br>
+<strong>Ph:
++91-011-43549197, 23278134</strong><br>
+<strong>e-mail:
+</strong></b></span><span style=3D"font-size:0pt"><a href=3D"mailto:sales@=
+astralint.com"><strong><span style=3D"font-family:Georgia,serif;color:blue;=
+text-decoration-line:none">sales@astralint.com</span></strong></a><br>
+</span><strong><span style=3D"font-size:10pt;font-family:Georgia,serif">web=
+site: </span></strong><span style=3D"font-size:0pt"><a href=3D"http://www.=
+astralint.com"><strong><span style=3D"font-family:Georgia,serif;color:blue;=
+text-decoration-line:none">http://www.astralint.com</span></strong></a></sp=
+an></p></div>
+<img src=3D"http://ec2-35-165-89-122.us-west-2.compute.amazonaws.com/FliZ2V=
+MjzRlmPTvK-bQvLOZc1xVB4CZxGVb8IF0KBzfiLeV3WlotWwcQ21-86paQcP4BLjG6QuOI0bJN0=
+KUr5-WHgL4nEUs3TL8D6hlRGu6XbiO62DsAbPUPrLWMQevPBwW94_01d-Dvvq7E4BQmP8i6oSAH=
+tID4ijpXrE2SJOkajgmbDOzEBGixPy0d0ANHIh">
+
+--00000000000045747505fd460108--
+
+--00000000000045747705fd46010a
+Content-Type: message/external-body; access-type=x-deleted; length=94709
+
+
+Content-Type: application/html; 
+	name="Astral Stock--30-05-23.html"
+Content-Disposition: attachment; filename="Astral Stock--30-05-23.html"
+Content-ID: <f_lia564tq0>
+X-Attachment-Id: f_lia564tq0
+
+--00000000000045747705fd46010a--

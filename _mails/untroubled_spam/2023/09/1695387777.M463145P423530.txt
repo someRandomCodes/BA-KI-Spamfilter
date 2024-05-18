@@ -1,0 +1,70 @@
+Return-Path: <jeffreyconley@recession.biz>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 423564 invoked from network); 22 Sep 2023 12:58:34 -0000
+Received: from mail-lj1-x242.google.com (mail-lj1-x242.google.com [IPv6:2a00:1450:4864:20::242])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 22 Sep 2023 12:58:34 -0000
+Received: by mail-lj1-x242.google.com with SMTP id 38308e7fff4ca-2b95d5ee18dso36006771fa.1
+        for <bruce@untroubled.org>; Fri, 22 Sep 2023 05:58:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=recession-biz.20230601.gappssmtp.com; s=20230601; t=1695387512; x=1695992312; darn=untroubled.org;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=MNAb9q9NBEfQ+qJ483RvibXNnt/QnvwMZLCZ+tZEdGs=;
+        b=WRGuBT4uXXwrc1qkxsuPFWDlbB+M+rBycwpdjIMi3qt8j9zaOXeoTV/2tIJ/b5d84p
+         7A4ZjMTyRVSVsX7o2Z0LeNxCfqDe3JVsoJB5xbTFKWnL0EU6Sopqm760gzaj/0xD9Nx9
+         sNdI1QXcdbuEqiuOGhSz8ugsO448dvBTSp04nyMO1Fo8SwmhBFTy6H9Y+ADKqvysXnhg
+         Ug2PUsito6sZhlvALz9c3tE8sbb8J+sIXWZXp1EV7rzIAyyP0xFer2ly3LLoai1qqFdn
+         0EY6dFsoy5zqS/r6zJ2RQxmQAL5ul6FdylxJfadQnbqlynC2w5j4EvFkCfw4V4HcbtIN
+         r9OQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695387512; x=1695992312;
+        h=content-transfer-encoding:to:subject:message-id:date:from
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=MNAb9q9NBEfQ+qJ483RvibXNnt/QnvwMZLCZ+tZEdGs=;
+        b=XSTT+tyJca1BCrKfrp4HsfYWr5pZ0MWx5UYIL73Ok1sdcbqi+uj6To6XUYUElGiWIm
+         x8l8skY7KFty8XGIKWeCIh7qzlC/GUBl6Son837RHCZ5aS44WLZbcQ1MwwevtqeMht75
+         O0JRSBpTmdR+UOspNx5LgbMGRP4VGYbAZyL8sbl50U2Ka7p/2yf+V1QelL5FZuIBBOYs
+         lLVr8f8VIdVfvzMjxz3Soo0Cu97NlKguCrJoRcFy/nIJsYYMoAMcdkPdsf3Mi6gMXWen
+         6XZ0ddXv2WZH3xDiY2P+rKtBiyIqzKXplkfzbDL0tuT2rGc9BY/Bb5gpcd9ieoZQC27R
+         zDPQ==
+X-Gm-Message-State: AOJu0Yy83jG3gFYvVCJk6u9S/P/cPJWFbYvrz38tbldoPOTRjAqo4eOS
+	QP6ZkHdzKdcChWyqXb6Hr0iQtck0b5zOvJuam/Sa103l8N10nwFugTw=
+X-Google-Smtp-Source: AGHT+IGh4Uxsp6dXmZwmuugGYA2qea2NzykGGHSeBR4kCe116/9BFtY+TU7v+3c3n+IjNsOGpaWc1m+eu80blcA/pzQ=
+X-Received: by 2002:a2e:7019:0:b0:2ba:cbb:47b7 with SMTP id
+ l25-20020a2e7019000000b002ba0cbb47b7mr8027978ljc.21.1695387512143; Fri, 22
+ Sep 2023 05:58:32 -0700 (PDT)
+Received: from 1003550970514 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 22 Sep 2023 05:58:31 -0700
+MIME-Version: 1.0
+From: "Jeffrey D. Conley" <jeffreyconley@recession.biz>
+Date: Fri, 22 Sep 2023 05:58:31 -0700
+Message-ID: <CAC6NVRH+HvgimOTzbJ=9c+iyiiyxSmYR7x1KS1jJF7965-roRw@mail.gmail.com>
+Subject: Article pitch -- will you please take a look?
+To: bruce@untroubled.org
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+One of the most crucial aspects of running a business is utilizing and
+analyzing data. A good data analysis can provide useful insights into
+a company's operations in order to help it grow and succeed.
+
+Can I interest you in an article on this topic for you to consider as
+a guest post on your website? The article will be about how businesses
+can make data analytics part of how they operate, strategize, and
+grow.
+
+I appreciate your time and careful consideration of my proposal.
+
+Jeffrey D. Conley
+Recession.biz
+
+
+P.S. If you=E2=80=99re interested in an article, but want one on a differen=
+t
+topic, please don=E2=80=99t hesitate to reach out. Otherwise, just let me k=
+now
+if ever you don't want to receive any further emails.

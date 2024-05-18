@@ -1,0 +1,150 @@
+Return-Path: <matt.johner@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 283729 invoked from network); 15 Jan 2024 09:47:17 -0000
+Received: from mail-oi1-x244.google.com (mail-oi1-x244.google.com [IPv6:2607:f8b0:4864:20::244])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 15 Jan 2024 09:47:17 -0000
+Received: by mail-oi1-x244.google.com with SMTP id 5614622812f47-3bd763525a9so312368b6e.0
+        for <bruce@untroubled.org>; Mon, 15 Jan 2024 01:47:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1705312036; x=1705916836; darn=untroubled.org;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=q2Zln2qp8siHPDVN4PXduuo8jNhSNTQvbuU8puMQnsM=;
+        b=DEu1u6qyCfvhRZmF4vT2gFAokQeL9Q1SCo8r5RiSuu5xFoshWkD0mepax12PG102/g
+         aqJhbYA2eyZptezqweJhvh/uhu+gM2ozy/Zqy4d/ktTrWrwYM2roynKvtzjNHmHTabVm
+         rYecmS8SlUAMYbhVXBMlvX0uBLStsExE3XYwiJdLDJb7EIumDXILopleYop7TaIJc9LN
+         5kvrVtz4uYo0181RgabCddqsjw83d6I4nHtKvza5M9JQ6ivMYy3ubRf8BmUuHCxRJoF2
+         TjA0x3daHwjveok88XMZVWxvqVIcR7a270w9COGN99st9jbO2lavP/0IOvGAv+UnETxQ
+         vRmw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705312036; x=1705916836;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=q2Zln2qp8siHPDVN4PXduuo8jNhSNTQvbuU8puMQnsM=;
+        b=ISbFw1EGIcFgu3XCVatQWBcrrm47ZqfRB3W/DwRTJ0xBlHDKsmbyc6Jfcwu0O6yGmo
+         n7yXZbcCAoHCiyaNd6pHG9GZxq3QSUAZUy9MvKvoteQSMJdIzp3Rh1WwTNkjhG/lMdtf
+         r+vjQh8Kwmpa10vhIboTMKVqmsINagIZE9B3UKfTcqjKIqQk3Agl7/l616KAYNb4LIZu
+         4K2VIjfXp+KKC2jMAZ/A8NYvfz7WHh4QLiQoSNy+nNr4Ybn4lLQTtUKZ4Zb65aDtTSLf
+         fUuV0/J9qGQw6ZvzG0M6T4JYQU9FJHagj6vuWzrcFtCVyufNzjIDaK/mehljbFgxgxRY
+         7lVg==
+X-Gm-Message-State: AOJu0YytBfenyN11lg0LuS09X+N+DRURHGXQPsWIaflEKQLwtPHD8TnM
+	dtiqM/coTHe462DtOmgF4Qw/kwhS0htJ/TxNommcxD1Tzi5Rwo/bo0wN7YiRz4E=
+X-Google-Smtp-Source: AGHT+IFsat0lKNmeU7HlwkgUh/coP5UXOZfUHdnaozmWd/X0xR1z6Y7U0mvzol3oqSdpfB6e8LzeI2z1YdE/nx5fTq8=
+X-Received: by 2002:a05:6808:4443:b0:3bd:813d:8a68 with SMTP id
+ ep3-20020a056808444300b003bd813d8a68mr252915oib.46.1705312036151; Mon, 15 Jan
+ 2024 01:47:16 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 15 Jan 2024 01:47:15 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 15 Jan 2024 01:47:11 -0800
+MIME-Version: 1.0
+Sender: Matt Johner <matt.johner@globalgns.com>
+From: Matt Johner <matt.johner@globalgns.com>
+Date: Mon, 15 Jan 2024 01:47:15 -0800
+X-Google-Sender-Auth: ERDoSNOBvp5BoZbhphVQrCcRrBU
+Message-ID: <CAHBf=BMa2Yj8da4kV-CSLrMgjR8jd0=GyGFTJSg6hH4+fTossQ@mail.gmail.com>
+Subject: untroubled.org : Do you want to designing / re-designing website?
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000257460060ef8e6d6"
+
+--000000000000257460060ef8e6d6
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>*
+
+
+
+Do you want to Design or Redesign your website *untroubled.org
+<http://untroubled.org>* ? I can create a unique & beautiful website for
+your organization at a minimal cost.
+
+
+
+I can also upgrade your website *untroubled.org <http://untroubled.org>*  that
+has all of the modern features and functionality.
+
+
+
+May I send you a web portfolio and prices? Please let me know.
+
+Schedule a Zoom meeting to see the demo.
+
+
+
+*I am waiting for your reply.*
+
+
+
+Regards,
+
+*Matt Johner,*
+
+----------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe*
+<https://globalgns-dot-yamm-track.appspot.com/2AvXsPUYLYhZoG8GqelvawC6tAnDPrL_WutZLCMMNkV82k4QMjQHvkUehOTc3AhrgJtAEvJAAWceVoq9e4pdPNBW78hFeezqEWP6Iy3omkZ6-RBsq9UKDmrQQY7RhMn1UXZPgxRnZApdDBjML-3BtmpT8PTEDQss8_KRBLzoH3DuDiuWyFTFObydnlE-Gez5dAxaI>
+[image: beacon]
+
+--000000000000257460060ef8e6d6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:12.65pt;font-size:11pt"><span lang=3D"EN-IN"><font face=3D"verdan=
+a, sans-serif">Hi=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org<=
+/a></b></font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0=
+001pt;line-height:12.65pt;font-size:11pt"><font face=3D"verdana, sans-serif=
+">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;=
+line-height:12.65pt;font-size:11pt"><span lang=3D"EN-IN"><font face=3D"verd=
+ana, sans-serif">Do you want to=C2=A0Design or Redesign your website=C2=A0<=
+b><a href=3D"http://untroubled.org">untroubled.org</a></b>=C2=A0? I can cre=
+ate a unique &amp; beautiful website for your organization at a minimal cos=
+t.</font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt=
+;line-height:12.65pt;font-size:11pt"><font face=3D"verdana, sans-serif">=C2=
+=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-=
+height:12.65pt;font-size:11pt"><span lang=3D"EN-IN"><font face=3D"verdana, =
+sans-serif">I can also upgrade your website=C2=A0<b><a href=3D"http://untro=
+ubled.org">untroubled.org</a></b>=C2=A0=C2=A0that has all of the modern fea=
+tures and functionality.</font></span></p><p class=3D"MsoNormal" style=3D"m=
+argin:0in 0in 0.0001pt;line-height:12.65pt;font-size:11pt"><font face=3D"ve=
+rdana, sans-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:=
+0in 0in 0.0001pt;line-height:12.65pt;font-size:11pt"><span lang=3D"EN-IN"><=
+font face=3D"verdana, sans-serif">May I send you a web portfolio and prices=
+? Please let me know.</font></span></p><p class=3D"MsoNormal" style=3D"marg=
+in:0in 0in 0.0001pt;line-height:12.65pt;font-size:11pt"><span lang=3D"EN-IN=
+"><font face=3D"verdana, sans-serif">Schedule a Zoom meeting to see the dem=
+o.</font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt=
+;line-height:12.65pt;font-size:11pt"><font face=3D"verdana, sans-serif">=C2=
+=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-=
+height:12.65pt;font-size:11pt"><b><span style=3D"color:black"><font face=3D=
+"verdana, sans-serif">I am waiting for your reply.</font></span></b></p><p =
+class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:12.65pt;fo=
+nt-size:11pt"><span style=3D"color:black"><font face=3D"verdana, sans-serif=
+">=C2=A0</font></span></p><p style=3D"margin:0in 0in 0.0001pt;font-size:12p=
+t"><font face=3D"verdana, sans-serif">Regards,</font></p><p class=3D"MsoNor=
+mal" style=3D"margin:0in 0in 10pt;line-height:12.65pt;font-size:11pt"><b st=
+yle=3D"font-size:small"><span style=3D"color:black"><font face=3D"verdana, =
+sans-serif">Matt Johner,</font></span></b><br></p><p class=3D"MsoNormal" st=
+yle=3D"margin:0in 0in 10pt;line-height:12.65pt;font-size:11pt"><font face=
+=3D"verdana, sans-serif">----------------------------------------------</fo=
+nt></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:12.6=
+5pt;font-size:11pt"><font face=3D"verdana, sans-serif">Note: If you are not=
+ interested, please</font></p><p class=3D"MsoNormal" style=3D"margin:0in 0i=
+n 0.0001pt;line-height:16.8667px;font-size:11pt"></p><p class=3D"MsoNormal"=
+ style=3D"margin:0in 0in 0.0001pt;line-height:12.65pt;font-size:11pt"><font=
+ face=3D"verdana, sans-serif">Click here to=C2=A0<a href=3D"https://globalg=
+ns-dot-yamm-track.appspot.com/2AvXsPUYLYhZoG8GqelvawC6tAnDPrL_WutZLCMMNkV82=
+k4QMjQHvkUehOTc3AhrgJtAEvJAAWceVoq9e4pdPNBW78hFeezqEWP6Iy3omkZ6-RBsq9UKDmrQ=
+QY7RhMn1UXZPgxRnZApdDBjML-3BtmpT8PTEDQss8_KRBLzoH3DuDiuWyFTFObydnlE-Gez5dAx=
+aI" rel=3D"nofollow" target=3D"_blank" style=3D"color:blue"><b><span style=
+=3D"color:rgb(17,85,204)">unsubscribe</span></b></a></font></p></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2r4UtR1qfHbAiijvZ2=
+vMOzvxIdGL-5K3UxwQRdjAaaqs0k4QMjQGAfGhFOwXCgeZr1yuMYZzNN3ObVivts5W0cu8CcuOG=
+F2Y2erfOY4DS3WcPdzwUqJEVeVu8azMTHBwhPYFuf-mPBzN_jmb_IWntcmpZ5yDhglJyrsC3s60=
+" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:no=
+ne!important;">
+
+--000000000000257460060ef8e6d6--

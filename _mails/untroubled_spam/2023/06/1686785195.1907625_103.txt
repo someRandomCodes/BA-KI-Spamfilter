@@ -1,0 +1,392 @@
+Return-Path: <thesheighshvkyeam@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1837095 invoked from network); 12 Jun 2023 17:12:18 -0000
+Received: from EUR04-HE1-obe.outbound.protection.outlook.com (mail-he1eur04olkn2079.outbound.protection.outlook.com [40.92.73.79])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 12 Jun 2023 17:12:18 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=dOnH46sUYnDa7fmWvNMox+2Nw6AREakOGg9y1G4AGymfynSfTCOE4kc0KxuaDKUe1RdlTNHaurG8Cs5QtSrRm/oWCUSOBDXJx8AAbF2V18g3OkTozbjw1FW1vjKaFk53cHzYsCrTgtsimWU1awIGbqTYiZkZus/501//poPH5saOiAXu9gOK4KV5zgD1cQFtztGKKWI2DUyDtsJ55KhdmD8GiQUX+aQk1MwJ3nM53IvrsA8Rxv2hG+qtuTACYnPUNMYSbPWA/ZDYJiTeL+X2HAK+MDx3hwxkzrE4SyxxTvXc20wUyVETgJzqqhw5nWY7ljrKiIcprk8W0XCKn44eDQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=fcO3MNhR58EDE3F+vPXCT+9XudKMpsll1FRLrUfHGrk=;
+ b=jaqb4DWwmmbkpYrNA8qNI9IYq8ZD/tACVvRZayMcWpk/q++q+soBRsyuYv7PSRVg09kdZflXvD37i7pM/vWe9I/o2nFd0htGIawwRKHj/crNnKR7HH5ErcC4kol+Razn42lXjElXqlH0/KyP8W4r4ZxVBOq507hRny4FXOwVjVXgOO7IN9OjTlvL9aEun4wjsI7l9dIyEDfQ80M1qzyMIzG4i5LyRJ5iMzvS5mirvOE/QW/qyEOSKZpBFQpRdEFpzKXvJkjitU5zkTl7muwt0JRe4eKmhLnFJlsWlRc+IMzd+GlEqLq1bVqXyjlXg1NgWg6hB1X7bJZKPX9Hhw2U5g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=fcO3MNhR58EDE3F+vPXCT+9XudKMpsll1FRLrUfHGrk=;
+ b=QeIWR9SCeyfCz/HPHTyVcyGYnPlJIzjE9AWKmge6M/L/3OoJlTu6ugpnDnUH6tRKly6BSQl/RnyR78FrmctaQ/EkavOjFQAGXDl7uguA3jfZ7pwQQdnNAdKyT6QfSHTtIEpmwiOf+xwKB4BOlNPPzOfjP9rRO59O1FymZa/aqt1gTJ6EB8adGOpay6ouHFSZWP29Rix8FuACF6hiihQZEpYb12/xYh2M3x4hDi6TZYjTkCNcX1XfyHj6it+l+oVhgE85tCpFEQJUJwTrRLI/v8qO7zPGR+b3XzgFLxYy1OyZKR4pAagNCm9sQgcebOOHv1WVpF40WVVGbd6nD0EeoQ==
+Received: from DB9P189MB2051.EURP189.PROD.OUTLOOK.COM (2603:10a6:10:393::11)
+ by PAVP189MB2411.EURP189.PROD.OUTLOOK.COM (2603:10a6:102:30b::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.44; Mon, 12 Jun
+ 2023 17:12:05 +0000
+Received: from DB9P189MB2051.EURP189.PROD.OUTLOOK.COM
+ ([fe80::f909:d996:b2d5:12f5]) by DB9P189MB2051.EURP189.PROD.OUTLOOK.COM
+ ([fe80::f909:d996:b2d5:12f5%5]) with mapi id 15.20.6455.030; Mon, 12 Jun 2023
+ 17:12:05 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "thesheighshvkyeam@hotmail.com" <thesheighshvkyeam@hotmail.com>
+Subject: Single Ukrainians looking for fun in the United Kingdom and Ireland!
+Reply-To: "thesheighshvkyeam@hotmail.com" <thesheighshvkyeam@hotmail.com>
+Date: Mon, 12 Jun 2023 19:12:01 +0200
+Message-ID:
+ <DB9P189MB2051183C8D9E311580515649B854A@DB9P189MB2051.EURP189.PROD.OUTLOOK.COM>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_60C6_97F5C1C7.3B6DC9A2"
+To: Undisclosed recipients:;
+X-TMN: [3qj/YxJBEHvG4gKz1JFPxynpscUzNyGU]
+X-ClientProxiedBy: VI1PR09CA0139.eurprd09.prod.outlook.com
+ (2603:10a6:803:12c::23) To DB9P189MB2051.EURP189.PROD.OUTLOOK.COM
+ (2603:10a6:10:393::11)
+Return-Path: thesheighshvkyeam@hotmail.com
+X-Microsoft-Original-Message-ID: <1.f7031f3f5a2ed00e5f5b@DESKTOP-KCLSUT3>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DB9P189MB2051:EE_|PAVP189MB2411:EE_
+X-MS-Office365-Filtering-Correlation-Id: 86a32138-6c35-4b93-04a1-08db6b6824e7
+X-MS-Exchange-SLBlob-MailProps:
+	zb1SmhujNEG9uKAs1tcx8K+9vUwE1PT1BTAQ72a4Ny7oBb2FkxbHGzMKbTEzS1JkiKyup8XNmY83u6qjuhmX45aZQZfeBT9fChm+BX4dUTM89GUV9pL6GIIi3YPusuSFxaV3eEga3vk+8ofSQrkw1E1c4pDI1lsBhEsSViOWlT68kQAt7TRsMKCsXaNT768i6daG2gVAz4Yna8dIEPG4f/Y6hVyGGJxrqKxyaTD/6ps3j4cM5RunPA7VKzWNA+7VXjfwAAWsLu6VAOWz7HSYKTlyVWdt+oCV8WbRqbNNKZTyUFQYPcQRKZBAzwfPxFkGZoQ/lub1QH4xi3GaVn7O2H0QgPfw7acYeR2fWUkBZyw7tMNncYNAdmWtUCFDlRm5KFw82yWPgjeRLo6NYArQmuyq0r+cH4QMmXSli2YG9xszNSdGNa1xqjqbYFb4T9lVLgN19Gn1ZkW0QpHHVPZ+MdIPVZMRm73nJry0VOESbstBLcOsQURQrPqBDQ4wX1D7c20fW0b2LKwQobrgKhXLoeSycYEakbEy+nc9SfBjzOT/krq8cDf0vdywJ9eBrSfZwzV4GQV1jNSwFK6fa9OIFwgIbWPgQ5HhKQinppxE87fkxM+qeGU4qPAachaau9vWyVk4tEsjr/lzf6/EzYznzaadIeOsCvCEGBtAwLTt1SKVWqwYzRFmej1aE8/eIeq5Bozd4Fl9aWo4OXkIq2uS7T7OYeit7e8YtSTtToP+TKjec04KTgQUbcqqO9+aimBKMDebl90WXtih0jItAElh9fXohb8NxMesVmgYvS0oLuYjxyqOgdhEAMAvbtsf0+AkrYlIwgQeedvxthEaKIErU7BB9VGSCAGJdnrDuDAjBUoz4XyRJuDPRPOXvqOmeiGK
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	Ol/lEud/8T58CbmWA+nTGOJy31Mx5WMlc/Qc8RhV+50WlOFNC4V9j+xrZ9GfBnhO4yCtbJqhR8xOaOIECvqdvv8qotG1WqtXWYTmqIkexbsl/3k3VC0dqt7uhNRYqzi7YXPaKnfrbcrMtwHf5RG08knzUcqRQpv/LTp8LBKIYcztosjr3cycFvuV0tZFEkh8pkxisNBGOyO5G5RGELnskz9pG1+K9OA67IW5TIcK1ocq7hGQOaRVF0h98NfhXBI4Vh2PfCfYvduUo+JBLTVxS8WGZOvmO94rJrt4EPB7OBHQx2Y1c1kZRPP7QlYm+hmrpTs5W3G9+TBTiEF5cnY9Lfbfmq+0K1/Bqx/N7JmsDOrVDEmNcnfCHtPqezqqrQSy8IiAwtSA+KlhUF2Jqt2a/Hz4ZxTb9p+ClMzSKTlW/uT7FqesjoK3WspACWiVTzXM8zIwnvIZuU+2ouLNopobATETrDe93EOa2IGS5lbES1fk4/Kc7Y088zq19SCjTCbSgWln8pR5ojfMOdWboQEcc6s2RasPo/vPFO8d9+ZH4fq/qvNQrrqDXIwNqoi92H2iMdKD0dqABSH6fddV4UEaPL4Pg8ySuD3JhBWWDO4JY8TnQONhwqh2WwIdRSsU2WpTnWYX3dile4SMO09/bx8L8GsJD/EXfxkpm+vxOxaS0GQW4VbYmI+98BtoKfnuz1goi05L+YwGBHzG1vRoMqLupsVjR1cjNv1qglRdj8OGpfzpkFEsPT81L8y6oyZa1XM9RlhLlrQ1eQYTQRI0Uyrw8DzmHH41ifvgRjEl4LTM5WZXUDELasAiLr3HzjNN95AlRB1fXWUKc3uUB01skVvm+PXlwufGjuuPzUOVey4yDim++BN3GBC/5b3BjZLN01D3pePVYEItmujWxgPGtaLwZF2TfPFh29ZyK2vCuYnehiUtgO4f3bdPVNlxZWOz3DIy
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?R3ZXcThhK1ZCRTVLMG9kM1daUDRuTTl2UHhQaWVLQkYxbTVOTGUxa0g5OXho?=
+ =?utf-8?B?VXRnVjJLZHI1K2pVcFBvV29PRHdjYjFUT0ExTEJtdXFsejUzaWJLVmZuSnVN?=
+ =?utf-8?B?aXdxZGZrN2c5N29FUHFMb2xFUGp0WTNGV3ZNNWxJUFFlZWJlRWRCWWtuRjRK?=
+ =?utf-8?B?UUdEQ0ZuYlFXNXRKMEMyTUFodzZTUGgvMDdIVFQwekJMSGxXQ0Z6QVM2WFZ6?=
+ =?utf-8?B?aFNBNnovK2kwUTkrTnlGcktMQWJPdXZlRi9PT0lJdHMyTWh0Rlh1ZDZDNjR1?=
+ =?utf-8?B?R3dyR1NKNndFN3dDZjd4NXBrZ0lLZ0w4ZzBFbENJZWJOQkk4WFR5N3k0NzR2?=
+ =?utf-8?B?QjIvRldMblFlckFEK1BCT2lZVXNWOENQbktvMytmbmR6Tk5ueGQrbjVvdyt5?=
+ =?utf-8?B?bHNFVjVPVlJjMmpVenlUSnc4ZzREdUVLSHArVi8reDhhVHREK3BSb0tVcmI3?=
+ =?utf-8?B?NDNxYVJ0V25KdkhRTW9aSVdYWjh5MWpWUTZyMjJwdldlTVhaMHVDeFhkbkdU?=
+ =?utf-8?B?UW5URVgwenRFSmJTeWNFTzgzY2pVajZBT1BwYVAwUUJiK0lBLy9TdkFraDh4?=
+ =?utf-8?B?QUdGMnM4MENrNzRWbGFWZTJ2MGlqc3cxSHVKR1M2SlRQMDhpeXRWSU9hdFpU?=
+ =?utf-8?B?Vm1hR0dWUHY0OFdvWDNWQVRhSkU4emN1d0o1ekp6OE80cHo0aGpOR3V4QUp3?=
+ =?utf-8?B?bTJGdFpMOWZZV0htaVNQaUo1L0lTTkgreGdmSDFhRTJzSDkrbTcveXh6cEFi?=
+ =?utf-8?B?VUdzL2hoM2J5M0FOenlEVVhEYlJhRUp1VXoxZnNsNW1Ha0NPdkw1SlBDcFhi?=
+ =?utf-8?B?OXUrQ2dHdW5KaHdZVXBhNW9CNmpFTTJsY3NNMWlnR3loZHNXeXFEN0lIdUEw?=
+ =?utf-8?B?MUdPVWZzUWNuWVFSWVF0ZWlQYjE0UmpUMVZkbFdpSlFNSHorRkZvYXhyRE4w?=
+ =?utf-8?B?STViWmdvWlFxNHBvTVg2STNWdlQxQmhzQzV4eTRtVXUvdHg0TldBbXdsRW9L?=
+ =?utf-8?B?Y1NDaFlKLzZkaGE3N3B3aEswWnNZOE0zYktPT3VCSUlHd1BUNHB2RUlyRTE1?=
+ =?utf-8?B?WUZCcHZsVnl2UlpVQkF6VmNLenNvRURtNkhDQVFOcnV0Y3lyelVZbERON1Zu?=
+ =?utf-8?B?S3cwSHZucmRyc2ZsUk1vZXFIQmVWbERGcytMc0dEUFhwaDdJRGJobkNVWkEx?=
+ =?utf-8?B?WXorUlRCelRUS3ZnMFJlN0xQeUZMS0N1eldTY2NaQXFGSW9zRVpiMVFhWkpy?=
+ =?utf-8?B?QVZKKzRrR2xadHNEbUwzSFpwcjdlUURQUTJWY1NxTkxXaktoRUg0ZXc5MFR6?=
+ =?utf-8?B?ZGtBQ0t4SUR6M2l1a2txcDlvd0VLK05KY0M4eFZBbm13VldZTjQ3RkF0aHhr?=
+ =?utf-8?B?bTA1MFBKdEZzN1gxeUJSeDRvQnRDUlZpQ0R6Z25WZEF4ZkJvaUlVWFFLQXNq?=
+ =?utf-8?B?NFI4OElzWEFxcHlLbDQ5ZUhCVGtvQ3kxUUtZQ2hnTHFhZmxjK2RQWDVLR0pJ?=
+ =?utf-8?B?QUFBUUV4dlg1MW84WDh5Qy9oaFZhTU5KSjBTZ0Q4ZjRZUmJRdXB5Ukt3NHdw?=
+ =?utf-8?B?K2FUaGdCK284Z3Q2RHluU2ZLVW4wNzMrTitDdUtnU0NpQXRiKy8wWVIwalNZ?=
+ =?utf-8?Q?pROUekmdL793CTq1870S8hbMABO0cycximRWyqqXHjwY=3D?=
+X-OriginatorOrg: sct-15-20-4734-24-msonline-outlook-c54b5.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 86a32138-6c35-4b93-04a1-08db6b6824e7
+X-MS-Exchange-CrossTenant-AuthSource: DB9P189MB2051.EURP189.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Jun 2023 17:12:05.1926
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PAVP189MB2411
+Content-Length: 7582
+
+------=_NextPart_000_60C6_97F5C1C7.3B6DC9A2
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Free Trial Limited Time 
+  
+ Simple Steps to Meet Beautiful Girls 
+  
+ 
+
+Do you know that the statistics say that over 300,000 Ukrainian women have =
+moved to United Kingdom and Ireland since 2022! 
+  
+ Because of this information we created a website where you can date, chat,=
+ cam and meet a single Ukrainian woman in your area in UK/IE today! 
+  
+ 
+On our site there are over 80.000 members and the numbers are growing every=
+day! 
+  
+ Because of that, don=E2=80=99t miss this limited time special offer and jo=
+in now on the link! 
+  
+ 
+(MEMBERS ARE AGED FROM 25-65) 
+  
+ 
+
+FindUkraineGirls 
+  
+ 
+
+"Registration is available for free." 
+  
+ If you do not wish to receive further messages, please delete me 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+here 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+------=_NextPart_000_60C6_97F5C1C7.3B6DC9A2
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-a1f4f0e3-7fff-4800-=
+ac88-d5172e881b10"><br>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;background-co=
+lor:#eaf5ff;margin-top:0pt;margin-bottom:0pt;padding:15pt 0pt 8pt 0pt;">=0A=
+	<span style=3D"font-size:36pt;font-family:Arial;color:#f4016b;background-c=
+olor:transparent;font-weight:700;font-style:italic;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Free Trial =
+Limited Time</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;background-co=
+lor:#eaf5ff;margin-top:0pt;margin-bottom:0pt;padding:10pt 0pt 18pt 0pt;">=
+=0A=
+	<span style=3D"font-size:18pt;font-family:Arial;color:#333333;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Simple Step=
+s to Meet Beautiful Girls</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Do you know=
+ that the statistics say that over 300,000 Ukrainian women have moved to Un=
+ited Kingdom and Ireland since 2022!</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Because of =
+this information we created a website where you can date, chat, cam and mee=
+t a single Ukrainian woman in your area in UK/IE today!</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">On our site=
+ there are over 80.000 members and the numbers are growing everyday!</span>=
+=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Because of =
+that, don=E2=80=99t miss this limited time special offer and join now on th=
+e link!</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">(MEMBERS AR=
+E AGED FROM 25-65)</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:12pt;=
+margin-bottom:12pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><span style=
+=3D"border:none;display:inline-block;overflow:hidden;width:624px;height:253=
+px;"><img src=3D"https://lh4.googleusercontent.com/2TN8i3YWuInCJmC6iWjl7t-k=
+4QDoN5Mc2DHXP93hPB3Wewi0T9YuSncRJka9WIWFX1LbLISG5BjUs_1PEE2hVZv55aFu0JVgfYm=
+uBY3OAWNqOIlVkl2lfg2FGnIm748Mw8Awl1HP-vH2tiWrCp4-Ses" style=3D"margin-left:=
+0px;margin-top:0px;" width=3D"624" height=3D"253"></span></span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:4.120655999999999;text-align:center;mar=
+gin-top:0pt;margin-bottom:0pt;">=0A=
+	<a href=3D"http://girlukrainian.online/" style=3D"text-decoration:none;"><=
+span style=3D"font-size:18pt;font-family:Arial;color:#1155cc;background-col=
+or:transparent;font-weight:700;font-style:normal;font-variant:normal;text-d=
+ecoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-=
+ink:none;vertical-align:baseline;white-space:pre-wrap;">FindUkraineGirls</s=
+pan></a>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&quot;Regis=
+tration is available for free.&quot;</span>=0A=
+</p>=0A=
+<p dir=3D"ltr" style=3D"line-height:2.38464;text-align:center;margin-top:0p=
+t;margin-bottom:0pt;">=0A=
+	<span style=3D"font-size:11pt;font-family:Arial;color:#000000;background-c=
+olor:transparent;font-weight:700;font-style:normal;font-variant:normal;text=
+-decoration:none;vertical-align:baseline;white-space:pre-wrap;">If you do n=
+ot wish to receive further messages, please delete me</span>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:4.120655999999999;text-align:center;mar=
+gin-top:0pt;margin-bottom:0pt;">=0A=
+	<a href=3D"http://girlukrainian.online" style=3D"text-decoration:none;"><s=
+pan style=3D"font-size:10pt;font-family:Arial;color:#1155cc;background-colo=
+r:transparent;font-weight:700;font-style:italic;font-variant:normal;text-de=
+coration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-i=
+nk:none;vertical-align:baseline;white-space:pre-wrap;">here</span></a>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</b><br>=
+
+------=_NextPart_000_60C6_97F5C1C7.3B6DC9A2--

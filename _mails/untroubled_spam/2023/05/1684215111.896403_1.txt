@@ -1,0 +1,2613 @@
+Return-Path: <workshops=foscoredevelopment.org@bounces.foscoredevelopment.org>
+Delivered-To: untroubl8492-bait@untroubled.org
+Received: (qmail 891894 invoked from network); 16 May 2023 00:54:49 -0000
+Received: from h253.mxout.mta4.net (h253.mxout.mta4.net [96.45.68.253])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 16 May 2023 00:54:48 -0000
+DKIM-Signature: v=1; a=rsa-sha256; d=foscoredevelopment.org; s=api;
+	c=relaxed/simple; t=1684198484;
+	h=from:date:subject:reply-to:to:list-unsubscribe:mime-version;
+	bh=6R/9YMteLbxF8iUfdGiWyFf8QAHU9hSx/RfRdSRDm9Q=;
+	b=BqTvPUWKMXtYBXAYoNsvcnUXvZu2hYKUvE7K8K6LZoaxwFgNxqsDuw7vTOINZExi9g79bIOn1Ca
+	f5R1GIDghxF2TpLWFvb6OACK8vCBXEQ0L3b0H0FHWFXCoDgCEoxoz7R5s9IxpLH0oHOVg8DwJqVkJ
+	7IVqkNHdsISL+c4cJ34=
+DKIM-Signature: v=1; a=rsa-sha256; d=elasticemail.com; s=api;
+	c=relaxed/simple; t=1684198484;
+	h=from:date:subject:reply-to:to:list-unsubscribe;
+	bh=6R/9YMteLbxF8iUfdGiWyFf8QAHU9hSx/RfRdSRDm9Q=;
+	b=LFcsu9FtygDglomxsChGKGBpp0IVwwEZF0zi61rNZ83OGWZBMcY9LGafIx73QDg9FARN0T9CNbD
+	p5/4zddLu9xECAnGa9bh80hUtamcICJ5cr4651CrP6yD5PGGC2Z8PBhEftINyeBixFpwHHcMxmEvo
+	qL9I9YvTypvizRLFjIA=
+From: Foscore Development Center <workshops@foscoredevelopment.org>
+Date: Tue, 16 May 2023 00:54:44 +0000
+Subject: RE: Invitation to Impact Evaluation for Evidence Based Policy in
+ Development Workshop June 2023 Mombasa Kenya
+Message-Id: <4ujyak2vzia2.GtkeK8D0mBenSDEQSpbEAQ2@email.foscoredevelopment.org>
+Reply-To: workshops@foscoredevelopment.org
+Sender: workshops@foscoredevelopment.org
+To: "bait@untroubled.org" <bait@untroubled.org>
+List-Unsubscribe: 
+ =?us-ascii?q?=3Cmailto=3Aunsubscribe+GtkeK8D0mBenSDEQSpbEAQ2=40bounces=2Eelasticem?=
+ =?us-ascii?q?ail=2Enet=3Fsubject=3Dunsubscribe=3E=2C?=
+ =?us-ascii?q?_=3Chttp=3A=2F=2Femail=2Efoscoredevelopment=2Eorg=2Ftracking=2Funsubscribe=3Fmsg?=
+ =?us-ascii?q?id=3DGtkeK8D0mBenSDEQSpbEAQ2&c=3D1554357266860434872=3E?=
+X-Msg-EID: GtkeK8D0mBenSDEQSpbEAQ2
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=-eZCfI3be+w6UA5eTSMwhWg3k4zdy19sE/XWKzQ=="
+Content-Length: 142072
+
+--=-eZCfI3be+w6UA5eTSMwhWg3k4zdy19sE/XWKzQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQoNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGlj
+az9kPWxLUEdiYkFRWWxFbTVFbXdKOFFLRkl5Z0RfTXFlekFFaEhaSGVEZ3BuakhUQUplcUNt
+aVBIYzU0S1AyMTh6cnVkVTBWQXJjVEhadDMtMWtEbDR6dTNHVXBTMU1LbXlhZnc5V1MxMDZs
+eW1ROWgzZEdDMElNcnpfTTFlaTZRbmxRQmVEWjQzWlJ5U1liWlFwRFdyR1VSZ3RCM2l0N0Q3
+VlZpeEZtVUFxUkNzWHRFY3BpT0RvT1ZIV1U2bTJEZ3FuNnhzaHc3eW1fRHBYNGtkbzVrSkRv
+bXBXaDZlUjdUU1hZRXFhTWw4NktqTGtqb1dIODBhekpmX2VRZ21yQWtmTlQ5cnVtS0RqeW1G
+eHBFdXhvRXV6TjM5bzE+DQpJbnZpdGF0aW9uIHRvIEltcGFjdCBFdmFsdWF0aW9uIGZvciBF
+dmlkZW5jZSBCYXNlZCBQb2xpY3kgaW4gDQpEZXZlbG9wbWVudCBXb3Jrc2hvcA0KDQo8aHR0
+cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1wV3Ny
+WWtZYXEtRXd1djdMVXFibng0M3NGNS1WMmtnNnZULVRENnkxaEtMZ1FLWDU0OUY3RGpKaVQ2
+dDhyLWN2cVh1bGlJY2R5dXhYeVdYcGlMQ3BQSTEzcVN3R2FfYlhxYzZ5bVlXT0kyOUJfblpa
+aEdNQnJSMW5PYnBYTklaYUx6ZWdiNFpiLTRkZEpBczl6ZEt1UVZrMT4NCkN1c3RvbWl6ZWQg
+UHJvZ3JhbW1lDQoNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFj
+a2luZy9jbGljaz9kPVJabUFLVXBoYzZnYnoyZ2NlTFA2UklNcWxHRTMxR3ZpM1I2YnplX0My
+Z3ppcjJ5VnFVWFlOQWVXb3VLMnpxLTY2eUJDVDFra0gxTjhiTWJ0VjBmZklsd3p4Y0p6Z2Rm
+M2luQWtGRy1ablBaVFBzeDVmUVpkNFdScDJpVkpsTDUxQmIwdklTYVV2cnF4MlVZUkhXb1Y2
+amsxPg0KSW5ob3VzZSANClByb2dyYW1tZQ0KDQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZl
+bG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1uTDJPM0N2N3d6X0V2V2VhRWtlaS1MeFBf
+cE5CNlM2d3cybWdlbzB3cnFQS3Ayc05zRXZHYjN1OG5ROVlaTFRjSmNPUHZpNHNyRVJDcVFw
+RGtGMVhVaVBFbTFkbXBPR0lMSEVNNXIzSmpPNlRnUWRmMXhzVjIxZnJ5azduOWMzZEhBaVlj
+blg5RGxpSk91SmVkNy1hRC13MT4NCk9ubGluZSANClRyYWluaW5nDQoNCjxodHRwOi8vZW1h
+aWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPW9ubk1nWnJHMmx6
+RVlNVC1LZ2djdEZpOHQ3U3o4OUdYUE1oVG1ua052WXd0cWk3TjNQX0dMQXhJNzdSWE1MNVhC
+ai1GMEo2NER2ZU9KTm9yRDVQSUZIRFNNWkNua2VzZFRvcVpVRUVjQmYweEM0QTNfRWgyZHdy
+YzV3cml0Q3FzTUFoak5DOVFPUDBycUFhM3dybDB4QjgxPg0KU3R1ZHkgDQpUb3VyDQoNCjxo
+dHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPXJB
+ZldYSVJYcVFYWGxyRDR3b3VfUmxKSVNKNXdDaWdKaHRFaG1pSDJsdE5HOUJQMlIzbmw0dEZa
+eVIxdS1IQTZaeDBqbVVFR1NxYWJNY0t0MEYyUHhIMTVoazFRRjh5dHB5Sk1iMTFJSlVhNzJB
+bmhqQ2dnMWNoM2hyNnFDaExua05neFM1cU5IanYwbWgxa3l0dGVXbEVHcnZvd09kVDJIaFNa
+Nlg2WEVtNWhwTDE5T1l1YW1MQkdnbFZJQTgzbGl3Mj4NCkRvd25sb2FkIA0KUERGDQoNCkNv
+dXJzZSANCiAgICAgIERhdGUNCkR1cmF0aW9uDQpMb2NhdGlvbg0KUmVnaXN0cmF0aW9uDQox
+OS8wNi8yMDIzwqBUb8KgMzAvMDYvMjAyMw0KMTAgDQogICAgICBEYXlzDQpNb21iYXNhLCAN
+CiAgICAgIEtlbnlhDQoNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90
+cmFja2luZy9jbGljaz9kPUVXanZNNEd5TnJma0oxMnozd1NnQ2p4ZGVqLUdFWXVFWnFsOWI1
+SkFFQ214UEJoalprOTlXTkI2bEFzU0hGWEJxT0NhenZLUU1HLXdITTgzS1JJTUhJUDFaTFpz
+eEhKaDFkUTVwRWxrWHNubmpqTG9GTUNydlVaQlVGSlJWZ3ZVVk1nNndwS2dPSGNQRHNZQ091
+MDFBb3ctQXl0c2FqMGNWLWYzbG04OG0zUXVBOG9abEpaRzM3cnlVV043MTZVdWJDRE1RTzJH
+UTRTdGpQcFRmN1RqakdxUGFLQlliVUtXS090UEpPa3IzQVlvTklEejFKdzFUVEk0TC16Zm42
+N2JxN1BwNTNvOUt5M2NiUzAzb19lOWVmblBEYVc5ZHpKdUV1Z2xvcmZoSjlqQTA+DQpSZWdp
+c3RlciBBcyANCiAgICAgIEluZGl2aWR1YWwNCg0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2
+ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9OV9pMlFqZmxCN0hOVkFqQXROcko5c2Vv
+VDhXRGF3TFFFV2MzSDJzZkNQS2o5Y2dpVElvRFU1YUxCc3g4ZFpGdjZMMGMyUHd1c0hXeHVK
+cE41NDIxV3ZPQTA3d04xSUZXWTBkMG9HcGxqXzk1RV9HaV9EWEQ2SzZ1OVlCb1ZFajVrTnJ6
+ZFBIa1ZzWXZfYXJ2amlCMFl6bjBpWm15Y195ZlA1eWxkMFhLV2pzVC1za3FZcVBpOUtzR1Rw
+TWEwQ3JNOURJREZzLXJISDJ1aC1ZVWhiZFFTcXc5OE9EMzlZTVdoOFE2WDhOVWV2bkpOMUlt
+ZjJkVTlNNklRNXl1MFpZdDc5ZXFRSklmYU1qQVZEaTJoclN1N3dackE5cm9kLUhTWE5XWC1q
+Q1VYbGlhMD4NClJlZ2lzdGVyIEZvciBPbmxpbmUgDQogICAgICBUcmFpbmluZw0KDQo8aHR0
+cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1RNi00
+eUVkWEQtUDhvX0xZa3hxY2lPWnAzbmNWcmRfNTJhY0tybVRBOS1LaC1zWmFOR3huMEJKcXZJ
+WTJodkpRd2RMcTJnVFJIN1dwaTA0X3FydkN2LWNxczZJWUtodjVKdWh5Z09VVWxZMFJKSUFR
+QjNKVXIycE5hVFZxLXZNNHNabnNjZ0c4U0JBcXJaOHp3bVl2UE9GS3FwV09QSmF3WUMzLXYt
+N0ZFcWFqN3E2WlBlbF85eVRiRjFsNmN4ZThuNHVJZkcxdGtMeUZmZWZWUmtDWDBMOHZwNjZU
+NEZBc25CLUdsNEphRTVaZlVQUWVJSjc0SnJORWVwRWJYVlBHckJ0aXJIRGNCc2lIMmZxSTFC
+MW0wNGFwdTZJbTc3bzFIQTlwMzdyQ0o1RmIwPg0KUmVnaXN0ZXIgQXMgQSANCiAgICBHcm91
+cA0KSW50cm9kdWN0aW9uDQpUaGUgDQpjb3Vyc2UgYWltZWQgdG8gYWRkcmVzcyBhbiBpbXBv
+cnRhbnQgcHJlcmVxdWlzaXRlIGZvciBpbmNvcnBvcmF0aW5nIGltcGFjdCANCmV2YWx1YXRp
+b24gKElFKSBpbnRvIHByb2dyYW1tZSBkZXNpZ246IGEgdGhlb3JldGljYWwgYW5kIHByYWN0
+aWNhbCB1bmRlcnN0YW5kaW5nIA0Kb2YgSUUgYXBwcm9hY2hlcyB0byBlbmFibGUgc2VsZWN0
+aW9uIG9mIGFwcHJvcHJpYXRlIG1ldGhvZG9sb2dpZXMsIGNvdXBsZWQgd2l0aCANCmNhcmVm
+dWwgYXBwcmFpc2FsIG9mIHRoZSByZXN1bHRpbmcgZXZpZGVuY2UuIFRoZSBjb3Vyc2UgaW50
+cm9kdWNlZCBwYXJ0aWNpcGFudHMgDQp0byBjdXJyZW50IHF1YW50aXRhdGl2ZSBhcyB3ZWxs
+IGFzIHF1YWxpdGF0aXZlIGV2YWx1YXRpb24gdGVjaG5pcXVlcyBmb3IgaW1wYWN0IA0KZXZh
+bHVhdGlvbiBhbmQgZ2F2ZSB0aGVtIGFuIGluc2lnaHQgaW50byB0aGUgY3JpdGljYWwgdW5k
+ZXJzdGFuZGluZyBvZiB0aGUgcm9sZXMgDQp0aGV5IGNhbiBwbGF5IGluIHRoZSBkZXNpZ24g
+YW5kIGFzc2Vzc21lbnQgb2YgcHVibGljIHBvbGljeSBhbmQgZGV2ZWxvcG1lbnQgDQppbnRl
+cnZlbnRpb25zLiBUaGUgZ3JvdXAgZW50aHVzaWFzdGljYWxseSB0YWNrbGVkIHRoZSBkaWZm
+aWN1bHRpZXMgb2YgbGVhcm5pbmcgDQpTVEFUQSxOVklWTyBhbmQgdGhlIGludHJpY2FjaWVz
+IG9mIGV2YWx1YXRpb24gcmVzZWFyY2ggZGVzaWducyBhbmQgZWNvbm9tZXRyaWMgDQp0ZWNo
+bmlxdWVzLCBhbGwgYm9sc3RlcmVkIGJ5IHRoZSBzdXBwb3J0IG9mIHRoZSBleHBlcmllbmNl
+ZCB0ZWFjaGluZyANCnRlYW0uDQrCoA0KV2hvIA0KU2hvdWxkIEF0dGVuZD8NClRoaXMgDQpj
+b3Vyc2UgaXMgdGFyZ2V0ZWQgYXQgcmVzZWFyY2hlcnMsIHByb2plY3Qgc3RhZmYsIG1hbmFn
+ZXJzLCBkZXZlbG9wbWVudCANCnByYWN0aXRpb25lcnMsIHBvbGljeSBtYWtlcnMgaW4gZ292
+ZXJubWVudCwgTkdPcyBhbmQgZGV2ZWxvcG1lbnQgb3JnYW5pemF0aW9ucyANCndobyB3YW50
+IHRvIGRldGVybWluZSB0aGUgaW1wYWN0IG9mIHRoZWlyIGludGVydmVudGlvbnMuDQrCoA0K
+Tm8gDQpvZiBEYXlzDQoxMCANCkRheXMNCsKgDQpDb3Vyc2UgDQpPYmplY3RpdmVzDQrCt8Kg
+wqDCoMKgwqDCoMKgwqAgDQpDb25kdWN0IA0KYSByaWdvcm91cyBpbXBhY3QgZXZhbHVhdGlv
+biBvZiBhIHByb2plY3QNCsK3wqDCoMKgwqDCoMKgwqDCoCANCkxlYXJuIA0KYW5kIHByYWN0
+aWNlIGVjb25vbWV0cmljIHRlY2huaXF1ZXMgZm9yIGltcGFjdCBldmFsdWF0aW9uDQrCt8Kg
+wqDCoMKgwqDCoMKgwqAgDQpDYXJyeSANCm91dCBpbXBhY3QgZGF0YSBhbmFseXNpcyB1c2lu
+ZyBQcm9wZW5zaXR5IE1hdGNoaW5nIGFuZCBEaWZmZXJlbmNlLWluIA0KLURpZmZlcmVuY2UN
+CsK3wqDCoMKgwqDCoMKgwqDCoCANClVuZGVyc3RhbmQgDQpJRSBkZXNpZ25zOiByYW5kb21p
+emVkLCBxdWFzaSBhbmQgbm9uLWV4cGVyaW1lbnRhbA0KwrfCoMKgwqDCoMKgwqDCoMKgIA0K
+TGVhcm4gDQphYm91dCBldmFsdWF0aW9uIHByb2JsZW06IEF0dHJpYnV0aW9uLCBzZWxlY3Rp
+b24gYW5kIHBsYWNlbWVudCANCmJpYXNlcw0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KTGVhcm4g
+DQphYm91dCB0aGVvcmllcyBhbmQgcHJhY3RpY2VzIG9mIGltcGFjdCBldmFsdWF0aW9uDQrC
+t8KgwqDCoMKgwqDCoMKgwqAgDQpDb25kdWN0IA0Kc2FtcGxpbmcgYW5kIHBvd2VyIGNhbGN1
+bGF0aW9uDQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpSZXBvcnQgDQphbmQgZGlzc2VtaW5hdGUg
+aW1wYWN0IGV2YWx1YXRpb24gZmluZGluZ3MNCsKgDQpDb3Vyc2UgDQpPdXRsaW5lDQpPdmVy
+dmlldyANCm9mIE0mRSBGdW5kYW1lbnRhbHMgZm9yIEltcGFjdCBFdmFsdWF0aW9uDQrCt8Kg
+wqDCoMKgwqDCoMKgwqAgDQpSZXN1bHRzIA0KRnJhbWV3b3JrDQrCt8KgwqDCoMKgwqDCoMKg
+wqAgDQpNJkUgDQpQcm9qZWN0IEluZGljYXRvcnMNCsK3wqDCoMKgwqDCoMKgwqDCoCANCkxv
+Z2ljYWwgDQpGcmFtZXdvcmsNCsK3wqDCoMKgwqDCoMKgwqDCoCANClBlcmZvcm1hbmNlIA0K
+RXZhbHVhdGlvbg0KSW50cm9kdWN0aW9uIA0KdG8gSW1wYWN0IEV2YWx1YXRpb24NCsK3wqDC
+oMKgwqDCoMKgwqDCoCANCkRlZmluaW5nIA0KaW1wYWN0IGV2YWx1YXRpb24NCsK3wqDCoMKg
+wqDCoMKgwqDCoCANCkRlY2lkaW5nIA0Kd2hldGhlciB0byBldmFsdWF0ZQ0KwrfCoMKgwqDC
+oMKgwqDCoMKgIA0KQXR0cmlidXRpb24gDQppbiBpbXBhY3QgZXZhbHVhdGlvbg0KwrfCoMKg
+wqDCoMKgwqDCoMKgIA0KQ29udHJpYnV0aW9uIA0KdnMgYXR0cmlidXRpb24NCkRldGVybWlu
+aW5nIA0KcG9pbnRzIG9mIEltcGFjdCBFdmFsdWF0aW9uDQrCt8KgwqDCoMKgwqDCoMKgwqAg
+DQpUeXBlcyANCm9mIGV2YWx1YXRpb24gcXVlc3Rpb25zDQrCt8KgwqDCoMKgwqDCoMKgwqAg
+DQpUaGVvcmllcyANCm9mIENoYW5nZQ0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KVGhlIA0KcmVz
+dWx0cyBjaGFpbg0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KRXZhbHVhdGlvbiANCmh5cG90aGVz
+aXMNCsK3wqDCoMKgwqDCoMKgwqDCoCANCkltcGFjdCANCmV2YWx1YXRpb24gaW5kaWNhdG9y
+cw0KQ291bnRlcmZhY3R1YWxzIA0KaW4gSW1wYWN0IEV2YWx1YXRpb24NCsK3wqDCoMKgwqDC
+oMKgwqDCoCANCkNhdXNhbCANCnJlZmVyZW5jZQ0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KQ29t
+cGFyaXNvbiANCmdyb3VwcyBhbmQgY291bnRlcmZhY3R1YWxzDQrCt8KgwqDCoMKgwqDCoMKg
+wqAgDQpFc3RpbWF0aW5nIA0KY291bnRlcmZhY3R1YWwgaW4gaW1wYWN0IGV2YWx1YXRpb24N
+CsK3wqDCoMKgwqDCoMKgwqDCoCANCkltcGFjdCANCkV2YWx1YXRpb24gd2hlbiBhIENvbXBh
+cmlzb24gYW5kIEJhc2VsaW5lIERhdGEgYXJlIG5vdCBhdmFpbGFibGUNCkltcGFjdCANCkV2
+YWx1YXRpb24gUmVzZWFyY2ggRGVzaWducw0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KRXhwZXJp
+bWVudGFsIA0KRGVzaWduDQpvwqDCoMKgIA0KUmFuZG9taXplZCANCkNvbnRyb2wgVHJpYWxz
+DQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpRdWFzaSANCmV4cGVyaW1lbnRhbCBkZXNpZ25zDQpv
+wqDCoMKgIA0KUmVncmVzc2lvbiANCkRpc2NvbnRpbnVpdHkNCm/CoMKgwqAgDQpEaWZmZXJl
+bmNlLWluLURpZmZlcmVuY2UNCm/CoMKgwqAgDQpNYXRjaGluZw0KwrfCoMKgwqDCoMKgwqDC
+oMKgIA0KTm9uLWV4cGVyaW1lbnRhbCANCmRlc2lnbnMNClNhbXBsaW5nIA0KaW4gSW1wYWN0
+IEV2YWx1YXRpb24NCsK3wqDCoMKgwqDCoMKgwqDCoCANClNhbXBsaW5nIA0KdGVjaG5pcXVl
+cyBpbiBJbXBhY3QgRXZhbHVhdGlvbg0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KU2FtcGxlIA0K
+c2l6ZSBjYWxjdWxhdGlvbiwNCsK3wqDCoMKgwqDCoMKgwqDCoCANClNhbXBsaW5nIA0Kd2Vp
+Z2h0DQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpTdGF0aXN0aWNhbCANCnBvd2VyDQrCt8KgwqDC
+oMKgwqDCoMKgwqAgDQpDb25zdHJ1Y3RpbmcgDQp2YWxpZCBjb21wYXJpc29uIGdyb3Vwcw0K
+UXVhbnRpdGF0aXZlIA0KRGF0YSBBbmFseXNpcyBmb3IgSW1wYWN0IEV2YWx1YXRpb24NClJh
+bmRvbWl6ZWQgDQpJbXBhY3QgRXZhbHVhdGlvbg0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KU2V0
+dGluZyANCnRoZSBjb3VudGVyZmFjdHVhbA0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KU3RhdGlz
+dGljYWwgDQpEZXNpZ24gb2YgUmFuZG9taXphdGlvbg0KwrfCoMKgwqDCoMKgwqDCoMKgIA0K
+SW1wYWN0cyANCm9mIFByb2dyYW0gUGxhY2VtZW50DQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpJ
+bXBhY3RzIA0Kb2YgUHJvZ3JhbSBQYXJ0aWNpcGF0aW9uDQrCt8KgwqDCoMKgwqDCoMKgwqAg
+DQpDYXB0dXJpbmcgDQpCb3RoIFByb2dyYW0gUGxhY2VtZW50IGFuZCBQYXJ0aWNpcGF0aW9u
+DQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpNZWFzdXJpbmcgDQpTcGlsbG92ZXIgRWZmZWN0cw0K
+UHJvcGVuc2l0eSANClNjb3JlIE1hdGNoaW5nIFRlY2huaXF1ZSAoUFNNKQ0KwrfCoMKgwqDC
+oMKgwqDCoMKgIA0KSW50cm9kdWN0aW9uIA0KdG8gUFNNDQrCt8KgwqDCoMKgwqDCoMKgwqAg
+DQpBcHBsaWNhdGlvbiANCm9mIFBTTSBpbiBJbXBhY3QgRXZhbHVhdGlvbg0KwrfCoMKgwqDC
+oMKgwqDCoMKgIA0KQ29uc3RydWN0aW5nIA0KcHJvcGVuc2l0eSBzY29yZXMNCsK3wqDCoMKg
+wqDCoMKgwqDCoCANCk1hdGNoaW5nIA0KQW5hbHlzaXMgKE5lYXJlc3QtTmVpZ2hib3VyLCBT
+dHJhdGlmaWNhdGlvbiwgUmFkaXVzLCBLZXJuZWwgKQ0KwrfCoMKgwqDCoMKgwqDCoMKgIA0K
+Q29tbW9uIA0Kc3VwcG9ydA0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KRG91Ymx5IA0KUm9idXN0
+IEVzdGltYXRpb24NCkRpZmZlcmVuY2UgDQppbiBEaWZmZXJlbmNlIE1ldGhvZA0KwrfCoMKg
+wqDCoMKgwqDCoMKgIA0KV2hhdCANCmlzIERJRD8NCsK3wqDCoMKgwqDCoMKgwqDCoCANCkFw
+cGxpY2F0aW9uIA0Kb2YgRElEIGluIEltcGFjdCBFdmFsdWF0aW9uDQrCt8KgwqDCoMKgwqDC
+oMKgwqAgDQpFc3RpbWF0aW5nIA0KRElEIGVzdGltYXRvcjogU2luZ2xlIERJRCwgRElEIHdp
+dGggY292YXJpYXRlcywgUXVhbnRpbGUgRElEDQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpESUQg
+DQpmb3IgQ3Jvc3MtU2VjdGlvbmFsIERhdGENCsK3wqDCoMKgwqDCoMKgwqDCoCANCkJhbGFu
+Y2luZyANClRlc3RzDQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpEaWZmLWluLURpZmYgDQp3aXRo
+IFByb3BlbnNpdHkgU2NvcmUgTWF0Y2hpbmcNClF1YWxpdGF0aXZlIA0KQXBwcm9hY2hlcyBp
+biBJbXBhY3QgRXZhbHVhdGlvbg0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KTW9zdCANClNpZ25p
+ZmljYW50IENoYW5nZQ0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KT3V0Y29tZSANCk1hcHBpbmcN
+CsK3wqDCoMKgwqDCoMKgwqDCoCANCk91dGNvbWUgDQpIYXJ2ZXN0aW5nDQrCt8KgwqDCoMKg
+wqDCoMKgwqAgDQpBcHByZWNpYXRpdmUgDQpJbnF1aXJ5DQpQcm9kdWNpbmcgDQphbmQgRGlz
+c2VtaW5hdGluZyBJbXBhY3QgRXZhbHVhdGlvbiBmaW5kaW5ncw0KwrfCoMKgwqDCoMKgwqDC
+oMKgIA0KSW1wYWN0IA0KRXZhbHVhdGlvbiBQbGFuDQrCt8KgwqDCoMKgwqDCoMKgwqAgDQpJ
+bXBhY3QgDQpFdmFsdWF0aW9uIFJlcG9ydHM6IEJhc2VsaW5lIHJlcG9ydCwgSW1wYWN0IEV2
+YWx1YXRpb24gUmVwb3J0cw0KwrfCoMKgwqDCoMKgwqDCoMKgIA0KQ2FzZSANCnN0dWRpZXMN
+CsKgDQpHZW5lcmFsIA0KTm90ZXMNCsK3wqDCoMKgwqDCoMKgwqDCoMKgQWxsIA0Kb3VyIGNv
+dXJzZXMgY2FuIGJlIFRhaWxvci1tYWRlIHRvIHBhcnRpY2lwYW50cycgbmVlZHMNCsK3wqDC
+oMKgwqDCoMKgwqDCoMKgVGhlIA0KcGFydGljaXBhbnQgbXVzdCBiZSBjb252ZXJzYW50IGlu
+IEVuZ2xpc2gNCsK3wqDCoMKgwqDCoMKgwqDCoMKgUHJlc2VudGF0aW9ucyANCmFyZSB3ZWxs
+LWd1aWRlZCwgcHJhY3RpY2FsIGV4ZXJjaXNlcywgd2ViLWJhc2VkIHR1dG9yaWFscywgYW5k
+IGdyb3VwIHdvcmsuIE91ciANCmZhY2lsaXRhdG9ycyBhcmUgZXhwZXJ0cyB3aXRoIG1vcmUg
+dGhhbiAxMCB5ZWFycyBvZiANCmV4cGVyaWVuY2UuDQrCt8KgwqDCoMKgwqDCoMKgwqDCoFVw
+b24gDQpjb21wbGV0aW9uIG9mIHRyYWluaW5nIHRoZSBwYXJ0aWNpcGFudCB3aWxsIGJlIGlz
+c3VlZCB3aXRoIGEgRm9zY29yZSBkZXZlbG9wbWVudCANCmNlbnRlciBjZXJ0aWZpY2F0ZSAo
+RkRDLUspDQrCt8KgwqDCoMKgwqDCoMKgwqDCoFRyYWluaW5nIA0Kd2lsbCBiZSBkb25lIGF0
+IHRoZSBGb3Njb3JlIGRldmVsb3BtZW50IGNlbnRlciAoRkRDLUspIGNlbnRlcnMuIFdlIGFs
+c28gb2ZmZXIgDQppbmhvdXNlIGFuZCBvbmxpbmUgdHJhaW5pbmcgb24gdGhlIGNsaWVudCBz
+Y2hlZHVsZQ0KwrfCoMKgwqDCoMKgwqDCoMKgwqBDb3Vyc2UgDQpkdXJhdGlvbiBpcyBmbGV4
+aWJsZSBhbmQgdGhlIGNvbnRlbnRzIGNhbiBiZSBtb2RpZmllZCB0byBmaXQgYW55IG51bWJl
+ciBvZiANCmRheXMuDQrCt8KgwqDCoMKgwqDCoMKgwqDCoFRoZSANCmNvdXJzZSBmZWUgZm9y
+IG9uc2l0ZSB0cmFpbmluZyBpbmNsdWRlcyBmYWNpbGl0YXRpb24gdHJhaW5pbmcgbWF0ZXJp
+YWxzLCAyIA0KY29mZmVlIGJyZWFrcywgYSBidWZmZXQgbHVuY2gsIGFuZCBhIENlcnRpZmlj
+YXRlIG9mIHN1Y2Nlc3NmdWwgY29tcGxldGlvbiBvZiANClRyYWluaW5nLiBQYXJ0aWNpcGFu
+dHMgd2lsbCBiZSByZXNwb25zaWJsZSBmb3IgdGhlaXIgb3duIHRyYXZlbCBleHBlbnNlcyBh
+bmQgDQphcnJhbmdlbWVudHMsIGFpcnBvcnQgdHJhbnNmZXJzLCB2aXNhIGFwcGxpY2F0aW9u
+IGRpbm5lcnMsIGhlYWx0aC9hY2NpZGVudCANCmluc3VyYW5jZSwgYW5kIG90aGVyIHBlcnNv
+bmFsIGV4cGVuc2VzLg0KwrfCoMKgwqDCoMKgwqDCoMKgwqBBY2NvbW1vZGF0aW9uLCANCnBp
+Y2t1cCwgZnJlaWdodCBib29raW5nLCBhbmQgVmlzYSBwcm9jZXNzaW5nIGFycmFuZ2VtZW50
+LCBhcmUgZG9uZSBvbiByZXF1ZXN0LCANCmF0IGRpc2NvdW50ZWQgcHJpY2VzLg0KwrfCoMKg
+wqDCoMKgwqDCoMKgwqBUYWJsZXQgDQphbmQgTGFwdG9wcyBhcmUgcHJvdmlkZWQgdG8gcGFy
+dGljaXBhbnRzIG9uIHJlcXVlc3QgYXMgYW4gYWRkLW9uIGNvc3QgdG8gdGhlIA0KdHJhaW5p
+bmcgZmVlLg0KwrfCoMKgwqDCoMKgwqDCoMKgwqBPbmUteWVhcsKgZnJlZSANCkNvbnN1bHRh
+dGlvbiBhbmQgQ29hY2hpbmcgcHJvdmlkZWQgYWZ0ZXIgdGhlIGNvdXJzZS4NCsK3wqDCoMKg
+wqDCoMKgwqDCoMKgUmVnaXN0ZXIgDQphcyBhIGdyb3VwIG9mIG1vcmUgdGhhbiB0d28gYW5k
+IGVuam95IGEgZGlzY291bnQgb2YgKDEwJSB0byANCjUwJSkNCsK3wqDCoMKgwqDCoMKgwqDC
+oMKgUGF5bWVudCANCnNob3VsZCBiZSBkb25lIGJlZm9yZSBjb21tZW5jZSBvZiB0aGUgdHJh
+aW5pbmcgb3IgYXMgYWdyZWVkIGJ5IHRoZSBwYXJ0aWVzLCB0byANCnRoZSBGT1NDT1JFIERF
+VkVMT1BNRU5UIENFTlRFUiBhY2NvdW50LCBzbyBhcyB0byBlbmFibGUgdXMgdG8gcHJlcGFy
+ZSBiZXR0ZXIgZm9yIA0KeW91Lg0KwrfCoMKgwqDCoMKgwqDCoMKgwqBGb3IgDQphbnkgaW5x
+dWlyaWVzIHJlYWNoIHVzIGF0wqB0cmFpbmluZ0BmZGMtay5vcmfCoG9yIA0KKzI1NDcxMjI2
+MDAzMQ0KwqANCsK3wqDCoMKgwqDCoMKgwqDCoMKgV2Vic2l0ZToNCjxodHRwOi8vZW1haWwu
+Zm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPWhwMXF5NlJ5dUNubTBa
+QzAzZWlTcHFNX0FEV25TSVdqQl9vWV9DV2FaNUtiMGF5ZFlIOWdDS045ZlpOZF9ua0U1cTRK
+RHFlN2JxZXFVV0EwSUNuM20ydS0zVFZhOTBHendYZ1hVNDQ3SnNsSnBWeGRIcWIwdklkWDlv
+OUNhbEdOQlkyVkx1ZXB3YVNvb2NpV0hQSGdYdkUxPg0Kd3d3LmZkYy1rLm9yZw0KT3RoZXIg
+DQpVcGNvbWluZyBXb3Jrc2hvcHMgS2VueWEsIFJ3YW5kYSwgVGFuemFuaWEsIEV0aGlvcGlh
+IGFuZCANCkR1YmFpDQoNCjENCg0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQu
+b3JnL3RyYWNraW5nL2NsaWNrP2Q9eUV0bFQzV1BITTh4VnJSOWhtQ3hwaW9vMUlUOVZOek5Y
+TlVoOUZDd0hOaU51YU5MU2JVQzBTdDJiRWJ0TlNja2taejdHdFg4UkVwNzVsUGxZMEdjSUpU
+MGh2b1BmdGN0YUdyVEJySzh1bTBhWG51WmZZWXZPV0RRQjBtNmdWOGxFQ2MyY2V6NkJ3Z0pM
+SjVBWFFHMXlhQnVMaEZNVm1QM2pnRGJrYk5SSDJnX1p2QUdXN2JyZTd5QW9PMXJZNU04YWNu
+WGx4aENfVWhuQkdrZTlwdnl3V294eFl6ZEFPeDVJTk5zazBad0NDSjAwPg0KQ29tbXVuaXR5
+IEJhc2VkIFJpc2sgUmVkdWN0aW9uIA0KICAgICAgQ291cnNlDQoyDQoNCjxodHRwOi8vZW1h
+aWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPWdoY1l3NThmSDZ1
+TV9MdWMzMnp0U3RGMndhVFVFRlFkeDJYdmpZRlFOS2ljbTI3SURDelo1WV9QLW5OVW9jLWRv
+RU8xdUJfa3U3Z3hiSDk1cEU5eGNFc0dPZjBhUUREU0NXSGRCUzB5bkdrS1JjdmZ2UVNUcXpM
+bFp5bzd1TFVXV1J3SWVqY1pNRGxtU05PVUw4anhWVklLU1VXWjBzSFdRMXFHeXNMRU1kemRX
+eGhmcGJoR25LVTY1VG5lOURTSVZrbDdJQl9zZWdwZ1o1NTVkcGpHTnZvMT4NCkdJUyBmb3Ig
+TmF0dXJhbCBSZXNvdXJjZSBNYW5hZ2VtZW50IA0KICAgICAgQ291cnNlDQozDQoNCjxodHRw
+Oi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPXFqMUx5
+Q0lfeWdzdm5tSDVRYUFPNkRXUlVudlJyeG5TV1c0QTBJYmtxM3FiMzAyZkNmazR5elJ4R3B2
+N3g5QVVrT3JDcmZJRVJyTWJCNUk1emV0SWpWSi02WnM1SXI2V01teXI2YWVRTThid0NIVks5
+Wms1R2ZScnBLX2V0allzd1NNVjJyS0hBRllaVkhhQXlYNGh5NmRqaXhmUDhENUZ1b3FXTG92
+cmx2dkZMOWZKUW8zZUx4NVZWU0lxXzQ5bkUzcUhFb1BJZTZfSmt1RTFHb0E5cm5wbjBBTFBQ
+cUwxT1hSaEYyR2I1TkhPdU5vaTgzRTR2c05OYmFiY2NONE9GZzI+DQpTdXBlcnZpc29yeSBN
+YW5hZ2VtZW50IFNraWxscyBDb3Vyc2UgDQogICAgICBXb3Jrc2hvcA0KNA0KDQo8aHR0cDov
+L2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1uQ2ZfZkNt
+QzIxVmlaR3NJeG02M0dJSjlzaFVNejQxNXdaa0p5MXdDRWgtNE8yaEZpZU45c3hsMFlicm1y
+UjBWQ1pzN2EybVItUF91WmpSQ2FPSHludGY0Wkx2SWhZWUFfUDBhRGtJdzRmY0IxbDVWeGEx
+TkVhZFZXMU5PTEZnWHNPVmlMelp0LUFHYnZBNzBpRTJlVnViYWc5VkNBT1JJSmhpSWxTSVFn
+RGpKZ25BaV9TbmpYaG5PUFJ5LWR3VjZuNkFtbllsWlhRWjdSSW5femZ1RUVhX0dyTHlDSHpJ
+OENhWnFSQW9MXzlaZTA+DQpDcmVkaXQgQ29udHJvbCBhbmQgRGVidCBNYW5hZ2VtZW50IA0K
+ICAgICAgQ291cnNlDQo1DQoNCjxodHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9y
+Zy90cmFja2luZy9jbGljaz9kPXN1X0xxSmF2NWpoQWw2ZXpoSXhReHFXR0w0QWhtcm9pTGhL
+RjdwcVR0ck54eDNUcXk4NVJaRlh2b2laWThHUjk2NEgzc1RXdE9EbXZ3UGVKSXM3VGRZVVRR
+LW1SYnZJdEYtM2p1UDhkdWtkaGZTWHBfdWRfQ1RaMDBKLTZoSS1OMG9QMlF5c0V1T3U4UzZj
+dFBtWDR4dU1na2hyS1lJRkNHR2laeFVVR05STkRwM3NxUGhfYzlDaC1lVkZ5QUczcTM3N0E3
+QkhYQnpxejhjVG5TNGlLNTI1ZVBxWnRFR3RWdVJoWE53LVlwVFlLMD4NClB1YmxpYyBTZWN0
+b3IgUHJvY3VyZW1lbnQgDQogICAgICBDb3Vyc2UNCjYNCg0KPGh0dHA6Ly9lbWFpbC5mb3Nj
+b3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9eGU3eS1xX2pLX0F6VHk0X2ZB
+d3VfTFk4LS13dkRTcE5WZnlzdTg0WXpoX0lhVy1nR0tnQ2Rpd2VzUnpxZ1Z3X1l6Z1BMYVZl
+aFFjZnBRdHdHVlMtN2VOQklaZEp1Wnh5TlI3NUotY2p2U0E1MWo0d3FtVGZxcXFBbUlONzBH
+M3BTRW9uNWpCUHkzLXg3T0FTOUtWRzlpLTVtVjRVR3RZZXRsc2NiQ1VQTlNodlJPWjFOS2JV
+UnRsQWtscHR5d2tLV2g3b0piWm4tQ1BaTTdjSGw1SE53Z3czUE41RTFZRDhxOGZaUy1pT1pj
+ZHM3Y0tFV20weDZIWjM5dUUtNTZaaHBMTnVFQkxkdHM4cFhvdHJDWlRTLWxrOEhTazJGcXlG
+b3p6RzFoY21EbG5PaHlJcUplOEFGN1RXcWQ5LVNtWjc0dzI+DQpSZXNlYXJjaCBEZXNpZ24s
+IE9ESyBNb2JpbGUgRGF0YSBDb2xsZWN0aW9uLCBHSVMgTWFwcGluZywgDQogICAgICBEYXRh
+IEFuYWx5c2lzIHVzaW5nIE5WSVZPIGFuZCBTUFNTIA0KICAgICAgQ291cnNlDQo3DQoNCjxo
+dHRwOi8vZW1haWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPVAt
+M3ZZVktGWmc1VDRFdGl0bTdiVEIyX0p3dVI5S2dfWG8za3JSR1dhYWdDQUwxTWt5eHZCYU5i
+NFNic3dGTDJKX3hrMWljTGNESkQ5R0trdnByQlFkU2pla1ZmeXpGakdoQlYweHlDd2ZmUDll
+ZmpkaXduSXBGQnV0bjNqU3B1RmZ6TndaUUQ5RHBfbzBFSFlQZmtsbFNFc2x1cVBZZTVUU19D
+YmdZY3oxXzRIN0xKZEI2dHFQak9SWGd2S093RUx1M3NwTDI4a2FqYUVxekk0aS1tYVJyT21H
+UWp0VkRsVXBsdG5MV3RpdkM5MD4NCkVudHJlcHJlbmV1cnNoaXAgYW5kIElubm92YXRpb24g
+DQogICAgICBDb3Vyc2UNCjgNCg0KPGh0dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQu
+b3JnL3RyYWNraW5nL2NsaWNrP2Q9Z2k4aW5HaGNWdC1IUU85ZTRUV2ozLXBkQy1sZHRwbl9h
+dVh0X0NOZmc3UmJBandnQVB6Tkd0WU9wNXhjRXU0SEZma2dYc1c1Wm0xd21vRTRQd3NiQzFM
+Ri0xODdHdmVEaGM3c2x6SG1NVUJGUkFSYndiWjlJbEs5d3k0OFVnNjU5d2pQa1kwVEJVWHRT
+bF8tMjFVWGRSWXg5VjFJeUIyWUFLelV4b0hNUGI0Y2ZEU3BBNF8wMHhXeHJpUlM1TjF0NzdZ
+WUtGMGk5dGM0Q0RrT3lyRkZiU0dWS195UmJaYTZqMVJMN05KV0dicWkwPg0KTW9iaWxlIEFw
+cGxpY2F0aW9uIERldmVsb3BtZW50IA0KICAgICAgQ291cnNlDQo5DQoNCjxodHRwOi8vZW1h
+aWwuZm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPTZSb2tQN1d0bkot
+N19NaEJtcTF6MUNWVE5qS2RJU0V4MEJFU0FUdl9LcnduWjNIMldrRFNPeDk3WEd4SDJpV3dP
+VXQyMF9CbkhLYmhxQ1FicVhhQXdkYkdUUmNoVG52anFSMzM3amdTY3JZTDVETlZLYVlUVnkw
+alR0Q051N3c4ZGdyNkRucjFhZVlhUDJjaF84U1lXcDdsbGFzMW1GTUtzdWpKamI4UHYwT1dH
+YThsLUVKN3NoQlNsdzdVMnd3eFRpeHpuTC1QOE0tM2hCOHhhRUhoeXliUHM4dm5XbmpVcjlu
+WlV2REIycGJQU2VDbUgxdVJCOWkzV1dSQlpZZHc2QTI+DQpQcm9qZWN0IFByb3Bvc2FsIGFu
+ZCBSZXBvcnQgV3JpdGluZyBTa2lsbCANCiAgICAgIGNvdXJzZQ0KMTANCg0KPGh0dHA6Ly9l
+bWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9MkpMb1RELThD
+YWl3SHdqbENzZVNRZ291Q1BTSW1uaWFwYmdHYTJNSHR6OGJnUkdsMHRWQVZmX0hRYzNLZFBY
+c0lxVTJ0ZEVLWUg3ZXJuTDB6VFpxdHZEc0VHVVBBQ0hzdUc5SkF0UmYwQ1ZhSVFkelNuV296
+VlR1aVVoMWJBMG01dFRTdmpycHk4UzdtRVlPc004QkZLZ2p6ZzVWSDNtNjVsWXJCUDdvdGRL
+TGRjNi02UWlmLVFEVC1tZ2g3dEZrZVMtZ1Q4WVhmdXhHemQ1WEdrV0RicHEtcTdFZk5ldTAy
+b0xXVEgySzlSTXlYSktPbXcxc0t3Ql93M2U1R2xkdEt0V3NYTHpDMUk0OV82THRCcjZRaXpp
+TEV6NFB2clZReWQ0TWk1QWVBLVlDcjdJWWk3cldVRms3RlRjSzg0SHQ3TktRR0dNTWNhLXVR
+c0FyOU1oMHZiblMxWTh0SWlucnotS0NtYlN5TXJ3WDA+DQpHZW5kZXIgYmFzZWQgVmlvbGVu
+Y2UsIEdlbmRlciBBbmFseXNpcyBhbmQgRGV2ZWxvcG1lbnQgYW5kIA0KICAgICAgR2VuZGVy
+IE1haW5zdHJlYW1pbmcsIEFuYWx5c2lzIGFuZCANCiAgICAgIFANCg0KPGh0dHA6Ly9lbWFp
+bC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9T1hCT19xeWxCdWMw
+ZXA2WU4zZnRjV0NVRFFUcEtVN28xRlJoTFlHYldrMlZ0Z3dFc2xWbTM1d0EtVmpheG54Rmw2
+bjlZSEZHRncxUnI3bXZhZzI3ZGhUaFl1ZEhBOFZ2VV9BTlRlaS1YQ2lnWDhjTDQ1U2NvbHl0
+cHhzLUpjaVJFcUNPbS0tQ202Vml2M0hya3lfbjU0ODE+DQpDb250YWN0IA0KVXMNCg0KPGh0
+dHA6Ly9lbWFpbC5mb3Njb3JlZGV2ZWxvcG1lbnQub3JnL3RyYWNraW5nL2NsaWNrP2Q9b25u
+TWdackcybHpFWU1ULUtnZ2N0TkdZN1NwMG1qSHV6OHRUbUIzQ3JodnR1ZFpYeXFvTG9aX2d5
+V0NCOGZtVmF1NkU5R0VrLU5odFp0ZTN3bUhGUVFrWVVmQnhWM25UdFI1QmtpWHdPQnIxZklj
+QnBRWnFRaE1iNDFSXzZrbWFRdVhJdFRrbGZZWjQ0ZWEzNTBkdURqTTE+DQpDb3Vyc2UgDQpT
+Y2hlZHVsZQ0KDQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9wbWVudC5vcmcvdHJhY2tp
+bmcvY2xpY2s/ZD1uTDJPM0N2N3d6X0V2V2VhRWtlaS1MeFBfcE5CNlM2d3cybWdlbzB3cnFQ
+S3Ayc05zRXZHYjN1OG5ROVlaTFRjcDR3cGFRWkxMWlFkVU5mU29aN0dTbDdoRDhoWHlkS1JE
+TXluaDFxdXZzNnVhaF9EX3JTV04tekJ2dlZDZWZydlJqTy14NTA1TDQwTi1LQ1FiQ2pnUVFZ
+MT4NClZpcnR1YWwgDQpUcmFpbmluZw0KDQo8aHR0cDovL2VtYWlsLmZvc2NvcmVkZXZlbG9w
+bWVudC5vcmcvdHJhY2tpbmcvY2xpY2s/ZD1fRWdIbGtQWnBvUGRSMjFmZUtmUW1kMVlUX0Vn
+UUg4dmZ4ejBLdlV4clBUVkNQWE1DSnhMeGNnNzRrc3IwVHFzbkJpejZuaE5IcmI3R0pDSkcy
+czE4aFpMZG9Xd2VMRkZ4QWo3TDZtQTlVT2k4dGJPN2pVOEpzNXlBUFdoamU0YldaOEpvNWxG
+WVJBX2p6eUZhX0VIdEZvMT4NCkNvbnN1bHRhbmN5DQoNCjxodHRwOi8vZW1haWwuZm9zY29y
+ZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy9jbGljaz9kPXJBZldYSVJYcVFYWGxyRDR3b3Vf
+UmxKSVNKNXdDaWdKaHRFaG1pSDJsdE5HOUJQMlIzbmw0dEZaeVIxdS1IQTZaeDBqbVVFR1Nx
+YWJNY0t0MEYyUHhLRmNtNG1YVDJJQUhydlhhSXVXdWlOa2I0TG9SV1BybnBTY0JjQmE0MGlM
+M0hORHI4c3VTS2Z4SGpMV2NXOVdqR2M5NldxckdvUlNYWEVLRzJXOVRfSkdDSFZvNjd2bV9l
+ZlpiRlR5aVFfUEZ3Mj4NCkRvd25sb2FkIA0KUERGDQrCoA0KwqANCjxodHRwOi8vZW1haWwu
+Zm9zY29yZWRldmVsb3BtZW50Lm9yZy90cmFja2luZy91bnN1YnNjcmliZT9kPXlDLVJtTmNf
+NGdjMTd5SThpbHFaRjJSX3NIai1PYW1QVVBkQ0FOZnkwSHNUb0VVR3BRVzVZeVdkLUxDYzJX
+a19NbXUwdGpWenViT0xTSG9RVVR3UjdkbWlhN0dNLVE2S2tLd3BabDdueDFKMzA+DQpVTlNV
+QlNDUklCRQ==
+
+--=-eZCfI3be+w6UA5eTSMwhWg3k4zdy19sE/XWKzQ==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dunicode" http-equiv=3DContent-Ty=
+pe>
+<META name=3DGENERATOR content=3D"MSHTML 6.00.6000.16546"></HEAD>
+<BODY>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; TEXT-ALIGN: center; MARGIN: 0cm 0cm 15pt=
+; mso-line-height-alt: 13.2pt; mso-outline-level: 3"=20
+align=3Dcenter><B><SPAN=20
+style=3D'FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI",sans-serif; COLOR: #=
+444444; mso-fareast-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DlKPGbbA=
+QYlEm5EmwJ8QKFIygD_MqezAEhHZHeDgpnjHTAJeqCmiPHc54KP218zrudU0VArcTHZt3-=
+1kDl4zu3GUpS1MKmyafw9WS106lymQ9h3dGC0IMrz_M1ei6QnlQBeDZ43ZRySYbZQpDWrG=
+URgtB3it7D7VVixFmUAqRCsXtEcpiODoOVHWU6m2Dgqn6xshw7ym_DpX4kdo5kJDompWh6=
+eR7TSXYEqaMl86KjLkjoWH80azJf_eQgmrAkfNT9rumKDjymFxpEuxoEuzN39o1"><FONT=
+=20
+color=3D#0000ff>Invitation to Impact Evaluation for Evidence Based Pol=
+icy in=20
+Development Workshop</FONT></A><?xml:namespace prefix =3D "o" ns =3D=20
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 150%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#31708f; LINE-HEIGHT: 150%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DpWsrYkY=
+aq-Ewuv7LUqbnx43sF5-V2kg6vT-TD6y1hKLgQKX549F7DjJiT6t8r-cvqXuliIcdyuxXy=
+WXpiLCpPI13qSwGa_bXqc6ymYWOI29B_nZZhGMBrR1nObpXNIZaLzegb4Zb-4ddJAs9zdK=
+uQVk1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+color=3D#0000ff>Customized Programme</FONT></SPAN></A><o:p></o:p></SPA=
+N></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 150%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#31708f; LINE-HEIGHT: 150%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DRZmAKUp=
+hc6gbz2gceLP6RIMqlGE31Gvi3R6bze_C2gzir2yVqUXYNAeWouK2zq-66yBCT1kkH1N8b=
+MbtV0ffIlwzxcJzgdf3inAkFG-ZnPZTPsx5fQZd4WRp2iVJlL51Bb0vISaUvrqx2UYRHWo=
+V6jk1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Inhouse=20
+Programme</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 150%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#31708f; LINE-HEIGHT: 150%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DnL2O3Cv=
+7wz_EvWeaEkei-LxP_pNB6S6ww2mgeo0wrqPKp2sNsEvGb3u8nQ9YZLTcJcOPvi4srERCq=
+QpDkF1XUiPEm1dmpOGILHEM5r3JjO6TgQdf1xsV21fryk7n9c3dHAiYcnX9DliJOuJed7-=
+aD-w1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Online=20
+Training</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 150%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#31708f; LINE-HEIGHT: 150%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DonnMgZr=
+G2lzEYMT-KggctFi8t7Sz89GXPMhTmnkNvYwtqi7N3P_GLAxI77RXML5XBj-F0J64DveOJ=
+NorD5PIFHDSMZCnkesdToqZUEEcBf0xC4A3_Eh2dwrc5writCqsMAhjNC9QOP0rqAa3wrl=
+0xB81"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Study=20
+Tour</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: #d9edf7; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 150%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#31708f; LINE-HEIGHT: 150%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DrAfWXIR=
+XqQXXlrD4wou_RlJISJ5wCigJhtEhmiH2ltNG9BP2R3nl4tFZyR1u-HA6Zx0jmUEGSqabM=
+cKt0F2PxH15hk1QF8ytpyJMb11IJUa72AnhjCgg1ch3hr6qChLnkNgxS5qNHjv0mh1kytt=
+eWlEGrvowOdT2HhSZ6X6XEm5hpL19OYuamLBGglVIA83liw2"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Download=20
+PDF</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P>
+<TABLE class=3DMsoNormalTable=20
+style=3D"WIDTH: 462.3pt; BORDER-COLLAPSE: collapse; mso-yfti-tbllook: =
+1184"=20
+cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <THEAD>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 134.7p=
+t; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TO=
+P: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; B=
+ACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom width=3D180>
+      <P class=3DMsoNormal=20
+      style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal"><B><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>Course=20
+      Date<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 73.8pt=
+; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP=
+: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BA=
+CKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom width=3D98>
+      <P class=3DMsoNormal=20
+      style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal"><B><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>Duration<o:p=
+></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 57.35p=
+t; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TO=
+P: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; B=
+ACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom width=3D77>
+      <P class=3DMsoNormal=20
+      style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal"><B><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>Location<o:p=
+></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 196.45=
+pt; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-T=
+OP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; =
+BACKGROUND-COLOR: transparent"=20
+    vAlign=3Dbottom width=3D262 colSpan=3D3>
+      <P class=3DMsoNormal=20
+      style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal"><B><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>Registration=
+<o:p></o:p></SPAN></B></P></TD></TR></THEAD>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 1; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 134.7p=
+t; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADD=
+ING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-CO=
+LOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D180>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'>19/06/2023=
+&nbsp;<B>To</B>&nbsp;30/06/2023<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; BORDER-BOTTOM=
+: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LEFT: 6pt; B=
+ORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: transparent=
+; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'>10=20
+      Days<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 57.35p=
+t; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADD=
+ING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-CO=
+LOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D77>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'>Mombasa,=20
+      Kenya<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 70.85p=
+t; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADD=
+ING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-CO=
+LOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D94>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DE=
+WjvM4GyNrfkJ12z3wSgCjxdej-GEYuEZql9b5JAECmxPBhjZk99WNB6lAsSHFXBqOCazvK=
+QMG-wHM83KRIMHIP1ZLZsxHJh1dQ5pElkXsnnjjLoFMCrvUZBUFJRVgvUVMg6wpKgOHcPD=
+sYCOu01Aow-Aytsaj0cV-f3lm88m3QuA8oZlJZG37ryUWN716UubCDMQO2GQ4StjPpTf7T=
+jjGqPaKBYbUKWKOtPJOkr3AYoNIDz1Jw1TTI4L-zfn67bq7Pp53o9Ky3cbS03o_e9efnPD=
+aW9dzJuEuglorfhJ9jA0"><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Register As=20
+      Individual</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 48.2pt=
+; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDI=
+NG-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COL=
+OR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D64>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D9=
+_i2QjflB7HNVAjAtNrJ9seoT8WDawLQEWc3H2sfCPKj9cgiTIoDU5aLBsx8dZFv6L0c2Pw=
+usHWxuJpN5421WvOA07wN1IFWY0d0oGplj_95E_Gi_DXD6K6u9YBoVEj5kNrzdPHkVsYv_=
+arvjiB0Yzn0iZmyc_yfP5yld0XKWjsT-skqYqPi9KsGTpMa0CrM9DIDFs-rHH2uh-YUhbd=
+QSqw98OD39YMWh8Q6X8NUevnJN1Imf2dU9M6IQ5yu0ZYt79eqQJIfaMjAVDi2hrSu7wZrA=
+9rod-HSXNWX-jCUXlia0"><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Register For Online=20
+      Training</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 77.4pt=
+; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDI=
+NG-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COL=
+OR: transparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop width=3D103>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 10.5pt; FONT-FAMILY: "Times New Roman",serif=
+; COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DQ=
+6-4yEdXD-P8o_LYkxqciOZp3ncVrd_52acKrmTA9-Kh-sZaNGxn0BJqvIY2hvJQwdLq2gT=
+RH7Wpi04_qrvCv-cqs6IYKhv5JuhygOUUlY0RJIAQB3JUr2pNaTVq-vM4sZnscgG8SBAqr=
+Z8zwmYvPOFKqpWOPJawYC3-v-7FEqaj7q6ZPel_9yTbF1l6cxe8n4uIfG1tkLyFfefVRkC=
+X0L8vp66T4FAsnB-Gl4JaE5ZfUPQeIJ74JrNEepEbXVPGrBtirHDcBsiH2fqI1B1m04apu=
+6Im77o1HA9p37rCJ5Fb0"><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Register As A=20
+    Group</FONT></SPAN></A><o:p></o:p></SPAN></P></TD></TR></TBODY></T=
+ABLE></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: 16.9pt"=
+><B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Introduction</SPAN=
+></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>The=20
+course aimed to address an important prerequisite for incorporating im=
+pact=20
+evaluation (IE) into programme design: a theoretical and practical und=
+erstanding=20
+of IE approaches to enable selection of appropriate methodologies, cou=
+pled with=20
+careful appraisal of the resulting evidence. The course introduced par=
+ticipants=20
+to current quantitative as well as qualitative evaluation techniques f=
+or impact=20
+evaluation and gave them an insight into the critical understanding of=
+ the roles=20
+they can play in the design and assessment of public policy and develo=
+pment=20
+interventions. The group enthusiastically tackled the difficulties of =
+learning=20
+STATA,NVIVO and the intricacies of evaluation research designs and eco=
+nometric=20
+techniques, all bolstered by the support of the experienced teaching=20
+team.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>&nbsp;</SPAN></B><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Who=20
+Should Attend?</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>This=20
+course is targeted at researchers, project staff, managers, developmen=
+t=20
+practitioners, policy makers in government, NGOs and development organ=
+izations=20
+who want to determine the impact of their interventions.</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>&nbsp;</SPAN></B><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>No=20
+of Days</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>10=20
+Days</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>&nbsp;</SPAN></B><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Course=20
+Objectives</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Conduct=20
+a rigorous impact evaluation of a project</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Learn=20
+and practice econometric techniques for impact evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Carry=20
+out impact data analysis using Propensity Matching and Difference-in=20
+-Difference</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Understand=20
+IE designs: randomized, quasi and non-experimental</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Learn=20
+about evaluation problem: Attribution, selection and placement=20
+biases</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Learn=20
+about theories and practices of impact evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Conduct=20
+sampling and power calculation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l10 le=
+vel1 lfo1; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Report=20
+and disseminate impact evaluation findings</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>&nbsp;</SPAN></B><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Course=20
+Outline</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Overview=20
+of M&amp;E Fundamentals for Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l4 lev=
+el1 lfo2; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Results=20
+Framework</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l4 lev=
+el1 lfo2; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>M&amp;E=20
+Project Indicators</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l4 lev=
+el1 lfo2; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Logical=20
+Framework</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l4 lev=
+el1 lfo2; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Performance=20
+Evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Introduction=20
+to Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l2 lev=
+el1 lfo3; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Defining=20
+impact evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l2 lev=
+el1 lfo3; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Deciding=20
+whether to evaluate</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l2 lev=
+el1 lfo3; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Attribution=20
+in impact evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l2 lev=
+el1 lfo3; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Contribution=20
+vs attribution</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Determining=20
+points of Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l5 lev=
+el1 lfo4; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Types=20
+of evaluation questions</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l5 lev=
+el1 lfo4; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Theories=20
+of Change</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l5 lev=
+el1 lfo4; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>The=20
+results chain</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l5 lev=
+el1 lfo4; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Evaluation=20
+hypothesis</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l5 lev=
+el1 lfo4; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impact=20
+evaluation indicators</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Counterfactuals=20
+in Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l3 lev=
+el1 lfo5; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Causal=20
+reference</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l3 lev=
+el1 lfo5; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Comparison=20
+groups and counterfactuals</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l3 lev=
+el1 lfo5; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Estimating=20
+counterfactual in impact evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l3 lev=
+el1 lfo5; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impact=20
+Evaluation when a Comparison and Baseline Data are not available</SPAN=
+><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impact=20
+Evaluation Research Designs</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el1 lfo6; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Experimental=20
+Design</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 60.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el2 lfo6; tab-stops: list 72.0pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; COLOR: black; ms=
+o-fareast-font-family: "Courier New"; mso-bidi-font-size: 11.5pt'><SPA=
+N=20
+style=3D"mso-list: Ignore">o<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Randomized=20
+Control Trials</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el1 lfo6; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Quasi=20
+experimental designs</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 60.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el2 lfo6; tab-stops: list 72.0pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; COLOR: black; ms=
+o-fareast-font-family: "Courier New"; mso-bidi-font-size: 11.5pt'><SPA=
+N=20
+style=3D"mso-list: Ignore">o<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Regression=20
+Discontinuity</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 60.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el2 lfo6; tab-stops: list 72.0pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; COLOR: black; ms=
+o-fareast-font-family: "Courier New"; mso-bidi-font-size: 11.5pt'><SPA=
+N=20
+style=3D"mso-list: Ignore">o<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Difference-in-Diff=
+erence</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 60.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el2 lfo6; tab-stops: list 72.0pt"><SPAN=20
+style=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Courier New"; COLOR: black; ms=
+o-fareast-font-family: "Courier New"; mso-bidi-font-size: 11.5pt'><SPA=
+N=20
+style=3D"mso-list: Ignore">o<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Matching</SPAN><SP=
+AN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l0 lev=
+el1 lfo6; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Non-experimental=20
+designs</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Sampling=20
+in Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l11 le=
+vel1 lfo7; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Sampling=20
+techniques in Impact Evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l11 le=
+vel1 lfo7; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Sample=20
+size calculation,</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l11 le=
+vel1 lfo7; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Sampling=20
+weight</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l11 le=
+vel1 lfo7; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Statistical=20
+power</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l11 le=
+vel1 lfo7; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Constructing=20
+valid comparison groups</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Quantitative=20
+Data Analysis for Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Randomized=20
+Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Setting=20
+the counterfactual</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Statistical=20
+Design of Randomization</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impacts=20
+of Program Placement</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impacts=20
+of Program Participation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Capturing=20
+Both Program Placement and Participation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l7 lev=
+el1 lfo8; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Measuring=20
+Spillover Effects</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Propensity=20
+Score Matching Technique (PSM)</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Introduction=20
+to PSM</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Application=20
+of PSM in Impact Evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Constructing=20
+propensity scores</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Matching=20
+Analysis (Nearest-Neighbour, Stratification, Radius, Kernel )</SPAN><S=
+PAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Common=20
+support</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l6 lev=
+el1 lfo9; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Doubly=20
+Robust Estimation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Difference=20
+in Difference Method</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>What=20
+is DID?</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Application=20
+of DID in Impact Evaluation</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Estimating=20
+DID estimator: Single DID, DID with covariates, Quantile DID</SPAN><SP=
+AN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>DID=20
+for Cross-Sectional Data</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Balancing=20
+Tests</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l9 lev=
+el1 lfo10; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Diff-in-Diff=20
+with Propensity Score Matching</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Qualitative=20
+Approaches in Impact Evaluation</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l1 lev=
+el1 lfo11; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Most=20
+Significant Change</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l1 lev=
+el1 lfo11; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Outcome=20
+Mapping</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l1 lev=
+el1 lfo11; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Outcome=20
+Harvesting</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l1 lev=
+el1 lfo11; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Appreciative=20
+Inquiry</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Producing=20
+and Disseminating Impact Evaluation findings</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l8 lev=
+el1 lfo12; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impact=20
+Evaluation Plan</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l8 lev=
+el1 lfo12; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Impact=20
+Evaluation Reports: Baseline report, Impact Evaluation Reports</SPAN><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+16.9pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-list: l8 lev=
+el1 lfo12; tab-stops: list 36.0pt"><SPAN=20
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Symbol; COLOR: black; mso-farea=
+st-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-si=
+ze: 11.5pt"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D'FONT: 7pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>Case=20
+studies</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+black; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-famil=
+y: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>&nbsp;</SPAN></B><=
+SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 16.9pt">=
+<B><SPAN=20
+style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; COLOR:=
+ black; mso-fareast-font-family: "Times New Roman"'>General=20
+Notes</SPAN></B><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>All=20
+our courses can be Tailor-made to participants' needs<o:p></o:p></SPAN=
+></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>The=20
+participant must be conversant in English<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Presentations=20
+are well-guided, practical exercises, web-based tutorials, and group w=
+ork. Our=20
+facilitators are experts with more than 10 years of=20
+experience.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Upon=20
+completion of training the participant will be issued with a Foscore d=
+evelopment=20
+center certificate (FDC-K)<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Training=20
+will be done at the Foscore development center (FDC-K) centers. We als=
+o offer=20
+inhouse and online training on the client schedule<o:p></o:p></SPAN></=
+P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Course=20
+duration is flexible and the contents can be modified to fit any numbe=
+r of=20
+days.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>The=20
+course fee for onsite training includes facilitation training material=
+s, 2=20
+coffee breaks, a buffet lunch, and a Certificate of successful complet=
+ion of=20
+Training. Participants will be responsible for their own travel expens=
+es and=20
+arrangements, airport transfers, visa application dinners, health/acci=
+dent=20
+insurance, and other personal expenses.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Accommodation,=20
+pickup, freight booking, and Visa processing arrangement, are done on =
+request,=20
+at discounted prices.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Tablet=20
+and Laptops are provided to participants on request as an add-on cost =
+to the=20
+training fee.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>One-year&nbsp;free=20
+Consultation and Coaching provided after the course.<o:p></o:p></SPAN>=
+</P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Register=20
+as a group of more than two and enjoy a discount of (10% to=20
+50%)<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Payment=20
+should be done before commence of the training or as agreed by the par=
+ties, to=20
+the FOSCORE DEVELOPMENT CENTER account, so as to enable us to prepare =
+better for=20
+you.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt 24.75pt; LINE-HEIGHT: =
+normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>For=20
+any inquiries reach us at&nbsp;<A target=3D_blank><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none">training@fdc-k.o=
+rg</SPAN></A>&nbsp;or=20
++254712260031<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>&nbsp;<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"BACKGROUND: white; MARGIN: 0cm 0cm 7.5pt 24.75pt; LINE-HEIGHT=
+: normal; TEXT-INDENT: -18pt"><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: Symbol; COLOR: #666666; mso-f=
+areast-font-family: "Times New Roman"; mso-bidi-font-family: "Times Ne=
+w Roman"'>&middot;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 7pt; FONT-FAMILY: "Times New Roman",serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"'>&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; mso-fareast-font-family: "Times New Roman"; mso-bidi-font-fam=
+ily: "Times New Roman"'>Website:<A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dhp1qy6R=
+yuCnm0ZC03eiSpqM_ADWnSIWjB_oY_CWaZ5Kb0aydYH9gCKN9fZNd_nkE5q4JDqe7bqeqU=
+WA0ICn3m2u-3TVa90GzwXgXU447JslJpVxdHqb0vIdX9o9CalGNBY2VLuepwaSoociWHPH=
+gXvE1" target=3D_blank><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+color=3D#0000ff>www.fdc-k.org</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 7.5pt 0cm; mso-line-height-alt: 12.0pt; mso-outline-l=
+evel: 2"><SPAN=20
+style=3D'FONT-SIZE: 22.5pt; FONT-FAMILY: "Segoe UI",sans-serif; COLOR:=
+ #cb2940; mso-fareast-font-family: "Times New Roman"'>Other=20
+Upcoming Workshops Kenya, Rwanda, Tanzania, Ethiopia and=20
+Dubai<o:p></o:p></SPAN></P>
+<P>
+<TABLE class=3DMsoNormalTable=20
+style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 10=
+11.75pt; BACKGROUND: white; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: =
+medium none; BORDER-LEFT: medium none; mso-yfti-tbllook: 1184; mso-bor=
+der-alt: solid #DDDDDD 1.5pt"=20
+cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <THEAD>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1.5pt solid; BORDER-RIGHT: #dddddd 1.=
+5pt solid; BACKGROUND: #4eb04f; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM=
+: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 0.75pt; BORDER-LEFT: #ddd=
+ddd 1.5pt solid; PADDING-RIGHT: 0.75pt"></TD></TR></THEAD>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 1">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>1<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Community Based Risk Reduction Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dy=
+EtlT3WPHM8xVrR9hmCxpioo1IT9VNzNXNUh9FCwHNiNuaNLSbUC0St2bEbtNSckkZz7GtX=
+8REp75lPlY0GcIJT0hvoPftctaGrTBrK8um0aXnuZfYYvOWDQB0m6gV8lECc2cez6BwgJL=
+J5AXQG1yaBuLhFMVmP3jgDbkbNRH2g_ZvAGW7bre7yAoO1rY5M8acnXlxhC_UhnBGke9pv=
+ywWoxxYzdAOx5INNsk0ZwCCJ00"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Community Based Risk Reduction=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 2">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>2<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"GIS for Natural Resource Management Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dg=
+hcYw58fH6uM_Luc32ztStF2waTUEFQdx2XvjYFQNKicm27IDCzZ5Y_P-nNUoc-doEO1uB_=
+ku7gxbH95pE9xcEsGOf0aQDDSCWHdBS0ynGkKRcvfvQSTqzLlZyo7uLUWWRwIejcZMDlmS=
+NOUL8jxVVIKSUWZ0sHWQ1qGysLEMdzdWxhfpbhGnKU65Tne9DSIVkl7IB_segpgZ555dpj=
+GNvo1"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>GIS for Natural Resource Management=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 3">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>3<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Supervisory Management Skills Course Workshop"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dq=
+j1LyCI_ygsvnmH5QaAO6DWRUnvRrxnSWW4A0Ibkq3qb302fCfk4yzRxGpv7x9AUkOrCrfI=
+ERrMbB5I5zetIjVJ-6Zs5Ir6WMmyr6aeQM8bwCHVK9Zk5GfRrpK_etjYswSMV2rKHAFYZV=
+HaAyX4hy6djixfP8D5FuoqWLovrlvvFL9fJQo3eLx5VVSIq_49nE3qHEoPIe6_JkuE1GoA=
+9rnpn0ALPPqL1OXRhF2Gb5NHOuNoi83E4vsNNbabccN4OFg2"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Supervisory Management Skills Course=20
+      Workshop</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 4">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>4<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Credit Control and Debt Management Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dn=
+Cf_fCmC21ViZGsIxm63GIJ9shUMz415wZkJy1wCEh-4O2hFieN9sxl0YbrmrR0VCZs7a2m=
+R-P_uZjRCaOHyntf4ZLvIhYYA_P0aDkIw4fcB1l5Vxa1NEadVW1NOLFgXsOViLzZt-AGbv=
+A70iE2eVubag9VCAORIJhiIlSIQgDjJgnAi_SnjXhnOPRy-dwV6n6AmnYlZXQZ7RIn_zfu=
+EEa_GrLyCHzI8CaZqRAoL_9Ze0"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Credit Control and Debt Management=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 5">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>5<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Public Sector Procurement Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Ds=
+u_LqJav5jhAl6ezhIxQxqWGL4AhmroiLhKF7pqTtrNxx3Tqy85RZFXvoiZY8GR964H3sTW=
+tODmvwPeJIs7TdYUTQ-mRbvItF-3juP8dukdhfSXp_ud_CTZ00J-6hI-N0oP2QysEuOu8S=
+6ctPmX4xuMgkhrKYIFCGGiZxUUGNRNDp3sqPh_c9Ch-eVFyAG3q377A7BHXBzqz8cTnS4i=
+K525ePqZtEGtVuRhXNw-YpTYK0"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Public Sector Procurement=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 6">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>6<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Research Design, ODK Mobile Data Collection, GIS Mappin=
+g, Data Analysis using NVIVO and SPSS Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dx=
+e7y-q_jK_AzTy4_fAwu_LY8--wvDSpNVfysu84Yzh_IaW-gGKgCdiwesRzqgVw_YzgPLaV=
+ehQcfpQtwGVS-7eNBIZdJuZxyNR75J-cjvSA51j4wqmTfqqqAmIN70G3pSEon5jBPy3-x7=
+OAS9KVG9i-5mV4UGtYetlscbCUPNShvROZ1NKbURtlAklptywkKWh7oJbZn-CPZM7cHl5H=
+Nwgw3PN5E1YD8q8fZS-iOZcds7cKEWm0x6HZ39uE-56ZhpLNuEBLdts8pXotrCZTS-lk8H=
+Sk2FqyFozzG1hcmDlnOhyIqJe8AF7TWqd9-SmZ74w2"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Research Design, ODK Mobile Data Collection, GIS=
+ Mapping,=20
+      Data Analysis using NVIVO and SPSS=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 7">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>7<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Entrepreneurship and Innovation Course "=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DP=
+-3vYVKFZg5T4Etitm7bTB2_JwuR9Kg_Xo3krRGWaagCAL1MkyxvBaNb4SbswFL2J_xk1ic=
+LcDJD9GKkvprBQdSjekVfyzFjGhBV0xyCwffP9efjdiwnIpFButn3jSpuFfzNwZQD9Dp_o=
+0EHYPfkllSEsluqPYe5TS_CbgYcz1_4H7LJdB6tqPjORXgvKOwELu3spL28kajaEqzI4i-=
+maRrOmGQjtVDlUpltnLWtivC90"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Entrepreneurship and Innovation=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 8">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>8<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Mobile Application Development Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3Dg=
+i8inGhcVt-HQO9e4TWj3-pdC-ldtpn_auXt_CNfg7RbAjwgAPzNGtYOp5xcEu4HFfkgXsW=
+5Zm1wmoE4PwsbC1LF-187GveDhc7slzHmMUBFRARbwbZ9IlK9wy48Ug659wjPkY0TBUXtS=
+l_-21UXdRYx9V1IyB2YAKzUxoHMPb4cfDSpA4_00xWxriRS5N1t77YYKF0i9tc4CDkOyrF=
+FbSGVK_yRbZa6j1RL7NJWGbqi0"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Mobile Application Development=20
+      Course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 9">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-left-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>9<o:p></o:p>=
+</SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt; PADDING-LE=
+FT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGROUND-COLOR: t=
+ransparent; mso-border-top-alt: solid #DDDDDD .75pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"Project Proposal and Report Writing Skill course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D6=
+RokP7WtnJ-7_MhBmq1z1CVTNjKdISEx0BESATv_KrwnZ3H2WkDSOx97XGxH2iWwOUt20_B=
+nHKbhqCQbqXaAwdbGTRchTnvjqR337jgScrYL5DNVKaYTVy0jTtCNu7w8dgr6Dnr1aeYaP=
+2ch_8SYWp7llas1mFMKsujJjb8Pv0OWGa8l-EJ7shBSlw7U2wwxTixznL-P8M-3hB8xaEH=
+hyybPs8vnWnjUr9nZUvDB2pbPSeCmH1uRB9i3WWRBZYdw6A2"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Project Proposal and Report Writing Skill=20
+      course</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-right-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR>
+  <TR style=3D"mso-yfti-irow: 10; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #dddddd 1.5pt solid; PADDING-RIGHT: =
+6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD =
+.75pt; mso-border-left-alt: solid #DDDDDD 1.5pt; mso-border-bottom-alt=
+: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'>10<o:p></o:p=
+></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #f0f0f0; BOR=
+DER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADDING-TOP: 6pt=
+; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 6pt; BACKGRO=
+UND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD .75pt; mso-b=
+order-bottom-alt: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop>
+      <P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT:=
+ normal"><SPAN=20
+      style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman",serif; =
+COLOR: black; mso-fareast-font-family: "Times New Roman"'><A=20
+      title=3D"    Gender based Violence, Gender Analysis and Developm=
+ent and Gender Mainstreaming,  Analysis and Planning Gender in Humanit=
+arian Action Course"=20
+      href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D2=
+JLoTD-8CaiwHwjlCseSQgouCPSImniapbgGa2MHtz8bgRGl0tVAVf_HQc3KdPXsIqU2tdE=
+KYH7ernL0zTZqtvDsEGUPACHsuG9JAtRf0CVaIQdzSnWozVTuiUh1bA0m5tTSvjrpy8S7m=
+EYOsM8BFKgjzg5VH3m65lYrBP7otdKLdc6-6Qif-QDT-mgh7tFkeS-gT8YXfuxGzd5XGkW=
+Dbpq-q7EfNeu02oLWTH2K9RMyXJKOmw1sKwB_w3e5GldtKtWsXLzC1I49_6LtBr6QiziLE=
+z4PvrVQyd4Mi5AeA-YCr7IYi7rWUFk7FTcK84Ht7NKQGGMMca-uQsAr9Mh0vbnS1Y8tIin=
+rz-KCmbSyMrwX0"=20
+      target=3D_blank><SPAN=20
+      style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+      color=3D#0000ff>Gender based Violence, Gender Analysis and Devel=
+opment and=20
+      Gender Mainstreaming, Analysis and=20
+      P</FONT></SPAN></A><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-TOP: #dddddd 1pt solid; BORDER-RIGHT: #dddddd 1.5p=
+t solid; BORDER-BOTTOM: #dddddd 1.5pt solid; PADDING-BOTTOM: 6pt; PADD=
+ING-TOP: 6pt; PADDING-LEFT: 6pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: =
+6pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid #DDDDDD =
+.75pt; mso-border-right-alt: solid #DDDDDD 1.5pt; mso-border-bottom-al=
+t: solid #DDDDDD 1.5pt"=20
+    vAlign=3Dtop></TD></TR></TBODY></TABLE></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 250%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; LINE-HEIGHT: 250%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DOXBO_qy=
+lBuc0ep6YN3ftcWCUDQTpKU7o1FRhLYGbWk2VtgwEslVm35wA-VjaxnxFl6n9YHFGFw1Rr=
+7mvag27dhThYudHA8VvU_ANTei-XCigX8cL45Scolytpxs-JciREqCOm--Cm6Viv3Hrky_=
+n5481"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Contact=20
+Us</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 250%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; LINE-HEIGHT: 250%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DonnMgZr=
+G2lzEYMT-KggctNGY7Sp0mjHuz8tTmB3CrhvtudZXyqoLoZ_gyWCB8fmVau6E9GEk-NhtZ=
+te3wmHFQQkYUfBxV3nTtR5BkiXwOBr1fIcBpQZqQhMb41R_6kmaQuXItTklfYZ44ea350d=
+uDjM1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Course=20
+Schedule</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 250%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; LINE-HEIGHT: 250%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DnL2O3Cv=
+7wz_EvWeaEkei-LxP_pNB6S6ww2mgeo0wrqPKp2sNsEvGb3u8nQ9YZLTcp4wpaQZLLZQdU=
+NfSoZ7GSl7hD8hXydKRDMynh1quvs6uah_D_rSWN-zBvvVCefrvRjO-x505L40N-KCQbCj=
+gQQY1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Virtual=20
+Training</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 250%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; LINE-HEIGHT: 250%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3D_EgHlkP=
+ZpoPdR21feKfQmd1YT_EgQH8vfxz0KvUxrPTVCPXMCJxLxcg74ksr0TqsnBiz6nhNHrb7G=
+JCJG2s18hZLdoWweLFFxAj7L6mA9UOi8tbO7jU8Js5yAPWhje4bWZ8Jo5lFYRA_jzyFa_E=
+HtFo1"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT=20
+color=3D#0000ff>Consultancy</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 250%">=
+<SPAN=20
+style=3D'FONT-SIZE: 11.5pt; FONT-FAMILY: "Verdana",sans-serif; COLOR: =
+#666666; LINE-HEIGHT: 250%; mso-fareast-font-family: "Times New Roman"=
+; mso-bidi-font-family: "Times New Roman"'><A=20
+href=3D"http://email.foscoredevelopment.org/tracking/click?d=3DrAfWXIR=
+XqQXXlrD4wou_RlJISJ5wCigJhtEhmiH2ltNG9BP2R3nl4tFZyR1u-HA6Zx0jmUEGSqabM=
+cKt0F2PxKFcm4mXT2IAHrvXaIuWuiNkb4LoRWPrnpScBcBa40iL3HNDr8suSKfxHjLWcW9=
+WjGc96WqrGoRSXXEKG2W9T_JGCHVo67vm_efZbFTyiQ_PFw2"><SPAN=20
+style=3D"TEXT-DECORATION: none; text-underline: none"><FONT color=3D#0=
+000ff>Download=20
+PDF</FONT></SPAN></A><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0cm 0cm 8pt"><o:p><FONT=20
+face=3DCalibri>&nbsp;</FONT></o:p></P>
+<P>&nbsp;</P></BODY></HTML>
+
+<img src=3D"http://email.foscoredevelopment.org/tracking/open?msgid=3D=
+GtkeK8D0mBenSDEQSpbEAQ2&c=3D1554357266860434872" style=3D"width:1px;he=
+ight:1px" alt=3D"" /><div style=3D"text-align:center; background-color=
+:#fff;padding-top:10px;padding-bottom:10px;font-size:8pt;font-family:s=
+ans-serif;"><a href=3D"http://email.foscoredevelopment.org/tracking/un=
+subscribe?d=3DyC-RmNc_4gc17yI8ilqZF2R_sHj-OamPUPdCANfy0HsToEUGpQW5YyWd=
+-LCc2Wk_Mmu0tjVzubOLSHoQUTwR7dmia7GM-Q6KkKwpZl7nx1J30" style=3D"text-a=
+lign:center;text-decoration:none;color:#666;">UNSUBSCRIBE</a></div>
+--=-eZCfI3be+w6UA5eTSMwhWg3k4zdy19sE/XWKzQ==--

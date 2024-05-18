@@ -1,0 +1,142 @@
+Return-Path: <>
+Received: from SJ2PR04MB8581.namprd04.prod.outlook.com (::1) by
+ SN6PR04MB5245.namprd04.prod.outlook.com with HTTPS; Thu, 2 Feb 2023 19:16:50
+ +0000
+Received: from DS7PR03CA0023.namprd03.prod.outlook.com (2603:10b6:5:3b8::28)
+ by SJ2PR04MB8581.namprd04.prod.outlook.com (2603:10b6:a03:4f6::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6043.36; Thu, 2 Feb
+ 2023 19:16:49 +0000
+Received: from DM6NAM10FT076.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:5:3b8:cafe::cf) by DS7PR03CA0023.outlook.office365.com
+ (2603:10b6:5:3b8::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6064.27 via Frontend
+ Transport; Thu, 2 Feb 2023 19:16:48 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.167.45)
+ smtp.mailfrom=gmail.com; dkim=pass (signature was verified)
+ header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.167.45 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.167.45; helo=mail-lf1-f45.google.com; pr=C
+Received: from mail-lf1-f45.google.com (209.85.167.45) by
+ DM6NAM10FT076.mail.protection.outlook.com (10.13.152.163) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6064.27 via Frontend Transport; Thu, 2 Feb 2023 19:16:48 +0000
+X-IncomingTopHeaderMarker: 
+ OriginalChecksum:A24A675DC54FF5F4CF7684B21CD52C36F054B71A9D46EC88E132B13F3E612AD7;UpperCasedChecksum:2B19DEB9C2EEEEA6679039A0935B5515827ABB60A3C9C3C8E6E6134496602D66;SizeAsReceived:2243;Count:13
+Received: by mail-lf1-f45.google.com with SMTP id y25so4436553lfa.9
+        for <bruce@untroubled.org>; Thu, 02 Feb 2023 11:16:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=XwawpmexYw9HxDTb5SCE5avSlzTWA80hxRCujR9igmg=;
+        b=B3QKf6KVBg8MvqYlRFnWwEF4IJibxPspCMq9iqNtlaQ/WTjnnwUARkGNf8pUKxwfFd
+         6eSf0iSjS7SUw2/XZE/ssw5BBraSM0A7NpAklKqVXky0xMBU2xX1BoLsFBfJT8z/OV/A
+         XqO9hG1rp1PBoyk2JMqc/A4dN5eIR3uOezY8oioqGFNSCoN2/1nYRozsN7Pi/nBMAyTw
+         exdb0MH29+63UTyyucl3YZT5HSnVZ2raNYU9S/UmwRfy04zma2CfBSju40QN8qtz9o5u
+         HAHFWdqC9vCNUKotgfblH070926gQUiQZoSdIyudIMZsqCFscypFayo5nVylWqi0FFix
+         trCA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=XwawpmexYw9HxDTb5SCE5avSlzTWA80hxRCujR9igmg=;
+        b=oEKz1ktv4RzB/bPt93V0o8qWtUIWJXQ2HcDI7zuhoV+w4oml65mXT7suoeoqvuN0uQ
+         wpk0HNNSjK+LKmBI0ZP0YDI7MEr0hTRf3ZiiI9sYHCEIxEN3Cdy15l3Yam2EWKbUqSqZ
+         SEKCJssjambV3e9tKFGDeaGk5tKv7QvIWznfT3JPzHtSgF/w9YwmbvFDOOq+dNN2VLOv
+         sKo6KvmARkCUcq58Vn4Qa+vwzcgpfrATihGg5E+bAYqgVfvpyyD5GgPEjUBWY+4P9IEP
+         vC+eUG+EQPpTR8zy/GAKJASV4zREhQM3vno5hOMVWkP8Z9XY8xiWDvrzGDn8RZ9IlwF5
+         t5rQ==
+X-Gm-Message-State: AO0yUKV46dDkPUmjCLqsxLi7mEEzETo4bPT3DCUl/Nu9/pmrP9Pc8GfE
+	fi5AxQLk0N1oovoBkpQ5GlRZy3B1A3VYEHGGarWcYqlpPCQ=
+X-Google-Smtp-Source: 
+ AK7set9zVinBv+9OmtBhibI1Rm3op23hO2o4jF582rZSCy2yJeIGJD0pxhm5f9k1L2KSg9kkioIt9Z3VY1b2adAp+sk=
+X-Received: by 2002:a19:e018:0:b0:4ca:6c11:d3e5 with SMTP id
+ x24-20020a19e018000000b004ca6c11d3e5mr1311954lfg.224.1675365407884; Thu, 02
+ Feb 2023 11:16:47 -0800 (PST)
+From: " C o n g r a t u l a t i o n s (2) "  <bruce@untroubled.org>
+Date: Tue, 07 Feb 2023 04:55:43 +0100 +0100
+Message-ID: 
+ <sUqN1ZFynmLxDGbmKvayZlUeQnxBkIMBiafilcTgXwHWqKywffm@mail.gmail.com>
+Subject: Re: Your Recent SAMS CLUB Shopping Experience (2)
+Content-Type: multipart/alternative; boundary="000000000000018b6c05f3bc686c"
+X-IncomingHeaderCount: 13
+X-MS-Exchange-Organization-ExpirationStartTime: 02 Feb 2023 19:16:48.8247
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 
+ b4c1bfa9-5b70-4cea-2880-08db05520854
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DM6NAM10FT076:EE_|SJ2PR04MB8581:EE_
+X-MS-Exchange-Organization-AuthSource: 
+ DM6NAM10FT076.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 2/2/2023 7:16:42 PM
+X-MS-Office365-Filtering-Correlation-Id: b4c1bfa9-5b70-4cea-2880-08db05520854
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.167.45
+X-SID-PRA: bruce@untroubled.org
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Feb 2023 19:16:48.7778
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ b4c1bfa9-5b70-4cea-2880-08db05520854
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: 
+ DM6NAM10FT076.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ2PR04MB8581
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5204932
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6064.027
+X-Microsoft-Antispam-Mailbox-Delivery: 
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90011020)(91015020)(91040095)(5061607266)(5061608174)(9050020)(9060121)(9081003)(9100338)(4810004)(4910033)(8820095)(9930004)(9545005)(10172021)(9320005);
+X-Message-Info: 
+	zQvZnywc5oXPPxNoRlzok/wQNVoPCpGKJzJdZsmiq8fwkiA8Oionn+tgBwcIZLdRbFpfRDXaWungCGh0o5Y56PxrkP7smUwCI2fsACt1CQy6yX795CUmMBN3l756zTQkyxEXn6db3IBfXC0STIv+hsAFz4jYcw2OET+92nx0Pjsge39MxhaACnflIIPR3c0ai1kagPZmMueCMYdI+6/kVg==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0tMQ==
+MIME-Version: 1.0
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 2356
+
+--000000000000018b6c05f3bc686c
+Content-Type: text/html; charset="UTF-8"
+
+
+
+<div align="center">
+  <h1><a moz-do-not-send="true"
+href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#b0N6QU5JaXZyTE9hS1NZQUZDMDJ0YkYydUpBRjhLMkVTWU9LOGlrR2VoM0U5VHdhWmpnZ25raVdOWnRQWllnalgrakxrN3BqRGtxWFE5ZnhCQ0Q3UWxxOXJBYmNhMEl4Sk9kQnRqN1NjL0k9"><u><font
+          face="Times New Roman, Times, serif" color="#ff0000">Congratulations!
+            $90</font></u></a></h1>
+  <div align="center"><a
+href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#b0N6QU5JaXZyTE9hS1NZQUZDMDJ0YkYydUpBRjhLMkVTWU9LOGlrR2VoM0U5VHdhWmpnZ25raVdOWnRQWllnalgrakxrN3BqRGtxWFE5ZnhCQ0Q3UWxxOXJBYmNhMEl4Sk9kQnRqN1NjL0k9"><img
+        moz-do-not-send="true"
+src="https://pbs.twimg.com/media/FZUA6MxXgAEJft9?format=png&name=small"
+        alt="" width="584" height="679" border="0"></a><br>
+  </div>
+</div>
+<p align="center">If you no longer wish to receive these emails, you may
+  unsubscribe by <a moz-do-not-send="true"
+href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#bVRHZGRxNDBmRkNCaHpXT1BNMjlXN1ZDb1pwVkJPV3Y4azU5a0tRMnZ4SGlLZVZqWkZzcm9UaGVxNXZvQ0NKWTVVWEVNMDUxSDBKTDZ0OXNxWE1WbXFpazc2Z08yTVl1TlZOY2I3bCszV2s9"><u><font
+        color="#0000ff">clicking here</font></u></a></p>
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/0068be3f1777eccfcdb17d23ffa2f0c6299f19d9c5ff0b02a02cd0eb7489/a82b53fbf553a5c97c1ba6d3bfb380744a645773dc80368e4d8f7cd0af88f76dc6e457#cGtyaWdlSlNDbElsY3k3R0p0cFFzeXJmWnVrbzZGditVaXJydlRWUEo1ZU5GSnFlbUZTbGZhME5rd2swVGoxUExxbm83THVqQys4eURBR2VUdmJIaC9RbldmRW1aY2VWalBMeFBpNGhKeFE9"><u><font
+        color="#0000ff">click here</font></u></a> to remove yourself
+  from our emails list<br>
+</p>
+
+<img alt='' src='http://4VBAOHF2MV9BE5X9LEQE.asslangift.monster/c09hMFJiVUoyV1pJNHlRZmlDQlI3d0ZaSTJSODZRN2tYKzY1cXltd2JBaHR4V2FYTGNNUHhUTlBZbnpVa2MvUTFmelNzdWdYQTYwbmx4NHNxMzUxWW4yMkhzV2l1VDFyL1VhYW1JZWV1Wm89' width='1px' height='1px' style='visibility:hidden'/>
+
+--000000000000018b6c05f3bc686c--

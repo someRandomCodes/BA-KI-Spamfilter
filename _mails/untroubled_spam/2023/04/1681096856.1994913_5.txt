@@ -1,0 +1,301 @@
+Return-Path: <GNYQDJNPDVuHfcMkprjnWhytHJJjVt@ups.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1975220 invoked from network); 8 Apr 2023 15:41:36 -0000
+Received: from hearchiteckt.shop (ip-1-86-150-103.wjv-1.biznetg.io [103.150.86.1])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 08 Apr 2023 15:41:36 -0000
+Delivered-To: logoritm22813@gmail.com
+Received: by 2002:a05:7108:76a9:b0:2f1:98ad:6ab2 with SMTP id w41csp702072gdt;
+        Fri, 7 Apr 2023 18:54:08 -0700 (PDT)
+X-Google-Smtp-Source: AKy350apZLmoeStgpT81TqSBHAH3dOXA/3/2gOIlL/6n6glMwitTqTkiEjEqMs1+GBHpetZ80i2C
+X-Received: by 2002:aa7:d80c:0:b0:502:30e6:1e47 with SMTP id v12-20020aa7d80c000000b0050230e61e47mr3044402edq.13.1680918848208;
+        Fri, 07 Apr 2023 18:54:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1680918848; cv=none;
+        d=google.com; s=arc-20160816;
+        b=V/xMsJ0B5c1DsDf+HprA3nokt3BqqBjXsuqfnCVHQ4mZfjIpyPr/OuA1EmrToDH8Mp
+         lYS1mtUGFmGUo5WxxYTUVOtM8uOJKuK0dgFsmHIk+F1aF2f8rp8k9lkBJO4yuPHL74Tf
+         REWBKQqOR+IqMYfYKXoiIcaqmRGxzEZHRd7uwLlPleW93YpyNpTWFoTQ6xsHg6DwWiHo
+         Yys84j8YhNTWMWDcY0H8JG7v0VqU6xlaG8sWRBIST+HsTsgj1qpQ/C5/gziwWd4eANut
+         HtedGOXAFRqmYb1vkr8AnEIFKcF+izALTe2k6MBeLWamn5+z4e9/DT4ENZUN+mt39UfB
+         d+7Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:reply-to:to:list-unsubscribe:message-id:subject:date
+         :from:dkim-signature:dkim-signature;
+        bh=meCe57Z8/ysIXi64ZmojK9ty3LoF+3sRkeYOkkdedOY=;
+        b=MVMqbeCLxbgu87hHmM0O8p9rwxIzLQq7FKeZyzkWJdHMbXXh2lQwZW56q5no1a8vDI
+         aM3e6G6/XhU2Iph7OnuaJzieFywmRaVKFy1RbRN7asNLxZXtkHtJJMkbCXF7eW0Xi0oj
+         /diIEXFu3+RJWgZQWezwb7wXZMlxhBfyLYI0d55R1J2zI4eswgTgAJK0nLMroTHtHqsj
+         HBrlsU6CjXLptRG7WFmQpmFgA75zY+vuBQXxtBM9gnyuvUHEuALzp5zSnOWKoBZ0JbXd
+         lDXGNUk6HrY/coWxqreFLZlx23Cj/ToaLcdQl16kPTOThicpXOvrhkF1SEULBNTSP5eE
+         3dLw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.benchmarkapps.com header.s=bmdeda header.b="pdJUN1/u";
+       dkim=pass header.i=@bmsend.com header.s=bmdeda header.b="EHFn/pVY";
+       spf=pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) smtp.mailfrom=BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=email.benchmarkapps.com
+Return-Path: <BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com>
+Received: from pmta1087.dedicated.bmsend.com (pmta1087.dedicated.bmsend.com. [12.206.206.251])
+        by mx.google.com with ESMTPS id w8-20020a50fa88000000b0050477dfb22bsi3189763edr.565.2023.04.07.18.54.07
+        for <logoritm22813@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 07 Apr 2023 18:54:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) client-ip=12.206.206.251;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.benchmarkapps.com header.s=bmdeda header.b="pdJUN1/u";
+       dkim=pass header.i=@bmsend.com header.s=bmdeda header.b="EHFn/pVY";
+       spf=pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) smtp.mailfrom=BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=email.benchmarkapps.com
+DKIM-Signature: v=1; a=rsa-sha256; d=email.benchmarkapps.com; s=bmdeda; c=relaxed/relaxed; i=emarts-store.gmail.com@email.benchmarkapps.com; t=1680918846; h=subject:from:reply-to:to:date:message-id:list-unsubscribe:content-type: mime-version; bh=meCe57Z8/ysIXi64ZmojK9ty3LoF+3sRkeYOkkdedOY=; b=pdJUN1/u2D96RBcazgYjC2Mb5+DQzwd7Umh/Gp7w/ikpSPkVmmlMR3xxNmnuftGFvwkRJAEqh9P /T1bR2SDHGGxJE08JNnY/IXutcxcxtGiDND3aZS79IXFKu5YLMsfUDQL8+qawghiB6921hhMEElpA 3QD/AGy2aXNagFutVj0=
+DKIM-Signature: v=1; a=rsa-sha256; d=bmsend.com; s=bmdeda; c=relaxed/relaxed; t=1680918846; h=subject:from:reply-to:to:date:message-id:feedback-id:list-unsubscribe: content-type:mime-version; bh=meCe57Z8/ysIXi64ZmojK9ty3LoF+3sRkeYOkkdedOY=; b=EHFn/pVY6ZLblRSY4CrXkOKeLcSRf9UYkrAjmvFy2fCAZbdDjgtnNlfsQ5t5gxS5xQtAdxo3Pi4 nO6QU0CWZ/EX0mvE4sW0/eNCFT+Ruvewr7S1t5UqEJmtHQyKuKHUMUraYD+jQeDxWMWPIei5d/Bhb P84AX5rNXcN0Pz8l1CM=
+From: Coffee Secret <emarts-store.gmail.com@email.benchmarkapps.com>
+Date: Fri, 07 Apr 2023 21:54:06 -0400
+Subject: Coffee + this = fast metabolism
+Message-Id: <7ffbaf46324d4148be37a1c14d3b194b@email.benchmarkapps.com>
+X-Identify: <1_1@pmta1087.dedicated.bmsend.com>
+X-Feedback-ID: 1510181:1:us:benchmarkemail
+X-Campaignid: 0
+List-Unsubscribe: <mailto:unsub@bmesrv.com?subject=unsub>
+X-Mailer: BME Mailer - **MIMK6f25191fe3314a6ba93b2b48test**
+X-BM-User: 1510181
+To: logoritm22813@gmail.com
+Reply-To: emarts.store@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-qPib71lCcGO57TCIVlE1Wg=="
+Content-Length: 10345
+
+--=-qPib71lCcGO57TCIVlE1Wg==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+If you enjoy your coffee, your life is about to get a whole lot better :)
+
+The newly discovered 10-second coffee trick you'll see at the link below na=
+turally transforms your morning coffee into a fat-burning dream.
+
+Plus, it makes everything you love about coffee so much better.
+
+Here's to kickstarting your morning off right.
+
+[1] =3D=3D&gt;  Try This 10 Second Morning Coffee Trick!
+
+Sign Off,
+ References:
+
+1. https://clt1510181.benchmarkurl.com/c/l?u=3DF451FE7&e=3D154FB61&c=3D170B=
+25&t=3D0&seq=3D1   =20
+   =20
+View this email in your browser:    =20
+   =20
+https://clt1510181.benchmarkurl.com/c/v?e=3D154FB61&c=3D170B25&t=3D1&email=
+=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D   =20
+   =20
+You are receiving this email because of your relationship with Dotmartes. P=
+lease reconfirm your interest in receiving emails from us.   If you do not =
+wish to receive any more emails, you can unsubscribe here.   =20
+   =20
+https://clt1510181.benchmarkurl.com/c/opt?e=3D154FB61&c=3D170B25&t=3D1&emai=
+l=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D   =20
+   =20
+https://clt1510181.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=
+=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D   =20
+   =20
+   =20
+   =20
+This message was sent to logoritm22813@gmail.com by emarts-store.gmail.com@=
+email.benchmarkapps.com   =20
+   =20
+Bp 54 Fnodeq, Fnideq, mdiq/fnideq  93100, Morocco   =20
+   =20
+Manage Subscription: https://clt1510181.benchmarkurl.com/c/s?e=3D154FB61&c=
+=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D   =20
+   =20
+This is a Test Email only.   =20
+This message was sent for the sole purpose of testing a draft message.
+
+--=-qPib71lCcGO57TCIVlE1Wg==
+Content-Type: text/html; charset=utf-8
+Content-Id: <41QLAH7MMJU4.DW0Q6CWCSCQT@prod-app12>
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head><style type=3D"text/css" id=3D"bmeresponsecss"> =
+  =20
+/* CMS Other Editor Test */   =20
+ @media only screen and (max-width: 480px){   =20
+body { margin: 0; padding: 0; }   =20
+}               =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3Dcontainer-table], .bmeheadertext, .container-table{ width: 95=
+% !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+header{font-size: 24px !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+contenttitle{font-size: 20px !important;line-height: 140% !important;}    =
+=20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+contenttext{font-size: 16px !important;line-height: 140% !important;}    =
+=20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+single-col{display: block !important; width: 100% !important; float:left; =
+clear:both;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+img.mobile-img-large { width: 100% !important; height:auto !important;displ=
+ay:block;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+img.bmeRSSImage{max-width:300px; height:auto !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+td[class=3D"preheader-table"]{padding: 10px 0 !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div[class=3D"bmeheadertext"]{font-size: 12px !important;line-height: 140% !=
+important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+td[class=3D"bmefootertext"], div[class=3D"bmefootertext"]{font-size: 12px !=
+important;padding-top: 10px;line-height: 140% !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div[class=3D"bmefooter"] td[width=3D"79%"], div[class=3D"bmefooter"] td=
+{display: block !important;width: 100%;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+mobile-footer, .mobile-footer a{ font-size: 13px !important; line-height: =
+18px !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+mobile-footer{ text-align: center !important;}    =20
+}               =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div.bmefooter, div.bmeheader{ display:block !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3D"share-tbl"] { padding-bottom: 15px; width: 100% !important;}=
+    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3D"share-tbl"] td { display: block !important; text-align: cent=
+er !important; width: 100% !important;}    =20
+}               =20
+   =20
+ @media only screen and (min-width: 640px){   =20
+img.bmeRSSImage{max-width:500px !important; height:auto !important;}    =20
+}   =20
+   =20
+</style></head><body><img   =20
+ src=3D'https://clt1510181.benchmarkurl.com/c/o?e=3D154FB61&c=3D170B25&t=3D=
+1&email=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D' alt=3D'' border=3D"0=
+" style=3D"display:none;" height=3D"1" width=3D"1"><p>If you enjoy your cof=
+fee, your life is about to get a whole lot better :)</p>
+<p>The newly discovered 10-second coffee trick you'll see at the link below=
+ naturally transforms your morning coffee into a fat-burning dream.</p>
+<p>Plus, it makes everything you love about coffee so much better.</p>
+<p>Here's to kickstarting your morning off right.</p>
+<p class=3D"p3"><a href=3D"https://clt1510181.benchmarkurl.com/c/l?u=3DF451=
+FE6&e=3D154FB61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV=
+&seq=3D1" target=3D"_blank"><span style=3D"text-decoration: underline;"><st=
+rong>=3D=3D&gt;<span class=3D"Apple-converted-space">&nbsp; </span></strong=
+><span><strong>Try This 10 Second Morning Coffee Trick!</strong></span></sp=
+an></a></p>
+<p class=3D"p2">&nbsp;</p>
+<p>Sign Off,</p><!-- Online Path -->   =20
+<div align=3D"center" class=3D"bmeheader">   =20
+<div style=3D"font-family:Arial, Verdana; font-size: 12px" class=3D"bmehead=
+er" align=3D"center">   =20
+<table class=3D"container-table" width=3D"600" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"padding: 20px;"><tr><td align=3D"center" vali=
+gn=3D"top" class=3D"preheader-table"><div style=3D"font-size:11px; color:#6=
+66666; font-family:Arial, Helvetica, sans-serif; padding-bottom:5px; line-h=
+eight: 140%;" align=3D"center">   =20
+<a target=3D"_new" href=3D"https://clt1510181.benchmarkurl.com/c/v?e=3D154F=
+B61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D" s=
+tyle=3D"color: #16a7e0;">View this email in your browser</a>   =20
+   =20
+<br>You are receiving this email because of your relationship with Dotmarte=
+s. Please <a target=3D"_new" style=3D"color:#16a7e0;" href=3D"https://clt15=
+10181.benchmarkurl.com/c/opt?e=3D154FB61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2=
+FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D">reconfirm</a> your interest in receivin=
+g emails from us.   If you do not wish to receive any more emails, you can =
+<a target=3D"_new" style=3D"color:#16a7e0;" href=3D"https://clt1510181.benc=
+hmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6FhQkYuJW=
+uMbI9nNPuw6lIV&relid=3D">unsubscribe here</a>.   =20
+</div></td></tr>   =20
+</table></div></div>   =20
+<!-- /Online Path -->   =20
+   =20
+   =20
+   =20
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" name=
+=3D"blk_footer" class=3D"blk" style=3D"color: #666666;"><tbody><tr><td name=
+=3D"tblCell" style=3D"padding: 20px;" align=3D"left" valign=3D"top">   =20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbo=
+dy><tr><td name=3D"bmeBadgeText" style=3D"text-align:center; word-break: br=
+eak-word;" align=3D"center"><span id=3D"spnFooterText" style=3D"font-family=
+: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; line-=
+height: 140%;">This message was sent to logoritm22813@gmail.com by emarts-s=
+tore.gmail.com@email.benchmarkapps.com   =20
+<br>Bp 54 Fnodeq, Fnideq, mdiq/fnideq  93100, Morocco</span>   =20
+<br>   =20
+<br><span style=3D"font-family: Arial, Helvetica, sans-serif; font-weight: =
+normal; font-size: 11px; line-height:140%;"><span href=3D"https://clt151018=
+1.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6Fh=
+QkYuJWuMbI9nNPuw6lIV&relid=3D"><img   =20
+ src=3D"https://ui.benchmarkemail.com/images/verified.png" alt=3D"Unsubscri=
+be from all mailings" title=3D"Unsubscribe from all mailings" border=3D"0">=
+</span> <a class=3D"bmefootertext" target=3D"_new" href=3D"https://clt15101=
+81.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DhW2XnxQ%2FU6F=
+hQkYuJWuMbI9nNPuw6lIV&relid=3D" style=3D"color:inherit;text-decoration:unde=
+rline;">Unsubscribe</a>   | <a class=3D"bmefootertext" target=3D"_new" href=
+=3D"https://clt1510181.benchmarkurl.com/c/s?e=3D154FB61&c=3D170B25&t=3D1&em=
+ail=3DhW2XnxQ%2FU6FhQkYuJWuMbI9nNPuw6lIV&relid=3D" style=3D"color:inherit;t=
+ext-decoration:underline;">Manage Subscription</a>     =20
+<br></span></td></tr><tr><td name=3D"bmeBadgeImage" style=3D"text-align:cen=
+ter;padding-top:20px;" align=3D"center"><a href=3D"https://www.benchmarkema=
+il.com?p=3D500289" target=3D" target=3D_new "><img   =20
+ src=3D"https://www.benchmarkemail.com/images/web4/misc/emailfooter/opt9.pn=
+g" border=3D"0"></a></td></tr></tbody>   =20
+</table></td></tr></tbody>   =20
+</table><!-- Test Path -->   =20
+   =20
+    <br />   =20
+    <br /><div align=3D"center">   =20
+<div style=3D"font-size: 11px; text-align: left;">   =20
+   =20
+<table width=3D"600" cellspacing=3D0 cellpadding=3D0 border=3D0 align=3D"ce=
+nter" class=3D"container-table"><tr><td width=3D"2%" valign=3Dtop style=3D"=
+padding-right: 4px;"><img align=3Dabsmiddle   =20
+ src=3D'https://clt1510181.benchmarkurl.com/test_msg_star.gif' alt=3D'' /><=
+/td><td width=3D"98%"><div style=3D"font-family: Verdana,Arial,Helvetica,sa=
+ns-serif; font-size:14px;color: #6f0708"><b>This is a Test Email only.</b><=
+/div><div style=3D"padding-top: 1px;font-size:12px;font-family: Verdana,Ari=
+al,Helvetica,sans-serif;">This message was sent for the sole purpose of tes=
+ting a draft message.</div></td></tr>   =20
+</table></div></div>   =20
+    <br />   =20
+    <br /><!-- /Test Path -->   =20
+
+<!--  tracer=3Dzebulin&client_id=3D1510181&email=3Dlogoritm22813@gmail.com&=
+site=3Dwww.benchmarkemail.com --></body></html>
+
+--=-qPib71lCcGO57TCIVlE1Wg==--

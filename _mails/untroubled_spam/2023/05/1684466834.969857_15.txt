@@ -1,0 +1,222 @@
+Return-Path: <losmeauqths@hotmail.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 955858 invoked from network); 18 May 2023 12:33:54 -0000
+Received: from APC01-SG2-obe.outbound.protection.outlook.com (mail-sgaapc01olkn2100.outbound.protection.outlook.com [40.92.53.100])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 18 May 2023 12:33:54 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=g6jT0u4Y/8+lIP+sbTI8OW84pYvZlNq+lpMg6KCaKhfnY3B8uCMRbAc7X52t8B7Y/L2pRP5HA/Ouu4A2j2Yak0MpEHIzFe3rfExn6TJtDlE7vl5w7DYLMCurKKwdg9I0ZAVzVa8WLaomrggBj2DKH6nvBlrZpcCh/RBP/URyCoNtIwRg7urfv1EdfZKp7c7T5AwRVegVH4M40n9xDl8LDP04A5dYEt0B8UOGlRcqSrRLTYgcUel+jqH0wQCvT5rSlBkwBNxMk8wQ5UXanCaAbxToQrbX5Rw+kkROhrGfY2CDNQ6vtFe69luQQ6uXaktZxqNxvLLtDxuisEJ8sVYDBA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=BG2f/Vvpli6EpX4DyU9lXRjU5NpViY62ppWECQoLJWE=;
+ b=JlkA/u5DynEGnJQavcp4ZEE9JH59hcxMn4GPUqcWWDq3qW3R8wHfR0RcD+xtK77MbeBOgL++pbhmxduWFSCQZZqSGd1QV+ORXJoBYaG/sxz25jYkKN894WPcKS34Om567Emq6F5BwLtvWaY+6R91wpD6LbMFvbBIsFI3LMqbPwjHomZYEj8YmtYgf7Y48wiglxo8GhTwEXlPDD842lo+BjFBu73di2wi9cW9PbAxIl+XhlYaTX150vyAeeeQjYXJZ6chmayceHtoXNvuHGsY5kbcXxN5oCnpCRxZIRhnRek8qSZNCCF1y0TcZUi87YRyVF01QX2uVmCGD5BrJcTUUw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=BG2f/Vvpli6EpX4DyU9lXRjU5NpViY62ppWECQoLJWE=;
+ b=M1Fmu2gtC4fIxz4MTOmbLld5Sjz6Dr5oHLddWcSIS5CK1phOU25v6rLcKlCis3v20nUj+fHYHw0LXaR/Kj5Jhh034gOf+kigEgIkT6PUdfyU3sk2NiQkKjxm+2B1mX5/wmCEvcMkGL7zE2nuwhJkZ1mP5JYxEmoP1DFtognosfZN+cvAXqJtNm888JyY1mmDumYqgTFgDu7jWimXb6owAHvP4nqgxgoO7nJoMS78dxAAaE6rrN1IhXyZrLUQble4dxAZ7ToUEL6zpzqXuq6snkIAq/vTILa8jLPrg/FpCtGFmp7eJ86mjRLaW5RsT5Y1EAsHvT+v9jDQkJtDBpK5vQ==
+Received: from SG2PR03MB4797.apcprd03.prod.outlook.com (2603:1096:4:df::12) by
+ SEZPR03MB7418.apcprd03.prod.outlook.com (2603:1096:101:133::8) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6411.19; Thu, 18 May 2023 12:33:08 +0000
+Received: from SG2PR03MB4797.apcprd03.prod.outlook.com
+ ([fe80::1b2e:4911:51a6:3cb3]) by SG2PR03MB4797.apcprd03.prod.outlook.com
+ ([fe80::1b2e:4911:51a6:3cb3%3]) with mapi id 15.20.6411.019; Thu, 18 May 2023
+ 12:33:07 +0000
+X-Mailer: MailBee.NET 12.3.1.667
+From: "losmeauqths@hotmail.com" <losmeauqths@hotmail.com>
+Subject: Unveiling the Enchanting Hearts of Ukraine Women
+Reply-To: "losmeauqths@hotmail.com" <losmeauqths@hotmail.com>
+Date: Thu, 18 May 2023 14:32:59 +0200
+Message-ID:
+ <SG2PR03MB4797E5FECEC1B3F08E2581A4BD7F9@SG2PR03MB4797.apcprd03.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_F069_020411B7.23518C2F"
+To: Undisclosed recipients:;
+X-TMN: [ATNoR9KWuT7JIkLa7xUb1mmavcN0Ub4e]
+X-ClientProxiedBy: VI1PR0101CA0046.eurprd01.prod.exchangelabs.com
+ (2603:10a6:800:1f::14) To SG2PR03MB4797.apcprd03.prod.outlook.com
+ (2603:1096:4:df::12)
+Return-Path: losmeauqths@hotmail.com
+X-Microsoft-Original-Message-ID: <1.3c4f15973cd322aa43d6@MainframeLAP>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SG2PR03MB4797:EE_|SEZPR03MB7418:EE_
+X-MS-Office365-Filtering-Correlation-Id: cb3729d8-cbdd-4e6b-1351-08db579c07c5
+X-MS-Exchange-SLBlob-MailProps:
+	+FsPbMbJytQTj0qxAzrymN/f5YufQb7TRKwZC4rOsvRX4sKEu/2wf0hYZbk5aqaKCf6pWmN1+/0VLP7WYVsrtBNx3tEr6G6ofRWBRy7xWKvKGIzJ5ZYGet3C2JvIXQTQvcsd22PyKZnEnMt1DVoxCKwHzrceeCcLX3qXQTkmI/18RIC5XxE/R/py1vYJXexIa9DSAZbmkzJDG/CH+it61b9kX3xDNr1IbjHagv7WoxJ3SiKNFNKbBY9oV1Z+ucahmOMZapf2/sYT9ZEaOTA8vJ5j4E4J2j6IWcx0bLiySFPpGy1qJhso86N51/T2bSuWUV0pskVcPlhB843C0BIKYPbzmh4NJZEp0fKAL5rAy36kex4Qp30W/oB4pu/tppAqijkoLM+ZP7HyyvnEYdlU671/u6XCWGhRgYjpwl9ToOSCUrAAgQp/eoZG4YYCvWIVSyTb6IhbsDLU2B/ByKuz6mLk9QM3jIgM3eVIbjbSnJYjogXYn1C/DLISsjvVzTlmUVWkhVbthT1aR82LWjWs35ig8DN0fsphHzqTpW2fzkblXWgREfRCOPm07B1PW7IExUaeRv7yurmGSnjPJ9NixSXP57rBxnJ+yrEoCkW+J94di/9D3kTldqeUhiEINNT2kH1fHGJW8eWqp2gu4j01KnFJUWhKGWBwXMcGbR3uT3m8HdLpBry+OulnKKJtdxDgEi2oB2BjxmYYsMpMBaQsted/Err+gcnQ3zY6J1FMabYQL9+acdcLdEI8DeKWJepWCE/B9wI5n6Wg/BeMfJdAH7Sl7kCx1fLcV0HLs7u6ocApNO/M7+PdN0DPu0vbIoyQDUMuuuRsl0lH+ki0Tpb5s8FM90FCM8c3b0oUgYbTBqTo/K9b2THWw5yoDeY/Qy1c0rSa9e6QM50W9SvVLlUBAA==
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	y90h+H6d4Mb/Lols1LRn4Q4s38Yqx7FttFKQtS9VO+pxNzFk9F0n/XMZwabdu1/AzFA21/gUQG2r7KhgLCooeIRFkjU3tmHY2Dyx4Hx6lqYUnrZXABwy/V/4HvTtD0lLmm8AjzL0VNjvzDzrKkcsqbCF4l3OY4ClyUCD4LRFA93qQu86sSDvMWDFRaz7jg+U19nZHy87zIkiyKLhrhDxhUthy4pfv8zfneuA69Xv8b9C4qJwKclT3rgku9fqaHHa/w1WIqsCTQHkfjPp59Cvex6vq4Nldg6fSUwbDEh7AYWZppja21snibPlUMa1h8DWF0CdXQ63DprWuFmy9booXmwrve6n/gh3yshqDMfMOfOibOO2Sxqd5cy/p12b2nzeDRX7GW9tMUndhvCkV8kycGRg6xNaQeecEQPgkFmx+bwPnPdD6TQ9lYFApa+3XmTrDVEO810Cb9uOsCOzecEvZm2BrcWWQgYmkLDKnG98/CHx2Zfe68WldckaYC7swwkQuWGAmZIpqr5irftYIr8zZYQS3ShAhsX2kU32QUB8mD59/FS2KiqS4MrfwfkcN2JS0XuFnOc3j7sdIJw/Ox2VxqjV4TjBE7KY5aocKlikSoJN0cPvZJfKxAIP3527jMmKmYvozhIcOwrUp8MwkgZikfmZZyPKJ2LZ6aj+Vvp9e05P/gFdoB0oJEjPaHR7SGtBfXctUxkIHX+y9Cn+rIyxcfqIFdxTg8nbFhPSUY1y8KudxESybjVysJsGrWT0veX6AV1IAY06Wn+qzcOmicwq9N1KECwy+lB/dM7NWOwkn4flNmnji/ZCR0kldCBoa8I08PRXtESqLJeKi6An5fhz5nw8wdc/K0TVsOkIu1o6E4nzh98zE8anOBLj3w8GnL9ewv+asEH8OTxTCdmNYj1G8A==
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?utf-8?B?ZkVGOWQxLzBwSUtiSGQxYVp6WEJaeWo3K0FSZ1MxZ1Z0QUgwY2tKVllMWDVI?=
+ =?utf-8?B?eTJ4SVRGNTA4Sy9GWE1SbFg5V3hWQk9FZFU0RjlwTkRLUkZyTENLSEYwY2FC?=
+ =?utf-8?B?M0x3dVpMa0cvdkNjcForOXVaMG12cURYRXFCWUl6OW5kM3lMSVNaYTUxTmhy?=
+ =?utf-8?B?Qzk2bTY0SnBoZ0RsVjJ2UktGS0lsWWpkSHF6MEZnWjVnaUtjWVhsdEdlZmJx?=
+ =?utf-8?B?NUs2dTJIYndpUFJWNHdCd2RmbHQwWnRzWHpIM0o1YW1sbm9NY0lHQjZuVnUy?=
+ =?utf-8?B?eU9iL3k1QVRIMTR1Snc4RElYNkJzYlMzaHBQcGxKalVPNlN1UCtkc3pFZk5o?=
+ =?utf-8?B?ejloK2I2Mm96RkJWcXhFVmtSOHBVVERkYnFWVm1sMjV2QVVJWG8vRXRpSVA1?=
+ =?utf-8?B?MGF0K2JpbWZTWGxGUEFUL1MrTkVoQXYzVzZNOEVrU1pPU2w0Rzd6cnJvREhV?=
+ =?utf-8?B?eVhKZWRTZC9UVXR3UnQ4ViswK1hKa0tlOHNzTlZGU1UzTTJDRFhLZWx1UnEz?=
+ =?utf-8?B?K1VGNGx2Z1VkR2x2dTVjNjFYdE56N0ZLTHZNUUcyTUN2U3F1WEZGZTNqTVdX?=
+ =?utf-8?B?WWxoUHc5dU0wcm9UeUFiaG1FaVQ3TlY2UDhmRTJMQlM0Nld2RDQrQjZWOGU4?=
+ =?utf-8?B?Rm96YTcvOG92VCt0b1ljTncyNkJScWcxbm92Yy9mbGQ2WDkxUG9lTUdBcXp1?=
+ =?utf-8?B?aEV0MU5ZUGJkbFFMSU8wSGJFVE9LQ3laQ3VuVXVNNHRYT1gwVHFzV3RZQUZB?=
+ =?utf-8?B?eEJBRzdIcXFqY0RlKy94bXBibzl1RDl5V09uSUo2KzNuajIrTTVLQ09iL0V0?=
+ =?utf-8?B?Lzhtc2k3T2Ixa2ZMMHUzdm1hdzFGR1k5bm1pQ2g3RVRLQWNzVlVuUDRMcjlU?=
+ =?utf-8?B?R0l3QnFCQXZEcXJIVFFnV3hpakx0bFYwU2ZZdDdOTWtxSUhDaTRNS3RCdlZp?=
+ =?utf-8?B?UklkUm9SYkZDL2duZUZUbXV1ZFk1K3dXTk1rVVFqMnB3c1JNR2M1azBpWk5a?=
+ =?utf-8?B?Rzk3UnNPUzFjdFc1Z1M4Ky9XbWFpMEI3eHJCdTZXK1h5UEdWRWxFcmpxcWhD?=
+ =?utf-8?B?OU5keklMV2dJWXN3dktUZURzaFJ2d3dMd2wyQ1VURXpwc2ROclNXL3BIRmxq?=
+ =?utf-8?B?WC8rT1RKTjFySktwVEJLU1M1Y0gxTXFyZGNTVnViN0QxQktiREg0Q1ZYa0ZV?=
+ =?utf-8?B?SlUrREVEaDJ2bEYvMzZZV3RMTGZhK3FoZ0NzNFVNUmhyaHE1bVQvZEVhc1V3?=
+ =?utf-8?B?OHFuTlJTZWxHc1NueVBQYmFuNWJ6RDc2TkNNMmVyTmlBWkJMZy9aM21JUGdF?=
+ =?utf-8?B?K0REcW9Wdm5Tb0NlVS91MmtNeE5oL2xoZzB6RUpuR0tJdzNzR0Nzc0lsTSs5?=
+ =?utf-8?B?TG5LQUxyanFhNzlEQVhDRWZDbEpFbWpaM3JScWtHckdqa2FhcUsrU1crcmg3?=
+ =?utf-8?B?ODdrdm00bDVVaU5rNW1uUU1NamRIRlpUL0ZCU2k4WFBhRkxKQUJRMmU5M1Nl?=
+ =?utf-8?B?SUxSdDVZdUI5Q3hBRXNVaXpJS1FaRHEzUFVwc3hCYmVBS3hJNVkvVzJPR2NQ?=
+ =?utf-8?B?OVRlS0NiU2JZNUxBOEpmK3Bwb0dlUnVmdzZJc2MxL2E0RVBod0V5cG5aRmdP?=
+ =?utf-8?Q?p7pIhYoEXHnNtXgV5zdr09P5yE5+L6bjPZtqfMu5ulyw=3D?=
+X-OriginatorOrg: sct-15-20-4734-24-msonline-outlook-c0b75.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: cb3729d8-cbdd-4e6b-1351-08db579c07c5
+X-MS-Exchange-CrossTenant-AuthSource: SG2PR03MB4797.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 May 2023 12:33:07.5120
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR03MB7418
+Content-Length: 5095
+
+------=_NextPart_000_F069_020411B7.23518C2F
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Discover the allure of Ukraine women=E2=80=94beautiful, intelligent, and fu=
+ll of grace. From vibrant cities to charming towns, Ukraine offers a divers=
+e range of captivating individuals. With strong family values and a blend o=
+f tradition and modernity, these women are ideal for meaningful connections=
+. Embrace the opportunity and embark on a life-changing journey filled with=
+ love, laughter, and profound experiences. 
+  
+ 
+UkraineWomenDating 
+  
+ 
+
+
+
+
+
+
+
+
+UkraineWomenDating 
+  
+ 
+
+
+
+If you wish to unsubscribe from our newsletter, we understand and respect y=
+our decision. We appreciate the time you've spent with us and value your su=
+pport. By unsubscribing, you will no longer receive updates, exclusive offe=
+rs, and news from our community. 
+  
+ 
+
+
+=
+
+------=_NextPart_000_F069_020411B7.23518C2F
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><b=
+ style=3D"font-weight:normal;" id=3D"docs-internal-guid-1703ff78-7fff-939d-=
+d9b4-9a0ac78144d8">=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:12pt;font-family:Nunito,sans-serif;color:#374151;=
+background-color:transparent;font-weight:400;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"=
+>Discover the allure of Ukraine women=E2=80=94beautiful, intelligent, and f=
+ull of grace. From vibrant cities to charming towns, Ukraine offers a diver=
+se range of captivating individuals. With strong family values and a blend =
+of tradition and modernity, these women are ideal for meaningful connection=
+s. Embrace the opportunity and embark on a life-changing journey filled wit=
+h love, laughter, and profound experiences.</span>=0A=
+</p>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<a href=3D"http://datinglift.cfd" style=3D"text-decoration:none;"><span st=
+yle=3D"font-size:20pt;font-family:Nunito,sans-serif;color:#1155cc;backgroun=
+d-color:transparent;font-weight:400;font-style:normal;font-variant:normal;t=
+ext-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-=
+skip-ink:none;vertical-align:baseline;white-space:pre-wrap;">UkraineWomenDa=
+ting</span></a>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+</b>=0A=
+<div align=3D"center">=0A=
+	<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-1703ff78-7fff-93=
+9d-d9b4-9a0ac78144d8"><img src=3D"https://blogger.googleusercontent.com/img=
+/b/R29vZ2xl/AVvXsEhO94M48LnvcampRAdz_hnpJEV9MhFg8GeKz34bFGb8qvehOQLWbrFTMbz=
+_tXCaFSEgm-4L4P9VDYCbMkor1Aj4NnTG7vg-EmdLahDOWx4FP_xZ-t8FuXRXWytBCySsiYAYJm=
+vkjThsXeTgYM3vMlx2xSZMHUXm5A2oy05nj0qOb4EcznUKpeUYZYa18Q/s600/w9518_1.jpg.j=
+pg" alt=3D""></b><br>=0A=
+</div>=0A=
+<b style=3D"font-weight:normal;" id=3D"docs-internal-guid-1703ff78-7fff-939=
+d-d9b4-9a0ac78144d8"><br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<a href=3D"http://datinglift.cfd" style=3D"text-decoration:none;"><span st=
+yle=3D"font-size:20pt;font-family:Nunito,sans-serif;color:#1155cc;backgroun=
+d-color:transparent;font-weight:400;font-style:normal;font-variant:normal;t=
+ext-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-=
+skip-ink:none;vertical-align:baseline;white-space:pre-wrap;">UkraineWomenDa=
+ting</span></a>=0A=
+</p>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<br>=0A=
+<p dir=3D"ltr" style=3D"line-height:1.38;text-align:center;margin-top:0pt;m=
+argin-bottom:0pt;">=0A=
+	<span style=3D"font-size:6.999999999999999pt;font-family:Nunito,sans-serif=
+;color:#374151;background-color:transparent;font-weight:400;font-style:norm=
+al;font-variant:normal;text-decoration:none;vertical-align:baseline;white-s=
+pace:pre-wrap;">If you wish to </span><a href=3D"http://unsub.datinglift.cf=
+d" style=3D"text-decoration:none;"><span style=3D"font-size:6.9999999999999=
+99pt;font-family:Nunito,sans-serif;color:#1155cc;background-color:transpare=
+nt;font-weight:400;font-style:normal;font-variant:normal;text-decoration:un=
+derline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;ver=
+tical-align:baseline;white-space:pre-wrap;">unsubscribe </span></a><span st=
+yle=3D"font-size:6.999999999999999pt;font-family:Nunito,sans-serif;color:#3=
+74151;background-color:transparent;font-weight:400;font-style:normal;font-v=
+ariant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-=
+wrap;">from our newsletter, we understand and respect your decision. We app=
+reciate the time you've spent with us and value your support. By unsubscrib=
+ing, you will no longer receive updates, exclusive offers, and news from ou=
+r community.</span>=0A=
+</p>=0A=
+</b><br class=3D"Apple-interchange-newline">=0A=
+<br>=0A=
+<br>=
+
+------=_NextPart_000_F069_020411B7.23518C2F--

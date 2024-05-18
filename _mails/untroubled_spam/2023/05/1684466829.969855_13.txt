@@ -1,0 +1,416 @@
+Return-Path: <>
+Received: from 10.226.14.165
+ by atlas207.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Tue, 16 May 2023 13:39:59 +0000
+X-Originating-Ip: [209.85.208.42]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.42 as permitted sender)
+Authentication-Results: atlas207.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Tue, 16 May 2023 13:39:59 +0000
+X-YMailAVSC: mQpvH1U3bBtz36k7spRr4D8jjgQLnkcxGg7hSvNHCoYaQlX
+ xqUUvIXJ1NS6E.IHVeVPrTWA9zzwz6mop4YseWVwuba5q9QD1wc7K1It0kGL
+ iIQzgOrrI9uV4RLwcgPjYpjYI_9LnqseRwWctyDPGHIz793MI02n3n6xVlMZ
+ xEewCS10DZpwxaFFn4Boselq0eAcWFAIaJc6JmG0RIFARevJanWslqN7GDmk
+ rWG3ixE.bXiQZJdE947bxrOrQeqSPBRXD5reI4uFCArCY1Oocvi4kH70NHXT
+ cSKnzSBDOly9NIHnMQtEFY11COB0Q2xEFpYD7hqO3fhpGXftm0Pw_ux_f090
+ 0eYjg_Lg7v2H5oEXijCDv1Ov5KGvk_7wQkPTPwLb59oOqK6qb6PzOxiAzZQ7
+ 0scFJocFszNfDA_k7Aq2VdsrfzBD2P6ZEd1JMWVXLx.tGaWgaFgBahpo4XGF
+ DFnNWosgceI9QwgegjPUvOxksIruhpQ61DlK8zQZCB2YtE5FHOO6XtPADA2a
+ VthwJKyIX04msvnMAZ1nmXqInwtyTyIlNUDXEMGZ0eNQ9_HB9M3MjlbXBVIB
+ F16nW.YQwjqjT8RV07NCjsYYewszRO1Uhubj3s5G0n1KsiIRRq89A.bmz3WQ
+ 8SehFrDxoatGKU_bFw1YC7LhfOBNgcF954kt.UiCgOgE0iln8sB9SDzM2OOg
+ e6r8o25fsG46AIj1VipN4j7ip6u7lIiw4CsQEOjZe_qqsn_1qBxtdUnfOvbb
+ 4bXAU9nLBaytwB7lFbhbNmewoYkWjsnyy2tFaG6cDO8ZCbQkmVGQRA51Z5jb
+ 3FCc4BO6w0NF.QD4TxcC2PBZ.yQydNcdMhJK8.0Nj8XECmFXu38PN054N.wr
+ baC8xkwg5sw5lasJ3epSFK.HGnjdCZWDUCmPL1Jh5Il7qygY_x7vYj6L_let
+ bTpXNAMyxhWRFF0sMzXUuzghUHrjPijpC6mkeBtrOTTajGU0UNY74G.vBEm.
+ EqJ1sUFEjJ.7lZpxevkWdzPE-
+X-YMailISG: wHuMRx4WLDtjQhHL.MDUbHF2qjoRA7zz18BUbuIPQIV_9hxu
+ Z2Y8lqmeTHsNUGlESI7sVDuFBjdZUTnvDLrqvanprxiJZTCL.ZodYZq1cvwZ
+ s9HSmbjdwDbop9F7CC0QK7MC8QrxWSY.PAvRCpvLSTGx5GRwKlCeqGF0BwW3
+ YPOG.dRv4Ty0OEOUyn_gtzgnLf1M_24t3VgpSD0bIsEniKTaD.Z9bZ.T4uhr
+ Jpd4tBrPIBdi_eIlTPT7wj1tPlIWcWh1CPRYJFS9aDqixMWSdaXm41llRGDS
+ 6Y9WhpgpOOxhEq77KkbNsF6cV5upfco3n1MlU7jl0Ir0SC5zxnXwVSKqFY6v
+ mYPTxj32QjTszRQH8CSWSO5LsOKUOV1iMPYI.H1aNppWm4Ydj9pklnWGvhty
+ S5vwbZaKiS35veGiu.2Qh0pzckz3PBm5NhucxCsFhr4KkJuSQogJwam8D842
+ fL1sLcEogO5qKtogTw67dC4RJKXI65gc46NJ6RSZHn.eQCzh8UAK5QQ1GeBC
+ SSybcrjUB1KENP2fGjqTqbprA3Js1MHJRrlwlzVwG0kyoM7lWlPGEpSewPHG
+ 6defumeoPhW_ty4rBdf6kQsMNTWqUZTfulbanWeCO8PcBZVYaVsBfeYQHfjz
+ 5uyzHPooTzdRyg_awvT8HYvn9Ibz8UG.8ayKdQAIT_QecGQQ5d9Z.G6mi4zZ
+ 48uKnjykiY54mmfwbunMJXeDpBnwleffQrf5j2PMkQJ5ynxN60hljUOe5uQb
+ yRpkrrglbqofB0UWTCVXrOO9nJhbjb81gYSKtEAP833ErJcgdwRJPreqMGqO
+ xzh5gRtj2bbll8p7SSwzry2XmkWuaYgX0W6cDcXkzMV9cpdmIxSA61hoGq0M
+ KH20x_RuVyXTP6NpWkRmPtBP3Ef8zMruafiFPckI41uTFltqJ6z2Dj5xSHOv
+ YtSEJzwn.QxwBaeF0RqBTNpek9vytKkAP9ztqlRN5Byq7fV8WK9ZJ_0DsPSt
+ eqSU_g_PsPJ4C2oKkvLKrwrOeTPae8549IuXmDNIPxTWQItKJ7ZRLMg_x4tF
+ pkRvCc6Dz9JrRCfwrBrmjiN2o2md6IhNkaF4GlyG.vgUrsozmL64TaY-
+Received: from 209.85.208.42 (EHLO mail-ed1-f42.google.com)
+ by 10.226.14.165 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 16 May 2023 13:39:59 +0000
+Received: by mail-ed1-f42.google.com with SMTP id 4fb4d7f45d1cf-50bc456cc39so20747493a12.1
+        for <bruce@untroubled.org>; Tue, 16 May 2023 06:39:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684244398; x=1686836398;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=SYom4Uw7Wgyz5fot77srwxGOCXJ8Qa6XsOrk+YKn3vk=;
+        b=pVVlI+EYM3I8tKl4Zq4mHVufZJSYXNGV+9xQlK11WEwVtS6+TwCrOXBVfGcqwCGY9P
+         Oe9LplX+Em97WM86qjIp6Pf1YD1DczoC8YwfVxQouN0fA3M4ZVfX309c8rJX5WWXhyTB
+         rsa/G+WviD6Zc9o7Ap4fozeAyvUSp4QnncuKD+CyYCYz1poM/XAgLFKvNvwNFv+aiX0a
+         /iyCZXzH25Lj19UlpjSKjFX45rmjZs6VryR7u7zYq5cDv2EX2SpBJM9V936vWQiH02rF
+         6AXg2UY+Z/rDEi59DUqP2GZUB5Uost03zr//pQoFFNt1T7cLbg9nBWCExi1RSkRcwKsY
+         AuDw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684244398; x=1686836398;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=SYom4Uw7Wgyz5fot77srwxGOCXJ8Qa6XsOrk+YKn3vk=;
+        b=bc1pCU0QzPzY51vSjuvpXvSkpv1LfZ8bE0caPK3MJEd0sEeWCVmDRlMAnXKL28RnYn
+         Q+q0clQX70LJAzQbajQTH/N6jxMMRvbAeKegtN/GFZfhnDvlc1UH1z59b/9Cr8c7TzVE
+         eYgX9JifknNCmBkjyjmLSyqnfOP7GT3thsY4ln5L6czZuKCeQT50i3fX8jl0wt4GNM7c
+         vCQbIIn6eRTLGbwAHmRmhJp5xVkvaPk0ZoIYYPM/vN8pzNm8Y3E5x2PfKfGHhEVg2TPB
+         35NZFX6Q0vab1vX0laSskei5wjIInJQqKDu7Z8L6c2s9DhWyNYcE6jgNUpsgPb3OpdxK
+         DeuA==
+X-Gm-Message-State: AC+VfDwVKO2TUNLSt30y8IpjRLvx6/Azf77R3cfsk4LJinivn+nJxvIp
+	dBUuwpdjBWMVVz+L6WJnEghseRcpBaqe7+nF6fXHWsjx
+X-Google-Smtp-Source: ACHHUZ5Owje5ofl4tgkpVaibSB2rWDdKqX+Vha7fTcDjpSKOdv8eW4LX2Lvb/T+pRESHSNB9xGECxhWCAl8qogPeO3g=
+X-Received: by 2002:aa7:c907:0:b0:50d:d98a:dd15 with SMTP id
+ b7-20020aa7c907000000b0050dd98add15mr2371768edt.38.1684244398053; Tue, 16 May
+ 2023 06:39:58 -0700 (PDT)
+MIME-Version: 1.0
+From: Ace Hardware Rewards <bruce@untroubled.org>
+Date: Tue, 16 May 2030 14:39:45 +0100
+Message-ID: <CAG682a-Z1Y+pEHEpR3qOnpiTQ1nCQ7H=_5GTuUZOkzEMTMkCKe6beFaEf3cW@mail.gmail.com>
+Subject: You have won an Ring Video Doorbell
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 7633
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Ring Video Doorbell</title>
+ <style>
+ body,table,thead,tbody,tr,td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,a,ul,
+ li {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #555;
+ }
+ .logo {
+ margin-top: 15px;
+ }
+ .top-bar {
+ font-size: 12px;
+ color: #3c3c3c;
+ }
+ .bottom-bar {
+ font-size: 12px;
+ color: #fff;
+ }
+ .intro {
+ padding: 0px;
+ text-align: center;
+ font-size: 26px;
+ color: #033057;
+ font-weight: bold;
+ line-height: 1.4;
+ }
+ .header-text {
+ color: #000;
+ font-size: 32px;
+ margin-top: 12px;
+ margin-left: 30px;
+ max-width: 260px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #fff;
+ line-height: 1;
+ }
+ .peace {
+ font-size: 50px;
+ font-weight: bold;
+ }
+ .mind {
+ font-size: 42px;
+ }
+ .cta,
+ .cta-bg {
+ background-color: #fd9a27;
+ color: #000;
+ padding: 12px;
+ text-decoration: none;
+ font-weight: bold;
+ display: block;
+ width: 160px;
+ margin-top: 10px;
+ margin-left: 30px;
+ text-align: center;
+ }
+ .cta-bg {
+ width: 250px;
+ background-color: #fd9a27;
+ font-size: 18px;
+ margin-bottom: 40px;
+ padding: 16px;
+ margin-top: 30px;
+ }
+ .space {
+ height: 55px;
+ line-height: 55px;
+ }
+ .cta-title {
+ color: #fff;
+ margin-top: 40px;
+ line-height: 1;
+ padding: 0px;
+ font-size: 34px;
+ font-weight: bold;
+ }
+ .cta-title-sub {
+ color: #fff;
+ font-size: 18px;
+ line-height: 1.4;
+ max-width: 70%;
+ margin-top: 20px;
+ }
+ .product-name{
+ font-size: 18px;
+ color: #000;
+ margin-top: 10px;
+ margin-left: 40px;
+ line-height: 1.9;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .header-text {
+ max-width: 100%;
+ padding-bottom: 20px;
+ text-align: center;
+ margin-left: 0px;
+ }
+ .peace {
+ display: block;
+ }
+
+ .cta {
+ display: block;
+ max-width: 70%;
+ margin: auto;
+ }
+ .cta-bg{
+ margin-left: 0px;
+ }
+ .space {
+ height: 10px;
+ line-height: 10px;
+ }
+
+ .cta-title{
+ font-size: 28px;
+ }
+ .cta-title-sub {
+ font-size: 17px;
+ max-width: 90%;
+ }
+ .policy-table {
+ margin-bottom: 20px;
+ }
+ .bg-wrap {
+ background-size: cover;
+ background-position: center;
+ }
+ .feature-img {
+ width: 60%;
+ margin-top: 30px;
+ }
+ }
+ </style>
+ </head>
+<div align="center">Having trouble viewing this email?<font
+    color="#ff8000"> </font><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eDVCYlltNFR4eTdRSEZwREg1cW8rQVBwVVFLOERLQzg2aEd0SmlqSjVqNURBTGQ3TnRvWTdkTUhtb0l1M3haMTdlNE8rMUdTcGozQXRVWDdxc1l3YWtQS1htMjlqVnc5Z2h6NnViSVM0UU51TkE2L2JjYk5XN2xYb1RCUFJCYkluYmJuMUFsOThJdUVORkVHTG9vMjBBPT0_"><font
+      color="#ff8000">Click here</font></a> for <br>
+</div>
+<div align="center"></div>
+
+
+ <body style="background-color: #eaeaea;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#ffffff">
+ <tr>
+ <td height="15" style="line-height: 15px;"></td>
+ </tr>
+ <tr>
+ <td width="550" valign="top" align="center">
+ <p style="padding: 10px;" class="top-bar">Hurry up. The number of prizes to be won is limited! Confirm Now!</p>
+ </td>
+ </tr>
+ </table>
+
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#ffffff">
+ <table bgcolor="#ffffff" class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td class="space"></td>
+ </tr>
+ <tr>
+ <td class="column" width="275" valign="top" align="center">
+ <table class="section">
+ <tbody>
+ <tr>
+ <td align="left">
+ <p class="header-text">
+ <span class="future">The</span>
+ <span class="peace">Newest</span>
+ <span class="mind">Model Yet</span>
+ </p>
+ </td>
+ </tr>
+
+ <tr>
+ <td align="left">
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eDVCYlltNFR4eTdRSEZwREg1cW8rQVBwVVFLOERLQzg2aEd0SmlqSjVqNURBTGQ3TnRvWTdkTUhtb0l1M3haMTdlNE8rMUdTcGozQXRVWDdxc1l3YWtQS1htMjlqVnc5Z2h6NnViSVM0UU51TkE2L2JjYk5XN2xYb1RCUFJCYkluYmJuMUFsOThJdUVORkVHTG9vMjBBPT0_" class="cta">Get it Now!</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="column" width="275" valign="top">
+ <table class="section">
+ <tbody>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FwQcjRzagAIj9U9?format=jpg&name=large" width="100%" class="feature-img" />
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="40" style="line-height: 40px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center" bgcolor="#242C42">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td class="" width="180" valign="top" style="padding: 0 10px">
+ <table class="section" height="54px" width="160">
+ <tbody>
+ <tr>
+ <td align="left" width="160">
+ <img border="0" style="max-width: 160px; max-height: 50px;" src="https://pbs.twimg.com/media/FwQccCbaUAEFO2r?format=png&name=large" class="logo" alt="">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="" width="320" valign="top" bgcolor="#fd9a27" data="image_bg" background="https://pbs.twimg.com/media/FwQctF9aMAAxLFv?format=png&name=large" style="background-repeat:no-repeat;background-size: contain;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="section" width="320">
+ <tbody>
+ <tr>
+ <td align="left" width="320">
+ <p class="product-name">Ring Video Doorbell</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr> 
+
+ <tr>
+ <td align="center" bgcolor="#242C42">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p class="cta-title">Congratulations!</p>
+ <p class="cta-title-sub">You have been chosen to participate in our Loyalty Program for FREE!</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#eDVCYlltNFR4eTdRSEZwREg1cW8rQVBwVVFLOERLQzg2aEd0SmlqSjVqNURBTGQ3TnRvWTdkTUhtb0l1M3haMTdlNE8rMUdTcGozQXRVWDdxc1l3YWtQS1htMjlqVnc5Z2h6NnViSVM0UU51TkE2L2JjYk5XN2xYb1RCUFJCYkluYmJuMUFsOThJdUVORkVHTG9vMjBBPT0_" class="cta-bg">CONFIRM NOW!</a>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="padding: 10px;" class="bottom-bar">It will take you only a minute to receive this fantastic prize.. Ring Video Doorbell</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#RjB6RjQ0Z1ZuSU52OE01ei83TzFibDlPTVRlTTZubVNTZHVaUm4zcEFFdGsxL1duOVUwMHdpWnozSDJrdE5GYVB3S2Fwcm1MOWJQN1lDRVFUNE0rbzY0cXp0K2c3TXJMcHdBME5SZzc2Rks2cjg3K2tGeTZseEV4dWQ0L0RSa05LaUNYcmhYVlFkWjNCUVR2TlI2dUZnPT0_" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

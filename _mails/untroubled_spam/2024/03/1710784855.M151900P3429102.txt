@@ -1,0 +1,113 @@
+Return-Path: <iPrWULQCqiBy@20sdfgdfsg.ericswanson.online>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 3428985 invoked from network); 18 Mar 2024 17:57:14 -0000
+Received: from APC01-PSA-obe.outbound.protection.outlook.com (mail-psaapc01on20703.outbound.protection.outlook.com [IPv6:2a01:111:f400:feae::703])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 18 Mar 2024 17:57:13 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=IEsEeqoV+5NaG/0Wewc2RIhBYprdJmEt4B1iWogxhirA01AWrghEUPNIJnAGeypLsoHERTXdyGW6mFde/X6jwvv+FepwdNc+Bc2NpMX/0MNDggRDMeBRQvL9qJweADo6f+GReJKMm+fwhEHf7qV/XhqMHtNkBvlsX7ygu8vVzprLX1NnGHcAxb79es0tDY+BIgmaDQ3wHHhQLxqZLXZ02gqj8ajSoLOshPk8ShY1t/7dBw8UXhYCb2dq8eC5UMhEtGl8tZ5WvUlXQFfxZkir7fw6vJL/Xw6MkVJspz4f9cDsH8NVVG31h86PXF9gUTQa/5oDMTzq2r6yut9XI/uw2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=HWo/nRw0F/zZnhBjYHjM/0+kYmSd/Zq5/f4PlwFNep0=;
+ b=S75xfdv8ryXFkFPa1Jwc+XmXpzqMLjE/yruwr2XJ20hStfY0YyHeL40UawQGtSQJDKL3UL4IrLLlyejTP1PEEOc3FjkVDtLIQq6ANkNLFtkHglkgaKbPR7wqQup8/aVVmEmFVjJ/6OoWq65XzHiIHrKP2Nk9jHradGmy9TcNSaWJ1GUcwSqwajHRLDGq8OYaKeHg/6Vt8YHtcf8ElaYI66Xu+ZxmWlMvyt6K/hOfmkOfQMXtUYs3K0mDem9RlyeyTQwn2fdOgSLaNkoig9Q2bg4o9Wez1Jz1PARpEc0S6dU5UOTrYGujvhQo7SyYRM0N41+QjZFemkvQl13y5Q3oAw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 172.232.249.157) smtp.rcpttodomain=untroubled.org
+ smtp.mailfrom=20sdfgdfsg.ericswanson.online; dmarc=bestguesspass action=none
+ header.from=20sdfgdfsg.ericswanson.online; dkim=none (message not signed);
+ arc=none (0)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=tttttsfogzseofsq154.onmicrosoft.com;
+ s=selector1-tttttsfogzseofsq154-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=HWo/nRw0F/zZnhBjYHjM/0+kYmSd/Zq5/f4PlwFNep0=;
+ b=FW12QuxVwyoNQ23HPIg8Mm6KPqjdoKoCDODqpLhkovMDiYfQ0EV442xBUS5d/WYxGrQ1WIx9U/C/K2mF0uXNysaNUeHVeF0zd+G3gxQ7MPvJITnAZ244NAaMxf4ueOtTnzhvvyKpd/FdFk2E7aBT62DvEMG9q0qAyjZbSO1PuDQoia0NiVn8+N1y4yaQWPkDRDf4tKXylwznjOrG6ICUF8MiauQI+5gg2vqh3N3fXCVoe5pf/deaMQwsoRw1O480aD9f/8jzfmq5bKfKaN/dFgBgXbzw5ekubcf9NPbRKuLrQEZBjZQ80x3olyxmbTqL+4pZg7PqOI0InDCeSZzAwQ==
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 172.232.249.157)
+ smtp.mailfrom=20sdfgdfsg.ericswanson.online; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none
+ header.from=20sdfgdfsg.ericswanson.online;
+Content-Type: multipart/alternative;
+	boundary="_9cf9f2fb-edc1-4270-ab45-fa5e525a5ca6_"
+MIME-Version: 1.0
+Subject: =?UTF-8?B?TnIuIDEgR2V3aWNodHN2ZXJsdXN0IEVyZ2FuenVuZyBqZQ==?=
+From: =?UTF-8?B?RmV0dCB2ZXJicmVubmVuIG9obmUgVWJ1bmc=?=<wDytcmEOMIyh@20sdfgdfsg.ericswanson.online>
+To: HamOpjHcohVu@yahoo.com
+Reply-To: zZlzfBOYbquT@20sdfgdfsg.ericswanson.online
+Message-Id: <cazrQEcJNHJU.1599515BA7FiLUeqQydAEhT@mail.live.com>
+Date: Mon, 18 Mar 2024 17:57:06 +0000
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: HK2PEPF00006FB1:EE_|SEZPR06MB6869:EE_
+X-MS-Office365-Filtering-Correlation-Id: a8d0fa1c-58f3-40b5-ed2c-08dc4774d470
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	b0EoM3sZrwmBxIBRKlNnc+acx/kUWlCiQ9mpotV0HWBTbN+Gb6e8adBozB2XNNMqW+MRJKSHtDiQryFLVreYnelWSySIK1Xf2R5X2SeJZmssoFRm9CoWwP0sJNnNu0NmuHxC/9hFfGU9JBvGivLGT0raEAOg7OmjatrGEHqisvCKibAo941L4FiYCMpf2iyh8AYs0+Z3OHPDMRuUHwl47KE55qdecUGvAKAlvm/66EVyiUoSX4sYYVSnEUyWmaWZw+ePFZCsZedD7CGQjBMxqVzQQot08ZQq1TPaxHyE6UxFaEll/4/0dfVES6oKgOZVDtsi6kaRI+3XRcO8dg9X04TB6pWY1PZqHsDEk68YhIF5P/wRyvOrzCPiYYOfM3PbwEQ2BLcIpLl7JSFotp7sI7Qmz0yLK0Pei68rcSUbaoOSHgdno0ODrM0SWu18jDFMsr5p8r8OSLzU1eE23SwrnI6ID7wib6wsGPVUd+lQkqjrhV/RXsKwMMv/yYHnrYw2dGOejV9Xn0adQS8GCE+VlciR/w1WVEu+8dpzRhQYHvjWesVIzCl4pM2IN0KhoRKj25C9jXSDBvgvD0KUazxdf0w62TTBQTflDpxOo4GMSE5z/jvEbkDVAalSCd9YDRCvAO2j3p9zjH+jYtucCOQpAc5ffcP7+HLF6fcSJf0qnD0UAYgm5NEObHFu/cB3KeciMchKfKzaK9rSoP0WGcQqAA==
+X-Forefront-Antispam-Report:
+	CIP:172.232.249.157;CTRY:ID;LANG:de;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:20sdfgdfsg.ericswanson.online;PTR:172-232-249-157.ip.linodeusercontent.com;CAT:NONE;SFS:(13230031)(376005)(41320700004)(61400799018)(34020700007)(82310400014)(36860700004);DIR:OUT;SFP:1102;
+X-OriginatorOrg: 20sdfgdfsg.ericswanson.online
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Mar 2024 17:57:08.4466
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a8d0fa1c-58f3-40b5-ed2c-08dc4774d470
+X-MS-Exchange-CrossTenant-Id: 0dfcddb9-7ce1-439a-b2d0-f6b75ce013de
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=0dfcddb9-7ce1-439a-b2d0-f6b75ce013de;Ip=[172.232.249.157];Helo=[20sdfgdfsg.ericswanson.online]
+X-MS-Exchange-CrossTenant-AuthSource:
+	HK2PEPF00006FB1.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR06MB6869
+
+--_9cf9f2fb-edc1-4270-ab45-fa5e525a5ca6_
+Content-Type: text/plain; charset="UTF-8";
+
+
+
+
+--_9cf9f2fb-edc1-4270-ab45-fa5e525a5ca6_
+Content-Type: text/html; charset="UTF-8";
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+ <title></title>
+ </head>
+ <body>
+ <center>
+<a href="https://kmlhc3irjuy4kdzhf3u8.page.link/KzQyoJpvb2zbAyQi9"border="0"><H1>&#x45;&#x69;&#x6E;&#x66;&#x61;&#x63;&#x68;&#x20;&#x75;&#x6E;&#x64;&#x20;&#x73;&#x63;&#x68;&#x6E;&#x65;&#x6C;&#x6C;&#x20;&#x47;&#x65;&#x77;&#x69;&#x63;&#x68;&#x74;&#x20;&#x76;&#x65;&#x72;&#x6C;&#x69;&#x65;&#x72;&#x65;&#x6E;&#x20;&#x6D;&#x69;&#x74;&#x20;&#x4B;&#x65;&#x74;&#x6F;&#xA;
+
+
+</H1>
+</a>
+ 
+ <span style="font-weight: 400;"><a href="https://kmlhc3irjuy4kdzhf3u8.page.link/KzQyoJpvb2zbAyQi9"border="0"><br style="font-weight: 400;">
+<br>
+<img
+src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq4D_qiGFDn-FBK7p6nD14k8Tz4QWVXzbK6ywybv8BAh2ujx9xT-nNyZobJBMK5GtmHM4W73VYxZ3askTYsfXzHhrEHuiUGDYnnB67_cPBu7QYehbzg1OHU4Ci6jOpIt3aqObX7sezeWvveG1xpf8MzppmoIansbXA-Y0c_a7iNUF4lYO3kz9I5HDlXFs5/s16000/ketode%2078787.png"><img src="//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq4D_qiGFDn-FBK7p6nD14k8Tz4QWVXzbK6ywybv8BAh2ujx9xT-nNyZobJBMK5GtmHM4W73VYxZ3askTYsfXzHhrEHuiUGDYnnB67_cPBu7QYehbzg1OHU4Ci6jOpIt3aqObX7sezeWvveG1xpf8MzppmoIansbXA-Y0c_a7iNUF4lYO3kz9I5HDlXFs5/s16000/ketode%2078787.png"  JTUZlTackHjd></a>
+
+<br><br><br><br>
+
+<a href="https://kmlhc3irjuy4kdzhf3u8.page.link/KzQyoJpvb2zbAyQi9">unsubscribe
+<img
+src=""  LchngReaNMCT></a><br>
+
+
+</span>
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="56" align="left" valign="top" style="font-family: 'Roboto', Verdana, Arial, sans-serif; font-size: 12px; line-height: 18px; color: #797979;">
+ <br>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+
+
+
+--_9cf9f2fb-edc1-4270-ab45-fa5e525a5ca6_--

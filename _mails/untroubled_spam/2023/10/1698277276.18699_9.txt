@@ -1,0 +1,103 @@
+Return-Path: <>
+Received: by 2002:ab0:7205:0:b0:7b6:52d7:12ff with SMTP id u5csp2861082uao;
+        Wed, 25 Oct 2023 05:03:51 -0700 (PDT)
+X-Received: by 2002:a17:902:e844:b0:1c6:25c3:13d3 with SMTP id t4-20020a170902e84400b001c625c313d3mr16058102plg.6.1698235431671;
+        Wed, 25 Oct 2023 05:03:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1698235431; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xWl9+XQZOji3F0bBjrao/T/UBPCy0yTt8aBxHCyShQN76vOcjivVAJnscKaWxc4OLt
+         jMNrLNCX8NKCru/Edbsx/Tw2cqCaiBgNVx3W9NlXaUpQTrx2rY7VWwMSPVS0fGmNTJXF
+         vtojKP2ZoEbPb76bQkN7AjiXxB2ubb5VpKNUnIYeFUccKkguxSpRb437y/XJR11GPYkf
+         6a+1/hiph8jndwtLDb9NPeJFTTC3yTjIMjpPZFbvICYZxc46sNz/Dkaob1Ryj6XDzo4x
+         w46ekfOVlLI8nrw5yzCA3OmAMVFTtKjz95zXQslgt/Ib+bKKpaXysyDJ851sbK/6RWN4
+         3vag==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=qHFFjXA7iIGxi3DF7p0ZnM62f2x4Bsn37PJzso6DEyI=;
+        fh=2fs8tAQt/WiL/+Yzhthwcu2jtRz+hK96POVpKEcVAwI=;
+        b=MSyEhaJYlnqE8smYHDBSToJ8GhHuygj4Wyvf3zq4FESNsa26cCRikNFnutAiu2LOsS
+         zAldomJRZKs+ygvOJu+4doV0pse842mcA72SCbrSqNeSQ2QqcaYN4rRcyPLucmONPTd4
+         Os2EZvbmKqV0ZEIKJN4ey8HJ2R8FZDdXRr3bFr/5RnGW/Xzp0EVvK3ZK2H9gNVzqCMI4
+         Um8mSG2geZVNq77z3F1aQM7HjwO+HkRiPYNXxMOqVpiPyHv+hZWXyKZIwIh0aCXDxv4E
+         PA3TZ6bdtxllXJ9FxRxd4qsZbu7MSHkMdKZBEl9BCRbEMl/dyQlQORRZMUe2vooX/dYq
+         Xzpg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=jh7gh1l6;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b5-20020a170902d30500b001c9b129a66esor5786227plc.4.2023.10.25.05.03.51
+        for <bruce@untroubled.org>
+        (Google Transport Security);
+        Wed, 25 Oct 2023 05:03:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=jh7gh1l6;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1698235431; x=1698840231; dara=google.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=qHFFjXA7iIGxi3DF7p0ZnM62f2x4Bsn37PJzso6DEyI=;
+        b=jh7gh1l6LjN5td3xO83B34WKoc1kkt0xy9MXAEasezlIZiJ3cMLzBH6eAUgMClfpeO
+         xQ/si/jl6XqfXMjD8WmRcplI1UqnVMjJ2TA5YCawKXSAGCKWw/qQp4byyq2WLgSX3mmY
+         8TMozrAO81AWg6/8hz+3y7bjdOCodv4TrpT0Om4pWuyGy8BjfpXNNXKNwyun3FlIPVbY
+         DDtIlGkCHZTMgeB8e9CtYWBBN8SH0NbM4VwKTKzIIyQdALMn88so82jL87mn8dt4g7as
+         PDOS0Trp5xjw4lMAjdTF0EGqzgR7YAvL6wXVQcbDhYDNHQxh7ebW8g0p2Oq/NwVnR6vj
+         PnAw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698235431; x=1698840231;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=qHFFjXA7iIGxi3DF7p0ZnM62f2x4Bsn37PJzso6DEyI=;
+        b=NEy46gLn4qAYjGjXsj230xSuRSe7FxcDpWndxHwxwfNKSPZiExNZamTMn0fygzjG/X
+         Q4Tdw6twFjwQgo4ft9y4pU+Jdi1r3nE2UcQV38EVUxoExFqCxTyQ4RYzSD2RIiqqaO44
+         vtIHLH8tkoK3IYE2/2QmZKWfPwCJIgHwqF2RGianJqnX8uYBvKmWUUXBbUd3oP3/KgbN
+         hh3vnYMo2fPSA0c1DZzopsCbDNqNZ+MQdQnsPetx9/ezRgzFpf5XuJWw9EXaVkbkuQIQ
+         pQEhvbagCLo/oRpioVnjSWU3/2J4Smgrg0l62hEPNIW76i45Yprrhqg/LviLY4QPoB9n
+         rssQ==
+X-Gm-Message-State: AOJu0Yxx65hIICfXOfF32msLbx89gyxmuafczjc74Bdxi6iVwoeQJQWK ZuYEipBCvCSfawTGnsJVzSu8WBE6IdVuweNTcpa1Akkd
+X-Google-Smtp-Source: AGHT+IFJrQSKZgJQjAIwwZJeedeo/67U9KmmML5zZ6XpjjeK603tsbzTjrSUAyhpe8EGgNV1hG88mgk5xbwjkw4PfXo=
+X-Received: by 2002:a17:903:191:b0:1c9:bf14:4f94 with SMTP id z17-20020a170903019100b001c9bf144f94mr17101212plg.44.1698235430899; Wed, 25 Oct 2023 05:03:50 -0700 (PDT)
+MIME-Version: 1.0
+From: Delta Airlines Reward <bruce@untroubled.org>
+Date: Wed, 25 Oct 2030 13:03:40 +0100
+Message-ID: <TNYTqt56I5kyeBQPA-6-lSHU5UmRkijfvtYhEZuEv+u9glHGnE1@mail.gmail.com>
+Subject: Delta Airlines Shopper Gift Card Chance
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2018
+
+<!doctype html>
+<html>
+<meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+<head>
+  </head>
+  <body>
+  <table align="center" width="340" height="498" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+      <tr align="center">
+        <td valign="top">
+		<b><a href="https://halloween19.page.link/SB5y#UCtCMndNY2gydXoxU1ZkQVRESmNXbG5XWU40KzdtS1F1bnJlS2JHSmVkSEVIR2JISEU3Nk9RTTRkNWlxMXY2aFc5VDBLK285bUZVaTMzTzdkT3VWVXVyWlBqU2ZOd2Yxb0REdWFYWWlabVo2Ri9MMlgvd2hTYzNCdkFHWGU0VWtWM0phdjZISWFuR1VWZ3dYT2Q2OWh3PT0_"><font size="2" color="#008040">click here to see this mail in browser</font></a></b>
+        </td>
+      </tr>
+      <tr align="center">
+        <td valign="top">
+		<a href="https://halloween19.page.link/SB5y#UCtCMndNY2gydXoxU1ZkQVRESmNXbG5XWU40KzdtS1F1bnJlS2JHSmVkSEVIR2JISEU3Nk9RTTRkNWlxMXY2aFc5VDBLK285bUZVaTMzTzdkT3VWVXVyWlBqU2ZOd2Yxb0REdWFYWWlabVo2Ri9MMlgvd2hTYzNCdkFHWGU0VWtWM0phdjZISWFuR1VWZ3dYT2Q2OWh3PT0_"><img src="https://pbs.twimg.com/media/F9SPustWgAAu716?format=jpg&amp;name=medium" alt="" width="590" height="1032"></a><br>
+        </td>
+      </tr>
+      <tr align="center">
+        <td valign="top">
+		<font style="font-weight: 400;" size="1">126 E 23rd St New York, NY, US 10010</font><font size="1"><br> <a href="https://halloween19.page.link/SB5y#L1hkZWF3OWtFY3VsNlZpVzFWQmpVekI0OUxUbDMwdEJFRWFoRERGMkhYSnNUVWlMMFBNU3NJcVZSLzBreUEwLzZkUmsvMHZiaWp3YXFpTEpyaG5wWWRkNFJEOWVlMkU2MnV5MVdFb0JWRHBBR3BBakxvUTQwSmRSUmswdEl1VzBGeUVhVUw2VTRmemswaVBGZk9PMXBBPT0_">unsubscribe here</a></font><br>
+        </td>
+      </tr>
+      <tr align="center">
+        <td valign="top"><font size="1">click <a href="https://halloween19.page.link/SB5y#OTZVM3RmM2ZsY0ZUOHZHU2U5VytFaXdReFJOb1RnU09QSFF0eXc1ZUszZmQ0YksxSlhXblRJeDZ4cEZIQlBYS0NvNks5VmtpaDV1Q2xtai94QmoxWlNoV2VGL1lhWmtiVXFwb1JzdVdTVHg3Uk1vSnFtMjl2Mm9wMytUaFU4Vk9jK3ljQnhYYmFtdDBjeVJIY1g2bXl3PT0_">here</a> to remove yourself from our emails list</font><br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  </body>
+</html>

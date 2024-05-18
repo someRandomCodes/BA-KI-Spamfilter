@@ -1,0 +1,156 @@
+Return-Path: <richard.jaffe@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 277454 invoked from network); 25 Apr 2023 10:32:07 -0000
+Received: from mail-oo1-xc41.google.com (mail-oo1-xc41.google.com [IPv6:2607:f8b0:4864:20::c41])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 25 Apr 2023 10:32:07 -0000
+Received: by mail-oo1-xc41.google.com with SMTP id 006d021491bc7-547607ce4fdso2102052eaf.2
+        for <bruce@untroubled.org>; Tue, 25 Apr 2023 03:32:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1682418727; x=1685010727;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Zl8mycT5Fo3WuGxoscEimIQ1IEX/fRpu/QWxQgwXHQc=;
+        b=A30okfNJ96UhckBY27KdkE3mlv41KFw0LcTfBTve0XVriePXCQmUpWA7nqZXC8JLF7
+         ++Mk9wwmmdsXcNBozDh2WF1Pq9kjcSTcQaH1teuXk3nYKpOKQ8JgAzkAxN7QrjXLSy5+
+         6NvFlUvpJsTagn0xysfd/yug42d452eTV3oDBaWxqPwKoz7o7++pd5wwIuvfajk/kQMv
+         bV+Pa1B2eNyDenzcF2HQfcpj5aSom/kANQHa74Ai7I2lsmbjaBi4rc26Ly/j16xUfgxp
+         6XHKygio44Pl3hbooYG3XaT8k+NfqHxp9Hwa7OL3W85tPP9N6gg3WB84zN8i2vCLq5TC
+         XGpg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682418727; x=1685010727;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Zl8mycT5Fo3WuGxoscEimIQ1IEX/fRpu/QWxQgwXHQc=;
+        b=JD8Zz4GFZYKiCWZE08uBl+j4djsZfb4WYsP21ra6Kty7k4qRmjbgx9srYIgmvySgBi
+         CdWLdNGfh2IBeZGtbKnmnM7rG+O2XQTYWg6HF2kQN9WvBdo6v5eSlXxnPU/sZsl7sW+U
+         lOCx2pG2I5L4bXZW0we4aaj0ONf0Y/kFQHzjqQiO37EXTPBdPDqacAXgVasl8SLeP/4L
+         qXNDJSKB2s3MlhB28Qb1eyZ3yoJwtTt7KC9oPWskdyO6ffQqT4RnVFzeT+9tAV55Uby8
+         jdon5T1QYiVdggXmLP+NK6LuT3NL5ALGw1+znIvUXvPlDo2vNo2nmXc0HwyAYfbqmrGb
+         vQZQ==
+X-Gm-Message-State: AAQBX9dsOzd2pJ8rg5Xj+escZi9MaaxhV0gWJbN8MWRjO1MIQgLc5Y4N
+	7klUS4MLHGsY2P0bKDBUAxyf5s69k+QbeENxLb/7P/ztiHVbYkoWpJs=
+X-Google-Smtp-Source: AKy350ZotX6ErXHNc4SbvM4C5RzqNB++vUG1CGTDT0ipBvxkiM/7RbiBmfBJgpviztMgr480r7TKsiz+OVLuq3+/rRE=
+X-Received: by 2002:a4a:d741:0:b0:545:8f6a:2a0e with SMTP id
+ h1-20020a4ad741000000b005458f6a2a0emr6940631oot.2.1682418726876; Tue, 25 Apr
+ 2023 03:32:06 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 25 Apr 2023 03:32:06 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 25 Apr 2023 03:32:06 -0700
+MIME-Version: 1.0
+Sender: Richard Jaffe <richard.jaffe@globalgns.com>
+From: Richard Jaffe <richard.jaffe@globalgns.com>
+Date: Tue, 25 Apr 2023 03:32:06 -0700
+X-Google-Sender-Auth: WPjHxKyi6PLaVSF8cvDle-pXVIc
+Message-ID: <CAKhQk+J5uSrdwwUakiuC3C9ULvY6jC8RnVTuLVV5rB_-Gn8WHw@mail.gmail.com>
+Subject: Re : untroubled.org : Benefits of SEO and SMO Services..
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000944a8505fa26a2d9"
+Content-Length: 5957
+
+--000000000000944a8505fa26a2d9
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>,*
+
+I would like to *discuss SEO and SMO Service *with you. We are a purely SEO
+Company.
+We can place your website *untroubled.org <http://untroubled.org> *on top
+of the Natural Listings on Google.
+
+I would like to send you my SEO proposal to compare/consider at your
+convenience.
+We can fairly quickly promote your website *untroubled.org
+<http://untroubled.org>* to the top of the search rankings.
+
+1. Search Engine Optimization
+2. Social Media marketing
+3. Online Reputation Management
+4. Keyword Research
+
+We would be happy to send you a proposal using the top search phrases for
+your area of expertise.
+If you want to know the price/cost and examples of our SEO & SMO project,
+
+Please share your requirements.
+
+*I am waiting for your reply.*
+Regards,
+*James Lunnen,*
+Business Development Manager
+
+-------------------------------------------------------------------------------
+
+Note: If you are not interested, please
+
+Click here to *unsubscribe
+<https://globalgns-dot-yamm-track.appspot.com/2Rz5KW1UxWW6KfuUQCKiuXfJ2fWQXOk8W1nMNYTTGcM_5dPi3hwG9rTETJ2Sm8d82tfpPNIMKRilQm89oPzV-hC87tBkPXT_9xksnJ7Ulk8etV8rZGXAbPe5XS90ysnuKGtwVwse-bsMTjf8Bom8l6POderFI2AbRdluUuh-JdB0oNr2mwffWS-DJhus07qvL_wAsHG8>
+*
+[image: beacon]
+
+--000000000000944a8505fa26a2d9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif" color=3D"#000000">Hi=C2=
+=A0<b><a href=3D"http://untroubled.org">untroubled.org</a>,</b></font><div>=
+<font face=3D"verdana, sans-serif" color=3D"#000000"><b><br></b></font><div=
+><font face=3D"verdana, sans-serif" color=3D"#000000">I would like to=C2=A0=
+<b>discuss SEO and SMO Service=C2=A0</b>with you.=C2=A0We are a purely SEO =
+Company.=C2=A0</font></div><div><font face=3D"verdana, sans-serif" color=3D=
+"#000000">We can place your website=C2=A0</font><b style=3D"color:rgb(0,0,0=
+);font-family:verdana,sans-serif"><a href=3D"http://untroubled.org">untroub=
+led.org</a>=C2=A0</b><span style=3D"color:rgb(0,0,0);font-family:verdana,sa=
+ns-serif">on top of the Natural Listings on Google.=C2=A0</span></div><div>=
+<font face=3D"verdana, sans-serif" color=3D"#000000"><br></font></div><div>=
+<font face=3D"verdana, sans-serif" color=3D"#000000">I would like to send y=
+ou my SEO proposal to compare/consider at your convenience.=C2=A0</font></d=
+iv><div><font face=3D"verdana, sans-serif" color=3D"#000000">We can fairly =
+quickly promote your website=C2=A0</font><b style=3D"color:rgb(0,0,0);font-=
+family:verdana,sans-serif"><a href=3D"http://untroubled.org">untroubled.org=
+</a></b><span style=3D"color:rgb(0,0,0);font-family:verdana,sans-serif">=C2=
+=A0to the top of the search rankings.=C2=A0</span></div><div><font face=3D"=
+verdana, sans-serif" color=3D"#000000"><br></font></div><div><font face=3D"=
+verdana, sans-serif" color=3D"#000000">1. Search Engine Optimization</font>=
+</div><div><font face=3D"verdana, sans-serif" color=3D"#000000">2. Social M=
+edia marketing</font></div><div><font face=3D"verdana, sans-serif" color=3D=
+"#000000">3. Online Reputation Management</font></div><div><font face=3D"ve=
+rdana, sans-serif" color=3D"#000000">4. Keyword Research=C2=A0</font></div>=
+<div><font face=3D"verdana, sans-serif" color=3D"#000000"><br></font></div>=
+<div><font face=3D"verdana, sans-serif" color=3D"#000000">We would be happy=
+ to send you a proposal using the top search phrases for your area of exper=
+tise.=C2=A0</font></div><div><font face=3D"verdana, sans-serif" color=3D"#0=
+00000">If you want to know the price/cost and examples of our SEO &amp; SMO=
+ project,=C2=A0</font></div><div><font face=3D"verdana, sans-serif" color=
+=3D"#000000"><br></font></div><div><font face=3D"verdana, sans-serif" color=
+=3D"#000000">Please share your requirements.</font></div><div><font face=3D=
+"verdana, sans-serif" color=3D"#000000"><br></font></div><div><p style=3D"b=
+ox-sizing:inherit;margin:0px 0px 1.66667em;padding:0px;border:0px;font-vari=
+ant-numeric:inherit;font-variant-east-asian:inherit;font-stretch:inherit;li=
+ne-height:inherit;vertical-align:baseline"><font face=3D"verdana, sans-seri=
+f" color=3D"#000000"><strong>I am waiting for your reply.</strong><span sty=
+le=3D"font-variant-ligatures:inherit;font-variant-caps:inherit"><br></span>=
+</font></p><div><div><font face=3D"verdana, sans-serif" color=3D"#000000">R=
+egards,<br><b>James Lunnen,</b><br>Business Development Manager</font></div=
+></div><p style=3D"box-sizing:inherit;margin:0px 0px 1.66667em;padding:0px;=
+border:0px;font-variant-numeric:inherit;font-variant-east-asian:inherit;fon=
+t-stretch:inherit;line-height:inherit;vertical-align:baseline"><font face=
+=3D"verdana, sans-serif" color=3D"#000000">--------------------------------=
+-----------------------------------------------</font></p><p style=3D"margi=
+n:0cm 0cm 0.0001pt;line-height:16.8667px"><font face=3D"verdana, sans-serif=
+">Note: If you are not interested, please</font></p><p style=3D"margin:0cm =
+0cm 0.0001pt;line-height:16.8667px"><span style=3D"font-family:verdana,sans=
+-serif">Click here to=C2=A0</span><b style=3D"font-family:verdana,sans-seri=
+f"><font size=3D"4"><a href=3D"https://globalgns-dot-yamm-track.appspot.com=
+/2Rz5KW1UxWW6KfuUQCKiuXfJ2fWQXOk8W1nMNYTTGcM_5dPi3hwG9rTETJ2Sm8d82tfpPNIMKR=
+ilQm89oPzV-hC87tBkPXT_9xksnJ7Ulk8etV8rZGXAbPe5XS90ysnuKGtwVwse-bsMTjf8Bom8l=
+6POderFI2AbRdluUuh-JdB0oNr2mwffWS-DJhus07qvL_wAsHG8" rel=3D"nofollow" targe=
+t=3D"_blank">unsubscribe</a>=C2=A0</font></b></p></div></div></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2uOpWxbTFnb4M-0zMs=
+J4bfO9qNWU149nDbcuAA9o_Nsj0dPi3hwE4wqKaZFH8Y6AuMz4I27Sb6mzINdzfpZcTbU6A-IPA=
+6odoQaalv3AumtZIp7aUsumVHYWgYxwB2DL2h1iKnfGHpCuOv5qikCM3dJnjuu0q6eO0xVrMoyL=
+H2w" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display=
+:none!important;">
+
+--000000000000944a8505fa26a2d9--

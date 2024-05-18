@@ -1,0 +1,63 @@
+Return-Path: <>
+Received: from mail2.mail.nationalmemo.com (96.46.137.209) by
+ VI1EUR05FT061.mail.protection.outlook.com (10.233.242.254) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6411.11 via Frontend Transport; Sat, 13 May 2023 14:40:16 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:F9A4B538117625C2BB1E79C06329BFB0C33FA74273FD4CD5C87C2594101FB368;UpperCasedChecksum:03D18B000CF9EF6BC9B0EBC78A25240E88C81B9BA008903C038532C1066CD53C;SizeAsReceived:1788;Count:14
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=class; d=mail.nationalmemo.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe;
+ i=newsletters@mail.nationalmemo.com;
+ bh=G16uSaqAxDFEF5/A+o+zomxtL0hVgeXEwpuem2mS7sw=;
+ b=tOY9Xbia4wZomITXw3y5eY6zdYa6GcS25e2/6fxjcN3ZQi2xgWZTvNsTMDvTXm2cJZw83s/WU7iI
+   H7acomH7amnfUBboUtK58O/O355HDprS1zYuSUkcm9Elr2moMTdBE04ssDVdH9c92IrcffWrgbBg
+   g9GY3YszTtSeU0voE24=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=class; d=mail.nationalmemo.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe;
+ bh=G16uSaqAxDFEF5/A+o+zomxtL0hVgeXEwpuem2mS7sw=;
+ b=xMvHxKhOX81P73tuknPrRTUP3HnTCHtrRWpt83DnMsYW6Q9ADgxE9CklhNFn4f9Tpby5Ft1RB/pL
+   joRrXFC8cKtBV/pRwLvZF1LvburfZW0pyTyOO1BhsQplVjmz0QOsnSIRQny2i6W3t877DlWzGaEM
+   SSBjTpiBZJdQO8UD6aE=
+Received: by mail2.mail.nationalmemo.com id vG04OSm0Luty for <stephen.broadnax.5@outlook.com>; Sat, 13 May 2023 09:40:07 -0500 (envelope-from <bounce-jjstbmrrrwqnrqwbmfjnffqrrwtnksrsmj@mail.nationalmemo.com>)
+Date: Fri, 23 Jun 2023 22:43:47 +0200
+From: State Farm Customers <bruce@untroubled.org>
+To: bruce<bruce@untroubled.org>
+Message-ID: <nmjsw4eAqoPKzY87PfPzhwBjTGgzrIXQW@mail.nationalmemo.com>
+Subject:  Your reward has arrived!
+Content-Type: text/html;
+X-NATM: rctvgrrwcrtjpcrcpcvtctgrjk klbjrjvnkfrsknbbwhvvrrsnvcbskgvkpkcvrrrptlrtpcvwnlwwtrr wclkgvktk
+MIME-Version: 1.0
+Content-Length: 2673
+
+<p align="center"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#c01WNkQyNFEvbDhMblh4a253U1U0SXZEZ25SbDNSaGp6V243RG5GZHM3WmRFd1VkcUcrR1VFdVNTVXRTdHlYK1Jpd1NjN0xjSFdjUHV0eWd3c0Z3Ykg3UUhXQkZSL3pYMnp0T1dFM0JwbGpJWmZPWEZMRk92bS9WNUNuNUF1OHNSVWMxZW1Qd3NYdGkvMkd2NTVJQld3PT0_"><font
+      size="6"><b>Your reward has arrived!</b></font></a><br>
+</p>
+<p align="center"><a
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#c01WNkQyNFEvbDhMblh4a253U1U0SXZEZ25SbDNSaGp6V243RG5GZHM3WmRFd1VkcUcrR1VFdVNTVXRTdHlYK1Jpd1NjN0xjSFdjUHV0eWd3c0Z3Ykg3UUhXQkZSL3pYMnp0T1dFM0JwbGpJWmZPWEZMRk92bS9WNUNuNUF1OHNSVWMxZW1Qd3NYdGkvMkd2NTVJQld3PT0_"><img
+src="https://pbs.twimg.com/media/FxuU621WYAMSnGr?format=png&amp;name=900x900"
+      alt="Image" moz-do-not-send="true" width="622" height="770"
+      border="0"></a></p>
+<p align="center"><a
+href="https://storage.googleapis.com/4c68192d39435ff8db3e2ef1a1b4e536bbb36c7c1bf70e239d132c97ed94/285ca25cb9b064d828e1f24a114ceca2a75eab181f486a3232#U0xzWDc4dms0Ym1YSTNNNFI4WEtBNVZRWjkwSXV0K25xcXh5L2NEbkpEMFhiL1lPZzlBb3IvU3dYNmxlbmltSWVaSnF3VnZuQ1FQMHUyd0I5d056NmFvSVpuc2tBdktHT042cGozWTJ0anEvM09aZWhLSkdBd08zRmVqSWhsc0NTL252UzVMd0JDMmN6VCtNa04ySytBPT0_"
+    style="box-sizing: border-box; color: rgb(0, 0, 255);
+    text-decoration: none; background-color: rgb(255, 255, 255); margin:
+    0px; padding: 0px 0px 10px; line-height: 1.2; font-family: Verdana,
+    Arial, sans-serif; font-size: small; font-style: normal;
+    font-variant-ligatures: normal; font-variant-caps: normal;
+    font-weight: 400; letter-spacing: normal; orphans: 2; text-align:
+    -webkit-center; text-indent: 0px; text-transform: none; widows: 2;
+    word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:
+    normal;" moz-do-not-send="true"><u style="box-sizing: border-box;">Click
+      Here</u></a><span style="color: rgb(33, 37, 41); font-family:
+    &quot;Open Sans&quot;, sans-serif; font-size: small; font-style:
+    normal; font-variant-ligatures: normal; font-variant-caps: normal;
+    font-weight: 400; letter-spacing: normal; orphans: 2; text-align:
+    -webkit-center; text-indent: 0px; text-transform: none; widows: 2;
+    word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:
+    normal; background-color: rgb(255, 255, 255);
+    text-decoration-thickness: initial; text-decoration-style: initial;
+    text-decoration-color: initial; display: inline !important; float:
+    none;"><span> </span>to Unsubscribe</span></p>

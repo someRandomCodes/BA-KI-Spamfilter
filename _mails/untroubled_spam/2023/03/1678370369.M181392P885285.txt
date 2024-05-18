@@ -1,0 +1,169 @@
+Return-Path: <mercy@questweb.info>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 889051 invoked from network); 9 Mar 2023 13:54:47 -0000
+Received: from mail-pj1-x1042.google.com (mail-pj1-x1042.google.com [IPv6:2607:f8b0:4864:20::1042])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 09 Mar 2023 13:54:47 -0000
+Received: by mail-pj1-x1042.google.com with SMTP id u3-20020a17090a450300b00239db6d7d47so2087803pjg.4
+        for <bruce@untroubled.org>; Thu, 09 Mar 2023 05:54:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=questweb-info.20210112.gappssmtp.com; s=20210112; t=1678370086;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=5CbA5V+DPKSaY2OiTD7kpGY1Kl3/7flTEJsNnAlfFBE=;
+        b=XcqsnjxDH5GX4xFDcFVWvzDb9fAWUksVD4M8D6z4zDPXvQ/Aqpmci2Hv0Mlc1Vi7hf
+         DweXzd4y9G+dQ05tZHVA5uKHdtPHQg+T8dqDR9iBlOkzzqP/temRIlL0rk9hs907IwJE
+         OLBZT1zF7a5gm97jWpiKzRvmv70lV9cPrheH0DcXSed1JqfYWNn385EGJ34WSzus8l2J
+         wo/IlJKe3mt8ybM6Eryp4UY+WZLDNaiK0wwojZZaryTbEjdZAt1LQ94N61CvZROWLWri
+         CSVHzccNOKiDbojTsY9X5OmJjJ2764QYGbD5wdERWCNcyIKn6Ufmky44m0M3GcXruUbk
+         dKsA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678370086;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=5CbA5V+DPKSaY2OiTD7kpGY1Kl3/7flTEJsNnAlfFBE=;
+        b=uuERQrKrXR35hfg/+kHzS/H5KhHInUkfSGpDPJeilpWMhztIZ2S0sfuyyAyQ/WMvKh
+         UZq+uPcTAZBhRQNcJhZaUlKpOdfSYm/HzVc2xo5U1lO6HN4S25cR+pdrXu4Ghp4Vi52t
+         rCdZ/0cPFbV6pS6uwmaV52ZHYuNaQvwv+5SR/uFbe5a4RXjz2o27QmHR7Gtoa9qHF2LW
+         mJfLMVmmBkEw4VPhYWCYpOHuZKn7/Pv6tCm7qDB+j7K20jMbMGN6DfvOMQi2J7ZqnvPq
+         4yZxfo8USenkXM3uxf1xUcCEFxAjKwG9p/KNUM86oQjFTMACUvbUj6KmAzopjRXjOwTB
+         t81A==
+X-Gm-Message-State: AO0yUKUUryGYLZ+Ak+thAS9nhYmn7thJLJp5FsFL8xoA5qIH7GMwvo/I
+	LDUlkxXB1TM17AFF0BPReHNac0aWiZFmyWOCsmGg
+X-Google-Smtp-Source: AK7set+Tm5qN0UJbIB9CTciDpdRlo2c2HoB9AHnP7e4dS0lgWxfEuuNso422POaqlnBpw2x+FKaH4w==
+X-Received: by 2002:a05:6a20:1bdd:b0:cc:a0fd:67bd with SMTP id cv29-20020a056a201bdd00b000cca0fd67bdmr21541137pzb.14.1678370085796;
+        Thu, 09 Mar 2023 05:54:45 -0800 (PST)
+Return-Path: <mercy@questweb.info>
+Received: from jeetuPC ([2405:201:402b:20ab:d851:bf16:3460:62f5])
+        by smtp.gmail.com with ESMTPSA id k15-20020aa7820f000000b005d4360ed2bbsm11213310pfi.197.2023.03.09.05.54.44
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Thu, 09 Mar 2023 05:54:45 -0800 (PST)
+From: "Mercy" <mercy@questweb.info>
+To: <bruce@untroubled.org>
+Subject: Web Design Upgrade
+Date: Thu, 9 Mar 2023 19:24:30 +0530
+Message-ID: <660e901d9528e$bac3ad40$304b07c0$@info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_660EA_01D952BC.D47BE940"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdlSUzoxoMTHf1qdQDy8+wPN0O7u9A==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_660EA_01D952BC.D47BE940
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear,
+
+We are excited to offer our services for web development to your business.
+Our team of experienced professionals pride themselves on their technical
+expertise and commitment to providing high quality, reliable applications.
+
+We understand the importance of building a website that is both
+user-friendly and secure. Our web development team has the expertise to
+build you a website that meets your needs. We specialize in responsive
+design, which means that your website will look great on all devices and
+browsers. Additionally, we make sure that your website is secure and
+compliant with industry standards.
+
+Our web development services include:
+
+. Designing and developing unique, user-friendly websites 
+. Creating custom applications and plugins 
+. Optimizing existing websites for better performance 
+. Integrating third-party services into your website 
+. Analyzing website performance and providing reports
+
+We can also provide ongoing maintenance and support services to ensure that
+your website runs smoothly.
+
+If you would like to discuss our services further, please don't hesitate to
+contact us. We look forward to hearing from you.
+
+Sincerely, 
+[Mercy]
+
+ 
+
+ 
+
+
+------=_NextPart_000_660EA_01D952BC.D47BE940
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><a name=3D"_GoBack"></a><span =
+style=3D'color:black'>Dear,<br><br>We are excited to offer our services =
+for web development to your business. Our team of experienced =
+professionals pride themselves on their technical expertise and =
+commitment to providing high quality, reliable applications.<br><br>We =
+understand the importance of building a website that is both =
+user-friendly and secure. Our web development team has the expertise to =
+build you a website that meets your needs. We specialize in responsive =
+design, which means that your website will look great on all devices and =
+browsers. Additionally, we make sure that your website is secure and =
+compliant with industry standards.<br><br>Our web development services =
+include:<br><br>&#8226; Designing and developing unique, user-friendly =
+websites <br>&#8226; Creating custom applications and plugins =
+<br>&#8226; Optimizing existing websites for better performance =
+<br>&#8226; Integrating third-party services into your website =
+<br>&#8226; Analyzing website performance and providing =
+reports<br><br>We can also provide ongoing maintenance and support =
+services to ensure that your website runs smoothly.<br><br>If you would =
+like to discuss our services further, please don&#8217;t hesitate to =
+contact us. We look forward to hearing from you.<br><br>Sincerely, =
+<br>[</span><span =
+style=3D'line-height:107%;color:#1F1F1F;background:white'>Mercy</span><sp=
+an style=3D'color:black'>]</span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_660EA_01D952BC.D47BE940--
+

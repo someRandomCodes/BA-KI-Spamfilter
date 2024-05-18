@@ -1,0 +1,268 @@
+Return-Path: <>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 324247 invoked from network); 26 Apr 2023 22:53:31 -0000
+Received: from p1-108189.eml.condenast.com (vps-c2898694.vps.ovh.us [15.204.226.218])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 26 Apr 2023 22:53:31 -0000
+Received: from 10.221.57.15
+ by atlas110.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Wed, 26 Apr 2024 15:02:54 +0000
+X-Originating-Ip: [209.85.208.169]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.169 as permitted sender)
+Authentication-Results: atlas110.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Wed, 26 Apr 2024 15:02:54 +0000
+X-YMailAVSC: SCGHBME3bBu6lMuxu.V8rqRRZVb0qdaMWTduVPECPnIAetg
+ .NuuQDhQ0Znqkig1.AmPn3_yKHRR_d.xbcKFgyiOpCvasRRSoylXWpIdsdRL
+ oJoteAbUy4BZp81njQWjdnSk5qhXiUz74jTwbfIOH.yxYFwt1P1n3wb1aSXY
+ CO2_q7Pv8gEpyYZpKYAK39pKTOW9kPBQz1Z8Fu354hNkqQy7k3iB_PENJOei
+ Jh1avINuXdYMbq5b6XLgIf_WK2.QluXdAEgqDqAtxyqp9IRAUMJ7XKR7evuF
+ 0Z.yD.RGl3ioNSyU3l4slvevXBaI35S0D3ruBN8NpRTsUChHf_O15AmxrVqa
+ Gs1yePIgG4Oj_cJHPImqilc7vvca14Hll1rKUxcJbof46JnDlGD7yj6gRASB
+ g0ic0d8jK3TWqtEOPBE9R97cKZTCBXgtUpi2Tl0H0z1Wz9Tkkw_x4zMD4PT_
+ F8FKFjGA2MG5bUw.znJTTCNKQXwXQhksIxyIRJ68zrN0FrBq23fiR4MlrXHe
+ FQBFHK65MSS5HbM8fzKVAwiBOWLZl8X16rU.w4x6SbMnhM6wliMKCj27DUXy
+ 64K0TqRmVa4OeSVg6pdo6NipHEoQLliiIQ6E9S4XV2NmDI.x7g8vH402CsJN
+ 8TOsTc1i_q0631oSK7PmKBNfuje2os._HmMfTzNifjsWEIU75kdJumGklFSS
+ L8xB.SyqAvkR3kV.rfoDpqKzcxAFDdVfBvWadhyAu7DHe9YuaO.0ZUYlkXYd
+ zO4EdVmcvfJb4lS4cbx8RxU8kTZyAJjypzgF785cO5e9IXlZ23pVUyaegvt6
+ 4Oz4Srkc01JfSpec5XPQAOWEUmw9Ix.YVes22HqOvC2VrBTCj4QZ.dSNJkHi
+ WVSpqQa2QR6I7fXMw3mzmK3tdsJN9EQa3xPiqkL.F54HIk58kcOajNX75JDt
+ 7DArN7Bz8CxREVn_QrgsmURmY7o41EAcpC5e_4izrlYSkzxxNSz..VRpic4K
+ XFN9GFm_k15jIdVKmHmTmwG_DE6Pq9sTogjIJv4umKeFp3XSSaheV1KIQ6n6
+ GwbMqLnl990wco1AYBL8-
+X-YMailISG: 4sN.bb0WLDukxaCoFb9ZS_FRE5YvHSCorlu6pglQLrcaPWqA
+ sGDqlgeNOQHNi3JJXTVteJbieH4__5Qh_wxCBiPYzPG52sV29IYFuPFE_tse
+ fHJR.bxXJ5znpusN9kgju48MNk8qtEYEYLsTI1hRS4GClQUbLcuib.VfHfN6
+ eC1S6D_aRCZlXRyj1jTHC5C8r4yvJop0aro46kGyD04UAeAfheIVFnnUEFdQ
+ zlH6vG5awVJsTBwxY1BYroH005VFKR6v0L3irQuvT4DQtcGYoRQLsbjn33F2
+ s8I.KIG.e6sglvY20HxaIaBCCqovaPYnQU5_jqb4E2qLtXaWwUGbVVlZV27M
+ sFVTzAyRpHDSCdByZv0nwBUNbiT8Kn2cVjzQlI1LBKl7EmLym9Q2gZ0lSYBb
+ lUDOtZ0AN5kFwPJ5E0KwQV32LFgtAs54TnnMA4DdARb1AYYPv3M3y46AK0th
+ erLv2xTLMuVhnEL0YwFvhDjy9oS4LwlWFSYQA2PtxqKejqhDxLq_sxMB.a4w
+ IQIK7_L4CPAs6Wyb0OxcBfpMJbJMpKDs4ZcSY34FKCOvwEBpzbrK0bAJkc6J
+ BpXh7.4HT9fZhueexo204HgGE9sT8iVB.y8fRUVkRksG3fJzCJ5OonKZFE3m
+ c3Acofwea4zT1PSVBiwbsqZ7Bq18JKBhxrgaX1c4M4jq0x8GKYT4dy028S6W
+ i_Efrbm80J.gf1jG8NkuJXwuXSSMQked0VFwnExJ4quZ2cCbvLl3gLFleaBs
+ O6n2DQQI59hIUUeO.qJSe9O4JBkS8WZPUJG4Ygq3g1cj8AnyncYWglApEOF2
+ CXfmsoqDO80w57R1k0cqdr4UkTJkqXN9fOPq8nSOhwlKSExPBmvufsyJTP_H
+ ipsCk20UkEs2VSVjWWInyJ19bKFIF6CWuOvEdAEKBkTrhRVkvrT32svpd0Vf
+ rIVBEzp1VwHtPjZTU.kNiITwDMVeoeYReZrWUsWSDkNmGiop_8o.2DLYO0Ne
+ yZpNXrUVgXoK9qZGsZ1gHR2wIYHQ.SinUUtE9CZJOID1jRVlirAP2kjszk1T
+ v.p0AO8huyh4K6NuT0Cwp.Awy40i
+Received: from 209.85.208.169 (EHLO mail-lj1-f169.google.com)
+ by 10.221.57.15 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 26 Apr 2024 15:02:54 +0000
+Received: by mail-lj1-f169.google.com with SMTP id 38308e7fff4ca-2a8bae45579so67387361fa.0
+        for <bruce@untroubled.org>; Wed, 26 Apr 2024 08:02:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1682521372; x=1685113372;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=8oj3iBt7UDPvOZ7SwGygqfqy7z5pyWU4Q/ivekhCQas=;
+        b=J2FkkSSAtXRjDZ3TIYYESpxJyY/3xA5gClGT2Ld7adpE0IfDbzwRnvlVgP8+OL1KRv
+         /W8F/XfZsG6uSInBWodXUOLEYggcwAAIapQ7FgYR8483cTjD2+hor3pEq6Jfr80uI+KX
+         px5KcVZjLz4Tteo0s6oH5Qrzt4RfWssGly+xQtn9cat1DMoCD63gQZhR18nmZVPRCV54
+         /Jn3H4Sh1YYFDXjj112WNN1FvqauUaSISKRsfrt2ValgdywhbxseG6ggnC0m5kn22U8V
+         aI9fjqnkRoV5K5+9n/zAoDTPtgOnx08nYhTaZ8/uhDDmiBy0ahmtdODs3jmXyLbjUGJE
+         LMJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1682521372; x=1685113372;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=8oj3iBt7UDPvOZ7SwGygqfqy7z5pyWU4Q/ivekhCQas=;
+        b=jEeSd680GQSygpgvOB43dj+6444IA+cUlsoALkf4koe6nk4ltWlBrPlWz3iEH8100g
+         drdTZs0HEr7Nm8nHnSxFSjz1RA7I3KCDezrjNJyX45PxYSZlD2s9yPN3MjWHrofLiPuB
+         E0JnKCE1oYnLDriKSvBOPQBwYM1JFOWDuHzK8Hz/Cvxxs4jNBxs/mOTEQMOwd0cbB/s1
+         OT81zPwq6/68Ca8PwX0SvTHLr+NLlvmP5Ox9hY5PKCGOYMrj++ZGeMlK+lAdwYzDCohc
+         Ecux9/OQBKSXnH/pNS3OtNu3eX6UVQv/78X633jxlDpstnbrslzDVWXwP1uOnQ2+//zh
+         ZvOQ==
+X-Gm-Message-State: AAQBX9eeoeGqj/tWDqnYDh7YxGE9jqwCHH+IO+5hPtJW1A8ApdVkhXSF
+	CuciEH8WNbLF7lzh6T4Bj48x1RMukMc04uda6mhPz/t6
+X-Google-Smtp-Source: AKy350buRBuIjqcJKmL/klMJxCzi2W/dVQAo/zjmU4rYP5MUkKMaW979kGmckzFmxlswnZAqEgguHYrhT6z7eT5zT74=
+X-Received: by 2002:a2e:b17a:0:b0:2a7:9b39:eff8 with SMTP id
+ a26-20020a2eb17a000000b002a79b39eff8mr4431590ljm.6.1682521372277; Wed, 26 Apr
+ 2024 08:02:52 -0700 (PDT)
+MIME-Version: 1.0
+From: FreeCovidTests <bruce@untroubled.org>
+Date: Wed, 26 Apr 2024 15:07:40 +0000
+Message-ID: <CAPrzed20BSccYE3dYrdPzwOV-3Kcl3avZ3pCNXUDiq+C8UIC2z@mail.gmail.com>
+Subject: Insurance Covers 8 at home Covid-19 Tests
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 4631
+
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Self Test</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #555;
+ }
+ .top-para{
+ color: #EBDFD3;
+ margin-top: 40px;
+ }
+ .title {
+ color: #EBDFD3;
+ font-size: 32px;
+ font-weight: bold;
+ max-width: 70%;
+ }
+ .title-para{
+ font-size: 14px;
+ color: #EBDFD3;
+ max-width: 80%;
+ }
+ .cta {
+ display: inline-block;
+ min-width: 300px;
+ font-size: 18px;
+ background-color: #fa6b05;
+ padding: 15px;
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 5px;
+ margin-top: 20px;
+ }
+ .cta-2{
+ margin-top: 0px;
+ margin-bottom: 40px;
+ }
+ .feature-img{
+ width: 60%;
+ margin-bottom: 30px;
+ }
+ .get-started{
+ color: #000;
+ font-size: 24px;
+ font-weight: bold;
+ margin-top: 30px;
+ }
+ .feature-para{
+ max-width: 90%;
+ font-size: 14px;
+ }
+ .steps{
+ margin-bottom: 30px;
+ }
+ .step{
+ display: inline-block;
+ width: 160px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .top-para{
+ margin-top: 0px;
+ padding-top: 40px;
+ }
+ .title {
+ max-width: 85%;
+ }
+ .cta {
+ font-size: 19px;
+ }
+ .white-text {
+ font-size: 16px;
+ margin-top: 200px;
+ }
+ .desc{
+ font-size: 14px;
+ }
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;padding-top:30px;">
+ 
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" bgcolor="#fff" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#2f3f35" background="https://pbs.twimg.com/media/Fup_IM_XwAIVKxg?format=png&name=medium" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;" width="550" class="column">
+ <p class="top-para">SELF TEST AT HOME!</p>
+ <p class="title">DELIVERED AT NO COST TO YOU!</p>
+ <p class="title-para">Under the current Public Health Emergency, Medicare will cover at-home COVID-19 test kits every month with no out-of-pocket fees to you.</p>
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#cl/74915_md/8/261036/8463/2501/788433" class="cta">CLAIM YOUR TEST NOW <img border="0" src="https://pbs.twimg.com/media/Fup_O82XoAAPNq9?format=png&name=240x240" alt="icon" width="18"></a>
+ <img border="0" src="https://pbs.twimg.com/media/Fup_TQwXwCQDWK5?format=png&name=900x900" alt="test kit" class="feature-img">
+ </td>
+ </tr> 
+ <tr>
+ <td align="center" bgcolor="#fff" width="550" class="column">
+ <p class="get-started">Getting started is simple</p>
+ <p class="feature-para">You can order your free test today in just 3 easy steps right from your phone.</p>
+ <div class="steps">
+ <img border="0" src="https://pbs.twimg.com/media/Fup_agtXwBsdp_J?format=png&name=small" alt="step1" class="step">
+ <img border="0" src="https://pbs.twimg.com/media/Fup_fH5XwAUG7nO?format=png&name=small" alt="step2" class="step">
+ <img border="0" src="https://pbs.twimg.com/media/Fup_joEX0AEB5OO?format=png&name=small" alt="step3" class="step">
+ </div>
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#cl/74915_md/8/261036/8463/2501/788433" class="cta cta-2">GET STARTED NOW</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#un/74915_md/8/261036/8463/2501/788433" style="color: #666; text-decoration: none;">clicking here</a> or by writing to 3556 S 5600 W #1-659, Salt Lake City UT 84120
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#oop/74915_md/8/261036/8463/2501/788433">here</a> to remove yourself from our emails list</span><br/><br/>

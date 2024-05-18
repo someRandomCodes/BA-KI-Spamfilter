@@ -1,0 +1,112 @@
+Return-Path: <>
+Received: from 10.195.64.156
+ by atlas106.aol.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sat, 20 May 2030 12:40:03 +0000
+X-Originating-Ip: [209.85.208.179]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.179 as permitted sender)
+Authentication-Results: atlas106.aol.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Sat, 20 May 2030 12:40:03 +0000
+X-YMailAVSC: apRutTY3bBuN98x0G9SeIVJztfufp_E2knRGrhhQXfn4qoi
+ X5pWjRkr0di7mrEDosA7Dkvi4TOUK9opwCn2mVhivr1GTxY9AMlhOJYgNWGH
+ KspAiU1Eq_rp8FhHGNReoP4Vm87OCbj0skQZ98FJGoKL_5UiEwfmN7keOFqe
+ JQRnzdPrS4ONHvdtxR3Vp4IS7L3_zTTGSZsMj_.l82ZqB4g.asNaJMy5.pfM
+ _xYeLNKj2Dc7BXTysq8KfeNn3A95C8xTe8Cq4QmVblpwvEKd2X.cJT7jHcih
+ h0UQz2iUTOHGQ5ZBmusxMBxRyQxnSMFxZFJgBeEo4Y1NxwV1oxqjRuKR1G8M
+ vFZyr3zQ2qeaY24M8gMvvhzL6VF0IczPO9hjXjiaYS.ObBGrTtvCOBt0sXhx
+ eABOOJX8qfViB22BPpwDLUC5CXkh6cFC0h9.E3pNDC9q9kOFwOW_mNtTBvzO
+ _AtWQefN2s5s2RNyDGC.OMi9oZt6B2kA_55H82fZNe5tpSXy.NDVcwcVNiuC
+ no3bwac3I.S.hdEy8sb2LMJS38uJAGhd8QvRj9JqHSIL3x_UrUZoyoGWHXh9
+ vZfVhiPiq.5KGDaAX7Ok_B_l_TiOjweggJ5fm9CvLeTKSxClTO86UFDi9k_F
+ fsuMVIKk9q2h3XZObYZePWD3YjGO68VAZpKbeDeFA9kXWWx.nYwwdiBHobzE
+ BF.u3tDVPE5ZmoB.VmHu5RJXfPnN_Hlmo_JnZgiQOGErRq85g.0GOrMtOKyu
+ S2eXwPFJsuyhdqB6SpHbUS1jjSJccn2FEvvyZMuid2c6BGQZwsvGcHjRzAe6
+ eXNSyqke4uXwvlPZ0TEcXi7o4qexfWOlzugHPUydV2TyZaKVTfkCEtbKWTvt
+ e5zpP_KahteziSLgJBYR1PZtgrzFb__6bX06AOOa62s6a.VMLJoxM91fU_os
+ BXQvfdOi1AdLXc8pB37LM8A_YL.81NOavGPHC9JrMfPt.nwxQDt7sVPvqHJN
+ .PC5baWgNP5qrRC7CmEPR1d4Wgvu4HOlu53H25j32wMULNSgAy77qF8Pw0N8
+ 9q2npzC2lpHvVdSBnndY-
+X-YMailISG: dgyWeLsWLDtXu0FEGlBQFO.Cydk63rAx.hAkMrlaLyyPkTnt
+ Mqz2Ot9MiWxhqPg3yD2Fbt8A9HDDLYfWwa5V0rRbnvlVdsJ_Db63fu6xQC53
+ VgXCiBeBpAgo_2G39ztk0hhydco5CZCiRBbMRQWUpUCyFqC5UcclUC6QhCgb
+ qVsbpM8iAZ6lYF8u0aGDIX.YQGlz0tLuNa5QY3pH.moLlKylJe4G_XtBJxv0
+ EvjWJ.ULjYRTgA7jseBnOAZck8uNxuWiLd8Ohaj.6cU15UlCgv8ETf1dxBRt
+ XxRKsBn7w777kdNu.j5L3_2fqbqn4bDP_V6gyyuP_qpzo5j03ANSkz_pUj83
+ xTLpPvRV2TE0J3TMFQgT3H5FCcPDmwQtVnexRKaUeFlpazQPNrPLIepDW0Uy
+ itcbxklRtxonz09_h6_YHqc4vuUYNdb0lGfx_uwRr0S3PBphluETkVYisBOX
+ lEJ72vYdZQvR9N2czo3rd2qM81V_9eWKPwAoX30eh_zs8h3JU_jlWvoTyI7t
+ jRCyyRwfj0CoJ_W6aI.ZCtnjNkHWV75KqhFTlfxFso4p_47rbnchTGHGHGoc
+ J5If.5Y97qNfcRCXf79hG.gKIDFUZXrmFXrp9ymSpboleWvHqFEJzM.DdINm
+ Wm9CktlRk_Nu4.crp8kBJETAa44ea4TdIVIgdxVGrPTBKlXrLVFT8Cy2XNLW
+ Fc9vL5lmxg0digxk5d9kBQ0D89BEwKXNDIH2VQYQzKGEb8SSqMr6MaJWgffU
+ wFCiSfzfrOkq4HF0ZRdwhTaYcJtnzT3W3yO2Hg7CwXwfIYpaAgvj6ZapjBN3
+ 9bMqvW_Gm7Ev6xQoBAAo.gvmFXLV9NavQ3Fs16tv7XAw4wZt8V2l_3jH0p0c
+ uLKE_xchIkCOnkxVQ2o.lLOZx5BByISs34kavSHhGfiHiHzBPpCUPfEnHKWv
+ 9Ce6v8I_Nkpol8u_AEPSDiD4pMM5wvtyzN6EIgzMbP8iDZ_NngyVaID7SWMd
+ fFAER2A04uB3c4J8XJYyK_L.HObizICp4gbehC3tZVV4bIuynuPpgEXtWPnL
+ 5jsuiwv0Dm9saLesYugUyXdGFakFeB8-
+Received: from 209.85.208.179 (EHLO mail-lj1-f179.google.com)
+ by 10.195.64.156 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 20 May 2030 12:40:03 +0000
+Received: by mail-lj1-f179.google.com with SMTP id 38308e7fff4ca-2af24ee004dso19653521fa.0
+        for <bruce@untroubled.org>; Sat, 20 May 2030 05:40:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=a6PJr+kekM+jxm11MKD+mZogJev59fKlZ26yajmE5xjNH/MVxEi8b6OmFuGYBtwLBs
+         2Ron5QS0pCYU5CzQ6gqwUD/sJfiXuBC4kSd9MNm5/1Q8CTrHQxz8wed9MLqe3M6yDIpc
+         X/TMkUF0LP6fNWF9hroEZj3T18F+SbZfDnqcvEbTSz5Rwqj4PoNUPD7lqN5Co39j3MO+
+         zzoa9B0RYAJ9fQRaIYw/LKvJSzgRTrFF57tXdqEy9tTJLegxHQf+nJe1zn6KYGbeYz5h
+         0Z7jvzNCX9kPb/6qe9cMGqeGtANc+DjbNq8lzmiDJDxWq44DyYH3rz3qdZ27RkkwT5QS
+         V3sQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684586402; x=1687178402;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=6oinNEuTTJsxcDhFlzzYRNBvziysGi6cuhTmbouEZb4=;
+        b=JsMPsab0k32hPXRYvjfNkdc9y7Lc/YiMh7ebZoqnDDOumj97NASd1VN5kfsdPa56I4
+         OWB//Us/FQtMzSRR8N6vVn24ewMXJFoCfMhstHQ+kfoR2IeL6PDKxsCAvo5kuWNDjlCC
+         ouUeG3ivVK5C1naEBRY8GAVy/8A5ZWFEOk3gBTht8X3L0inJs8wY6Bw3xsFo94WIIjt0
+         j53hpPYDHN+8CDPP5OSFywrBSJwNmMEc0sDiPuoC4WW7/hyBkNDf66XxKP5N+RltlTbn
+         cwi7YBJvBZulyAMqvs6WniX/bSordWPO1UpBdaFchyOXYx+Bnnz4UJ8R05BA41ta/DNL
+         x0nA==
+X-Gm-Message-State: AC+VfDzw5mwV8ovOXB6Pi9n+bKnyvznTulMN+Hy1D9pXWIPgg5DIIWLb
+	4HlqIUYMB6eJUy33w/girEJpoJ4JTjVow4JcKe5jxE46
+X-Google-Smtp-Source: ACHHUZ6bzprdixXQKbtQc0BOUt0ol180aXAnHtQ8Fq0FR3VFwKVd7OmEvapTWyiYxU849O/9Z1KMtHJB9tywozKXIpw=
+X-Received: by 2002:a19:ae0f:0:b0:4f2:6857:1d98 with SMTP id
+ f15-20020a19ae0f000000b004f268571d98mr1720963lfc.48.1684586401930; Sat, 20
+ May 2030 05:40:01 -0700 (PDT)
+MIME-Version: 1.0
+From: TARGET Unlocked <bruce@untroubled.org>
+Date: Sat, 20 May 2030 13:51:51 +0100
+Message-ID: <CAPrzedVz+SRqKKDOb48jCgFxnh2Z8tIJUZ3B=[uan5]+Esiph4h@mail.gmail.com>
+Subject: You have won an AICOOK Nugget Ice Maker
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 2009
+
+<p align="center"><font size="6"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#SGo4SG9TNnl3YnIvNEZSS3Fibk5iaEN4RFNxL0JSUzF4bjRPZy9WbHFwK0lVcUJJVUttRGhXUXM1em9wWlZIQWhyTHNoU3hqZ0M1em1tZkR3WjNJSE5KOXpQOGx4UGZUbDI5eThrMDN2c1NiU1E3SkdPR0drajR2bU9OdldyZDhkdDlEV1BWRlZaOWREaWZZOWNZQnhBPT0_"><font
+        color="#02addf"> AICOOK Nugget Ice Maker </font></a></font><br>
+</p>
+<p align="center"><a
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#SGo4SG9TNnl3YnIvNEZSS3Fibk5iaEN4RFNxL0JSUzF4bjRPZy9WbHFwK0lVcUJJVUttRGhXUXM1em9wWlZIQWhyTHNoU3hqZ0M1em1tZkR3WjNJSE5KOXpQOGx4UGZUbDI5eThrMDN2c1NiU1E3SkdPR0drajR2bU9OdldyZDhkdDlEV1BWRlZaOWREaWZZOWNZQnhBPT0_"><img
+src="https://pbs.twimg.com/media/Fvc9VgbWAAQGFqw?format=png&name=900x900"
+      alt="Click here to see this email in your browser." moz-do-not-send="true" width="594" height="705"
+      border="0" align="middle"></a></p>
+<p align="center"><font size="2" color="#6e6e6e">If you no longer wish
+    to receive these emails, you may unsubscribe by <a
+      moz-do-not-send="true"
+href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#NkRnZGJ6aDhHRTRMR0lMbTZOcVhKLzVqMkREWUZTdWd5R3hrblFyYnA1Y1pOUFNRZTBtc2JsZWNOZ0hPM2JpYytLWUkzODJxekU5Vk4zb3pOdHlCWWJRRFdsajNmTHpwVUp1dTd3Kzk4VVdBU09RUndyc0pZUmdGYkhvV3hTL200U0I4YTYvWnViUTl3b0ZLV2dLZ0d3PT0_"><span
+        style="text-decoration: none;">clicking here</span></a></font></p>
+<p align="center"><br>
+  <span
+style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click
+    <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#Z1ZKWk5zS3ZBVXJ6N1QrSnBSV09WMmxXUE4xVkVENVFldUZzTUNrWW5GejgwNG41SzN5cGF4cStYaWJQanpLMktPU0oxa29xME0waE9taWVZZWhCMVZmbUMzRlpPZER0UkhKR1RDem1md3BnUUpMUXVOdWljTmJieURZYUNaV0xVZi9WeGVEWFZWZFF0azFWS0ZKMmRRPT0_"
+      moz-do-not-send="true">here</a> to remove yourself from our emails
+    list</span><br>
+</p>

@@ -1,0 +1,98 @@
+Return-Path: <marklee18@dmatexas.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 181055 invoked from network); 30 Oct 2023 12:01:59 -0000
+Received: from mail-pl1-x644.google.com (mail-pl1-x644.google.com [IPv6:2607:f8b0:4864:20::644])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 30 Oct 2023 12:01:59 -0000
+Received: by mail-pl1-x644.google.com with SMTP id d9443c01a7336-1cc3bc5df96so7404925ad.2
+        for <bruce@untroubled.org>; Mon, 30 Oct 2023 05:01:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dmatexas-com.20230601.gappssmtp.com; s=20230601; t=1698667318; x=1699272118; darn=untroubled.org;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=YOLCJzvDXp3JuVrB2rc+MUbuxgRgbOd9SN63a6qYTqc=;
+        b=mtvAFPKILkuWtutFZmvc6s5AazPeW1B7kRgf7MueRqF3HhM00Wx+i7WsIAWEru3Ggg
+         tcDEtzhLcfO3KN8+AMPJ6G2eCndg3SSZDRISts42fxZnm0ueiNcgnY4L0ZsKsNZcR3F2
+         3qmookhwTxc11LWiuNSAg/2hbxlphm1wOrAiacq8tFyxkRJSSXHUqxV+qbAmaRD3eCOY
+         rNE8GutVzwu2I3ziVnonc+XR4rNjTL7tDhBhpRoBY3Bu3UOkaSKbTNucsJKvgaRjBy0l
+         9jdCjCtJpRey64q7ivC9MOXiJmuc1mK6CS3c+OkB96lcVz5SRIrEiV1vYVd6mQSENvWm
+         jnHw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698667318; x=1699272118;
+        h=message-id:content-transfer-encoding:mime-version:subject:date
+         :reply-to:to:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=YOLCJzvDXp3JuVrB2rc+MUbuxgRgbOd9SN63a6qYTqc=;
+        b=L+kwcPd/QnZGdmCkE06ycZ10dRh1ohdNA50vgkQ3CHj9R0RtgoUsLfQNsv5ZaqqpkD
+         51o2CswsDjwF53n0YKyGHBu1GAcUSP1hmPOZN5BgrqLokMRyjHuozyfMhgPjhGYGJ37I
+         Q1xHOMw4H953MOlxbWd7b8HHkzZvtUS2PjmBxNOlqVYOhGrIPV9ylwH1cva78IllSoIP
+         KBi0SkZMXwbECYYOIL/O1XPplMvhKgNwnb7t9bnF47YghfIZK4+HkxMrkzuJ9k2S7L+6
+         /9X3jRhaZv/3uHv0mZJSs46l5U2JjRTBLaODBMP3k3Abew6nzKKcs+/V9FRR2gDrjtg3
+         Gnkw==
+X-Gm-Message-State: AOJu0YwWWntO1hI60go4QKoBQHb97J+QOjV1B1ytu+TmAfoJgVSYs3Zt
+	1+Rg5y1MpD0RBdb21iHaXIRgUXjZbFkaufpIdiPMjg==
+X-Google-Smtp-Source: AGHT+IG7niTWqhcWJhTsaHt6AR+9ppjVMPtFvgCLUgJNQhepUNbtoULiPR36wVagn+Yd/xMSW/Q82Q==
+X-Received: by 2002:a17:903:228d:b0:1cc:5296:10fb with SMTP id b13-20020a170903228d00b001cc529610fbmr1589999plh.46.1698667318472;
+        Mon, 30 Oct 2023 05:01:58 -0700 (PDT)
+Return-Path: <marklee18@dmatexas.com>
+Received: from DESKTOP6QH7NHO ([103.165.168.14])
+        by smtp.gmail.com with ESMTPSA id b13-20020a170902650d00b001c736b0037fsm6335869plk.231.2023.10.30.05.01.57
+        for <bruce@untroubled.org>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Mon, 30 Oct 2023 05:01:58 -0700 (PDT)
+From: Tom Marcus <marklee18@dmatexas.com>
+X-Google-Original-From: "Tom Marcus" <tom@bluemez.com>
+To: "bruce@untroubled.org" <bruce@untroubled.org>
+Reply-To: tom@bluemez.com
+Date: Mon, 30 Oct 2023 17:31:44 +0530
+Subject: Re: untroubled.org Domain Issues
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <DESKTOP6QH7NHO0a2d527f786f47fbaf828b4f8a537b92@DESKTOP6QH7NHO>
+Content-Length: 3193
+
+Dear untroubled=2Eorg Owner,=0D=0AI hope this email finds you well=2E=0D=0A=
+=0D=0AI just came across your website(untroubled=2Eorg) and had difficult=
+ies while reading contents on few pages=2E  I just wanted to bring those =
+critical issues to your attention=2E These issues are affecting the user =
+experience and may be impacting your site=27s performance=2E It is crucia=
+l that we address them promptly to ensure your online presence remains to=
+p-notch=2E=0D=0A=0D=0A1=2E I have noticed inconsistencies in the design e=
+lements across various pages of the website=2E This affects the overall b=
+randing and user experience=2E=0D=0A2=2E The website=27s mobile responsiv=
+eness needs improvement=2E On smaller screens, some content may not displ=
+ay optimally, and navigation may be less intuitive=2E=0D=0A3=2E The websi=
+te=27s loading speed on both desktop and mobile devices could be enhanced=
+ more=2E=0D=0A4=2E Rendering issues found while trying it on different de=
+vice=2E=0D=0A5=2E Some of the images and graphics appear distorted or do =
+not load correctly on certain devices, impacting visual appeal=2E=0D=0A6=2E=
+ Font choices and sizing could be adjusted to improve readability on diff=
+erent screen sizes=2E I had difficulties while viewing it on my display a=
+s the text was appearing very small=2E=0D=0A=0D=0AI want to assure you th=
+at I am committed to resolving these issues promptly to meet your expecta=
+tions=2E To move forward effectively, I recommend the following steps:=0D=
+=0A=0D=0A1=2E Just reply =22Yes=22 to this email so that I can send you a=
+ detailed plan of action to correct these issues=2E=0D=0A2=2E Schedule a =
+meeting or call to discuss these issues in more detail=2E This will allow=
+ us to better understand your preferences and priorities=2E =0D=0A3=2E Sh=
+are any specific design preferences or changes you=27d like to see addres=
+sed=2E=0D=0A4=2E Collaborate closely with our support team to implement t=
+he necessary changes and improvements=2E=0D=0A=0D=0AIf you are looking fo=
+r design upgrade, I can develop the website on a more advanced platform a=
+t an attractive price=2E That price also includes making it fully mobile =
+responsive, which will support all modern devices with a wide variety of =
+different screen sizes=2E Also, the new site will be fully SEO ready=2E=0D=
+=0A=0D=0AThank you for your partnership and understanding=2E I look forwa=
+rd to resolving these issues=2E =0D=0A=0D=0AWaiting for your response=2E=0D=
+=0A=0D=0ABest regards,=0D=0A=0D=0ATom Marcus=0D=0ABusiness Development Ma=
+nager=0D=0APhone: +1(408) 600-2830=0D=0ASkype: business=40bluemez=2Ecom =0D=
+=0ABluemez Inc=2E =7C www=2Ebluemez=2Ecom=0D=0A--------------------------=
+----------------------------------=0D=0AP=2ES-1: If you want to receive d=
+etailed proposal, please feel free to reply =22YES=22, We will get back t=
+o you with details=2E=0D=0A=0D=0AP=2ES-2: If you find this email unsolici=
+ted, please reply with =22REMOVE=22 in the subject line and we will take =
+care that you don=27t receive any further promotional mail=2E You can als=
+o unsubscribe your email using the the below link:=0D=0A=0D=0AUnsubscribe=
+ here: https://bluemez=2Ecom/un/
+

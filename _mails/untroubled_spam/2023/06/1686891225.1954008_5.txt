@@ -1,0 +1,272 @@
+Return-Path: <>
+Received: by 2002:a05:6022:a119:b0:41:7c33:9c3e with SMTP id Kdo6bGXc5YmLzGPz;
+        Thu, 15 Jun 2030 05:13:35 -0700 (PDT)
+X-Google-Smtp-Source: ACHHUZ5IPdQVOfVv0vsHktSl/ILfkZOPNPj9h3fvGb3MQpogZ1iBQ/bpll82e3zCQJ0Oi6/xaxT0
+X-Received: by 2002:a05:620a:458a:b0:760:8f54:8082 with SMTP id bp10-20020a05620a458a00b007608f548082mr12282397qkb.23.1686831215586;
+        Thu, 15 Jun 2030 05:13:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1686831215; cv=none;
+        d=google.com; s=arc-20160816;
+        b=OKVthxYN6GhJ5kVzCYTC8OIsu89UZYfhNg7VXE1o6upPItTdVsL3lKLzBWS5FuBcoU
+         HydVrZYdCelh4mvrNQczmdkSk1K6xH9Fq5GIVXOWdjaRXEagff/QH9MCPVfapIOfSC/H
+         d8nA73f4g0kf4o5aH/r8RfBbw4f0k2F++azxgQJFoeP24sPvOEFWk7REI1V5+hNXh1Kw
+         V+El6dosGGUNXMGOm6rHG7EFVdJRRFgwIz2KG7s3v3L/2AoHTaSlXgZl0VFMxBYnQpYB
+         U7IfLh5fQFNtObnu4WYkLNDvtHib0jczkueJdfi/6P/FomkhZjt2PKosAfJsdnUiY49O
+         Wppg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:references:in-reply-to:message-id:to:from:date
+         :dkim-signature;
+        bh=FCBqs+q8R9WqObbpa+6WT53MoIvGpZFUolauSYOWqPE=;
+        b=acMfEjxe4bm6u0MHhqoUs1c6dy3fPRKGTnaxyGq8m0J5Uuc514M4QZYyD8hbcSkJsL
+         5us3ipDJLByvxnAo1qbpl1bMslRVfsaxF+/iy3pjuCE7VAhCyzNtphsFPp88WSlfFDHE
+         5E9R+mvQza27BV2WKDDMqELGApz48zVK+oCrK8xGu7ZV9wvOiilBkhx4Ofbd1HDT0+Pp
+         jWJgI1MigDigwcL+AthiQJ/RkaqusQxhDZxAbMSYo7Smvclno25a+Tn96o5Nt7HT6js7
+         tlMNcMv+Md/tFIuOALoTwmOJVK8X5cWUDrhbJDlEFjjkY1I8co7m/cqtteAcOH0xELmE
+         D7+Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=xJRscKIv;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.190.146 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+Return-Path: <bruce@untroubled.org>
+Received: from sonic315-20.consmr.mail.ne1.yahoo.com (sonic315-20.consmr.mail.ne1.yahoo.com. [66.163.190.146])
+        by mx.google.com with ESMTPS id 24-20020a05620a06d800b007608295a685si4655070qky.689.2030.06.15.05.13.35
+        for <bruce@untroubled.org>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 15 Jun 2030 05:13:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bruce@untroubled.org designates 66.163.190.146 as permitted sender) client-ip=66.163.190.146;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aol.com header.s=a2048 header.b=ZXfN0cgS;
+       spf=pass (google.com: domain of bruce@untroubled.org designates 66.163.190.146 as permitted sender) smtp.mailfrom=bruce@untroubled.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aol.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1686831215; bh=FCBqs+q8R9WqObbpa+6WT53MoIvGpZFUolauSYOWqPE=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=1QIDuCgB7xFAMEcwd6v3A5KviaIs85gfe4Ca7ebfhQfelj4P+IlGQI+4y2AoC5hh5IcmWeJbPFbDWWByS65faPXAf2BzVPhzO/2Jq0UhJNhGxqHo9RGq7KvOzYAJWMDYQ7LO/oNzUf9hSzZad1RBjczHUKyqkR5HlNAbnp2L5TdNBa/PyTg9ZR/xpYNdRqbIKiKLMvRyZPqdsaC4tBUZLgdJzVa9iR8liP5cSDM4u+ku/VtWSZGgMX+71Rf9QN1bKkJJCWaNZjZrTLm6khV39jLSKESS5FYpZmvju5gYdpch2EwVMcDV7Jr5IHnS3FjR3b+QtQ9RS5K4xsGtIVhdkA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1686831215; bh=E5trbnzGLwH663Vly4fPTUMbrUm10YTfg1yIS1bX86P=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=ZAFR/Alwnj/Wt9J5WBCOk3ztANENY2enxoSgAGH6GpItwkkGWJ2fRRUU+hAKz4H6pPQoEmZP4hxlx2171vsWBwmfXGrOZ0XAcTNlDiDPty7G6ZiYuFCgbPg6TuJND4Qs8NgksRHVy4Q9/WmJh4anqLdvL1W9io46RnHruCKZYFs8Y90vLEs+OxZbkodnJH/g96pZneMoabMKlTm7Mi7ZB+JccAJ+POA0fRHsjZji142IqOc14JxFWJeKqdx04hIdXZ6RQBpIujmVZ8hBPmzAuYaBWTGjwXwwyyM6/11eQ5g1wgwj2rjErCdSHixdaQ29/ccbSAwxNO+EaaPTU98iEg==
+X-YMail-OSG: G3PqiH4VM1nqWHctxBZRGabjWSN02tlzfTZOg4oFUV.jbYkCsV6tZxc2PAXIpJU Z2iaDsqFRNXqdNP6bK6DDAJNMOtr9wylKzYq9094aFPJ2neUkKP21V2S1Gv2iAz7RyLH6je.x0W. l1jvf58GiZGoX7dbtiRQXRC4om6diR5zWuAFdhJ.VAvnVNJHmPPtOAviMX5ZmrxxKU5pL1A5Yc1w YfB5EW.ZyOWpLHimdblflI3R6YFj3PyalyW9vWQ191zlX8jKPu95jbF1KZp.NRIIcAA.P3wawutu tFtDN6jO3YW1Ri85BZNm47Bg9LMFugVy9sRphYqDg7s.Iw7qAS2abDL8XJVe2B0qd60N08uBuBmz 2qqLdXYav3bILgg4rIthpDcb.H9pmP72cJQ1Epe2VtX6Z6fhvSAADIlK5rIDnwSMv9rEpKZoMA.x snDpHggoTfayzMcAFrfksG02b5WasIkAayVrWxb.L9U.EPQLtlsPpjCMFaiuCjZVfWjiXL3M6EKt txQzqPiXnp225kQqr65Nc2uGuHdyQj7ifmPo3BN93HH3jXrHNBHX.OEdjpr1waTU.A6jfKFEanC2 43bIRxsYY8BBd4I7HEJqXCFGqFWCfnmyVCEohFJ9hsOnOF_vUnB7oQzHAkx4AJwB8TdBcpOPmuup s29Af8hgKR11118SN7IgHPsWTdZ_u3ijUWPZiTGam1i6xX2DI9QbFG8ZmLCkSMaxZ5WUXGH5uaN8 9XJeAu93jxMmVDZanqkjhyIGeJm7yVKG3cba2Ta6DwSDywR.Hlf2QennWrxsbZ9pdjWQwi._QH86 R3WgXVA8QnusF4VXEWoqnPxXkBYLlD1U158jMw.ccQhy5hUGU7zW0qFRiQtoAnG6nAYGkgXIZoZG MskzFtYJaiNZzivmsMEgoyEomPNLePrGkroEfZ10smJLhNrZLPm6RIMAF5gwIDQETVucD1qvJ218 PSXmP.cPZ032dcUcNmJ57z2YLv1_jOOKNo3w7CB.Dd8YwAMXGGK3I8ndANUyiWi_.BcBe5.kyojN oBG5Bav9YjaRCEVdl.LmEJjYsrCDseN6oUQyeBz9YfrIZH_RtyAMsiSSQ5LERmlhLOBumsLD.TUa WOq4ixdB2kktNCkPqjPJG6rK374edFoHW42_7WzlTJwpy.fvy0YOQVc_9yY8vt09nV8HceCgjTAF 5qr_88ntZ85V78LIkVCgJ3JtT685IyRM0r5.bQ4rMVzow_1xRZVyfOoHgmW5obhecTg7shYnLvXE MHwvRe0ahRUEW1EOPCpux6.uaifcNPOy6ToC0cjscYncwV_2rl6z8wQ0z4eBZUd5iVfiMieumVqV CiqozWocVW3iDN8Q4jV78pz1jew06_FFzwVRz.ybH48K_a9SNs_xlhlP3MyokLD_Lee0t7HTzFtQ D36coweLSrUn7REHt7nY3hgh_5CBtNcOURqQcTjkz9UELzj2oHtaD1Y2ZERR9QaniatbcvlOiyR5 afXUL95.j523gm4_S4vDyHePw0mQxygieoh6.6AST8ZIZRs2Ahdyj0e65pUxpcrPTgazHuVnjI1u QPJeAzuEphLfPm_SlSjAXPBil5X7hr9R9FHo8esBJjR2uWZNpd3gfczAyAydVjYTAIlv0FxD3XNt mMeG9Jsws30HE8UFgdNlw58xms82rDibmwnZyrUsJnj5Zr0fVn.TAR3r.wNTSOQ5I3Qja6kcquyY 2FauN_mRWhHSI._4Znq22ZoTf4xpiONWiS6xewaVrEibE7HiZ7xfQMegGWXVTD9Q3wnEc1fAIJ5f fPKv23HTAiYrH9fAf2cBB3A7mbO.xU4YENI3Y2_wZNp2BBx1OJfHrbo03aa0lEcFUawFdlzv1yhw hKsVSYrdsCGGk9qDSy_AD0SIyKQnET7CLS4sh.teiQ9olEhhntqpceP5QMF7azTfaergWMe47Pw0 .DyRhkAmRBWk8HM54rUSz_tTJ3ktg_GSxMINdcXo1IeL8_9ZmAI7rS3LHFaHGU7dXnUcZWe5EdPp KbnS0JyvgAJPgEZN4f3V6DxbIcvhwuC3yIY0oCDsAgZBBih4WfrfQR9d5_y5I8cydLJxtB85Jtl_ 23zWl1rlwZfKl6BXnP34J9EpAgwNejFVHxIe3kk3XmOLcA9fzwDW9tYqraeGCGdzayhc_jNgFWr2 Nvwkrz1QvfLJQJQKkImVHH09bj6GPxxU4cswP1I_QpR64x2vaJc4-
+X-Sonic-MF: <bruce@untroubled.org>
+X-Sonic-ID: 9639fad3-528d-428f-8daa-3da28b6fddaf
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.ne1.yahoo.com with HTTP; Thu, 15 Jun 2030 12:13:35 +0000
+Date: Thu, 15 Jun 2030 12:13:33 +0000 (UTC)
+From: customer Offers <bruce@untroubled.org>
+To: customer Offers <bruce@untroubled.org>
+Message-ID: <8682078518.3550688.1686267015692@mail.yahoo.com>
+In-Reply-To: <ez6QFEPgC+gVTDL56_nHR9gGwy7jrlH7Ja=Ny4Ph-b3ku1eFCPd@mail.gmail.com>
+References: <7953772111.4547009.4866853062234.ref@mail.yahoo.com> <7953772111.4547009.4866853062234@mail.yahoo.com> <ez6QFEPgC+gVTDL56_nHR9gGwy7jrlH7Ja=Ny4Ph-b3ku1eFCPd@mail.gmail.com>
+Subject: Did you receive your package?
+MIME-Version: 1.0
+Content-Type: text/html;
+X-Mailer: WebService/1.1.21557 AolMailNorrin
+Content-Length: 6439
+
+<p align="center"><a moz-do-not-send="true"
+href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#RnM5VzFBY3VRemFPb0h2cmFUcTFKZ2JiREFrakJnUGxad0tMekpJMTVEWjM5NlFhMkRoMEJMZjBiVXBUZHE3UEhxQ3lhaGx6U0wyeU1JQWFhem9mVHNUSk9ianZJeUxTNWEwaHFDYjl4VFJrN0NzbWg2V0RtWC82NnVhT2lkRis0dnpCZmxJOVM3eE1FNFBuNzBmZXZRPT0_"><font
+      face="Verdana" color="#1cb700"><i><b><font size="6">Ace Hardware</font></b></i></font></a></p>
+<p align="center"><a moz-do-not-send="true"
+href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#RnM5VzFBY3VRemFPb0h2cmFUcTFKZ2JiREFrakJnUGxad0tMekpJMTVEWjM5NlFhMkRoMEJMZjBiVXBUZHE3UEhxQ3lhaGx6U0wyeU1JQWFhem9mVHNUSk9ianZJeUxTNWEwaHFDYjl4VFJrN0NzbWg2V0RtWC82NnVhT2lkRis0dnpCZmxJOVM3eE1FNFBuNzBmZXZRPT0_"><font
+      face="Verdana" color="#008bce"><i><b><font size="6">is celebrating
+            with a</font></b></i></font></a></p>
+<p align="center"><a moz-do-not-send="true"
+href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#RnM5VzFBY3VRemFPb0h2cmFUcTFKZ2JiREFrakJnUGxad0tMekpJMTVEWjM5NlFhMkRoMEJMZjBiVXBUZHE3UEhxQ3lhaGx6U0wyeU1JQWFhem9mVHNUSk9ianZJeUxTNWEwaHFDYjl4VFJrN0NzbWg2V0RtWC82NnVhT2lkRis0dnpCZmxJOVM3eE1FNFBuNzBmZXZRPT0_"><font
+      face="Verdana" color="#1cb700"><i><b><font size="6">Ring Video
+            Doorbell</font></b></i></font></a></p>
+
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Ring Video Doorbell</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #434343;
+ }
+ .logo{
+ width: 120px;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+ }
+
+ .product-name{
+ font-size: 24px;
+ color: #fff;
+ font-weight: bold;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ }
+ .feature-para{
+ max-width: 90%;
+ margin: auto;
+ font-size: 14px;
+ 
+ }
+ .title-para{
+ font-size: 32px;
+ color: #fff;
+ border-bottom: 2px solid #fff;
+ display: inline-block;
+ text-transform: uppercase;
+ padding: 0px 10px;
+ padding-bottom: 10px;
+ }
+ .cta{
+ display: block;
+ width: 230px;
+ background: #ff7e10;
+ padding: 16px;
+ font-size: 24px;
+ font-weight: bold;
+ text-decoration: none;
+ border-radius: 10px;
+ color: #000;
+ border: 3px solid #fff;
+ margin-bottom: 30px;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .logo {
+ margin-top: 12px;
+ }
+ .product-name{
+ font-size: 20px;
+ margin-top: 10px;
+ }
+
+
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>	
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ 
+ 
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#21dd00" background="https://pbs.twimg.com/media/FyMcDZHWcAAWEcb?format=png&name=small" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td width="550" valign="top" align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FyMZlpxXsAAbpqh?format=png&name=small" alt="" width="200" style="margin-top:20px;margin-bottom:40px;" /> 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td background="https://pbs.twimg.com/media/FyMZg04XsAQRKww?format=png&name=900x900" style="background-repeat: no-repeat;background-size: 340px;background-position: top center;" align="center">
+ <p>
+ <span style="font-size:32px;display:block;color:#fff;">ANSWER</span>
+ <span style="font-size:60px;color:#000;font-weight:bold;">&</span>
+ <span style="font-size:60px;color:#000;font-weight:bold;">WIN</span>
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="title-para">A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="product-name">Ring Video Doorbell</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#RnM5VzFBY3VRemFPb0h2cmFUcTFKZ2JiREFrakJnUGxad0tMekpJMTVEWjM5NlFhMkRoMEJMZjBiVXBUZHE3UEhxQ3lhaGx6U0wyeU1JQWFhem9mVHNUSk9ianZJeUxTNWEwaHFDYjl4VFJrN0NzbWg2V0RtWC82NnVhT2lkRis0dnpCZmxJOVM3eE1FNFBuNzBmZXZRPT0_" class="cta">GET STARTED</a>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FyMZbF7WYAMmDJT?format=png&name=900x900" width="300" style="max-width: 100%;" alt="">
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ 
+ 
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;"> </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#YzRaMmlwcnVjaVI1TUxQa1ZSTDZpem9TRncyOUdRT2tuOE92UzdiRFhYMnNaZ2xBemNWMmxWd2U4TXBxUEhiMHpYOFlBejZ4WmVVL3AyWEdXSm81SWxFa210WUlLMkFQUmp3Vjh5V2Y3Z3JyOG1yekVBRm1pUWxuNWpVbVprdWxxWURYM21Wc0JzL1laTml2WlZlZm5nPT0_" style="color:#666;text-decoration:none;">clicking here</a>  </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="	https://storage.googleapis.com/f26e8fc24a8942d/409e36af126d51b#bm9RV1Z2a2twaFU2S29EVFFNaW4xT1FEMUMwdVB2TVB4MExHNDlWTnZoS21mV2Q2VnJOb0Zvb0lZbmd4c3JpWHovcTE4RzcvS3EzblN2YnBISVBEMk1VQ2gvR2Joa1NIVEZqQ202TmNyeWVwbGY0R1k0c2gzdEdacDl3VUdiRi8zZGt1M01oa0lwN01ka3owRU1JKzlnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>

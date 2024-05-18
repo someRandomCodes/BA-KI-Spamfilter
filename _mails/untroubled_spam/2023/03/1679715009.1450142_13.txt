@@ -1,0 +1,227 @@
+Return-Path: <mike.halupka@globalgns.com>
+Delivered-To: untroubl8492-bruce@untroubled.org
+Received: (qmail 1429863 invoked from network); 24 Mar 2023 10:29:57 -0000
+Received: from mail-lf1-x142.google.com (mail-lf1-x142.google.com [IPv6:2a00:1450:4864:20::142])
+  by vx0.untroubled.org ([IPv6:2001:19f0:5c01:c6b::100])
+  with ESMTP via TCP6; 24 Mar 2023 10:29:56 -0000
+Received: by mail-lf1-x142.google.com with SMTP id i13so1581444lfe.9
+        for <bruce@untroubled.org>; Fri, 24 Mar 2023 03:29:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=globalgns.com; s=google; t=1679653794;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ysoli45i4I4OUElP20PPzthL//gti2QgApc20Xinj0c=;
+        b=J4aBAKt3y6ugwuuhUQKA2YMTpYocAQG3wQyd94MAbFP9nHqZBag4140UlChxUFQYjy
+         sDdPAxLC4L4okvQPoFuaoik3bxxotOLi5PjTa0pH8R2O+iwlNPpki+HUGWIUfKq6PO95
+         YG/H2pcqyOUGvGcGBd+OImlv2Cw07OrS5I6M7P2Ti7qybZl1HV+FEF+JLfXJ5rpIMTS+
+         vfO2snB48vDwlXJDjso/ZwtfldEcb/YTfp0TvxxaUATDhQJI2qLsDrzOnLMbcFWhlV3a
+         nS2I7iJnl5PejhQq7Z4UHfmoba2AXdboIRni57g8n6PUp61cK7ogTBJNufH2upK3phcp
+         GjZg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1679653794;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ysoli45i4I4OUElP20PPzthL//gti2QgApc20Xinj0c=;
+        b=uVvrUboZN/hZ2DfGHtLshLE0ctZ96L8ef9BkmwUKAp1S7OaP1/ojeirFAezGyKwBBN
+         eTW53WIrw32bGkMXoswO/hGHrR/BKVa1CF4PMDD/j4PbA7zEW2R2TLQoQtC21DAo3vUv
+         1oeFqOgAcoI+gYHZKoUC7Zkjf8ao+ZH2SnfL9HgNxzIEoANRwCBNLB4VlUS8bj0hgHBw
+         JHT985cfTiib1Nnha27cp6qPB6+ZrjetDhoCMZUQzoK2hQrUv3arADijmDPt4uq0o0pm
+         pM0BIXs9G0lfZhoG0oB4tczJzSuaSlxHdxW7qqRU91bMczgPNaZeXS+kXF3+vKPLFl1m
+         /Yzg==
+X-Gm-Message-State: AAQBX9ce/DG6D5S9HnoNT48SomM7k/woGAD6Rw+SsIH9ITziNJ2mcgfs
+	eisGy3nLNTMnnxmWJF9aoHnZk0la5B8GvQPUlNrJIrlDboUbh3Dk8aU=
+X-Google-Smtp-Source: AKy350ZOHZ4eUdY+Heitj+zEIrM28tkRitKGPeqcVkADpVT+TabnJIp9CPCz2rL0QTFlgG65RncHPDBEJXXYZt/Jcjs=
+X-Received: by 2002:ac2:5e83:0:b0:4ea:8659:6deb with SMTP id
+ b3-20020ac25e83000000b004ea86596debmr587575lfq.0.1679653794213; Fri, 24 Mar
+ 2023 03:29:54 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 24 Mar 2023 03:29:53 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 24 Mar 2023 03:29:53 -0700
+MIME-Version: 1.0
+Sender: Mike Halupka <mike.halupka@globalgns.com>
+From: Mike Halupka <mike.halupka@globalgns.com>
+Date: Fri, 24 Mar 2023 03:29:53 -0700
+X-Google-Sender-Auth: bDMgCzo4nmpHaXpMF1b1m0zwjW4
+Message-ID: <CABns=9ciPJOEu_7ZEiT4MpfDprAhd2JeUf3PM4JMRviD0DHVKw@mail.gmail.com>
+Subject: Re : Noticeable SEO Mistakes about your website..
+To: Bruce <bruce@untroubled.org>
+Content-Type: multipart/alternative; boundary="000000000000bfff0905f7a2df8e"
+Content-Length: 6809
+
+--000000000000bfff0905f7a2df8e
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *untroubled.org <http://untroubled.org>,*
+
+
+
+I hope you are doing great and trying to take your business up to the
+next level. I am contacting you regarding your business website.
+
+
+
+There are a lot of errors in your website *untroubled.org
+<http://untroubled.org>* which are preventing you from achieving top
+position in Google.
+
+
+
+I on the behalf of our ISO certified IT firm like to
+
+offer you the following:
+
+
+
+*Our main services are listed here:*
+
+
+
+1.       Fully SEO Optimized Website
+
+2.       Fully Mobile Responsive Website
+
+3.       Assured #1 Position in Google Search Result
+
+4.       Huge Improvement in Business Revenue
+
+5.       *Website Re-Designing Services*
+
+*           6.       Mobile Application Service.*
+
+
+
+Just revert back to this email and we will send you more details about
+our company as well as a customized action plan for you.
+
+
+
+Regards,
+
+*Mike Halupka*
+
+Business Development Executive
+[image: beacon]
+
+--000000000000bfff0905f7a2df8e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:normal"><span style=3D"color:black"><font face=3D"verdana, sans-s=
+erif">Hi=C2=A0<b><a href=3D"http://untroubled.org">untroubled.org</a>,</b><=
+/font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=A0</fon=
+t></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif"><span style=3D"color:black">I hope you =
+are
+doing great and trying to take your business up to the next=C2=A0level. I a=
+m
+contacting you=C2=A0</span>regarding<span style=3D"color:black">=C2=A0your =
+business website.</span></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif">=C2=A0</font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">There are a=
+ lot of
+errors in your website=C2=A0<b><a href=3D"http://untroubled.org">untroubled=
+.org</a></b>=C2=A0which are preventing you
+from achieving=C2=A0top position in Google.=C2=A0</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif">=C2=A0</font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">I on the be=
+half of
+our ISO certified IT firm like to</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">offer you t=
+he following:</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=A0</fon=
+t></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><b><span style=3D"color:black"><font face=3D"verdana, sans-serif">Our main=
+ services
+are listed here:</font></span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=A0</fon=
+t></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:n=
+ormal"><font face=3D"verdana, sans-serif"><span style=3D"color:black">1.</s=
+pan><span style=3D"color:black">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<=
+/span><span style=3D"color:black">Fully SEO Optimized Website</span></font>=
+</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:n=
+ormal"><font face=3D"verdana, sans-serif"><span style=3D"color:black">2.</s=
+pan><span style=3D"color:black">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<=
+/span><span style=3D"color:black">Fully Mobile Responsive Website</span></f=
+ont></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:n=
+ormal"><font face=3D"verdana, sans-serif"><span style=3D"color:black">3.</s=
+pan><span style=3D"color:black">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<=
+/span><span style=3D"color:black">Assured #1 Position in Google Search
+Result</span></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:n=
+ormal"><font face=3D"verdana, sans-serif"><span style=3D"color:black">4.</s=
+pan><span style=3D"color:black">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<=
+/span><span style=3D"color:black">Huge Improvement in Business Revenue</spa=
+n></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:n=
+ormal"><font face=3D"verdana, sans-serif"><span style=3D"color:black">5.</s=
+pan><span style=3D"color:black">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<=
+/span><b><span style=3D"color:black">Website Re-Designing Services</span></=
+b></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><b><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A06.=C2=A0 =C2=A0 =C2=A0 =C2=A0Mobile Appli=
+cation Service.</font></span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif">=C2=A0</font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">Just revert=
+ back to
+this email and we will send you more details about our=C2=A0company as well=
+ as
+a customized action plan for you.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=A0</fon=
+t></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">Regards,</f=
+ont></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><font face=3D"verdana, sans-serif"><b>Mike Halupka</b><br></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal"=
+><span style=3D"color:black"><font face=3D"verdana, sans-serif">Business
+Development Executive</font></span></p></div>
+<img src=3D"https://globalgns-dot-yamm-track.appspot.com/2qUrqa71YjmHE10q56=
+nXkqo5sgPBlssZCU5Q31QAfLqQY7SoThwEc3vUAqYwFRw6w9yNeVD_RroHi9_zeKTB433nrrFt1=
+XN2W3CLrVIA18hYk0NqVgkRvhEcwaiQZWHioGpC_DNe_obbsu3jCKjfyWMAGYsXo0OgoMmaQshb=
+7RA" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display=
+:none!important;">
+
+--000000000000bfff0905f7a2df8e--

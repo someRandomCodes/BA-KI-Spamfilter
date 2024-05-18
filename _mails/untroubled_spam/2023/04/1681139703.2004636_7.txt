@@ -1,0 +1,442 @@
+Return-Path: <info@atlanticosemo.shop>
+Delivered-To: shannonpaul99095@gmail.com
+Received: by 2002:a17:522:16d7:b0:4eb:f14b:38ca with SMTP id w23csp813002pvc;
+        Sun, 9 Apr 2023 19:57:45 -0700 (PDT)
+X-Google-Smtp-Source: AKy350aUQyh5zibsuIRClx0qgBsTQgnpbfTGxEOvL0I5DMCg823R+Hoh9BeNJ1sw2ZwRypyvK2t9
+X-Received: by 2002:a17:906:a1d8:b0:947:df9e:4082 with SMTP id bx24-20020a170906a1d800b00947df9e4082mr6589299ejb.35.1681095465147;
+        Sun, 09 Apr 2023 19:57:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1681095465; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RiaXTMpY+MeUhaxEMFRerAPWzEtxLxCPbicsT76JaTM9Q+IWP+8xC0HFctvkSxCoiP
+         oIEFpuWHDOMuSZnW6C1zYJYx8dFie7k8yuttOgYKteblVrDcv0oehUnv9B9tOwRjlV9g
+         LuJcjMrXCsiNDY3UYNRFgdAxjUkgJdU2hLQW4PzAHzcJGQsBBqU8Rzsd/mQewnD76nn1
+         OWnKervi8yk0cDyBFKgON+tYjRpWYOmnzSek/nOLPjL5XQMJOTdBeCNwr4zP/SQNZ4In
+         1X+pCdwjyIP7t+P0l2yYlZlYb0/XOFxnVkrapzE5LMTM/jOZ75DIaOZjZL1I2lkNsfSw
+         z4PA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:reply-to:to:list-unsubscribe:message-id:subject:date
+         :from:dkim-signature:dkim-signature;
+        bh=wqgFuKt8Qh4P5oPr8EYD9t5+0rWTB1tgdgjQhWcs79Q=;
+        b=dGbA5WIjsKfJdGZ99jaPFfFzSPJxkmpoLciPmelbZVtgLAfQdS3Azujd0076SgELr7
+         11wy7L8oUDBxyiJaN1Bynv90tODPlFdJyWR2HXW0aigCZLHJBIL+tONzZ8BqzCIczyND
+         nG/iXRGCt4XcmBnPGsYIoIjyZxpqMk7CsTFIvDdtt1YpIbgYwIJbNmi7TYNekNpS1XB2
+         6VvQkO96AKW6oxVAZGbQFq1u5d5QpwLfmbj9WnZPNdD9WnOMu7yuModVDlPSfzC4y0qJ
+         TwArGz/LhxFd0bNwuIY0WLQc73eT2kYxHMTAnR83Hz171Pf1ItumsYlFvJF6qBhWxkrg
+         OLEQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.benchmarkapps.com header.s=bmdeda header.b=iw5sZvH2;
+       dkim=pass header.i=@bmsend.com header.s=bmdeda header.b=NOhh77WV;
+       spf=pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) smtp.mailfrom=BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=email.benchmarkapps.com
+Return-Path: <BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com>
+Received: from pmta1087.dedicated.bmsend.com (pmta1087.dedicated.bmsend.com. [12.206.206.251])
+        by mx.google.com with ESMTPS id s20-20020a17090699d400b0094aa492a35fsi293778ejn.850.2023.04.09.19.57.44
+        for <shannonpaul99095@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 09 Apr 2023 19:57:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) client-ip=12.206.206.251;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.benchmarkapps.com header.s=bmdeda header.b=iw5sZvH2;
+       dkim=pass header.i=@bmsend.com header.s=bmdeda header.b=NOhh77WV;
+       spf=pass (google.com: domain of bounce.0.1.1.170b25.bme@pmta1087.dedicated.bmsend.com designates 12.206.206.251 as permitted sender) smtp.mailfrom=BOUNCE.0.1.1.170B25.bme@pmta1087.dedicated.bmsend.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=email.benchmarkapps.com
+DKIM-Signature: v=1; a=rsa-sha256; d=email.benchmarkapps.com; s=bmdeda; c=relaxed/relaxed; i=emarts-store.gmail.com@email.benchmarkapps.com; t=1681095462; h=subject:from:reply-to:to:date:message-id:list-unsubscribe:content-type: mime-version; bh=wqgFuKt8Qh4P5oPr8EYD9t5+0rWTB1tgdgjQhWcs79Q=; b=iw5sZvH2g41Vi2P0cvowMEB8eiBlioX4PXE0gH4Ooph7yIKnhiDj+H5Zg5mcdPhJkYrA2Cs89vc WfZAdDEx4l96xnvg6ueab9tdscLxz+jwWoFTLjqBi+CvNYso4yjWIk/oCgQghtHJr4eHFaWaks5jz 5/tNxAfebSees/l+9BM=
+DKIM-Signature: v=1; a=rsa-sha256; d=bmsend.com; s=bmdeda; c=relaxed/relaxed; t=1681095462; h=subject:from:reply-to:to:date:message-id:feedback-id:list-unsubscribe: content-type:mime-version; bh=wqgFuKt8Qh4P5oPr8EYD9t5+0rWTB1tgdgjQhWcs79Q=; b=NOhh77WVYuOdwjya3MpX7hparCPYWNA7mg9ylPXh6oyrkDht6OUI9efvq5EErGARpA3U9MltRaN GKjUDOcTbCWjLBg1Z4hNhBcrJtC8ky6vYMnW3oPeypJx3vf24ZM/wGgWzbCkJYwPKYAkN1qT/gSD4 GP+x6SizCJ/Kuumq/wE=
+From: Instant Translator <emarts-store.gmail.com@email.benchmarkapps.com>
+Date: Sun, 09 Apr 2023 22:57:42 -0400
+Subject: You Could Speak 36 Different Languages
+Message-Id: <c8f57520bb444205adc1f956737f5e28@email.benchmarkapps.com>
+X-Identify: <1_1@pmta1087.dedicated.bmsend.com>
+X-Feedback-ID: 1510181:1:us:benchmarkemail
+X-Campaignid: 0
+List-Unsubscribe: <mailto:unsub@bmesrv.com?subject=unsub>
+X-Mailer: BME Mailer - **MIMK6f25191fe3314a6ba93b2b48test**
+X-BM-User: 1510181
+To: shannonpaul99095@gmail.com
+Reply-To: emarts.store@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-Jv2Q4O1e2VZHC99L2DWUpg=="
+Content-Length: 16012
+
+--=-Jv2Q4O1e2VZHC99L2DWUpg==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+If you enjoy your coffee, your life is about to get a whole lot better :)
+
+The newly discovered 10-second coffee trick you'll see at the link below na=
+turally transforms your morning coffee into a fat-burning dream.
+
+Plus, it makes everything you love about coffee so much better.
+
+Here's to kickstarting your morning off right.
+
+[1] =3D=3D&gt;  Try This 10 Second Morning Coffee Trick!
+
+Sign Off,
+ References:
+
+1. https://clt1510181.benchmarkurl.com/c/l?u=3DF451FE7&e=3D154FB61&c=3D170B=
+25&t=3D0&seq=3D1   =20
+   =20
+View this email in your browser:    =20
+   =20
+https://clt1510181.benchmarkurl.com/c/v?e=3D154FB61&c=3D170B25&t=3D1&email=
+=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D   =20
+   =20
+You are receiving this email because of your relationship with Dotmartes. P=
+lease reconfirm your interest in receiving emails from us.   If you do not =
+wish to receive any more emails, you can unsubscribe here.   =20
+   =20
+https://clt1510181.benchmarkurl.com/c/opt?e=3D154FB61&c=3D170B25&t=3D1&emai=
+l=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D   =20
+   =20
+https://clt1510181.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=
+=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D   =20
+   =20
+   =20
+   =20
+This message was sent to shannonpaul99095@gmail.com by emarts-store.gmail.c=
+om@email.benchmarkapps.com   =20
+   =20
+Bp 54 Fnodeq, Fnideq, mdiq/fnideq  93100, Morocco   =20
+   =20
+Manage Subscription: https://clt1510181.benchmarkurl.com/c/s?e=3D154FB61&c=
+=3D170B25&t=3D1&email=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3=
+D&relid=3D   =20
+   =20
+This is a Test Email only.   =20
+This message was sent for the sole purpose of testing a draft message.
+
+--=-Jv2Q4O1e2VZHC99L2DWUpg==
+Content-Type: text/html; charset=utf-8
+Content-Id: <G6PVHUQ8NJU4.BS4YZK1DAIRH@prod-app12>
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Enence</title>
+
+</head>
+
+<body bgcolor=3D"#eee" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" m=
+arginheight=3D"0"><img   =20
+ src=3D'https://clt1510181.benchmarkurl.com/c/o?e=3D154FB61&c=3D170B25&t=3D=
+1&email=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D' al=
+t=3D'' border=3D"0" style=3D"display:none;" height=3D"1" width=3D"1"><style=
+ type=3D"text/css" id=3D"bmeresponsecss">   =20
+/* CMS Other Editor Test */   =20
+ @media only screen and (max-width: 480px){   =20
+body { margin: 0; padding: 0; }   =20
+}               =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3Dcontainer-table], .bmeheadertext, .container-table{ width: 95=
+% !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+header{font-size: 24px !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+contenttitle{font-size: 20px !important;line-height: 140% !important;}    =
+=20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+contenttext{font-size: 16px !important;line-height: 140% !important;}    =
+=20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+single-col{display: block !important; width: 100% !important; float:left; =
+clear:both;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+img.mobile-img-large { width: 100% !important; height:auto !important;displ=
+ay:block;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+img.bmeRSSImage{max-width:300px; height:auto !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+td[class=3D"preheader-table"]{padding: 10px 0 !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div[class=3D"bmeheadertext"]{font-size: 12px !important;line-height: 140% !=
+important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+td[class=3D"bmefootertext"], div[class=3D"bmefootertext"]{font-size: 12px !=
+important;padding-top: 10px;line-height: 140% !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div[class=3D"bmefooter"] td[width=3D"79%"], div[class=3D"bmefooter"] td=
+{display: block !important;width: 100%;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+mobile-footer, .mobile-footer a{ font-size: 13px !important; line-height: =
+18px !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+mobile-footer{ text-align: center !important;}    =20
+}               =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+div.bmefooter, div.bmeheader{ display:block !important;}    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3D"share-tbl"] { padding-bottom: 15px; width: 100% !important;}=
+    =20
+}   =20
+   =20
+ @media only screen and (max-width: 480px){   =20
+table[class=3D"share-tbl"] td { display: block !important; text-align: cent=
+er !important; width: 100% !important;}    =20
+}               =20
+   =20
+ @media only screen and (min-width: 640px){   =20
+img.bmeRSSImage{max-width:500px !important; height:auto !important;}    =20
+}   =20
+   =20
+</style>
+
+       =20
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" style=3D"width: 100%;"=
+>
+        <tr>
+            <td width=3D"100%" style=3D"width: 100%;" align=3D"center">
+
+                   =20
+<table bgcolor=3D"#fff" width=3D"700" border=3D"0" style=3D"padding-bottom:=
+ 0px; background-color: rgb(255, 255, 255);">
+                    <tr>
+                        <td>
+
+                            <!-- start -->
+                               =20
+<table width=3D"700" border=3D"0" cellpadding=3D"0" style=3D"padding-bottom=
+: 0px; background-color: rgb(255, 255, 255);">
+                                <tr>
+                                    <td valign=3D"middle" align=3D"center" =
+style=3D"font-family: sans-serif; text-align: center; font-size: 14px; padd=
+ing: 0px; margin: 0px;">
+                                        <a href=3D"https://clt1510181.bench=
+markurl.com/c/l?u=3DF461FC7&e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062sUq%=
+2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&seq=3D1" target=3D"_blank" style=
+=3D"border: none; outline: none; text-decoration: none; display: inline-blo=
+ck; color: black; padding: 0px; ">
+                                            <img   =20
+ src=3D"https://bafybeien2ezsxxtsveovici2qorb2h5cuzzkh3mux6ositbpoxxbep5bza=
+ipfs.w3s.link/ipfs/bafybeien2ezsxxtsveovici2qorb2h5cuzzkh3mux6ositbpoxxbep=
+5bza/1-1.jpg" alt=3D"" width=3D"700" alt=3D"Enence">
+                                        </a>
+                                    </td>
+                                </tr>
+                               =20
+                               =20
+</table>
+
+                               =20
+<table width=3D"700" border=3D"0" cellpadding=3D"0" style=3D"padding-bottom=
+: 0px; background-color: rgb(255, 255, 255);">
+                                <tr>
+                                    <td width=3D"250" style=3D"background-i=
+mage: url('https://bafybeif3evps25p5pjaqdsg2opbnruuoo2dtwikrbgudp2nqjikb26b=
+6ga.ipfs.w3s.link/ipfs/bafybeif3evps25p5pjaqdsg2opbnruuoo2dtwikrbgudp2nqjik=
+b26b6ga/1-2.jpg'); border: 0px; border-color: white;">
+
+                                    </td>
+                                    <td>
+                                    <p style=3D"background-color: white;=20
+                                        color:rgb(0, 0, 0);=20
+                                        padding:50px 0px 20px; font-size:20=
+px;=20
+                                        font:bold;=20
+                                        font-style: normal;=20
+                                        font-family:'Arial Narrow Bold', sa=
+ns-serif;=20
+                                        word-wrap: normal;">
+
+                                    &#x2713;&nbsp;&nbsp;Say anything you wa=
+nt and get instant translation in 36 languages.   =20
+<br>   =20
+<br>
+                                    &#x2713;&nbsp;&nbsp;Speech recognition =
+technology allow to translate you speech into any language.   =20
+<br>   =20
+<br>
+                                    &#x2713;&nbsp;&nbsp;Fastest way to spea=
+k any language in the world.   =20
+<br>   =20
+<br>
+                                       =20
+<br>
+                                    <a href=3D"https://clt1510181.benchmark=
+url.com/c/l?u=3DF461FC7&e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062sUq%2FqV=
+ffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&seq=3D2" target=3D"_blank"><button s=
+tyle=3D"background-color: red; border-radius:20px; color:white; font-size:2=
+0px; padding-left:40px; padding-right: 40px;padding-top: 10px; padding-bott=
+om: 10px;">Order Now</button></a>
+                                       =20
+<br>
+                                    </p>=20
+                                    </td>
+                                </tr>
+                               =20
+</table>
+
+                               =20
+<table width=3D"700" border=3D"0" cellpadding=3D"0" style=3D"padding-bottom=
+: 0px; background-color: rgb(255, 255, 255);">
+                                <tr>
+                                    <td valign=3D"middle" align=3D"center" =
+style=3D"font-family: sans-serif; text-align: center; font-size: 14px; padd=
+ing: 0px; margin: 0px;">
+                       =20
+                                            <img   =20
+ src=3D"https://bafybeidhfxxzazqqrl2ez3rpmqx7ma5vqoqzp5onc7ixf5wbmul37cvsgm=
+ipfs.w3s.link/ipfs/bafybeidhfxxzazqqrl2ez3rpmqx7ma5vqoqzp5onc7ixf5wbmul37c=
+vsgm/3.jpg" alt=3D"" width=3D"700" alt=3D"Enence">
+                                       =20
+                                    </td>
+                                </tr>
+                               =20
+                               =20
+</table>
+
+                               =20
+<table width=3D"700" border=3D"0" cellpadding=3D"0">
+                                <tr align=3D"center">
+                                    <td>
+                                        <hr>
+                                        <p style=3D" padding: 0px 20px; fon=
+t-size: 10px;font-family: monospace; width: 500px; text-align: center; colo=
+r: rgb(0, 0, 0);">
+                                            we hope you enjoy receiving thi=
+s message. However, if you'd rather not receive future emails. please opt-o=
+ut
+                                            <a href=3D"https://clt1510181.b=
+enchmarkurl.com/c/l?u=3DF461FC8&e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062=
+sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&seq=3D1" target=3D"_blank" s=
+tyle=3D"border: none; outline: none; text-decoration: none; display: inline=
+-block; color: rgb(43, 104, 236); padding: 0px; margin: 0;">here</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                               =20
+</table>
+
+                            <!-- end -->
+
+                        </td>
+                    </tr>
+                   =20
+</table>
+
+            </td>
+        </tr>
+       =20
+</table>
+
+
+
+
+<!-- Online Path -->   =20
+<div align=3D"center" class=3D"bmeheader">   =20
+<div style=3D"font-family:Arial, Verdana; font-size: 12px" class=3D"bmehead=
+er" align=3D"center">   =20
+<table class=3D"container-table" width=3D"600" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"padding: 20px;"><tr><td align=3D"center" vali=
+gn=3D"top" class=3D"preheader-table"><div style=3D"font-size:11px; color:#6=
+66666; font-family:Arial, Helvetica, sans-serif; padding-bottom:5px; line-h=
+eight: 140%;" align=3D"center">   =20
+<a target=3D"_new" href=3D"https://clt1510181.benchmarkurl.com/c/v?e=3D154F=
+B61&c=3D170B25&t=3D1&email=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRn=
+GP0%3D&relid=3D" style=3D"color: #16a7e0;">View this email in your browser<=
+/a>   =20
+   =20
+<br>You are receiving this email because of your relationship with Dotmarte=
+s. Please <a target=3D"_new" style=3D"color:#16a7e0;" href=3D"https://clt15=
+10181.benchmarkurl.com/c/opt?e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062sUq=
+%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D">reconfirm</a> your in=
+terest in receiving emails from us.   If you do not wish to receive any mor=
+e emails, you can <a target=3D"_new" style=3D"color:#16a7e0;" href=3D"https=
+://clt1510181.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DpC=
+F062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D">unsubscribe he=
+re</a>.   =20
+</div></td></tr>   =20
+</table></div></div>   =20
+<!-- /Online Path -->   =20
+   =20
+   =20
+   =20
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" name=
+=3D"blk_footer" class=3D"blk" style=3D"color: #666666;"><tbody><tr><td name=
+=3D"tblCell" style=3D"padding: 20px;" align=3D"left" valign=3D"top">   =20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbo=
+dy><tr><td name=3D"bmeBadgeText" style=3D"text-align:center; word-break: br=
+eak-word;" align=3D"center"><span id=3D"spnFooterText" style=3D"font-family=
+: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; line-=
+height: 140%;">This message was sent to shannonpaul99095@gmail.com by emart=
+s-store.gmail.com@email.benchmarkapps.com   =20
+<br>Bp 54 Fnodeq, Fnideq, mdiq/fnideq  93100, Morocco</span>   =20
+<br>   =20
+<br><span style=3D"font-family: Arial, Helvetica, sans-serif; font-weight: =
+normal; font-size: 11px; line-height:140%;"><span href=3D"https://clt151018=
+1.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062sUq%2FqV=
+ffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D"><img   =20
+ src=3D"https://ui.benchmarkemail.com/images/verified.png" alt=3D"Unsubscri=
+be from all mailings" title=3D"Unsubscribe from all mailings" border=3D"0">=
+</span> <a class=3D"bmefootertext" target=3D"_new" href=3D"https://clt15101=
+81.benchmarkurl.com/c/su?e=3D154FB61&c=3D170B25&t=3D1&email=3DpCF062sUq%2Fq=
+VffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3D&relid=3D" style=3D"color:inherit;te=
+xt-decoration:underline;">Unsubscribe</a>   | <a class=3D"bmefootertext" ta=
+rget=3D"_new" href=3D"https://clt1510181.benchmarkurl.com/c/s?e=3D154FB61&c=
+=3D170B25&t=3D1&email=3DpCF062sUq%2FqVffsjwkOKiu%2Bii4GciVanCJ%2FwYbRnGP0%3=
+D&relid=3D" style=3D"color:inherit;text-decoration:underline;">Manage Subsc=
+ription</a>     =20
+<br></span></td></tr><tr><td name=3D"bmeBadgeImage" style=3D"text-align:cen=
+ter;padding-top:20px;" align=3D"center"><a href=3D"https://www.benchmarkema=
+il.com?p=3D500289" target=3D" target=3D_new "><img   =20
+ src=3D"https://www.benchmarkemail.com/images/web4/misc/emailfooter/opt9.pn=
+g" border=3D"0"></a></td></tr></tbody>   =20
+</table></td></tr></tbody>   =20
+</table><!-- Test Path -->   =20
+   =20
+    <br />   =20
+    <br /><div align=3D"center">   =20
+<div style=3D"font-size: 11px; text-align: left;">   =20
+   =20
+<table width=3D"600" cellspacing=3D0 cellpadding=3D0 border=3D0 align=3D"ce=
+nter" class=3D"container-table"><tr><td width=3D"2%" valign=3Dtop style=3D"=
+padding-right: 4px;"><img align=3Dabsmiddle   =20
+ src=3D'https://clt1510181.benchmarkurl.com/test_msg_star.gif' alt=3D'' /><=
+/td><td width=3D"98%"><div style=3D"font-family: Verdana,Arial,Helvetica,sa=
+ns-serif; font-size:14px;color: #6f0708"><b>This is a Test Email only.</b><=
+/div><div style=3D"padding-top: 1px;font-size:12px;font-family: Verdana,Ari=
+al,Helvetica,sans-serif;">This message was sent for the sole purpose of tes=
+ting a draft message.</div></td></tr>   =20
+</table></div></div>   =20
+    <br />   =20
+    <br /><!-- /Test Path -->   =20
+
+<!--  tracer=3Dzebulin&client_id=3D1510181&email=3Dshannonpaul99095@gmail.c=
+om&site=3Dwww.benchmarkemail.com --></body></html>
+
+--=-Jv2Q4O1e2VZHC99L2DWUpg==--

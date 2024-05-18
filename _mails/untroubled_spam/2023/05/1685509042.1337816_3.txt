@@ -1,0 +1,305 @@
+Return-Path: <>
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--production-gq1-59c849fdbb-8bqk8.gq1.yahoo.com with HTTP; Tue, 30 May 2033 13:11:50 +0000
+X-Originating-Ip: [209.85.208.177]
+Received-SPF: pass (domain of gmail.com designates 209.85.208.177 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Tue, 30 May 2033 13:11:50 +0000
+X-YMailAVSC: YQHBCbQ3bBtmAwrsNa6AAuP4L1Jc6HAmfKSJqVYUcsNg_Qc
+ .5Q1S7CxYwPwOA3ar70zdmysok4VwTm1N1sdXnrWuEkDGFixi77rDBL9OtBp
+ bXFVlCtNt81s.4J4Rj0d9fdVzxOPqxIZaTSxz9scvwEtcODddfVnpHsUkB7n
+ w8viHsDWS9v3E.uBTxDljufY4TCEAfdiSO8FFsx4SXrnaha09d_Urs7DtdOQ
+ UMlTDpheTMcYe3hIGar0lp4_fHpDzA.gyiVxwKpqKyRMYeoEeIs1duvDifHj
+ Bxz9wG2MACgFw0RGaEYKzoSICbfyosp9_Ax.D7l3__oT8d3z6SJiedkPGk3a
+ UsdrDr.s8RM5e2caxpnriokFh2EwgpW9it.wvz.ktxdQwtdpjfUt2UwKBciT
+ PMxdK87BmuoSrNmVPHGd4pguat4FvzpQolongTKsMSB5ojuONAei.gJUfXgh
+ dt65WWi2BYFgPHzq.NSdUunZfQ7Wh3WcyxhPg0pic1NDaBW21SlzK7tloB8D
+ CJvh37em1VfitAaPTjOYJaELzHlwePYX7SrBRPDM6dr24Rk2wi6vggMGe_aj
+ 8RoJRbfdSN7ZwMwruD90IGlqt6GZGAz_mifbeGLuV7Q92WKRePaWa0uimGPT
+ uR28b7BM8godFWNyWsfrEXlPzBUgrL99eg59FR3R8bgNOV_9gBHTWEEKrVUZ
+ TYMWGEXSJXzCuF.CLa.KaEPkQOxU.PI9Ts13n.4IFK6GZOpw_4RTiDjdZbgd
+ ULNy8dG_8g8BPp7pxHpt3exBWsgX0sLHLDmhkgglAIIVaAp01wCVcNJ2w7HL
+ 4l4m0CLu6hAW0AxAhXJoeTuUtyWFEUAt6ZemUYIov_sf7_PFNAXrf9RMJAMu
+ hrZc8hx.IcN4wYuMl4RG_M_9O9rxRgU3sb5Ki2Jhmaxnr6RUiYCGfqcIHFzW
+ bAgudTlv_SaP7N1k.uj1VKQ34HEXX53Nl7dZoomOiy.z2RfuYOSM0h7XQ0eG
+ z.sNRVcLvN0M3Q39fzq.obRxJn2b7qxVg6l6B42ABQ9QI4OHuAyfifx4TcdE
+ FOIqYSD1tvziPMfkrJbU-
+X-YMailISG: Jt0s5OAWLDuDDrlwoOsoHB.Mkzd5UMHa7pEYIr56BXhOLZkK
+ thjxBIhhqi5Jqbdg6P3nXrQDc4pZA8YTui_gGB69ASaQKHJF4MItM.xLRFja
+ NmEJOXHYfzuL3qMTmz.u8451tjWnj1CbJ7ZMndyJ5fS2X.ovgFPzuK157tkL
+ U0cBKPCnigfUNlTJWGp.mx66Pxx85HwK6wsvbhjyu9rSRi2TRnJnzbFf_Lou
+ zOYa8t.UEUTWR6f8P6fv.GVaZR8VDSmB55K_DzP0pmDsCNwokPk_gM2xzbly
+ RWly4xgJPS4Oxpx6VUNavRdFBYHKh5Zs_J__5fC3Ci7cwOqeKSz0DacTn4LP
+ 5qxGDnGMtN9j8Dy_ADwqwc3xdA0FS1YEUtRVFJjTr.yyInErmdIYgjHMDIkq
+ dDtOhx_7IjU2DJzLKaygGCfwndWqtDuMS1rJ7aTGSeujqWGNVdgIlCq_g2Nv
+ Ctaa.ShTzbpmSJEpwL3KdqdUObfIJsFwK1wNTKG3pAOHwO4KbuEhbOTWQxV7
+ uA8A8nVH1UhnVl6VV7a922Hy8REt99fjpFC2sjwu3z32JIyd3Xlh_0tFgjmN
+ D4xBZc1uSVMYoh5LwhrrAQxHtm2dmGvgtI9pRPimhgg4XS9DD_HlNC9h.e2d
+ 32247OOL6xNQlPF6bt3lRXBp2DAhgjAkUsB48rQRUqJEO2I3RvPrF2OXqvik
+ 3KW8qZ_YOthkCQJy95fWI0y18me_aFsEtDuAaotfWPogdLGK0SFmbfdDm0oW
+ iKdcIz0_EkX6zkReYqaMH_nl9GYUZbT_1sKFx7Ovr20fSQHkekTIhxP4938K
+ upsuQcKcOtRw_ZQbk607WmfrWAIBuHc.orn5ErZG_WwxWBBbx8sasrTAYtaE
+ zBsYo1RKRVQmIHyBjZWV2_Q.2e7F.KNK.gVVrBzDOozQ0Cm0W6OE24Ts8yPk
+ 7SR5TYuWuZ9PdTIrJqP3SD4Vl1Gt5WsHL5zjo38RKx33yFIK2bC47gIjcIG5
+ zMRs.1JHL7DGBYScTpNu9b2m96oRAbGWGKGmb2oafsv98P7cS_5onMjzWzHj
+ IhLalYNKLlKbHa.OF9CaW.Q9Qg04eMceQg--
+Received: from 209.85.208.177 (EHLO mail-lj1-f177.google.com)
+ by 10.215.174.210 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 30 May 2033 13:11:50 +0000
+Received: by mail-lj1-f177.google.com with SMTP id 38308e7fff4ca-2af316b4515so45049861fa.1
+        for <bruce@untroubled.org>; Tue, 30 May 2033 06:11:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1685452309; x=1688044309;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=IFj7KJ2QtKuJIVwUR+GQZc/lLI3bkC0n3P7vjwbv8ZU=;
+        b=sMYhSf/1Win1e4LLe/vsk6N7Atb2q6jijgCqgPoMsn/kdxzE/g1N5kMI6kXP/5QLOW
+         knslyIy3NR0ar1om6HG+i2t3vvwihdYLCwuEv6bzhHUl7Z2SJ0D7teRxhjgqsdiiGxM4
+         cb4l2+fHYoewOS1oxdP3EHFKYb993y6GZ/U0eErQeKlOK6QecFsruU/VjOpWDtC/NFKU
+         2BOJ5qXXEJ0gphTenT6pYirNMyMNWjCuySHHRHVuLJHTFHmOmh7JVnsdJCSHO4E8O15h
+         HVpJ4mCkquFk/EZRRdGykQJyIna+qjMe8sMlKxY/flW3zRNAkDntGVOjpXWKJoZqhnF2
+         lagQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1685452309; x=1688044309;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=IFj7KJ2QtKuJIVwUR+GQZc/lLI3bkC0n3P7vjwbv8ZU=;
+        b=McNqoDF3ahdiorr45F4ETjkwtJXmbJoyOf5ktKHNsoO7Vsq3qPfHQvjfZCE//Ocv6n
+         mXD03yFLS+cFb0ItwlD1mtv3DEQIrF22h3q+kxfjNjunQ628tkaHW8oZ8Z4Gp7R6Sy7x
+         e5+TjDgmhuyI50U0sFuldb20hiBXAU7G7HT+AWpjlKaffACU+gii/UulGIlphnciYyoz
+         tMxYvBybabOP7WXSDdAnYXqHr/HnYrztJSLCrFpOxc0111/vF3U7VWzuUMwM+DY8RYzp
+         GKs3IGOq1fv4M+ISU43PFuQVdHpkT+0EJv5WN/E4LT+HV051ykq8W0krcSVkFp/xijUh
+         88dA==
+X-Gm-Message-State: AC+VfDxJ8Gved3vAZA6w81bVWva+7gJJLtRKTPlRu3SaznJjnUzARO42
+	k4DfgJAR+q9HfVYw9NWM2CeMeJjAEq6LLGiXTD2c18BG
+X-Google-Smtp-Source: ACHHUZ7A2UPpKrhEBJTQsL1beco+BoSIz1SPTkuvNhOkSR4r4cLmK8faCT1WOQjcWFEyfaOUxvVmzrOrSo6dRGIQtrA=
+X-Received: by 2002:a2e:828f:0:b0:2af:2466:1c18 with SMTP id
+ y15-20020a2e828f000000b002af24661c18mr804657ljg.18.1685452309060; Tue, 30 May
+ 2033 06:11:49 -0700 (PDT)
+MIME-Version: 1.0
+From: bruce <bruce@untroubled.org>
+Date: Tue, 30 May 2033 14:17:38 +0100
+Message-ID: <kAj6CstJV9KEY9dvpyTzsmYKmE065VInWp2A12S+koLmQr22-tg@mail.gmail.com>
+Subject: Craftsman Generator Exclusive Rewards For You
+To: Ace Rewards<bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 4919
+
+<html>
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Craftsman Generator</title>
+ <style>
+ body,table,thead,tbody,tr,td,img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, 'Arial', sans-serif;
+ color: #fff;
+ }
+ h2 {
+ font-size: 32px;
+ COLOR: #ffef00;
+ font-weight: normal;
+ padding-bottom: 0;
+ }
+ h1 {
+ padding-bottom: 0px;
+ font-size: 36px;
+ }
+ p, li {
+ font-family: Verdana, 'Arial', sans-serif;
+ font-size: 16px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 40px;
+ }
+ .linebg{
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #ffef00;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #000;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ h2 {
+ margin-top: 0px;
+ font-size: 24px;
+ text-align: center;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ } 
+
+ 
+ }
+ </style>
+</head>
+<body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height:35px;">  </td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" bgcolor="#9f0000" cellpadding="" cellspacing="" width="550">
+ <tbody><tr>
+ <td align="center">
+ <table>
+ <tbody>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ <tr>
+ <td>
+ <img border="0" src="https://pbs.twimg.com/media/FuqOophWwAEbx_Q?format=png&name=small" alt="logo" class="logo">
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height:10px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#ff5555" width="550">
+ <tbody><tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td valign="top">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <h2>ANSWER & WIN!</h2>
+ </td>
+ </tr>
+ <tr>
+ <td align="center" class="linebg" >
+ <p>A Brand New</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <h1>Craftsman Generator</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/FuqOzqHWwAAbGaG?format=png&name=small" alt="reward" style="max-width:90%;">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" bgcolor="#ff5555" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p style="width: 400px;max-width: 90%;padding-top:0px;">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ 
+ 
+ </td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height:30px"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/c3643c275309ed66ab16/2923bf00c4935612ee12#S09FQWl0Q2NPazdIejYyVDB2Z1hmRlhzL1d6SlZFK25ocWZIZlJFV1dES1ZSNUFLekUzMzc2aTlPNzVMTHUvZk9JTCtqNVF3MVh1UkRIK21JWWxRZ09QOUovbmRmQWhpYjMyTmtCWUZjYWc9" class="cta">GET STARTED NOW!</a> 
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height:50px"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ <table class="section header" cellpadding="15" cellspacing="" width="550">
+ <tbody><tr>
+ <td class="column">
+ <table>
+ <tbody>
+ <tr>
+ <td height="25" style="line-height:25px;">  </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size:12px;color: #797979;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/c3643c275309ed66ab16/2923bf00c4935612ee12#OHFlS29TbFlVZkU0UFhBNGM2dXVoc01TSVdJVUlNWG5SRkNYZUlaRXE5YTRieFdhSXJOVjRBZEVkSXhqdlhYK1kyMnRPWWsyeEMwYUw1bmlCQ1NiZnd0MVRCTkx5WC9DN1lDOXRiRHBBb2M9" style="color:#666;text-decoration:none;">clicking here</a> </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height:35px;">  </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody></table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+
+
+
+
+</body></html>
+<br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/c3643c275309ed66ab16/2923bf00c4935612ee12#aTR6bDVMWWM2dVkzRHMrb0grVUpHUVpTeUdLMFlrdnp1Ujg4Z1BSSzEwM3pkdFJoKytMVEQ1a1Q1QnZhRHFGNjd5bnNTdk1JeEY2QlgxM1NjS2hiS3l6S201MjhaTFhTUDd1VmNYa2Y5Q289">here</a> to remove yourself from our emails list</span><br/><br/>

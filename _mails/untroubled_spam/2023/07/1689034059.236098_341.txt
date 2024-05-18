@@ -1,0 +1,340 @@
+Return-Path: <>
+Received: from VI1EUR05FT027.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:206:14:cafe::84) by AM5PR0301CA0024.outlook.office365.com
+ (2603:10a6:206:14::37) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6565.29 via Frontend
+ Transport; Sun, 9 Jul 2023 21:00:16 +0000
+Authentication-Results: spf=pass (sender IP is 54.240.122.154)
+ smtp.mailfrom=mail.e.jezebel.com; dkim=pass (signature was verified)
+ header.d=e.jezebel.com;dmarc=pass action=none
+ header.from=e.jezebel.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.e.jezebel.com
+ designates 54.240.122.154 as permitted sender)
+ receiver=protection.outlook.com; client-ip=54.240.122.154;
+ helo=a122-154.smtp-out.amazonses.com; pr=C
+Received: from a122-154.smtp-out.amazonses.com (54.240.122.154) by
+ VI1EUR05FT027.mail.protection.outlook.com (10.233.242.209) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6588.18 via Frontend Transport; Sun, 9 Jul 2023 21:00:16 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:7B0368397697128FF3EE77F31124DA0DE48DADC11EFAE43D08C476803AD2B74B;UpperCasedChecksum:15D2C2C743912C3C5A147BCD337498F191E7FC347B5501EF3577AB9E84E510FD;SizeAsReceived:1820;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=jf5qjpto3ypwxk7ydyo2hzkpsnkbuwix; d=e.jezebel.com; t=1688936415;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date;
+	bh=UjhaI+T6mtlxVrIUxxhiAl5noacD4V2aFoPZMM+T3dU=;
+	b=O1uiSu6qseOaGD+uzDRidmgP9u7++FcHsP67HCqsBjAFt1LTBURHgHyWCG81fPBt
+	M2hz4qrAOWjb+8sQOs1BsgC2PY2+NbmMOucFXV/O0GEH7Rthkwx0g8YgARRV53ZNWI1
+	HRWECVfE9RgyS7IZ5rBAO5qgpDYzhPE0UlPPM2l4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1688936415;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe-Post:List-Unsubscribe:Date:Feedback-ID;
+	bh=UjhaI+T6mtlxVrIUxxhiAl5noacD4V2aFoPZMM+T3dU=;
+	b=PVtJNu9Hj42Ch3+fUxQ4FnHJaypj94p1AT4r+CyJUPTgKDoK3Qr37XzYj/kZq1uG
+	RZSV0e6wtSBWJSwl66tSMxU9IZ4IBCrsRmJg+UQzbE54iWugrXhkHtQevaRy50h7M3F
+	4wldEyaQw81uFGGD9XpBiOhx/rGGJEC7EFdcJvHM=
+From: 𝗟𝗶𝗺𝗶𝘁𝗲𝗱 𝗧𝗶𝗺𝗲 𝗢𝗻𝗹𝘆🍽🍩 <bruce@untroubled.org>
+To: 𝗟𝗶𝗺𝗶𝘁𝗲𝗱 𝗧𝗶𝗺𝗲 𝗢𝗻𝗹𝘆🍽🍩 <bruce@untroubled.org>
+Message-ID: <010001893c4713e0-f0aapchh-d50d-45ae-9rR9-2a5dXWi1PFuF-000000@email.amazonses.com>
+Subject: 𝗵𝘂𝗿𝗿𝘆 𝘂𝗽 ! 𝗥𝗲𝘄𝗮𝗿𝗱𝘀 𝗵𝗮𝘃𝗲 𝗮𝗿𝗿𝗶𝘃𝗲𝗱!🌭🍽🍔
+Content-Type: text/html; 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:undsubscribe+bed9622bda32936173fd95c816964ea8029223f4-114450@e.jezebel.com>, <https://jdezebel.cdom/newsletter/unsubscribe?subscriptionToken=bed9622bda32936173fd95c816964ea8029223f4-114450&utm_source=jezebel_newsletter&utm_medium=email&utm_campaign=2023-07-09>
+Date: Mon, 10 Jul 2023 19:38:32 +0200
+Feedback-ID: 1.us-east-1.CTT0BE9giLbwLsJiM5FiKSFAj/YD8cbE+FhiW2M2Llo=:AmazonSES
+X-SES-Outgoing: 2023.07.09-54.240.122.154
+X-IncomingHeaderCount: 13
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Jul 2023 21:00:16.5320
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d7971da8-d8c4-4404-ddb7-08db80bf7f43
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ VI1EUR05FT027:EE_|AS8P250MB0006:EE_|DB9P250MB0451:EE_
+X-MS-Exchange-Organization-AuthSource:
+ VI1EUR05FT027.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 7/9/2023 7:49:51 PM
+X-MS-Office365-Filtering-Correlation-Id: d7971da8-d8c4-4404-ddb7-08db80bf7f43
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 54.240.122.154
+X-SID-PRA: bruce@untroubled.org
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:4;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Jul 2023 21:00:16.2195
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d7971da8-d8c4-4404-ddb7-08db80bf7f43
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VI1EUR05FT027.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS8P250MB0006
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.3652511
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6565.027
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90012020)(91020020)(91040095)(9050020)(9100338)(944500132)(2008001134)(4810010)(4910033)(8820095)(9575002)(10195002)(9320005);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?OFpwNERsMVpsWFFrQm1kMGd4SXpJR3RuQi9Ydjl6TUE2RGpDTGxuYU1WUjVz?=
+ =?utf-8?B?Q3h6R2FoTVJYTGJmQUlSMmNrWnQ5M2VtbENVVjBKeGhuT2NxcDk3cmdybzY5?=
+ =?utf-8?B?VkRJK3lKSUZ1Q3d2Y25RK2dFL2RnY0N0SzJDa3RDWkZBazgxdjNUUkI1UnNl?=
+ =?utf-8?B?L3VrK3dreC9ydXp4SDN2UkF4cVRYMGtEa0gyQW8rNFJZek5qYzJTVnNqdktv?=
+ =?utf-8?B?b21xMlVFejZiM3g5K01XUjkySmxuYmRPMy9LYjhQRkgrcHNWMFZTblUzTUpx?=
+ =?utf-8?B?V2hVa1R4QTVOdlhXcjNoQUhwT2RzRTUrWnNKKzVuVUxrOTdFQUg3WGJZTzJR?=
+ =?utf-8?B?VHZkRFBEbkMrOXUxejFXenJxbTJVTE4wQTFJZWNDV0JXd1VST0c5VjNGNGEx?=
+ =?utf-8?B?ZUZEbm5sbkxnaE43dmM3dmNMaDFMZGt1dlJTTnZlSEJqc0ZxSEw0QUFGcWpm?=
+ =?utf-8?B?cnViSmVmcXFvU1JDZjg5eC8yc0VNSk94dk1DdUwzN0JpRk1YbTdxVGM3ajFJ?=
+ =?utf-8?B?Y2R2YUFna2NHUEs0K3NjTmpIdzltbDFZenJ6RDYxbDNmVU05d3AyV2diZDF6?=
+ =?utf-8?B?cVZpdE9wZDdzalF4eEgzNlRKSWYvQW41UFI3V3pLaHJpdTdaSzFnL3N6amtt?=
+ =?utf-8?B?R2txc0dYVURmMnlsaUs4blQ2MUJsczJNWmxXb1k2TjlEcUZDMTBXSmlUSFh0?=
+ =?utf-8?B?NDlCeHJxRDA1Y2lHYTl3Ukp2RzlmV2FHeUFDeHhpeEx5V1lUODcwYlMwTzNU?=
+ =?utf-8?B?ZEVqSWlzQzlibW9xVUdKZVZIbklYL1AvTWUrbXZ4c3htVU9ObkthajUycTZ6?=
+ =?utf-8?B?MnB4dnFJMEVrYmlyb3lCQlBHRHphSXJLUnlpM0tMZ2F3akNCZ1l3Z0lTUThO?=
+ =?utf-8?B?eVF2OHlHb3lOTDdaUEdpSytRYlk4QWxTVGNmeUI4SjhDWENYYnkzRGxVN0J2?=
+ =?utf-8?B?VW5YZytHalBSb29VTGtyZCtuMS9lQzFjREVSVkFNVytoVzg5czZyUmpaQ3VF?=
+ =?utf-8?B?SmdFWnd3ZWVxT04zcG1GamRSdTJGYUlxMm0zaDhlNXQvL01adnRtNVBjWk94?=
+ =?utf-8?B?NXJXZ2MyVmUwWE92UDhibkt1Y1FQV3JWQXQxNUNWc0k3TVdES0FGeDlySVY0?=
+ =?utf-8?B?MENJenFEbnlBT1JSRWw0YU5CTUZSSEl1RHh1NVdOZjJwaGt2ci9abDh0WERG?=
+ =?utf-8?B?OWV6cysvVXFCdkdUSDdBandlQlh0Z290UmlsaUhwTHgycm9MUlF1ZSthd2Y2?=
+ =?utf-8?B?WG1SSUEzRnlzWjVaTjZxN2VtWFVpZ21ENGZ0alBFQmQ4VndYVGlGRFhvY09O?=
+ =?utf-8?B?enpOd2ZNNzBZaWVRZlhYNnp5SW8zbWhYTStLbzl0azFETUU1VjY3Y251NDBB?=
+ =?utf-8?B?ZTFWSE5OY0MvczdRczljaHdkN0xzZkNyemRpb0pJRjF5TUllMTNkWUU1cW96?=
+ =?utf-8?B?OE5MaHRvQmlKUlAyeE9LdW55YVZWeGVWeU00ZVNkNkwwRDdwdU1ZbUpyZ0hB?=
+ =?utf-8?B?MUV5djc3WG1valMyRk5UeDIxbVYxOXdQL2dTamdWdjdTd21Yc0tTeUR1VWVK?=
+ =?utf-8?B?SHlZQ0FGYkFsYlJSZllkTmUyU2hMS2VDMzd6dk9rSFRKNHlHQWxhM2xtZ3I5?=
+ =?utf-8?B?ZzlwNGRpZGtKQXJ3eUNGZWYza0xxTStwMnE2NmQ4dDM3VFdqYkpERGJHanNo?=
+ =?utf-8?B?WS8xaWIxZjhJa20vbG9kdFovR0lIU2twZmJzcjNLOWorTUFCY3g4am1vLy9r?=
+ =?utf-8?B?NVc1NTVRTWsvbHNoeDBvRjgrZG91Z1M4VjNuQVlud2ZpdkRnV1dLUFFLQnpw?=
+ =?utf-8?B?S2o2R3R4TkRYeTJqeDdrN3pjZXR3TERESWplMHFsK3kxSWExaDF6OVVnM1NZ?=
+ =?utf-8?B?dytxcDdlTmhyRVJHNm5wMmgxRG9PbnVPSUhVOVZQclBMeUs2c3FCYVEzUHA0?=
+ =?utf-8?B?ZW96c1pkQ210YktZWHZoYTJOd3lwYU1pNVN5YS9OYUNBS25ld2NSK0tmcnNJ?=
+ =?utf-8?B?RWFlREpjTnZWZ0FtS2E1MHNxR3Qwd3d1ZDgyeUpCLytFc0RTSUZidmQrYVlR?=
+ =?utf-8?B?cStCZWVrRlIxb1IwZ2xaTVZGSEdJSGNwQnhqY0xUMTVTZkNtcTFPc3FENGU3?=
+ =?utf-8?B?RWJvZmdtbkFRTHE2YjREYitubEpPYkZpYjNsdGJodE9HU1JPWGtRWkdVTlh2?=
+ =?utf-8?Q?ePYUmdhJuk+qLYMJOTGlpfI=3D?=
+MIME-Version: 1.0
+Content-Length: 6248
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Kohls</title>
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #333;
+ }
+ .logo{
+ max-width: 200px;
+ max-height: 50px;
+ margin-top: 30px;
+ margin-bottom: 50px;
+ 
+ }
+ .product-name {
+ font-size: 24px;
+ text-align: left;
+ display: inline-block;
+ margin-left: 10px;
+ vertical-align: text-bottom;
+ }
+ .feature-para {
+ max-width: 90%;
+ margin: auto;
+ font-size: 14px;
+ margin-bottom: 30px;
+ margin-top: 20px;
+ }
+ .title-para {
+ font-size: 42px;
+ font-weight: bold;
+ display: inline-block;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: center;
+ padding-bottom: 0px;
+ line-height: 1;
+ }
+ .cta{
+ display: inline-block;
+ padding: 16px 25px;
+ font-size: 24px;
+ font-weight: bold;
+ text-decoration: none;
+ border-radius: 50px;
+ border: 3px solid #333;
+ margin-bottom: 30px;
+ margin-top: 20px;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .logo {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ }
+ .title-para {
+ font-size: 32px;
+ font-weight: bold;
+ display: block;
+ max-width: 100%;
+ border-right: none;
+ text-align: center;
+ padding-bottom: 0px;
+ }
+ .product-name{
+ font-size: 20px;
+ margin-top: 10px;
+ }
+ .feature-para{
+ margin-bottom: 20px;
+ margin-top: 10px;
+ }
+
+
+ }
+ </style>
+ </head>
+ 
+<div align="center"><font color="#623131"><font color="#000000">Having
+      trouble viewing this email?<font color="#ff8000"> <a
+          moz-do-not-send="true"
+href="https://storage.googleapis.com/0094a8c9ff5f66bb5e0d/480ba85a324a7ea6e1ce67feee9bb9085d9e7fb58ebbaffb5f6655d7e8ec#RFVMRzZ3bnlmY1hHWlUwWWFmZHRUSDYwc015Q056c25tcnFoTGZsMk92bVdyWCtwK1dwc3pGd1E3YUszQ0RTTFpEenZLdEluc2NGN0tBQkpmSWRHWHZXWU8xUThyUEE4aFpmRStWc3pubHFybk5hY0FlYzBibXMwbk5HWnI5czVYN3dDbXRITGhHU0I5dFhRQjF6RnpRPT0_"><b><font
+              color="#d26900">C<font color="#d26900">lick </font><font
+                color="#d26900">here</font></font></b></a></font></font></font><font
+    size="4" color="#623131"><font color="#000000"><font color="#ff8000"><b><br>
+        </b></font></font></font></div>
+<div align="center"><br>
+  <font size="4" color="#623131"><font color="#000000"><font
+        color="#ff8000"><b></b></font></font></font><b><font size="5"></font></b></div>
+<div align="center"><font color="#95004a"><a moz-do-not-send="true"
+href="https://storage.googleapis.com/0094a8c9ff5f66bb5e0d/480ba85a324a7ea6e1ce67feee9bb9085d9e7fb58ebbaffb5f6655d7e8ec#RFVMRzZ3bnlmY1hHWlUwWWFmZHRUSDYwc015Q056c25tcnFoTGZsMk92bVdyWCtwK1dwc3pGd1E3YUszQ0RTTFpEenZLdEluc2NGN0tBQkpmSWRHWHZXWU8xUThyUEE4aFpmRStWc3pubHFybk5hY0FlYzBibXMwbk5HWnI5czVYN3dDbXRITGhHU0I5dFhRQjF6RnpRPT0_"><b><font
+          size="5"><font color="#95004a"><font color="#009b00"><font
+                color="#800080">Your chance to receive a FREE NINJA
+                NEVERDULL PREMIUM KNIFE SET</font></font></font></font></b></a></font><br>
+</div>
+
+
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ 
+ 
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#dae0e8" data="image_bg" background="https://pbs.twimg.com/media/F0sDw-NXoAQvU4c?format=jpg&name=large" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td colspan="2" width="550" valign="top" align="center">
+ <img border="0" src="https://pbs.twimg.com/media/F0sCrvsWAAATWJJ?format=jpg&name=large" alt="logo" class="logo" /> 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center" style="border-right: 1px solid #333;" width="50%">
+ <p class="title-para">ANSWER & WIN</p>
+ </td>
+ <td align="center" width="50%">
+ <p class="product-name">A Brand New<br><strong>Ninja NeverDull Premium Knife Set</strong></p>
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2" align="center"><a href="https://storage.googleapis.com/0094a8c9ff5f66bb5e0d/480ba85a324a7ea6e1ce67feee9bb9085d9e7fb58ebbaffb5f6655d7e8ec#RFVMRzZ3bnlmY1hHWlUwWWFmZHRUSDYwc015Q056c25tcnFoTGZsMk92bVdyWCtwK1dwc3pGd1E3YUszQ0RTTFpEenZLdEluc2NGN0tBQkpmSWRHWHZXWU8xUThyUEE4aFpmRStWc3pubHFybk5hY0FlYzBibXMwbk5HWnI5czVYN3dDbXRITGhHU0I5dFhRQjF6RnpRPT0_" class="cta">GET STARTED</a></td>
+ </tr>
+ 
+ <tr>
+ <td align="center" colspan="2">
+ <img border="0" src="https://pbs.twimg.com/media/F0sChhPXoA0auDD?format=png&name=large" style="max-width: 75%;max-height: 300px;" alt="">
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center" colspan="2">
+ <p class="feature-para">You have been chosen to participate in our Loyalty Program for <strong>FREE!</strong> It will take you only a minute to receive this fantastic prize.</p>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;padding: 0">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/0094a8c9ff5f66bb5e0d/480ba85a324a7ea6e1ce67feee9bb9085d9e7fb58ebbaffb5f6655d7e8ec#TmpwRFZ0aGt0L2xJRytrUHBnOGlBc0tHUUlIN0dFZkhHUnhDeCtxR2JjNk0yT2ErLzR5TzkrNkRhTzRSMnRSa1ZGeGl1Q3VTdHAwdGZ6NW10MnRqL293b3V4NUxOUWx5cHNxSWRWWVRuTGhtRlVtL01vMVNTZXRUaGRHeHRyRHBjbEpHN3owMXgxdG9zS2xDd09QOEhnPT0_" style="color:#666;text-decoration:none;">clicking here</a></p>
+ </td>
+ </tr>
+ <tr>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>

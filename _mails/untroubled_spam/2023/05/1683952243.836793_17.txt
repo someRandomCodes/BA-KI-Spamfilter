@@ -1,0 +1,416 @@
+Return-Path: <>
+Received: from 10.217.145.203
+ by atlas202.aol.mail.ne1.yahoo.com pod-id NONE with HTTPS; Fri, 12 May 2030 14:11:35 +0000
+X-Originating-Ip: [209.85.167.43]
+Received-SPF: pass (domain of gmail.com designates 209.85.167.43 as permitted sender)
+Authentication-Results: atlas202.aol.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: bruce@untroubled.org; Fri, 12 May 2030 14:11:35 +0000
+X-YMailAVSC: S.LQm443bBt3bPUne0kea7ypd8Eykc1FDE1qU_uRlRGa6pH
+ t8Hbtx8XPmNXKVBsoAHqOHD5bFjUlxchIePJt9xRwxQEZHgPmhGW7shmMcTd
+ VpL1fnLKQf9Sw21Fw4mfwZ4w5ZV7Fo5f7pPlVo7aup9ukqc8xo8eLW2ciRRu
+ 1bYA8Yf__WVZYUdmFZIz2EoXUZReLHXw7bP.lKrgP2qYylnFkEjeEpCBlYKh
+ _esid.4Zuy3bSw2nq6wVE3oWid3uM2bNmCNrcv4jivE6TUXvGYHRprcfsUxM
+ lgs6oPE_y2Q5OQZdSFbXdiZqO5GaCgbiwbKd4vM92QZav1xbWF2kyfvWuIDH
+ GfavJq4XEdH85h2B_ZA6gT1VQ0Iy8SHD8kFvrIdIW857xZ.WclypJSLEmZyb
+ xRTmK6jAGHy7YEgMneJuYXfXK5Hlp8yuv6vfo1Soisr8L8TyrOqIJILC.84e
+ i_tIPVdOVLARBOmHCP4KdJ1wlAAjN8iMlS80kGQG10VKgZLMb8_v.QD0n2LD
+ yj4RSknFUasrXgKSoVAOGoUm1d.5Zb.5gJmbVQp6HWvV8MgT81eUSwg6rjxq
+ nq8w.yw7llPxs3CDkRv2Ldak0Gadb8MKYiOK4pl_2.VVuxlXMvyqyQf4gNYu
+ RdIavEwCAa2YR0stctENSZ3vO0eMLE.IodfJeWnC1UKybZbrjznaqxx8Im14
+ USyosV7vpNnCzQC05z5Wk.Hn0EE9YlMmNXiiLXccOJX5sVf5SbxXTWwGIJJF
+ B6RC6Bpgih6UH3QTaStNuzD.jiCk0BKDZjqrH.lY4mSWboCUWuSJT_sP8IMC
+ FRWYlHHQk5RBrpvt9ABtF7VVqkpVNj.X2nGmJ8JU_2LYKiYyhVk4zmt5P5iE
+ mNSgtk1aLrhwfjafa__UfW2Ir75.rZuCgEcuUD9ic06SFW8Ff5CaCPO63MPX
+ TXNJDEV16YbCmT_A2oyQuTX2zA73qxBt8c5QBJO96OcPjBY33dywdLBysVDX
+ ZrEQGQu7WO4r7wZ19B41tygSOSMReW.KROlUIlBE8zA9RYvcOcQykSJk4GqF
+ 9Ey.TULUTjBw-
+X-YMailISG: oxkAUIwWLDuUREnPsWq_J3nnrCLvsWskiLLsxumvIsZbYaWt
+ 89bZkxMIJY9S7JlHnMo8iTHCQ_p0iX4zWX6EV9Jp3NWvkI9D8DTn4kmkZWcl
+ 97AiXtBlLGTRp91FTcG2sdjtPcAzAWXnjht9pMEjvmBxUxnGCXckGOu4zPsT
+ A8HM0Yr4ev1LW73ZhG7WlMXSQtu37UcCoSmJdDxBY810FaShVeHnTSoVJz_A
+ QNEzGMQocfAntNuhfzx1tyZYjnR2RZhoOAVFNo01AqlwqgBQPLAE6gdmg1lF
+ Q3wz432f1MqCKmmtetQoIebMwwcrT2UDP_XNUzLuMaq3RgqhsAlMed9IU3Sc
+ Jpj99.u6SAqDn3Rt_z0BWKxxtq4ng4M3kxLZklb1eR48D2tYuqhCZH2v0F_K
+ Xe5rM6t6JB0r6.b3y0w5HkqBJITUA2QHABfL3yJCOQPYN1v.TnBA.Uf9vSFl
+ rbs_emD6IvM8vuklHBgL7oEeKT.pYWx_tWBtDaCUUMbIu5WH5n3PVdy7v7d0
+ B6nD0jFz_fmpJQMngMyikjmetIWZe40tpYGvEFpk55rJhBHyq5AXpaB2KpBL
+ 02zdEM1QiL3GH1jWiruxffKqZJ_H9sIshDZ4pgycWoeTAc10sm1BS2lE4sSR
+ jXztJ17Ld6z.xh8n6FqS94dRroInY8wx3iYkrcoglKo3m8nyyrsDaDPbSeQI
+ XrXYIO6Lhpp8s1_feqtxVUw2sCqzJ2Wlt9x1xbgFEmYaAavK1kn4rbIjkSDi
+ vVWiR33y7v.Ep8QQZ7q2UDlQSEpxIBCGnVxYbcPLu4cGnzv9Ien4xds5Svzf
+ saOohyFUquDUod9EBjQmmubjfiTlspFFGj1LFDI1IVMPojrEHPuYWJspARtQ
+ Cdrn1KYIG9TiN7iaiAghXLBAjgvKIdrwkD1EBnYG4YKGXubxELYhegqPBMwI
+ twMydIyKo1jOF6jxQiEcVdpNmvkQInwWUWaa87jsEMBNUe0SNen6LC1dQNGJ
+ CGDa_5B4lOh1bkyTCmMIjBEZbT1rq2uoNpfPiTiHT3qP_TGb8bBQy2bnikQh
+ giey.hBu6jQqpnciYsYaFlPIk9ybQwubhA--
+Received: from 209.85.167.43 (EHLO mail-lf1-f43.google.com)
+ by 10.217.145.203 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 12 May 2030 14:11:35 +0000
+Received: by mail-lf1-f43.google.com with SMTP id 2adb3069b0e04-4f122ff663eso11240736e87.2
+        for <bruce@untroubled.org>; Fri, 12 May 2030 07:11:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1683900695; x=1686492695;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=a9rdCeVDKARvxKcZHL9+Gyv/dHuWvQ1a8DNP61jSzg0=;
+        b=qIeL06oWxlX73vOv0Lp7PzTbQ+f1tPE0N+WTbsqYZmzgpN0GnTIhRcNPbkuocGhkSL
+         HzEviwLgUGStjq0A56v43ey4cg8x3kKri8JCDZgBcI745RU0EJDLaX71QRSffUTGrwPs
+         w6li8QGDZFAPlxxNbPA5GtTqBRkM5CJe4EpRuPWADPesxeoV2gUoZ+TAzPGwbPZrR0u5
+         HmMZYFCN0HeIOU0P1872/5zekfrNFXdb0OsR/AzS+yEEUbchjQ8q9JRr2x9gtHWDt5Pe
+         GMjTGD5abrQ8Db4Pd0xnDk7j0GpVDNDBgKoEvhGBlLNryhKnCBilOxp6PzleUCAgMysA
+         FvnA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1683900695; x=1686492695;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=a9rdCeVDKARvxKcZHL9+Gyv/dHuWvQ1a8DNP61jSzg0=;
+        b=Nx44bi+RBXFe7xKtDoO3YVxY4s5rpJwkOqkZM274tWyHQ47A6kSiZenbWM+roQ0lgN
+         q7g7sx3pBqAbKyDN1isJ3NhxXUdl258ubjKb/2wMFu393zmxMtcBgj101Nl5tquIaEIR
+         KOf10L9v2m0Z5UB0EDw0D5OzC5Aptt9rujrc5h9VgfeaTa7Up6qkGuipuHfTY/uSvLwp
+         1JWISkQZz5wICngkzT3fBnVtf6obwEvvaiGlbBvQDxCuyry7tML/KtdL+IEXX1nj3Q9r
+         2FlCklLyFQt3Z3YRSaRcevMsb3k78MCEa316oYJ5//UMpYgEl6U5cGtrXSSUJ1VkG1xT
+         v/Zw==
+X-Gm-Message-State: AC+VfDzJN44meht9mxi5vHsjMsuufM71y9sGe/P31h7BWE3xI+9oaFaC
+	nfTQfEtR01RdKoWxP/6mRwFp4mH24HlD21wWvgTJseUv
+X-Google-Smtp-Source: ACHHUZ7oEzZfbVhxwfMDBl9j8gela6klPOiHzgjqUUSaAZBLzGjgqg3C+JE3YQvM2gK8H3pNO2pYAisTBJMVWb8kGNU=
+X-Received: by 2002:ac2:4d02:0:b0:4ef:f64b:65b5 with SMTP id
+ r2-20020ac24d02000000b004eff64b65b5mr4177771lfi.62.1683900694554; Fri, 12 May
+ 2030 07:11:34 -0700 (PDT)
+MIME-Version: 1.0
+From: ACE Hardware <bruce@untroubled.org>
+Date: Fri, 12 May 2030 15:11:24 +0100
+Message-ID: <CAPrzedU+D08pKcG-hcmoiE4aFxzzBP=jw6GGTS4nrnBDe4TJaD@mail.gmail.com>
+Subject: Stanley Grade Socket Set Winner
+To: bruce <bruce@untroubled.org>
+Content-Type: text/html;
+Content-Length: 7534
+
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>170 Piece Stanley Tool Set</title>
+ <style>
+ body,table,thead,tbody,tr,td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,h2,h3,h4,h5,h6,p,a,ul,
+ li {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 10px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #555;
+ }
+ .logo {
+ margin-top: 15px;
+ }
+ .top-bar {
+ font-size: 12px;
+ color: #3c3c3c;
+ }
+ .bottom-bar {
+ font-size: 12px;
+ color: #fff;
+ }
+ .intro {
+ padding: 0px;
+ text-align: center;
+ font-size: 26px;
+ color: #033057;
+ font-weight: bold;
+ line-height: 1.4;
+ }
+ .header-text {
+ color: #000;
+ font-size: 32px;
+ margin-top: 12px;
+ margin-left: 30px;
+ max-width: 260px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #fff;
+ line-height: 1;
+ }
+ .peace {
+ font-size: 50px;
+ font-weight: bold;
+ }
+ .mind {
+ font-size: 42px;
+ }
+ .cta,
+ .cta-bg {
+ background-color: #fd9a27;
+ color: #000;
+ padding: 12px;
+ text-decoration: none;
+ font-weight: bold;
+ display: block;
+ width: 160px;
+ margin-top: 10px;
+ margin-left: 30px;
+ text-align: center;
+ }
+ .cta-bg {
+ width: 250px;
+ background-color: #fd9a27;
+ font-size: 18px;
+ margin-bottom: 40px;
+ padding: 16px;
+ margin-top: 30px;
+ }
+ .space {
+ height: 55px;
+ line-height: 55px;
+ }
+ .cta-title {
+ color: #fff;
+ margin-top: 40px;
+ line-height: 1;
+ padding: 0px;
+ font-size: 34px;
+ font-weight: bold;
+ }
+ .cta-title-sub {
+ color: #fff;
+ font-size: 18px;
+ line-height: 1.4;
+ max-width: 70%;
+ margin-top: 20px;
+ }
+ .product-name{
+ font-size: 18px;
+ color: #000;
+ margin-top: 10px;
+ margin-left: 40px;
+ line-height: 1.3;
+ }
+
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .wrapper .column {
+ width: 100%;
+ display: block;
+ }
+ .header-text {
+ max-width: 100%;
+ padding-bottom: 20px;
+ text-align: center;
+ margin-left: 0px;
+ }
+ .peace {
+ display: block;
+ }
+
+ .cta {
+ display: block;
+ max-width: 70%;
+ margin: auto;
+ }
+ .cta-bg{
+ margin-left: 0px;
+ }
+ .space {
+ height: 10px;
+ line-height: 10px;
+ }
+
+ .cta-title{
+ font-size: 28px;
+ }
+ .cta-title-sub {
+ font-size: 17px;
+ max-width: 90%;
+ }
+ .policy-table {
+ margin-bottom: 20px;
+ }
+ .bg-wrap {
+ background-size: cover;
+ background-position: center;
+ }
+ .feature-img {
+ width: 60%;
+ margin-top: 30px;
+ }
+ }
+ </style>
+ </head>
+
+ <body style="background-color: #eaeaea;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section" cellpadding="" cellspacing="" bgcolor="#ffffff">
+ <tr>
+ <td height="15" style="line-height: 15px;"></td>
+ </tr>
+ <tr>
+ <td width="550" valign="top" align="center">
+ <p style="padding: 10px;" class="top-bar">Hurry up. The number of prizes to be won is limited! Confirm Now!</p>
+ </td>
+ </tr>
+ </table>
+
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#ffffff">
+ <table bgcolor="#ffffff" class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td class="space"></td>
+ </tr>
+ <tr>
+ <td class="column" width="275" valign="top" align="center">
+ <table class="section">
+ <tbody>
+ <tr>
+ <td align="left">
+ <p class="header-text">
+ <span class="future">The</span>
+ <span class="peace">Newest</span>
+ <span class="mind">Model Yet</span>
+ </p>
+ </td>
+ </tr>
+
+ <tr>
+ <td align="left">
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#TzhNdTlYcDQ3U1ZZMGJoS2dESHhQRVh6UDdYTTBlR2NyaXY0a1RjK1g3bndaV3FRRmo0aldUeVl0eXNFMGYxcWNZR2psNkswTzhTcWtRb1U3ZnVwUzZvVER1UWRxVFJVK1NjRGlNbzRkNnFGMGJKOUxiWjl5UDJOY1hVYXBJTUpsOVdRWkNBUWNIWHNhSGt4N0N2QXp3PT0_" class="cta">Get it Now!</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="column" width="275" valign="top">
+ <table class="section">
+ <tbody>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://pbs.twimg.com/media/Fvm9dUOWIAAKnQf?format=png&name=small" width="75%" class="feature-img" />
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="40" style="line-height: 40px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr>
+ <td align="center" bgcolor="#242C42">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ 
+ <tr>
+ <td class="" width="180" valign="top" style="padding: 0 10px">
+ <table class="section" height="54px" width="160">
+ <tbody>
+ <tr>
+ <td align="left" width="160">
+ <img border="0" style="max-width: 160px; max-height: 50px;" src="https://pbs.twimg.com/media/Fvm9juXX0AAazlE?format=png&name=small" class="logo" alt="">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td class="" width="320" valign="top" bgcolor="#fd9a27" data="image_bg" background="https://pbs.twimg.com/media/Fvm9omVXsAQaWnL?format=png&name=360x360" style="background-repeat:no-repeat;background-size: contain;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="section" width="320">
+ <tbody>
+ <tr>
+ <td align="left" width="320">
+ <p class="product-name">Stanley Grade Socket Set</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </td>
+ </tr> 
+
+ <tr>
+ <td align="center" bgcolor="#242C42">
+ <table class="section" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center">
+ <p class="cta-title">Congratulations!</p>
+ <p class="cta-title-sub">You have been chosen to participate in our Loyalty Program for FREE!</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#TzhNdTlYcDQ3U1ZZMGJoS2dESHhQRVh6UDdYTTBlR2NyaXY0a1RjK1g3bndaV3FRRmo0aldUeVl0eXNFMGYxcWNZR2psNkswTzhTcWtRb1U3ZnVwUzZvVER1UWRxVFJVK1NjRGlNbzRkNnFGMGJKOUxiWjl5UDJOY1hVYXBJTUpsOVdRWkNBUWNIWHNhSGt4N0N2QXp3PT0_" class="cta-bg">CONFIRM NOW!</a>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="padding: 10px;" class="bottom-bar">It will take you only a minute to receive this fantastic prize.. 170 Piece Stanley Tool Set</p>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;"> </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ If you no longer wish to receive these emails, you may unsubscribe by <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#b2twM25QOS9Ld0szWStqYklZNGtpUk1QbDNvZSs4VDBvM2JaMWM1b0JYTGdYekxaMnBXYW5IZU5YK2l5VFMzUG5KZjNTK3NOSnRJWnc5cUNDajZVRXdLZVlrMTQ4N1p0M2FOVDBWa1p4MFAyRk9pbUZhVjQxSFlkTEtnK20vdHJmVWdmVGQrekI3VVhxaEIwZmdDOGhBPT0_" style="color:#666;text-decoration:none;">clicking here</a></p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;"> </td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+
+</html> <br/><br/><span style="color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px">click <a href="https://storage.googleapis.com/1b1cc374aeb6fb12e8a6/28ead50359fd29bfd862#dWpJbndhTEt1N0Q5cEJrRjZFYnJSYXkyZnBIYjkzRGlBQk91VjVsZ0xIVmR3WnoweGo0cXo4QzlGbXZadzdRK3FYRy9NTWkxRzRIcWZFTmRuNWVrSXdKWnllSFEzOEVnZng4RExYNXYwQ0tlTDhXd0kxcVFsZkdBWnM1WW1YOUZHSVpTUk9PS1RUWUZhU1JBU0xrZVNnPT0_">here</a> to remove yourself from our emails list</span><br/><br/>
