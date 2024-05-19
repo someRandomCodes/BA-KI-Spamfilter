@@ -48,8 +48,8 @@ def load_data(folder_name, seed=12345, active_upsampling=False):
     emails, labels = [], []
 
 
-    spam_folder_path = os.path.join(folder_name, 'Spam')
-    ham_folder_path = os.path.join(folder_name, 'Ham')
+    spam_folder_path = os.path.join(folder_name, 'spam')
+    ham_folder_path = os.path.join(folder_name, 'ham')
 
     # Laden der Spam-E-Mails
     for filename in os.listdir(spam_folder_path):
