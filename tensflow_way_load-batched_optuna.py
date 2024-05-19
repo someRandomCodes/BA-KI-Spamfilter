@@ -122,6 +122,7 @@ def visualize_study(study):
 
 # Funktion zum Einlesen einer einzelnen E-Mail
 def read_email(file_path):
+    file_path = os.path.normpath(file_path)  # Normalize the file path
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
@@ -130,6 +131,9 @@ def read_email(file_path):
             with open(file_path, 'r', encoding='iso-8859-1') as file:
                 return file.read()
         except FileNotFoundError:
+            return None
+        except OSError as e:
+            print(f"Error reading file {file_path}: {e}")
             return None
 
 
@@ -248,7 +252,7 @@ def train_or_load_nn_model(model_name, folder_name, vectorizer, tensorboard_log_
         print(f"Trial {trial.number} abgeschlossen: {trial.value}")
 
     # Studie mit Callback starten
-    study.optimize(objective_wrapper, n_trials=50, timeout=60*60*24*3, callbacks=[progress_callback])
+    study.optimize(objective_wrapper, n_trials=1, timeout=60*60*24*3, callbacks=[progress_callback])
 
     best_params = study.best_trial.params
     print(f"Beste Parameter: {best_params}")
@@ -286,7 +290,7 @@ def main(check_single_email=False, email_path=None, model_name_='defaultname', v
     folder_name = '__mails_cleaned_new/mails/'  # Pfad zum Ordner mit den E-Mail-Daten
 
     for limit in limits:
-        model_name = f'nn_spam_classifier_{model_name_}_{limit}'
+        model_name = f'Model_NN_batched_Ergebnisse/nn_spam_classifier_{model_name_}_{limit}'
         vectorizer_name = f'Model_NN_batched_Ergebnisse/nn_vectorizer_{vectorizer_name_}_{limit}.joblib'
         tensorboard_log_dir = f"Model_NN_batched_Ergebnisse/tensorboard_logs/{model_name}"
         results_file_path = f"Model_NN_batched_Ergebnisse/test_results_notCleaned_{model_name}.txt"

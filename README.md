@@ -71,3 +71,14 @@ Ersetze `YOUR_PASSWORD` durch das gewünschte Passwort.
 - Führe `email_processing_and_saving.py` aus, um die benötigten Ordner zu erstellen (falls dies nicht schon geschehen ist).
 - Zum Trainieren des Modells: `rspamd_train_emails.py`.
 - Zum Testen der Leistung von Rspamd: `rspamd_check_emails.py`.
+
+
+
+# Weboberfläche für E-Mail Klassifizierung
+
+Es befindet sich eine `.env.sample` Datei im `server` Ordner. Diese beinhaltet einen Secret Key, um eine CSRF-Protection umzusetzen. Aus der `.env.sample` muss eine `.env` Datei erstellt werden. Hier kann das Passwort bei Bedarf angepasst werden.
+
+
+Im Ordner `server` befindet sich eine `server.py` Datei. Diese muss mit dem Befehl `python3 server.py` gestartet werden. Anschließend ist die Weboberfläche unter `localhost:8080` zu erreichen.
+
+**Wichtig:** Die Modelle müssen vortrainiert sein und existieren, damit der Server die Modelle findet. In der `server.py` Datei in den Zeilen 28-32 kann angegeben werden, welche Modelle genutzt werden sollen.
