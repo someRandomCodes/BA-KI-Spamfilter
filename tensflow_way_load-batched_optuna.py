@@ -252,7 +252,7 @@ def train_or_load_nn_model(model_name, folder_name, vectorizer, tensorboard_log_
         print(f"Trial {trial.number} abgeschlossen: {trial.value}")
 
     # Studie mit Callback starten
-    study.optimize(objective_wrapper, n_trials=1, timeout=60*60*24*3, callbacks=[progress_callback])
+    study.optimize(objective_wrapper, n_trials=50, timeout=60*60*24*3, callbacks=[progress_callback])
 
     best_params = study.best_trial.params
     print(f"Beste Parameter: {best_params}")
