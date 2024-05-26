@@ -104,7 +104,6 @@ def save_emails_to_different_folders(emails, labels, num_emails=8810, cleaned=Fa
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(email)
 
-    # Speichere die E-Mails in den entsprechenden Ordnern
     for idx, email in enumerate(spam_emails):
         save_email(email, idx, 'spam', idx >= spam_boundary)
     for idx, email in enumerate(ham_emails):
@@ -131,7 +130,6 @@ def clean_email(email_text):
 
     # Ermittle den Körpertext
     if email_msg.is_multipart():
-        # Gehe durch die Teile der E-Mail und suche nach dem text/html oder text/plain Teil
         for part in email_msg.walk():
             content_type = part.get_content_type()
             if content_type == 'text/plain' or content_type == 'text/html':
@@ -139,18 +137,14 @@ def clean_email(email_text):
                 body = safe_decode(body)
                 break
     else:
-        # Für nicht-multipart Nachrichten, nimm den Payload direkt
         body = email_msg.get_payload(decode=True)
         body = safe_decode(body)
 
-    # Bereinige den Körpertext, wenn es HTML ist
     if '<html>' in body:
         body = BeautifulSoup(body, "html.parser").get_text()
 
-    # Entferne multiple Whitespaces, Tabs etc.
     body = re.sub('\s+', ' ', body).strip()
 
-    # Kombiniere das Betreff und den bereinigten Körpertext
     cleaned_email = f"Subject: {subject}\n\n{body}"
 
     return cleaned_email

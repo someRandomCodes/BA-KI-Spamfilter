@@ -16,8 +16,9 @@ Dieses Repository enthält den Code und die Dokumentation für die Bachelorarbei
 ### Modell-Training
 
 - `NaiveBayes_twoModelsPlot.py`: Trainiert das Naive Bayes Modell.
-  - Wichtig: Pfade in den Zeilen 238 und 288 anpassen.
+  - Wichtig: Pfade sowie Namen in den Zeilen 227, 228 und 240 anpassen.
 - `NaiveBayes_twoModelPlot_v2.py`: Naive Bayes Modell mit angepassten Hyperparametern.
+  - Wichtig: Pfade sowie Namen in den Zeilen 206, 207 und 219 anpassen.
 - `tensorflow_way_load-batched_optuna.py`: Neuronales Netzwerk-Modell mit TensorFlow.
 
 ### Tools
@@ -26,6 +27,13 @@ Dieses Repository enthält den Code und die Dokumentation für die Bachelorarbei
 - **TensorBoard**: Starten mit `tensorboard --logdir=Model_NN_full_Ergebnisse/tensorboard_logs`
 
 > **Hinweis**: Diese Tools müssen installiert sein, bevor sie genutzt werden können. Die Pfade müssten evtl. angepasst werden
+
+
+### Ansehen der Wichtigsten Spam / Ham wörter
+
+- `NaiveBayes_significant_words.py`: Gibt die X wichtigsten Wörter für eine Spam / Ham klassifizierung aus.
+
+> **Hinweis**: Die Modelle müssen erstellt worden sein bzw. die Vectorizer müssen vorhanden sein. In der Datei müssen die Namen der Vectoriser angepasst werden!
 
 # Rspamd Docker Setup
 

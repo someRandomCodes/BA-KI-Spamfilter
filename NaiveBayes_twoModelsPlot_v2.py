@@ -204,7 +204,9 @@ def classify_email(model, vectorizer, email_text):
 # Modellname festlegen und trainieren, falls das Model nicht gefunden wird
 
 model_name = 'spam_classifier_nb'
-model_tfidf, vectorizer_tfidf, model_binary, vectorizer_binary = train_model_and_plot_learning_curve(model_name, save_plot=True)
+path='__mails_cleaned_new/mails/'
+
+model_tfidf, vectorizer_tfidf, model_binary, vectorizer_binary = train_model_and_plot_learning_curve(model_name, save_plot=True, path=path)
 
 # Klassifizierung einer neuen E-Mail
 # email_path = os.path.join('eml/second.eml')

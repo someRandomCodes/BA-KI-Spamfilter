@@ -122,12 +122,12 @@ def plot_roc_curve(X_test, y_test, model):
 
 
 # Funktion zum Trainieren des Modells und Plotten der Lernkurve
-def train_model_and_plot_learning_curve(model_name, save_plot=False, path='__mails_cleaned_new/mails/'):
-    model_path_tfidf = model_name + '_cleaned_tfidf.joblib'
-    vectorizer_path_tfidf = model_name + '_cleaned_tfidf_vectorizer.joblib'
+def train_model_and_plot_learning_curve(model_name, save_plot=False, path='__mails_new/mails/'):
+    model_path_tfidf = model_name + '_tfidf.joblib'
+    vectorizer_path_tfidf = model_name + '_tfidf_vectorizer.joblib'
 
-    model_path_binary = model_name + '_cleaned_binary.joblib'
-    vectorizer_path_binary = model_name + '_cleaned_binary_vectorizer.joblib'
+    model_path_binary = model_name + '_binary.joblib'
+    vectorizer_path_binary = model_name + '_binary_vectorizer.joblib'
 
     if os.path.exists(model_path_tfidf) and os.path.exists(vectorizer_path_tfidf) and os.path.exists(model_path_binary) and os.path.exists(vectorizer_path_binary):
         print("Lade vorhandene Modelle und Vektorisierer...")
@@ -225,7 +225,9 @@ def classify_email(model, vectorizer, email_text):
 
 # Modellname festlegen und trainieren, falls das Model nicht gefunden wird
 model_name = 'spam_classifier_nb'
-model_tfidf, vectorizer_tfidf, model_binary, vectorizer_binary = train_model_and_plot_learning_curve(model_name, save_plot=True)
+path = '__mails_new/mails/'
+
+model_tfidf, vectorizer_tfidf, model_binary, vectorizer_binary = train_model_and_plot_learning_curve(model_name, save_plot=True, path=path)
 
 # Klassifizierung einer neuen E-Mail
 # email_path = os.path.join('eml/second.eml')
