@@ -372,6 +372,9 @@ def test_model(model, vectorizer, results_file_path, tensorboard_log_dir):
     # Loggt die Konfusionsmatrix in TensorBoard
     log_confusion_matrix_and_metrics(conf_matrix, test_labels, predicted_labels, test_writer)
 
+    # Verzeichnis für die Datei erstellen, falls es nicht existiert
+    os.makedirs(os.path.dirname(results_file_path), exist_ok=True)
+
     # Ergebnisse in eine Datei schreiben
     with open(results_file_path, "a") as file:
         file.write(f"Testdaten Genauigkeit bei Limit {limit}: {accuracy}\n")

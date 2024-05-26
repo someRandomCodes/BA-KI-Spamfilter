@@ -21,6 +21,10 @@ Dieses Repository enthält den Code und die Dokumentation für die Bachelorarbei
   - Wichtig: Pfade sowie Namen in den Zeilen 206, 207 und 219 anpassen.
 - `tensorflow_way_load-batched_optuna.py`: Neuronales Netzwerk-Modell mit TensorFlow.
 
+> **Hinweis**: Es muss zuerst email_processing_and_saving.py ausgeführt worden sein, damit die Trainingsdaten zur verfügung stehen!
+
+
+
 ### Tools
 
 - **Optuna Dashboard**: Start mit `optuna-dashboard sqlite:///Model_NN_bateched_full_Ergebnisse/_optuna_studies/BatchedEmails.db`
