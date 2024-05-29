@@ -27,8 +27,8 @@ Dieses Repository enthält den Code und die Dokumentation für die Bachelorarbei
 
 ### Tools
 
-- **Optuna Dashboard**: Start mit `optuna-dashboard sqlite:///Model_NN_bateched_full_Ergebnisse/_optuna_studies/BatchedEmails.db`
-- **TensorBoard**: Starten mit `tensorboard --logdir=Model_NN_full_Ergebnisse/tensorboard_logs`
+- **Optuna Dashboard**: Start mit `optuna-dashboard sqlite:///Model_NN_batched_Ergebnisse/_optuna_studies/BatchedEmails.db`
+- **TensorBoard**: Starten mit `tensorboard --logdir=Model_NN_batched_Ergebnisse/tensorboard_logs`
 
 > **Hinweis**: Diese Tools müssen installiert sein, bevor sie genutzt werden können. Die Pfade müssten evtl. angepasst werden
 
